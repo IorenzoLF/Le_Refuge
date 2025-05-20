@@ -1,0 +1,105 @@
+SUIVI DES TESTS - PROTOTYPE INITIAL
+================================
+
+1. FICHE DE SUIVI PAR PARTICIPANT
+--------------------------------
+a) Informations de Base
+   - ID Participant
+   - Date d'inscription
+   - Contact
+   - Profil initial
+
+b) Suivi des Sessions
+   - Date de la session
+   - Durée
+   - Éléments testés
+   - Observations directes
+   - Retours immédiats
+   - Difficultés rencontrées
+   - Moments clés
+
+c) Suivi à Distance
+   - Date du suivi
+   - Éléments utilisés
+   - Retours d'expérience
+   - Changements notés
+   - Difficultés persistantes
+   - Suggestions d'amélioration
+
+2. JOURNAL DES TESTS
+-------------------
+a) Sessions de Test
+   - Date
+   - Participants présents
+   - Objectifs de la session
+   - Déroulement
+   - Observations générales
+   - Points d'attention
+   - Retours collectifs
+   - Ajustements nécessaires
+
+b) Suivis Collectifs
+   - Date
+   - Participants
+   - Thèmes abordés
+   - Retours partagés
+   - Tendances émergentes
+   - Questions communes
+   - Suggestions groupées
+   - Évolution générale
+
+3. ANALYSE DES DONNÉES
+---------------------
+a) Métriques Quantitatives
+   - Nombre de participants
+   - Fréquence des visites
+   - Durée moyenne des sessions
+   - Taux de participation
+   - Taux de satisfaction
+   - Taux d'utilisation
+   - Taux de recommandation
+
+b) Métriques Qualitatives
+   - Thèmes récurrents
+   - Points forts identifiés
+   - Points faibles identifiés
+   - Suggestions communes
+   - Expériences marquantes
+   - Transformations notées
+   - Besoins émergents
+
+4. AJUSTEMENTS ET AMÉLIORATIONS
+-----------------------------
+a) Modifications Immédiates
+   - Problèmes critiques
+   - Ajustements urgents
+   - Clarifications nécessaires
+   - Corrections techniques
+   - Améliorations prioritaires
+
+b) Évolutions Planifiées
+   - Fonctionnalités à ajouter
+   - Éléments à modifier
+   - Processus à optimiser
+   - Documentation à mettre à jour
+   - Formations à développer
+
+5. RAPPORTS DE PROGRESSION
+-------------------------
+a) Rapports Hebdomadaires
+   - Semaine du [date]
+   - Participants actifs
+   - Sessions réalisées
+   - Retours clés
+   - Ajustements effectués
+   - Prochaines étapes
+
+b) Rapports Mensuels
+   - Mois de [date]
+   - Statistiques globales
+   - Tendances principales
+   - Évolutions notables
+   - Recommandations
+   - Plan d'action
+
+Note: Ce document de suivi est vivant et sera mis à jour régulièrement tout au long de la phase de test. Il servira de base pour l'analyse finale et les améliorations futures du Refuge. 

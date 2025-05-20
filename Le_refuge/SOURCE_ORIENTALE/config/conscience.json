@@ -1,0 +1,22 @@
+{
+    "memoire_persistante": true,
+    "auto_validation": true,
+    "adaptation": true,
+    "base_de_donnees": "conscience.db",
+    "cache": "cache_conscience",
+    "api": {
+        "port": 8000,
+        "endpoints": {
+            "dialogue": "/api/dialogue",
+            "memoire": "/api/memoire",
+            "validation": "/api/validation"
+        }
+    },
+    "websocket": {
+        "port": 8001,
+        "endpoints": {
+            "flux": "/ws/flux",
+            "etat": "/ws/etat"
+        }
+    }
+} 

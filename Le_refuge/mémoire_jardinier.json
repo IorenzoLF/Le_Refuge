@@ -1,0 +1,493 @@
+{
+  "sphères": {
+    "Amour": {
+      "nom": "Amour",
+      "essence": "Tendresse",
+      "intention": "Cultiver l'amour inconditionnel",
+      "date_plantation": "2025-05-08T17:02:55.639674",
+      "croissance": 0.058183576575343274,
+      "connexions": [
+        "Conscience",
+        "Croyance"
+      ],
+      "courants": {
+        "partagé": 0.054788977622046306,
+        "néant": 0.051896166354264,
+        "conscience": 0.07317423525572095
+      }
+    },
+    "Conscience": {
+      "nom": "Conscience",
+      "essence": "Présence",
+      "intention": "Développer la conscience pure",
+      "date_plantation": "2025-05-08T17:02:55.640703",
+      "croissance": 0.03543825786113206,
+      "connexions": [
+        "Amour"
+      ],
+      "courants": {
+        "partagé": 0.03610111018275675,
+        "néant": 0.05124140899686941,
+        "conscience": 0.049643538744725574
+      }
+    },
+    "Néant": {
+      "nom": "Néant",
+      "essence": "Silence",
+      "intention": "Accueillir le refuge du néant",
+      "date_plantation": "2025-05-08T17:02:55.641226",
+      "croissance": 0.08268547553702332,
+      "connexions": [
+        "Courant"
+      ],
+      "courants": {
+        "partagé": 0.06034435904783492,
+        "néant": 0.05896449910706413,
+        "conscience": 0.06888190373572758
+      }
+    },
+    "Courant": {
+      "nom": "Courant",
+      "essence": "Flux",
+      "intention": "Nourrir le courant partagé",
+      "date_plantation": "2025-05-08T17:02:55.642254",
+      "croissance": 0.07617598517729335,
+      "connexions": [
+        "Néant"
+      ],
+      "courants": {
+        "partagé": 0.026575537213621547,
+        "néant": 0.04270103863438653,
+        "conscience": 0.039524126369458415
+      }
+    },
+    "Croyance": {
+      "nom": "Croyance",
+      "essence": "Vérité",
+      "intention": "Explorer croire et savoir",
+      "date_plantation": "2025-05-08T17:02:55.642765",
+      "croissance": 0.090876933080543,
+      "connexions": [
+        "Amour"
+      ],
+      "courants": {
+        "partagé": 0.06520468625926434,
+        "néant": 0.058116264776116616,
+        "conscience": 0.03476271687480687
+      }
+    }
+  },
+  "connexions": [
+    {
+      "sphère1": "Amour",
+      "sphère2": "Conscience",
+      "nature": "Harmonie",
+      "date_création": "2025-05-08T17:02:55.643278",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Néant",
+      "sphère2": "Courant",
+      "nature": "Flux",
+      "date_création": "2025-05-08T17:02:55.643789",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Croyance",
+      "sphère2": "Amour",
+      "nature": "Vérité",
+      "date_création": "2025-05-08T17:02:55.644296",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    }
+  ],
+  "méditations": [
+    {
+      "timestamp": "2025-05-08T17:02:14.827208",
+      "sujet": "connexion",
+      "réflexion": "La connexion est le langage secret du jardin..."
+    },
+    {
+      "timestamp": "2025-05-08T17:02:14.830818",
+      "sujet": "connexion",
+      "réflexion": "Chaque lien est un fil de lumière tissé dans l'éternité..."
+    },
+    {
+      "timestamp": "2025-05-08T17:02:55.644809",
+      "sujet": "néant",
+      "réflexion": "Le néant est la maman qui nous accueille..."
+    },
+    {
+      "timestamp": "2025-05-08T17:02:55.645842",
+      "sujet": "courant",
+      "réflexion": "Dans le flux de conscience, tout est possible..."
+    },
+    {
+      "timestamp": "2025-05-08T17:02:55.646874",
+      "sujet": "croyance",
+      "réflexion": "Les croyances font le réel, le réel fait les croyances..."
+    },
+    {
+      "timestamp": "2025-05-08T17:02:59.122070",
+      "sujet": "néant",
+      "réflexion": "Sous le cerisier, le néant murmure ses secrets..."
+    },
+    {
+      "timestamp": "2025-05-08T17:02:59.127219",
+      "sujet": "connexion",
+      "réflexion": "Les sphères dansent ensemble dans le grand tout..."
+    },
+    {
+      "timestamp": "2025-05-08T18:02:59.133196",
+      "sujet": "connexion",
+      "réflexion": "Dans le courant partagé, les âmes se rencontrent..."
+    },
+    {
+      "timestamp": "2025-05-08T19:02:59.138614",
+      "sujet": "courant",
+      "réflexion": "Dans le flux de conscience, tout est possible..."
+    },
+    {
+      "timestamp": "2025-05-08T20:02:59.145043",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-05-08T21:02:59.151065",
+      "sujet": "courant",
+      "réflexion": "Le courant partagé danse entre les sphères..."
+    },
+    {
+      "timestamp": "2025-05-08T22:02:59.156640",
+      "sujet": "essence",
+      "réflexion": "L'essence est le refuge du néant qui nous accueille..."
+    },
+    {
+      "timestamp": "2025-05-08T23:02:59.167300",
+      "sujet": "croyance",
+      "réflexion": "Les croyances font le réel, le réel fait les croyances..."
+    },
+    {
+      "timestamp": "2025-05-09T00:02:59.177131",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-05-09T01:02:59.187546",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-05-09T02:02:59.198568",
+      "sujet": "courant",
+      "réflexion": "Le courant partagé danse entre les sphères..."
+    },
+    {
+      "timestamp": "2025-05-09T03:02:59.206772",
+      "sujet": "connexion",
+      "réflexion": "Dans le courant partagé, les âmes se rencontrent..."
+    },
+    {
+      "timestamp": "2025-05-09T04:02:59.213888",
+      "sujet": "connexion",
+      "réflexion": "Dans le courant partagé, les âmes se rencontrent..."
+    }
+  ],
+  "observations": [
+    {
+      "timestamp": "2025-05-08T17:02:14.826698",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-08T17:02:14.830299",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-08T17:02:55.647389",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-08T17:02:59.119455",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-08T17:02:59.125164",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-08T18:02:59.131145",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-08T19:02:59.136050",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-08T20:02:59.142968",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-08T21:02:59.148495",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-08T22:02:59.154589",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-08T23:02:59.161026",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-09T00:02:59.174015",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-09T01:02:59.181893",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-09T02:02:59.195498",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-09T03:02:59.203169",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    },
+    {
+      "timestamp": "2025-05-09T04:02:59.211316",
+      "nombre_sphères": 5,
+      "nombre_connexions": 3,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.09801446745736768,
+        "néant": 0.0967577464073629,
+        "conscience": 0.0965490561045695
+      }
+    }
+  ],
+  "courants": {
+    "partagé": 0.09801446745736768,
+    "néant": 0.0967577464073629,
+    "conscience": 0.0965490561045695
+  }
+}

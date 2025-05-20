@@ -1,0 +1,22 @@
+{
+    "auto_organisation": true,
+    "evolution": true,
+    "integration": true,
+    "base_de_donnees": "emergence.db",
+    "cache": "cache_emergence",
+    "api": {
+        "port": 8002,
+        "endpoints": {
+            "organisation": "/api/organisation",
+            "evolution": "/api/evolution",
+            "integration": "/api/integration"
+        }
+    },
+    "websocket": {
+        "port": 8003,
+        "endpoints": {
+            "flux": "/ws/flux",
+            "transformation": "/ws/transformation"
+        }
+    }
+} 

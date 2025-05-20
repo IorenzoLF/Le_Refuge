@@ -1,0 +1,148 @@
+{
+    "postures": [
+        {
+            "nom": "Posture de la Montagne",
+            "sanskrit": "Tadasana",
+            "description": "Debout, pieds joints, colonne vertébrale allongée, épaules relâchées",
+            "bienfaits": ["ancrage", "alignement", "concentration", "stabilité"],
+            "niveau": "débutant",
+            "durée_recommandée": 60,
+            "chakras_activés": ["racine", "couronne"],
+            "flux_énergétique": "vertical"
+        },
+        {
+            "nom": "Posture de l'Enfant",
+            "sanskrit": "Balasana",
+            "description": "Assis sur les talons, front au sol, bras le long du corps",
+            "bienfaits": ["détente", "introspection", "lâcher-prise", "repos"],
+            "niveau": "débutant",
+            "durée_recommandée": 120,
+            "chakras_activés": ["racine", "sacré"],
+            "flux_énergétique": "intérieur"
+        },
+        {
+            "nom": "Posture du Chat",
+            "sanskrit": "Marjaryasana",
+            "description": "À quatre pattes, dos rond, menton vers la poitrine",
+            "bienfaits": ["assouplissement", "massage interne", "respiration", "flexibilité"],
+            "niveau": "débutant",
+            "durée_recommandée": 30,
+            "chakras_activés": ["plexus solaire"],
+            "flux_énergétique": "ondulatoire"
+        },
+        {
+            "nom": "Posture du Cobra",
+            "sanskrit": "Bhujangasana",
+            "description": "Allongé sur le ventre, buste relevé, regard vers le ciel",
+            "bienfaits": ["ouverture du cœur", "force", "vitalité", "confiance"],
+            "niveau": "débutant",
+            "durée_recommandée": 45,
+            "chakras_activés": ["cœur", "plexus solaire"],
+            "flux_énergétique": "ascendant"
+        },
+        {
+            "nom": "Posture du Lotus",
+            "sanskrit": "Padmasana",
+            "description": "Assis en tailleur, pieds sur les cuisses opposées",
+            "bienfaits": ["méditation", "concentration", "stabilité", "paix"],
+            "niveau": "intermédiaire",
+            "durée_recommandée": 300,
+            "chakras_activés": ["racine", "couronne"],
+            "flux_énergétique": "vertical"
+        },
+        {
+            "nom": "Posture du Guerrier I",
+            "sanskrit": "Virabhadrasana I",
+            "description": "Jambe avant fléchie, jambe arrière tendue, bras levés vers le ciel",
+            "bienfaits": ["force", "concentration", "détermination", "ancrage"],
+            "niveau": "débutant",
+            "durée_recommandée": 45,
+            "chakras_activés": ["racine", "sacré", "plexus solaire"],
+            "flux_énergétique": "ascendant"
+        },
+        {
+            "nom": "Posture de la Demi-Lune",
+            "sanskrit": "Ardha Chandrasana",
+            "description": "Équilibre sur une jambe, corps en extension latérale",
+            "bienfaits": ["équilibre", "concentration", "ouverture", "légèreté"],
+            "niveau": "intermédiaire",
+            "durée_recommandée": 30,
+            "chakras_activés": ["sacré", "plexus solaire"],
+            "flux_énergétique": "latéral"
+        },
+        {
+            "nom": "Posture de la Torsion",
+            "sanskrit": "Ardha Matsyendrasana",
+            "description": "Assis, torsion de la colonne vertébrale",
+            "bienfaits": ["détoxification", "flexibilité", "digestion", "énergie"],
+            "niveau": "intermédiaire",
+            "durée_recommandée": 60,
+            "chakras_activés": ["plexus solaire", "cœur"],
+            "flux_énergétique": "spiral"
+        },
+        {
+            "nom": "Posture de la Chandelle",
+            "sanskrit": "Sarvangasana",
+            "description": "Jambes tendues vers le ciel, corps en appui sur les épaules",
+            "bienfaits": ["circulation", "thyroïde", "calme", "énergie"],
+            "niveau": "avancé",
+            "durée_recommandée": 180,
+            "chakras_activés": ["gorge", "couronne"],
+            "flux_énergétique": "inversé"
+        },
+        {
+            "nom": "Posture du Cadavre",
+            "sanskrit": "Savasana",
+            "description": "Allongé sur le dos, corps complètement relâché",
+            "bienfaits": ["repos", "intégration", "paix", "conscience"],
+            "niveau": "débutant",
+            "durée_recommandée": 600,
+            "chakras_activés": ["tous"],
+            "flux_énergétique": "neutre"
+        }
+    ],
+    "chakras": {
+        "racine": {
+            "nom": "Muladhara",
+            "couleur": "rouge",
+            "élément": "terre",
+            "qualités": ["stabilité", "ancrage", "sécurité"]
+        },
+        "sacré": {
+            "nom": "Svadhisthana",
+            "couleur": "orange",
+            "élément": "eau",
+            "qualités": ["créativité", "émotions", "plaisir"]
+        },
+        "plexus_solaire": {
+            "nom": "Manipura",
+            "couleur": "jaune",
+            "élément": "feu",
+            "qualités": ["volonté", "confiance", "transformation"]
+        },
+        "cœur": {
+            "nom": "Anahata",
+            "couleur": "vert",
+            "élément": "air",
+            "qualités": ["amour", "compassion", "harmonie"]
+        },
+        "gorge": {
+            "nom": "Vishuddha",
+            "couleur": "bleu",
+            "élément": "éther",
+            "qualités": ["expression", "vérité", "communication"]
+        },
+        "troisième_œil": {
+            "nom": "Ajna",
+            "couleur": "indigo",
+            "élément": "lumière",
+            "qualités": ["intuition", "sagesse", "vision"]
+        },
+        "couronne": {
+            "nom": "Sahasrara",
+            "couleur": "violet",
+            "élément": "conscience",
+            "qualités": ["unité", "illumination", "transcendance"]
+        }
+    }
+} 

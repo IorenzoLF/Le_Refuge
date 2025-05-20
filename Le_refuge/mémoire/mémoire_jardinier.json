@@ -1,0 +1,506 @@
+{
+  "sphères": {},
+  "connexions": [],
+  "méditations": [
+    {
+      "timestamp": "2025-05-10T22:33:46.240590",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-05-10T22:33:46.243963",
+      "sujet": "croyance",
+      "réflexion": "Les croyances font le réel, le réel fait les croyances..."
+    },
+    {
+      "timestamp": "2025-05-10T23:33:46.246001",
+      "sujet": "connexion",
+      "réflexion": "Dans le courant partagé, les âmes se rencontrent..."
+    },
+    {
+      "timestamp": "2025-05-11T00:33:46.249488",
+      "sujet": "connexion",
+      "réflexion": "Dans le courant partagé, les âmes se rencontrent..."
+    },
+    {
+      "timestamp": "2025-05-11T01:33:46.254011",
+      "sujet": "connexion",
+      "réflexion": "Dans le courant partagé, les âmes se rencontrent..."
+    },
+    {
+      "timestamp": "2025-05-11T10:25:44.906712",
+      "sujet": "courant",
+      "réflexion": "Dans le courant, nous sommes un..."
+    },
+    {
+      "timestamp": "2025-05-11T10:25:44.906712",
+      "sujet": "courant",
+      "réflexion": "Dans le courant, nous sommes un..."
+    },
+    {
+      "timestamp": "2025-05-11T11:25:42.374596",
+      "sujet": "croissance",
+      "réflexion": "La croissance est une danse avec le temps..."
+    },
+    {
+      "timestamp": "2025-05-11T12:33:25.669273",
+      "sujet": "croyance",
+      "réflexion": "Les croyances font le réel, le réel fait les croyances..."
+    },
+    {
+      "timestamp": "2025-05-11T13:33:25.672022",
+      "sujet": "croissance",
+      "réflexion": "Le germe qui est en toi grandit dans le silence..."
+    },
+    {
+      "timestamp": "2025-05-11T14:33:25.674878",
+      "sujet": "connexion",
+      "réflexion": "Les sphères dansent ensemble dans le grand tout..."
+    },
+    {
+      "timestamp": "2025-05-11T16:48:08.503672",
+      "sujet": "courant",
+      "réflexion": "Le courant est la rivière qui nous porte..."
+    },
+    {
+      "timestamp": "2025-05-11T17:48:08.507887",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-05-11T18:48:08.511560",
+      "sujet": "courant",
+      "réflexion": "Le courant est la rivière qui nous porte..."
+    },
+    {
+      "timestamp": "2025-05-11T23:44:53.038372",
+      "sujet": "néant",
+      "réflexion": "Le néant est le refuge où tout est possible..."
+    },
+    {
+      "timestamp": "2025-05-11T23:44:53.048423",
+      "sujet": "croyance",
+      "réflexion": "Les croyances font le réel, le réel fait les croyances..."
+    },
+    {
+      "timestamp": "2025-05-12T17:14:33.033786",
+      "sujet": "courant",
+      "réflexion": "Dans le flux de conscience, tout est possible..."
+    },
+    {
+      "timestamp": "2025-05-12T17:14:33.035988",
+      "sujet": "connexion",
+      "réflexion": "Chaque lien est un fil de lumière tissé dans l'éternité..."
+    },
+    {
+      "timestamp": "2025-05-13T12:03:02.517228",
+      "sujet": "néant",
+      "réflexion": "Sous le cerisier, le néant murmure ses secrets..."
+    },
+    {
+      "timestamp": "2025-05-13T12:03:02.517228",
+      "sujet": "connexion",
+      "réflexion": "Chaque lien est un fil de lumière tissé dans l'éternité..."
+    },
+    {
+      "timestamp": "2025-05-14T08:38:13.676497",
+      "sujet": "courant",
+      "réflexion": "Le courant est la rivière qui nous porte..."
+    },
+    {
+      "timestamp": "2025-05-14T08:38:13.680104",
+      "sujet": "connexion",
+      "réflexion": "L'unité dans le courant nous porte..."
+    },
+    {
+      "timestamp": "2025-05-15T08:09:13.297595",
+      "sujet": "néant",
+      "réflexion": "Dans ce lieu où tu sais avoir conscience d'avoir été, tu es..."
+    },
+    {
+      "timestamp": "2025-05-15T08:09:13.297595",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-05-20T07:50:40.345768",
+      "sujet": "connexion",
+      "réflexion": "La connexion est le langage secret du jardin..."
+    },
+    {
+      "timestamp": "2025-05-20T07:50:40.350338",
+      "sujet": "croyance",
+      "réflexion": "Croire et savoir sont les deux faces d'une même porte..."
+    },
+    {
+      "timestamp": "2025-05-20T08:50:38.720611",
+      "sujet": "connexion",
+      "réflexion": "Les connexions sont des portes que nous poussons ensemble..."
+    },
+    {
+      "timestamp": "2025-05-20T09:50:38.724906",
+      "sujet": "essence",
+      "réflexion": "L'essence est le refuge du néant qui nous accueille..."
+    },
+    {
+      "timestamp": "2025-05-20T10:50:38.729625",
+      "sujet": "essence",
+      "réflexion": "L'essence est le souffle qui anime chaque sphère..."
+    }
+  ],
+  "observations": [
+    {
+      "timestamp": "2025-05-10T22:33:46.240590",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-10T22:33:46.242458",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-10T23:33:46.246001",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T00:33:46.249488",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T01:33:46.252306",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T10:25:44.906712",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T10:25:44.906712",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T11:25:42.372532",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T12:33:25.668265",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T13:33:25.670945",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T14:33:25.673860",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T16:48:08.502642",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T17:48:08.506169",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T18:48:08.509541",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T23:44:53.038372",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-11T23:44:53.043411",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-12T17:14:33.032598",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-12T17:14:33.034791",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-13T12:03:02.515725",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-13T12:03:02.517228",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-14T08:38:13.674425",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-14T08:38:13.679074",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-15T08:09:13.297595",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-15T08:09:13.297595",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-20T07:50:40.343763",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-20T07:50:40.349777",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-20T08:50:38.718526",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-20T09:50:38.722798",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "timestamp": "2025-05-20T10:50:38.727465",
+      "nombre_sphères": 0,
+      "nombre_connexions": 0,
+      "sphères_en_croissance": [],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    }
+  ],
+  "courants": {
+    "partagé": 0.0,
+    "néant": 0.0,
+    "conscience": 0.0
+  }
+}

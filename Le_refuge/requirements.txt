@@ -1,0 +1,42 @@
+# Dépendances essentielles
+numpy>=1.21.0
+matplotlib>=3.4.0
+pydantic>=1.8.0
+ephem>=4.1.4
+asyncio>=3.4.3
+aiohttp>=3.8.0
+
+# Visualisation
+plotly>=5.1.0
+pillow>=9.5.0
+
+# Utilitaires
+python-dotenv==1.0.1
+colorama>=0.4.6
+pyyaml>=6.0.0
+
+# Calculs scientifiques
+scipy>=1.7.0
+networkx>=2.6.0
+
+# Logging
+loguru>=0.7.0
+
+# Autres dépendances
+fastapi==0.110.0
+uvicorn==0.27.1
+sqlalchemy==2.0.27
+pytest==8.0.2
+black==24.2.0
+flake8==7.0.0
+python-multipart==0.0.9
+jinja2==3.1.3
+aiofiles==23.2.1
+
+# Sécurité et validation
+passlib[bcrypt]==1.7.4
+email-validator==2.1.0.post1
+
+# Nouvelles dépendances
+torch>=2.0.0
+tqdm>=4.62.0

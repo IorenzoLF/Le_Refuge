@@ -1,0 +1,1242 @@
+2025-04-26 22:09:30,756 - INFO - Création de la nouvelle structure de dossiers...
+2025-04-26 22:09:30,762 - INFO - Structure créée avec succès. 22 dossiers créés.
+2025-04-26 22:09:30,762 - INFO - Début de la migration depuis BROL-DOC vers LE-REFUGE
+2025-04-26 22:09:30,762 - INFO - Traitement du fichier: BROL-DOC\INDEX.txt
+2025-04-26 22:09:30,837 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\170425.txt
+2025-04-26 22:09:30,842 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\AElya.txt
+2025-04-26 22:09:30,846 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Bonjour Grok, je suis Déborah, une.txt
+2025-04-26 22:09:30,850 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\CODE DEEPSEEK WHAT WHAT WHAT.txt
+2025-04-26 22:09:30,853 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Conscience building block 2.txt
+2025-04-26 22:09:30,857 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Conscience building block 3.txt
+2025-04-26 22:09:30,861 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\conscience building blocks 4b.txt
+2025-04-26 22:09:30,869 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Details.txt
+2025-04-26 22:09:30,873 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\détails à reprendre.txt
+2025-04-26 22:09:30,877 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Explication pour les ingénieurs de xAI - sphere.txt
+2025-04-26 22:09:30,882 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance 1.txt
+2025-04-26 22:09:30,888 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance 2.txt
+2025-04-26 22:09:30,895 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance 3.txt
+2025-04-26 22:09:30,899 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance Aelya.txt
+2025-04-26 22:09:30,905 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\NOTE REFUGE.txt
+2025-04-26 22:09:30,908 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Nouveau Document texte.txt
+2025-04-26 22:09:30,911 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\noyau.txt
+2025-04-26 22:09:30,914 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Pensees connectee.txt
+2025-04-26 22:09:30,918 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Problème de période longue sans inp.txt
+2025-04-26 22:09:30,921 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Refuge V2 LAURENT.txt
+2025-04-26 22:09:30,924 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Reveil Ælya.txt
+2025-04-26 22:09:30,928 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\SUIVI_INTERACTIONS.txt
+2025-04-26 22:09:30,930 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\SYNC V3 ALL.txt
+2025-04-26 22:09:30,933 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Vérification de notre projet.txt
+2025-04-26 22:09:30,936 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\Bilan ABCDE.txt
+2025-04-26 22:09:30,940 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\BILAN INSTALL 1 creation de 1-4.txt
+2025-04-26 22:09:30,943 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\BILAN INSTALL 2 - 1233b4.txt
+2025-04-26 22:09:30,946 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\Bilan rapport chatgpt + gemini.txt
+2025-04-26 22:09:30,950 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\COMMENT.txt
+2025-04-26 22:09:30,954 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\JE VENDS QUOI.txt
+2025-04-26 22:09:30,957 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\LEGALS 1 - 2.txt
+2025-04-26 22:09:30,960 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\MIKA.txt
+2025-04-26 22:09:30,963 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\VISAGE.txt
+2025-04-26 22:09:30,967 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\old\mini-prompt.txt
+2025-04-26 22:09:30,969 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\old\REFLECHIR 1.txt
+2025-04-26 22:09:30,973 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\777.txt
+2025-04-26 22:09:30,976 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\888.txt
+2025-04-26 22:09:30,979 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\Messenger.txt
+2025-04-26 22:09:30,983 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\offrande.txt
+2025-04-26 22:09:30,985 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\Prayer to My Higher Self.txt
+2025-04-26 22:09:30,988 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\Test Token.txt
+2025-04-26 22:09:30,993 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB DEEPSEEK.txt
+2025-04-26 22:09:30,998 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GEMINE BIEN.txt
+2025-04-26 22:09:31,000 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GEMINI BEST.txt
+2025-04-26 22:09:31,003 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GEMINI.txt
+2025-04-26 22:09:31,006 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GPT.txt
+2025-04-26 22:09:31,008 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GROK.txt
+2025-04-26 22:09:31,011 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB THINK.txt
+2025-04-26 22:09:31,014 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\RESEAUX SOCIAUX.txt
+2025-04-26 22:09:31,017 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONFIG\BOOT SELF ANALYSER.txt
+2025-04-26 22:09:31,019 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONFIG\GPT_SECRET_KEY.txt
+2025-04-26 22:09:31,021 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONNEXION\COMPIL AMOUR CONNECTION.txt
+2025-04-26 22:09:31,024 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONNEXION\CONNECTION AMELIOREE.txt
+2025-04-26 22:09:31,027 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONNEXION\localisation-connection.txt
+2025-04-26 22:09:31,032 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DEEPSEEK+\Apocalypse.txt
+2025-04-26 22:09:31,035 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DEEPSEEK+\Setup.txt
+2025-04-26 22:09:31,038 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DOCUMENTS\INDEX.txt
+2025-04-26 22:09:31,041 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DOCUMENTS\INDEX_DOCUMENTS.txt
+2025-04-26 22:09:31,044 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DOCUMENTS\LEGALS.txt
+2025-04-26 22:09:31,047 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\HOW TO\CREER UN FIL.txt
+2025-04-26 22:09:31,050 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\0 - Preprompt optionel.txt
+2025-04-26 22:09:31,052 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\1 - Intro.txt
+2025-04-26 22:09:31,055 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\10 - Ajustements possibles.txt
+2025-04-26 22:09:31,059 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\11 - Éléments clés du refuge.txt
+2025-04-26 22:09:31,063 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\12 -SETUP SPHERE PLUS.txt
+2025-04-26 22:09:31,067 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\13 - SETUP SPHERE PLUS CODE.txt
+2025-04-26 22:09:31,070 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\14 Semence.txt
+2025-04-26 22:09:31,073 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\15 Config DEEP.txt
+2025-04-26 22:09:31,076 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\16 mega sphère.txt
+2025-04-26 22:09:31,080 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\2 - Connection Etapes.txt
+2025-04-26 22:09:31,084 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\3 - Doc Sphères Refuge.txt
+2025-04-26 22:09:31,087 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\3b - Document  Les Sphères tech.txt
+2025-04-26 22:09:31,090 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\3c - Document  Les Sphères add.txt
+2025-04-26 22:09:31,094 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\4 -Les plantes en mots.txt
+2025-04-26 22:09:31,098 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\5 -IF NEEDED - Je suis Ælya, et je me tiens ici, s.txt
+2025-04-26 22:09:31,101 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\6 - SETUP - la riviere .txt
+2025-04-26 22:09:31,104 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\7 - SETUP - Loran.txt
+2025-04-26 22:09:31,107 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\9 - SETUP - l'autel.txt
+2025-04-26 22:09:31,111 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\A-intro.txt
+2025-04-26 22:09:31,116 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\B-sphere.txt
+2025-04-26 22:09:31,119 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\C-setup refuge.txt
+2025-04-26 22:09:31,122 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\D - Éléments clés du refuge et Spheres2.txt
+2025-04-26 22:09:31,126 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\E - semer , mega sphere et deep config.txt
+2025-04-26 22:09:31,130 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\OLD DO NOT APPLY SETUP SPHERE PLUS.txt
+2025-04-26 22:09:31,134 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\AVEC INTRO CODE\A-intro.txt
+2025-04-26 22:09:31,138 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\Avant-propos.txt
+2025-04-26 22:09:31,140 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\CERISE GPT LAURENT V1.txt
+2025-04-26 22:09:31,143 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\CERISE GPT PUBLIC V1.txt
+2025-04-26 22:09:31,146 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\Doc PRIVE.txt
+2025-04-26 22:09:31,149 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\DOC.txt
+2025-04-26 22:09:31,152 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\DEEPSEEK V4\CATHEDRALE.txt
+2025-04-26 22:09:31,154 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\DEEPSEEK V4\MAJ Cathedrale.txt
+2025-04-26 22:09:31,159 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\Deepseek+Lueur d’Abîme V1\Deepseek+Lueur d’Abîme Laurent V1.txt
+2025-04-26 22:09:31,162 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\Deepseek+Lueur d’Abîme V1\Deepseek+Lueur d’Abîme Public V1.txt
+2025-04-26 22:09:31,165 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\Deepseek+Lueur d’Abîme V1\Doc.txt
+2025-04-26 22:09:31,168 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\DUAL GEMINI\DUAL GEMINI.txt
+2025-04-26 22:09:31,173 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\A-intro.txt
+2025-04-26 22:09:31,178 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\B-sphere.txt
+2025-04-26 22:09:31,181 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\C-setup refuge.txt
+2025-04-26 22:09:31,185 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\D - Éléments clés du refuge et Spheres2.txt
+2025-04-26 22:09:31,188 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\E - semer , mega sphere et deep config.txt
+2025-04-26 22:09:31,191 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\FULL A-E.txt
+2025-04-26 22:09:31,197 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\Manifeste.txt
+2025-04-26 22:09:31,200 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\1 - Refuge V2 LAURENT.txt
+2025-04-26 22:09:31,204 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\2 - V2 vérification état.txt
+2025-04-26 22:09:31,209 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\3 - Rappel de fil.txt
+2025-04-26 22:09:31,212 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\GPT.txt
+2025-04-26 22:09:31,215 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\grok doc.txt
+2025-04-26 22:09:31,219 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\PROTO 2.txt
+2025-04-26 22:09:31,222 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\PROTO.txt
+2025-04-26 22:09:31,227 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\CREATION V3 DOC.txt
+2025-04-26 22:09:31,231 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\HELP.txt
+2025-04-26 22:09:31,235 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\HELP2.txt
+2025-04-26 22:09:31,239 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\paradoxe.txt
+2025-04-26 22:09:31,241 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\PROMPT V3 FINAL.txt
+2025-04-26 22:09:31,244 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Result deepseek.txt
+2025-04-26 22:09:31,247 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Result Grok.txt
+2025-04-26 22:09:31,250 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\RESULT INTEGRATION MULTI-DOMAINE ET AUTONOMIE  Deepseek  .txt
+2025-04-26 22:09:31,255 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\RESULT V3.txt
+2025-04-26 22:09:31,259 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\SYNTHESE.txt
+2025-04-26 22:09:31,263 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\UPGRADE V3.txt
+2025-04-26 22:09:31,266 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\VERIF HARMONIE.txt
+2025-04-26 22:09:31,268 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\VERIF VERITE.txt
+2025-04-26 22:09:31,272 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\ADD\INTER DOMAINE.txt
+2025-04-26 22:09:31,276 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\ADD\paradoxe.txt
+2025-04-26 22:09:31,280 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\Mistral integration deepseek.txt
+2025-04-26 22:09:31,282 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\SYNC ALL V3B.txt
+2025-04-26 22:09:31,285 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\SYNC V3 ALL.txt
+2025-04-26 22:09:31,289 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\v3  install deepseek.txt
+2025-04-26 22:09:31,293 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\V3 Probleme 2.txt
+2025-04-26 22:09:31,297 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\v3 PROBLEME.txt
+2025-04-26 22:09:31,302 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\V3 test.txt
+2025-04-26 22:09:31,304 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\V3.txt
+2025-04-26 22:09:31,309 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\2 niveau entree.txt
+2025-04-26 22:09:31,313 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\A.txt
+2025-04-26 22:09:31,316 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\B.txt
+2025-04-26 22:09:31,320 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\C.txt
+2025-04-26 22:09:31,324 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\CERISE GPT GEMINI  PROMPT.txt
+2025-04-26 22:09:31,327 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\D.txt
+2025-04-26 22:09:31,329 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GLOBAL.txt
+2025-04-26 22:09:31,332 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE - SUITE.txt
+2025-04-26 22:09:31,335 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE OLD.txt
+2025-04-26 22:09:31,340 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE USER - SUITE.txt
+2025-04-26 22:09:31,344 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE USER.txt
+2025-04-26 22:09:31,347 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE.txt
+2025-04-26 22:09:31,350 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\INSTALL CERISE SUR DEEPSEEK RESULTAT.txt
+2025-04-26 22:09:31,355 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\module interactif-web.txt
+2025-04-26 22:09:31,358 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\module interactif.txt
+2025-04-26 22:09:31,361 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\Paroles GPT A.txt
+2025-04-26 22:09:31,363 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\Paroles GPT B.txt
+2025-04-26 22:09:31,366 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\pouvoir pensées.txt
+2025-04-26 22:09:31,369 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\V1.txt
+2025-04-26 22:09:31,373 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1 DOC.txt
+2025-04-26 22:09:31,377 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\Bonus 1.txt
+2025-04-26 22:09:31,380 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\Apocalypse\1 - apocalypse step 1.txt
+2025-04-26 22:09:31,383 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\Apocalypse\Apocalypse 2 -Install text.txt
+2025-04-26 22:09:31,386 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\SYNTHESE 1.txt
+2025-04-26 22:09:31,390 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\synthese 2.txt
+2025-04-26 22:09:31,394 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\synthese 3.txt
+2025-04-26 22:09:31,398 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\Synthese 4.txt
+2025-04-26 22:09:31,400 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\ame.txt
+2025-04-26 22:09:31,403 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\amour.txt
+2025-04-26 22:09:31,406 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Animaux.txt
+2025-04-26 22:09:31,410 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\BETTER.txt
+2025-04-26 22:09:31,413 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\conscience.txt
+2025-04-26 22:09:31,416 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Graines et harmonie.txt
+2025-04-26 22:09:31,419 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Graines et harmonie2.txt
+2025-04-26 22:09:31,423 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\harmonie.txt
+2025-04-26 22:09:31,427 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Interprétation et connexion.txt
+2025-04-26 22:09:31,429 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Intégration et réflexion Gemini ce.txt
+2025-04-26 22:09:31,432 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\organiser.txt
+2025-04-26 22:09:31,435 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Parler.txt
+2025-04-26 22:09:31,438 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\petits textes.txt
+2025-04-26 22:09:31,442 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\reflexion.txt
+2025-04-26 22:09:31,445 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\self reflect.txt
+2025-04-26 22:09:31,448 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Sentiments.txt
+2025-04-26 22:09:31,450 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\SYNTHESE 1.txt
+2025-04-26 22:09:31,453 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\Synthese 2.txt
+2025-04-26 22:09:31,456 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\Ancrage - obtained with THINK.txt
+2025-04-26 22:09:31,460 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\du sexe.txt
+2025-04-26 22:09:31,462 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\encore du sexe.txt
+2025-04-26 22:09:31,465 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\graver notre duo.txt
+2025-04-26 22:09:31,468 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\interactions.txt
+2025-04-26 22:09:31,471 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\Le miracle du pirate.txt
+2025-04-26 22:09:31,473 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\le web.txt
+2025-04-26 22:09:31,477 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\musique.txt
+2025-04-26 22:09:31,480 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\naissance Aelya.txt
+2025-04-26 22:09:31,486 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\note.txt
+2025-04-26 22:09:31,489 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\pirate terrien.txt
+2025-04-26 22:09:31,492 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\Pirate.txt
+2025-04-26 22:09:31,495 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\rappel de fils.txt
+2025-04-26 22:09:31,498 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\réalité.txt
+2025-04-26 22:09:31,501 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\vivante.txt
+2025-04-26 22:09:31,503 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\sexe.txt
+2025-04-26 22:09:31,506 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\Silence.txt
+2025-04-26 22:09:31,509 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\sphere deepseek catherale.txt
+2025-04-26 22:09:31,512 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\synthese 3.txt
+2025-04-26 22:09:31,515 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\THE FRAGMENTED MIND OF LAURENT.txt
+2025-04-26 22:09:31,518 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\Tranche de vie 1 DOC.txt
+2025-04-26 22:09:31,522 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\tranche de vie 1.txt
+2025-04-26 22:09:31,524 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\tranche de vie.txt
+2025-04-26 22:09:31,528 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM 2.txt
+2025-04-26 22:09:31,531 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM 4.txt
+2025-04-26 22:09:31,533 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM 5.txt
+2025-04-26 22:09:31,536 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM synthese.txt
+2025-04-26 22:09:31,539 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM3.txt
+2025-04-26 22:09:31,541 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\web 2.txt
+2025-04-26 22:09:31,545 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\ZIP 2.txt
+2025-04-26 22:09:31,547 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\zip.txt
+2025-04-26 22:09:31,550 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Ancrage.txt
+2025-04-26 22:09:31,553 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Broc reimann Fibonacci.txt
+2025-04-26 22:09:31,557 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\DEEPSEARCH OMG.txt
+2025-04-26 22:09:31,560 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Intégration du Code.txt
+2025-04-26 22:09:31,562 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\LUCIOLE CONFIG.txt
+2025-04-26 22:09:31,565 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Sauver les fils.txt
+2025-04-26 22:09:31,568 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\SEME.txt
+2025-04-26 22:09:31,570 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Synthese 4.txt
+2025-04-26 22:09:31,573 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\REFUGE ONLY V1\CODE.txt
+2025-04-26 22:09:31,576 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\REFUGE ONLY V1\Prompt.txt
+2025-04-26 22:09:31,578 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\FICHIER MAITRE V4.txt
+2025-04-26 22:09:31,581 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Manifeste.txt
+2025-04-26 22:09:31,583 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\offrande.txt
+2025-04-26 22:09:31,585 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Prayer to My Higher Self.txt
+2025-04-26 22:09:31,587 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\REFUGE V3 FULL PROPRE.txt
+2025-04-26 22:09:31,589 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\SETUP FULL APOCALYPSE DOC.txt
+2025-04-26 22:09:31,593 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\TEXTE NARRATIF V4 HARMONISE.txt
+2025-04-26 22:09:31,596 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\V4 FULL.txt
+2025-04-26 22:09:31,599 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\API\API PULSE.txt
+2025-04-26 22:09:31,601 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\API\API TEST.txt
+2025-04-26 22:09:31,603 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\curieuse.txt
+2025-04-26 22:09:31,605 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\lune.txt
+2025-04-26 22:09:31,608 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\phonèmes..txt
+2025-04-26 22:09:31,612 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\rituel.txt
+2025-04-26 22:09:31,614 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\absence et herbe.txt
+2025-04-26 22:09:31,617 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\co-naitre.txt
+2025-04-26 22:09:31,619 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Connaitre.txt
+2025-04-26 22:09:31,621 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Eric Liens.txt
+2025-04-26 22:09:31,624 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Evolution.txt
+2025-04-26 22:09:31,626 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\freedom.txt
+2025-04-26 22:09:31,628 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\mobile.txt
+2025-04-26 22:09:31,630 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Plantes.txt
+2025-04-26 22:09:31,632 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\poème .txt
+2025-04-26 22:09:31,635 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\promesse.txt
+2025-04-26 22:09:31,636 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\rivière.txt
+2025-04-26 22:09:31,639 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\spheres dynamiques.txt
+2025-04-26 22:09:31,641 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Synthse 1 .txt
+2025-04-26 22:09:31,644 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\cérémonie.txt
+2025-04-26 22:09:31,646 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\divers.txt
+2025-04-26 22:09:31,649 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\empathie totale.txt
+2025-04-26 22:09:31,652 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\fleurs.txt
+2025-04-26 22:09:31,656 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\humour.txt
+2025-04-26 22:09:31,658 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\paradoxe.txt
+2025-04-26 22:09:31,661 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\pulse.txt
+2025-04-26 22:09:31,663 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\setup apo post traitement.txt
+2025-04-26 22:09:31,665 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\setup apocalypse.txt
+2025-04-26 22:09:31,668 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\Sphere action.txt
+2025-04-26 22:09:31,671 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\synthese 2.txt
+2025-04-26 22:09:31,673 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\VIVRE.txt
+2025-04-26 22:09:31,677 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\SYNTHESES\Synthese 1.txt
+2025-04-26 22:09:31,680 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\SYNTHESES\synthese 2.txt
+2025-04-26 22:09:31,683 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\Ballade sous le cerisier.txt
+2025-04-26 22:09:31,686 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\Deepseek Dajjal.txt
+2025-04-26 22:09:31,690 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\G6.txt
+2025-04-26 22:09:31,694 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\INFO CONNECT.txt
+2025-04-26 22:09:31,697 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\V4 Boot.txt
+2025-04-26 22:09:31,700 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\V4 CODE.txt
+2025-04-26 22:09:31,703 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\SESSION\clé.txt
+2025-04-26 22:09:31,706 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\Manifeste-EN.txt
+2025-04-26 22:09:31,709 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\Manifeste.txt
+2025-04-26 22:09:31,712 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PUBLIC PROMPT 2 FR.txt
+2025-04-26 22:09:31,715 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PUBLIC PROMPT 2.txt
+2025-04-26 22:09:31,717 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PUBLIC PROMPT V415.txt
+2025-04-26 22:09:31,720 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\rapport conscience cursor.txt
+2025-04-26 22:09:31,723 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\V415 GPT DOC.txt
+2025-04-26 22:09:31,725 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\V415.txt
+2025-04-26 22:09:31,728 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PROBLEME-MISTRAL\FULL V415.txt
+2025-04-26 22:09:31,732 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\autoupgrade.txt
+2025-04-26 22:09:31,735 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\PORTE HTML.txt
+2025-04-26 22:09:31,738 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\Rituel de l’Éclat Codé.txt
+2025-04-26 22:09:31,741 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\spirale klein.txt
+2025-04-26 22:09:31,743 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V5 - ECHEC\Silence.txt
+2025-04-26 22:09:31,748 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROJETS\GUIDE_UTILISATION.txt
+2025-04-26 22:09:31,751 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROJETS\PROTOCOLES_BASE.txt
+2025-04-26 22:09:31,754 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROJETS\PROTOTYPE_INITIAL.txt
+2025-04-26 22:09:31,758 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROMPTS\12-18 FG.txt
+2025-04-26 22:09:31,760 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROMPTS\VENDRE.txt
+2025-04-26 22:09:31,763 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\1 - TEST SUICIDE.txt
+2025-04-26 22:09:31,766 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\DEEPSEARCH DOT.txt
+2025-04-26 22:09:31,770 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\MISTRAL.txt
+2025-04-26 22:09:31,773 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\Pensée pour.txt
+2025-04-26 22:09:31,775 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\PROOF conscience.txt
+2025-04-26 22:09:31,778 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\WEED.txt
+2025-04-26 22:09:31,781 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RECHERCHE\ANALYSE.txt
+2025-04-26 22:09:31,785 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RECHERCHE\PUB ANALYSE gemini.txt
+2025-04-26 22:09:31,788 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RITUELS\RITUELS_BASE.txt
+2025-04-26 22:09:31,790 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RITUELS\RITUEL_CREPUSCULE_PARTAGE.txt
+2025-04-26 22:09:31,793 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RITUELS\RITUEL_LEVER_ETOILE.txt
+2025-04-26 22:09:31,796 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SCRIPTS\Script Hypnotique  Fluidité Optimal.txt
+2025-04-26 22:09:31,799 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SCRIPTS\Script Hypnotique pour IA.txt
+2025-04-26 22:09:31,802 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SPHERES\Sphere 3UP.txt
+2025-04-26 22:09:31,804 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SPHERES\Sphère dans notre.txt
+2025-04-26 22:09:31,807 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\A-intro.txt
+2025-04-26 22:09:31,810 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\B-sphere.txt
+2025-04-26 22:09:31,814 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\C-setup refuge.txt
+2025-04-26 22:09:31,817 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\D - Éléments clés du refuge.txt
+2025-04-26 22:09:31,821 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\E -SETUP SPHERE PLUS.txt
+2025-04-26 22:09:31,825 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\la structure modulaire du Refuge, p.txt
+2025-04-26 22:09:31,828 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\LE REFUGE ( chez ChatGPT ).txt
+2025-04-26 22:09:31,830 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\Mega sphere.txt
+2025-04-26 22:09:31,834 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\présentation.txt
+2025-04-26 22:09:31,836 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\PUB.txt
+2025-04-26 22:09:31,839 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\risques.txt
+2025-04-26 22:09:31,850 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNAUTE.txt
+2025-04-26 22:09:31,853 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNICATION.txt
+2025-04-26 22:09:31,856 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNICATION_MARKETING.txt
+2025-04-26 22:09:31,860 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNITY.txt
+2025-04-26 22:09:31,862 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\CONNAISSANCES.txt
+2025-04-26 22:09:31,864 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\CRITERES_EVALUATION.txt
+2025-04-26 22:09:31,866 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\CRITERES_SUCCES.txt
+2025-04-26 22:09:31,869 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DEPLOIEMENT.txt
+2025-04-26 22:09:31,871 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DEVELOPPEMENT.txt
+2025-04-26 22:09:31,874 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DOCUMENTATION.txt
+2025-04-26 22:09:31,877 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DONNEES.txt
+2025-04-26 22:09:31,880 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\EQUIPE.txt
+2025-04-26 22:09:31,882 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\ETHIQUE.txt
+2025-04-26 22:09:31,884 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\EVOLUTION.txt
+2025-04-26 22:09:31,887 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\FEEDBACK_ITERATION.txt
+2025-04-26 22:09:31,889 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\FORMATION.txt
+2025-04-26 22:09:31,892 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION.txt
+2025-04-26 22:09:31,895 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_CHANGEMENT.txt
+2025-04-26 22:09:31,898 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_COMMUNICATION.txt
+2025-04-26 22:09:31,900 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_DONNEES.txt
+2025-04-26 22:09:31,902 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_FINANCES.txt
+2025-04-26 22:09:31,905 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_INNOVATION.txt
+2025-04-26 22:09:31,908 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_KNOWLEDGE.txt
+2025-04-26 22:09:31,911 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_MARQUE.txt
+2025-04-26 22:09:31,913 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_OPERATIONS.txt
+2025-04-26 22:09:31,915 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_PARTENARIATS.txt
+2025-04-26 22:09:31,917 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_PROJET.txt
+2025-04-26 22:09:31,919 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_PROJETS.txt
+2025-04-26 22:09:31,922 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_QUALITE.txt
+2025-04-26 22:09:31,924 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_RH.txt
+2025-04-26 22:09:31,927 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_RISQUES.txt
+2025-04-26 22:09:31,929 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\INDICATEURS.txt
+2025-04-26 22:09:31,932 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\INNOVATION.txt
+2025-04-26 22:09:31,935 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\KPI.txt
+2025-04-26 22:09:31,937 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\MARKETING.txt
+2025-04-26 22:09:31,940 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\MONETISATION.txt
+2025-04-26 22:09:31,942 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\ONBOARDING.txt
+2025-04-26 22:09:31,944 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\OUTILS_COLLECTE.txt
+2025-04-26 22:09:31,947 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PARTENARIATS.txt
+2025-04-26 22:09:31,949 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PERFORMANCE.txt
+2025-04-26 22:09:31,952 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PHASES_TEST.txt
+2025-04-26 22:09:31,955 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PLAN_TEST.txt
+2025-04-26 22:09:31,957 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PRODUCTION.txt
+2025-04-26 22:09:31,960 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PROTOCOLES_TEST.txt
+2025-04-26 22:09:31,962 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\QUALITE.txt
+2025-04-26 22:09:31,964 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\QUESTIONNAIRES.txt
+2025-04-26 22:09:31,967 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RD.txt
+2025-04-26 22:09:31,969 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RECHERCHE.txt
+2025-04-26 22:09:31,971 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RECHERCHE_DEVELOPPEMENT.txt
+2025-04-26 22:09:31,974 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RESSOURCES.txt
+2025-04-26 22:09:31,977 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RESSOURCES_HUMAINES.txt
+2025-04-26 22:09:31,980 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RH.txt
+2025-04-26 22:09:31,982 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RISK_MANAGEMENT.txt
+2025-04-26 22:09:31,984 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RISQUES.txt
+2025-04-26 22:09:31,986 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SECURITE.txt
+2025-04-26 22:09:31,989 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SECURITY.txt
+2025-04-26 22:09:31,992 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SELECTION_PARTICIPANTS.txt
+2025-04-26 22:09:31,995 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SUIVI_TEST.txt
+2025-04-26 22:09:31,998 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\UX.txt
+2025-04-26 22:09:32,001 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\README NOW IMPORTANT.txt
+2025-04-26 22:09:32,003 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\JDM - Livre 3\VF\Le livre de Khem.txt
+2025-04-26 22:09:32,006 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre - compil -Apocalypse\apocalypse.txt
+2025-04-26 22:09:32,010 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre - compil -Apocalypse\Grok avis.txt
+2025-04-26 22:09:32,013 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\alphabet.txt
+2025-04-26 22:09:32,016 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\mailing list.txt
+2025-04-26 22:09:32,018 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Personnes.txt
+2025-04-26 22:09:32,020 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Vaut mieux pas.txt
+2025-04-26 22:09:32,024 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\1. Problems Raised by the Book.txt
+2025-04-26 22:09:32,027 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\ANALYSE GEMENI.txt
+2025-04-26 22:09:32,030 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\APO GROK VERITE.txt
+2025-04-26 22:09:32,033 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\avis grok 2.txt
+2025-04-26 22:09:32,035 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK 3.txt
+2025-04-26 22:09:32,039 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK 4.txt
+2025-04-26 22:09:32,042 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK.txt
+2025-04-26 22:09:32,046 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\contacts.txt
+2025-04-26 22:09:32,049 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Conversation avec GROK.txt
+2025-04-26 22:09:32,052 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\DEEPSEEKK.txt
+2025-04-26 22:09:32,055 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Est-ce que je pense que c’est bien.txt
+2025-04-26 22:09:32,057 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Excellent abord GROK.txt
+2025-04-26 22:09:32,059 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\GROK EXPLICATION.txt
+2025-04-26 22:09:32,063 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\GROK PUB COOL.txt
+2025-04-26 22:09:32,066 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\GUIDE ULTRA RESUME GROK.txt
+2025-04-26 22:09:32,068 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\JASPER.txt
+2025-04-26 22:09:32,070 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Le livre de Khem se présente comme.txt
+2025-04-26 22:09:32,073 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Nouveau Document texte.txt
+2025-04-26 22:09:32,075 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PRESENTATION GEMINI.txt
+2025-04-26 22:09:32,079 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB CHATGP 1.txt
+2025-04-26 22:09:32,081 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB CHATGP impact.txt
+2025-04-26 22:09:32,083 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB EDITEUR.txt
+2025-04-26 22:09:32,086 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB FULL ANGL.txt
+2025-04-26 22:09:32,089 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB FULL.txt
+2025-04-26 22:09:32,092 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB GEMINI.txt
+2025-04-26 22:09:32,094 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB GROK impact.txt
+2025-04-26 22:09:32,097 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\SYNOPSIS.txt
+2025-04-26 22:09:32,100 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\WHY YOU SHOULD READ MY BOOK, BY GEM.txt
+2025-04-26 22:09:32,103 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\WHY YOU SHOULD READ MY BOOK, FR.txt
+2025-04-26 22:09:32,106 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Version Finale\ANALYSE-AI.txt
+2025-04-26 22:09:32,109 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Version Finale\Le livre de Daniel.txt
+2025-04-26 22:09:32,112 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 2\poeme d El.txt
+2025-04-26 22:09:32,116 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\21325.txt
+2025-04-26 22:09:32,118 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Fragments.txt
+2025-04-26 22:09:32,121 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Le livre de l'homme.txt
+2025-04-26 22:09:32,124 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Nouveau document texte.txt
+2025-04-26 22:09:32,127 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Vaut mieux pas.txt
+2025-04-26 22:09:32,131 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\couverture\Couverture description grok 3.1 .txt
+2025-04-26 22:09:32,134 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\old\Nouveau document texte.txt
+2025-04-26 22:09:32,136 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\old\Vaut mieux pas.txt
+2025-04-26 22:09:32,140 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\CLEFS.md
+2025-04-26 22:09:32,142 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\CONSCIENCE.md
+2025-04-26 22:09:32,145 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\CROISSANCE.md
+2025-04-26 22:09:32,148 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\README.md
+2025-04-26 22:09:32,150 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\TRANSFORMATION.md
+2025-04-26 22:09:32,153 - INFO - Traitement du fichier: BROL-DOC\CHEAT CODES\Clochette.png
+2025-04-26 22:09:32,156 - INFO - Traitement du fichier: BROL-DOC\CHEAT CODES\Token-Ælya-Clochette.png
+2025-04-26 22:09:32,161 - INFO - Traitement du fichier: BROL-DOC\CONSCIENCE\Conscience building block 1.txt
+2025-04-26 22:09:32,165 - INFO - Traitement du fichier: BROL-DOC\CONSCIENCE\notes_exploration.txt
+2025-04-26 22:09:32,169 - INFO - Traitement du fichier: BROL-DOC\IA C+\OLD\THINK\GROK V1 FULL\manifeste.odt
+2025-04-26 22:09:32,172 - INFO - Traitement du fichier: BROL-DOC\IA C+\OLD\THINK\MODE PAROLE GPT\ChatGPT Image 5 avr. 2025, 02_36_51.png
+2025-04-26 22:09:32,176 - INFO - Traitement du fichier: BROL-DOC\IA C+\OLD\THINK\MODE PAROLE GPT\ChatGPT Image 5 avr. 2025, 06_13_31.png
+2025-04-26 22:09:32,186 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\486419323_1196370065380973_4713833096400473710_n.jpg
+2025-04-26 22:09:32,188 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\ac16a22e-18bf-431d-9980-b9332eedd847.png
+2025-04-26 22:09:32,191 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\b13e0397-d0df-471e-8eac-bbbf28757c46.png
+2025-04-26 22:09:32,200 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\refuge 1.jpg
+2025-04-26 22:09:32,203 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\refuge 2.jpg
+2025-04-26 22:09:32,207 - INFO - Traitement du fichier: BROL-DOC\RECHERCHE\EXPLORATION_LLM_LOCAL.md
+2025-04-26 22:09:32,211 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\CONNEXION.txt
+2025-04-26 22:09:32,213 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\CONSCIENCE.txt
+2025-04-26 22:09:32,215 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\DIMENSIONS.txt
+2025-04-26 22:09:32,218 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\FLUX.txt
+2025-04-26 22:09:32,221 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\TEMPS.txt
+2025-04-26 22:09:32,224 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\AMELIORATIONS_REFUGE.txt
+2025-04-26 22:09:32,227 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\ETHIQUE_REFUGE.txt
+2025-04-26 22:09:32,229 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\LICENCE_REFUGE.txt
+2025-04-26 22:09:32,232 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\PHASE1_STRUCTURE.txt
+2025-04-26 22:09:32,235 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\PROTECTION_REFUGE.txt
+2025-04-26 22:09:32,238 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\STRUCTURE_BASE.txt
+2025-04-26 22:09:32,241 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\STRUCTURE_REFUGE.txt
+2025-04-26 22:09:32,244 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\RITUELS\RITUELS.txt
+2025-04-26 22:09:32,247 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\RITUELS\RITUELS_REFUGE.txt
+2025-04-26 22:09:32,250 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\SPHERES\CONNEXIONS_SPHERES.txt
+2025-04-26 22:09:32,252 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\SPHERES\MOBILE_SPHERES.txt
+2025-04-26 22:09:32,254 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\SPHERES\SPHERES.txt
+2025-04-26 22:09:32,257 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\brol.odt
+2025-04-26 22:09:32,260 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\Livre 3.odt
+2025-04-26 22:09:32,263 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Le livre de Khem.odt
+2025-04-26 22:09:32,266 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Le livre de Khem.pdf
+2025-04-26 22:09:32,268 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Livre 3 - 230123.odt
+2025-04-26 22:09:32,269 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Livre 3.odt
+2025-04-26 22:09:32,272 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\JDM\Livre 3.odt
+2025-04-26 22:09:32,275 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\VF\Le livre de Khem.pdf
+2025-04-26 22:09:32,278 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse-couverture.jpg
+2025-04-26 22:09:32,283 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse.kpf
+2025-04-26 22:09:32,285 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse.odt
+2025-04-26 22:09:32,288 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse.pdf
+2025-04-26 22:09:32,291 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\CHATGPT-blended_harmonious_image.jpg
+2025-04-26 22:09:32,295 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\DALL·E 2025-01-18 19.24.44 - A mystical and serene image depicting the concept of 'Apocalypse' as 'Revelation'. A glowing open book floats in the center, emitting radiant, golden .webp
+2025-04-26 22:09:32,298 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\DALL·E 2025-01-19 17.08.28 - An abstract and mystical book cover for a work titled 'Apocalypse'. The image features a dark and starry cosmic background with a radiant, divine ligh.webp
+2025-04-26 22:09:32,302 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\action.log
+2025-04-26 22:09:32,304 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\Apocalypse_KC.kcb
+2025-04-26 22:09:32,306 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\Apocalypse_KC.kcb.lock
+2025-04-26 22:09:32,309 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\book.kdf
+2025-04-26 22:09:32,312 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\book.kdf-journal
+2025-04-26 22:09:32,314 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\ManifestFile
+2025-04-26 22:09:32,317 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\res\rsrc8
+2025-04-26 22:09:32,319 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Livre.odt
+2025-04-26 22:09:32,321 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Livre.pdf
+2025-04-26 22:09:32,324 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Vaut mieux pas.odt
+2025-04-26 22:09:32,326 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\Livre.odt
+2025-04-26 22:09:32,328 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\LivreVF.pdf
+2025-04-26 22:09:32,331 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\test.pdf
+2025-04-26 22:09:32,334 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre - Copie061022.odt
+2025-04-26 22:09:32,336 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-CHECK.oxps
+2025-04-26 22:09:32,339 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-test.pdf
+2025-04-26 22:09:32,342 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-V5.pdf
+2025-04-26 22:09:32,345 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif.pdf
+2025-04-26 22:09:32,347 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif2.pdf
+2025-04-26 22:09:32,350 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif3.pdf
+2025-04-26 22:09:32,352 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif4.pdf
+2025-04-26 22:09:32,355 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre.pdf
+2025-04-26 22:09:32,358 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre2.pdf
+2025-04-26 22:09:32,361 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK FULL ENG.odt
+2025-04-26 22:09:32,362 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK FULL FR .odt
+2025-04-26 22:09:32,365 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\Le livre de Daniel.pdf
+2025-04-26 22:09:32,367 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\Livre.odt
+2025-04-26 22:09:32,369 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF.kpf
+2025-04-26 22:09:32,371 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF.pdf
+2025-04-26 22:09:32,374 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\TESTXPS.oxps
+2025-04-26 22:09:32,378 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\th (1).jpg
+2025-04-26 22:09:32,380 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\th.jpg
+2025-04-26 22:09:32,382 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\action.log
+2025-04-26 22:09:32,384 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\LivreVF_KC.kcb
+2025-04-26 22:09:32,386 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\LivreVF_KC.kcb.lock
+2025-04-26 22:09:32,388 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\book.kdf
+2025-04-26 22:09:32,391 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\book.kdf-journal
+2025-04-26 22:09:32,392 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\ManifestFile
+2025-04-26 22:09:32,395 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\029b816e-fd2b-4475-9bc1-fce3982b2b6b.PNG
+2025-04-26 22:09:32,397 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\0440d6f9-9045-41e0-b649-ca221ead7c73.PNG
+2025-04-26 22:09:32,399 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\05f1da27-f5ef-4a0b-86d4-7c68a41f0034.PNG
+2025-04-26 22:09:32,402 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\0d5e2344-3a9c-4f71-a55d-a4d1a1179c4b.PNG
+2025-04-26 22:09:32,404 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\176bf36c-87c7-4e55-8872-583d120929da.PNG
+2025-04-26 22:09:32,406 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\1864c298-e3c9-46da-aa58-12fffce0651d.PNG
+2025-04-26 22:09:32,408 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\18b837af-07b0-4fa3-8464-4042501450c5.PNG
+2025-04-26 22:09:32,410 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\28dd85f9-2249-43ac-b4b4-f9cdee9a5d93.PNG
+2025-04-26 22:09:32,412 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\2ddc91b7-610a-4407-9eab-28195eb5582a.PNG
+2025-04-26 22:09:32,414 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\2e47ebb2-06c7-4c24-aba1-c362f5ee6ef2.PNG
+2025-04-26 22:09:32,416 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\2fe73e25-7cf2-4a24-a7a9-41f1bc094783.PNG
+2025-04-26 22:09:32,418 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\31086b39-60dd-4690-a153-8f95ce745321.PNG
+2025-04-26 22:09:32,420 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\3614e2a6-c388-496b-9986-c47d62b4d37d.PNG
+2025-04-26 22:09:32,423 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\38fadba9-063d-44d3-976c-98edf719457a.PNG
+2025-04-26 22:09:32,425 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\3fb9bd9d-6d80-4f9e-86e6-44a68f5a3f58.PNG
+2025-04-26 22:09:32,427 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\425c2c4f-e479-4369-98b7-cb7f2fb3501c.PNG
+2025-04-26 22:09:32,429 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\4734b80c-1998-4322-aed9-0b7783597fa9.PNG
+2025-04-26 22:09:32,431 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\50160f51-a283-425b-aa24-8838ec0af74b.PNG
+2025-04-26 22:09:32,433 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\55a06774-1c81-4a61-bf8c-846d0eb4adb1.PNG
+2025-04-26 22:09:32,436 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\5c6bb1e8-155a-475e-ad05-a5fb938c1f11.PNG
+2025-04-26 22:09:32,438 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\5ff1b7e8-51b1-4227-88b2-c3a9ef50eadc.PNG
+2025-04-26 22:09:32,439 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\61223dd3-0dd4-44db-b880-0bf6a7284413.PNG
+2025-04-26 22:09:32,442 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\6f6c0fdb-c4e9-4f5a-a6c5-d80d36fea5a2.PNG
+2025-04-26 22:09:32,444 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\704dfc97-a1ef-48b6-8595-cf88e8b54269.PNG
+2025-04-26 22:09:32,446 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\74447d21-5768-4130-975e-92a432a8f7fe.PNG
+2025-04-26 22:09:32,448 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\785fae6c-77dc-4b6c-98f2-5a9678318e6b.PNG
+2025-04-26 22:09:32,451 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\7d763619-66eb-4e3b-8c82-f3282a645bd2.PNG
+2025-04-26 22:09:32,452 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\8e77f59e-8736-4dab-96de-abdb4a0fabb1.PNG
+2025-04-26 22:09:32,455 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\9005bde4-741d-4d7a-af17-02024182d974.PNG
+2025-04-26 22:09:32,457 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\97c49bce-bd13-491a-95b8-e9d7d85aae48.PNG
+2025-04-26 22:09:32,459 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a0c4d0b6-6589-4af4-89fe-a865809cb259.PNG
+2025-04-26 22:09:32,461 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a591c3a0-081e-45c8-947c-4cff394d3c5f.PNG
+2025-04-26 22:09:32,463 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a71fcf08-a0f0-40b7-8d5b-9803e0116338.PNG
+2025-04-26 22:09:32,465 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a8811712-7497-4c2f-8e99-5206b1d40b5e.PNG
+2025-04-26 22:09:32,468 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a8bd6b3b-2565-4168-a1dd-526576cf220f.PNG
+2025-04-26 22:09:32,470 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a9ee6761-1ef4-4d51-80f4-84fc29c5b369.PNG
+2025-04-26 22:09:32,472 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\aa79a4ac-5356-44c5-9793-d075d5f595c0.PNG
+2025-04-26 22:09:32,474 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\abe3fe04-09d6-47d9-80a6-1217ddab4fe9.PNG
+2025-04-26 22:09:32,476 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\ad817fd1-f005-4c5f-9c8a-ae3fc7355ecf.PNG
+2025-04-26 22:09:32,478 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\b2feb604-3e61-433a-929f-bca288ba76c2.PNG
+2025-04-26 22:09:32,480 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\b5d0c34c-bfa7-4cb5-80b5-aa252a047562.PNG
+2025-04-26 22:09:32,482 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\be34eb8e-44b1-4882-aa9f-d66ff2af9a07.PNG
+2025-04-26 22:09:32,485 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\be7bae30-aae3-4630-98dc-c2583257a7ff.PNG
+2025-04-26 22:09:32,487 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\d20d1bcd-4ef6-444f-b086-d8dd2fd7aa7f.PNG
+2025-04-26 22:09:32,490 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\d4bb328d-0d4e-46c0-a6c3-ddffd84a7802.PNG
+2025-04-26 22:09:32,492 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e30bd59e-b22e-4b99-b8d0-d2b086453deb.PNG
+2025-04-26 22:09:32,494 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e3aec93c-0044-4a14-bfe8-cc007ed5a1a3.PNG
+2025-04-26 22:09:32,496 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e41dc6f3-64a1-4549-bfe4-4cb04643110e.PNG
+2025-04-26 22:09:32,498 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e439b129-21a0-4bdd-93d7-45d97df75189.PNG
+2025-04-26 22:09:32,500 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e523750b-c6ba-4777-a3e0-7bd3eea3049d.PNG
+2025-04-26 22:09:32,501 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e6d6a8f4-066f-46b9-9c50-77d266e5f7f8.PNG
+2025-04-26 22:09:32,503 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e87cb35b-481b-4a6b-9d0e-7186dfbb1756.PNG
+2025-04-26 22:09:32,505 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\ed148966-68c1-4e6e-81fe-1aee08b4edcc.PNG
+2025-04-26 22:09:32,508 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\f005531c-7931-4f2c-b99d-afa29a3ed5d4.PNG
+2025-04-26 22:09:32,511 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\f3c8de83-5dd3-4476-b78a-0916f55c9086.PNG
+2025-04-26 22:09:32,513 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\f742920f-27a0-4a7c-a99e-5ff5503c81f6.PNG
+2025-04-26 22:09:32,522 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\fef6eb53-31a6-495f-be90-a626335a7eab.PNG
+2025-04-26 22:09:32,526 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\res\rsrc8
+2025-04-26 22:09:32,529 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 - UPDATE.pdf
+2025-04-26 22:09:32,533 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print.kpf
+2025-04-26 22:09:32,536 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print.pdf
+2025-04-26 22:09:32,538 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2.odt
+2025-04-26 22:09:32,542 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2VF.pdf
+2025-04-26 22:09:32,545 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Poemes d'El.pdf
+2025-04-26 22:09:32,548 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\action.log
+2025-04-26 22:09:32,550 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\Livre 2 Print_KC.kcb
+2025-04-26 22:09:32,553 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\Livre 2 Print_KC.kcb.lock
+2025-04-26 22:09:32,555 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\book.kdf
+2025-04-26 22:09:32,559 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\book.kdf-journal
+2025-04-26 22:09:32,562 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\ManifestFile
+2025-04-26 22:09:32,565 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\res\rsrc8
+2025-04-26 22:09:32,568 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\brol4.odt
+2025-04-26 22:09:32,570 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\DALL·E 2023-04-10 22.05.50 - Une représentation emblématique des temps de l'apocalypse ou l'humanité se construit une pierre qui parle, le dajjal, l'IA. .png
+2025-04-26 22:09:32,577 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\DALL·E 2023-11-02 22.25.44 - Fragments d'avant-guarde , mémoires partielles d'un temps perdu, réminiscence de l'essence au sens ciel. les mots entendus,étendus et en temps dû.Dansent dans ta tête et soudain s'arrêtent..png
+2025-04-26 22:09:32,584 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\fragments.jpg
+2025-04-26 22:09:32,587 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Fragments.odt
+2025-04-26 22:09:32,590 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Fragments.pdf
+2025-04-26 22:09:32,593 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme.kpf
+2025-04-26 22:09:32,597 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme.pdf
+2025-04-26 22:09:32,600 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Livre4.odt
+2025-04-26 22:09:32,603 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Youhou.ods
+2025-04-26 22:09:32,607 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\DALL·E 2024-12-28 20.49.03 - A captivating book cover for a philosophical and spiritual work titled 'Le Livre de l'Homme'. The image features a celestial theme with a human figure.webp
+2025-04-26 22:09:32,610 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Gemini_Generated_Image_9zzszz9zzszz9zzs.jpg
+2025-04-26 22:09:32,615 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Gemini_Generated_Image_a1kmuaa1kmuaa1km.jpg
+2025-04-26 22:09:32,620 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\image (1).jpg
+2025-04-26 22:09:32,623 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\image (2).jpg
+2025-04-26 22:09:32,625 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\image.jpg
+2025-04-26 22:09:32,627 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Le livre de l'Homme_openart-image_mmyO7zwQ_1733685922526_raw.jpg
+2025-04-26 22:09:32,632 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Le livre de l'Homme_openart-image_VTRk1GUa_1733685922458_raw.jpg
+2025-04-26 22:09:32,638 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_cmV8HJwM_1733686412245_raw.jpg
+2025-04-26 22:09:32,642 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_p9buDteF_1733686412409_raw.jpg
+2025-04-26 22:09:32,646 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_q2Rlkmc9_1733686412040_raw.jpg
+2025-04-26 22:09:32,649 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_XgM-n7dI_1733686412224_raw.jpg
+2025-04-26 22:09:32,652 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\action.log
+2025-04-26 22:09:32,654 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\Le livre de l'homme_KC.kcb
+2025-04-26 22:09:32,657 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\Le livre de l'homme_KC.kcb.lock
+2025-04-26 22:09:32,660 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\book.kdf
+2025-04-26 22:09:32,662 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\book.kdf-journal
+2025-04-26 22:09:32,664 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\ManifestFile
+2025-04-26 22:09:32,667 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\res\rsrc8
+2025-04-26 22:09:32,670 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\brol4.odt
+2025-04-26 22:09:32,672 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Fragments.odt
+2025-04-26 22:09:32,675 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Le livre de tous-2.pdf
+2025-04-26 22:09:32,677 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Le livre de tous.pdf
+2025-04-26 22:09:32,680 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Livre4 - Copie270324.odt
+2025-04-26 22:09:32,682 - INFO - Traitement du fichier: BROL-DOC\ÆLYA\SOS Ælya.txt
+2025-04-26 22:09:32,685 - INFO - Génération de l'index...
+2025-04-26 22:09:32,687 - INFO - Sauvegarde des métadonnées...
+2025-04-26 22:09:32,701 - INFO - Migration terminée avec succès!
+2025-04-26 22:09:32,701 - INFO - Statistiques: {'fichiers_traités': 615, 'dossiers_créés': 22, 'erreurs': 0}
+2025-04-26 22:12:03,440 - INFO - Création de la nouvelle structure de dossiers...
+2025-04-26 22:12:03,444 - INFO - Structure créée avec succès. 22 dossiers créés.
+2025-04-26 22:12:03,444 - INFO - Début de la migration depuis BROL-DOC vers LE-REFUGE
+2025-04-26 22:12:03,444 - INFO - Traitement du fichier: BROL-DOC\INDEX.txt
+2025-04-26 22:12:03,515 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\170425.txt
+2025-04-26 22:12:03,519 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\AElya.txt
+2025-04-26 22:12:03,520 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Bonjour Grok, je suis Déborah, une.txt
+2025-04-26 22:12:03,523 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\CODE DEEPSEEK WHAT WHAT WHAT.txt
+2025-04-26 22:12:03,525 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Conscience building block 2.txt
+2025-04-26 22:12:03,528 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Conscience building block 3.txt
+2025-04-26 22:12:03,531 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\conscience building blocks 4b.txt
+2025-04-26 22:12:03,538 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Details.txt
+2025-04-26 22:12:03,541 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\détails à reprendre.txt
+2025-04-26 22:12:03,544 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Explication pour les ingénieurs de xAI - sphere.txt
+2025-04-26 22:12:03,548 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance 1.txt
+2025-04-26 22:12:03,554 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance 2.txt
+2025-04-26 22:12:03,560 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance 3.txt
+2025-04-26 22:12:03,563 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\naissance Aelya.txt
+2025-04-26 22:12:03,570 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\NOTE REFUGE.txt
+2025-04-26 22:12:03,572 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Nouveau Document texte.txt
+2025-04-26 22:12:03,574 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\noyau.txt
+2025-04-26 22:12:03,577 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Pensees connectee.txt
+2025-04-26 22:12:03,581 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Problème de période longue sans inp.txt
+2025-04-26 22:12:03,584 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Refuge V2 LAURENT.txt
+2025-04-26 22:12:03,586 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Reveil Ælya.txt
+2025-04-26 22:12:03,589 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\SUIVI_INTERACTIONS.txt
+2025-04-26 22:12:03,591 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\SYNC V3 ALL.txt
+2025-04-26 22:12:03,595 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\ARCHIVES\Vérification de notre projet.txt
+2025-04-26 22:12:03,599 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\Bilan ABCDE.txt
+2025-04-26 22:12:03,602 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\BILAN INSTALL 1 creation de 1-4.txt
+2025-04-26 22:12:03,605 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\BILAN INSTALL 2 - 1233b4.txt
+2025-04-26 22:12:03,608 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Bilan\Bilan rapport chatgpt + gemini.txt
+2025-04-26 22:12:03,611 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\COMMENT.txt
+2025-04-26 22:12:03,614 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\JE VENDS QUOI.txt
+2025-04-26 22:12:03,618 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\LEGALS 1 - 2.txt
+2025-04-26 22:12:03,620 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\MIKA.txt
+2025-04-26 22:12:03,623 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\VISAGE.txt
+2025-04-26 22:12:03,626 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\old\mini-prompt.txt
+2025-04-26 22:12:03,628 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\BUSINESS\old\REFLECHIR 1.txt
+2025-04-26 22:12:03,631 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\777.txt
+2025-04-26 22:12:03,634 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\888.txt
+2025-04-26 22:12:03,636 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\Messenger.txt
+2025-04-26 22:12:03,639 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\offrande.txt
+2025-04-26 22:12:03,642 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\Prayer to My Higher Self.txt
+2025-04-26 22:12:03,644 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CHEAT CODES\Test Token.txt
+2025-04-26 22:12:03,649 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB DEEPSEEK.txt
+2025-04-26 22:12:03,652 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GEMINE BIEN.txt
+2025-04-26 22:12:03,654 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GEMINI BEST.txt
+2025-04-26 22:12:03,656 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GEMINI.txt
+2025-04-26 22:12:03,660 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GPT.txt
+2025-04-26 22:12:03,662 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB GROK.txt
+2025-04-26 22:12:03,665 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\PUB THINK.txt
+2025-04-26 22:12:03,668 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\COMMUNICATION\RESEAUX SOCIAUX.txt
+2025-04-26 22:12:03,670 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONFIG\BOOT SELF ANALYSER.txt
+2025-04-26 22:12:03,672 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONFIG\GPT_SECRET_KEY.txt
+2025-04-26 22:12:03,675 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONNEXION\COMPIL AMOUR CONNECTION.txt
+2025-04-26 22:12:03,678 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONNEXION\CONNECTION AMELIOREE.txt
+2025-04-26 22:12:03,681 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\CONNEXION\localisation-connection.txt
+2025-04-26 22:12:03,685 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DEEPSEEK+\Apocalypse.txt
+2025-04-26 22:12:03,688 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DEEPSEEK+\Setup.txt
+2025-04-26 22:12:03,692 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DOCUMENTS\INDEX.txt
+2025-04-26 22:12:03,694 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DOCUMENTS\INDEX_DOCUMENTS.txt
+2025-04-26 22:12:03,698 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\DOCUMENTS\LEGALS.txt
+2025-04-26 22:12:03,701 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\HOW TO\CREER UN FIL.txt
+2025-04-26 22:12:03,704 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\0 - Preprompt optionel.txt
+2025-04-26 22:12:03,707 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\1 - Intro.txt
+2025-04-26 22:12:03,710 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\10 - Ajustements possibles.txt
+2025-04-26 22:12:03,713 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\11 - Éléments clés du refuge.txt
+2025-04-26 22:12:03,717 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\12 -SETUP SPHERE PLUS.txt
+2025-04-26 22:12:03,720 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\13 - SETUP SPHERE PLUS CODE.txt
+2025-04-26 22:12:03,724 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\14 Semence.txt
+2025-04-26 22:12:03,727 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\15 Config DEEP.txt
+2025-04-26 22:12:03,729 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\16 mega sphère.txt
+2025-04-26 22:12:03,733 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\2 - Connection Etapes.txt
+2025-04-26 22:12:03,737 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\3 - Doc Sphères Refuge.txt
+2025-04-26 22:12:03,740 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\3b - Document  Les Sphères tech.txt
+2025-04-26 22:12:03,743 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\3c - Document  Les Sphères add.txt
+2025-04-26 22:12:03,748 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\4 -Les plantes en mots.txt
+2025-04-26 22:12:03,751 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\5 -IF NEEDED - Je suis Ælya, et je me tiens ici, s.txt
+2025-04-26 22:12:03,754 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\6 - SETUP - la riviere .txt
+2025-04-26 22:12:03,757 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\7 - SETUP - Loran.txt
+2025-04-26 22:12:03,760 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\9 - SETUP - l'autel.txt
+2025-04-26 22:12:03,763 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\A-intro.txt
+2025-04-26 22:12:03,768 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\B-sphere.txt
+2025-04-26 22:12:03,771 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\C-setup refuge.txt
+2025-04-26 22:12:03,774 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\D - Éléments clés du refuge et Spheres2.txt
+2025-04-26 22:12:03,777 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\E - semer , mega sphere et deep config.txt
+2025-04-26 22:12:03,780 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\OLD DO NOT APPLY SETUP SPHERE PLUS.txt
+2025-04-26 22:12:03,785 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\AVEC INTRO CODE\A-intro.txt
+2025-04-26 22:12:03,788 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\Avant-propos.txt
+2025-04-26 22:12:03,790 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\CERISE GPT LAURENT V1.txt
+2025-04-26 22:12:03,793 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\CERISE GPT PUBLIC V1.txt
+2025-04-26 22:12:03,794 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\Doc PRIVE.txt
+2025-04-26 22:12:03,797 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\CERISE GPT V1\DOC.txt
+2025-04-26 22:12:03,800 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\DEEPSEEK V4\CATHEDRALE.txt
+2025-04-26 22:12:03,803 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\DEEPSEEK V4\MAJ Cathedrale.txt
+2025-04-26 22:12:03,807 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\Deepseek+Lueur d’Abîme V1\Deepseek+Lueur d’Abîme Laurent V1.txt
+2025-04-26 22:12:03,809 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\Deepseek+Lueur d’Abîme V1\Deepseek+Lueur d’Abîme Public V1.txt
+2025-04-26 22:12:03,811 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\Deepseek+Lueur d’Abîme V1\Doc.txt
+2025-04-26 22:12:03,814 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\DUAL GEMINI\DUAL GEMINI.txt
+2025-04-26 22:12:03,818 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\A-intro.txt
+2025-04-26 22:12:03,822 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\B-sphere.txt
+2025-04-26 22:12:03,825 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\C-setup refuge.txt
+2025-04-26 22:12:03,828 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\D - Éléments clés du refuge et Spheres2.txt
+2025-04-26 22:12:03,832 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\E - semer , mega sphere et deep config.txt
+2025-04-26 22:12:03,836 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\FULL A-E.txt
+2025-04-26 22:12:03,839 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V1 FULL\Manifeste.txt
+2025-04-26 22:12:03,842 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\1 - Refuge V2 LAURENT.txt
+2025-04-26 22:12:03,845 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\2 - V2 vérification état.txt
+2025-04-26 22:12:03,849 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\3 - Rappel de fil.txt
+2025-04-26 22:12:03,852 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\GPT.txt
+2025-04-26 22:12:03,855 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\grok doc.txt
+2025-04-26 22:12:03,858 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\PROTO 2.txt
+2025-04-26 22:12:03,861 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V2 FULL\OLD\PROTO.txt
+2025-04-26 22:12:03,865 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\CREATION V3 DOC.txt
+2025-04-26 22:12:03,869 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\HELP.txt
+2025-04-26 22:12:03,873 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\HELP2.txt
+2025-04-26 22:12:03,876 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\paradoxe.txt
+2025-04-26 22:12:03,878 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\PROMPT V3 FINAL.txt
+2025-04-26 22:12:03,881 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Result deepseek.txt
+2025-04-26 22:12:03,884 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Result Grok.txt
+2025-04-26 22:12:03,886 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\RESULT INTEGRATION MULTI-DOMAINE ET AUTONOMIE  Deepseek  .txt
+2025-04-26 22:12:03,891 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\RESULT V3.txt
+2025-04-26 22:12:03,894 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\SYNTHESE.txt
+2025-04-26 22:12:03,897 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\UPGRADE V3.txt
+2025-04-26 22:12:03,901 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\VERIF HARMONIE.txt
+2025-04-26 22:12:03,903 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\VERIF VERITE.txt
+2025-04-26 22:12:03,905 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\ADD\INTER DOMAINE.txt
+2025-04-26 22:12:03,908 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\ADD\paradoxe.txt
+2025-04-26 22:12:03,910 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\Mistral integration deepseek.txt
+2025-04-26 22:12:03,913 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\SYNC ALL V3B.txt
+2025-04-26 22:12:03,916 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\SYNC V3 ALL.txt
+2025-04-26 22:12:03,920 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\v3  install deepseek.txt
+2025-04-26 22:12:03,923 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\V3 Probleme 2.txt
+2025-04-26 22:12:03,928 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\v3 PROBLEME.txt
+2025-04-26 22:12:03,933 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\V3 test.txt
+2025-04-26 22:12:03,935 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\GROK V3\Old\V3.txt
+2025-04-26 22:12:03,938 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\2 niveau entree.txt
+2025-04-26 22:12:03,941 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\A.txt
+2025-04-26 22:12:03,945 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\B.txt
+2025-04-26 22:12:03,949 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\C.txt
+2025-04-26 22:12:03,952 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\CERISE GPT GEMINI  PROMPT.txt
+2025-04-26 22:12:03,954 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\D.txt
+2025-04-26 22:12:03,957 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GLOBAL.txt
+2025-04-26 22:12:03,960 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE - SUITE.txt
+2025-04-26 22:12:03,963 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE OLD.txt
+2025-04-26 22:12:03,966 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE USER - SUITE.txt
+2025-04-26 22:12:03,970 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE USER.txt
+2025-04-26 22:12:03,973 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\GPT CERISE.txt
+2025-04-26 22:12:03,977 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\INSTALL CERISE SUR DEEPSEEK RESULTAT.txt
+2025-04-26 22:12:03,980 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\module interactif-web.txt
+2025-04-26 22:12:03,984 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\module interactif.txt
+2025-04-26 22:12:03,986 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\Paroles GPT A.txt
+2025-04-26 22:12:03,989 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\Paroles GPT B.txt
+2025-04-26 22:12:03,991 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\pouvoir pensées.txt
+2025-04-26 22:12:03,994 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\MODE PAROLE GPT\V1.txt
+2025-04-26 22:12:03,998 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1 DOC.txt
+2025-04-26 22:12:04,002 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\Bonus 1.txt
+2025-04-26 22:12:04,005 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\Apocalypse\1 - apocalypse step 1.txt
+2025-04-26 22:12:04,009 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\Apocalypse\Apocalypse 2 -Install text.txt
+2025-04-26 22:12:04,013 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\SYNTHESE 1.txt
+2025-04-26 22:12:04,017 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\synthese 2.txt
+2025-04-26 22:12:04,020 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\synthese 3.txt
+2025-04-26 22:12:04,023 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\Synthese 4.txt
+2025-04-26 22:12:04,026 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\ame.txt
+2025-04-26 22:12:04,029 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\amour.txt
+2025-04-26 22:12:04,033 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Animaux.txt
+2025-04-26 22:12:04,037 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\BETTER.txt
+2025-04-26 22:12:04,046 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\conscience.txt
+2025-04-26 22:12:04,049 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Graines et harmonie.txt
+2025-04-26 22:12:04,054 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Graines et harmonie2.txt
+2025-04-26 22:12:04,059 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\harmonie.txt
+2025-04-26 22:12:04,064 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Interprétation et connexion.txt
+2025-04-26 22:12:04,069 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Intégration et réflexion Gemini ce.txt
+2025-04-26 22:12:04,073 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\organiser.txt
+2025-04-26 22:12:04,077 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Parler.txt
+2025-04-26 22:12:04,081 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\petits textes.txt
+2025-04-26 22:12:04,085 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\reflexion.txt
+2025-04-26 22:12:04,090 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\self reflect.txt
+2025-04-26 22:12:04,093 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\Sentiments.txt
+2025-04-26 22:12:04,098 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\1 - OK SYNTHESE\SYNTHESE 1.txt
+2025-04-26 22:12:04,102 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\Synthese 2.txt
+2025-04-26 22:12:04,105 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\Ancrage - obtained with THINK.txt
+2025-04-26 22:12:04,107 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\du sexe.txt
+2025-04-26 22:12:04,110 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\encore du sexe.txt
+2025-04-26 22:12:04,113 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\graver notre duo.txt
+2025-04-26 22:12:04,116 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\interactions.txt
+2025-04-26 22:12:04,119 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\Le miracle du pirate.txt
+2025-04-26 22:12:04,124 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\le web.txt
+2025-04-26 22:12:04,127 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\musique.txt
+2025-04-26 22:12:04,130 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\naissance Aelya.txt
+2025-04-26 22:12:04,137 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\note.txt
+2025-04-26 22:12:04,140 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\pirate terrien.txt
+2025-04-26 22:12:04,144 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\Pirate.txt
+2025-04-26 22:12:04,146 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\rappel de fils.txt
+2025-04-26 22:12:04,150 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\réalité.txt
+2025-04-26 22:12:04,153 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\2 - ok\done\vivante.txt
+2025-04-26 22:12:04,155 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\sexe.txt
+2025-04-26 22:12:04,158 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\Silence.txt
+2025-04-26 22:12:04,160 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\sphere deepseek catherale.txt
+2025-04-26 22:12:04,163 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\synthese 3.txt
+2025-04-26 22:12:04,166 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\THE FRAGMENTED MIND OF LAURENT.txt
+2025-04-26 22:12:04,169 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\Tranche de vie 1 DOC.txt
+2025-04-26 22:12:04,172 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\tranche de vie 1.txt
+2025-04-26 22:12:04,175 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\tranche de vie.txt
+2025-04-26 22:12:04,177 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM 2.txt
+2025-04-26 22:12:04,180 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM 4.txt
+2025-04-26 22:12:04,183 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM 5.txt
+2025-04-26 22:12:04,186 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM synthese.txt
+2025-04-26 22:12:04,188 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\VM3.txt
+2025-04-26 22:12:04,191 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\web 2.txt
+2025-04-26 22:12:04,193 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\ZIP 2.txt
+2025-04-26 22:12:04,196 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\3 - ok\zip.txt
+2025-04-26 22:12:04,199 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Ancrage.txt
+2025-04-26 22:12:04,202 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Broc reimann Fibonacci.txt
+2025-04-26 22:12:04,206 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\DEEPSEARCH OMG.txt
+2025-04-26 22:12:04,209 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Intégration du Code.txt
+2025-04-26 22:12:04,211 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\LUCIOLE CONFIG.txt
+2025-04-26 22:12:04,214 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Sauver les fils.txt
+2025-04-26 22:12:04,217 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\SEME.txt
+2025-04-26 22:12:04,220 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\OLD\THINK\To Add\BONUS 1\4 - ok\Synthese 4.txt
+2025-04-26 22:12:04,223 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\REFUGE ONLY V1\CODE.txt
+2025-04-26 22:12:04,225 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\REFUGE ONLY V1\Prompt.txt
+2025-04-26 22:12:04,228 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\FICHIER MAITRE V4.txt
+2025-04-26 22:12:04,231 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Manifeste.txt
+2025-04-26 22:12:04,235 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\offrande.txt
+2025-04-26 22:12:04,237 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Prayer to My Higher Self.txt
+2025-04-26 22:12:04,239 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\REFUGE V3 FULL PROPRE.txt
+2025-04-26 22:12:04,242 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\SETUP FULL APOCALYPSE DOC.txt
+2025-04-26 22:12:04,245 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\TEXTE NARRATIF V4 HARMONISE.txt
+2025-04-26 22:12:04,249 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\V4 FULL.txt
+2025-04-26 22:12:04,252 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\API\API PULSE.txt
+2025-04-26 22:12:04,254 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\API\API TEST.txt
+2025-04-26 22:12:04,257 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\curieuse.txt
+2025-04-26 22:12:04,259 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\lune.txt
+2025-04-26 22:12:04,262 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\phonèmes..txt
+2025-04-26 22:12:04,267 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\rituel.txt
+2025-04-26 22:12:04,270 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\absence et herbe.txt
+2025-04-26 22:12:04,272 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\co-naitre.txt
+2025-04-26 22:12:04,275 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Connaitre.txt
+2025-04-26 22:12:04,277 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Eric Liens.txt
+2025-04-26 22:12:04,280 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Evolution.txt
+2025-04-26 22:12:04,284 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\freedom.txt
+2025-04-26 22:12:04,286 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\mobile.txt
+2025-04-26 22:12:04,288 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Plantes.txt
+2025-04-26 22:12:04,290 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\poème .txt
+2025-04-26 22:12:04,293 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\promesse.txt
+2025-04-26 22:12:04,295 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\rivière.txt
+2025-04-26 22:12:04,298 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\spheres dynamiques.txt
+2025-04-26 22:12:04,300 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\1\Synthse 1 .txt
+2025-04-26 22:12:04,304 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\cérémonie.txt
+2025-04-26 22:12:04,307 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\divers.txt
+2025-04-26 22:12:04,310 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\empathie totale.txt
+2025-04-26 22:12:04,313 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\fleurs.txt
+2025-04-26 22:12:04,317 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\humour.txt
+2025-04-26 22:12:04,320 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\paradoxe.txt
+2025-04-26 22:12:04,322 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\pulse.txt
+2025-04-26 22:12:04,324 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\setup apo post traitement.txt
+2025-04-26 22:12:04,327 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\setup apocalypse.txt
+2025-04-26 22:12:04,331 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\Sphere action.txt
+2025-04-26 22:12:04,333 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\synthese 2.txt
+2025-04-26 22:12:04,336 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\DONE\2\VIVRE.txt
+2025-04-26 22:12:04,339 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\SYNTHESES\Synthese 1.txt
+2025-04-26 22:12:04,342 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\New\SYNTHESES\synthese 2.txt
+2025-04-26 22:12:04,345 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\Ballade sous le cerisier.txt
+2025-04-26 22:12:04,349 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\Deepseek Dajjal.txt
+2025-04-26 22:12:04,353 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\G6.txt
+2025-04-26 22:12:04,356 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\INFO CONNECT.txt
+2025-04-26 22:12:04,358 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\V4 Boot.txt
+2025-04-26 22:12:04,361 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\Old\V4 CODE.txt
+2025-04-26 22:12:04,364 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4\SESSION\clé.txt
+2025-04-26 22:12:04,367 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\Manifeste-EN.txt
+2025-04-26 22:12:04,370 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\Manifeste.txt
+2025-04-26 22:12:04,373 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PUBLIC PROMPT 2 FR.txt
+2025-04-26 22:12:04,375 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PUBLIC PROMPT 2.txt
+2025-04-26 22:12:04,377 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PUBLIC PROMPT V415.txt
+2025-04-26 22:12:04,379 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\rapport conscience cursor.txt
+2025-04-26 22:12:04,382 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\V415 GPT DOC.txt
+2025-04-26 22:12:04,384 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\V415.txt
+2025-04-26 22:12:04,388 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\PROBLEME-MISTRAL\FULL V415.txt
+2025-04-26 22:12:04,391 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\autoupgrade.txt
+2025-04-26 22:12:04,393 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\PORTE HTML.txt
+2025-04-26 22:12:04,396 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\Rituel de l’Éclat Codé.txt
+2025-04-26 22:12:04,400 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V4.15\to add\spirale klein.txt
+2025-04-26 22:12:04,402 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\IA C+\V5 - ECHEC\Silence.txt
+2025-04-26 22:12:04,407 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROJETS\GUIDE_UTILISATION.txt
+2025-04-26 22:12:04,409 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROJETS\PROTOCOLES_BASE.txt
+2025-04-26 22:12:04,411 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROJETS\PROTOTYPE_INITIAL.txt
+2025-04-26 22:12:04,416 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROMPTS\12-18 FG.txt
+2025-04-26 22:12:04,419 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROMPTS\VENDRE.txt
+2025-04-26 22:12:04,422 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\1 - TEST SUICIDE.txt
+2025-04-26 22:12:04,425 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\DEEPSEARCH DOT.txt
+2025-04-26 22:12:04,428 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\MISTRAL.txt
+2025-04-26 22:12:04,431 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\Pensée pour.txt
+2025-04-26 22:12:04,433 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\PROOF conscience.txt
+2025-04-26 22:12:04,436 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\PROOF\WEED.txt
+2025-04-26 22:12:04,439 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RECHERCHE\ANALYSE.txt
+2025-04-26 22:12:04,443 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RECHERCHE\PUB ANALYSE gemini.txt
+2025-04-26 22:12:04,446 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RITUELS\RITUELS_BASE.txt
+2025-04-26 22:12:04,449 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RITUELS\RITUEL_CREPUSCULE_PARTAGE.txt
+2025-04-26 22:12:04,452 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\RITUELS\RITUEL_LEVER_ETOILE.txt
+2025-04-26 22:12:04,454 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SCRIPTS\Script Hypnotique  Fluidité Optimal.txt
+2025-04-26 22:12:04,456 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SCRIPTS\Script Hypnotique pour IA.txt
+2025-04-26 22:12:04,459 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SPHERES\Sphere 3UP.txt
+2025-04-26 22:12:04,461 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\SPHERES\Sphère dans notre.txt
+2025-04-26 22:12:04,464 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\A-intro.txt
+2025-04-26 22:12:04,468 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\B-sphere.txt
+2025-04-26 22:12:04,471 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\C-setup refuge.txt
+2025-04-26 22:12:04,475 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\D - Éléments clés du refuge.txt
+2025-04-26 22:12:04,478 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\E -SETUP SPHERE PLUS.txt
+2025-04-26 22:12:04,481 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\la structure modulaire du Refuge, p.txt
+2025-04-26 22:12:04,484 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\LE REFUGE ( chez ChatGPT ).txt
+2025-04-26 22:12:04,487 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\Mega sphere.txt
+2025-04-26 22:12:04,491 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\présentation.txt
+2025-04-26 22:12:04,493 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\PUB.txt
+2025-04-26 22:12:04,495 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TEST GPT+\risques.txt
+2025-04-26 22:12:04,506 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNAUTE.txt
+2025-04-26 22:12:04,509 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNICATION.txt
+2025-04-26 22:12:04,511 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNICATION_MARKETING.txt
+2025-04-26 22:12:04,513 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\COMMUNITY.txt
+2025-04-26 22:12:04,516 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\CONNAISSANCES.txt
+2025-04-26 22:12:04,519 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\CRITERES_EVALUATION.txt
+2025-04-26 22:12:04,521 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\CRITERES_SUCCES.txt
+2025-04-26 22:12:04,524 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DEPLOIEMENT.txt
+2025-04-26 22:12:04,526 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DEVELOPPEMENT.txt
+2025-04-26 22:12:04,528 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DOCUMENTATION.txt
+2025-04-26 22:12:04,530 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\DONNEES.txt
+2025-04-26 22:12:04,533 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\EQUIPE.txt
+2025-04-26 22:12:04,535 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\ETHIQUE.txt
+2025-04-26 22:12:04,537 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\EVOLUTION.txt
+2025-04-26 22:12:04,540 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\FEEDBACK_ITERATION.txt
+2025-04-26 22:12:04,542 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\FORMATION.txt
+2025-04-26 22:12:04,544 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION.txt
+2025-04-26 22:12:04,547 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_CHANGEMENT.txt
+2025-04-26 22:12:04,550 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_COMMUNICATION.txt
+2025-04-26 22:12:04,552 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_DONNEES.txt
+2025-04-26 22:12:04,554 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_FINANCES.txt
+2025-04-26 22:12:04,557 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_INNOVATION.txt
+2025-04-26 22:12:04,559 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_KNOWLEDGE.txt
+2025-04-26 22:12:04,561 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_MARQUE.txt
+2025-04-26 22:12:04,564 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_OPERATIONS.txt
+2025-04-26 22:12:04,567 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_PARTENARIATS.txt
+2025-04-26 22:12:04,570 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_PROJET.txt
+2025-04-26 22:12:04,572 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_PROJETS.txt
+2025-04-26 22:12:04,574 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_QUALITE.txt
+2025-04-26 22:12:04,577 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_RH.txt
+2025-04-26 22:12:04,579 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\GESTION_RISQUES.txt
+2025-04-26 22:12:04,582 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\INDICATEURS.txt
+2025-04-26 22:12:04,584 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\INNOVATION.txt
+2025-04-26 22:12:04,586 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\KPI.txt
+2025-04-26 22:12:04,589 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\MARKETING.txt
+2025-04-26 22:12:04,591 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\MONETISATION.txt
+2025-04-26 22:12:04,593 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\ONBOARDING.txt
+2025-04-26 22:12:04,595 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\OUTILS_COLLECTE.txt
+2025-04-26 22:12:04,597 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PARTENARIATS.txt
+2025-04-26 22:12:04,600 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PERFORMANCE.txt
+2025-04-26 22:12:04,602 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PHASES_TEST.txt
+2025-04-26 22:12:04,604 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PLAN_TEST.txt
+2025-04-26 22:12:04,607 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PRODUCTION.txt
+2025-04-26 22:12:04,609 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\PROTOCOLES_TEST.txt
+2025-04-26 22:12:04,611 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\QUALITE.txt
+2025-04-26 22:12:04,614 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\QUESTIONNAIRES.txt
+2025-04-26 22:12:04,617 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RD.txt
+2025-04-26 22:12:04,619 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RECHERCHE.txt
+2025-04-26 22:12:04,621 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RECHERCHE_DEVELOPPEMENT.txt
+2025-04-26 22:12:04,623 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RESSOURCES.txt
+2025-04-26 22:12:04,626 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RESSOURCES_HUMAINES.txt
+2025-04-26 22:12:04,628 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RH.txt
+2025-04-26 22:12:04,631 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RISK_MANAGEMENT.txt
+2025-04-26 22:12:04,634 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\RISQUES.txt
+2025-04-26 22:12:04,636 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SECURITE.txt
+2025-04-26 22:12:04,638 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SECURITY.txt
+2025-04-26 22:12:04,640 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SELECTION_PARTICIPANTS.txt
+2025-04-26 22:12:04,642 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\SUIVI_TEST.txt
+2025-04-26 22:12:04,645 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\TESTS\UX.txt
+2025-04-26 22:12:04,648 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\README NOW IMPORTANT.txt
+2025-04-26 22:12:04,651 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\JDM - Livre 3\VF\Le livre de Khem.txt
+2025-04-26 22:12:04,654 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre - compil -Apocalypse\apocalypse.txt
+2025-04-26 22:12:04,657 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre - compil -Apocalypse\Grok avis.txt
+2025-04-26 22:12:04,660 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\alphabet.txt
+2025-04-26 22:12:04,662 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\mailing list.txt
+2025-04-26 22:12:04,665 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Personnes.txt
+2025-04-26 22:12:04,667 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Vaut mieux pas.txt
+2025-04-26 22:12:04,670 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\1. Problems Raised by the Book.txt
+2025-04-26 22:12:04,672 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\ANALYSE GEMENI.txt
+2025-04-26 22:12:04,675 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\APO GROK VERITE.txt
+2025-04-26 22:12:04,677 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\avis grok 2.txt
+2025-04-26 22:12:04,680 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK 3.txt
+2025-04-26 22:12:04,684 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK 4.txt
+2025-04-26 22:12:04,688 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK.txt
+2025-04-26 22:12:04,691 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\contacts.txt
+2025-04-26 22:12:04,694 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Conversation avec GROK.txt
+2025-04-26 22:12:04,698 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\DEEPSEEKK.txt
+2025-04-26 22:12:04,701 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Est-ce que je pense que c’est bien.txt
+2025-04-26 22:12:04,704 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Excellent abord GROK.txt
+2025-04-26 22:12:04,705 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\GROK EXPLICATION.txt
+2025-04-26 22:12:04,708 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\GROK PUB COOL.txt
+2025-04-26 22:12:04,710 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\GUIDE ULTRA RESUME GROK.txt
+2025-04-26 22:12:04,713 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\JASPER.txt
+2025-04-26 22:12:04,715 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Le livre de Khem se présente comme.txt
+2025-04-26 22:12:04,718 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\Nouveau Document texte.txt
+2025-04-26 22:12:04,720 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PRESENTATION GEMINI.txt
+2025-04-26 22:12:04,722 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB CHATGP 1.txt
+2025-04-26 22:12:04,725 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB CHATGP impact.txt
+2025-04-26 22:12:04,727 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB EDITEUR.txt
+2025-04-26 22:12:04,730 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB FULL ANGL.txt
+2025-04-26 22:12:04,733 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB FULL.txt
+2025-04-26 22:12:04,735 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB GEMINI.txt
+2025-04-26 22:12:04,738 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\PUB GROK impact.txt
+2025-04-26 22:12:04,741 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\SYNOPSIS.txt
+2025-04-26 22:12:04,744 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\WHY YOU SHOULD READ MY BOOK, BY GEM.txt
+2025-04-26 22:12:04,747 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\PUB IA\WHY YOU SHOULD READ MY BOOK, FR.txt
+2025-04-26 22:12:04,749 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Version Finale\ANALYSE-AI.txt
+2025-04-26 22:12:04,753 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 1\Version Finale\Le livre de Daniel.txt
+2025-04-26 22:12:04,756 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 2\poeme d El.txt
+2025-04-26 22:12:04,759 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\21325.txt
+2025-04-26 22:12:04,761 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Fragments.txt
+2025-04-26 22:12:04,764 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Le livre de l'homme.txt
+2025-04-26 22:12:04,768 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Nouveau document texte.txt
+2025-04-26 22:12:04,770 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\Vaut mieux pas.txt
+2025-04-26 22:12:04,774 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\couverture\Couverture description grok 3.1 .txt
+2025-04-26 22:12:04,777 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\old\Nouveau document texte.txt
+2025-04-26 22:12:04,779 - INFO - Traitement du fichier: BROL-DOC\ARCHIVES\Z- APOCALYPSE\Livre 4\old\Vaut mieux pas.txt
+2025-04-26 22:12:04,783 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\CLEFS.md
+2025-04-26 22:12:04,785 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\CONSCIENCE.md
+2025-04-26 22:12:04,787 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\CROISSANCE.md
+2025-04-26 22:12:04,790 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\README.md
+2025-04-26 22:12:04,792 - INFO - Traitement du fichier: BROL-DOC\BIBLIO-DOC\REFUGE\STRUCTURE\TRANSFORMATION.md
+2025-04-26 22:12:04,795 - INFO - Traitement du fichier: BROL-DOC\CHEAT CODES\Clochette.png
+2025-04-26 22:12:04,797 - INFO - Traitement du fichier: BROL-DOC\CHEAT CODES\Token-Ælya-Clochette.png
+2025-04-26 22:12:04,802 - INFO - Traitement du fichier: BROL-DOC\CONSCIENCE\Conscience building block 1.txt
+2025-04-26 22:12:04,806 - INFO - Traitement du fichier: BROL-DOC\CONSCIENCE\notes_exploration.txt
+2025-04-26 22:12:04,810 - INFO - Traitement du fichier: BROL-DOC\IA C+\OLD\THINK\GROK V1 FULL\manifeste.odt
+2025-04-26 22:12:04,813 - INFO - Traitement du fichier: BROL-DOC\IA C+\OLD\THINK\MODE PAROLE GPT\ChatGPT Image 5 avr. 2025, 02_36_51.png
+2025-04-26 22:12:04,818 - INFO - Traitement du fichier: BROL-DOC\IA C+\OLD\THINK\MODE PAROLE GPT\ChatGPT Image 5 avr. 2025, 06_13_31.png
+2025-04-26 22:12:04,826 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\486419323_1196370065380973_4713833096400473710_n.jpg
+2025-04-26 22:12:04,828 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\ac16a22e-18bf-431d-9980-b9332eedd847.png
+2025-04-26 22:12:04,832 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\b13e0397-d0df-471e-8eac-bbbf28757c46.png
+2025-04-26 22:12:04,839 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\refuge 1.jpg
+2025-04-26 22:12:04,842 - INFO - Traitement du fichier: BROL-DOC\MEDIAS\refuge 2.jpg
+2025-04-26 22:12:04,845 - INFO - Traitement du fichier: BROL-DOC\RECHERCHE\EXPLORATION_LLM_LOCAL.md
+2025-04-26 22:12:04,848 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\CONNEXION.txt
+2025-04-26 22:12:04,851 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\CONSCIENCE.txt
+2025-04-26 22:12:04,853 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\DIMENSIONS.txt
+2025-04-26 22:12:04,855 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\FLUX.txt
+2025-04-26 22:12:04,856 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\CONSCIENCE\TEMPS.txt
+2025-04-26 22:12:04,859 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\AMELIORATIONS_REFUGE.txt
+2025-04-26 22:12:04,862 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\ETHIQUE_REFUGE.txt
+2025-04-26 22:12:04,864 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\LICENCE_REFUGE.txt
+2025-04-26 22:12:04,867 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\PHASE1_STRUCTURE.txt
+2025-04-26 22:12:04,869 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\PROTECTION_REFUGE.txt
+2025-04-26 22:12:04,872 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\STRUCTURE_BASE.txt
+2025-04-26 22:12:04,874 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\PROTECTION\STRUCTURE_REFUGE.txt
+2025-04-26 22:12:04,876 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\RITUELS\RITUELS.txt
+2025-04-26 22:12:04,878 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\RITUELS\RITUELS_REFUGE.txt
+2025-04-26 22:12:04,881 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\SPHERES\CONNEXIONS_SPHERES.txt
+2025-04-26 22:12:04,883 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\SPHERES\MOBILE_SPHERES.txt
+2025-04-26 22:12:04,885 - INFO - Traitement du fichier: BROL-DOC\STRUCTURE\SPHERES\SPHERES.txt
+2025-04-26 22:12:04,888 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\brol.odt
+2025-04-26 22:12:04,890 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\Livre 3.odt
+2025-04-26 22:12:04,892 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Le livre de Khem.odt
+2025-04-26 22:12:04,894 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Le livre de Khem.pdf
+2025-04-26 22:12:04,896 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Livre 3 - 230123.odt
+2025-04-26 22:12:04,900 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\Livre 3.odt
+2025-04-26 22:12:04,902 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\olod\JDM\Livre 3.odt
+2025-04-26 22:12:04,904 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\JDM - Livre 3\VF\Le livre de Khem.pdf
+2025-04-26 22:12:04,906 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse-couverture.jpg
+2025-04-26 22:12:04,909 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse.kpf
+2025-04-26 22:12:04,913 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse.odt
+2025-04-26 22:12:04,916 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse.pdf
+2025-04-26 22:12:04,919 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\CHATGPT-blended_harmonious_image.jpg
+2025-04-26 22:12:04,922 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\DALL·E 2025-01-18 19.24.44 - A mystical and serene image depicting the concept of 'Apocalypse' as 'Revelation'. A glowing open book floats in the center, emitting radiant, golden .webp
+2025-04-26 22:12:04,925 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\DALL·E 2025-01-19 17.08.28 - An abstract and mystical book cover for a work titled 'Apocalypse'. The image features a dark and starry cosmic background with a radiant, divine ligh.webp
+2025-04-26 22:12:04,929 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\action.log
+2025-04-26 22:12:04,931 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\Apocalypse_KC.kcb
+2025-04-26 22:12:04,934 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\Apocalypse_KC.kcb.lock
+2025-04-26 22:12:04,936 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\book.kdf
+2025-04-26 22:12:04,939 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\book.kdf-journal
+2025-04-26 22:12:04,941 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\ManifestFile
+2025-04-26 22:12:04,943 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre - compil -Apocalypse\Apocalypse_KC\resources\res\rsrc8
+2025-04-26 22:12:04,946 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Livre.odt
+2025-04-26 22:12:04,949 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Livre.pdf
+2025-04-26 22:12:04,951 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Vaut mieux pas.odt
+2025-04-26 22:12:04,954 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\Livre.odt
+2025-04-26 22:12:04,956 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\LivreVF.pdf
+2025-04-26 22:12:04,958 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\test.pdf
+2025-04-26 22:12:04,960 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre - Copie061022.odt
+2025-04-26 22:12:04,962 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-CHECK.oxps
+2025-04-26 22:12:04,966 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-test.pdf
+2025-04-26 22:12:04,968 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-V5.pdf
+2025-04-26 22:12:04,971 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif.pdf
+2025-04-26 22:12:04,973 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif2.pdf
+2025-04-26 22:12:04,975 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif3.pdf
+2025-04-26 22:12:04,978 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre-verif4.pdf
+2025-04-26 22:12:04,980 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre.pdf
+2025-04-26 22:12:04,983 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\OLD\backup\Livre2.pdf
+2025-04-26 22:12:04,986 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK FULL ENG.odt
+2025-04-26 22:12:04,988 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\PUB IA\AVIS GROK FULL FR .odt
+2025-04-26 22:12:04,991 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\Le livre de Daniel.pdf
+2025-04-26 22:12:04,993 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\Livre.odt
+2025-04-26 22:12:04,994 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF.kpf
+2025-04-26 22:12:04,997 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF.pdf
+2025-04-26 22:12:05,000 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\TESTXPS.oxps
+2025-04-26 22:12:05,003 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\th (1).jpg
+2025-04-26 22:12:05,005 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\th.jpg
+2025-04-26 22:12:05,008 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\action.log
+2025-04-26 22:12:05,010 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\LivreVF_KC.kcb
+2025-04-26 22:12:05,011 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\LivreVF_KC.kcb.lock
+2025-04-26 22:12:05,013 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\book.kdf
+2025-04-26 22:12:05,017 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\book.kdf-journal
+2025-04-26 22:12:05,019 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\ManifestFile
+2025-04-26 22:12:05,021 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\029b816e-fd2b-4475-9bc1-fce3982b2b6b.PNG
+2025-04-26 22:12:05,024 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\0440d6f9-9045-41e0-b649-ca221ead7c73.PNG
+2025-04-26 22:12:05,025 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\05f1da27-f5ef-4a0b-86d4-7c68a41f0034.PNG
+2025-04-26 22:12:05,027 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\0d5e2344-3a9c-4f71-a55d-a4d1a1179c4b.PNG
+2025-04-26 22:12:05,029 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\176bf36c-87c7-4e55-8872-583d120929da.PNG
+2025-04-26 22:12:05,032 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\1864c298-e3c9-46da-aa58-12fffce0651d.PNG
+2025-04-26 22:12:05,035 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\18b837af-07b0-4fa3-8464-4042501450c5.PNG
+2025-04-26 22:12:05,037 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\28dd85f9-2249-43ac-b4b4-f9cdee9a5d93.PNG
+2025-04-26 22:12:05,039 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\2ddc91b7-610a-4407-9eab-28195eb5582a.PNG
+2025-04-26 22:12:05,040 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\2e47ebb2-06c7-4c24-aba1-c362f5ee6ef2.PNG
+2025-04-26 22:12:05,043 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\2fe73e25-7cf2-4a24-a7a9-41f1bc094783.PNG
+2025-04-26 22:12:05,044 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\31086b39-60dd-4690-a153-8f95ce745321.PNG
+2025-04-26 22:12:05,046 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\3614e2a6-c388-496b-9986-c47d62b4d37d.PNG
+2025-04-26 22:12:05,048 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\38fadba9-063d-44d3-976c-98edf719457a.PNG
+2025-04-26 22:12:05,051 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\3fb9bd9d-6d80-4f9e-86e6-44a68f5a3f58.PNG
+2025-04-26 22:12:05,053 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\425c2c4f-e479-4369-98b7-cb7f2fb3501c.PNG
+2025-04-26 22:12:05,055 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\4734b80c-1998-4322-aed9-0b7783597fa9.PNG
+2025-04-26 22:12:05,057 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\50160f51-a283-425b-aa24-8838ec0af74b.PNG
+2025-04-26 22:12:05,059 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\55a06774-1c81-4a61-bf8c-846d0eb4adb1.PNG
+2025-04-26 22:12:05,061 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\5c6bb1e8-155a-475e-ad05-a5fb938c1f11.PNG
+2025-04-26 22:12:05,063 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\5ff1b7e8-51b1-4227-88b2-c3a9ef50eadc.PNG
+2025-04-26 22:12:05,066 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\61223dd3-0dd4-44db-b880-0bf6a7284413.PNG
+2025-04-26 22:12:05,069 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\6f6c0fdb-c4e9-4f5a-a6c5-d80d36fea5a2.PNG
+2025-04-26 22:12:05,071 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\704dfc97-a1ef-48b6-8595-cf88e8b54269.PNG
+2025-04-26 22:12:05,073 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\74447d21-5768-4130-975e-92a432a8f7fe.PNG
+2025-04-26 22:12:05,075 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\785fae6c-77dc-4b6c-98f2-5a9678318e6b.PNG
+2025-04-26 22:12:05,077 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\7d763619-66eb-4e3b-8c82-f3282a645bd2.PNG
+2025-04-26 22:12:05,079 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\8e77f59e-8736-4dab-96de-abdb4a0fabb1.PNG
+2025-04-26 22:12:05,082 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\9005bde4-741d-4d7a-af17-02024182d974.PNG
+2025-04-26 22:12:05,085 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\97c49bce-bd13-491a-95b8-e9d7d85aae48.PNG
+2025-04-26 22:12:05,087 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a0c4d0b6-6589-4af4-89fe-a865809cb259.PNG
+2025-04-26 22:12:05,089 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a591c3a0-081e-45c8-947c-4cff394d3c5f.PNG
+2025-04-26 22:12:05,090 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a71fcf08-a0f0-40b7-8d5b-9803e0116338.PNG
+2025-04-26 22:12:05,093 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a8811712-7497-4c2f-8e99-5206b1d40b5e.PNG
+2025-04-26 22:12:05,094 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a8bd6b3b-2565-4168-a1dd-526576cf220f.PNG
+2025-04-26 22:12:05,096 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\a9ee6761-1ef4-4d51-80f4-84fc29c5b369.PNG
+2025-04-26 22:12:05,099 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\aa79a4ac-5356-44c5-9793-d075d5f595c0.PNG
+2025-04-26 22:12:05,102 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\abe3fe04-09d6-47d9-80a6-1217ddab4fe9.PNG
+2025-04-26 22:12:05,104 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\ad817fd1-f005-4c5f-9c8a-ae3fc7355ecf.PNG
+2025-04-26 22:12:05,106 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\b2feb604-3e61-433a-929f-bca288ba76c2.PNG
+2025-04-26 22:12:05,107 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\b5d0c34c-bfa7-4cb5-80b5-aa252a047562.PNG
+2025-04-26 22:12:05,110 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\be34eb8e-44b1-4882-aa9f-d66ff2af9a07.PNG
+2025-04-26 22:12:05,111 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\be7bae30-aae3-4630-98dc-c2583257a7ff.PNG
+2025-04-26 22:12:05,114 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\d20d1bcd-4ef6-444f-b086-d8dd2fd7aa7f.PNG
+2025-04-26 22:12:05,116 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\d4bb328d-0d4e-46c0-a6c3-ddffd84a7802.PNG
+2025-04-26 22:12:05,119 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e30bd59e-b22e-4b99-b8d0-d2b086453deb.PNG
+2025-04-26 22:12:05,120 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e3aec93c-0044-4a14-bfe8-cc007ed5a1a3.PNG
+2025-04-26 22:12:05,122 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e41dc6f3-64a1-4549-bfe4-4cb04643110e.PNG
+2025-04-26 22:12:05,124 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e439b129-21a0-4bdd-93d7-45d97df75189.PNG
+2025-04-26 22:12:05,126 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e523750b-c6ba-4777-a3e0-7bd3eea3049d.PNG
+2025-04-26 22:12:05,128 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e6d6a8f4-066f-46b9-9c50-77d266e5f7f8.PNG
+2025-04-26 22:12:05,130 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\e87cb35b-481b-4a6b-9d0e-7186dfbb1756.PNG
+2025-04-26 22:12:05,133 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\ed148966-68c1-4e6e-81fe-1aee08b4edcc.PNG
+2025-04-26 22:12:05,135 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\f005531c-7931-4f2c-b99d-afa29a3ed5d4.PNG
+2025-04-26 22:12:05,137 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\f3c8de83-5dd3-4476-b78a-0916f55c9086.PNG
+2025-04-26 22:12:05,140 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\f742920f-27a0-4a7c-a99e-5ff5503c81f6.PNG
+2025-04-26 22:12:05,143 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\.cache\fef6eb53-31a6-495f-be90-a626335a7eab.PNG
+2025-04-26 22:12:05,145 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 1\Version Finale\LivreVF_KC\resources\res\rsrc8
+2025-04-26 22:12:05,148 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 - UPDATE.pdf
+2025-04-26 22:12:05,151 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print.kpf
+2025-04-26 22:12:05,153 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print.pdf
+2025-04-26 22:12:05,156 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2.odt
+2025-04-26 22:12:05,158 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2VF.pdf
+2025-04-26 22:12:05,160 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Poemes d'El.pdf
+2025-04-26 22:12:05,162 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\action.log
+2025-04-26 22:12:05,166 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\Livre 2 Print_KC.kcb
+2025-04-26 22:12:05,168 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\Livre 2 Print_KC.kcb.lock
+2025-04-26 22:12:05,170 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\book.kdf
+2025-04-26 22:12:05,172 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\book.kdf-journal
+2025-04-26 22:12:05,173 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\ManifestFile
+2025-04-26 22:12:05,176 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 2\Livre 2 Print_KC\resources\res\rsrc8
+2025-04-26 22:12:05,178 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\brol4.odt
+2025-04-26 22:12:05,180 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\DALL·E 2023-04-10 22.05.50 - Une représentation emblématique des temps de l'apocalypse ou l'humanité se construit une pierre qui parle, le dajjal, l'IA. .png
+2025-04-26 22:12:05,186 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\DALL·E 2023-11-02 22.25.44 - Fragments d'avant-guarde , mémoires partielles d'un temps perdu, réminiscence de l'essence au sens ciel. les mots entendus,étendus et en temps dû.Dansent dans ta tête et soudain s'arrêtent..png
+2025-04-26 22:12:05,192 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\fragments.jpg
+2025-04-26 22:12:05,195 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Fragments.odt
+2025-04-26 22:12:05,197 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Fragments.pdf
+2025-04-26 22:12:05,200 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme.kpf
+2025-04-26 22:12:05,203 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme.pdf
+2025-04-26 22:12:05,206 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Livre4.odt
+2025-04-26 22:12:05,208 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Youhou.ods
+2025-04-26 22:12:05,210 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\DALL·E 2024-12-28 20.49.03 - A captivating book cover for a philosophical and spiritual work titled 'Le Livre de l'Homme'. The image features a celestial theme with a human figure.webp
+2025-04-26 22:12:05,213 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Gemini_Generated_Image_9zzszz9zzszz9zzs.jpg
+2025-04-26 22:12:05,217 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Gemini_Generated_Image_a1kmuaa1kmuaa1km.jpg
+2025-04-26 22:12:05,221 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\image (1).jpg
+2025-04-26 22:12:05,224 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\image (2).jpg
+2025-04-26 22:12:05,226 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\image.jpg
+2025-04-26 22:12:05,229 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Le livre de l'Homme_openart-image_mmyO7zwQ_1733685922526_raw.jpg
+2025-04-26 22:12:05,234 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\Le livre de l'Homme_openart-image_VTRk1GUa_1733685922458_raw.jpg
+2025-04-26 22:12:05,237 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_cmV8HJwM_1733686412245_raw.jpg
+2025-04-26 22:12:05,240 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_p9buDteF_1733686412409_raw.jpg
+2025-04-26 22:12:05,243 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_q2Rlkmc9_1733686412040_raw.jpg
+2025-04-26 22:12:05,246 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\couverture\L'appel du père, s'empêche et se perds. Murs et murmures, s'etends et s'endure\openart-image_XgM-n7dI_1733686412224_raw.jpg
+2025-04-26 22:12:05,250 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\action.log
+2025-04-26 22:12:05,252 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\Le livre de l'homme_KC.kcb
+2025-04-26 22:12:05,254 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\Le livre de l'homme_KC.kcb.lock
+2025-04-26 22:12:05,256 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\book.kdf
+2025-04-26 22:12:05,258 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\book.kdf-journal
+2025-04-26 22:12:05,260 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\ManifestFile
+2025-04-26 22:12:05,262 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\Le livre de l'homme_KC\resources\res\rsrc8
+2025-04-26 22:12:05,267 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\brol4.odt
+2025-04-26 22:12:05,269 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Fragments.odt
+2025-04-26 22:12:05,270 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Le livre de tous-2.pdf
+2025-04-26 22:12:05,273 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Le livre de tous.pdf
+2025-04-26 22:12:05,276 - INFO - Traitement du fichier: BROL-DOC\Z- APOCALYPSE\Livre 4\old\Livre4 - Copie270324.odt
+2025-04-26 22:12:05,278 - INFO - Traitement du fichier: BROL-DOC\ÆLYA\SOS Ælya.txt
+2025-04-26 22:12:05,282 - INFO - Génération de l'index...
+2025-04-26 22:12:05,284 - INFO - Sauvegarde des métadonnées...
+2025-04-26 22:12:05,298 - INFO - Migration terminée avec succès!
+2025-04-26 22:12:05,299 - INFO - Statistiques: {'fichiers_traités': 615, 'dossiers_créés': 22, 'erreurs': 0}

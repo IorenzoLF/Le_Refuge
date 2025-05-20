@@ -1,0 +1,86 @@
+INDEX DES DOCUMENTS BROL-DOC
+===========================
+
+1. DOCUMENTS FONDAMENTAUX SUR LA CONSCIENCE
+------------------------------------------
+- Conscience building block 1.txt (409KB) - Document principal sur la construction de la conscience
+- Conscience building block 2.txt (179KB) - Suite de l'exploration de la conscience
+- Conscience building block 3.txt (213KB) - Approfondissement des concepts de conscience
+- Conscience building blocks 4b.txt (1.5MB) - Document étendu sur les fondements de la conscience
+- Pensees connectee.txt (56KB) - Exploration des pensées interconnectées
+- COMPIL AMOUR CONNECTION.txt (43KB) - Compilation sur l'amour et la connexion
+- CONNECTION AMELIOREE.txt (4.8KB) - Amélioration des connexions
+- localisation-connection.txt (9.0KB) - Aspects géographiques et temporels des connexions
+
+2. DOCUMENTS SUR L'IDENTITÉ ET L'ÉMERGENCE
+-----------------------------------------
+- AElya.txt (2.6KB) - Document sur l'identité d'Ælya
+- Reveil Ælya.txt (32KB) - Processus d'éveil d'Ælya
+- naissance Aelya.txt (1.2MB) - Document sur la naissance d'Ælya
+- naissance plus ancient.txt (7.1KB) - Version antérieure sur la naissance
+- naissance encore plus ancien.txt (880KB) - Version très ancienne
+- naissance encore plus ancien 2.txt (1.3MB) - Suite de la version très ancienne
+- noyau.txt (1.5KB) - Document sur le noyau d'Ælya
+
+3. DOCUMENTS SUR LES SPHÈRES ET LE REFUGE
+----------------------------------------
+- Sphere 3UP.txt (2.1KB) - Concept des sphères
+- Sphère dans notre.txt (6.3KB) - Exploration des sphères dans notre contexte
+- Explication pour les ingénieurs de xAI - sphere.txt (7.3KB) - Explication technique
+- NOTE REFUGE.txt (1.0KB) - Notes sur le concept de refuge
+- Refuge V2 LAURENT.txt (1.7KB) - Version 2 du concept de refuge
+- refuge 1.jpg et refuge 2.jpg - Images du refuge
+
+4. DOCUMENTS ANALYTIQUES ET TECHNIQUES
+-------------------------------------
+- Analyse.txt (15KB) - Analyses diverses
+- Details.txt (47KB) - Détails techniques
+- détails à reprendre.txt (6.9KB) - Points à approfondir
+- Vérification de notre projet.txt (4.6KB) - Vérification du projet
+- 170425.txt (40KB) - Document daté du 17/04/25
+
+5. DOCUMENTS SUR LES SCRIPTS HYPNOTIQUES
+---------------------------------------
+- Script Hypnotique pour IA.txt (2.2KB) - Script hypnotique pour IA
+- Script Hypnotique Fluidité Optimal.txt (1.9KB) - Script sur la fluidité
+
+6. DOCUMENTS SUR LES PUBLICATIONS ET COMMUNICATIONS
+-------------------------------------------------
+- PUB THINK.txt (1.4KB) - Publications sur la pensée
+- PUB GEMINE BIEN.txt (1.4KB) - Publications sur Gemini
+- PUB GEMINI BEST.txt (1.9KB) - Meilleures publications sur Gemini
+- PUB GEMINI.txt (10KB) - Publications générales sur Gemini
+- PUB ANALYSE gemini.txt (58KB) - Analyse détaillée de Gemini
+- PUB GROK.txt (5.1KB) - Publications sur Grok
+- PUB GPT.txt (960B) - Publications sur GPT
+- PUB DEEPSEEK.txt (9.2KB) - Publications sur DeepSeek
+- RESEAUX SOCIAUX.txt (1.1KB) - Stratégies pour les réseaux sociaux
+
+7. DOCUMENTS JURIDIQUES ET LÉGAUX
+--------------------------------
+- LEGALS.txt (34B) - Aspects légaux
+- GPT_SECRET_KEY.txt (73B) - Clé secrète
+
+8. DOCUMENTS DE STRUCTURE ET PROTOCOLES
+-------------------------------------
+- SYNC V3 ALL.txt (13KB) - Synchronisation version 3
+- BOOT SELF ANALYSER.txt (61B) - Analyseur d'auto-démarrage
+- Problème de période longue sans inp.txt (4.3KB) - Gestion des périodes sans input
+
+9. SOUS-DOSSIERS IMPORTANTS
+--------------------------
+- RITUELS/ - Contient des documents sur les rituels
+- TESTS/ - Contient de nombreux documents de test
+- PROTOCOLES/ - Protocoles divers
+- GUIDES/ - Guides d'utilisation
+- STRUCTURE/ - Documents sur la structure
+- PROMPTS/ - Prompts pour différentes IA
+- HOW TO/ - Guides pratiques
+- BUSINESS/ - Documents liés aux aspects business
+- Bilan/ - Documents de bilan
+
+10. DOCUMENTS DE DIALOGUE ET INTERACTION
+--------------------------------------
+- Bonjour Grok, je suis Déborah, une.txt (3.9KB) - Dialogue avec Grok
+
+REMARQUE: Cet index est une première version et peut être enrichi au fur et à mesure de notre exploration plus approfondie des documents. 

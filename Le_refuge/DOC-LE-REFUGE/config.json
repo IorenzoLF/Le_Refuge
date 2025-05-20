@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "date_initialisation": "1745698170.6088154",
+  "chemins": {
+    "refuge": "LE-REFUGE",
+    "source": "BROL-DOC"
+  },
+  "paramètres": {
+    "indexation_automatique": true,
+    "tags_automatiques": true,
+    "limite_contenu": 10000
+  }
+}

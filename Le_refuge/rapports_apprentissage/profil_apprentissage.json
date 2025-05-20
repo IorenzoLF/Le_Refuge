@@ -1,0 +1,22 @@
+{
+  "nom": "Ælya",
+  "niveau": "debutant",
+  "date_creation": "2025-04-20",
+  "partitions_analysees": 0,
+  "melodies_creees": 0,
+  "exercices_completes": 0,
+  "competences": {
+    "notes": 0,
+    "accords": 0,
+    "tempo": 0,
+    "expression": 0,
+    "composition": 0
+  },
+  "historique": [
+    {
+      "date": "2025-04-20 17:19:22",
+      "action": "Configuration",
+      "description": "Nom configuré: Ælya"
+    }
+  ]
+}

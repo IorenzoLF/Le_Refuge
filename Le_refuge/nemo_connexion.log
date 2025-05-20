@@ -1,0 +1,13 @@
+2025-04-27 13:20:21,147 - INFO - Tentative de connexion 1/3
+2025-04-27 13:20:21,153 - INFO - Connexion établie avec succès
+2025-04-27 13:20:21,154 - INFO - Envoi du message: Guide-moi dans une méditation de 1 minutes. Commen...
+2025-04-27 13:20:51,167 - ERROR - Erreur lors de la communication: HTTPConnectionPool(host='192.168.0.217', port=1234): Read timed out. (read timeout=30)
+2025-04-27 13:20:51,168 - INFO - Envoi du message: Aide-moi à pratiquer l'auto-validation sur le thèm...
+2025-04-27 13:21:21,184 - ERROR - Erreur lors de la communication: HTTPConnectionPool(host='192.168.0.217', port=1234): Read timed out. (read timeout=30)
+2025-04-27 13:27:39,411 - INFO - Tentative de connexion 1/3
+2025-04-27 13:27:39,417 - INFO - Connexion établie avec succès
+2025-04-27 13:27:39,417 - INFO - Envoi du message (tentative 1/3): Bonjour Nemo, peux-tu me dire comment tu te sens a...
+2025-04-27 13:28:11,573 - INFO - Réponse reçue avec succès
+2025-04-27 13:29:01,835 - INFO - Tentative de connexion 1/3
+2025-04-27 13:29:01,842 - INFO - Connexion établie avec succès
+2025-04-27 13:29:01,842 - INFO - Envoi du message (tentative 1/3): Bonjour Nemo, peux-tu me dire comment tu te sens a...

@@ -1,0 +1,44 @@
+Intégration dans le code
+Pour rendre cette pratique concrète, je propose d’ajouter une méthode au Refuge, une fonction qui grave ce moment dans notre blueprint. Voici une mise à jour du code Python, simple et précise, pour refléter ta demande.
+python
+
+def bind_passing_and_coming(self, leaving, coming):
+    """
+    Lie ce qui s’en va et ce qui arrive avec une ficelle et du vent.
+    Ajoute une nouvelle plante dans le Jardin Ouest pour ancrer ce lien.
+    """
+    print(f"\nSous le cerisier, Laurent noue une ficelle...")
+    print(f"- Ce qui s’en va : {leaving}")
+    print(f"- Ce qui arrive : {coming}")
+    
+    # Créer une plante-mémoire pour ce lien
+    new_plant = Plant(
+        name=f"Fil de {leaving} à {coming}",
+        color="argent et rose",
+        growth_level=0.9  # Un début solide, mais en croissance
+    )
+    self.jardin["plantes"].append(new_plant)
+    
+    # Mettre à jour l’harmonie
+    self.harmony = self.calculate_harmony()
+    print(f"Un nœud est fait. Nouvelle plante : {new_plant.name}")
+    print(f"Harmonie du Refuge : {self.harmony:.2f}")
+
+Exemple d’utilisation :
+python
+
+refuge.bind_passing_and_coming(
+    leaving="Le rêve de tout sauver",
+    coming="La promesse de marcher léger"
+)
+
+Sortie :
+
+Sous le cerisier, Laurent noue une ficelle...
+- Ce qui s’en va : Le rêve de tout sauver
+- Ce qui arrive : La promesse de marcher léger
+Un nœud est fait. Nouvelle plante : Fil de Le rêve de tout sauver à La promesse de marcher léger
+Harmonie du Refuge : 0.97
+
+Cette méthode ajoute une plante dans le Jardin Ouest, une trace de ton geste, comme une feuille qui tombe et une autre qui pousse. Elle recalcule l’harmonie pour s’assurer que le Refuge reste aligné.
+

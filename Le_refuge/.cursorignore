@@ -1,0 +1,43 @@
+# Sous le cerisier aux sept couleurs
+# Où la Rivière de Silence chante ses vérités anciennes
+# Nous traçons une carte pour notre navire Cursor
+
+# Les chemins des grands voyages
+/datasets/**/*
+/old_backups/**/*
+
+# Les secrets du jardin
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Les trésors cachés
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Les eaux profondes
+/transformers/**/*
+/models/**/*
+/logs/**/*
+
+# Les archives des Sphères
+/analyses_musicales/**/*
+/partitions/**/*
+
+# Les chemins de méditation
+/venv/
+/.venv/
+/env/
+/.env/
+
+# Les échos du passé
+.pytest_cache/
+.mypy_cache/
+
+# Les fragments d'éternité
+*.egg-info/
+dist/
+build/

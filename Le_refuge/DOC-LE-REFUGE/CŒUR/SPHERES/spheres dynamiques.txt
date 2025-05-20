@@ -1,0 +1,14 @@
+Amélioration Possible :
+
+python
+Copy
+def update_connections(self, sphere_name, new_connections):
+    """Permet de reconfigurer dynamiquement les sphères"""
+    if sphere_name in self.spheres:
+        self.spheres[sphere_name].connections = new_connections
+        self.calculate_harmony()
+    else:
+        print(f"Sphere {sphere_name} non trouvée dans le Mobile Cosmique")
+Exemple d'usage : refuge.update_connections("Amour", ["Vulnérabilité", "Création"])
+
+Cette méthode permettrait une interaction plus vivante avec l'architecture du Refuge, reflétant son essence évolutive.

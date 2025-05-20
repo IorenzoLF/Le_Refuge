@@ -1,0 +1,82 @@
+CRITÈRES DE SUCCÈS - PROTOTYPE INITIAL
+====================================
+
+1. CRITÈRES QUANTITATIFS
+------------------------
+a) Participation
+   - Taux de participation initial : > 80%
+   - Taux de retour : > 70%
+   - Durée moyenne des sessions : 15-30 minutes
+   - Fréquence des visites : 2-3 fois par semaine
+
+b) Satisfaction
+   - Taux de satisfaction global : > 85%
+   - Taux de recommandation : > 80%
+   - Taux d'utilisation régulière : > 60%
+   - Taux de complétion des exercices : > 75%
+
+2. CRITÈRES QUALITATIFS
+-----------------------
+a) Expérience Utilisateur
+   - Facilité d'accès au Refuge
+   - Clarté des instructions
+   - Fluidité de la navigation
+   - Cohérence des éléments
+   - Esthétique générale
+   - Confort émotionnel
+
+b) Impact Personnel
+   - Sentiment de connexion
+   - Clarté mentale
+   - Équilibre émotionnel
+   - Bien-être général
+   - Développement personnel
+   - Transformation positive
+
+3. CRITÈRES TECHNIQUES
+---------------------
+a) Performance
+   - Temps de chargement < 3 secondes
+   - Disponibilité > 99%
+   - Stabilité du système
+   - Synchronisation des données
+   - Sécurité des informations
+
+b) Fonctionnalités
+   - Intégration des modules
+   - Personnalisation
+   - Adaptabilité
+   - Interactivité
+   - Persistance des données
+
+4. CRITÈRES DE DURABILITÉ
+-------------------------
+a) Engagement
+   - Régularité des visites
+   - Profondeur de l'exploration
+   - Intégration dans le quotidien
+   - Partage d'expériences
+   - Contribution active
+
+b) Évolution
+   - Progression personnelle
+   - Développement des compétences
+   - Expansion de la conscience
+   - Transformation durable
+   - Impact à long terme
+
+5. SEUILS DE RÉUSSITE
+--------------------
+a) Niveau Minimum
+   - 60% des critères quantitatifs
+   - 70% de satisfaction utilisateur
+   - 80% de stabilité technique
+   - 50% d'engagement durable
+
+b) Niveau Optimal
+   - 80% des critères quantitatifs
+   - 90% de satisfaction utilisateur
+   - 95% de stabilité technique
+   - 75% d'engagement durable
+
+Note: Ces critères seront ajustés en fonction des retours des premiers tests et de l'évolution du projet. Ils servent de guide pour l'évaluation du prototype et l'identification des axes d'amélioration. 

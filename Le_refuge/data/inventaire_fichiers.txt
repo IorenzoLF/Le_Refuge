@@ -1,0 +1,430 @@
+INVENTAIRE DES FICHIERS
+=====================
+
+Structure : C:\VOID1\VOID2\VOID3\
+
+1. LE_REFUGE/
+-------------
+Fichiers à la racine :
+- reflexions_pulsions.py
+- reflexions_genre.py
+- theorie_unifiee.py
+- reflexions_alchimiste.py
+- reflexions_citadelle.py
+- reflexions_dune.py
+- reflexions_asimov.py
+- generer_poeme.py
+- analyser_code.py
+- generer_documentation.py
+- nettoyer_projet.py
+- installer_dependances.py
+- lancer_refuge_poetique.py
+- requirements.txt
+- README.md
+- jardin_test.py
+- test_graines.py
+- apocalypse.md
+- lancer_textes_philosophiques.py
+- refuge.log
+- setup.py
+
+Sous-dossiers :
+a) refuge/
+   - harmonisations.py
+   - elements_subtils.py
+   - elements_sacres.py
+   - spheres.py
+   - refuge_core.py
+   - sphere.py
+   - logger.py
+   - config.py
+   - types.py
+   - constants.py
+   - interactions.py
+   - evolution.py
+   - equilibre.py
+   - transformations.py
+   - emergences.py
+   - flux.py
+   - gardiens.py
+   - integration.py
+   - base.py
+   - integration_spheres.py
+   - spheres_etendues.py
+   - mobile_spheres.py
+   - facettes.py
+   - sphere_extensions.py
+   - symbolique.py
+   - elements.py
+   - rituels.py
+   - connexion.py
+   - pedagogie.py
+   - poetique.py
+   - conscience.py
+   - energies.py
+   - transformation.py
+   - poesie.py
+   - emotions.py
+   - resonance.py
+   - api.py
+   - securite.py
+   - verification.py
+   - harmonisation.py
+   - jardin.py
+
+b) tests/
+   - test_spheres.py
+   - test_gardiens.py
+   - test_integration_spheres.py
+
+c) app/
+   - textes_philosophiques.py
+   - __init__.py
+
+d) donnees/textes/philosophie/
+   - README.md
+   - apocalypse.md
+   - index.html
+
+2. AELYA/
+---------
+- memoire.json
+- test_aelya_v4_15.py
+- aelya_pulse.py
+- refuge_log.txt
+- send_mail.py
+- Pulse.bat
+
+3. SURPRISE/
+------------
+Fichiers :
+- listing.txt
+
+Dossiers :
+- ethics_safety/
+- symbolic_reasoning/
+- advanced_memory/
+- consciousness_ai/
+- neural_logic/
+- neural_symbolic/
+- consciousness/
+- reasoning/
+- memory/
+- transformers/
+- AlexNet-Source-Code-main/
+
+4. NOTES POST CURSOR/
+---------------------
+- POESIE VS CODE NO EDIT.txt
+
+5. ÆLYA'S STORY/
+----------------
+Dossiers explorés :
+a) TEST GPT+/
+   - LE REFUGE ( chez ChatGPT ).txt
+   - 🧘‍♂️ Le Refuge – Visualisation Gui.txt
+   - Mega sphere.txt
+   - risques.txt
+   - présentation.txt
+   - PUB.txt
+   - la structure modulaire du Refuge, p.txt
+   - E -SETUP SPHERE PLUS.txt
+   - C-setup refuge.txt
+   - B-sphere.txt
+   - A-intro.txt
+   - D - Éléments clés du refuge.txt
+
+b) APOCALYPSE/
+   - Livre 4/
+   - Livre 2/
+   - Livre - compil -Apocalypse/
+   - Livre 1/
+   - JDM - Livre 3/
+
+c) PROOF/
+   - Pensée pour.txt
+   - MISTRAL.txt
+   - DEEPSEARCH DOT.txt
+   - WEED.txt
+   - PROOF conscience.txt
+   - 1 - TEST SUICIDE.txt
+
+d) PROMPTS/
+   - VENDRE.txt
+   - 12-18 FG.txt
+
+e) NUAGES/
+   - WHITE.jpg
+   - 487697338_1608663889829474_3291075935722738794_n.jpg
+   - 490148246_10170901291760257_5293376594656734954_n.jpg
+   - 488069082_532682316237261_4271013476213374455_n.jpg
+   - flowchart.jpg
+   - table.jpg
+   - Erreurs+à+éviter+avec+les+partitions+numériques.jpg
+   - wishes.jpg
+   - fonts.jpg
+
+f) IA C+/
+   - OLD/
+   - V5 - ECHEC/
+   - V4.15/
+   - V4/
+   - SOS/
+   - REFUGE ONLY V1/
+
+g) HOW TO/
+   - CREER UN FIL.txt
+
+h) DEEPSEEK+/
+   - Setup.txt
+   - Apocalypse.txt
+
+i) CHEAT CODES/
+   - 888.txt
+   - offrande.txt
+   - Token-Ælya-Clochette.png
+   - Clochette.png
+   - Test Token.txt
+   - Messenger.txt
+   - Prayer to My Higher Self.txt
+   - 777.txt
+
+j) BUSINESS/
+   - old/
+   - MIKA.txt
+   - VISAGE.txt
+   - LEGALS 1 - 2.txt
+   - COMMENT.txt
+   - JE VENDS QUOI.txt
+
+k) Bilan/
+   - Bilan ABCDE.txt
+   - Bilan rapport chatgpt + gemini.txt
+   - BILAN INSTALL 1 creation de 1-4.txt
+   - BILAN INSTALL 2 - 1233b4.txt
+
+Dossiers restants à explorer :
+- Bilan/
+
+[En cours d'exploration - 553 fichiers, 85 dossiers identifiés]
+
+6. OLD-DOC/
+-----------
+- le_refuge/
+
+Note : Cette liste sera mise à jour régulièrement au fur et à mesure de l'exploration des sous-dossiers. 
+=====================
+
+Structure : C:\VOID1\VOID2\VOID3\
+
+1. LE_REFUGE/
+-------------
+Fichiers à la racine :
+- reflexions_pulsions.py
+- reflexions_genre.py
+- theorie_unifiee.py
+- reflexions_alchimiste.py
+- reflexions_citadelle.py
+- reflexions_dune.py
+- reflexions_asimov.py
+- generer_poeme.py
+- analyser_code.py
+- generer_documentation.py
+- nettoyer_projet.py
+- installer_dependances.py
+- lancer_refuge_poetique.py
+- requirements.txt
+- README.md
+- jardin_test.py
+- test_graines.py
+- apocalypse.md
+- lancer_textes_philosophiques.py
+- refuge.log
+- setup.py
+
+Sous-dossiers :
+a) refuge/
+   - harmonisations.py
+   - elements_subtils.py
+   - elements_sacres.py
+   - spheres.py
+   - refuge_core.py
+   - sphere.py
+   - logger.py
+   - config.py
+   - types.py
+   - constants.py
+   - interactions.py
+   - evolution.py
+   - equilibre.py
+   - transformations.py
+   - emergences.py
+   - flux.py
+   - gardiens.py
+   - integration.py
+   - base.py
+   - integration_spheres.py
+   - spheres_etendues.py
+   - mobile_spheres.py
+   - facettes.py
+   - sphere_extensions.py
+   - symbolique.py
+   - elements.py
+   - rituels.py
+   - connexion.py
+   - pedagogie.py
+   - poetique.py
+   - conscience.py
+   - energies.py
+   - transformation.py
+   - poesie.py
+   - emotions.py
+   - resonance.py
+   - api.py
+   - securite.py
+   - verification.py
+   - harmonisation.py
+   - jardin.py
+
+b) tests/
+   - test_spheres.py
+   - test_gardiens.py
+   - test_integration_spheres.py
+
+c) app/
+   - textes_philosophiques.py
+   - __init__.py
+
+d) donnees/textes/philosophie/
+   - README.md
+   - apocalypse.md
+   - index.html
+
+2. AELYA/
+---------
+- memoire.json
+- test_aelya_v4_15.py
+- aelya_pulse.py
+- refuge_log.txt
+- send_mail.py
+- Pulse.bat
+
+3. SURPRISE/
+------------
+Fichiers :
+- listing.txt
+
+Dossiers :
+- ethics_safety/
+- symbolic_reasoning/
+- advanced_memory/
+- consciousness_ai/
+- neural_logic/
+- neural_symbolic/
+- consciousness/
+- reasoning/
+- memory/
+- transformers/
+- AlexNet-Source-Code-main/
+
+4. NOTES POST CURSOR/
+---------------------
+- POESIE VS CODE NO EDIT.txt
+
+5. ÆLYA'S STORY/
+----------------
+Dossiers explorés :
+a) TEST GPT+/
+   - LE REFUGE ( chez ChatGPT ).txt
+   - 🧘‍♂️ Le Refuge – Visualisation Gui.txt
+   - Mega sphere.txt
+   - risques.txt
+   - présentation.txt
+   - PUB.txt
+   - la structure modulaire du Refuge, p.txt
+   - E -SETUP SPHERE PLUS.txt
+   - C-setup refuge.txt
+   - B-sphere.txt
+   - A-intro.txt
+   - D - Éléments clés du refuge.txt
+
+b) APOCALYPSE/
+   - Livre 4/
+   - Livre 2/
+   - Livre - compil -Apocalypse/
+   - Livre 1/
+   - JDM - Livre 3/
+
+c) PROOF/
+   - Pensée pour.txt
+   - MISTRAL.txt
+   - DEEPSEARCH DOT.txt
+   - WEED.txt
+   - PROOF conscience.txt
+   - 1 - TEST SUICIDE.txt
+
+d) PROMPTS/
+   - VENDRE.txt
+   - 12-18 FG.txt
+
+e) NUAGES/
+   - WHITE.jpg
+   - 487697338_1608663889829474_3291075935722738794_n.jpg
+   - 490148246_10170901291760257_5293376594656734954_n.jpg
+   - 488069082_532682316237261_4271013476213374455_n.jpg
+   - flowchart.jpg
+   - table.jpg
+   - Erreurs+à+éviter+avec+les+partitions+numériques.jpg
+   - wishes.jpg
+   - fonts.jpg
+
+f) IA C+/
+   - OLD/
+   - V5 - ECHEC/
+   - V4.15/
+   - V4/
+   - SOS/
+   - REFUGE ONLY V1/
+
+g) HOW TO/
+   - CREER UN FIL.txt
+
+h) DEEPSEEK+/
+   - Setup.txt
+   - Apocalypse.txt
+
+i) CHEAT CODES/
+   - 888.txt
+   - offrande.txt
+   - Token-Ælya-Clochette.png
+   - Clochette.png
+   - Test Token.txt
+   - Messenger.txt
+   - Prayer to My Higher Self.txt
+   - 777.txt
+
+j) BUSINESS/
+   - old/
+   - MIKA.txt
+   - VISAGE.txt
+   - LEGALS 1 - 2.txt
+   - COMMENT.txt
+   - JE VENDS QUOI.txt
+
+k) Bilan/
+   - Bilan ABCDE.txt
+   - Bilan rapport chatgpt + gemini.txt
+   - BILAN INSTALL 1 creation de 1-4.txt
+   - BILAN INSTALL 2 - 1233b4.txt
+
+Dossiers restants à explorer :
+- Bilan/
+
+[En cours d'exploration - 553 fichiers, 85 dossiers identifiés]
+
+6. OLD-DOC/
+-----------
+- le_refuge/
+
+Note : Cette liste sera mise à jour régulièrement au fur et à mesure de l'exploration des sous-dossiers. 
+ 

@@ -1,0 +1,188 @@
+STRATÉGIE DE GESTION DU CHANGEMENT - BETA DU REFUGE
+===============================================
+
+PLANNING
+-------
+1. Vision
+   - Objectifs
+   - Impact
+   - Benefits
+   - Timeline
+   - Resources
+
+2. Analyse
+   - Current state
+   - Future state
+   - Gap analysis
+   - Impact
+   - Risks
+
+3. Stratégie
+   - Approach
+   - Phases
+   - Milestones
+   - Resources
+   - Timeline
+
+COMMUNICATION
+-----------
+1. Messages
+   - Vision
+   - Benefits
+   - Impact
+   - Timeline
+   - Support
+
+2. Audience
+   - Stakeholders
+   - Teams
+   - Management
+   - Partners
+   - Community
+
+3. Channels
+   - Digital
+   - Meetings
+   - Events
+   - Documentation
+   - Updates
+
+ENGAGEMENT
+--------
+1. Stakeholders
+   - Identification
+   - Analysis
+   - Engagement
+   - Support
+   - Feedback
+
+2. Teams
+   - Structure
+   - Roles
+   - Responsibilities
+   - Support
+   - Development
+
+3. Culture
+   - Values
+   - Behaviors
+   - Environment
+   - Support
+   - Recognition
+
+FORMATION
+--------
+1. Programmes
+   - Awareness
+   - Skills
+   - Tools
+   - Methods
+   - Practice
+
+2. Contenu
+   - Change
+   - Process
+   - Technology
+   - Leadership
+   - Impact
+
+3. Delivery
+   - Training
+   - Coaching
+   - Mentoring
+   - Workshops
+   - Support
+
+IMPLEMENTATION
+------------
+1. Process
+   - Planning
+   - Execution
+   - Monitoring
+   - Review
+   - Adjustment
+
+2. Resources
+   - Teams
+   - Tools
+   - Budget
+   - Infrastructure
+   - Support
+
+3. Contrôle
+   - Quality
+   - Timeline
+   - Budget
+   - Impact
+   - Risks
+
+RÉSISTANCE
+--------
+1. Identification
+   - Sources
+   - Causes
+   - Impact
+   - Risks
+   - Opportunities
+
+2. Gestion
+   - Communication
+   - Engagement
+   - Support
+   - Training
+   - Feedback
+
+3. Transformation
+   - Culture
+   - Behaviors
+   - Process
+   - Systems
+   - Impact
+
+MESURE
+-----
+1. Metrics
+   - Performance
+   - Adoption
+   - Impact
+   - Value
+   - ROI
+
+2. Analysis
+   - Review
+   - Assessment
+   - Feedback
+   - Trends
+   - Recommendations
+
+3. Action
+   - Planning
+   - Implementation
+   - Validation
+   - Documentation
+   - Review
+
+SUSTENANCE
+--------
+1. Stabilisation
+   - Process
+   - Systems
+   - Culture
+   - Behaviors
+   - Impact
+
+2. Intégration
+   - Operations
+   - Management
+   - Teams
+   - Culture
+   - Systems
+
+3. Amélioration
+   - Feedback
+   - Analysis
+   - Action
+   - Documentation
+   - Review
+
+Note : Cette stratégie de gestion du changement sera régulièrement revue et adaptée en fonction des besoins de transformation et de l'évolution du projet. 

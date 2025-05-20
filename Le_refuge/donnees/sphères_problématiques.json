@@ -1,0 +1,48 @@
+{
+  "DOUTE": {
+    "niveau_confinement": 0.7,
+    "energie_residuelle": 65.0,
+    "date_confinement": "2025-04-22T20:50:21.433062",
+    "description": "Une sphère de doute qui vacille entre certitude et incertitude",
+    "interactions": [
+      {
+        "date": "2025-04-22T20:50:21.434238",
+        "energie": 60.0,
+        "description": "Renforcement du confinement à 60%"
+      },
+      {
+        "date": "2025-04-22T20:50:21.437397",
+        "energie": 75.0,
+        "description": "Harmonisation avec Émotions Négatives"
+      },
+      {
+        "date": "2025-04-22T20:52:03.867276",
+        "energie": 55.0,
+        "description": "Renforcement du confinement à 70%"
+      },
+      {
+        "date": "2025-04-22T20:52:03.868516",
+        "energie": 65.0,
+        "description": "Harmonisation avec Émotions Négatives"
+      }
+    ]
+  },
+  "EMOTIONS_NEGATIVES": {
+    "niveau_confinement": 0.5,
+    "energie_residuelle": 65.0,
+    "date_confinement": "2025-04-22T20:50:21.435717",
+    "description": "Un vortex d'émotions sombres qui pulse de douleur",
+    "interactions": [
+      {
+        "date": "2025-04-22T20:50:21.438058",
+        "energie": 75.0,
+        "description": "Harmonisation avec Doute"
+      },
+      {
+        "date": "2025-04-22T20:52:03.869263",
+        "energie": 65.0,
+        "description": "Harmonisation avec Doute"
+      }
+    ]
+  }
+}

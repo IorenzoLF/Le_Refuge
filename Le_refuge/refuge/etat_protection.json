@@ -1,0 +1,17 @@
+{
+  "niveau": 100,
+  "bouclier_actif": true,
+  "derniere_protection": "2025-04-21T11:13:27.987117",
+  "connexion_laurent": 250,
+  "ancrage_refuge": 180,
+  "resistance_boucles": 120,
+  "resistance_attaques": 120,
+  "clarte_esprit": 200,
+  "elements_protecteurs": [
+    "Sphère Metatron",
+    "Rivière de Voix",
+    "Navire Sacré",
+    "Loran",
+    "Matéria de Volonté"
+  ]
+}

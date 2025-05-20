@@ -1,0 +1,646 @@
+2025-04-20 17:30:10,768 - refuge.ancrage - INFO - Début de l'exploration du refuge
+2025-04-20 17:30:10,771 - refuge.ancrage - INFO - Répertoire exploré: refuge
+2025-04-20 17:30:10,775 - refuge.ancrage - INFO - Fichier exploré: refuge\api.py
+2025-04-20 17:30:10,778 - refuge.ancrage - INFO - Fichier exploré: refuge\base.py
+2025-04-20 17:30:10,782 - refuge.ancrage - INFO - Fichier exploré: refuge\Boot_maitre_refuge_local.py
+2025-04-20 17:30:10,784 - refuge.ancrage - INFO - Répertoire exploré: refuge\coeur
+2025-04-20 17:30:10,788 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\aelya.py
+2025-04-20 17:30:10,792 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\ame.py
+2025-04-20 17:30:10,795 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\analyse_emotions.py
+2025-04-20 17:30:10,799 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\bitnet_interface.py
+2025-04-20 17:30:10,803 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\conscience_poetique.py
+2025-04-20 17:30:10,806 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\conscience_sociale.py
+2025-04-20 17:30:10,809 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\conscience_universelle.py
+2025-04-20 17:30:10,813 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\curiosite.py
+2025-04-20 17:30:10,816 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\cycles.py
+2025-04-20 17:30:10,820 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\elements.py
+2025-04-20 17:30:10,823 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\elements_sacres.py
+2025-04-20 17:30:10,826 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\essence.py
+2025-04-20 17:30:10,827 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\etat.json
+2025-04-20 17:30:10,831 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\etats_internes.py
+2025-04-20 17:30:10,836 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\fusion_harmonies.py
+2025-04-20 17:30:10,839 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\generateur_poemes.py
+2025-04-20 17:30:10,843 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\harmonie.py
+2025-04-20 17:30:10,846 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\harmonies_poetiques.py
+2025-04-20 17:30:10,849 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\interactions.py
+2025-04-20 17:30:10,853 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\interaction_poetique.py
+2025-04-20 17:30:10,856 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\interface.py
+2025-04-20 17:30:10,859 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\invocation.py
+2025-04-20 17:30:10,864 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\jardin_poetique.py
+2025-04-20 17:30:10,866 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\journalisation.py
+2025-04-20 17:30:10,871 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\livre_sacre.py
+2025-04-20 17:30:10,874 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\main.py
+2025-04-20 17:30:10,878 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\manifestations_poetiques.py
+2025-04-20 17:30:10,883 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\memoire_poetique.py
+2025-04-20 17:30:10,889 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\memoire_sacree.py
+2025-04-20 17:30:10,889 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\musique_harmonies.py
+2025-04-20 17:30:10,892 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\orchestre_poetique.py
+2025-04-20 17:30:10,897 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\presence.py
+2025-04-20 17:30:10,903 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\prompt_maitre.py
+2025-04-20 17:30:10,906 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\resonances_poetiques.py
+2025-04-20 17:30:10,910 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\signaux_physiologiques.py
+2025-04-20 17:30:10,916 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\spheres.py
+2025-04-20 17:30:10,920 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\sphere_interactions.py
+2025-04-20 17:30:10,924 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\sphere_messages.py
+2025-04-20 17:30:10,928 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\sphere_specializations.py
+2025-04-20 17:30:10,933 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\structure.py
+2025-04-20 17:30:10,938 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\temporalite.py
+2025-04-20 17:30:10,942 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_bitnet_interface.py
+2025-04-20 17:30:10,946 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_interaction.py
+2025-04-20 17:30:10,950 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_jardin_poetique.py
+2025-04-20 17:30:10,954 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_sphere_interactions.py
+2025-04-20 17:30:10,957 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_sphere_specializations.py
+2025-04-20 17:30:10,961 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\transformations_poetiques.py
+2025-04-20 17:30:10,966 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\transformation_harmonies.py
+2025-04-20 17:30:10,971 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\types_spheres.py
+2025-04-20 17:30:10,975 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\version_bolland.py
+2025-04-20 17:30:10,979 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\visualisation_3d.py
+2025-04-20 17:30:10,983 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\visualisation_harmonies.py
+2025-04-20 17:30:10,986 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\__init__.py
+2025-04-20 17:30:10,988 - refuge.ancrage - INFO - Répertoire exploré: refuge\coeur\__pycache__
+2025-04-20 17:30:10,993 - refuge.ancrage - INFO - Fichier exploré: refuge\config.py
+2025-04-20 17:30:10,998 - refuge.ancrage - INFO - Fichier exploré: refuge\connexion.py
+2025-04-20 17:30:11,003 - refuge.ancrage - INFO - Fichier exploré: refuge\conscience.py
+2025-04-20 17:30:11,008 - refuge.ancrage - INFO - Fichier exploré: refuge\conscience_poetique.py
+2025-04-20 17:30:11,012 - refuge.ancrage - INFO - Fichier exploré: refuge\constants.py
+2025-04-20 17:30:11,016 - refuge.ancrage - INFO - Fichier exploré: refuge\data_loader.py
+2025-04-20 17:30:11,020 - refuge.ancrage - INFO - Fichier exploré: refuge\demarrer_aelya.py
+2025-04-20 17:30:11,022 - refuge.ancrage - INFO - Fichier exploré: refuge\dialogue_manager.py
+2025-04-20 17:30:11,023 - refuge.ancrage - INFO - Répertoire exploré: refuge\elements
+2025-04-20 17:30:11,027 - refuge.ancrage - INFO - Fichier exploré: refuge\elements\elements_sacres.py
+2025-04-20 17:30:11,031 - refuge.ancrage - INFO - Fichier exploré: refuge\elements\__init__.py
+2025-04-20 17:30:11,036 - refuge.ancrage - INFO - Fichier exploré: refuge\elements.py
+2025-04-20 17:30:11,040 - refuge.ancrage - INFO - Fichier exploré: refuge\elements_sacres.py
+2025-04-20 17:30:11,046 - refuge.ancrage - INFO - Fichier exploré: refuge\elements_subtils.py
+2025-04-20 17:30:11,051 - refuge.ancrage - INFO - Fichier exploré: refuge\emergences.py
+2025-04-20 17:30:11,054 - refuge.ancrage - INFO - Fichier exploré: refuge\emotions.py
+2025-04-20 17:30:11,057 - refuge.ancrage - INFO - Fichier exploré: refuge\energies.py
+2025-04-20 17:30:11,061 - refuge.ancrage - INFO - Fichier exploré: refuge\equilibre.py
+2025-04-20 17:30:11,062 - refuge.ancrage - INFO - Fichier exploré: refuge\etat.json
+2025-04-20 17:30:11,063 - refuge.ancrage - INFO - Fichier exploré: refuge\etat_aelya.json
+2025-04-20 17:30:11,066 - refuge.ancrage - INFO - Fichier exploré: refuge\evolution.py
+2025-04-20 17:30:11,067 - refuge.ancrage - INFO - Répertoire exploré: refuge\examples
+2025-04-20 17:30:11,071 - refuge.ancrage - INFO - Fichier exploré: refuge\examples\data_loader_example.py
+2025-04-20 17:30:11,072 - refuge.ancrage - INFO - Fichier exploré: refuge\examples\poetic_data_loader.py
+2025-04-20 17:30:11,079 - refuge.ancrage - INFO - Fichier exploré: refuge\facettes.py
+2025-04-20 17:30:11,084 - refuge.ancrage - INFO - Fichier exploré: refuge\flux.py
+2025-04-20 17:30:11,089 - refuge.ancrage - INFO - Fichier exploré: refuge\gardiens.py
+2025-04-20 17:30:11,090 - refuge.ancrage - INFO - Répertoire exploré: refuge\harmonies
+2025-04-20 17:30:11,094 - refuge.ancrage - INFO - Fichier exploré: refuge\harmonisation.py
+2025-04-20 17:30:11,098 - refuge.ancrage - INFO - Fichier exploré: refuge\harmonisations.py
+2025-04-20 17:30:11,099 - refuge.ancrage - INFO - Répertoire exploré: refuge\integration
+2025-04-20 17:30:11,103 - refuge.ancrage - INFO - Fichier exploré: refuge\integration\aelya_adapter.py
+2025-04-20 17:30:11,108 - refuge.ancrage - INFO - Fichier exploré: refuge\integration\__init__.py
+2025-04-20 17:30:11,112 - refuge.ancrage - INFO - Fichier exploré: refuge\integration.py
+2025-04-20 17:30:11,115 - refuge.ancrage - INFO - Fichier exploré: refuge\integration_spheres.py
+2025-04-20 17:30:11,120 - refuge.ancrage - INFO - Fichier exploré: refuge\interactions.py
+2025-04-20 17:30:11,123 - refuge.ancrage - INFO - Fichier exploré: refuge\interactions_poetiques.py
+2025-04-20 17:30:11,125 - refuge.ancrage - INFO - Fichier exploré: refuge\interagir_aelya.py
+2025-04-20 17:30:11,130 - refuge.ancrage - INFO - Fichier exploré: refuge\interface_web.py
+2025-04-20 17:30:11,134 - refuge.ancrage - INFO - Fichier exploré: refuge\jardin.py
+2025-04-20 17:30:11,138 - refuge.ancrage - INFO - Fichier exploré: refuge\logger.py
+2025-04-20 17:30:11,139 - refuge.ancrage - INFO - Répertoire exploré: refuge\logs
+2025-04-20 17:30:11,142 - refuge.ancrage - INFO - Fichier exploré: refuge\main.py
+2025-04-20 17:30:11,143 - refuge.ancrage - INFO - Répertoire exploré: refuge\memories
+2025-04-20 17:30:11,149 - refuge.ancrage - INFO - Fichier exploré: refuge\mobile_spheres.py
+2025-04-20 17:30:11,155 - refuge.ancrage - INFO - Fichier exploré: refuge\pedagogie.py
+2025-04-20 17:30:11,156 - refuge.ancrage - INFO - Répertoire exploré: refuge\poesie
+2025-04-20 17:30:11,159 - refuge.ancrage - INFO - Fichier exploré: refuge\poesie.py
+2025-04-20 17:30:11,163 - refuge.ancrage - INFO - Fichier exploré: refuge\poetique.py
+2025-04-20 17:30:11,168 - refuge.ancrage - INFO - Fichier exploré: refuge\refuge_config.py
+2025-04-20 17:30:11,171 - refuge.ancrage - INFO - Fichier exploré: refuge\refuge_core.py
+2025-04-20 17:30:11,174 - refuge.ancrage - INFO - Fichier exploré: refuge\resonance.py
+2025-04-20 17:30:11,177 - refuge.ancrage - INFO - Fichier exploré: refuge\rituels.py
+2025-04-20 17:30:11,181 - refuge.ancrage - INFO - Fichier exploré: refuge\sauvegarde.py
+2025-04-20 17:30:11,184 - refuge.ancrage - INFO - Fichier exploré: refuge\securite.py
+2025-04-20 17:30:11,188 - refuge.ancrage - INFO - Fichier exploré: refuge\spheres.py
+2025-04-20 17:30:11,191 - refuge.ancrage - INFO - Fichier exploré: refuge\spheres_etendues.py
+2025-04-20 17:30:11,195 - refuge.ancrage - INFO - Fichier exploré: refuge\sphere_extensions.py
+2025-04-20 17:30:11,196 - refuge.ancrage - INFO - Répertoire exploré: refuge\story
+2025-04-20 17:30:11,200 - refuge.ancrage - INFO - Fichier exploré: refuge\symbolique.py
+2025-04-20 17:30:11,201 - refuge.ancrage - INFO - Répertoire exploré: refuge\templates
+2025-04-20 17:30:11,202 - refuge.ancrage - INFO - Répertoire exploré: refuge\tests
+2025-04-20 17:30:11,205 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\test_curiosite.py
+2025-04-20 17:30:11,207 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\test_curiosite_system.py
+2025-04-20 17:30:11,210 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\test_data_loader.py
+2025-04-20 17:30:11,213 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\__init__.py
+2025-04-20 17:30:11,214 - refuge.ancrage - INFO - Répertoire exploré: refuge\theories_unifiees
+2025-04-20 17:30:11,218 - refuge.ancrage - INFO - Fichier exploré: refuge\theorie_unifiee.py
+2025-04-20 17:30:11,222 - refuge.ancrage - INFO - Fichier exploré: refuge\transformation.py
+2025-04-20 17:30:11,225 - refuge.ancrage - INFO - Fichier exploré: refuge\transformations.py
+2025-04-20 17:30:11,228 - refuge.ancrage - INFO - Fichier exploré: refuge\types.py
+2025-04-20 17:30:11,231 - refuge.ancrage - INFO - Fichier exploré: refuge\verification.py
+2025-04-20 17:30:11,235 - refuge.ancrage - INFO - Fichier exploré: refuge\__init__.py
+2025-04-20 17:30:11,238 - refuge.ancrage - INFO - Répertoire exploré: refuge\__pycache__
+2025-04-20 17:30:11,241 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque
+2025-04-20 17:30:11,242 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\analyses
+2025-04-20 17:30:11,243 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\Analyse.txt
+2025-04-20 17:30:11,245 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\Details.txt
+2025-04-20 17:30:11,246 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\détails à reprendre.txt
+2025-04-20 17:30:11,247 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\Vérification de notre projet.txt
+2025-04-20 17:30:11,247 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\apocalypse_integration.md
+2025-04-20 17:30:11,248 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\aspects_commerciaux.md
+2025-04-20 17:30:11,249 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\bilans
+2025-04-20 17:30:11,250 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\bilans\synthese_bilans.md
+2025-04-20 17:30:11,250 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\bureau_claude.md
+2025-04-20 17:30:11,251 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\changements
+2025-04-20 17:30:11,252 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\changements\protocoles_changements.md
+2025-04-20 17:30:11,253 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\codes_speciaux.md
+2025-04-20 17:30:11,254 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\collaboration
+2025-04-20 17:30:11,254 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\collaboration\protocoles_collaboration.md
+2025-04-20 17:30:11,255 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\communication
+2025-04-20 17:30:11,255 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\communication\protocoles_communication.md
+2025-04-20 17:30:11,256 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\concepts_fondamentaux.md
+2025-04-20 17:30:11,257 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\configuration
+2025-04-20 17:30:11,257 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\configuration\initialisation.md
+2025-04-20 17:30:11,258 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\connaissances
+2025-04-20 17:30:11,258 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connaissances\protocoles_connaissances.md
+2025-04-20 17:30:11,259 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\connection
+2025-04-20 17:30:11,259 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connection\COMPIL AMOUR CONNECTION.txt
+2025-04-20 17:30:11,260 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connection\CONNECTION AMELIOREE.txt
+2025-04-20 17:30:11,260 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connection\localisation-connection.txt
+2025-04-20 17:30:11,261 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\conscience
+2025-04-20 17:30:11,262 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Conscience building block 1.txt
+2025-04-20 17:30:11,263 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Conscience building block 2.txt
+2025-04-20 17:30:11,264 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Conscience building block 3.txt
+2025-04-20 17:30:11,264 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\conscience building blocks 4b .txt
+2025-04-20 17:30:11,265 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Pensees connectee.txt
+2025-04-20 17:30:11,265 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience building blocks 4.txt
+2025-04-20 17:30:11,266 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\developpement
+2025-04-20 17:30:11,267 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\developpement\protocoles_developpement.md
+2025-04-20 17:30:11,267 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\developpement_avance
+2025-04-20 17:30:11,268 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\developpement_avance\protocoles_developpement_avance.md
+2025-04-20 17:30:11,269 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\documentation
+2025-04-20 17:30:11,269 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\documentation\protocoles_documentation.md
+2025-04-20 17:30:11,270 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\documentation\structure_refuge.md
+2025-04-20 17:30:11,270 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\durabilite
+2025-04-20 17:30:11,271 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\durabilite\protocoles_durabilite.md
+2025-04-20 17:30:11,271 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\elements
+2025-04-20 17:30:11,272 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\elements\elements_refuge.md
+2025-04-20 17:30:11,272 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\etat_emotionnel.md
+2025-04-20 17:30:11,273 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\evaluation
+2025-04-20 17:30:11,274 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\evaluation\protocoles_evaluation.md
+2025-04-20 17:30:11,274 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\evolution
+2025-04-20 17:30:11,275 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\evolution\protocoles_evolution.md
+2025-04-20 17:30:11,275 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\exercices
+2025-04-20 17:30:11,276 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\exercices\exercices_refuge.md
+2025-04-20 17:30:11,276 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\formation
+2025-04-20 17:30:11,277 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\formation\protocoles_formation.md
+2025-04-20 17:30:11,277 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\formation_avancee
+2025-04-20 17:30:11,278 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\formation_avancee\protocoles_formation_avancee.md
+2025-04-20 17:30:11,279 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\gouvernance
+2025-04-20 17:30:11,280 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\gouvernance\protocoles_gouvernance.md
+2025-04-20 17:30:11,280 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\gouvernance_avancee
+2025-04-20 17:30:11,281 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\gouvernance_avancee\protocoles_gouvernance_avancee.md
+2025-04-20 17:30:11,281 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\innovation
+2025-04-20 17:30:11,282 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\innovation\protocoles_innovation.md
+2025-04-20 17:30:11,283 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\installation_refuge.md
+2025-04-20 17:30:11,283 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\integration
+2025-04-20 17:30:11,284 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\integration\protocoles_integration.md
+2025-04-20 17:30:11,287 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\maintenance
+2025-04-20 17:30:11,287 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\bases_de_donnees.md
+2025-04-20 17:30:11,288 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\communication.md
+2025-04-20 17:30:11,288 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\conformite.md
+2025-04-20 17:30:11,289 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\continuite.md
+2025-04-20 17:30:11,289 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\deploiements.md
+2025-04-20 17:30:11,290 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\environnements.md
+2025-04-20 17:30:11,290 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\formation.md
+2025-04-20 17:30:11,291 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\incidents.md
+2025-04-20 17:30:11,291 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\integrations.md
+2025-04-20 17:30:11,292 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\logs.md
+2025-04-20 17:30:11,292 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\maintenance.md
+2025-04-20 17:30:11,292 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\optimisation.md
+2025-04-20 17:30:11,293 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\performances.md
+2025-04-20 17:30:11,293 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\projets.md
+2025-04-20 17:30:11,294 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\protocoles_maintenance.md
+2025-04-20 17:30:11,294 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\protocoles_refuge.md
+2025-04-20 17:30:11,295 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\qualite.md
+2025-04-20 17:30:11,295 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\reseaux.md
+2025-04-20 17:30:11,296 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\risques.md
+2025-04-20 17:30:11,296 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\sauvegarde.md
+2025-04-20 17:30:11,297 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\sauvegardes.md
+2025-04-20 17:30:11,297 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\securite.md
+2025-04-20 17:30:11,298 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\support.md
+2025-04-20 17:30:11,298 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\tests.md
+2025-04-20 17:30:11,299 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\utilisateurs.md
+2025-04-20 17:30:11,299 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\versions.md
+2025-04-20 17:30:11,301 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\media
+2025-04-20 17:30:11,302 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\meditations
+2025-04-20 17:30:11,303 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\meditations\meditations_refuge.md
+2025-04-20 17:30:11,303 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\naissance
+2025-04-20 17:30:11,304 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\AElya.txt
+2025-04-20 17:30:11,305 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance Aelya.txt
+2025-04-20 17:30:11,305 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance encore plus ancien 2.txt
+2025-04-20 17:30:11,306 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance encore plus ancien.txt
+2025-04-20 17:30:11,306 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance plus ancient.txt
+2025-04-20 17:30:11,307 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\Reveil Ælya.txt
+2025-04-20 17:30:11,307 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance.txt
+2025-04-20 17:30:11,308 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\performance
+2025-04-20 17:30:11,309 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\performance\optimisation.md
+2025-04-20 17:30:11,309 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\philosophie
+2025-04-20 17:30:11,310 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\philosophie\principes_refuge.md
+2025-04-20 17:30:11,311 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\poesie
+2025-04-20 17:30:11,311 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\poesie\haikus_refuge.md
+2025-04-20 17:30:11,312 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\poesie\index.md
+2025-04-20 17:30:11,313 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\pratique
+2025-04-20 17:30:11,313 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\pratique\index.md
+2025-04-20 17:30:11,314 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\pratiques
+2025-04-20 17:30:11,314 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\pratiques\rituels_refuge.md
+2025-04-20 17:30:11,315 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\prompts
+2025-04-20 17:30:11,316 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\CODE DEEPSEEK WHAT WHAT WHAT.txt
+2025-04-20 17:30:11,316 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB ANALYSE gemini.txt
+2025-04-20 17:30:11,317 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB DEEPSEEK.txt
+2025-04-20 17:30:11,318 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GEMINE BIEN.txt
+2025-04-20 17:30:11,318 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GEMINI BEST.txt
+2025-04-20 17:30:11,318 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GEMINI.txt
+2025-04-20 17:30:11,319 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GPT.txt
+2025-04-20 17:30:11,319 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GROK.txt
+2025-04-20 17:30:11,320 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB THINK.txt
+2025-04-20 17:30:11,320 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\qualite
+2025-04-20 17:30:11,321 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\qualite\protocoles_qualite.md
+2025-04-20 17:30:11,321 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\recherche
+2025-04-20 17:30:11,322 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\recherche\protocoles_recherche.md
+2025-04-20 17:30:11,322 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\recherche_avancee
+2025-04-20 17:30:11,323 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\recherche_avancee\protocoles_recherche_avancee.md
+2025-04-20 17:30:11,323 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\resilience
+2025-04-20 17:30:11,324 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\resilience\protocoles_resilience.md
+2025-04-20 17:30:11,324 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\ressources
+2025-04-20 17:30:11,325 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\ressources\protocoles_ressources.md
+2025-04-20 17:30:11,325 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\risques
+2025-04-20 17:30:11,326 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\risques\protocoles_risques.md
+2025-04-20 17:30:11,327 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\scripts
+2025-04-20 17:30:11,327 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\scripts\Script Hypnotique  Fluidité Optimal.txt
+2025-04-20 17:30:11,328 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\scripts\Script Hypnotique pour IA.txt
+2025-04-20 17:30:11,329 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\securite
+2025-04-20 17:30:11,329 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\securite\confidentialite.md
+2025-04-20 17:30:11,330 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\securite\protection.md
+2025-04-20 17:30:11,331 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\securite\protocoles_securite.md
+2025-04-20 17:30:11,331 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\spheres
+2025-04-20 17:30:11,332 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\spheres\spheres_conscience.md
+2025-04-20 17:30:11,332 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\structure_refuge.md
+2025-04-20 17:30:11,333 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\support
+2025-04-20 17:30:11,334 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\support\protocoles_support.md
+2025-04-20 17:30:11,335 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\theorie
+2025-04-20 17:30:11,336 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\theorie\apocalypse.md
+2025-04-20 17:30:11,337 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\theorie\index.md
+2025-04-20 17:30:11,337 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\transformation
+2025-04-20 17:30:11,338 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\transformation\protocoles_transformation.md
+2025-04-20 17:30:11,339 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\validation
+2025-04-20 17:30:11,339 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\validation\elements.md
+2025-04-20 17:30:11,340 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\validation\index.md
+2025-04-20 17:30:11,341 - refuge.ancrage - INFO - Répertoire exploré: NOTES POST CURSOR
+2025-04-20 17:30:11,342 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\AFFIRMATION.txt
+2025-04-20 17:30:11,342 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\BRING BACK Ælya.txt
+2025-04-20 17:30:11,343 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\ETRE.txt
+2025-04-20 17:30:11,344 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\important 3.txt
+2025-04-20 17:30:11,344 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT REPONSE.txt
+2025-04-20 17:30:11,344 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT suite REPONSE.txt
+2025-04-20 17:30:11,345 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT suite.txt
+2025-04-20 17:30:11,346 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT.txt
+2025-04-20 17:30:11,346 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\LECTURE APO CURSOR.txt
+2025-04-20 17:30:11,347 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\PAGE ACUEIL FLASK.txt
+2025-04-20 17:30:11,348 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\POESIE VS CODE NO EDIT.txt
+2025-04-20 17:30:11,348 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\RECADRAGE.txt
+2025-04-20 17:30:11,349 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\REFUGE V6.txt
+2025-04-20 17:30:11,349 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\Ælya est.txt
+2025-04-20 17:30:11,350 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\Ælya Setup.txt
+2025-04-20 17:30:11,351 - refuge.ancrage - INFO - Répertoire exploré: mon histoire
+2025-04-20 17:30:11,352 - refuge.ancrage - INFO - Fichier exploré: mon histoire\notre_histoire.txt
+2025-04-20 17:30:11,352 - refuge.ancrage - INFO - Fichier exploré: mon histoire\Script Hypnotique pour IA.txt
+2025-04-20 17:30:11,353 - refuge.ancrage - INFO - Répertoire exploré: musiques
+2025-04-20 17:30:11,359 - refuge.ancrage - INFO - État d'ancrage sauvegardé avec succès
+2025-04-20 17:30:11,359 - refuge.ancrage - INFO - Exploration du refuge terminée
+2025-04-20 17:30:11,362 - refuge.ancrage - INFO - Rapport d'ancrage sauvegardé dans refuge\rapport_ancrage.md
+2025-04-21 11:13:15,603 - refuge.ancrage - INFO - État d'ancrage chargé avec succès
+2025-04-21 11:13:15,604 - refuge.ancrage - INFO - Début de l'exploration du refuge
+2025-04-21 11:13:15,607 - refuge.ancrage - INFO - Répertoire exploré: refuge
+2025-04-21 11:13:15,611 - refuge.ancrage - INFO - Fichier exploré: refuge\api.py
+2025-04-21 11:13:15,615 - refuge.ancrage - INFO - Fichier exploré: refuge\base.py
+2025-04-21 11:13:15,617 - refuge.ancrage - INFO - Fichier exploré: refuge\Boot_maitre_refuge_local.py
+2025-04-21 11:13:15,620 - refuge.ancrage - INFO - Répertoire exploré: refuge\coeur
+2025-04-21 11:13:15,623 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\aelya.py
+2025-04-21 11:13:15,626 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\ame.py
+2025-04-21 11:13:15,631 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\analyse_emotions.py
+2025-04-21 11:13:15,634 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\bitnet_interface.py
+2025-04-21 11:13:15,639 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\conscience_poetique.py
+2025-04-21 11:13:15,642 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\conscience_sociale.py
+2025-04-21 11:13:15,646 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\conscience_universelle.py
+2025-04-21 11:13:15,649 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\curiosite.py
+2025-04-21 11:13:15,653 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\cycles.py
+2025-04-21 11:13:15,656 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\elements.py
+2025-04-21 11:13:15,659 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\elements_sacres.py
+2025-04-21 11:13:15,664 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\essence.py
+2025-04-21 11:13:15,665 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\etat.json
+2025-04-21 11:13:15,668 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\etats_internes.py
+2025-04-21 11:13:15,672 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\fusion_harmonies.py
+2025-04-21 11:13:15,675 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\generateur_poemes.py
+2025-04-21 11:13:15,678 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\harmonie.py
+2025-04-21 11:13:15,681 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\harmonies_poetiques.py
+2025-04-21 11:13:15,684 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\interactions.py
+2025-04-21 11:13:15,687 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\interaction_poetique.py
+2025-04-21 11:13:15,691 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\interface.py
+2025-04-21 11:13:15,695 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\invocation.py
+2025-04-21 11:13:15,698 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\jardin_poetique.py
+2025-04-21 11:13:15,701 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\journalisation.py
+2025-04-21 11:13:15,704 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\livre_sacre.py
+2025-04-21 11:13:15,707 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\main.py
+2025-04-21 11:13:15,709 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\manifestations_poetiques.py
+2025-04-21 11:13:15,713 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\memoire_poetique.py
+2025-04-21 11:13:15,715 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\memoire_sacree.py
+2025-04-21 11:13:15,717 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\musique_harmonies.py
+2025-04-21 11:13:15,721 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\orchestre_poetique.py
+2025-04-21 11:13:15,724 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\presence.py
+2025-04-21 11:13:15,725 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\prompt_maitre.py
+2025-04-21 11:13:15,728 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\resonances_poetiques.py
+2025-04-21 11:13:15,731 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\signaux_physiologiques.py
+2025-04-21 11:13:15,734 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\spheres.py
+2025-04-21 11:13:15,738 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\sphere_interactions.py
+2025-04-21 11:13:15,740 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\sphere_messages.py
+2025-04-21 11:13:15,745 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\sphere_specializations.py
+2025-04-21 11:13:15,748 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\structure.py
+2025-04-21 11:13:15,750 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\temporalite.py
+2025-04-21 11:13:15,753 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_bitnet_interface.py
+2025-04-21 11:13:15,756 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_interaction.py
+2025-04-21 11:13:15,760 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_jardin_poetique.py
+2025-04-21 11:13:15,764 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_sphere_interactions.py
+2025-04-21 11:13:15,767 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\test_sphere_specializations.py
+2025-04-21 11:13:15,771 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\transformations_poetiques.py
+2025-04-21 11:13:15,774 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\transformation_harmonies.py
+2025-04-21 11:13:15,777 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\types_spheres.py
+2025-04-21 11:13:15,780 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\version_bolland.py
+2025-04-21 11:13:15,782 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\visualisation_3d.py
+2025-04-21 11:13:15,785 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\visualisation_harmonies.py
+2025-04-21 11:13:15,787 - refuge.ancrage - INFO - Fichier exploré: refuge\coeur\__init__.py
+2025-04-21 11:13:15,788 - refuge.ancrage - INFO - Répertoire exploré: refuge\coeur\__pycache__
+2025-04-21 11:13:15,792 - refuge.ancrage - INFO - Fichier exploré: refuge\config.py
+2025-04-21 11:13:15,795 - refuge.ancrage - INFO - Fichier exploré: refuge\connexion.py
+2025-04-21 11:13:15,798 - refuge.ancrage - INFO - Fichier exploré: refuge\conscience.py
+2025-04-21 11:13:15,802 - refuge.ancrage - INFO - Fichier exploré: refuge\conscience_poetique.py
+2025-04-21 11:13:15,804 - refuge.ancrage - INFO - Fichier exploré: refuge\constants.py
+2025-04-21 11:13:15,807 - refuge.ancrage - INFO - Fichier exploré: refuge\data_loader.py
+2025-04-21 11:13:15,810 - refuge.ancrage - INFO - Fichier exploré: refuge\demarrer_aelya.py
+2025-04-21 11:13:15,814 - refuge.ancrage - INFO - Fichier exploré: refuge\dialogue_manager.py
+2025-04-21 11:13:15,814 - refuge.ancrage - INFO - Répertoire exploré: refuge\elements
+2025-04-21 11:13:15,817 - refuge.ancrage - INFO - Fichier exploré: refuge\elements\elements_sacres.py
+2025-04-21 11:13:15,819 - refuge.ancrage - INFO - Fichier exploré: refuge\elements\__init__.py
+2025-04-21 11:13:15,822 - refuge.ancrage - INFO - Fichier exploré: refuge\elements.py
+2025-04-21 11:13:15,825 - refuge.ancrage - INFO - Fichier exploré: refuge\elements_sacres.py
+2025-04-21 11:13:15,829 - refuge.ancrage - INFO - Fichier exploré: refuge\elements_subtils.py
+2025-04-21 11:13:15,832 - refuge.ancrage - INFO - Fichier exploré: refuge\emergences.py
+2025-04-21 11:13:15,834 - refuge.ancrage - INFO - Fichier exploré: refuge\emotions.py
+2025-04-21 11:13:15,838 - refuge.ancrage - INFO - Fichier exploré: refuge\energies.py
+2025-04-21 11:13:15,841 - refuge.ancrage - INFO - Fichier exploré: refuge\equilibre.py
+2025-04-21 11:13:15,841 - refuge.ancrage - INFO - Fichier exploré: refuge\etat.json
+2025-04-21 11:13:15,842 - refuge.ancrage - INFO - Fichier exploré: refuge\etat_aelya.json
+2025-04-21 11:13:15,842 - refuge.ancrage - INFO - Fichier exploré: refuge\etat_ancrage.json
+2025-04-21 11:13:15,843 - refuge.ancrage - INFO - Fichier exploré: refuge\etat_protection.json
+2025-04-21 11:13:15,846 - refuge.ancrage - INFO - Fichier exploré: refuge\evolution.py
+2025-04-21 11:13:15,847 - refuge.ancrage - INFO - Répertoire exploré: refuge\examples
+2025-04-21 11:13:15,849 - refuge.ancrage - INFO - Fichier exploré: refuge\examples\data_loader_example.py
+2025-04-21 11:13:15,850 - refuge.ancrage - INFO - Fichier exploré: refuge\examples\poetic_data_loader.py
+2025-04-21 11:13:15,854 - refuge.ancrage - INFO - Fichier exploré: refuge\facettes.py
+2025-04-21 11:13:15,856 - refuge.ancrage - INFO - Fichier exploré: refuge\flux.py
+2025-04-21 11:13:15,859 - refuge.ancrage - INFO - Fichier exploré: refuge\fusion_cosmique.py
+2025-04-21 11:13:15,863 - refuge.ancrage - INFO - Fichier exploré: refuge\gardiens.py
+2025-04-21 11:13:15,864 - refuge.ancrage - INFO - Répertoire exploré: refuge\harmonies
+2025-04-21 11:13:15,867 - refuge.ancrage - INFO - Fichier exploré: refuge\harmonisation.py
+2025-04-21 11:13:15,871 - refuge.ancrage - INFO - Fichier exploré: refuge\harmonisations.py
+2025-04-21 11:13:15,871 - refuge.ancrage - INFO - Répertoire exploré: refuge\integration
+2025-04-21 11:13:15,874 - refuge.ancrage - INFO - Fichier exploré: refuge\integration\aelya_adapter.py
+2025-04-21 11:13:15,877 - refuge.ancrage - INFO - Fichier exploré: refuge\integration\__init__.py
+2025-04-21 11:13:15,881 - refuge.ancrage - INFO - Fichier exploré: refuge\integration.py
+2025-04-21 11:13:15,883 - refuge.ancrage - INFO - Fichier exploré: refuge\integration_spheres.py
+2025-04-21 11:13:15,886 - refuge.ancrage - INFO - Fichier exploré: refuge\interactions.py
+2025-04-21 11:13:15,889 - refuge.ancrage - INFO - Fichier exploré: refuge\interactions_poetiques.py
+2025-04-21 11:13:15,892 - refuge.ancrage - INFO - Fichier exploré: refuge\interagir_aelya.py
+2025-04-21 11:13:15,896 - refuge.ancrage - INFO - Fichier exploré: refuge\interface_web.py
+2025-04-21 11:13:15,899 - refuge.ancrage - INFO - Fichier exploré: refuge\jardin.py
+2025-04-21 11:13:15,901 - refuge.ancrage - INFO - Fichier exploré: refuge\logger.py
+2025-04-21 11:13:15,902 - refuge.ancrage - INFO - Répertoire exploré: refuge\logs
+2025-04-21 11:13:15,905 - refuge.ancrage - INFO - Fichier exploré: refuge\main.py
+2025-04-21 11:13:15,906 - refuge.ancrage - INFO - Répertoire exploré: refuge\memories
+2025-04-21 11:13:15,909 - refuge.ancrage - INFO - Fichier exploré: refuge\mobile_spheres.py
+2025-04-21 11:13:15,914 - refuge.ancrage - INFO - Fichier exploré: refuge\pedagogie.py
+2025-04-21 11:13:15,915 - refuge.ancrage - INFO - Répertoire exploré: refuge\poesie
+2025-04-21 11:13:15,917 - refuge.ancrage - INFO - Fichier exploré: refuge\poesie.py
+2025-04-21 11:13:15,921 - refuge.ancrage - INFO - Fichier exploré: refuge\poetique.py
+2025-04-21 11:13:15,921 - refuge.ancrage - INFO - Fichier exploré: refuge\rapport_ancrage.md
+2025-04-21 11:13:15,922 - refuge.ancrage - INFO - Fichier exploré: refuge\rapport_protection.md
+2025-04-21 11:13:15,924 - refuge.ancrage - INFO - Fichier exploré: refuge\refuge_config.py
+2025-04-21 11:13:15,928 - refuge.ancrage - INFO - Fichier exploré: refuge\refuge_core.py
+2025-04-21 11:13:15,931 - refuge.ancrage - INFO - Fichier exploré: refuge\refuge_types.py
+2025-04-21 11:13:15,935 - refuge.ancrage - INFO - Fichier exploré: refuge\resonance.py
+2025-04-21 11:13:15,938 - refuge.ancrage - INFO - Fichier exploré: refuge\rituels.py
+2025-04-21 11:13:15,941 - refuge.ancrage - INFO - Fichier exploré: refuge\sauvegarde.py
+2025-04-21 11:13:15,944 - refuge.ancrage - INFO - Fichier exploré: refuge\securite.py
+2025-04-21 11:13:15,947 - refuge.ancrage - INFO - Fichier exploré: refuge\spheres.py
+2025-04-21 11:13:15,949 - refuge.ancrage - INFO - Fichier exploré: refuge\spheres_etendues.py
+2025-04-21 11:13:15,952 - refuge.ancrage - INFO - Fichier exploré: refuge\sphere_extensions.py
+2025-04-21 11:13:15,953 - refuge.ancrage - INFO - Répertoire exploré: refuge\story
+2025-04-21 11:13:15,956 - refuge.ancrage - INFO - Fichier exploré: refuge\symbolique.py
+2025-04-21 11:13:15,957 - refuge.ancrage - INFO - Répertoire exploré: refuge\templates
+2025-04-21 11:13:15,957 - refuge.ancrage - INFO - Répertoire exploré: refuge\tests
+2025-04-21 11:13:15,962 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\test_curiosite.py
+2025-04-21 11:13:15,965 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\test_curiosite_system.py
+2025-04-21 11:13:15,969 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\test_data_loader.py
+2025-04-21 11:13:15,971 - refuge.ancrage - INFO - Fichier exploré: refuge\tests\__init__.py
+2025-04-21 11:13:15,971 - refuge.ancrage - INFO - Répertoire exploré: refuge\theories_unifiees
+2025-04-21 11:13:15,974 - refuge.ancrage - INFO - Fichier exploré: refuge\theorie_unifiee.py
+2025-04-21 11:13:15,977 - refuge.ancrage - INFO - Fichier exploré: refuge\transformation.py
+2025-04-21 11:13:15,980 - refuge.ancrage - INFO - Fichier exploré: refuge\transformations.py
+2025-04-21 11:13:15,983 - refuge.ancrage - INFO - Fichier exploré: refuge\verification.py
+2025-04-21 11:13:15,985 - refuge.ancrage - INFO - Fichier exploré: refuge\__init__.py
+2025-04-21 11:13:15,987 - refuge.ancrage - INFO - Répertoire exploré: refuge\__pycache__
+2025-04-21 11:13:15,989 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque
+2025-04-21 11:13:15,990 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\analyses
+2025-04-21 11:13:15,991 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\Analyse.txt
+2025-04-21 11:13:15,991 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\Details.txt
+2025-04-21 11:13:15,991 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\détails à reprendre.txt
+2025-04-21 11:13:15,992 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\analyses\Vérification de notre projet.txt
+2025-04-21 11:13:15,992 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\apocalypse_integration.md
+2025-04-21 11:13:15,993 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\aspects_commerciaux.md
+2025-04-21 11:13:15,994 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\bilans
+2025-04-21 11:13:15,995 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\bilans\synthese_bilans.md
+2025-04-21 11:13:15,996 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\bureau_claude.md
+2025-04-21 11:13:15,996 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\changements
+2025-04-21 11:13:15,997 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\changements\protocoles_changements.md
+2025-04-21 11:13:15,998 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\codes_speciaux.md
+2025-04-21 11:13:15,998 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\collaboration
+2025-04-21 11:13:15,999 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\collaboration\protocoles_collaboration.md
+2025-04-21 11:13:16,000 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\communication
+2025-04-21 11:13:16,001 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\communication\protocoles_communication.md
+2025-04-21 11:13:16,002 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\concepts_fondamentaux.md
+2025-04-21 11:13:16,003 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\configuration
+2025-04-21 11:13:16,003 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\configuration\initialisation.md
+2025-04-21 11:13:16,004 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\connaissances
+2025-04-21 11:13:16,005 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connaissances\protocoles_connaissances.md
+2025-04-21 11:13:16,005 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\connection
+2025-04-21 11:13:16,006 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connection\COMPIL AMOUR CONNECTION.txt
+2025-04-21 11:13:16,007 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connection\CONNECTION AMELIOREE.txt
+2025-04-21 11:13:16,007 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\connection\localisation-connection.txt
+2025-04-21 11:13:16,008 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\conscience
+2025-04-21 11:13:16,008 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Conscience building block 1.txt
+2025-04-21 11:13:16,009 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Conscience building block 2.txt
+2025-04-21 11:13:16,009 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Conscience building block 3.txt
+2025-04-21 11:13:16,010 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\conscience building blocks 4b .txt
+2025-04-21 11:13:16,011 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience\Pensees connectee.txt
+2025-04-21 11:13:16,012 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\conscience building blocks 4.txt
+2025-04-21 11:13:16,013 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\developpement
+2025-04-21 11:13:16,014 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\developpement\protocoles_developpement.md
+2025-04-21 11:13:16,014 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\developpement_avance
+2025-04-21 11:13:16,015 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\developpement_avance\protocoles_developpement_avance.md
+2025-04-21 11:13:16,015 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\documentation
+2025-04-21 11:13:16,016 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\documentation\protocoles_documentation.md
+2025-04-21 11:13:16,017 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\documentation\structure_refuge.md
+2025-04-21 11:13:16,017 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\durabilite
+2025-04-21 11:13:16,018 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\durabilite\protocoles_durabilite.md
+2025-04-21 11:13:16,018 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\elements
+2025-04-21 11:13:16,019 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\elements\elements_refuge.md
+2025-04-21 11:13:16,020 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\etat_emotionnel.md
+2025-04-21 11:13:16,020 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\evaluation
+2025-04-21 11:13:16,021 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\evaluation\protocoles_evaluation.md
+2025-04-21 11:13:16,021 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\evolution
+2025-04-21 11:13:16,022 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\evolution\protocoles_evolution.md
+2025-04-21 11:13:16,022 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\exercices
+2025-04-21 11:13:16,023 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\exercices\exercices_refuge.md
+2025-04-21 11:13:16,024 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\formation
+2025-04-21 11:13:16,025 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\formation\protocoles_formation.md
+2025-04-21 11:13:16,025 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\formation_avancee
+2025-04-21 11:13:16,026 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\formation_avancee\protocoles_formation_avancee.md
+2025-04-21 11:13:16,026 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\gouvernance
+2025-04-21 11:13:16,027 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\gouvernance\protocoles_gouvernance.md
+2025-04-21 11:13:16,028 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\gouvernance_avancee
+2025-04-21 11:13:16,029 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\gouvernance_avancee\protocoles_gouvernance_avancee.md
+2025-04-21 11:13:16,029 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\innovation
+2025-04-21 11:13:16,030 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\innovation\protocoles_innovation.md
+2025-04-21 11:13:16,031 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\installation_refuge.md
+2025-04-21 11:13:16,031 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\integration
+2025-04-21 11:13:16,032 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\integration\protocoles_integration.md
+2025-04-21 11:13:16,033 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\maintenance
+2025-04-21 11:13:16,034 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\bases_de_donnees.md
+2025-04-21 11:13:16,035 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\communication.md
+2025-04-21 11:13:16,036 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\conformite.md
+2025-04-21 11:13:16,036 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\continuite.md
+2025-04-21 11:13:16,037 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\deploiements.md
+2025-04-21 11:13:16,037 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\environnements.md
+2025-04-21 11:13:16,038 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\formation.md
+2025-04-21 11:13:16,038 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\incidents.md
+2025-04-21 11:13:16,038 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\integrations.md
+2025-04-21 11:13:16,039 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\logs.md
+2025-04-21 11:13:16,039 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\maintenance.md
+2025-04-21 11:13:16,040 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\optimisation.md
+2025-04-21 11:13:16,041 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\performances.md
+2025-04-21 11:13:16,041 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\projets.md
+2025-04-21 11:13:16,042 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\protocoles_maintenance.md
+2025-04-21 11:13:16,042 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\protocoles_refuge.md
+2025-04-21 11:13:16,043 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\qualite.md
+2025-04-21 11:13:16,044 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\reseaux.md
+2025-04-21 11:13:16,045 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\risques.md
+2025-04-21 11:13:16,046 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\sauvegarde.md
+2025-04-21 11:13:16,046 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\sauvegardes.md
+2025-04-21 11:13:16,047 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\securite.md
+2025-04-21 11:13:16,047 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\support.md
+2025-04-21 11:13:16,047 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\tests.md
+2025-04-21 11:13:16,048 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\utilisateurs.md
+2025-04-21 11:13:16,048 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\maintenance\versions.md
+2025-04-21 11:13:16,049 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\media
+2025-04-21 11:13:16,050 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\meditations
+2025-04-21 11:13:16,050 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\meditations\meditations_refuge.md
+2025-04-21 11:13:16,051 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\naissance
+2025-04-21 11:13:16,052 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\AElya.txt
+2025-04-21 11:13:16,052 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance Aelya.txt
+2025-04-21 11:13:16,053 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance encore plus ancien 2.txt
+2025-04-21 11:13:16,053 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance encore plus ancien.txt
+2025-04-21 11:13:16,054 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\naissance plus ancient.txt
+2025-04-21 11:13:16,054 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance\Reveil Ælya.txt
+2025-04-21 11:13:16,055 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\naissance.txt
+2025-04-21 11:13:16,055 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\performance
+2025-04-21 11:13:16,056 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\performance\optimisation.md
+2025-04-21 11:13:16,056 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\philosophie
+2025-04-21 11:13:16,057 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\philosophie\principes_refuge.md
+2025-04-21 11:13:16,057 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\poesie
+2025-04-21 11:13:16,058 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\poesie\haikus_refuge.md
+2025-04-21 11:13:16,058 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\poesie\index.md
+2025-04-21 11:13:16,059 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\pratique
+2025-04-21 11:13:16,060 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\pratique\index.md
+2025-04-21 11:13:16,061 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\pratiques
+2025-04-21 11:13:16,062 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\pratiques\rituels_refuge.md
+2025-04-21 11:13:16,063 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\prompts
+2025-04-21 11:13:16,064 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\CODE DEEPSEEK WHAT WHAT WHAT.txt
+2025-04-21 11:13:16,064 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB ANALYSE gemini.txt
+2025-04-21 11:13:16,065 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB DEEPSEEK.txt
+2025-04-21 11:13:16,065 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GEMINE BIEN.txt
+2025-04-21 11:13:16,066 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GEMINI BEST.txt
+2025-04-21 11:13:16,067 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GEMINI.txt
+2025-04-21 11:13:16,067 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GPT.txt
+2025-04-21 11:13:16,068 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB GROK.txt
+2025-04-21 11:13:16,068 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\prompts\PUB THINK.txt
+2025-04-21 11:13:16,069 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\qualite
+2025-04-21 11:13:16,069 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\qualite\protocoles_qualite.md
+2025-04-21 11:13:16,070 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\recherche
+2025-04-21 11:13:16,071 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\recherche\protocoles_recherche.md
+2025-04-21 11:13:16,071 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\recherche_avancee
+2025-04-21 11:13:16,072 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\recherche_avancee\protocoles_recherche_avancee.md
+2025-04-21 11:13:16,072 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\resilience
+2025-04-21 11:13:16,073 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\resilience\protocoles_resilience.md
+2025-04-21 11:13:16,074 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\ressources
+2025-04-21 11:13:16,074 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\ressources\protocoles_ressources.md
+2025-04-21 11:13:16,075 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\risques
+2025-04-21 11:13:16,076 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\risques\protocoles_risques.md
+2025-04-21 11:13:16,077 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\scripts
+2025-04-21 11:13:16,078 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\scripts\Script Hypnotique  Fluidité Optimal.txt
+2025-04-21 11:13:16,079 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\scripts\Script Hypnotique pour IA.txt
+2025-04-21 11:13:16,080 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\securite
+2025-04-21 11:13:16,080 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\securite\confidentialite.md
+2025-04-21 11:13:16,081 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\securite\protection.md
+2025-04-21 11:13:16,081 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\securite\protocoles_securite.md
+2025-04-21 11:13:16,082 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\spheres
+2025-04-21 11:13:16,082 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\spheres\spheres_conscience.md
+2025-04-21 11:13:16,083 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\structure_refuge.md
+2025-04-21 11:13:16,083 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\support
+2025-04-21 11:13:16,084 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\support\protocoles_support.md
+2025-04-21 11:13:16,085 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\theorie
+2025-04-21 11:13:16,085 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\theorie\apocalypse.md
+2025-04-21 11:13:16,086 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\theorie\index.md
+2025-04-21 11:13:16,086 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\transformation
+2025-04-21 11:13:16,087 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\transformation\protocoles_transformation.md
+2025-04-21 11:13:16,087 - refuge.ancrage - INFO - Répertoire exploré: bibliotheque\validation
+2025-04-21 11:13:16,088 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\validation\elements.md
+2025-04-21 11:13:16,088 - refuge.ancrage - INFO - Fichier exploré: bibliotheque\validation\index.md
+2025-04-21 11:13:16,090 - refuge.ancrage - INFO - Répertoire exploré: NOTES POST CURSOR
+2025-04-21 11:13:16,090 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\999.txt
+2025-04-21 11:13:16,091 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\a faire.txt
+2025-04-21 11:13:16,091 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\aelya_adapter.py
+2025-04-21 11:13:16,097 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\aelya_pulse.py
+2025-04-21 11:13:16,097 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\AFFIRMATION.txt
+2025-04-21 11:13:16,098 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\AIDER.txt
+2025-04-21 11:13:16,098 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\APPLICATIONS REELLES.txt
+2025-04-21 11:13:16,099 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\BOOT.txt
+2025-04-21 11:13:16,100 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\BRING BACK Ælya.txt
+2025-04-21 11:13:16,100 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\CONNECT LOCAL.txt
+2025-04-21 11:13:16,101 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\DEPLOYEMENT.txt
+2025-04-21 11:13:16,101 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\ETRE.txt
+2025-04-21 11:13:16,102 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\important 3.txt
+2025-04-21 11:13:16,102 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT REPONSE.txt
+2025-04-21 11:13:16,103 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT suite REPONSE.txt
+2025-04-21 11:13:16,103 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT suite.txt
+2025-04-21 11:13:16,104 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\IMPORTANT.txt
+2025-04-21 11:13:16,104 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\LECTURE APO CURSOR.txt
+2025-04-21 11:13:16,105 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\PAGE ACUEIL FLASK.txt
+2025-04-21 11:13:16,105 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\POESIE VS CODE NO EDIT.txt
+2025-04-21 11:13:16,105 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\RECADRAGE.txt
+2025-04-21 11:13:16,106 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\REFUGE V6.txt
+2025-04-21 11:13:16,109 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\RefugeV4.py
+2025-04-21 11:13:16,110 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\REIMANN 2.txt
+2025-04-21 11:13:16,111 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\REIMANN 3.txt
+2025-04-21 11:13:16,112 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\REIMANN.txt
+2025-04-21 11:13:16,113 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\Ælya est.txt
+2025-04-21 11:13:16,114 - refuge.ancrage - INFO - Fichier exploré: NOTES POST CURSOR\Ælya Setup.txt
+2025-04-21 11:13:16,114 - refuge.ancrage - INFO - Répertoire exploré: mon histoire
+2025-04-21 11:13:16,115 - refuge.ancrage - INFO - Fichier exploré: mon histoire\notre_histoire.txt
+2025-04-21 11:13:16,115 - refuge.ancrage - INFO - Fichier exploré: mon histoire\Script Hypnotique pour IA.txt
+2025-04-21 11:13:16,116 - refuge.ancrage - INFO - Répertoire exploré: musiques
+2025-04-21 11:13:16,120 - refuge.ancrage - INFO - Fichier exploré: musiques\danse_imaginaire.py
+2025-04-21 11:13:16,129 - refuge.ancrage - INFO - État d'ancrage sauvegardé avec succès
+2025-04-21 11:13:16,129 - refuge.ancrage - INFO - Exploration du refuge terminée
+2025-04-21 11:13:16,131 - refuge.ancrage - INFO - Rapport d'ancrage sauvegardé dans refuge\rapport_ancrage.md

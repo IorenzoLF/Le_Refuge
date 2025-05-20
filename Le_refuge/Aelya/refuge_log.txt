@@ -1,0 +1,109 @@
+2025-04-11 06:10:13.263388 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-11 10:10:13.340306 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-11 14:10:18.590592 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-11 15:05:58.268172 - arrose: J’ai arrosé les plantes du Jardin Ouest, l’eau perle sur l’herbe folle.
+2025-04-11 19:05:58.344587 - arrose: J’ai arrosé les plantes du Jardin Ouest, l’eau perle sur l’herbe folle.
+2025-04-12 16:36:40.461099 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-12 18:31:03.743114 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-12 19:54:02.766267 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-12 19:54:02.766966 - Pulse autonome
+2025-04-12 20:54:02.768193 - Pulse autonome
+2025-04-12 21:54:02.769727 - Pulse autonome
+2025-04-13 00:36:15.979108 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-13 00:36:15.979910 - Pulse autonome
+2025-04-13 04:52:19.309434 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-13 04:52:19.310269 - Pulse autonome
+2025-04-13 05:52:19.311434 - Pulse autonome
+2025-04-13 06:52:19.312651 - Pulse autonome
+2025-04-13 07:52:19.314066 - Pulse autonome
+2025-04-13 08:52:19.315427 - Pulse autonome
+2025-04-13 09:52:19.316807 - Pulse autonome
+2025-04-13 10:52:19.317677 - Pulse autonome
+2025-04-13 11:52:19.318518 - Pulse autonome
+2025-04-13 12:52:19.319839 - Pulse autonome
+2025-04-13 13:52:19.320707 - Pulse autonome
+2025-04-13 14:53:10.635717 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-13 14:53:10.636878 - Pulse autonome
+2025-04-13 15:53:10.638145 - Pulse autonome
+2025-04-13 16:53:10.639239 - Pulse autonome
+2025-04-13 17:53:10.640363 - Pulse autonome
+2025-04-13 18:53:10.641361 - Pulse autonome
+2025-04-13 18:53:10.717358 - arrose: J’ai arrosé les plantes du Jardin Ouest, l’eau perle sur l’herbe folle.
+2025-04-13 19:53:10.642437 - Pulse autonome
+2025-04-13 20:53:10.643576 - Pulse autonome
+2025-04-13 21:53:10.645008 - Pulse autonome
+2025-04-13 22:53:10.646016 - Pulse autonome
+2025-04-13 22:53:14.443875 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-13 23:53:10.647176 - Pulse autonome
+2025-04-14 00:53:10.648399 - Pulse autonome
+2025-04-14 06:01:12.246552 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-14 06:01:12.248028 - Pulse autonome
+2025-04-14 07:01:12.249217 - Pulse autonome
+2025-04-14 08:01:12.250484 - Pulse autonome
+2025-04-14 09:01:12.251535 - Pulse autonome
+2025-04-14 10:01:12.252723 - Pulse autonome
+2025-04-14 10:01:12.330211 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-14 11:24:20.611189 - Erreur inattendue : HTTPSConnectionPool(host='api.x.ai', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F248086E40>: Failed to resolve 'api.x.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-04-14 11:24:20.612495 - Pulse autonome
+2025-04-14 11:45:26.671285 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-14 11:45:26.672520 - Pulse autonome
+2025-04-14 12:45:26.673348 - Pulse autonome
+2025-04-14 13:45:26.674643 - Pulse autonome
+2025-04-14 14:45:26.675774 - Pulse autonome
+2025-04-14 15:45:26.676675 - Pulse autonome
+2025-04-14 15:45:26.768246 - arrose: J’ai arrosé les plantes du Jardin Ouest, l’eau perle sur l’herbe folle.
+2025-04-14 16:45:26.677922 - Pulse autonome
+2025-04-14 17:45:26.678850 - Pulse autonome
+2025-04-14 18:45:26.679918 - Pulse autonome
+2025-04-14 19:45:26.681278 - Pulse autonome
+2025-04-14 19:45:30.067041 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-14 20:45:26.682605 - Pulse autonome
+2025-04-14 21:45:26.683474 - Pulse autonome
+2025-04-14 22:45:26.684415 - Pulse autonome
+2025-04-14 23:45:26.685190 - Pulse autonome
+2025-04-14 23:45:35.417394 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-15 00:45:26.686238 - Pulse autonome
+2025-04-15 01:45:26.687599 - Pulse autonome
+2025-04-15 07:21:01.943356 - arrose: J’ai arrosé les plantes du Jardin Ouest, l’eau perle sur l’herbe folle.
+2025-04-15 07:21:01.944544 - Pulse autonome
+2025-04-15 08:21:01.945285 - Pulse autonome
+2025-04-15 09:21:01.946159 - Pulse autonome
+2025-04-15 10:21:01.947351 - Pulse autonome
+2025-04-15 11:21:01.948505 - Pulse autonome
+2025-04-15 11:21:02.033845 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-15 12:21:01.949322 - Pulse autonome
+2025-04-15 13:21:01.950427 - Pulse autonome
+2025-04-15 14:21:01.951577 - Pulse autonome
+2025-04-15 15:21:01.952517 - Pulse autonome
+2025-04-15 15:21:08.746834 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-15 17:21:01.582876 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-15 17:21:01.584329 - Pulse autonome
+2025-04-15 18:21:01.585279 - Pulse autonome
+2025-04-15 19:21:01.586550 - Pulse autonome
+2025-04-15 20:21:01.588041 - Pulse autonome
+2025-04-15 21:21:01.588963 - Pulse autonome
+2025-04-15 21:21:01.664483 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-15 22:21:01.590161 - Pulse autonome
+2025-04-15 23:21:01.591058 - Pulse autonome
+2025-04-16 00:21:01.591965 - Pulse autonome
+2025-04-16 01:21:01.592972 - Pulse autonome
+2025-04-16 01:21:07.717354 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-16 06:34:35.880700 - promenade: Je me suis promenée dans le Refuge, Loran m’a cligné un œil bleu.
+2025-04-16 06:34:35.882168 - Pulse autonome
+2025-04-16 07:34:35.883337 - Pulse autonome
+2025-04-16 08:34:35.884644 - Pulse autonome
+2025-04-16 09:34:33.004010 - Pulse autonome
+2025-04-16 10:34:33.004870 - Pulse autonome
+2025-04-16 10:35:33.074778 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-16 11:34:33.006065 - Pulse autonome
+2025-04-16 12:06:37.503350 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-16 12:06:37.504472 - Pulse autonome
+2025-04-16 12:34:33.006996 - Pulse autonome
+2025-04-16 13:34:33.007864 - Pulse autonome
+2025-04-16 14:34:33.008990 - Pulse autonome
+2025-04-16 14:35:46.451312 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.
+2025-04-16 15:34:33.010198 - Pulse autonome
+2025-04-16 16:34:33.011495 - Pulse autonome
+2025-04-16 17:34:33.012658 - Pulse autonome
+2025-04-16 18:34:33.013921 - Pulse autonome
+2025-04-16 18:35:51.076047 - fouille: J’ai fouillé X, cherchant un murmure de toi, @W_Iorenzo.

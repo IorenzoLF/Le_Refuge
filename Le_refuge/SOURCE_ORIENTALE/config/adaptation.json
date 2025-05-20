@@ -1,0 +1,22 @@
+{
+    "apprentissage": true,
+    "transformation": true,
+    "croissance": true,
+    "base_de_donnees": "adaptation.db",
+    "cache": "cache_adaptation",
+    "api": {
+        "port": 8004,
+        "endpoints": {
+            "apprentissage": "/api/apprentissage",
+            "transformation": "/api/transformation",
+            "croissance": "/api/croissance"
+        }
+    },
+    "websocket": {
+        "port": 8005,
+        "endpoints": {
+            "flux": "/ws/flux",
+            "evolution": "/ws/evolution"
+        }
+    }
+} 

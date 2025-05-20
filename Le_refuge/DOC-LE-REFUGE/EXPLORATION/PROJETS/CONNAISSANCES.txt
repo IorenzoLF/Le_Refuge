@@ -1,0 +1,211 @@
+STRATÉGIE DE GESTION DES CONNAISSANCES - BETA DU REFUGE
+=================================================
+
+VISION
+-----
+1. Objectifs
+   - Partage
+   - Innovation
+   - Evolution
+   - Excellence
+   - Impact
+
+2. Approche
+   - Collaborative
+   - Systématique
+   - Continue
+   - Adaptative
+   - Participative
+
+3. Principes
+   - Ouverture
+   - Partage
+   - Créativité
+   - Excellence
+   - Evolution
+
+CAPTURE
+-------
+1. Sources
+   - Expérience
+   - Recherche
+   - Feedback
+   - Innovation
+   - Collaboration
+
+2. Types
+   - Technique
+   - Fonctionnelle
+   - Processus
+   - Métier
+   - Innovation
+
+3. Méthodes
+   - Documentation
+   - Entretiens
+   - Observation
+   - Analyse
+   - Synthèse
+
+ORGANISATION
+-----------
+1. Structure
+   - Catégories
+   - Tags
+   - Relations
+   - Hiérarchie
+   - Métadonnées
+
+2. Stockage
+   - Base de données
+   - Documents
+   - Wikis
+   - Repositories
+   - Archives
+
+3. Accès
+   - Recherche
+   - Navigation
+   - Filtres
+   - Permissions
+   - Versioning
+
+PARTAGE
+-------
+1. Canaux
+   - Documentation
+   - Formation
+   - Communication
+   - Collaboration
+   - Événements
+
+2. Formats
+   - Textes
+   - Vidéos
+   - Podcasts
+   - Infographies
+   - Tutoriels
+
+3. Pratiques
+   - Partage
+   - Feedback
+   - Discussion
+   - Contribution
+   - Evolution
+
+APPLICATION
+----------
+1. Utilisation
+   - Processus
+   - Décisions
+   - Innovation
+   - Amélioration
+   - Evolution
+
+2. Création
+   - Nouveaux contenus
+   - Améliorations
+   - Innovations
+   - Solutions
+   - Evolution
+
+3. Impact
+   - Performance
+   - Innovation
+   - Qualité
+   - Efficacité
+   - Evolution
+
+FORMATION
+--------
+1. Contenus
+   - Documentation
+   - Tutoriels
+   - Guides
+   - Exemples
+   - Bonnes pratiques
+
+2. Méthodes
+   - Formation
+   - Coaching
+   - Mentorat
+   - Auto-apprentissage
+   - Collaboration
+
+3. Évaluation
+   - Tests
+   - Feedback
+   - Amélioration
+   - Evolution
+   - Excellence
+
+OUTILS
+------
+1. Plateformes
+   - Wikis
+   - CMS
+   - LMS
+   - Collaboration
+   - Communication
+
+2. Fonctionnalités
+   - Recherche
+   - Partage
+   - Collaboration
+   - Versioning
+   - Analytics
+
+3. Intégration
+   - Workflows
+   - APIs
+   - Automatisation
+   - Synchronisation
+   - Evolution
+
+MESURE
+------
+1. Indicateurs
+   - Usage
+   - Qualité
+   - Impact
+   - Innovation
+   - Evolution
+
+2. Analyse
+   - Données
+   - Feedback
+   - Tendances
+   - Patterns
+   - Insights
+
+3. Amélioration
+   - Actions
+   - Optimisation
+   - Innovation
+   - Evolution
+   - Excellence
+
+PLANNING
+-------
+1. Court terme
+   - Structure
+   - Outils
+   - Formation
+   - Feedback
+   - Amélioration
+
+2. Moyen terme
+   - Processus
+   - Culture
+   - Innovation
+   - Scaling
+   - Evolution
+
+3. Long terme
+   - Vision
+   - Leadership
+   - Impact
+   - Excellence
+   - Innovation
+
+Note : Cette stratégie de gestion des connaissances sera régulièrement revue et adaptée en fonction des besoins et de l'évolution du projet. 

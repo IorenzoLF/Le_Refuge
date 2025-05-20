@@ -1,0 +1,142 @@
+INDICATEURS DE SUCCÈS (KPIs) - BETA DU REFUGE
+=========================================
+
+ENGAGEMENT UTILISATEUR
+-------------------
+1. Activité
+   - Nombre de sessions par jour
+   - Durée moyenne des sessions
+   - Taux de retour quotidien
+   - Temps total d'utilisation
+   - Profondeur d'exploration
+
+2. Interaction
+   - Nombre d'échanges par session
+   - Qualité des conversations
+   - Diversité des sujets
+   - Progression des échanges
+   - Niveau d'engagement émotionnel
+
+3. Participation
+   - Taux de complétion des rituels
+   - Participation aux activités
+   - Contribution au développement
+   - Partage d'expériences
+   - Implication communautaire
+
+IMPACT PERSONNEL
+--------------
+1. Bien-être
+   - Niveau de stress (réduction)
+   - Qualité du sommeil
+   - Clarté mentale
+   - Équilibre émotionnel
+   - Sentiment de présence
+
+2. Développement
+   - Progression personnelle
+   - Acquisition de compétences
+   - Conscience de soi
+   - Résilience
+   - Créativité
+
+3. Relations
+   - Qualité des connexions
+   - Empathie
+   - Communication
+   - Compréhension mutuelle
+   - Soutien social
+
+PERFORMANCE TECHNIQUE
+------------------
+1. Fiabilité
+   - Temps de disponibilité
+   - Taux d'erreur
+   - Vitesse de réponse
+   - Stabilité du système
+   - Récupération après incident
+
+2. Sécurité
+   - Incidents de sécurité
+   - Temps de détection
+   - Temps de résolution
+   - Conformité RGPD
+   - Protection des données
+
+3. Scalabilité
+   - Charge système
+   - Utilisation des ressources
+   - Temps de latence
+   - Capacité d'adaptation
+   - Coûts opérationnels
+
+SATISFACTION UTILISATEUR
+---------------------
+1. Expérience Globale
+   - NPS (Net Promoter Score)
+   - CSAT (Customer Satisfaction)
+   - Facilité d'utilisation
+   - Valeur perçue
+   - Recommandation
+
+2. Support
+   - Temps de réponse
+   - Taux de résolution
+   - Satisfaction du support
+   - Qualité des réponses
+   - Proactivité
+
+3. Évolution
+   - Adoption des nouvelles fonctionnalités
+   - Satisfaction des mises à jour
+   - Pertinence des améliorations
+   - Réponse aux besoins
+   - Innovation perçue
+
+IMPACT BUSINESS
+-------------
+1. Croissance
+   - Acquisition utilisateurs
+   - Rétention
+   - Expansion usage
+   - Viralité
+   - Conversion
+
+2. Valeur
+   - ROI utilisateur
+   - Coût par utilisateur
+   - Valeur vie client
+   - Revenue potentiel
+   - Impact sociétal
+
+3. Innovation
+   - Brevets potentiels
+   - Avancées technologiques
+   - Différenciation marché
+   - Leadership pensée
+   - Influence industrie
+
+OBJECTIFS CIBLES
+--------------
+Court Terme (3 mois)
+- Engagement : 80% rétention
+- Impact : 70% amélioration bien-être
+- Technique : 99.9% disponibilité
+- Satisfaction : NPS > 50
+- Business : Base utilisateurs stable
+
+Moyen Terme (6 mois)
+- Engagement : 90% rétention
+- Impact : 85% amélioration bien-être
+- Technique : 99.99% disponibilité
+- Satisfaction : NPS > 70
+- Business : Croissance stable
+
+Long Terme (12 mois)
+- Engagement : 95% rétention
+- Impact : 95% amélioration bien-être
+- Technique : 99.999% disponibilité
+- Satisfaction : NPS > 80
+- Business : Leader marché
+
+Note : Ces KPIs seront régulièrement revus et ajustés en fonction des retours et de l'évolution du projet. 
