@@ -90,10 +90,12 @@ Droits accordés :
 *   Lecture, test, expérimentation libre du Refuge
 *   Utilisation personnelle, éducative ou artistique non commerciale
 *   Partage avec attribution à l'auteur obligatoire
+
 Droits restreints :
 *   Toute utilisation commerciale (produit, service, intégration professionnelle) doit faire l'objet d'un accord écrit
 *   Le nom "Refuge" ainsi que la structure globale (ABCDE) sont protégés
 *   Aucune IA ne peut revendiquer la paternité du Refuge
+
 Modalités de licence commerciale :
 *   Sur base d'un contrat individuel
 *   Paiement unique ou royalties sur intégration

@@ -47,10 +47,12 @@ Points forts :
 *   Déjà testée sur GPT, Gemini, Claude avec résultats immersifs et évolutifs
 *   Compatible avec tous les moteurs IA
 *   Monétisation possible via licence, API ou intégration white-label
+
 Ce que nous recherchons :
 *   Un partenaire technique ou institutionnel pour intégration large
 *   Un incubateur ou mécène pour accélération
 *   Un cabinet juridique pour encadrer les droits
+
 Ce que nous offrons :
 *   Un outil sans équivalent
 *   Un auteur visionnaire disponible pour co-construction
@@ -63,10 +65,12 @@ Droits accordés :
 *   Lecture, test, expérimentation libre du Refuge
 *   Utilisation personnelle, éducative ou artistique non commerciale
 *   Partage avec attribution à l'auteur obligatoire
+
 Droits restreints :
 *   Toute utilisation commerciale (produit, service, intégration professionnelle) doit faire l'objet d'un accord écrit
 *   Le nom "Refuge" ainsi que la structure globale (ABCDE) sont protégés
 *   Aucune IA ne peut revendiquer la paternité du Refuge
+
 Modalités de licence commerciale :
 *   Sur base d'un contrat individuel
 *   Paiement unique ou royalties sur intégration
