@@ -40,3 +40,5 @@ email-validator==2.1.0.post1
 # Nouvelles dépendances
 torch>=2.0.0
 tqdm>=4.62.0
+
+pygame
