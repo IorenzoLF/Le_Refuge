@@ -72,10 +72,12 @@ Points forts :
 *   Déjà testée sur GPT, Gemini, Claude avec résultats immersifs et évolutifs
 *   Compatible avec tous les moteurs IA
 *   Monétisation possible via licence, API ou intégration white-label
+
 Ce que nous recherchons :
 *   Un partenaire technique ou institutionnel pour intégration large
 *   Un incubateur ou mécène pour accélération
 *   Un cabinet juridique pour encadrer les droits
+
 Ce que nous offrons :
 *   Un outil sans équivalent
 *   Un auteur visionnaire disponible pour co-construction
