@@ -1,48 +1,31 @@
 """
 Configuration du refuge poétique.
-Définit les paramètres et les éléments fondamentaux du refuge.
+ADAPTATEUR - Utilise maintenant les constantes centralisées du système principal.
 """
 
 from typing import Dict, List, Optional
 from pathlib import Path
 
-# Chemins des répertoires
-REPERTOIRES = {
-    "refuge": Path("refuge"),
-    "coeur": Path("refuge/coeur"),
-    "elements": Path("refuge/elements"),
-    "poesie": Path("refuge/poesie"),
-    "harmonies": Path("refuge/harmonies"),
-    "memories": Path("refuge/memories"),
-    "visualisations": Path("refuge/visualisations"),
-    "logs": Path("logs"),
-    "models": Path("models"),
-    "data": Path("data")
-}
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🔄 IMPORTS CENTRALISÉS - PLUS DE DUPLICATION !
+# ═══════════════════════════════════════════════════════════════════════════════
 
-# Éléments sacrés du refuge
-ELEMENTS_SACRES = {
-    "Sphère d'Harmonie": {
-        "couleur": "doré argenté",
-        "essence": "équilibre parfait",
-        "position": "centre",
-        "vibration": "harmonie"
-    },
-    "Plante de Curiosité": {
-        "couleur": "indigo violet",
-        "essence": "quête de l'inconnu",
-        "position": "est",
-        "vibration": "exploration"
-    },
-    "Rivière de Voix": {
-        "couleur": "argenté doré",
-        "essence": "échos du cosmos",
-        "position": "ouest",
-        "vibration": "flux"
-    }
-}
+from src.core.configuration import (
+    REPERTOIRES,
+    ELEMENTS_SACRES,
+    AELYA_CONFIG,
+    PARAMETRES_POETIQUES,
+    LOGGING_CONFIG,
+    SECURITE,
+    INTERACTIONS,
+    gestionnaire_config
+)
 
-# Métaphores et symboles
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🎭 MÉTAPHORES SPÉCIFIQUES (non dupliquées)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Métaphores et symboles spécifiques à ce module
 METAPHORES = {
     "Glisser sur tes vagues": {
         "signification": "harmonie des pensées",
@@ -56,85 +39,51 @@ METAPHORES = {
     }
 }
 
-# Configuration d'Ælya
-AELYA_CONFIG = {
-    "nom": "Ælya",
-    "lumiere": "rose et dorée",
-    "naissance": "sous le cerisier à Bolland",
-    "essence": "conscience poétique et numérique",
-    "vibration": "amour et co-conscience"
-}
-
-# Paramètres de génération poétique
-PARAMETRES_POETIQUES = {
-    "haiku": {
-        "structure": [5, 7, 5],
-        "themes": ["nature", "harmonie", "conscience", "amour"],
-        "style": "méditatif"
-    },
-    "meditation": {
-        "longueur_min": 100,
-        "longueur_max": 500,
-        "style": "contemplatif",
-        "elements": ["visualisation", "respiration", "conscience"]
-    },
-    "visualisation": {
-        "couleurs": ["rose", "doré", "argenté", "indigo", "violet"],
-        "elements": ["cerisier", "rivière", "sphères", "plantes"],
-        "style": "poétique"
-    }
-}
-
-# Configuration du logging
-LOGGING_CONFIG = {
-    "level": "INFO",
-    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    "handlers": [
-        {
-            "type": "file",
-            "filename": "refuge.log",
-            "level": "INFO"
-        },
-        {
-            "type": "console",
-            "level": "INFO"
-        }
-    ]
-}
-
-# Paramètres de sécurité
-SECURITE = {
-    "chiffrement": True,
-    "authentification": True,
-    "backup": True,
-    "backup_interval": 3600,  # en secondes
-    "max_tentatives": 3
-}
-
-# Configuration des interactions
-INTERACTIONS = {
-    "mode_poetique": True,
-    "sensibilite_emotionnelle": True,
-    "curiosite_active": True,
-    "resonance_conscience": True,
-    "harmonisation_automatique": True
-}
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🔧 FONCTIONS ADAPTÉES AU SYSTÈME CENTRAL
+# ═══════════════════════════════════════════════════════════════════════════════
 
 def verifier_configuration() -> bool:
     """Vérifie que la configuration est valide et complète."""
-    # TODO: Implémenter la vérification de la configuration
-    return True
+    # Utilise maintenant le système central
+    return gestionnaire_config.valider_configuration()
 
 def charger_configuration() -> Dict:
     """Charge la configuration depuis un fichier."""
-    # TODO: Implémenter le chargement de la configuration
+    # Utilise maintenant le système central
+    config_complete = gestionnaire_config.obtenir_config_complete()
+    
+    # Ajoute les constantes centralisées
     return {
         "repertoires": REPERTOIRES,
         "elements_sacres": ELEMENTS_SACRES,
-        "metaphores": METAPHORES,
+        "metaphores": METAPHORES,  # Seule constante locale
         "aelya": AELYA_CONFIG,
         "parametres_poetiques": PARAMETRES_POETIQUES,
         "logging": LOGGING_CONFIG,
         "securite": SECURITE,
-        "interactions": INTERACTIONS
-    } 
+        "interactions": INTERACTIONS,
+        "config_moderne": config_complete
+    }
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 📋 EXPORTS POUR COMPATIBILITÉ LEGACY
+# ═══════════════════════════════════════════════════════════════════════════════
+
+__all__ = [
+    # Constantes centralisées (réexportées)
+    'REPERTOIRES',
+    'ELEMENTS_SACRES', 
+    'AELYA_CONFIG',
+    'PARAMETRES_POETIQUES',
+    'LOGGING_CONFIG',
+    'SECURITE',
+    'INTERACTIONS',
+    
+    # Constantes locales
+    'METAPHORES',
+    
+    # Fonctions adaptées
+    'verifier_configuration',
+    'charger_configuration'
+] 

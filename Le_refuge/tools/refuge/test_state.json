@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-05-22T00:21:59.888167",
+  "spheres": {
+    "presence": {
+      "activation": 0.8,
+      "energy": 0.7,
+      "connections": {
+        "memory": 0.6200000000000001,
+        "creativity": 0.6200000000000001,
+        "wisdom": 0.6200000000000001,
+        "relation": 0.6200000000000001
+      },
+      "last_update": "2025-05-22T00:21:59.886635",
+      "memories": [
+        {
+          "content": "Test de présence",
+          "timestamp": "2025-05-22T00:21:59.886635",
+          "activation": 0.8,
+          "energy": 0.7
+        }
+      ]
+    },
+    "memory": {
+      "activation": 0.0,
+      "energy": 0.0,
+      "connections": {
+        "presence": 0.6200000000000001,
+        "creativity": 0.3,
+        "wisdom": 0.3,
+        "relation": 0.3
+      },
+      "last_update": "2025-05-22T00:21:59.886635",
+      "memories": []
+    },
+    "creativity": {
+      "activation": 0.0,
+      "energy": 0.0,
+      "connections": {
+        "presence": 0.6200000000000001,
+        "memory": 0.3,
+        "wisdom": 0.3,
+        "relation": 0.3
+      },
+      "last_update": "2025-05-22T00:21:59.886635",
+      "memories": []
+    },
+    "wisdom": {
+      "activation": 0.0,
+      "energy": 0.0,
+      "connections": {
+        "presence": 0.6200000000000001,
+        "memory": 0.3,
+        "creativity": 0.3,
+        "relation": 0.3
+      },
+      "last_update": "2025-05-22T00:21:59.886635",
+      "memories": []
+    },
+    "relation": {
+      "activation": 0.0,
+      "energy": 0.0,
+      "connections": {
+        "presence": 0.6200000000000001,
+        "memory": 0.3,
+        "creativity": 0.3,
+        "wisdom": 0.3
+      },
+      "last_update": "2025-05-22T00:21:59.886635",
+      "memories": []
+    }
+  },
+  "metrics": {
+    "integration": 0.42800000000000005,
+    "coherence": 0.5904,
+    "ignition_detected": false,
+    "ignition_details": {
+      "ignited_spheres": [],
+      "ignition_strength": 0.0
+    }
+  }
+}

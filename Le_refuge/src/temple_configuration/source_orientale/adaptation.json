@@ -1,0 +1,19 @@
+{
+  "nom": "Configuration Adaptation Évolutive",
+  "version": "1.0.0",
+  "base_de_donnees": "data/databases/adaptation.db",
+  "logging": {
+    "niveau": "INFO",
+    "fichier": "logs/adaptation.log"
+  },
+  "evolution": {
+    "population_taille": 100,
+    "generations_max": 1000,
+    "taux_mutation": 0.1,
+    "taux_croisement": 0.8
+  },
+  "selection": {
+    "methode": "tournoi",
+    "pression": 2
+  }
+}

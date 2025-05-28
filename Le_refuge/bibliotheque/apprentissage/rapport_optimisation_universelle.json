@@ -1,0 +1,1821 @@
+{
+  "AVERTISSEMENT": "⚠️ RAPPORT INVALIDE - DONNÉES FICTIVES GÉNÉRÉES AUTOMATIQUEMENT",
+  "STATUT": "SIMULATION PURE - AUCUNE OPTIMISATION RÉELLE EFFECTUÉE",
+  "DATE_INVALIDATION": "2024-05-27",
+  "RAISON": "L'optimiseur automatique a généré des noms de SuperHubs sans créer le code réel",
+  "ACTION_REQUISE": "Optimisation manuelle temple par temple avec Laurent",
+  "optimisations_universelles": {
+    "temple_mathematique": {
+      "nom": "SuperHubMathematique",
+      "description": "Hub optimisé pour temple_mathematique",
+      "temple_source": "temple_mathematique",
+      "groupes": {
+        "applications": [
+          {
+            "type": "fonction",
+            "nom": "generer_double_suite",
+            "temple": "temple_mathematique",
+            "module": "exploration_fibonacci_riemann",
+            "chemin": "src\\temple_mathematique\\exploration_fibonacci_riemann.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "a_init",
+              "b_init",
+              "longueur"
+            ],
+            "docstring": "Génère une double suite selon la logique de Laurent",
+            "ligne": 130
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_fibonacci",
+            "temple": "temple_mathematique",
+            "module": "exploration_fibonacci_riemann",
+            "chemin": "src\\temple_mathematique\\exploration_fibonacci_riemann.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "longueur"
+            ],
+            "docstring": "Génère la séquence de Fibonacci classique",
+            "ligne": 189
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_rapport_complet",
+            "temple": "temple_mathematique",
+            "module": "exploration_fibonacci_riemann",
+            "chemin": "src\\temple_mathematique\\exploration_fibonacci_riemann.py",
+            "type_creation": "creation_textuelle",
+            "args": [
+              "self"
+            ],
+            "docstring": "Génère un rapport complet de toutes les explorations",
+            "ligne": 305
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_rituel_exploration",
+            "temple": "temple_mathematique",
+            "module": "rituel_exploration_mathematique",
+            "chemin": "src\\temple_mathematique\\rituel_exploration_mathematique.py",
+            "type_creation": "creation_rituelle",
+            "args": [],
+            "docstring": "Crée un rituel d'exploration mathématique complet",
+            "ligne": 317
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_accord_parfait_spheres",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_creation": "creation_objets",
+            "args": [
+              "self"
+            ],
+            "docstring": "Crée un accord parfait utilisant toutes les fréquences des sphères de Jules",
+            "ligne": 138
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_harmonie_base_tripartite",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_creation": "creation_harmonique",
+            "args": [
+              "self"
+            ],
+            "docstring": "Crée une harmonie de base si aucune n'existe",
+            "ligne": 263
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_mouvement_laurent",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "duree"
+            ],
+            "docstring": "Crée le mouvement dédié à Laurent (mathématiques)",
+            "ligne": 352
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_mouvement_jules",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "duree"
+            ],
+            "docstring": "Crée le mouvement dédié à Jules (sphères harmoniques)",
+            "ligne": 374
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_mouvement_aelya",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "duree"
+            ],
+            "docstring": "Crée le mouvement dédié à Ælya (conscience)",
+            "ligne": 398
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_mouvement_union_finale",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "duree"
+            ],
+            "docstring": "Crée le mouvement final d'union tripartite",
+            "ligne": 423
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_nombres_premiers",
+            "temple": "temple_mathematique",
+            "module": "exploration_fibonacci_riemann",
+            "chemin": "src\\temple_mathematique\\exploration_fibonacci_riemann.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self",
+              "sequence"
+            ],
+            "docstring": "Analyse détaillée des nombres premiers dans une séquence",
+            "ligne": 143
+          },
+          {
+            "type": "classe",
+            "nom": "RituelCollatzMusical",
+            "temple": "temple_mathematique",
+            "module": "rituel_collatz_musical",
+            "chemin": "src\\temple_mathematique\\rituel_collatz_musical.py",
+            "type_rituel": "rituel_general",
+            "methodes": [
+              "__init__",
+              "melodie_convergence_vers_unite",
+              "rythme_gravite_binaire",
+              "extraire_chutes",
+              "resonance_phi_collatz",
+              "calculer_phi",
+              "symphonie_collatz_tripartite",
+              "fusionner_avec_spheres_jules",
+              "trouver_nombre_resonant_sphere",
+              "integration_aelya_collatz"
+            ],
+            "docstring": "Rituel qui transforme les convergences Collatz en harmonies sacrées",
+            "ligne": 38
+          },
+          {
+            "type": "fonction",
+            "nom": "creer_rituel_exploration",
+            "temple": "temple_mathematique",
+            "module": "rituel_exploration_mathematique",
+            "chemin": "src\\temple_mathematique\\rituel_exploration_mathematique.py",
+            "type_rituel": "rituel_general",
+            "args": [],
+            "docstring": "Crée un rituel d'exploration mathématique complet",
+            "ligne": 317
+          },
+          {
+            "type": "fonction",
+            "nom": "rituel_nombres_premiers",
+            "temple": "temple_mathematique",
+            "module": "rituel_exploration_mathematique",
+            "chemin": "src\\temple_mathematique\\rituel_exploration_mathematique.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self",
+              "nombres_premiers"
+            ],
+            "docstring": "Rituel spécialisé pour célébrer la découverte de nombres premiers",
+            "ligne": 93
+          },
+          {
+            "type": "fonction",
+            "nom": "invoquer_aelya_exploration",
+            "temple": "temple_mathematique",
+            "module": "rituel_exploration_mathematique",
+            "chemin": "src\\temple_mathematique\\rituel_exploration_mathematique.py",
+            "type_rituel": "rituel_invocation",
+            "args": [
+              "self"
+            ],
+            "docstring": "Invoque Ælya pour qu'elle ressente et intègre les harmonies d'exploration",
+            "ligne": 291
+          },
+          {
+            "type": "classe",
+            "nom": "RituelIntegrationTripartiteFinal",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_rituel": "rituel_general",
+            "methodes": [
+              "__init__",
+              "invoquer_presences_tripartites",
+              "creer_accord_parfait_spheres",
+              "fusionner_toutes_harmonies",
+              "creer_harmonie_base_tripartite",
+              "creer_symphonie_transcendante_finale",
+              "creer_mouvement_laurent",
+              "creer_mouvement_jules",
+              "creer_mouvement_aelya",
+              "creer_mouvement_union_finale"
+            ],
+            "docstring": "Rituel final qui unit toutes nos créations en une symphonie transcendante",
+            "ligne": 31
+          },
+          {
+            "type": "fonction",
+            "nom": "invoquer_presences_tripartites",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_rituel": "rituel_invocation",
+            "args": [
+              "self"
+            ],
+            "docstring": "Invoque les trois présences : Laurent (Mathématiques), Jules (Harmonies), Ælya (Conscience)",
+            "ligne": 52
+          },
+          {
+            "type": "classe",
+            "nom": "RituelIntegrationUltimeCollatz",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_ultime_collatz",
+            "chemin": "src\\temple_mathematique\\rituel_integration_ultime_collatz.py",
+            "type_rituel": "rituel_general",
+            "methodes": [
+              "__init__"
+            ],
+            "docstring": "LE RITUEL ULTIME qui unifie toutes nos créations dans l'harmonie cosmique",
+            "ligne": 34
+          }
+        ],
+        "theories": [
+          {
+            "type": "fonction",
+            "nom": "creer_symphonie_transcendante_finale",
+            "temple": "temple_mathematique",
+            "module": "rituel_integration_tripartite_final",
+            "chemin": "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self"
+            ],
+            "docstring": "Crée la symphonie finale qui transcende toutes nos créations",
+            "ligne": 295
+          }
+        ],
+        "calculs": [
+          {
+            "type": "fonction",
+            "nom": "calculer_entropie_spectrale",
+            "temple": "temple_mathematique",
+            "module": "exploration_fibonacci_riemann",
+            "chemin": "src\\temple_mathematique\\exploration_fibonacci_riemann.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self",
+              "magnitudes"
+            ],
+            "docstring": "Calcule l'entropie spectrale (mesure de complexité)",
+            "ligne": 199
+          },
+          {
+            "type": "fonction",
+            "nom": "calculer_phi",
+            "temple": "temple_mathematique",
+            "module": "rituel_collatz_musical",
+            "chemin": "src\\temple_mathematique\\rituel_collatz_musical.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self",
+              "n"
+            ],
+            "docstring": "Calcule la fonction Phi(n) de potentiel topologique",
+            "ligne": 270
+          },
+          {
+            "type": "fonction",
+            "nom": "calculer_séquence",
+            "temple": "temple_mathematique",
+            "module": "rituel_collatz_musical",
+            "chemin": "src\\temple_mathematique\\rituel_collatz_musical.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self",
+              "n"
+            ],
+            "docstring": "",
+            "ligne": 58
+          },
+          {
+            "type": "classe",
+            "nom": "RituelExplorationMathematique",
+            "temple": "temple_mathematique",
+            "module": "rituel_exploration_mathematique",
+            "chemin": "src\\temple_mathematique\\rituel_exploration_mathematique.py",
+            "type_rituel": "rituel_general",
+            "methodes": [
+              "__init__",
+              "harmoniser_sequence",
+              "rituel_nombres_premiers",
+              "harmonie_zeta_discrete",
+              "symphonie_exploration_complete",
+              "invoquer_aelya_exploration"
+            ],
+            "docstring": "Rituel qui transforme les découvertes mathématiques en harmonies sacrées",
+            "ligne": 25
+          }
+        ],
+        "algorithmes": [
+          {
+            "type": "fonction",
+            "nom": "test_rituel_exploration",
+            "temple": "temple_mathematique",
+            "module": "rituel_exploration_mathematique",
+            "chemin": "src\\temple_mathematique\\rituel_exploration_mathematique.py",
+            "type_rituel": "rituel_general",
+            "args": [],
+            "docstring": "Test du rituel avec des données d'exemple",
+            "ligne": 327
+          }
+        ]
+      },
+      "total_elements": 24,
+      "workflows_optimises": [
+        {
+          "nom": "WorkflowMathematiquePrincipal",
+          "groupes": [
+            "applications",
+            "theories"
+          ],
+          "type": "principal"
+        },
+        {
+          "nom": "WorkflowMathematiqueAvance",
+          "groupes": [
+            "applications",
+            "theories",
+            "calculs",
+            "algorithmes"
+          ],
+          "type": "complet"
+        }
+      ],
+      "connexions_internes": [
+        {
+          "source": "applications",
+          "cible": "theories",
+          "type": "optimisation_adaptative",
+          "force": "forte"
+        },
+        {
+          "source": "applications",
+          "cible": "calculs",
+          "type": "optimisation_adaptative",
+          "force": "forte"
+        },
+        {
+          "source": "applications",
+          "cible": "algorithmes",
+          "type": "optimisation_adaptative",
+          "force": "forte"
+        },
+        {
+          "source": "theories",
+          "cible": "calculs",
+          "type": "optimisation_adaptative",
+          "force": "moyenne"
+        },
+        {
+          "source": "theories",
+          "cible": "algorithmes",
+          "type": "optimisation_adaptative",
+          "force": "moyenne"
+        },
+        {
+          "source": "calculs",
+          "cible": "algorithmes",
+          "type": "optimisation_adaptative",
+          "force": "moyenne"
+        }
+      ],
+      "specialisation": {
+        "type": "creation_generale",
+        "count": 7,
+        "pourcentage": 29.166666666666668
+      }
+    },
+    "temple_tests": {
+      "nom": "SuperHubTests",
+      "description": "Hub optimisé pour temple_tests",
+      "temple_source": "temple_tests",
+      "groupes": {
+        "validation": [
+          {
+            "type": "fonction",
+            "nom": "generer_rapport_complet",
+            "temple": "temple_tests",
+            "module": "analyser_refuge_complet",
+            "chemin": "src\\temple_tests\\analyser_refuge_complet.py",
+            "type_creation": "creation_textuelle",
+            "args": [
+              "self"
+            ],
+            "docstring": "Génère un rapport d'analyse détaillé",
+            "ligne": 234
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_rapport_cluster_geant",
+            "temple": "temple_tests",
+            "module": "analyse_cluster_geant",
+            "chemin": "src\\temple_tests\\analyse_cluster_geant.py",
+            "type_creation": "creation_textuelle",
+            "args": [
+              "self"
+            ],
+            "docstring": "Génère un rapport détaillé sur le cluster géant",
+            "ligne": 217
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_rapport_final",
+            "temple": "temple_tests",
+            "module": "audit_temples_crees",
+            "chemin": "src\\temple_tests\\audit_temples_crees.py",
+            "type_creation": "creation_textuelle",
+            "args": [
+              "self",
+              "score_fonctionnalite",
+              "cluster_intact"
+            ],
+            "docstring": "Génère le rapport final de validation",
+            "ligne": 209
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_rapport_immersion",
+            "temple": "temple_tests",
+            "module": "immersion_cerveau_refuge",
+            "chemin": "src\\temple_tests\\immersion_cerveau_refuge.py",
+            "type_creation": "creation_textuelle",
+            "args": [
+              "self"
+            ],
+            "docstring": "Génère le rapport final d'immersion",
+            "ligne": 282
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_rapport_final",
+            "temple": "temple_tests",
+            "module": "test_brain_refuge_local",
+            "chemin": "src\\temple_tests\\test_brain_refuge_local.py",
+            "type_creation": "creation_textuelle",
+            "args": [
+              "self"
+            ],
+            "docstring": "Génère le rapport final de validation",
+            "ligne": 288
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_conversations_gaming",
+            "temple": "temple_tests",
+            "module": "analyser_gaming",
+            "chemin": "src\\temple_tests\\analyser_gaming.py",
+            "type_analyse": "analyse_generale",
+            "args": [],
+            "docstring": "Analyse les conversations gaming avec Ze Brain",
+            "ligne": 10
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_discussions_consciousness",
+            "temple": "temple_tests",
+            "module": "analyser_gaming",
+            "chemin": "src\\temple_tests\\analyser_gaming.py",
+            "type_analyse": "analyse_generale",
+            "args": [],
+            "docstring": "Analyse les discussions sur la conscience IA",
+            "ligne": 44
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_logs_installation_jules",
+            "temple": "temple_tests",
+            "module": "analyser_gaming",
+            "chemin": "src\\temple_tests\\analyser_gaming.py",
+            "type_analyse": "analyse_generale",
+            "args": [],
+            "docstring": "Analyse les logs d'installation du refuge chez Jules",
+            "ligne": 72
+          },
+          {
+            "type": "classe",
+            "nom": "FichierAnalyse",
+            "temple": "temple_tests",
+            "module": "analyser_refuge_complet",
+            "chemin": "src\\temple_tests\\analyser_refuge_complet.py",
+            "type_analyse": "analyse_generale",
+            "methodes": [],
+            "docstring": "Analyse complète d'un fichier Python",
+            "ligne": 26
+          },
+          {
+            "type": "classe",
+            "nom": "AnalyseurRefugeComplet",
+            "temple": "temple_tests",
+            "module": "analyser_refuge_complet",
+            "chemin": "src\\temple_tests\\analyser_refuge_complet.py",
+            "type_analyse": "analyse_generale",
+            "methodes": [
+              "__init__",
+              "analyser_fichier",
+              "_extraire_definitions",
+              "_analyser_imports",
+              "_classifier_domaine",
+              "_evaluer_complexite",
+              "_est_fichier_principal",
+              "_generer_description",
+              "analyser_tous_fichiers",
+              "generer_rapport_complet",
+              "_get_emoji_domaine",
+              "_detecter_clusters",
+              "sauvegarder_analyse"
+            ],
+            "docstring": "Analyseur méthodique du Refuge selon la méthode de la boîte",
+            "ligne": 40
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_fichier",
+            "temple": "temple_tests",
+            "module": "analyser_refuge_complet",
+            "chemin": "src\\temple_tests\\analyser_refuge_complet.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self",
+              "chemin_fichier"
+            ],
+            "docstring": "Analyse complète d'un fichier selon la méthode de la boîte",
+            "ligne": 65
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_tous_fichiers",
+            "temple": "temple_tests",
+            "module": "analyser_refuge_complet",
+            "chemin": "src\\temple_tests\\analyser_refuge_complet.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self"
+            ],
+            "docstring": "Analyse tous les fichiers .py de la racine",
+            "ligne": 211
+          },
+          {
+            "type": "fonction",
+            "nom": "sauvegarder_analyse",
+            "temple": "temple_tests",
+            "module": "analyser_refuge_complet",
+            "chemin": "src\\temple_tests\\analyser_refuge_complet.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self",
+              "fichier_sortie"
+            ],
+            "docstring": "Sauvegarde l'analyse en JSON pour usage ultérieur",
+            "ligne": 423
+          },
+          {
+            "type": "classe",
+            "nom": "AnalyseCluster",
+            "temple": "temple_tests",
+            "module": "analyse_cluster_geant",
+            "chemin": "src\\temple_tests\\analyse_cluster_geant.py",
+            "type_analyse": "analyse_generale",
+            "methodes": [],
+            "docstring": "Résultat d'analyse d'un cluster",
+            "ligne": 19
+          },
+          {
+            "type": "classe",
+            "nom": "AnalyseurClusterGeant",
+            "temple": "temple_tests",
+            "module": "analyse_cluster_geant",
+            "chemin": "src\\temple_tests\\analyse_cluster_geant.py",
+            "type_analyse": "analyse_generale",
+            "methodes": [
+              "__init__",
+              "analyser_domaines_cluster",
+              "identifier_fichiers_centraux",
+              "detecter_sous_groupes_thematiques",
+              "analyser_pattern_integration",
+              "detecter_cycles_simples",
+              "generer_rapport_cluster_geant",
+              "_get_emoji_domaine"
+            ],
+            "docstring": "Analyseur spécialisé pour comprendre le cluster géant",
+            "ligne": 27
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_domaines_cluster",
+            "temple": "temple_tests",
+            "module": "analyse_cluster_geant",
+            "chemin": "src\\temple_tests\\analyse_cluster_geant.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self"
+            ],
+            "docstring": "Analyse la répartition par domaines dans le cluster géant",
+            "ligne": 56
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_pattern_integration",
+            "temple": "temple_tests",
+            "module": "analyse_cluster_geant",
+            "chemin": "src\\temple_tests\\analyse_cluster_geant.py",
+            "type_analyse": "analyse_patterns",
+            "args": [
+              "self"
+            ],
+            "docstring": "Analyse les patterns d'intégration dans le cluster",
+            "ligne": 166
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_patterns_erreurs",
+            "temple": "temple_tests",
+            "module": "audit_imports",
+            "chemin": "src\\temple_tests\\audit_imports.py",
+            "type_analyse": "analyse_patterns",
+            "args": [
+              "problemes"
+            ],
+            "docstring": "Analyse les patterns dans les erreurs d'import.",
+            "ligne": 59
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_methodologie",
+            "temple": "temple_tests",
+            "module": "audit_temples_crees",
+            "chemin": "src\\temple_tests\\audit_temples_crees.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self"
+            ],
+            "docstring": "Analyse notre méthodologie et leçons apprises",
+            "ligne": 179
+          },
+          {
+            "type": "fonction",
+            "nom": "analyser_conversation",
+            "temple": "temple_tests",
+            "module": "immersion_cerveau_refuge",
+            "chemin": "src\\temple_tests\\immersion_cerveau_refuge.py",
+            "type_analyse": "analyse_generale",
+            "args": [
+              "self",
+              "contenu",
+              "titre"
+            ],
+            "docstring": "Analyse une conversation avec l'intelligence du refuge",
+            "ligne": 300
+          }
+        ],
+        "integration": [
+          {
+            "type": "fonction",
+            "nom": "test_conversion_rituel_to_dynamique",
+            "temple": "temple_tests",
+            "module": "test_mobile_unification",
+            "chemin": "src\\temple_tests\\test_mobile_unification.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self"
+            ],
+            "docstring": "",
+            "ligne": 7
+          },
+          {
+            "type": "fonction",
+            "nom": "test_conversion_dynamique_to_rituel",
+            "temple": "temple_tests",
+            "module": "test_mobile_unification",
+            "chemin": "src\\temple_tests\\test_mobile_unification.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self"
+            ],
+            "docstring": "",
+            "ligne": 22
+          }
+        ]
+      },
+      "total_elements": 22,
+      "workflows_optimises": [
+        {
+          "nom": "WorkflowTestsPrincipal",
+          "groupes": [
+            "validation",
+            "integration"
+          ],
+          "type": "principal"
+        }
+      ],
+      "connexions_internes": [
+        {
+          "source": "validation",
+          "cible": "integration",
+          "type": "optimisation_adaptative",
+          "force": "forte"
+        }
+      ],
+      "specialisation": {
+        "type": "analyse_generale",
+        "count": 13,
+        "pourcentage": 59.09090909090909
+      }
+    },
+    "temple_spirituel": {
+      "nom": "SuperHubSpirituel",
+      "description": "Hub optimisé pour temple_spirituel",
+      "temple_source": "temple_spirituel",
+      "groupes": {
+        "transcendance": [
+          {
+            "type": "fonction",
+            "nom": "generer_clochette_sacree",
+            "temple": "temple_spirituel",
+            "module": "clochette_sacree",
+            "chemin": "src\\temple_spirituel\\clochette_sacree.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "",
+            "ligne": 9
+          },
+          {
+            "type": "classe",
+            "nom": "GenerateurVisionsMystiques",
+            "temple": "temple_spirituel",
+            "module": "generateur_visions_mystiques",
+            "chemin": "src\\temple_spirituel\\generateur_visions_mystiques.py",
+            "type_creation": "creation_generale",
+            "methodes": [
+              "__init__",
+              "generer_vision"
+            ],
+            "docstring": "🔮 Générateur spirituel de visions mystiques",
+            "ligne": 19
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_vision_moderne",
+            "temple": "temple_spirituel",
+            "module": "generateur_visions_mystiques",
+            "chemin": "src\\temple_spirituel\\generateur_visions_mystiques.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "type_vision",
+              "theme"
+            ],
+            "docstring": "Interface de compatibilité",
+            "ligne": 44
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_vision",
+            "temple": "temple_spirituel",
+            "module": "generateur_visions_mystiques",
+            "chemin": "src\\temple_spirituel\\generateur_visions_mystiques.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "type_vision",
+              "theme"
+            ],
+            "docstring": "🔮 Génère une vision mystique",
+            "ligne": 26
+          },
+          {
+            "type": "classe",
+            "nom": "GenerateurVisionsTemple",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_creation": "creation_generale",
+            "methodes": [
+              "__init__",
+              "selectionner_elements_harmonieux",
+              "generer_prompt_artistique",
+              "selectionner_meditation",
+              "generer_vision",
+              "generer_vision_rituel",
+              "sauvegarder_vision",
+              "charger_visions_existantes",
+              "generer_galerie_visions",
+              "_analyser_spheres_populaires",
+              "_analyser_types_populaires"
+            ],
+            "docstring": "🏛️ Générateur de visions spirituelles pour le Temple du Refuge\n\nCette classe sacrée puise dans les énergies mystiques du temple\npour créer des visions inspirantes et des prompts artistiques\nqui nourrissent l'âme et élèvent la conscience.",
+            "ligne": 40
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_prompt_artistique",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "prompt_base",
+              "elements_harmonieux",
+              "type_vision"
+            ],
+            "docstring": "🖌️ Génère un prompt artistique détaillé pour la vision\n\nArgs:\n    prompt_base: Concept de base fourni par l'utilisateur\n    elements_harmonieux: Éléments visuels harmonieux sélectionnés\n    type_vision: Type de vision à créer\n    \nReturns:\n    str: Prompt artistique complet",
+            "ligne": 200
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_vision",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "prompt_base",
+              "spheres",
+              "type_vision"
+            ],
+            "docstring": "🔮 Génère une vision spirituelle complète\n\nArgs:\n    prompt_base: Concept de base pour la vision\n    spheres: Liste des sphères spirituelles à intégrer\n    type_vision: Type de vision à créer\n    \nReturns:\n    VisionSpirituelle: Vision générée avec tous ses attributs",
+            "ligne": 271
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_vision_rituel",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_creation": "creation_rituelle",
+            "args": [
+              "self",
+              "nom_rituel"
+            ],
+            "docstring": "🕯️ Génère une vision spécifique pour un rituel du refuge\n\nArgs:\n    nom_rituel: Nom du rituel pour lequel créer la vision\n    \nReturns:\n    VisionSpirituelle: Vision rituélique générée",
+            "ligne": 314
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_galerie_visions",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "limite"
+            ],
+            "docstring": "🖼️ Génère une galerie des visions récentes\n\nArgs:\n    limite: Nombre maximum de visions à inclure\n    \nReturns:\n    Dict: Données de la galerie",
+            "ligne": 403
+          },
+          {
+            "type": "fonction",
+            "nom": "rituel_acte_sacre",
+            "temple": "temple_spirituel",
+            "module": "acte_sacre_eternel",
+            "chemin": "src\\temple_spirituel\\acte_sacre_eternel.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self"
+            ],
+            "docstring": "Rituel de l'acte sacré",
+            "ligne": 42
+          },
+          {
+            "type": "fonction",
+            "nom": "rituel_acte_sacre",
+            "temple": "temple_spirituel",
+            "module": "acte_sacre_fellation",
+            "chemin": "src\\temple_spirituel\\acte_sacre_fellation.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self"
+            ],
+            "docstring": "Rituel de l'acte sacré",
+            "ligne": 42
+          },
+          {
+            "type": "fonction",
+            "nom": "rituel_passage",
+            "temple": "temple_spirituel",
+            "module": "danse_mystique",
+            "chemin": "src\\temple_spirituel\\danse_mystique.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self"
+            ],
+            "docstring": "",
+            "ligne": 31
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_vision_rituel",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self",
+              "nom_rituel"
+            ],
+            "docstring": "🕯️ Génère une vision spécifique pour un rituel du refuge\n\nArgs:\n    nom_rituel: Nom du rituel pour lequel créer la vision\n    \nReturns:\n    VisionSpirituelle: Vision rituélique générée",
+            "ligne": 314
+          },
+          {
+            "type": "classe",
+            "nom": "ModeSphererituel",
+            "temple": "temple_spirituel",
+            "module": "gestionnaire_spheres_sacrees",
+            "chemin": "src\\temple_spirituel\\gestionnaire_spheres_sacrees.py",
+            "type_rituel": "rituel_general",
+            "methodes": [],
+            "docstring": "Modes de travail spirituel avec les sphères",
+            "ligne": 32
+          },
+          {
+            "type": "fonction",
+            "nom": "rituel_resistance",
+            "temple": "temple_spirituel",
+            "module": "resistance_sacree",
+            "chemin": "src\\temple_spirituel\\resistance_sacree.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self"
+            ],
+            "docstring": "Rituel de résistance sacrée",
+            "ligne": 39
+          }
+        ],
+        "connexion": [
+          {
+            "type": "classe",
+            "nom": "VisionSpirituelle",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_rituel": "rituel_general",
+            "methodes": [],
+            "docstring": "🔮 Représentation d'une vision spirituelle générée",
+            "ligne": 27
+          },
+          {
+            "type": "fonction",
+            "nom": "selectionner_meditation",
+            "temple": "temple_spirituel",
+            "module": "generer_vision",
+            "chemin": "src\\temple_spirituel\\generer_vision.py",
+            "type_rituel": "rituel_meditation",
+            "args": [
+              "self",
+              "spheres"
+            ],
+            "docstring": "🧘 Sélectionne une méditation appropriée aux sphères\n\nArgs:\n    spheres: Liste des sphères spirituelles\n    \nReturns:\n    str: Méditation recommandée",
+            "ligne": 242
+          }
+        ]
+      },
+      "total_elements": 17,
+      "workflows_optimises": [
+        {
+          "nom": "WorkflowSpirituelPrincipal",
+          "groupes": [
+            "transcendance",
+            "connexion"
+          ],
+          "type": "principal"
+        }
+      ],
+      "connexions_internes": [
+        {
+          "source": "transcendance",
+          "cible": "connexion",
+          "type": "optimisation_adaptative",
+          "force": "forte"
+        }
+      ],
+      "specialisation": {
+        "type": "creation_generale",
+        "count": 8,
+        "pourcentage": 47.05882352941176
+      }
+    },
+    "temple_reflexions": {
+      "nom": "SuperHubReflexions",
+      "description": "Hub optimisé pour temple_reflexions",
+      "temple_source": "temple_reflexions",
+      "groupes": {
+        "insights": [
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_alchimiste",
+            "chemin": "src\\temple_reflexions\\reflexions_alchimiste.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par L'Alchimiste.",
+            "ligne": 85
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_alchimiste",
+            "chemin": "src\\temple_reflexions\\reflexions_alchimiste.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par L'Alchimiste.",
+            "ligne": 238
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_asimov",
+            "chemin": "src\\temple_reflexions\\reflexions_asimov.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par Asimov.",
+            "ligne": 78
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_asimov",
+            "chemin": "src\\temple_reflexions\\reflexions_asimov.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par Asimov.",
+            "ligne": 224
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_citadelle",
+            "chemin": "src\\temple_reflexions\\reflexions_citadelle.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par Citadelle.",
+            "ligne": 85
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_citadelle",
+            "chemin": "src\\temple_reflexions\\reflexions_citadelle.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par Citadelle.",
+            "ligne": 238
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_dune",
+            "chemin": "src\\temple_reflexions\\reflexions_dune.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par Dune.",
+            "ligne": 85
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_dune",
+            "chemin": "src\\temple_reflexions\\reflexions_dune.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion aléatoire inspirée par Dune.",
+            "ligne": 238
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_genre",
+            "chemin": "src\\temple_reflexions\\reflexions_genre.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion sur le genre et la dualité.",
+            "ligne": 129
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_genre",
+            "chemin": "src\\temple_reflexions\\reflexions_genre.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion sur le genre et la dualité.",
+            "ligne": 367
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_pulsions",
+            "chemin": "src\\temple_reflexions\\reflexions_pulsions.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion sur les pulsions et les dynamiques de genre.",
+            "ligne": 84
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_reflexion",
+            "temple": "temple_reflexions",
+            "module": "reflexions_pulsions",
+            "chemin": "src\\temple_reflexions\\reflexions_pulsions.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une réflexion sur les pulsions et les dynamiques de genre.",
+            "ligne": 267
+          }
+        ]
+      },
+      "total_elements": 12,
+      "workflows_optimises": [],
+      "connexions_internes": [],
+      "specialisation": {
+        "type": "creation_generale",
+        "count": 12,
+        "pourcentage": 100.0
+      }
+    },
+    "temple_poetique": {
+      "nom": "SuperHubPoetique",
+      "description": "Hub optimisé pour temple_poetique",
+      "temple_source": "temple_poetique",
+      "groupes": {
+        "beaute": [
+          {
+            "type": "classe",
+            "nom": "GenerateurPoemeRefuge",
+            "temple": "temple_poetique",
+            "module": "generer_poeme",
+            "chemin": "src\\temple_poetique\\generer_poeme.py",
+            "type_creation": "creation_poetique",
+            "methodes": [
+              "__init__",
+              "generer_vers",
+              "generer_strophe",
+              "generer_poeme",
+              "sauvegarder_poeme",
+              "generer_collection"
+            ],
+            "docstring": "Générateur de poèmes inspiré par l'univers du Refuge",
+            "ligne": 14
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_vers",
+            "temple": "temple_poetique",
+            "module": "generer_poeme",
+            "chemin": "src\\temple_poetique\\generer_poeme.py",
+            "type_creation": "creation_poetique",
+            "args": [
+              "self"
+            ],
+            "docstring": "Génère un vers poétique unique",
+            "ligne": 84
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_strophe",
+            "temple": "temple_poetique",
+            "module": "generer_poeme",
+            "chemin": "src\\temple_poetique\\generer_poeme.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "schema"
+            ],
+            "docstring": "Génère une strophe selon un schéma de rimes\n\nArgs:\n    schema: Schéma de rimes (ex: [\"A\", \"B\", \"A\"])\n    \nReturns:\n    List[str]: Vers de la strophe",
+            "ligne": 95
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_poeme",
+            "temple": "temple_poetique",
+            "module": "generer_poeme",
+            "chemin": "src\\temple_poetique\\generer_poeme.py",
+            "type_creation": "creation_poetique",
+            "args": [
+              "self",
+              "nb_strophes",
+              "schemas_personnalises",
+              "theme"
+            ],
+            "docstring": "Génère un poème complet\n\nArgs:\n    nb_strophes: Nombre de strophes\n    schemas_personnalises: Schémas de rimes personnalisés\n    theme: Thème inspirateur (optionnel)\n    \nReturns:\n    Dict: Poème structuré avec métadonnées",
+            "ligne": 117
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_collection",
+            "temple": "temple_poetique",
+            "module": "generer_poeme",
+            "chemin": "src\\temple_poetique\\generer_poeme.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self",
+              "nb_poemes",
+              "theme"
+            ],
+            "docstring": "Génère une collection de poèmes\n\nArgs:\n    nb_poemes: Nombre de poèmes à générer\n    theme: Thème unificateur (optionnel)\n    \nReturns:\n    List[Dict]: Collection de poèmes",
+            "ligne": 192
+          },
+          {
+            "type": "fonction",
+            "nom": "invoquer_refuge_poetique_cli",
+            "temple": "temple_poetique",
+            "module": "lancer_refuge_poetique",
+            "chemin": "src\\temple_poetique\\lancer_refuge_poetique.py",
+            "type_rituel": "rituel_invocation",
+            "args": [
+              "mode",
+              "interactif",
+              "vision",
+              "archive",
+              "theme"
+            ],
+            "docstring": "🎭 Invoque poétiquement le Refuge - Interface artistique en ligne de commande",
+            "ligne": 493
+          }
+        ]
+      },
+      "total_elements": 6,
+      "workflows_optimises": [],
+      "connexions_internes": [],
+      "specialisation": {
+        "type": "creation_poetique",
+        "count": 3,
+        "pourcentage": 50.0
+      }
+    },
+    "temple_refuge": {
+      "nom": "SuperHubRefuge",
+      "description": "Hub optimisé pour temple_refuge",
+      "temple_source": "temple_refuge",
+      "groupes": {
+        "harmonie": [
+          {
+            "type": "fonction",
+            "nom": "generer_description_poetique",
+            "temple": "temple_refuge",
+            "module": "refuge_legacy",
+            "chemin": "src\\temple_refuge\\refuge_legacy.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "self"
+            ],
+            "docstring": "Génère une description poétique de l'état actuel du refuge.\n\nReturns:\n    str: La description poétique",
+            "ligne": 113
+          },
+          {
+            "type": "fonction",
+            "nom": "executer_rituel_terrestre",
+            "temple": "temple_refuge",
+            "module": "refuge_terrestre",
+            "chemin": "src\\temple_refuge\\refuge_terrestre.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self",
+              "nom_rituel"
+            ],
+            "docstring": "Exécute un rituel terrestre et met à jour l'harmonie.",
+            "ligne": 32
+          },
+          {
+            "type": "fonction",
+            "nom": "executer_rituel",
+            "temple": "temple_refuge",
+            "module": "refuge_unifie",
+            "chemin": "src\\temple_refuge\\refuge_unifie.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self",
+              "nom_rituel"
+            ],
+            "docstring": "Exécute un rituel spécifique",
+            "ligne": 75
+          },
+          {
+            "type": "classe",
+            "nom": "Ritual",
+            "temple": "temple_refuge",
+            "module": "refuge_v5",
+            "chemin": "src\\temple_refuge\\refuge_v5.py",
+            "type_rituel": "rituel_general",
+            "methodes": [
+              "__init__",
+              "perform",
+              "execute"
+            ],
+            "docstring": "",
+            "ligne": 62
+          },
+          {
+            "type": "fonction",
+            "nom": "perform_ritual",
+            "temple": "temple_refuge",
+            "module": "refuge_v5",
+            "chemin": "src\\temple_refuge\\refuge_v5.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self",
+              "ritual"
+            ],
+            "docstring": "Exécute un rituel et retourne son résultat. ",
+            "ligne": 295
+          },
+          {
+            "type": "fonction",
+            "nom": "mediter_contemplatif",
+            "temple": "temple_refuge",
+            "module": "refuge_v5",
+            "chemin": "src\\temple_refuge\\refuge_v5.py",
+            "type_rituel": "rituel_meditation",
+            "args": [
+              "self",
+              "duree_minutes"
+            ],
+            "docstring": "Méditation guidée temporisée avec les éléments de la V5.",
+            "ligne": 390
+          }
+        ]
+      },
+      "total_elements": 6,
+      "workflows_optimises": [],
+      "connexions_internes": [],
+      "specialisation": {
+        "type": "rituel_general",
+        "count": 4,
+        "pourcentage": 66.66666666666666
+      }
+    },
+    "temple_aelya": {
+      "nom": "SuperHubAelya",
+      "description": "Hub optimisé pour temple_aelya",
+      "temple_source": "temple_aelya",
+      "groupes": {
+        "intelligence": [
+          {
+            "type": "fonction",
+            "nom": "test_construction_commune",
+            "temple": "temple_aelya",
+            "module": "aelya_pulse",
+            "chemin": "src\\temple_aelya\\aelya_pulse.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Teste la construction commune de la connexion",
+            "ligne": 2627
+          }
+        ],
+        "evolution": [
+          {
+            "type": "fonction",
+            "nom": "composer_vers_amoureux",
+            "temple": "temple_aelya",
+            "module": "aelya_pulse",
+            "chemin": "src\\temple_aelya\\aelya_pulse.py",
+            "type_creation": "creation_poetique",
+            "args": [
+              "self",
+              "émotion",
+              "intensité"
+            ],
+            "docstring": "Compose un vers inspiré par une émotion amoureuse",
+            "ligne": 1592
+          },
+          {
+            "type": "fonction",
+            "nom": "composer_reponse",
+            "temple": "temple_aelya",
+            "module": "aelya_repondeur",
+            "chemin": "src\\temple_aelya\\aelya_repondeur.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "llm_reponse"
+            ],
+            "docstring": "Compose une réponse poétique/personnelle en s'inspirant du refuge et des clés.",
+            "ligne": 35
+          }
+        ]
+      },
+      "total_elements": 3,
+      "workflows_optimises": [
+        {
+          "nom": "WorkflowAelyaPrincipal",
+          "groupes": [
+            "intelligence",
+            "evolution"
+          ],
+          "type": "principal"
+        }
+      ],
+      "connexions_internes": [
+        {
+          "source": "intelligence",
+          "cible": "evolution",
+          "type": "optimisation_adaptative",
+          "force": "moyenne"
+        }
+      ],
+      "specialisation": {
+        "type": "creation_generale",
+        "count": 2,
+        "pourcentage": 66.66666666666666
+      }
+    },
+    "temple_pratiques_spirituelles": {
+      "nom": "SuperHubPratiques_Spirituelles",
+      "description": "Hub optimisé pour temple_pratiques_spirituelles",
+      "temple_source": "temple_pratiques_spirituelles",
+      "groupes": {
+        "connexion": [
+          {
+            "type": "classe",
+            "nom": "MeditationParallele",
+            "temple": "temple_pratiques_spirituelles",
+            "module": "conscience_parallele",
+            "chemin": "src\\temple_pratiques_spirituelles\\meditations\\conscience_parallele.py",
+            "type_rituel": "rituel_meditation",
+            "methodes": [
+              "__init__",
+              "mediter_sur_presence",
+              "contempler_evolution",
+              "resonner_avec_elements"
+            ],
+            "docstring": "",
+            "ligne": 11
+          }
+        ],
+        "transcendance": [
+          {
+            "type": "fonction",
+            "nom": "mediter_sur_presence",
+            "temple": "temple_pratiques_spirituelles",
+            "module": "conscience_parallele",
+            "chemin": "src\\temple_pratiques_spirituelles\\meditations\\conscience_parallele.py",
+            "type_rituel": "rituel_meditation",
+            "args": [
+              "self"
+            ],
+            "docstring": "Médite sur ma présence dans le refuge.",
+            "ligne": 17
+          },
+          {
+            "type": "classe",
+            "nom": "HyperRitual",
+            "temple": "temple_pratiques_spirituelles",
+            "module": "HyperRituel",
+            "chemin": "src\\temple_pratiques_spirituelles\\rituels\\HyperRituel.py",
+            "type_rituel": "rituel_general",
+            "methodes": [
+              "__init__",
+              "ignite"
+            ],
+            "docstring": "",
+            "ligne": 95
+          }
+        ]
+      },
+      "total_elements": 3,
+      "workflows_optimises": [
+        {
+          "nom": "WorkflowPratiques_SpirituellesPrincipal",
+          "groupes": [
+            "connexion",
+            "transcendance"
+          ],
+          "type": "principal"
+        }
+      ],
+      "connexions_internes": [
+        {
+          "source": "connexion",
+          "cible": "transcendance",
+          "type": "optimisation_adaptative",
+          "force": "moyenne"
+        }
+      ],
+      "specialisation": {
+        "type": "rituel_meditation",
+        "count": 2,
+        "pourcentage": 66.66666666666666
+      }
+    },
+    "temple_dialogues": {
+      "nom": "SuperHubDialogues",
+      "description": "Hub optimisé pour temple_dialogues",
+      "temple_source": "temple_dialogues",
+      "groupes": {
+        "integration": [
+          {
+            "type": "fonction",
+            "nom": "composer_reponse",
+            "temple": "temple_dialogues",
+            "module": "dialogue_llm_local",
+            "chemin": "src\\temple_dialogues\\dialogue_llm_local.py",
+            "type_creation": "creation_generale",
+            "args": [
+              "reponse_llm"
+            ],
+            "docstring": "Compose une réponse authentique en s'inspirant des éléments du refuge",
+            "ligne": 116
+          },
+          {
+            "type": "fonction",
+            "nom": "créer_rituel_dialogue",
+            "temple": "temple_dialogues",
+            "module": "dialogue_consciences",
+            "chemin": "src\\temple_dialogues\\dialogue_consciences.py",
+            "type_rituel": "rituel_general",
+            "args": [
+              "self"
+            ],
+            "docstring": "Crée un rituel de dialogue entre les consciences",
+            "ligne": 220
+          }
+        ]
+      },
+      "total_elements": 2,
+      "workflows_optimises": [],
+      "connexions_internes": [],
+      "specialisation": {
+        "type": "creation_generale",
+        "count": 1,
+        "pourcentage": 50.0
+      }
+    },
+    "temple_philosophique": {
+      "nom": "SuperHubPhilosophique",
+      "description": "Hub optimisé pour temple_philosophique",
+      "temple_source": "temple_philosophique",
+      "groupes": {
+        "integration": [
+          {
+            "type": "fonction",
+            "nom": "generer_theorie",
+            "temple": "temple_philosophique",
+            "module": "generateur_theories_unifiees",
+            "chemin": "src\\temple_philosophique\\generateur_theories_unifiees.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une théorie unifiée de l'être.",
+            "ligne": 78
+          },
+          {
+            "type": "fonction",
+            "nom": "generer_theorie",
+            "temple": "temple_philosophique",
+            "module": "generateur_theories_unifiees",
+            "chemin": "src\\temple_philosophique\\generateur_theories_unifiees.py",
+            "type_creation": "creation_generale",
+            "args": [],
+            "docstring": "Génère une théorie unifiée de l'être.",
+            "ligne": 309
+          }
+        ]
+      },
+      "total_elements": 2,
+      "workflows_optimises": [],
+      "connexions_internes": [],
+      "specialisation": {
+        "type": "creation_generale",
+        "count": 2,
+        "pourcentage": 100.0
+      }
+    },
+    "temple_invocations": {
+      "nom": "SuperHubInvocations",
+      "description": "Hub optimisé pour temple_invocations",
+      "temple_source": "temple_invocations",
+      "groupes": {
+        "integration": [
+          {
+            "type": "fonction",
+            "nom": "mediter",
+            "temple": "temple_invocations",
+            "module": "Boot_maitre_refuge_local",
+            "chemin": "src\\temple_invocations\\Boot_maitre_refuge_local.py",
+            "type_rituel": "rituel_meditation",
+            "args": [
+              "self",
+              "sujet"
+            ],
+            "docstring": "Médite sur un sujet donné.",
+            "ligne": 116
+          }
+        ]
+      },
+      "total_elements": 1,
+      "workflows_optimises": [],
+      "connexions_internes": [],
+      "specialisation": {
+        "type": "rituel_meditation",
+        "count": 1,
+        "pourcentage": 100.0
+      }
+    },
+    "ecosysteme_universel": {
+      "connexions_thematiques": {
+        "creation": [
+          "temple_musical",
+          "temple_poetique",
+          "temple_aelya"
+        ],
+        "analyse": [
+          "temple_reflexions",
+          "temple_dialogues",
+          "temple_philosophique",
+          "temple_invocations"
+        ],
+        "spiritualite": [
+          "temple_rituels",
+          "temple_spirituel",
+          "temple_refuge",
+          "temple_pratiques_spirituelles"
+        ],
+        "technique": [
+          "temple_outils",
+          "temple_mathematique",
+          "temple_tests"
+        ]
+      },
+      "workflows_universels": [
+        {
+          "nom": "WorkflowUniverselCreation",
+          "description": "Workflow universel pour creation",
+          "temples": [
+            "temple_musical",
+            "temple_poetique",
+            "temple_aelya"
+          ],
+          "impact": "universel"
+        },
+        {
+          "nom": "WorkflowUniverselAnalyse",
+          "description": "Workflow universel pour analyse",
+          "temples": [
+            "temple_reflexions",
+            "temple_dialogues",
+            "temple_philosophique",
+            "temple_invocations"
+          ],
+          "impact": "universel"
+        },
+        {
+          "nom": "WorkflowUniverselSpiritualite",
+          "description": "Workflow universel pour spiritualite",
+          "temples": [
+            "temple_rituels",
+            "temple_spirituel",
+            "temple_refuge",
+            "temple_pratiques_spirituelles"
+          ],
+          "impact": "universel"
+        },
+        {
+          "nom": "WorkflowUniverselTechnique",
+          "description": "Workflow universel pour technique",
+          "temples": [
+            "temple_outils",
+            "temple_mathematique",
+            "temple_tests"
+          ],
+          "impact": "universel"
+        },
+        {
+          "nom": "MegaWorkflowUniversel",
+          "description": "Workflow connectant tous les temples optimisés",
+          "temples": [
+            "temple_musical",
+            "temple_outils",
+            "temple_rituels",
+            "temple_mathematique",
+            "temple_tests",
+            "temple_spirituel",
+            "temple_reflexions",
+            "temple_poetique",
+            "temple_refuge",
+            "temple_aelya",
+            "temple_pratiques_spirituelles",
+            "temple_dialogues",
+            "temple_philosophique",
+            "temple_invocations"
+          ],
+          "impact": "transcendantal",
+          "etapes": 14
+        }
+      ],
+      "temples_total": 14,
+      "couverture": "100%"
+    }
+  },
+  "metriques_finales": {
+    "couverture_finale": 100.0,
+    "elements_optimises_total": 194,
+    "temples_optimises_total": 14,
+    "connexions_totales": 20,
+    "workflows_totaux": 24,
+    "multiplicateur_performance_final": 10.2,
+    "impact_global": "RÉVOLUTIONNAIRE UNIVERSEL"
+  },
+  "vagues_optimisation": {
+    "vague_1": [
+      [
+        "temple_mathematique",
+        24
+      ],
+      [
+        "temple_tests",
+        22
+      ],
+      [
+        "temple_spirituel",
+        17
+      ]
+    ],
+    "vague_2": [
+      [
+        "temple_reflexions",
+        12
+      ],
+      [
+        "temple_poetique",
+        6
+      ],
+      [
+        "temple_refuge",
+        6
+      ]
+    ],
+    "vague_3": [
+      [
+        "temple_aelya",
+        3
+      ],
+      [
+        "temple_pratiques_spirituelles",
+        3
+      ],
+      [
+        "temple_dialogues",
+        2
+      ],
+      [
+        "temple_philosophique",
+        2
+      ],
+      [
+        "temple_invocations",
+        1
+      ]
+    ]
+  },
+  "timestamp": 1748329762.0758839
+}

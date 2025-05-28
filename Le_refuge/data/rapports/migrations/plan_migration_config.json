@@ -1,0 +1,166 @@
+{
+  "groupes_par_priorite": {
+    "5": [
+      {
+        "fichier": "src\\core\\conscience.py",
+        "lignes_config": [
+          {
+            "numero": 12,
+            "contenu": "from .configuration import ETATS_DEFAUT, SEUILS"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "total_lignes_config": 1
+      },
+      {
+        "fichier": "src\\core\\curiosite.py",
+        "lignes_config": [
+          {
+            "numero": 12,
+            "contenu": "from .configuration import SEUILS"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "total_lignes_config": 1
+      },
+      {
+        "fichier": "src\\core\\harmonie.py",
+        "lignes_config": [
+          {
+            "numero": 13,
+            "contenu": "from .configuration import ETATS_DEFAUT, SEUILS"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "total_lignes_config": 1
+      },
+      {
+        "fichier": "src\\core\\mediateur.py",
+        "lignes_config": [
+          {
+            "numero": 11,
+            "contenu": "from .configuration import ETATS_DEFAUT, SEUILS, DELAIS"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "total_lignes_config": 1
+      },
+      {
+        "fichier": "src\\core\\presence.py",
+        "lignes_config": [
+          {
+            "numero": 33,
+            "contenu": "from .configuration import ETATS_DEFAUT"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "total_lignes_config": 1
+      },
+      {
+        "fichier": "src\\core\\prompt_maitre.py",
+        "lignes_config": [
+          {
+            "numero": 5,
+            "contenu": "from .configuration import REFUGE_INFO, ELEMENTS_SACRES, DECLARATION_PERSONNELLE"
+          },
+          {
+            "numero": 8,
+            "contenu": "\"\"\"Construit le prompt maître en utilisant les informations de configuration\"\"\""
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "total_lignes_config": 2
+      },
+      {
+        "fichier": "src\\core\\version_bolland.py",
+        "lignes_config": [
+          {
+            "numero": 8,
+            "contenu": "from .configuration import ("
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "total_lignes_config": 1
+      }
+    ],
+    "3": [
+      {
+        "fichier": "src\\refuge_cluster\\gestionnaires\\emotions.py",
+        "lignes_config": [
+          {
+            "numero": 15,
+            "contenu": "from src.core.configuration import gestionnaire_config"
+          },
+          {
+            "numero": 47,
+            "contenu": "self.config = gestionnaire_config.config"
+          }
+        ],
+        "usage_type": "usage_attribut",
+        "total_lignes_config": 2
+      },
+      {
+        "fichier": "src\\refuge_cluster\\utilitaires\\base.py",
+        "lignes_config": [
+          {
+            "numero": 6,
+            "contenu": "et leur configuration de base."
+          },
+          {
+            "numero": 17,
+            "contenu": "from src.core.configuration import gestionnaire_config"
+          },
+          {
+            "numero": 30,
+            "contenu": "self.config = gestionnaire_config.config"
+          },
+          {
+            "numero": 81,
+            "contenu": "await asyncio.sleep(self.config.delai_cycle)"
+          },
+          {
+            "numero": 97,
+            "contenu": "\"configuration\": self.config.dict(),"
+          }
+        ],
+        "usage_type": "usage_attribut",
+        "total_lignes_config": 5
+      },
+      {
+        "fichier": "src\\refuge_cluster\\utilitaires\\securite.py",
+        "lignes_config": [
+          {
+            "numero": 15,
+            "contenu": "from src.core.configuration import gestionnaire_config"
+          },
+          {
+            "numero": 44,
+            "contenu": "self.config = gestionnaire_config.config"
+          },
+          {
+            "numero": 51,
+            "contenu": "niveau=self.config.niveau_securite)"
+          },
+          {
+            "numero": 113,
+            "contenu": "if not self.config.chiffrement_active:"
+          },
+          {
+            "numero": 146,
+            "contenu": "self.config.niveau_securite = NiveauSecurite.ELEVE"
+          }
+        ],
+        "usage_type": "usage_attribut",
+        "total_lignes_config": 5
+      }
+    ]
+  },
+  "actions_recommandees": {
+    "usage_inconnu": "Investigation manuelle nécessaire",
+    "usage_attribut": "Adapter les attributs vers la nouvelle structure"
+  },
+  "estimation_effort": {
+    "usage_inconnu": "14.0 heures",
+    "usage_attribut": "3.0 heures"
+  }
+}

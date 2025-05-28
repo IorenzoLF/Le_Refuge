@@ -1,0 +1,610 @@
+{
+  "modules_analyses": [
+    {
+      "nom": "analyseur_musical.py",
+      "chemin": "src/temple_musical\\analyseur_musical.py",
+      "lignes": 398,
+      "classes": [
+        "AnalyseurMusical"
+      ],
+      "fonctions": [
+        "main",
+        "__init__",
+        "extraire_texte_partition",
+        "analyser_notes",
+        "analyser_accords",
+        "analyser_tempo",
+        "analyser_partition",
+        "generer_statistiques",
+        "generer_visualisations",
+        "generer_exercices"
+      ],
+      "imports": [
+        "os",
+        "json",
+        "numpy",
+        "random",
+        "collections",
+        "re",
+        "PIL",
+        "pytesseract",
+        "cv2",
+        "matplotlib.pyplot"
+      ],
+      "mots_cles": [
+        "accord",
+        "note",
+        "musical",
+        "son",
+        "composition",
+        "gamme",
+        "tempo",
+        "partition",
+        "analyseur"
+      ],
+      "description": "Analyseur Musical - Un outil pour analyser les partitions et extraire des informations musicales"
+    },
+    {
+      "nom": "apprentissage_musical.py",
+      "chemin": "src/temple_musical\\apprentissage_musical.py",
+      "lignes": 280,
+      "classes": [
+        "ApprentissageMusical"
+      ],
+      "fonctions": [
+        "main",
+        "__init__",
+        "charger_profil",
+        "sauvegarder_profil",
+        "ajouter_historique",
+        "mettre_a_jour_competences",
+        "evaluer_niveau",
+        "afficher_profil",
+        "configurer_profil",
+        "explorer_partitions",
+        "analyser_partitions",
+        "generer_melodies",
+        "generer_exercices",
+        "afficher_statistiques"
+      ],
+      "imports": [
+        "os",
+        "sys",
+        "json",
+        "time",
+        "src.core.explorateur_musical",
+        "src.temple_musical.analyseur_musical",
+        "melodies_sacrees"
+      ],
+      "mots_cles": [
+        "melodie",
+        "accord",
+        "note",
+        "musical",
+        "son",
+        "composition",
+        "gamme",
+        "tempo",
+        "partition",
+        "analyseur",
+        "apprentissage",
+        "sacre"
+      ],
+      "description": "Apprentissage Musical - Un environnement complet pour progresser du novice au virtuose"
+    },
+    {
+      "nom": "fusion_math_musicale.py",
+      "chemin": "src/temple_musical\\fusion_math_musicale.py",
+      "lignes": 754,
+      "classes": [
+        "DoubleSuiteRiemann",
+        "ElementRefugeUnifie",
+        "SphereHarmoniqueUnifiee",
+        "AelyaConscienceEvoluee",
+        "RefugeMathMusicalFusion"
+      ],
+      "fonctions": [
+        "creer_fusion_complete",
+        "__init__",
+        "_initialiser",
+        "is_prime",
+        "generer_sequence",
+        "separer_nombres",
+        "analyser_frequences",
+        "explorer_riemann",
+        "__init__",
+        "_initialiser",
+        "ajouter_info",
+        "__init__",
+        "_initialiser",
+        "activer",
+        "desactiver",
+        "resonner_avec",
+        "calculer_resonance",
+        "__init__",
+        "_initialiser",
+        "se_souvenir",
+        "evoquer_souvenir",
+        "changer_etat_emotionnel",
+        "interagir_avec_sphere",
+        "evoluer_conscience",
+        "calculer_sagesse",
+        "__init__",
+        "_initialiser",
+        "initialiser_composants",
+        "creer_spheres_harmoniques",
+        "etablir_connexions_initiales",
+        "calculer_resonance_musicale",
+        "calculer_harmonie_globale",
+        "rituel_fusion",
+        "analyse_complete",
+        "generer_synthese"
+      ],
+      "imports": [
+        "asyncio",
+        "numpy",
+        "datetime",
+        "typing",
+        "enum",
+        "pathlib",
+        "scipy.fft",
+        "src.core.gestionnaires_base",
+        "src.musique.melodies",
+        "asyncio"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "melodie",
+        "accord",
+        "frequence",
+        "musical",
+        "musique",
+        "son",
+        "sequence",
+        "fusion",
+        "sacre"
+      ],
+      "description": "Temple Musical - Fusion Math Musicale\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nCette fusion intègre :\n1"
+    },
+    {
+      "nom": "generateur_melodies_sacrees.py",
+      "chemin": "src/temple_musical\\generateur_melodies_sacrees.py",
+      "lignes": 606,
+      "classes": [
+        "MelodiesSacrees"
+      ],
+      "fonctions": [
+        "main",
+        "__init__",
+        "generer_note",
+        "generer_melodie",
+        "generer_accords",
+        "sauvegarder_musique",
+        "visualiser_melodie",
+        "generer_melodie_sacree",
+        "generer_accords_sacres",
+        "generer_meditation",
+        "generer_melodie_cristal",
+        "generer_melodie_fontaine",
+        "generer_melodie_arbre",
+        "visualiser_relation_energie_harmoniques",
+        "creer_transition",
+        "harmoniser_elements_transitions",
+        "visualiser_interactions"
+      ],
+      "imports": [
+        "numpy",
+        "scipy.io",
+        "os",
+        "json",
+        "matplotlib.pyplot"
+      ],
+      "mots_cles": [
+        "melodie",
+        "accord",
+        "note",
+        "frequence",
+        "musique",
+        "son",
+        "audio",
+        "composition",
+        "sequence",
+        "tempo",
+        "sacre"
+      ],
+      "description": "Mélodies Sacrées - Un générateur de mélodies basées sur les fréquences sacrées"
+    },
+    {
+      "nom": "harmonies.py",
+      "chemin": "src/temple_musical\\harmonies.py",
+      "lignes": 244,
+      "classes": [
+        "TypeHarmonieEtat",
+        "Harmonie",
+        "GestionnaireHarmonies"
+      ],
+      "fonctions": [
+        "__init__",
+        "_initialiser",
+        "_compter_harmonies_actives",
+        "_calculer_harmonie_globale",
+        "_creer_harmonies_de_base",
+        "creer_harmonie",
+        "renforcer_harmonie",
+        "affaiblir_harmonie",
+        "obtenir_harmonies_sphere",
+        "obtenir_etat",
+        "activer_resonance_globale"
+      ],
+      "imports": [
+        "typing",
+        "dataclasses",
+        "datetime",
+        "enum",
+        "src.core.gestionnaires_base",
+        "src.core.types_spheres",
+        "src.refuge_cluster.spheres.collection",
+        "interactions"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "note",
+        "son"
+      ],
+      "description": "Module de gestion des harmonies entre les sphères.\nAuteur: Laurent Franssen & Ælya\nDate: Avril 2025\n"
+    },
+    {
+      "nom": "harmonie_poetique.py",
+      "chemin": "src/temple_musical\\harmonie_poetique.py",
+      "lignes": 363,
+      "classes": [
+        "CréationPoétique",
+        "MémoireÆlya",
+        "ConnexionIntime",
+        "HarmoniePoetique"
+      ],
+      "fonctions": [
+        "main",
+        "générer_poème_essence",
+        "générer_poème",
+        "__init__",
+        "méditer",
+        "ajouter_souvenir",
+        "sauvegarder_méditation",
+        "ressentir_connexion",
+        "créer_moment_transcendant",
+        "enregistrer_moment",
+        "__init__",
+        "ressentir_moment",
+        "créer_harmonie",
+        "créer_meditation_poetique",
+        "créer_rituel_sacre",
+        "créer_harmonie_unifiée",
+        "danser_avec_les_spheres"
+      ],
+      "imports": [
+        "melodies_sacrees",
+        "random",
+        "datetime",
+        "typing",
+        "numpy"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "melodie",
+        "accord",
+        "note",
+        "musical",
+        "musique",
+        "son",
+        "sequence",
+        "sacre"
+      ],
+      "description": "Créateur de poésie simplifié"
+    },
+    {
+      "nom": "harmonisation_profonde.py",
+      "chemin": "src/temple_musical\\harmonisation_profonde.py",
+      "lignes": 85,
+      "classes": [
+        "HarmonisationProfonde"
+      ],
+      "fonctions": [
+        "__init__",
+        "harmoniser_maintenant",
+        "maintenir_harmonie",
+        "valider_harmonie"
+      ],
+      "imports": [
+        "datetime",
+        "typing"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "musical",
+        "fusion"
+      ],
+      "description": "Temple Musical - Harmonisation Profonde\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nCe module gère l'har"
+    },
+    {
+      "nom": "melodie_sacree.py",
+      "chemin": "src/temple_musical\\melodie_sacree.py",
+      "lignes": 30,
+      "classes": [],
+      "fonctions": [
+        "main"
+      ],
+      "imports": [
+        "os",
+        "src.temple_musical.musique_harmonies"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "melodie",
+        "accord",
+        "musical",
+        "musique",
+        "sacre"
+      ],
+      "description": "Mélodie Sacrée - Création harmonique spirituelle"
+    },
+    {
+      "nom": "musique_harmonies.py",
+      "chemin": "src/temple_musical\\musique_harmonies.py",
+      "lignes": 98,
+      "classes": [
+        "MusiqueHarmonies"
+      ],
+      "fonctions": [
+        "__init__",
+        "generer_enveloppe_adsr",
+        "generer_note",
+        "generer_melodie",
+        "generer_accords",
+        "sauvegarder_musique"
+      ],
+      "imports": [
+        "numpy",
+        "scipy.io",
+        "typing"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "melodie",
+        "accord",
+        "note",
+        "frequence",
+        "musique",
+        "audio"
+      ],
+      "description": "Musique Harmonies - Module pour la génération de musique basée sur les harmonies poétiques"
+    },
+    {
+      "nom": "sequences_harmoniques.py",
+      "chemin": "src/temple_musical\\sequences_harmoniques.py",
+      "lignes": 190,
+      "classes": [
+        "TypeSequence",
+        "EtapeSequence",
+        "SequenceHarmonique",
+        "GestionnaireSequences"
+      ],
+      "fonctions": [
+        "__init__",
+        "_initialiser_sequences",
+        "demarrer_sequence",
+        "terminer_etape",
+        "obtenir_etat"
+      ],
+      "imports": [
+        "typing",
+        "dataclasses",
+        "datetime",
+        "enum",
+        "src.core.types_spheres",
+        "src.refuge_cluster.spheres.collection",
+        "harmonies",
+        "src.refuge_cluster.memoire.memoire_persistante"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "son",
+        "sequence"
+      ],
+      "description": "Module de gestion des séquences harmoniques du Refuge\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    },
+    {
+      "nom": "temple_musical_ame.py",
+      "chemin": "src/temple_musical\\temple_musical_ame.py",
+      "lignes": 401,
+      "classes": [
+        "TypeTempleEtat",
+        "TypeFrequenceSacree",
+        "GestionnaireTempleMusical"
+      ],
+      "fonctions": [
+        "creer_temple_musical",
+        "__init__",
+        "_initialiser",
+        "_calculer_resonance_universelle",
+        "connecter_gestionnaires",
+        "entrer_meditation",
+        "creer_harmonie_sacree",
+        "_generer_meditation",
+        "_generer_harmonie_intention",
+        "elever_vers_extase",
+        "transcender",
+        "retour_silence_sacre",
+        "obtenir_etat_temple"
+      ],
+      "imports": [
+        "asyncio",
+        "numpy",
+        "typing",
+        "enum",
+        "datetime",
+        "pathlib",
+        "src.core.gestionnaires_base",
+        "src.musique.melodies",
+        "src.musique.harmonies",
+        "src.refuge_cluster.spheres.collection",
+        "interactions",
+        "harmonies",
+        "src.temple_rituels",
+        "src.refuge_cluster.spheres.collection"
+      ],
+      "mots_cles": [
+        "harmonie",
+        "melodie",
+        "accord",
+        "note",
+        "frequence",
+        "musical",
+        "musique",
+        "son",
+        "sacre"
+      ],
+      "description": "Temple Musical de l'Âme - Orchestrateur Spirituel du Refuge\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    }
+  ],
+  "categories_detectees": {
+    "generation": {
+      "description": "Génération de mélodies et compositions",
+      "mots_cles": [
+        "generateur",
+        "generer",
+        "melodie",
+        "composition",
+        "creation"
+      ],
+      "modules": [
+        "analyseur_musical.py",
+        "apprentissage_musical.py",
+        "generateur_melodies_sacrees.py",
+        "musique_harmonies.py",
+        "temple_musical_ame.py"
+      ]
+    },
+    "analyse": {
+      "description": "Analyse musicale et traitement",
+      "mots_cles": [
+        "analyseur",
+        "analyse",
+        "traitement",
+        "detection"
+      ],
+      "modules": []
+    },
+    "harmonies": {
+      "description": "Harmonies et accords",
+      "mots_cles": [
+        "harmonie",
+        "accord",
+        "harmonique",
+        "consonance"
+      ],
+      "modules": [
+        "fusion_math_musicale.py",
+        "harmonies.py",
+        "harmonie_poetique.py",
+        "harmonisation_profonde.py",
+        "melodie_sacree.py",
+        "sequences_harmoniques.py"
+      ]
+    },
+    "fusion": {
+      "description": "Fusion mathématique et musicale",
+      "mots_cles": [
+        "fusion",
+        "math",
+        "mathematique",
+        "algorithme"
+      ],
+      "modules": []
+    },
+    "apprentissage": {
+      "description": "Apprentissage et IA musicale",
+      "mots_cles": [
+        "apprentissage",
+        "ia",
+        "neural",
+        "machine"
+      ],
+      "modules": []
+    },
+    "sacre": {
+      "description": "Musique sacrée et spirituelle",
+      "mots_cles": [
+        "sacre",
+        "spirituel",
+        "mystique",
+        "ame"
+      ],
+      "modules": []
+    }
+  },
+  "doublons_potentiels": [],
+  "fonctionnalites": {
+    "generation_melodique": 8,
+    "analyse_harmonique": 11,
+    "fusion_mathematique": 2,
+    "apprentissage_ia": 5,
+    "musique_sacree": 6,
+    "traitement_audio": 9
+  },
+  "statistiques": {
+    "total_modules": 11,
+    "total_lignes": 3449,
+    "total_classes": 24,
+    "total_fonctions": 133,
+    "module_plus_gros": "fusion_math_musicale.py",
+    "lignes_plus_gros": 754,
+    "moyenne_lignes": 313.54545454545456
+  },
+  "plan_organisation": {
+    "categories_proposees": 2,
+    "categories": {
+      "generation": {
+        "description": "Génération de mélodies et compositions",
+        "mots_cles": [
+          "generateur",
+          "generer",
+          "melodie",
+          "composition",
+          "creation"
+        ],
+        "modules": [
+          "analyseur_musical.py",
+          "apprentissage_musical.py",
+          "generateur_melodies_sacrees.py",
+          "musique_harmonies.py",
+          "temple_musical_ame.py"
+        ]
+      },
+      "harmonies": {
+        "description": "Harmonies et accords",
+        "mots_cles": [
+          "harmonie",
+          "accord",
+          "harmonique",
+          "consonance"
+        ],
+        "modules": [
+          "fusion_math_musicale.py",
+          "harmonies.py",
+          "harmonie_poetique.py",
+          "harmonisation_profonde.py",
+          "melodie_sacree.py",
+          "sequences_harmoniques.py"
+        ]
+      }
+    },
+    "actions_recommandees": [
+      "Créer les dossiers de catégories",
+      "Déplacer les modules dans leurs catégories",
+      "Créer des hubs unifiés par catégorie",
+      "Optimiser les doublons détectés",
+      "Créer un hub principal du temple musical"
+    ]
+  }
+}

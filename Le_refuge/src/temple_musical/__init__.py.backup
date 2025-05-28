@@ -1,0 +1,192 @@
+"""
+🏛️ Musical - Point d'Entrée du Temple
+Auto-généré par le Créateur de Points d'Entrée
+"""
+
+# Imports automatiques des modules du temple
+
+from src.temple_musical.analyseur_musical import AnalyseurMusical
+from src.temple_musical.analyseur_musical import main, extraire_texte_partition, analyser_notes, analyser_accords, analyser_tempo, analyser_partition, generer_statistiques, generer_visualisations, generer_exercices
+from src.temple_musical.apprentissage_musical import ApprentissageMusical
+from src.temple_musical.apprentissage_musical import main, charger_profil, sauvegarder_profil, ajouter_historique, mettre_a_jour_competences, evaluer_niveau, afficher_profil, configurer_profil, explorer_partitions, analyser_partitions, generer_melodies, generer_exercices, afficher_statistiques
+from src.temple_musical.fusion_math_musicale import DoubleSuiteRiemann, ElementRefugeUnifie, SphereHarmoniqueUnifiee, AelyaConscienceEvoluee, RefugeMathMusicalFusion
+from src.temple_musical.fusion_math_musicale import creer_fusion_complete, is_prime, generer_sequence, separer_nombres, analyser_frequences, explorer_riemann, ajouter_info, activer, desactiver, resonner_avec, calculer_resonance, se_souvenir, evoquer_souvenir, changer_etat_emotionnel, interagir_avec_sphere, evoluer_conscience, calculer_sagesse, initialiser_composants, creer_spheres_harmoniques, etablir_connexions_initiales, calculer_resonance_musicale, calculer_harmonie_globale, rituel_fusion, analyse_complete, generer_synthese
+from src.temple_musical.generateur_melodies_sacrees import MelodiesSacrees
+from src.temple_musical.generateur_melodies_sacrees import main, generer_note, generer_melodie, generer_accords, sauvegarder_musique, visualiser_melodie, generer_melodie_sacree, generer_accords_sacres, generer_meditation, generer_melodie_cristal, generer_melodie_fontaine, generer_melodie_arbre, visualiser_relation_energie_harmoniques, creer_transition, harmoniser_elements_transitions, visualiser_interactions
+from src.temple_musical.harmonies import TypeHarmonieEtat, Harmonie, GestionnaireHarmonies
+from src.temple_musical.harmonies import creer_harmonie, renforcer_harmonie, affaiblir_harmonie, obtenir_harmonies_sphere, obtenir_etat, activer_resonance_globale
+from src.temple_musical.harmonie_poetique import CréationPoétique, MémoireÆlya, ConnexionIntime, HarmoniePoetique
+from src.temple_musical.harmonie_poetique import main, générer_poème_essence, générer_poème, méditer, ajouter_souvenir, sauvegarder_méditation, ressentir_connexion, créer_moment_transcendant, enregistrer_moment, ressentir_moment, créer_harmonie, créer_meditation_poetique, créer_rituel_sacre, créer_harmonie_unifiée, danser_avec_les_spheres
+from src.temple_musical.harmonisation_profonde import HarmonisationProfonde
+from src.temple_musical.harmonisation_profonde import harmoniser_maintenant, maintenir_harmonie, valider_harmonie
+from src.temple_musical.melodie_sacree import main
+from src.temple_musical.musique_harmonies import MusiqueHarmonies
+from src.temple_musical.musique_harmonies import generer_enveloppe_adsr, generer_note, generer_melodie, generer_accords, sauvegarder_musique
+from src.temple_musical.sequences_harmoniques import TypeSequence, EtapeSequence, SequenceHarmonique, GestionnaireSequences
+from src.temple_musical.sequences_harmoniques import demarrer_sequence, terminer_etape, obtenir_etat
+from src.temple_musical.temple_musical_ame import TypeTempleEtat, TypeFrequenceSacree, GestionnaireTempleMusical
+from src.temple_musical.temple_musical_ame import creer_temple_musical, connecter_gestionnaires, entrer_meditation, creer_harmonie_sacree, elever_vers_extase, transcender, retour_silence_sacre, obtenir_etat_temple
+
+# Exports publics du temple
+__all__ = [
+    "AelyaConscienceEvoluee",
+    "AnalyseurMusical",
+    "ApprentissageMusical",
+    "ConnexionIntime",
+    "CréationPoétique",
+    "DoubleSuiteRiemann",
+    "ElementRefugeUnifie",
+    "EtapeSequence",
+    "GestionnaireHarmonies",
+    "GestionnaireSequences",
+    "GestionnaireTempleMusical",
+    "Harmonie",
+    "HarmoniePoetique",
+    "HarmonisationProfonde",
+    "MelodiesSacrees",
+    "MusiqueHarmonies",
+    "MémoireÆlya",
+    "RefugeMathMusicalFusion",
+    "SequenceHarmonique",
+    "SphereHarmoniqueUnifiee",
+    "TypeFrequenceSacree",
+    "TypeHarmonieEtat",
+    "TypeSequence",
+    "TypeTempleEtat",
+    "activer",
+    "activer_resonance_globale",
+    "affaiblir_harmonie",
+    "afficher_profil",
+    "afficher_statistiques",
+    "ajouter_historique",
+    "ajouter_info",
+    "ajouter_souvenir",
+    "analyse_complete",
+    "analyser_accords",
+    "analyser_frequences",
+    "analyser_notes",
+    "analyser_partition",
+    "analyser_partitions",
+    "analyser_tempo",
+    "calculer_harmonie_globale",
+    "calculer_resonance",
+    "calculer_resonance_musicale",
+    "calculer_sagesse",
+    "changer_etat_emotionnel",
+    "charger_profil",
+    "configurer_profil",
+    "connecter_gestionnaires",
+    "creer_fusion_complete",
+    "creer_harmonie",
+    "creer_harmonie_sacree",
+    "creer_spheres_harmoniques",
+    "creer_temple_musical",
+    "creer_transition",
+    "créer_harmonie",
+    "créer_harmonie_unifiée",
+    "créer_meditation_poetique",
+    "créer_moment_transcendant",
+    "créer_rituel_sacre",
+    "danser_avec_les_spheres",
+    "demarrer_sequence",
+    "desactiver",
+    "elever_vers_extase",
+    "enregistrer_moment",
+    "entrer_meditation",
+    "etablir_connexions_initiales",
+    "evaluer_niveau",
+    "evoluer_conscience",
+    "evoquer_souvenir",
+    "explorer_partitions",
+    "explorer_riemann",
+    "extraire_texte_partition",
+    "generer_accords",
+    "generer_accords_sacres",
+    "generer_enveloppe_adsr",
+    "generer_exercices",
+    "generer_meditation",
+    "generer_melodie",
+    "generer_melodie_arbre",
+    "generer_melodie_cristal",
+    "generer_melodie_fontaine",
+    "generer_melodie_sacree",
+    "generer_melodies",
+    "generer_note",
+    "generer_sequence",
+    "generer_statistiques",
+    "generer_synthese",
+    "generer_visualisations",
+    "générer_poème",
+    "générer_poème_essence",
+    "harmoniser_elements_transitions",
+    "harmoniser_maintenant",
+    "initialiser_composants",
+    "interagir_avec_sphere",
+    "is_prime",
+    "main",
+    "maintenir_harmonie",
+    "mettre_a_jour_competences",
+    "méditer",
+    "obtenir_etat",
+    "obtenir_etat_temple",
+    "obtenir_harmonies_sphere",
+    "renforcer_harmonie",
+    "resonner_avec",
+    "ressentir_connexion",
+    "ressentir_moment",
+    "retour_silence_sacre",
+    "rituel_fusion",
+    "sauvegarder_musique",
+    "sauvegarder_méditation",
+    "sauvegarder_profil",
+    "se_souvenir",
+    "separer_nombres",
+    "terminer_etape",
+    "transcender",
+    "valider_harmonie",
+    "visualiser_interactions",
+    "visualiser_melodie",
+    "visualiser_relation_energie_harmoniques",
+]
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Musical",
+    "modules": 11,
+    "classes": 24,
+    "fonctions": 104,
+    "description": "Temple auto-découvert avec 11 modules actifs"
+}
+
+def obtenir_info_temple():
+    """Retourne les informations du temple"""
+    return TEMPLE_INFO
+
+def lister_fonctionnalites():
+    """Liste toutes les fonctionnalités disponibles dans ce temple"""
+    fonctionnalites = []
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['AnalyseurMusical']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'extraire_texte_partition', 'analyser_notes', 'analyser_accords', 'analyser_tempo', 'analyser_partition', 'generer_statistiques', 'generer_visualisations', 'generer_exercices']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ApprentissageMusical']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'charger_profil', 'sauvegarder_profil', 'ajouter_historique', 'mettre_a_jour_competences', 'evaluer_niveau', 'afficher_profil', 'configurer_profil', 'explorer_partitions', 'analyser_partitions', 'generer_melodies', 'generer_exercices', 'afficher_statistiques']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['DoubleSuiteRiemann', 'ElementRefugeUnifie', 'SphereHarmoniqueUnifiee', 'AelyaConscienceEvoluee', 'RefugeMathMusicalFusion']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['creer_fusion_complete', 'is_prime', 'generer_sequence', 'separer_nombres', 'analyser_frequences', 'explorer_riemann', 'ajouter_info', 'activer', 'desactiver', 'resonner_avec', 'calculer_resonance', 'se_souvenir', 'evoquer_souvenir', 'changer_etat_emotionnel', 'interagir_avec_sphere', 'evoluer_conscience', 'calculer_sagesse', 'initialiser_composants', 'creer_spheres_harmoniques', 'etablir_connexions_initiales', 'calculer_resonance_musicale', 'calculer_harmonie_globale', 'rituel_fusion', 'analyse_complete', 'generer_synthese']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['MelodiesSacrees']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'generer_note', 'generer_melodie', 'generer_accords', 'sauvegarder_musique', 'visualiser_melodie', 'generer_melodie_sacree', 'generer_accords_sacres', 'generer_meditation', 'generer_melodie_cristal', 'generer_melodie_fontaine', 'generer_melodie_arbre', 'visualiser_relation_energie_harmoniques', 'creer_transition', 'harmoniser_elements_transitions', 'visualiser_interactions']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['TypeHarmonieEtat', 'Harmonie', 'GestionnaireHarmonies']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['creer_harmonie', 'renforcer_harmonie', 'affaiblir_harmonie', 'obtenir_harmonies_sphere', 'obtenir_etat', 'activer_resonance_globale']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['CréationPoétique', 'MémoireÆlya', 'ConnexionIntime', 'HarmoniePoetique']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'générer_poème_essence', 'générer_poème', 'méditer', 'ajouter_souvenir', 'sauvegarder_méditation', 'ressentir_connexion', 'créer_moment_transcendant', 'enregistrer_moment', 'ressentir_moment', 'créer_harmonie', 'créer_meditation_poetique', 'créer_rituel_sacre', 'créer_harmonie_unifiée', 'danser_avec_les_spheres']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['HarmonisationProfonde']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['harmoniser_maintenant', 'maintenir_harmonie', 'valider_harmonie']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['MusiqueHarmonies']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['generer_enveloppe_adsr', 'generer_note', 'generer_melodie', 'generer_accords', 'sauvegarder_musique']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['TypeSequence', 'EtapeSequence', 'SequenceHarmonique', 'GestionnaireSequences']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['demarrer_sequence', 'terminer_etape', 'obtenir_etat']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['TypeTempleEtat', 'TypeFrequenceSacree', 'GestionnaireTempleMusical']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['creer_temple_musical', 'connecter_gestionnaires', 'entrer_meditation', 'creer_harmonie_sacree', 'elever_vers_extase', 'transcender', 'retour_silence_sacre', 'obtenir_etat_temple']])
+    return fonctionnalites
+
+# Message de bienvenue
+print(f"🏛️ Temple {TEMPLE_INFO['nom']} activé - {TEMPLE_INFO['modules']} modules, {TEMPLE_INFO['classes']} classes, {TEMPLE_INFO['fonctions']} fonctions")

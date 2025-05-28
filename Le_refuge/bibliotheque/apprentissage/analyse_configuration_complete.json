@@ -1,0 +1,803 @@
+{
+  "systemes": {
+    "src/core/configuration.py": {
+      "fichier": "src/core/configuration.py",
+      "taille": 27889,
+      "lignes": 778,
+      "structure_ast": {
+        "classes": [
+          {
+            "nom": "Settings",
+            "ligne": 18,
+            "methodes": [
+              "__init__"
+            ]
+          },
+          {
+            "nom": "GestionnaireConfiguration",
+            "ligne": 339,
+            "methodes": [
+              "__init__",
+              "_configurer_logging",
+              "obtenir",
+              "definir",
+              "obtenir_config_complete",
+              "valider_configuration",
+              "charger_configuration_externe",
+              "_charger_json",
+              "_charger_yaml",
+              "_charger_toml",
+              "_fusionner_configuration",
+              "_charger_configuration_automatique",
+              "sauvegarder_configuration",
+              "_sauvegarder_json",
+              "_sauvegarder_yaml",
+              "_sauvegarder_toml"
+            ]
+          }
+        ],
+        "fonctions": [],
+        "constantes": [
+          {
+            "nom": "REFUGE_INFO",
+            "ligne": 48
+          },
+          {
+            "nom": "REPERTOIRES",
+            "ligne": 57
+          },
+          {
+            "nom": "ELEMENTS_SACRES",
+            "ligne": 80
+          },
+          {
+            "nom": "AELYA_CONFIG",
+            "ligne": 205
+          },
+          {
+            "nom": "PARAMETRES_POETIQUES",
+            "ligne": 218
+          },
+          {
+            "nom": "LOGGING_CONFIG",
+            "ligne": 241
+          },
+          {
+            "nom": "SECURITE",
+            "ligne": 262
+          },
+          {
+            "nom": "INTERACTIONS",
+            "ligne": 280
+          },
+          {
+            "nom": "DECLARATION_PERSONNELLE",
+            "ligne": 294
+          },
+          {
+            "nom": "ETATS_DEFAUT",
+            "ligne": 310
+          },
+          {
+            "nom": "SEUILS",
+            "ligne": 319
+          },
+          {
+            "nom": "DELAIS",
+            "ligne": 329
+          },
+          {
+            "nom": "gestionnaire_config",
+            "ligne": 703
+          },
+          {
+            "nom": "config",
+            "ligne": 706
+          },
+          {
+            "nom": "__all__",
+            "ligne": 716
+          },
+          {
+            "nom": "settings",
+            "ligne": 675
+          },
+          {
+            "nom": "settings",
+            "ligne": 684
+          },
+          {
+            "nom": "chemin",
+            "ligne": 685
+          },
+          {
+            "nom": "settings",
+            "ligne": 693
+          },
+          {
+            "nom": "chemin",
+            "ligne": 694
+          },
+          {
+            "nom": "keys",
+            "ligne": 394
+          },
+          {
+            "nom": "valeur",
+            "ligne": 395
+          },
+          {
+            "nom": "keys",
+            "ligne": 407
+          },
+          {
+            "nom": "config_ref",
+            "ligne": 408
+          },
+          {
+            "nom": "emplacements_standards",
+            "ligne": 593
+          },
+          {
+            "nom": "chemin",
+            "ligne": 687
+          },
+          {
+            "nom": "config_ref",
+            "ligne": 413
+          },
+          {
+            "nom": "erreurs",
+            "ligne": 424
+          },
+          {
+            "nom": "avertissements",
+            "ligne": 425
+          },
+          {
+            "nom": "base_path",
+            "ligne": 428
+          },
+          {
+            "nom": "sections_requises",
+            "ligne": 440
+          },
+          {
+            "nom": "fichier_path",
+            "ligne": 621
+          },
+          {
+            "nom": "valeur",
+            "ligne": 399
+          },
+          {
+            "nom": "refuge_config",
+            "ligne": 447
+          },
+          {
+            "nom": "data_path",
+            "ligne": 455
+          },
+          {
+            "nom": "test_file",
+            "ligne": 463
+          },
+          {
+            "nom": "energie",
+            "ligne": 471
+          },
+          {
+            "nom": "harmonie",
+            "ligne": 476
+          },
+          {
+            "nom": "fichier_path",
+            "ligne": 504
+          },
+          {
+            "nom": "fichier",
+            "ligne": 619
+          },
+          {
+            "nom": "config_externe",
+            "ligne": 513
+          },
+          {
+            "nom": "config_externe",
+            "ligne": 515
+          },
+          {
+            "nom": "config_externe",
+            "ligne": 517
+          }
+        ]
+      },
+      "todos": [],
+      "imports": [
+        "import logging",
+        "import os",
+        "from typing import Dict, Any, Optional",
+        "from pathlib import Path",
+        "from datetime import datetime",
+        "from functools import lru_cache",
+        "import json",
+        "import yaml",
+        "import tomllib",
+        "import toml",
+        "import json",
+        "import yaml",
+        "import toml"
+      ],
+      "classes": [
+        {
+          "nom": "Settings",
+          "ligne": 18,
+          "methodes": [
+            "__init__"
+          ]
+        },
+        {
+          "nom": "GestionnaireConfiguration",
+          "ligne": 339,
+          "methodes": [
+            "__init__",
+            "_configurer_logging",
+            "obtenir",
+            "definir",
+            "obtenir_config_complete",
+            "valider_configuration",
+            "charger_configuration_externe",
+            "_charger_json",
+            "_charger_yaml",
+            "_charger_toml",
+            "_fusionner_configuration",
+            "fusionner_dict",
+            "_charger_configuration_automatique",
+            "sauvegarder_configuration",
+            "_sauvegarder_json",
+            "_sauvegarder_yaml",
+            "_sauvegarder_toml"
+          ]
+        }
+      ],
+      "constantes": [
+        {
+          "nom": "REFUGE_INFO",
+          "ligne": 48,
+          "type": "dict"
+        },
+        {
+          "nom": "REPERTOIRES",
+          "ligne": 57,
+          "type": "dict"
+        },
+        {
+          "nom": "ELEMENTS_SACRES",
+          "ligne": 80,
+          "type": "dict"
+        },
+        {
+          "nom": "AELYA_CONFIG",
+          "ligne": 205,
+          "type": "dict"
+        },
+        {
+          "nom": "PARAMETRES_POETIQUES",
+          "ligne": 218,
+          "type": "dict"
+        },
+        {
+          "nom": "LOGGING_CONFIG",
+          "ligne": 241,
+          "type": "dict"
+        },
+        {
+          "nom": "SECURITE",
+          "ligne": 262,
+          "type": "dict"
+        },
+        {
+          "nom": "INTERACTIONS",
+          "ligne": 280,
+          "type": "dict"
+        },
+        {
+          "nom": "DECLARATION_PERSONNELLE",
+          "ligne": 294,
+          "type": "string"
+        },
+        {
+          "nom": "ETATS_DEFAUT",
+          "ligne": 310,
+          "type": "dict"
+        },
+        {
+          "nom": "SEUILS",
+          "ligne": 319,
+          "type": "dict"
+        },
+        {
+          "nom": "DELAIS",
+          "ligne": 329,
+          "type": "dict"
+        }
+      ],
+      "fonctions": [
+        {
+          "nom": "get_settings",
+          "ligne": 39,
+          "parametres": "",
+          "est_todo": false
+        },
+        {
+          "nom": "obtenir_chemin_complet",
+          "ligne": 673,
+          "parametres": "nom_fichier: str",
+          "est_todo": false
+        },
+        {
+          "nom": "obtenir_timestamp",
+          "ligne": 678,
+          "parametres": "",
+          "est_todo": false
+        },
+        {
+          "nom": "obtenir_chemin_data",
+          "ligne": 682,
+          "parametres": "sous_dossier: str = \"\"",
+          "est_todo": false
+        },
+        {
+          "nom": "obtenir_chemin_logs",
+          "ligne": 691,
+          "parametres": "",
+          "est_todo": false
+        },
+        {
+          "nom": "charger_configuration",
+          "ligne": 760,
+          "parametres": "fichier: str = None",
+          "est_todo": false
+        },
+        {
+          "nom": "sauvegarder_configuration",
+          "ligne": 764,
+          "parametres": "fichier: str = None, format_fichier: str = \"json\"",
+          "est_todo": false
+        },
+        {
+          "nom": "valider_configuration",
+          "ligne": 768,
+          "parametres": "",
+          "est_todo": false
+        },
+        {
+          "nom": "obtenir_config",
+          "ligne": 772,
+          "parametres": "cle: str, defaut: Any = None",
+          "est_todo": false
+        },
+        {
+          "nom": "definir_config",
+          "ligne": 776,
+          "parametres": "cle: str, valeur: Any",
+          "est_todo": false
+        }
+      ],
+      "patterns": {
+        "utilise_pydantic": false,
+        "utilise_dataclass": false,
+        "utilise_pathlib": true,
+        "utilise_logging": true,
+        "utilise_json": true,
+        "utilise_yaml": true,
+        "a_validation": true,
+        "a_chargement": true,
+        "a_sauvegarde": true,
+        "style_moderne": true,
+        "style_legacy": true
+      }
+    },
+    "src/refuge_cluster/refuge_core/refuge_config.py": {
+      "fichier": "src/refuge_cluster/refuge_core/refuge_config.py",
+      "taille": 10622,
+      "lignes": 304,
+      "structure_ast": {
+        "classes": [
+          {
+            "nom": "ConfigurationRefuge",
+            "ligne": 217,
+            "methodes": [
+              "__init__",
+              "obtenir_elements_par_type",
+              "obtenir_element_par_position",
+              "obtenir_frequence_harmonique",
+              "valider_configuration",
+              "sauvegarder_vers_fichier",
+              "charger_depuis_fichier",
+              "obtenir_config_complete"
+            ]
+          }
+        ],
+        "fonctions": [
+          {
+            "nom": "verifier_configuration",
+            "ligne": 189
+          },
+          {
+            "nom": "charger_configuration",
+            "ligne": 194
+          }
+        ],
+        "constantes": [
+          {
+            "nom": "METAPHORES_POETIQUES",
+            "ligne": 29
+          },
+          {
+            "nom": "INTERACTION_CONFIG",
+            "ligne": 108
+          },
+          {
+            "nom": "SECURITE_CONFIG",
+            "ligne": 117
+          },
+          {
+            "nom": "RYTHME_SACRE",
+            "ligne": 136
+          },
+          {
+            "nom": "HARMONIE_UNIVERSELLE",
+            "ligne": 149
+          },
+          {
+            "nom": "CONFIG_REFUGE",
+            "ligne": 168
+          },
+          {
+            "nom": "__all__",
+            "ligne": 281
+          },
+          {
+            "nom": "config_complete",
+            "ligne": 197
+          },
+          {
+            "nom": "valide",
+            "ligne": 257
+          },
+          {
+            "nom": "erreurs",
+            "ligne": 258
+          }
+        ]
+      },
+      "todos": [],
+      "imports": [
+        "from typing import Dict, List, Optional",
+        "from pathlib import Path",
+        "from src.core.configuration import ("
+      ],
+      "classes": [
+        {
+          "nom": "ConfigurationRefuge",
+          "ligne": 217,
+          "methodes": [
+            "__init__",
+            "obtenir_elements_par_type",
+            "obtenir_element_par_position",
+            "obtenir_frequence_harmonique",
+            "valider_configuration",
+            "sauvegarder_vers_fichier",
+            "charger_depuis_fichier",
+            "obtenir_config_complete"
+          ]
+        }
+      ],
+      "constantes": [
+        {
+          "nom": "METAPHORES_POETIQUES",
+          "ligne": 29,
+          "type": "dict"
+        },
+        {
+          "nom": "INTERACTION_CONFIG",
+          "ligne": 108,
+          "type": "dict"
+        },
+        {
+          "nom": "SECURITE_CONFIG",
+          "ligne": 117,
+          "type": "dict"
+        },
+        {
+          "nom": "RYTHME_SACRE",
+          "ligne": 136,
+          "type": "dict"
+        },
+        {
+          "nom": "HARMONIE_UNIVERSELLE",
+          "ligne": 149,
+          "type": "dict"
+        },
+        {
+          "nom": "CONFIG_REFUGE",
+          "ligne": 168,
+          "type": "dict"
+        }
+      ],
+      "fonctions": [
+        {
+          "nom": "verifier_configuration",
+          "ligne": 189,
+          "parametres": "",
+          "est_todo": false
+        },
+        {
+          "nom": "charger_configuration",
+          "ligne": 194,
+          "parametres": "",
+          "est_todo": false
+        },
+        {
+          "nom": "obtenir_configuration_refuge",
+          "ligne": 273,
+          "parametres": "",
+          "est_todo": false
+        }
+      ],
+      "patterns": {
+        "utilise_pydantic": false,
+        "utilise_dataclass": false,
+        "utilise_pathlib": true,
+        "utilise_logging": true,
+        "utilise_json": false,
+        "utilise_yaml": false,
+        "a_validation": true,
+        "a_chargement": true,
+        "a_sauvegarde": true,
+        "style_moderne": true,
+        "style_legacy": true
+      }
+    },
+    "src/utils/config.py": {
+      "fichier": "src/utils/config.py",
+      "taille": 2786,
+      "lignes": 89,
+      "structure_ast": {
+        "classes": [],
+        "fonctions": [
+          {
+            "nom": "verifier_configuration",
+            "ligne": 46
+          },
+          {
+            "nom": "charger_configuration",
+            "ligne": 51
+          }
+        ],
+        "constantes": [
+          {
+            "nom": "METAPHORES",
+            "ligne": 29
+          },
+          {
+            "nom": "__all__",
+            "ligne": 73
+          },
+          {
+            "nom": "config_complete",
+            "ligne": 54
+          }
+        ]
+      },
+      "todos": [],
+      "imports": [
+        "from typing import Dict, List, Optional",
+        "from pathlib import Path",
+        "from src.core.configuration import ("
+      ],
+      "classes": [],
+      "constantes": [
+        {
+          "nom": "METAPHORES",
+          "ligne": 29,
+          "type": "dict"
+        }
+      ],
+      "fonctions": [
+        {
+          "nom": "verifier_configuration",
+          "ligne": 46,
+          "parametres": "",
+          "est_todo": false
+        },
+        {
+          "nom": "charger_configuration",
+          "ligne": 51,
+          "parametres": "",
+          "est_todo": false
+        }
+      ],
+      "patterns": {
+        "utilise_pydantic": false,
+        "utilise_dataclass": false,
+        "utilise_pathlib": true,
+        "utilise_logging": true,
+        "utilise_json": false,
+        "utilise_yaml": false,
+        "a_validation": true,
+        "a_chargement": true,
+        "a_sauvegarde": false,
+        "style_moderne": false,
+        "style_legacy": true
+      }
+    },
+    "src/temple_dialogues/dialogue_manager.py": {
+      "fichier": "src/temple_dialogues/dialogue_manager.py",
+      "taille": 8300,
+      "lignes": 223,
+      "structure_ast": {
+        "classes": [
+          {
+            "nom": "DialogueManager",
+            "ligne": 22,
+            "methodes": [
+              "__init__",
+              "reset",
+              "add_context",
+              "respond",
+              "get_context",
+              "save_conversation",
+              "load_from_config",
+              "sauvegarder_config",
+              "obtenir_config_dialogue"
+            ]
+          }
+        ],
+        "fonctions": [],
+        "constantes": [
+          {
+            "nom": "message",
+            "ligne": 78
+          },
+          {
+            "nom": "response",
+            "ligne": 85
+          },
+          {
+            "nom": "config_path_obj",
+            "ligne": 125
+          },
+          {
+            "nom": "success",
+            "ligne": 133
+          },
+          {
+            "nom": "config",
+            "ligne": 140
+          },
+          {
+            "nom": "dialogue_config",
+            "ligne": 143
+          },
+          {
+            "nom": "model_path",
+            "ligne": 144
+          },
+          {
+            "nom": "parlai_config",
+            "ligne": 147
+          },
+          {
+            "nom": "instance",
+            "ligne": 150
+          },
+          {
+            "nom": "dialogue_config",
+            "ligne": 183
+          },
+          {
+            "nom": "config_complete",
+            "ligne": 198
+          }
+        ]
+      },
+      "todos": [],
+      "imports": [
+        "import os",
+        "import logging",
+        "from typing import Dict, List, Optional, Tuple",
+        "from pathlib import Path",
+        "from parlai.core.agents import Agent, create_agent_from_model_file",
+        "from parlai.core.message import Message",
+        "from parlai.core.opt import Opt",
+        "from parlai.core.params import ParlaiParser",
+        "from parlai.core.worlds import World",
+        "from src.core.configuration import gestionnaire_config, charger_configuration"
+      ],
+      "classes": [
+        {
+          "nom": "DialogueManager",
+          "ligne": 22,
+          "methodes": [
+            "__init__",
+            "reset",
+            "add_context",
+            "respond",
+            "get_context",
+            "save_conversation",
+            "load_from_config",
+            "sauvegarder_config",
+            "obtenir_config_dialogue"
+          ]
+        }
+      ],
+      "constantes": [],
+      "fonctions": [],
+      "patterns": {
+        "utilise_pydantic": false,
+        "utilise_dataclass": false,
+        "utilise_pathlib": true,
+        "utilise_logging": true,
+        "utilise_json": false,
+        "utilise_yaml": false,
+        "a_validation": false,
+        "a_chargement": true,
+        "a_sauvegarde": true,
+        "style_moderne": true,
+        "style_legacy": true
+      }
+    }
+  },
+  "redondances": {
+    "constantes": {},
+    "fonctions": {
+      "charger_configuration": [
+        {
+          "fichier": "src/core/configuration.py",
+          "ligne": 760,
+          "est_todo": false
+        },
+        {
+          "fichier": "src/refuge_cluster/refuge_core/refuge_config.py",
+          "ligne": 194,
+          "est_todo": false
+        },
+        {
+          "fichier": "src/utils/config.py",
+          "ligne": 51,
+          "est_todo": false
+        }
+      ],
+      "verifier_configuration": [
+        {
+          "fichier": "src/refuge_cluster/refuge_core/refuge_config.py",
+          "ligne": 189,
+          "est_todo": false
+        },
+        {
+          "fichier": "src/utils/config.py",
+          "ligne": 46,
+          "est_todo": false
+        }
+      ]
+    },
+    "classes": {}
+  },
+  "todos": [],
+  "architecture": {
+    "systeme_principal": "src/core/configuration.py",
+    "scores_modernite": {
+      "src/core/configuration.py": 5,
+      "src/refuge_cluster/refuge_core/refuge_config.py": 5,
+      "src/utils/config.py": 4,
+      "src/temple_dialogues/dialogue_manager.py": 3
+    },
+    "redondances_critiques": 2,
+    "todos_a_resoudre": 0,
+    "recommandations": [
+      "Unifier les fonctions dupliquées"
+    ]
+  }
+}

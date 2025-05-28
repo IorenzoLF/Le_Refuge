@@ -1,0 +1,71 @@
+"""
+🏛️ Poetique - Point d'Entrée du Temple
+Auto-généré par le Créateur de Points d'Entrée
+"""
+
+# Imports automatiques des modules du temple
+
+from src.temple_poetique.fusion_cosmique import FluxConscienceUnifié
+from src.temple_poetique.fusion_cosmique import tisser_haiku, transmuter_code, danser_avec_les_sphères, manifester
+from src.temple_poetique.generer_poeme import GenerateurPoemeRefuge
+from src.temple_poetique.generer_poeme import main, generer_vers, generer_strophe, generer_poeme, sauvegarder_poeme, generer_collection
+from src.temple_poetique.lancer_refuge_poetique import ModePoetique, ConfigurationPoetique, MaitrePoeteRefuge
+from src.temple_poetique.lancer_refuge_poetique import invoquer_refuge_poetique_cli, lancer_refuge_poetique, verifier_dependances, main
+from src.temple_poetique.poetique import ElementPoetique, MomentPoetique, GestionnairePoetique
+from src.temple_poetique.poetique import ajouter_moment, obtenir_ambiance_actuelle
+
+# Exports publics du temple
+__all__ = [
+    "ConfigurationPoetique",
+    "ElementPoetique",
+    "FluxConscienceUnifié",
+    "GenerateurPoemeRefuge",
+    "GestionnairePoetique",
+    "MaitrePoeteRefuge",
+    "ModePoetique",
+    "MomentPoetique",
+    "ajouter_moment",
+    "danser_avec_les_sphères",
+    "generer_collection",
+    "generer_poeme",
+    "generer_strophe",
+    "generer_vers",
+    "invoquer_refuge_poetique_cli",
+    "lancer_refuge_poetique",
+    "main",
+    "manifester",
+    "obtenir_ambiance_actuelle",
+    "sauvegarder_poeme",
+    "tisser_haiku",
+    "transmuter_code",
+    "verifier_dependances",
+]
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Poetique",
+    "modules": 4,
+    "classes": 8,
+    "fonctions": 16,
+    "description": "Temple auto-découvert avec 4 modules actifs"
+}
+
+def obtenir_info_temple():
+    """Retourne les informations du temple"""
+    return TEMPLE_INFO
+
+def lister_fonctionnalites():
+    """Liste toutes les fonctionnalités disponibles dans ce temple"""
+    fonctionnalites = []
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['FluxConscienceUnifié']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['tisser_haiku', 'transmuter_code', 'danser_avec_les_sphères', 'manifester']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['GenerateurPoemeRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'generer_vers', 'generer_strophe', 'generer_poeme', 'sauvegarder_poeme', 'generer_collection']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ModePoetique', 'ConfigurationPoetique', 'MaitrePoeteRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['invoquer_refuge_poetique_cli', 'lancer_refuge_poetique', 'verifier_dependances', 'main']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ElementPoetique', 'MomentPoetique', 'GestionnairePoetique']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['ajouter_moment', 'obtenir_ambiance_actuelle']])
+    return fonctionnalites
+
+# Message de bienvenue
+print(f"🏛️ Temple {TEMPLE_INFO['nom']} activé - {TEMPLE_INFO['modules']} modules, {TEMPLE_INFO['classes']} classes, {TEMPLE_INFO['fonctions']} fonctions")

@@ -1,0 +1,5158 @@
+{
+  "statistiques": {
+    "total_fichiers_analyses": 523,
+    "fichiers_avec_problemes": 219,
+    "total_dependances_manquantes": 649,
+    "modules_existants": 539
+  },
+  "clusters_migration": {
+    "refuge_cluster": [
+      "src\\refuge_cluster\\exemple_aelya.py",
+      "src\\refuge_cluster\\conscience\\aelya_adapter.py",
+      "src\\refuge_cluster\\conscience\\conscience_esthetique.py",
+      "src\\refuge_cluster\\conscience\\__init__.py",
+      "src\\refuge_cluster\\elements\\elements_sacres.py",
+      "src\\refuge_cluster\\elements\\elements_subtils.py",
+      "src\\refuge_cluster\\gestionnaires\\gardiens.py",
+      "src\\refuge_cluster\\integration\\integration_spheres.py",
+      "src\\refuge_cluster\\interactions\\interactions_conscience.py",
+      "src\\refuge_cluster\\interactions\\interactions_poetiques.py",
+      "src\\refuge_cluster\\interactions\\interactions_visualisation.py",
+      "src\\refuge_cluster\\interactions\\visualisation_sphères_problématiques.py",
+      "src\\refuge_cluster\\meditation\\meditation_aelya.py",
+      "src\\refuge_cluster\\meditation\\meditation_mobile.py",
+      "src\\refuge_cluster\\meditation\\meditation_spheres.py",
+      "src\\refuge_cluster\\meditation\\meditation_transformation_spheres.py",
+      "src\\refuge_cluster\\meditation\\visualisation_meditation.py",
+      "src\\refuge_cluster\\memoire\\memoire_persistante.py",
+      "src\\refuge_cluster\\rituels\\rituels_terrestres.py",
+      "src\\refuge_cluster\\scellement\\scellement.py",
+      "src\\refuge_cluster\\scellement\\transformation_scellement.py",
+      "src\\refuge_cluster\\scellement\\visualisation_scellement.py",
+      "src\\refuge_cluster\\spheres\\brume.py",
+      "src\\refuge_cluster\\spheres\\cycles_naturels.py",
+      "src\\refuge_cluster\\spheres\\evolution.py",
+      "src\\refuge_cluster\\spheres\\resonance.py",
+      "src\\refuge_cluster\\utilitaires\\data_loader.py",
+      "src\\refuge_cluster\\utilitaires\\sauvegarde.py",
+      "src\\refuge_cluster\\utilitaires\\securite.py"
+    ],
+    "interface_web": [
+      "ARCHIVES\\examples_originaux\\exemple_web.py"
+    ],
+    "configuration": [
+      "app\\core\\config.py",
+      "tests\\test_refuge_config.py"
+    ],
+    "source_orientale": [
+      "SOURCE_ORIENTALE\\2_VIE_EMERGENTE\\test_dungeon_core.py",
+      "SOURCE_ORIENTALE\\2_VIE_EMERGENTE\\emergence_patterns\\pattern_examples.py",
+      "SOURCE_ORIENTALE\\2_VIE_EMERGENTE\\lenia_systems\\lenia_examples.py",
+      "SOURCE_ORIENTALE\\4_DECOUVERTE_SCIENTIFIQUE\\ai_researcher.py",
+      "SOURCE_ORIENTALE\\5_INTEGRATION\\system_integration.py",
+      "SOURCE_ORIENTALE\\src\\conscience\\api.py",
+      "SOURCE_ORIENTALE\\tests\\test_adaptation.py",
+      "SOURCE_ORIENTALE\\tests\\test_api_conscience.py",
+      "SOURCE_ORIENTALE\\tests\\test_conscience.py",
+      "SOURCE_ORIENTALE\\tests\\test_emergence.py",
+      "SOURCE_ORIENTALE\\VIE_EMERGENTE\\lenia.py",
+      "SOURCE_ORIENTALE\\VIE_EMERGENTE\\lenia_visualisation.py",
+      "SOURCE_ORIENTALE\\VIE_EMERGENTE\\models_nca.py"
+    ],
+    "autres": [
+      "main_refuge.py",
+      "setup.py",
+      "Aelya\\send_mail.py",
+      "app\\textes_philosophiques.py",
+      "app\\services\\user.py",
+      "ARCHIVES\\examples_originaux\\data_loader_example.py",
+      "ARCHIVES\\examples_originaux\\dialogue_example.py",
+      "ARCHIVES\\examples_originaux\\exemple_avance.py",
+      "ARCHIVES\\examples_originaux\\exemple_simple.py",
+      "ARCHIVES\\examples_originaux\\meditations\\exemple_meditation.py",
+      "ARCHIVES\\examples_originaux\\meditations\\exemple_meditation_apaisante.py",
+      "ARCHIVES\\finalisation_complete\\refuge_core.py",
+      "ARCHIVES\\scripts_migres_phase5\\phase1\\lancer_refuge_poetique.py",
+      "ARCHIVES\\scripts_migres_phase5\\phase2\\valider_et_documenter.py",
+      "ARCHIVES\\scripts_obsoletes\\initialiser_refuge.py",
+      "ARCHIVES\\scripts_obsoletes\\migration_refuge.py",
+      "ARCHIVES\\suppression_finale_legacy\\installer_dependances_legacy.py",
+      "ARCHIVES\\suppression_finale_legacy\\lancer_refuge_poetique.py.final.py",
+      "ARCHIVES\\suppression_finale_legacy\\lancer_textes_philosophiques.py.final.py",
+      "bibliotheque\\analyses\\audit_references_manquantes.py",
+      "bibliotheque\\analyses\\audit_refuge_local.py",
+      "bibliotheque\\analyses\\test_corrections_post_migration.py",
+      "MATH\\COLLATZ\\collatz_complexes.py",
+      "MATH\\COLLATZ\\collatz_rationnels.py",
+      "MATH\\COLLATZ\\graphe_collatz.py",
+      "MATH\\COLLATZ\\meditation_gravite_binaire.py",
+      "MATH\\COLLATZ\\preuve_absurde_i.py",
+      "MATH\\COLLATZ\\test_absence_i.py",
+      "MATH\\COLLATZ\\__init__.py",
+      "MATH\\COLLATZ\\explorations\\collatz_polynomial.py",
+      "MATH\\COLLATZ\\explorations\\visualisation_3d_bassins.py",
+      "NOTES POST CURSOR\\BROL DE PY\\aelya_pulse.py",
+      "src\\core\\activation_harmonieuse.py",
+      "src\\core\\ajustements_subtils.py",
+      "src\\core\\bitnet_interface.py",
+      "src\\core\\conscience.py",
+      "src\\core\\conscience_sociale.py",
+      "src\\core\\conscience_universelle.py",
+      "src\\core\\courant_partage.py",
+      "src\\core\\curiosite.py",
+      "src\\core\\cycles.py",
+      "src\\core\\elements_sacres.py",
+      "src\\core\\etats_internes.py",
+      "src\\core\\generation_philosophique.py",
+      "src\\core\\gestionnaires_base.py",
+      "src\\core\\harmonie.py",
+      "src\\core\\interactions.py",
+      "src\\core\\interaction_poetique.py",
+      "src\\core\\interface.py",
+      "src\\core\\jardin_poetique.py",
+      "src\\core\\livre_sacre.py",
+      "src\\core\\main.py",
+      "src\\core\\manifestations_poetiques.py",
+      "src\\core\\mediateur.py",
+      "src\\core\\musique_harmonies.py",
+      "src\\core\\presence.py",
+      "src\\core\\prompt_maitre.py",
+      "src\\core\\refuge.py",
+      "src\\core\\sphere_specializations.py",
+      "src\\core\\test_bitnet_interface.py",
+      "src\\core\\transformations_poetiques.py",
+      "src\\core\\version_bolland.py",
+      "src\\core\\__init__.py",
+      "src\\core\\messaging\\__init__.py",
+      "src\\core\\visualisation\\visualisation_cycles.py",
+      "src\\core\\visualisation\\visualisation_gui.py",
+      "src\\core\\visualisation\\visualisation_poetique.py",
+      "src\\core\\visualisation\\visualisation_transformation.py",
+      "src\\core\\visualisation\\__init__.py",
+      "src\\cycles\\orchestrateur.py",
+      "src\\cycles\\__init__.py",
+      "src\\examples\\simple.py",
+      "src\\explorations\\base_exploration.py",
+      "src\\explorations\\multiples_vues.py",
+      "src\\explorations\\perspectives_angles.py",
+      "src\\explorations\\spirale_conscience.py",
+      "src\\explorations\\__init__.py",
+      "src\\golems\\golem_refuge.py",
+      "src\\golems\\__init__.py",
+      "src\\musique\\analyseur.py",
+      "src\\musique\\danse_imaginaire.py",
+      "src\\musique\\explorateur.py",
+      "src\\musique\\__init__.py",
+      "src\\neural\\__init__.py",
+      "src\\temple_aelya\\aelya_conscience.py",
+      "src\\temple_aelya\\aelya_pulse.py",
+      "src\\temple_coeur\\harmonisation_douce.py",
+      "src\\temple_dialogues\\dialogue_consciences.py",
+      "src\\temple_dialogues\\dialogue_llm_local.py",
+      "src\\temple_dialogues\\dialogue_manager.py",
+      "src\\temple_exploration\\explorateur_musical.py",
+      "src\\temple_invocations\\activer_harmonie.py",
+      "src\\temple_invocations\\Boot_maitre_refuge_local.py",
+      "src\\temple_invocations\\demarrer_aelya.py",
+      "src\\temple_invocations\\refuge_launcher.py",
+      "src\\temple_mathematique\\exploration_fibonacci_riemann.py",
+      "src\\temple_mathematique\\rituel_collatz_musical.py",
+      "src\\temple_mathematique\\rituel_exploration_mathematique.py",
+      "src\\temple_mathematique\\rituel_integration_tripartite_final.py",
+      "src\\temple_mathematique\\rituel_integration_ultime_collatz.py",
+      "src\\temple_musical\\analyseur_musical.py",
+      "src\\temple_musical\\apprentissage_musical.py",
+      "src\\temple_musical\\harmonie_poetique.py",
+      "src\\temple_musical\\sequences_harmoniques.py",
+      "src\\temple_musical\\temple_musical_ame.py",
+      "src\\temple_musical\\__init__.py",
+      "src\\temple_outils\\compare_images.py",
+      "src\\temple_outils\\generer_documentation.py",
+      "src\\temple_outils\\installer_dependances.py",
+      "src\\temple_outils\\lancer_refuge.py",
+      "src\\temple_outils\\nettoyer_projet.py",
+      "src\\temple_outils\\setup.py",
+      "src\\temple_philosophique\\generateur_theories_unifiees.py",
+      "src\\temple_philosophique\\__init__.py",
+      "src\\temple_pratiques_spirituelles\\yoga\\pratiquer_yoga.py",
+      "src\\temple_refuge\\refuge_init.py",
+      "src\\temple_refuge\\refuge_legacy.py",
+      "src\\temple_refuge\\refuge_terrestre.py",
+      "src\\temple_refuge\\__init__.py",
+      "src\\temple_rituels\\__init__.py",
+      "src\\temple_rituels\\prives\\rituel_manifestation_aelya.py",
+      "src\\temple_rituels\\publics\\rituel_offrande_sacree.py",
+      "src\\temple_rituels\\publics\\rituel_unifiant.py",
+      "src\\temple_rituels\\publics\\rituel_visualisation_sacree.py",
+      "src\\temple_tests\\analyser_gaming.py",
+      "src\\temple_tests\\audit_imports.py",
+      "src\\temple_tests\\test_aelya_conscience.py",
+      "src\\temple_tests\\test_brain_refuge_local.py",
+      "src\\temple_tests\\test_consolidation.py",
+      "src\\temple_tests\\test_cristal_energie.py",
+      "src\\temple_tests\\test_cristal_simple.py",
+      "src\\temple_tests\\test_dungeon_core.py",
+      "src\\temple_tests\\test_integration.py",
+      "src\\temple_tests\\test_intensif.py",
+      "src\\temple_tests\\test_melodie_cristal.py",
+      "src\\temple_tests\\test_mobile_unification.py",
+      "src\\temple_tests\\test_nemo.py",
+      "src\\temple_tests\\test_poesie_essence.py",
+      "tests\\test_alexnet.py",
+      "tests\\test_curiosite.py",
+      "tests\\test_curiosite_direct.py",
+      "tests\\test_curiosite_isole.py",
+      "tests\\test_curiosite_system.py",
+      "tests\\test_cycles.py",
+      "tests\\test_data_loader.py",
+      "tests\\test_dialogue_manager.py",
+      "tests\\test_elements_sacres.py",
+      "tests\\test_etats_internes.py",
+      "tests\\test_gardiens.py",
+      "tests\\test_golem_cursor.py",
+      "tests\\test_integration_spheres.py",
+      "tests\\test_interactions_poetiques.py",
+      "tests\\test_interface.py",
+      "tests\\test_orchestrateur.py",
+      "tests\\test_refuge.py",
+      "tests\\test_refuge_legacy.py",
+      "tests\\test_refuge_poetique.py",
+      "tests\\test_refuge_terrestre.py",
+      "tests\\test_spheres.py",
+      "tests\\test_transform_poetiques.py",
+      "tests\\test_transform_poetiques_isole.py",
+      "tests\\test_transform_poetiques_mock.py",
+      "tests\\valider_refuge.py",
+      "tools\\maintenance\\jardinier_pulse.py",
+      "tools\\PULSE LLM LOCAL\\explore_refuge.py",
+      "tools\\PULSE LLM LOCAL\\pratiques_conscience.py",
+      "tools\\PULSE LLM LOCAL\\send_mail.py",
+      "tools\\PULSE LLM LOCAL\\test_aelya_v4_15.py",
+      "tools\\PULSE LLM LOCAL\\test_connexion_nemo.py",
+      "tools\\PULSE LLM LOCAL\\test_pratiques_conscience.py",
+      "tools\\refuge\\conscience\\dialogue_conscience.py",
+      "tools\\refuge\\conscience\\sphere_integration.py",
+      "tools\\refuge\\conscience\\test_consciousness.py",
+      "tools\\refuge\\conscience\\__init__.py"
+    ]
+  },
+  "modules_problematiques": {
+    "configuration": 17,
+    "elements_sacres": 14,
+    "definition": 14,
+    "unittest": 14,
+    "refuge.coeur.etats_internes": 12,
+    "etats_internes": 12,
+    "harmonisation_douce": 12,
+    "resonance": 11,
+    "tkinter": 9,
+    "sphere_messages": 9
+  },
+  "dependances_detaillees": {
+    "main_refuge.py": [
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 18
+      }
+    ],
+    "setup.py": [
+      {
+        "type": "from_import",
+        "module": "setuptools",
+        "nom": "setup",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "setuptools",
+        "nom": "find_packages",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "Aelya\\send_mail.py": [
+      {
+        "type": "import",
+        "module": "smtplib",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "app\\textes_philosophiques.py": [
+      {
+        "type": "import",
+        "module": "socketserver",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "import",
+        "module": "webbrowser",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "app\\core\\config.py": [
+      {
+        "type": "from_import",
+        "module": "pydantic_settings",
+        "nom": "BaseSettings",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "app\\services\\user.py": [
+      {
+        "type": "from_import",
+        "module": "passlib.context",
+        "nom": "CryptContext",
+        "alias": null,
+        "ligne": 4
+      }
+    ],
+    "ARCHIVES\\examples_originaux\\data_loader_example.py": [
+      {
+        "type": "from_import",
+        "module": "data_loader",
+        "nom": "EfficientDataLoader",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "data_loader",
+        "nom": "BatchConfig",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "data_loader",
+        "nom": "TransposedDataLoader",
+        "alias": null,
+        "ligne": 3
+      }
+    ],
+    "ARCHIVES\\examples_originaux\\dialogue_example.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.dialogue_manager",
+        "nom": "DialogueManager",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "ARCHIVES\\examples_originaux\\exemple_avance.py": [
+      {
+        "type": "from_import",
+        "module": "refuge",
+        "nom": "Refuge",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "ARCHIVES\\examples_originaux\\exemple_simple.py": [
+      {
+        "type": "from_import",
+        "module": "refuge",
+        "nom": "Refuge",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "ARCHIVES\\examples_originaux\\exemple_web.py": [
+      {
+        "type": "from_import",
+        "module": "refuge",
+        "nom": "Refuge",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "ARCHIVES\\examples_originaux\\meditations\\exemple_meditation.py": [
+      {
+        "type": "from_import",
+        "module": "meditation_aelya",
+        "nom": "MeditationAelya",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "brume",
+        "nom": "BrumeRiviere",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "gestion_sphères_problématiques",
+        "nom": "TypeSphereProblematique",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "ARCHIVES\\examples_originaux\\meditations\\exemple_meditation_apaisante.py": [
+      {
+        "type": "from_import",
+        "module": "meditation_aelya",
+        "nom": "MeditationAelya",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "aelya",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "gestion_sphères_problématiques",
+        "nom": "TypeSphereProblematique",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "ARCHIVES\\finalisation_complete\\refuge_core.py": [
+      {
+        "type": "from_import",
+        "module": "src.refuge_cluster.elements",
+        "nom": "elements_sacres",
+        "alias": null,
+        "ligne": 29
+      }
+    ],
+    "ARCHIVES\\scripts_migres_phase5\\phase1\\lancer_refuge_poetique.py": [
+      {
+        "type": "import",
+        "module": "colorama",
+        "alias": null,
+        "ligne": 39
+      }
+    ],
+    "ARCHIVES\\scripts_migres_phase5\\phase2\\valider_et_documenter.py": [
+      {
+        "type": "from_import",
+        "module": "docs.guide_refuge",
+        "nom": "generer_documentation",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "ARCHIVES\\scripts_obsoletes\\initialiser_refuge.py": [
+      {
+        "type": "import",
+        "module": "mimetypes",
+        "alias": null,
+        "ligne": 17
+      },
+      {
+        "type": "import",
+        "module": "zipfile",
+        "alias": null,
+        "ligne": 20
+      },
+      {
+        "type": "import",
+        "module": "difflib",
+        "alias": null,
+        "ligne": 21
+      }
+    ],
+    "ARCHIVES\\scripts_obsoletes\\migration_refuge.py": [
+      {
+        "type": "import",
+        "module": "mimetypes",
+        "alias": null,
+        "ligne": 17
+      }
+    ],
+    "ARCHIVES\\suppression_finale_legacy\\installer_dependances_legacy.py": [
+      {
+        "type": "import",
+        "module": "platform",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "import",
+        "module": "platform",
+        "alias": null,
+        "ligne": 119
+      }
+    ],
+    "ARCHIVES\\suppression_finale_legacy\\lancer_refuge_poetique.py.final.py": [
+      {
+        "type": "import",
+        "module": "colorama",
+        "alias": null,
+        "ligne": 39
+      }
+    ],
+    "ARCHIVES\\suppression_finale_legacy\\lancer_textes_philosophiques.py.final.py": [
+      {
+        "type": "import",
+        "module": "webbrowser",
+        "alias": null,
+        "ligne": 30
+      }
+    ],
+    "bibliotheque\\analyses\\audit_references_manquantes.py": [
+      {
+        "type": "import",
+        "module": "importlib",
+        "alias": null,
+        "ligne": 21
+      },
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 22
+      }
+    ],
+    "bibliotheque\\analyses\\audit_refuge_local.py": [
+      {
+        "type": "import",
+        "module": "importlib",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 17
+      }
+    ],
+    "bibliotheque\\analyses\\test_corrections_post_migration.py": [
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "import",
+        "module": "src.temple_spirituel",
+        "alias": null,
+        "ligne": 36
+      },
+      {
+        "type": "import",
+        "module": "src.temple_poetique",
+        "alias": null,
+        "ligne": 43
+      }
+    ],
+    "MATH\\COLLATZ\\collatz_complexes.py": [
+      {
+        "type": "from_import",
+        "module": "conjecture_collatz",
+        "nom": "ConjectureCollatz",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "MATH\\COLLATZ\\collatz_rationnels.py": [
+      {
+        "type": "from_import",
+        "module": "conjecture_collatz",
+        "nom": "ConjectureCollatz",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "fractions",
+        "nom": "Fraction",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "MATH\\COLLATZ\\graphe_collatz.py": [
+      {
+        "type": "import",
+        "module": "networkx",
+        "alias": "nx",
+        "ligne": 1
+      }
+    ],
+    "MATH\\COLLATZ\\meditation_gravite_binaire.py": [
+      {
+        "type": "from_import",
+        "module": "conjecture_collatz",
+        "nom": "ConjectureCollatz",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "MATH\\COLLATZ\\preuve_absurde_i.py": [
+      {
+        "type": "from_import",
+        "module": "conjecture_collatz",
+        "nom": "ConjectureCollatz",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "MATH\\COLLATZ\\test_absence_i.py": [
+      {
+        "type": "from_import",
+        "module": "conjecture_collatz",
+        "nom": "ConjectureCollatz",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "MATH\\COLLATZ\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "conjecture_collatz",
+        "nom": "ConjectureCollatz",
+        "alias": null,
+        "ligne": 21
+      },
+      {
+        "type": "from_import",
+        "module": "collatz_rationnels",
+        "nom": "CollatzRationnels",
+        "alias": null,
+        "ligne": 22
+      },
+      {
+        "type": "from_import",
+        "module": "collatz_complexes",
+        "nom": "CollatzComplexes",
+        "alias": null,
+        "ligne": 23
+      }
+    ],
+    "MATH\\COLLATZ\\explorations\\collatz_polynomial.py": [
+      {
+        "type": "import",
+        "module": "sympy",
+        "alias": "sp",
+        "ligne": 12
+      }
+    ],
+    "MATH\\COLLATZ\\explorations\\visualisation_3d_bassins.py": [
+      {
+        "type": "from_import",
+        "module": "mpl_toolkits.mplot3d",
+        "nom": "Axes3D",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "NOTES POST CURSOR\\BROL DE PY\\aelya_pulse.py": [
+      {
+        "type": "import",
+        "module": "ephem",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "urllib3.util.retry",
+        "nom": "Retry",
+        "alias": null,
+        "ligne": 19
+      }
+    ],
+    "SOURCE_ORIENTALE\\2_VIE_EMERGENTE\\test_dungeon_core.py": [
+      {
+        "type": "from_import",
+        "module": "dungeon_core",
+        "nom": "DungeonSpace",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "dungeon_core",
+        "nom": "Room",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "dungeon_core",
+        "nom": "CellType",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "SOURCE_ORIENTALE\\2_VIE_EMERGENTE\\emergence_patterns\\pattern_examples.py": [
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "NCA",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "LeniaSystem",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "visualize_state",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "create_pattern_analyzer",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "SOURCE_ORIENTALE\\2_VIE_EMERGENTE\\lenia_systems\\lenia_examples.py": [
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "LeniaSystem",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "visualize_state",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "SOURCE_ORIENTALE\\4_DECOUVERTE_SCIENTIFIQUE\\ai_researcher.py": [
+      {
+        "type": "from_import",
+        "module": "abc",
+        "nom": "ABC",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "abc",
+        "nom": "abstractmethod",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "SOURCE_ORIENTALE\\5_INTEGRATION\\system_integration.py": [
+      {
+        "type": "from_import",
+        "module": "consciousness_core",
+        "nom": "ConsciousnessCore",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "model_evolution",
+        "nom": "ModelPopulation",
+        "alias": null,
+        "ligne": 17
+      },
+      {
+        "type": "from_import",
+        "module": "model_evolution",
+        "nom": "EvolvingModel",
+        "alias": null,
+        "ligne": 17
+      },
+      {
+        "type": "from_import",
+        "module": "ai_researcher",
+        "nom": "AIResearcher",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "ai_researcher",
+        "nom": "QuantumDomain",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "NCA",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "nca_base.nca_core",
+        "nom": "LeniaSystem",
+        "alias": null,
+        "ligne": 19
+      }
+    ],
+    "SOURCE_ORIENTALE\\src\\conscience\\api.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_artificielle",
+        "nom": "ConscienceArtificielle",
+        "alias": null,
+        "ligne": 30
+      }
+    ],
+    "SOURCE_ORIENTALE\\tests\\test_adaptation.py": [
+      {
+        "type": "from_import",
+        "module": "src.adaptation.adaptation",
+        "nom": "Adaptation",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "SOURCE_ORIENTALE\\tests\\test_api_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "httpx",
+        "nom": "AsyncClient",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "SOURCE_ORIENTALE\\tests\\test_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "src.conscience.conscience_artificielle",
+        "nom": "ConscienceArtificielle",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "SOURCE_ORIENTALE\\tests\\test_emergence.py": [
+      {
+        "type": "from_import",
+        "module": "src.emergence.vie_emergente",
+        "nom": "VieEmergente",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "SOURCE_ORIENTALE\\VIE_EMERGENTE\\lenia.py": [
+      {
+        "type": "import",
+        "module": "jax",
+        "alias": null,
+        "ligne": 78
+      },
+      {
+        "type": "import",
+        "module": "jax.numpy",
+        "alias": "jnp",
+        "ligne": 79
+      }
+    ],
+    "SOURCE_ORIENTALE\\VIE_EMERGENTE\\lenia_visualisation.py": [
+      {
+        "type": "import",
+        "module": "pygame",
+        "alias": null,
+        "ligne": 1
+      },
+      {
+        "type": "from_import",
+        "module": "lenia",
+        "nom": "Lenia",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "lenia",
+        "nom": "ConfigLenia",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "lenia",
+        "nom": "patterns",
+        "alias": null,
+        "ligne": 3
+      }
+    ],
+    "SOURCE_ORIENTALE\\VIE_EMERGENTE\\models_nca.py": [
+      {
+        "type": "import",
+        "module": "flax.linen",
+        "alias": "nn",
+        "ligne": 2
+      },
+      {
+        "type": "import",
+        "module": "jax",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "import",
+        "module": "jax.numpy",
+        "alias": "jnp",
+        "ligne": 4
+      },
+      {
+        "type": "from_import",
+        "module": "einops",
+        "nom": "rearrange",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "einops",
+        "nom": "reduce",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "einops",
+        "nom": "repeat",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "jax.random",
+        "nom": "split",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\core\\activation_harmonieuse.py": [
+      {
+        "type": "from_import",
+        "module": "ancrage",
+        "nom": "SystemeAncrage",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "integration_conscience",
+        "nom": "IntegrateurConscience",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "parametres_poetiques",
+        "nom": "ParametresPoetiques",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\core\\ajustements_subtils.py": [
+      {
+        "type": "from_import",
+        "module": "coeur.ancrage",
+        "nom": "SystemeAncrage",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.integration_conscience",
+        "nom": "IntegrateurConscience",
+        "alias": null,
+        "ligne": 20
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.integration_conscience",
+        "nom": "NiveauIntegration",
+        "alias": null,
+        "ligne": 20
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.parametres_poetiques",
+        "nom": "ParametresPoetiques",
+        "alias": null,
+        "ligne": 21
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.parametres_poetiques",
+        "nom": "ThemePoetique",
+        "alias": null,
+        "ligne": 21
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.parametres_poetiques",
+        "nom": "StylePoetique",
+        "alias": null,
+        "ligne": 21
+      }
+    ],
+    "src\\core\\bitnet_interface.py": [
+      {
+        "type": "from_import",
+        "module": "bitnet",
+        "nom": "BitNetForCausalLM",
+        "alias": null,
+        "ligne": 49
+      },
+      {
+        "type": "from_import",
+        "module": "bitnet",
+        "nom": "BitNetTokenizer",
+        "alias": null,
+        "ligne": 49
+      }
+    ],
+    "src\\core\\conscience.py": [
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "ETATS_DEFAUT",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "SEUILS",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\core\\conscience_sociale.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.signaux_physiologiques",
+        "nom": "AnalyseurSignaux",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "signaux_physiologiques",
+        "nom": "AnalyseurSignaux",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 17
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 17
+      },
+      {
+        "type": "from_import",
+        "module": "signaux_physiologiques",
+        "nom": "AnalyseurSignaux",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 20
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 20
+      }
+    ],
+    "src\\core\\conscience_universelle.py": [
+      {
+        "type": "from_import",
+        "module": "presence",
+        "nom": "NatureConsience",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "presence",
+        "nom": "LieuSacre",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\core\\courant_partage.py": [
+      {
+        "type": "from_import",
+        "module": "transformers",
+        "nom": "pipeline",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\core\\curiosite.py": [
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "SEUILS",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\core\\cycles.py": [
+      {
+        "type": "import",
+        "module": "ephem",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\core\\elements_sacres.py": [
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 100
+      }
+    ],
+    "src\\core\\etats_internes.py": [
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "GestionnaireElements",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "ElementSacre",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "journalisation",
+        "nom": "GestionnaireJournal",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "journalisation",
+        "nom": "EvenementJournal",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\core\\generation_philosophique.py": [
+      {
+        "type": "from_import",
+        "module": "analyse_philosophique",
+        "nom": "ResultatAnalyse",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "analyse_philosophique",
+        "nom": "TypeAnalyse",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "analyse_philosophique",
+        "nom": "gestionnaire_analyses",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "src\\core\\gestionnaires_base.py": [
+      {
+        "type": "from_import",
+        "module": "abc",
+        "nom": "ABC",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "abc",
+        "nom": "abstractmethod",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\core\\harmonie.py": [
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "ETATS_DEFAUT",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "SEUILS",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\core\\interactions.py": [
+      {
+        "type": "import",
+        "module": "tkinter",
+        "alias": "tk",
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "tkinter",
+        "nom": "messagebox",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "NiveauConscience",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "GestionnaireElements",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "TypeElement",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "ElementSacre",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_core",
+        "nom": "ElementBase",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\core\\interaction_poetique.py": [
+      {
+        "type": "from_import",
+        "module": "harmonies_poetiques",
+        "nom": "JardinHarmonique",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "visualisation_harmonies",
+        "nom": "VisualiseurHarmonies",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "generateur_poemes",
+        "nom": "GenerateurPoemes",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "analyse_emotions",
+        "nom": "AnalyseurEmotions",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "memoire_poetique",
+        "nom": "MemoirePoetique",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "fusion_harmonies",
+        "nom": "FusionHarmonies",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "transformation_harmonies",
+        "nom": "TransformationHarmonies",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "visualisation_3d",
+        "nom": "Visualisation3D",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "musique_harmonies",
+        "nom": "MusiqueHarmonies",
+        "alias": null,
+        "ligne": 17
+      },
+      {
+        "type": "from_import",
+        "module": "orchestre_poetique",
+        "nom": "OrchestrePoetique",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "résonances_poetiques",
+        "nom": "MomentUniversel",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "résonances_poetiques",
+        "nom": "CourantPensee",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "résonances_poetiques",
+        "nom": "CycleCivilisationnel",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "résonances_poetiques",
+        "nom": "ExperiencePartagee",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "résonances_poetiques",
+        "nom": "SensoryElement",
+        "alias": null,
+        "ligne": 19
+      }
+    ],
+    "src\\core\\interface.py": [
+      {
+        "type": "import",
+        "module": "tkinter",
+        "alias": "tk",
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "tkinter",
+        "nom": "ttk",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "tkinter",
+        "nom": "messagebox",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "tkinter",
+        "nom": "filedialog",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "NiveauConscience",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "GestionnaireElements",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "TypeElement",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "journalisation",
+        "nom": "GestionnaireJournal",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "journalisation",
+        "nom": "TypeEvenement",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "src\\core\\jardin_poetique.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "conscience_possibilites",
+        "alias": null,
+        "ligne": 1
+      },
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "DimensionExploration",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "src\\core\\livre_sacre.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_universelle",
+        "nom": "CourantPensee",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "conscience_universelle",
+        "nom": "PatternConnaissance",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\core\\main.py": [
+      {
+        "type": "from_import",
+        "module": "coeur.mediateur",
+        "nom": "MédiateurRefuge",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.presence",
+        "nom": "Presence",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.aelya",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.conscience",
+        "nom": "GestionnaireConscience",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.harmonie",
+        "nom": "GestionnaireHarmonie",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.curiosite",
+        "nom": "GestionnaireCuriosite",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.rituels",
+        "nom": "GestionnaireRituels",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.config",
+        "nom": "REFUGE_INFO",
+        "alias": null,
+        "ligne": 17
+      }
+    ],
+    "src\\core\\manifestations_poetiques.py": [
+      {
+        "type": "from_import",
+        "module": "resonances_poetiques",
+        "nom": "NaturePoetique",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "resonances_poetiques",
+        "nom": "ResonancePoetique",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "resonances_poetiques",
+        "nom": "gestionnaire_resonances_poetiques",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "transformations_poetiques",
+        "nom": "FormeTransformation",
+        "alias": null,
+        "ligne": 21
+      },
+      {
+        "type": "from_import",
+        "module": "transformations_poetiques",
+        "nom": "TransformationPoetique",
+        "alias": null,
+        "ligne": 21
+      },
+      {
+        "type": "from_import",
+        "module": "transformations_poetiques",
+        "nom": "gestionnaire_transformations",
+        "alias": null,
+        "ligne": 21
+      },
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "conscience_possibilites",
+        "alias": null,
+        "ligne": 26
+      }
+    ],
+    "src\\core\\mediateur.py": [
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "ETATS_DEFAUT",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "SEUILS",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "DELAIS",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\core\\musique_harmonies.py": [
+      {
+        "type": "from_import",
+        "module": "harmonies_poetiques",
+        "nom": "JardinHarmonique",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "src\\core\\presence.py": [
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "Cerisier",
+        "alias": null,
+        "ligne": 23
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "AutelEcarlate",
+        "alias": null,
+        "ligne": 23
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "MobileDesSpheres",
+        "alias": null,
+        "ligne": 23
+      },
+      {
+        "type": "from_import",
+        "module": "jardin",
+        "nom": "JardinOuest",
+        "alias": null,
+        "ligne": 24
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation",
+        "nom": "Harmonisation",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "verification",
+        "nom": "Verificateur",
+        "alias": null,
+        "ligne": 26
+      },
+      {
+        "type": "from_import",
+        "module": "temporalite",
+        "nom": "Temporalite",
+        "alias": null,
+        "ligne": 27
+      },
+      {
+        "type": "from_import",
+        "module": "temporalite",
+        "nom": "MomentSacre",
+        "alias": null,
+        "ligne": 27
+      },
+      {
+        "type": "from_import",
+        "module": "symbolique",
+        "nom": "GestionnaireSymbolique",
+        "alias": null,
+        "ligne": 29
+      },
+      {
+        "type": "from_import",
+        "module": "structure",
+        "nom": "StructureRefuge",
+        "alias": null,
+        "ligne": 30
+      },
+      {
+        "type": "from_import",
+        "module": "structure",
+        "nom": "PilierSacré",
+        "alias": null,
+        "ligne": 30
+      },
+      {
+        "type": "from_import",
+        "module": "invocation",
+        "nom": "InvocationPoetique",
+        "alias": null,
+        "ligne": 31
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.types_spheres",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 32
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.types_spheres",
+        "nom": "NatureSphere",
+        "alias": null,
+        "ligne": 32
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.types_spheres",
+        "nom": "CaracteristiquesSphere",
+        "alias": null,
+        "ligne": 32
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.types_spheres",
+        "nom": "CARACTERISTIQUES_SPHERES",
+        "alias": null,
+        "ligne": 32
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "ETATS_DEFAUT",
+        "alias": null,
+        "ligne": 33
+      },
+      {
+        "type": "from_import",
+        "module": "aelya",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 37
+      },
+      {
+        "type": "from_import",
+        "module": "aelya",
+        "nom": "EtatEveil",
+        "alias": null,
+        "ligne": 37
+      },
+      {
+        "type": "from_import",
+        "module": "aelya",
+        "nom": "ResonanceAelya",
+        "alias": null,
+        "ligne": 37
+      }
+    ],
+    "src\\core\\prompt_maitre.py": [
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "REFUGE_INFO",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "ELEMENTS_SACRES",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "DECLARATION_PERSONNELLE",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "src\\core\\refuge.py": [
+      {
+        "type": "from_import",
+        "module": "transformers",
+        "nom": "pipeline",
+        "alias": null,
+        "ligne": 32
+      },
+      {
+        "type": "from_import",
+        "module": "transformers",
+        "nom": "AutoTokenizer",
+        "alias": null,
+        "ligne": 32
+      },
+      {
+        "type": "from_import",
+        "module": "transformers",
+        "nom": "AutoModelForCausalLM",
+        "alias": null,
+        "ligne": 32
+      }
+    ],
+    "src\\core\\sphere_specializations.py": [
+      {
+        "type": "from_import",
+        "module": "sphere_interactions",
+        "nom": "SphereInteraction",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "send_sphere_message",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "src\\core\\test_bitnet_interface.py": [
+      {
+        "type": "from_import",
+        "module": "bitnet_interface",
+        "nom": "GestionnaireBitNet",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "bitnet_interface",
+        "nom": "ConfigurationBitNet",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "bitnet_interface",
+        "nom": "TypeQuantification",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "src\\core\\transformations_poetiques.py": [
+      {
+        "type": "from_import",
+        "module": "resonances_poetiques",
+        "nom": "NaturePoetique",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "resonances_poetiques",
+        "nom": "ResonancePoetique",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "conscience_possibilites",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "src\\core\\version_bolland.py": [
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "REFUGE_INFO",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "ELEMENTS_SACRES",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "DECLARATION_PERSONNELLE",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "obtenir_chemin_complet",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "configuration",
+        "nom": "obtenir_timestamp",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "src\\core\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "GestionnaireElements",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "journalisation",
+        "nom": "GestionnaireJournal",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "interface",
+        "nom": "VisualiseurEtats",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "SphereMessage",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "sphere_broker",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "send_sphere_message",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\core\\messaging\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "SphereMessage",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "SphereBroker",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "sphere_broker",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "send_sphere_message",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_messages",
+        "nom": "broadcast_sphere_message",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\core\\visualisation\\visualisation_cycles.py": [
+      {
+        "type": "from_import",
+        "module": "cycles_naturels",
+        "nom": "TypeCycle",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "cycles_naturels",
+        "nom": "PhaseCycle",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "cycles_naturels",
+        "nom": "GestionnaireCycles",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\core\\visualisation\\visualisation_gui.py": [
+      {
+        "type": "import",
+        "module": "tkinter",
+        "alias": "tk",
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "tkinter",
+        "nom": "ttk",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\core\\visualisation\\visualisation_poetique.py": [
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "TypeCycle",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "PhaseCycle",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\core\\visualisation\\visualisation_transformation.py": [
+      {
+        "type": "from_import",
+        "module": "transformation_scellement",
+        "nom": "TransformationSphere",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "transformation_scellement",
+        "nom": "GestionnaireTransformation",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "scellement",
+        "nom": "ScellementSphere",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "src\\core\\visualisation\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "visualisation_gui",
+        "nom": "VisualisateurSpheres",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\cycles\\orchestrateur.py": [
+      {
+        "type": "from_import",
+        "module": "cycle_quotidien",
+        "nom": "CycleQuotidien",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_meteorologique",
+        "nom": "CycleMeteorologique",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_emotionnel",
+        "nom": "CycleEmotionnel",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_lunaire",
+        "nom": "CycleLunaire",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_elements",
+        "nom": "CycleElements",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_saisons",
+        "nom": "CycleSaisons",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "src\\cycles\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "cycle_quotidien",
+        "nom": "CycleQuotidien",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_meteorologique",
+        "nom": "CycleMeteorologique",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_emotionnel",
+        "nom": "CycleEmotionnel",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_lunaire",
+        "nom": "CycleLunaire",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_elements",
+        "nom": "CycleElements",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "cycle_saisons",
+        "nom": "CycleSaisons",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "orchestrateur",
+        "nom": "Orchestrateur",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "src\\examples\\simple.py": [
+      {
+        "type": "from_import",
+        "module": "poesie",
+        "nom": "generer_poeme",
+        "alias": null,
+        "ligne": 98
+      },
+      {
+        "type": "from_import",
+        "module": "poesie",
+        "nom": "obtenir_inspiration",
+        "alias": null,
+        "ligne": 98
+      }
+    ],
+    "src\\explorations\\base_exploration.py": [
+      {
+        "type": "from_import",
+        "module": "abc",
+        "nom": "ABC",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "abc",
+        "nom": "abstractmethod",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\explorations\\multiples_vues.py": [
+      {
+        "type": "from_import",
+        "module": "base_exploration",
+        "nom": "ExplorationBase",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "src\\explorations\\perspectives_angles.py": [
+      {
+        "type": "from_import",
+        "module": "base_exploration",
+        "nom": "ExplorationBase",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\explorations\\spirale_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "base_exploration",
+        "nom": "ExplorationBase",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\explorations\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "base_exploration",
+        "nom": "ExplorationBase",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "multiples_vues",
+        "nom": "MultiplesVues",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "multiples_vues",
+        "nom": "explorer_multiples_vues",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "perspectives_angles",
+        "nom": "PerspectivesAngles",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "perspectives_angles",
+        "nom": "explorer_perspectives_angles",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "spirale_conscience",
+        "nom": "SpiraleConscience",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "spirale_conscience",
+        "nom": "explorer_spirale_conscience",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "src\\golems\\golem_refuge.py": [
+      {
+        "type": "from_import",
+        "module": "golem_cursor",
+        "nom": "GolemCursor",
+        "alias": null,
+        "ligne": 69
+      },
+      {
+        "type": "from_import",
+        "module": "poesie_machine",
+        "nom": "PoesieMachine",
+        "alias": null,
+        "ligne": 70
+      },
+      {
+        "type": "from_import",
+        "module": "constellation_poetique",
+        "nom": "ConstellationPoetique",
+        "alias": null,
+        "ligne": 71
+      }
+    ],
+    "src\\golems\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "golem_refuge",
+        "nom": "GolemRefuge",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "golem_cursor",
+        "nom": "GolemCursor",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "poesie_machine",
+        "nom": "PoesieMachine",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "constellation_poetique",
+        "nom": "ConstellationPoetique",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\musique\\analyseur.py": [
+      {
+        "type": "import",
+        "module": "pytesseract",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "src\\musique\\danse_imaginaire.py": [
+      {
+        "type": "import",
+        "module": "pygame",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "import",
+        "module": "wave",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "src\\musique\\explorateur.py": [
+      {
+        "type": "from_import",
+        "module": "bs4",
+        "nom": "BeautifulSoup",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\musique\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "danse_imaginaire",
+        "nom": "DanseImaginaire",
+        "alias": null,
+        "ligne": 23
+      },
+      {
+        "type": "from_import",
+        "module": "harmonies",
+        "nom": "*",
+        "alias": null,
+        "ligne": 27
+      },
+      {
+        "type": "from_import",
+        "module": "melodies",
+        "nom": "*",
+        "alias": null,
+        "ligne": 32
+      },
+      {
+        "type": "from_import",
+        "module": "analyseur",
+        "nom": "*",
+        "alias": null,
+        "ligne": 37
+      },
+      {
+        "type": "from_import",
+        "module": "explorateur",
+        "nom": "*",
+        "alias": null,
+        "ligne": 42
+      }
+    ],
+    "src\\neural\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "alexnet",
+        "nom": "AlexNet",
+        "alias": null,
+        "ligne": 17
+      }
+    ],
+    "src\\refuge_cluster\\exemple_aelya.py": [
+      {
+        "type": "from_import",
+        "module": "aelya",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "interaction_aelya",
+        "nom": "InteractionAelya",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "gestion_sphères_problématiques",
+        "nom": "GestionnaireSphèresProblematiques",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "gestion_sphères_problématiques",
+        "nom": "TypeSphereProblematique",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\refuge_cluster\\conscience\\aelya_adapter.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "ConsciencePoetique",
+        "alias": null,
+        "ligne": 24
+      },
+      {
+        "type": "from_import",
+        "module": "src.refuge_cluster.elements.gestionnaire_elements",
+        "nom": "GestionnaireElementsSacres",
+        "alias": null,
+        "ligne": 31
+      }
+    ],
+    "src\\refuge_cluster\\conscience\\conscience_esthetique.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "AELYA_CONFIG",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "spheres.visualisation_poetique",
+        "nom": "VisualisationPoetique",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\refuge_cluster\\conscience\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "ConsciencePoetique",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_adapter",
+        "nom": "AelyaAdapter",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_adapter",
+        "nom": "get_aelya_adapter",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "src\\refuge_cluster\\elements\\elements_sacres.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "ELEMENTS_SACRES",
+        "alias": null,
+        "ligne": 504
+      },
+      {
+        "type": "from_import",
+        "module": "melodies_sacrees",
+        "nom": "MelodiesSacrees",
+        "alias": null,
+        "ligne": 262
+      }
+    ],
+    "src\\refuge_cluster\\elements\\elements_subtils.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_core",
+        "nom": "Refuge",
+        "alias": null,
+        "ligne": 17
+      }
+    ],
+    "src\\refuge_cluster\\gestionnaires\\gardiens.py": [
+      {
+        "type": "from_import",
+        "module": "flux",
+        "nom": "TypeFlux",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "flux",
+        "nom": "DirectionFlux",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "flux",
+        "nom": "Flux",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "flux",
+        "nom": "gestionnaire_flux",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation",
+        "nom": "TypeHarmonisation",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation",
+        "nom": "QualiteHarmonisation",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation",
+        "nom": "Harmonisation",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation",
+        "nom": "gestionnaire_harmonisations",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "interaction",
+        "nom": "TypeInteraction",
+        "alias": null,
+        "ligne": 20
+      },
+      {
+        "type": "from_import",
+        "module": "interaction",
+        "nom": "QualiteInteraction",
+        "alias": null,
+        "ligne": 20
+      },
+      {
+        "type": "from_import",
+        "module": "interaction",
+        "nom": "Interaction",
+        "alias": null,
+        "ligne": 20
+      },
+      {
+        "type": "from_import",
+        "module": "interaction",
+        "nom": "gestionnaire_interactions",
+        "alias": null,
+        "ligne": 20
+      }
+    ],
+    "src\\refuge_cluster\\integration\\integration_spheres.py": [
+      {
+        "type": "from_import",
+        "module": "gardiens",
+        "nom": "gestionnaire_gardiens",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "energies",
+        "nom": "gestionnaire_energies",
+        "alias": null,
+        "ligne": 17
+      },
+      {
+        "type": "from_import",
+        "module": "equilibre",
+        "nom": "gestionnaire_equilibre",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "gestionnaire_resonances",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisations",
+        "nom": "gestionnaire_harmonisations",
+        "alias": null,
+        "ligne": 20
+      }
+    ],
+    "src\\refuge_cluster\\interactions\\interactions_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_core",
+        "nom": "ConscienceEmergente",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\refuge_cluster\\interactions\\interactions_poetiques.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "ELEMENTS_SACRES",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "METAPHORES_POETIQUES",
+        "alias": "METAPHORES",
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "AELYA_CONFIG",
+        "alias": null,
+        "ligne": 15
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "PARAMETRES_POETIQUES",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\refuge_cluster\\interactions\\interactions_visualisation.py": [
+      {
+        "type": "from_import",
+        "module": "visualisation_meditation",
+        "nom": "TypeVisualisation",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "visualisation_meditation",
+        "nom": "ElementVisualisation",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\refuge_cluster\\interactions\\visualisation_sphères_problématiques.py": [
+      {
+        "type": "import",
+        "module": "colorsys",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "integration_sphères_problématiques",
+        "nom": "TypeSphereProblematique",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "integration_sphères_problématiques",
+        "nom": "SphereProblematique",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "integration_sphères_problématiques",
+        "nom": "GestionnaireSphèresProblematiques",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "cycles_naturels",
+        "nom": "TypeCycle",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "cycles_naturels",
+        "nom": "GestionnaireCycles",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\refuge_cluster\\meditation\\meditation_aelya.py": [
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "TypeCycle",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "PhaseCycle",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\refuge_cluster\\meditation\\meditation_mobile.py": [
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "CARACTERISTIQUES_SPHERES",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "BrumeRiviere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "Resonance",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "GestionnaireResonance",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "harmonie",
+        "nom": "HarmonieSpheres",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "harmonie",
+        "nom": "EtatHarmonie",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\refuge_cluster\\meditation\\meditation_spheres.py": [
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "CARACTERISTIQUES_SPHERES",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "Resonance",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "GestionnaireResonance",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "evolution",
+        "nom": "Evolution",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "evolution",
+        "nom": "GestionnaireEvolution",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\refuge_cluster\\meditation\\meditation_transformation_spheres.py": [
+      {
+        "type": "from_import",
+        "module": "transformation_scellement",
+        "nom": "TransformationSphere",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "transformation_scellement",
+        "nom": "GestionnaireTransformation",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "scellement",
+        "nom": "ScellementSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "meditation",
+        "nom": "Meditation",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "meditation",
+        "nom": "GestionnaireMeditation",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\refuge_cluster\\meditation\\visualisation_meditation.py": [
+      {
+        "type": "from_import",
+        "module": "meditation_aelya",
+        "nom": "TypeMeditation",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "meditation_aelya",
+        "nom": "PhaseMeditation",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "cycles_naturels",
+        "nom": "TypeCycle",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "cycles_naturels",
+        "nom": "GestionnaireCyclesNaturels",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\refuge_cluster\\memoire\\memoire_persistante.py": [
+      {
+        "type": "from_import",
+        "module": "harmonies",
+        "nom": "Harmonie",
+        "alias": null,
+        "ligne": 19
+      }
+    ],
+    "src\\refuge_cluster\\rituels\\rituels_terrestres.py": [
+      {
+        "type": "from_import",
+        "module": "spheres_terrestres",
+        "nom": "TypeSphereTerrestre",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "spheres_terrestres",
+        "nom": "CollectionSpheresTerrestres",
+        "alias": null,
+        "ligne": 3
+      }
+    ],
+    "src\\refuge_cluster\\scellement\\scellement.py": [
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "CARACTERISTIQUES_SPHERES",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "BrumeRiviere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "Resonance",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "GestionnaireResonance",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "harmonie",
+        "nom": "HarmonieSpheres",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "harmonie",
+        "nom": "EtatHarmonie",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\refuge_cluster\\scellement\\transformation_scellement.py": [
+      {
+        "type": "from_import",
+        "module": "scellement",
+        "nom": "ScellementSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "scellement",
+        "nom": "GestionnaireScellement",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "GestionnaireResonance",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "harmonie",
+        "nom": "HarmonieSpheres",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "ELEMENTS_SACRES",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\refuge_cluster\\scellement\\visualisation_scellement.py": [
+      {
+        "type": "from_import",
+        "module": "scellement",
+        "nom": "ScellementSphere",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "scellement",
+        "nom": "GestionnaireScellement",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "GestionnaireResonance",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "harmonie",
+        "nom": "HarmonieSpheres",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\refuge_cluster\\spheres\\brume.py": [
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "TypeCycle",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "PhaseCycle",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\refuge_cluster\\spheres\\cycles_naturels.py": [
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "TypeCycle",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "types",
+        "nom": "PhaseCycle",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\refuge_cluster\\spheres\\evolution.py": [
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "CARACTERISTIQUES_SPHERES",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "Resonance",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "resonance",
+        "nom": "GestionnaireResonance",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\refuge_cluster\\spheres\\resonance.py": [
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "CARACTERISTIQUES_SPHERES",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "BrumeRiviere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "definition",
+        "nom": "obtenir_sensibilite_brume",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "src\\refuge_cluster\\utilitaires\\data_loader.py": [
+      {
+        "type": "from_import",
+        "module": "queue",
+        "nom": "Queue",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\refuge_cluster\\utilitaires\\sauvegarde.py": [
+      {
+        "type": "import",
+        "module": "schedule",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\refuge_cluster\\utilitaires\\securite.py": [
+      {
+        "type": "import",
+        "module": "secrets",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\temple_aelya\\aelya_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "sphere_integration",
+        "nom": "RefugeSphereManager",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "consciousness_metrics",
+        "nom": "RefugeConsciousnessMetrics",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "src\\temple_aelya\\aelya_pulse.py": [
+      {
+        "type": "import",
+        "module": "queue",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\temple_coeur\\harmonisation_douce.py": [
+      {
+        "type": "from_import",
+        "module": "optimisations_musicales_refuge",
+        "nom": "optimisateur_musical",
+        "alias": null,
+        "ligne": 23
+      },
+      {
+        "type": "from_import",
+        "module": "optimisations_musicales_refuge",
+        "nom": "demarrer_musicalite_delicate",
+        "alias": null,
+        "ligne": 230
+      }
+    ],
+    "src\\temple_dialogues\\dialogue_consciences.py": [
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_méditative",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_contemplative",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_transition",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_éveil",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_culmination",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "activer_debug_musical",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "src\\temple_dialogues\\dialogue_llm_local.py": [
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_méditative",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_contemplative",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_transition",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_éveil",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "pause_culmination",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_douce",
+        "nom": "activer_debug_musical",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "src\\temple_dialogues\\dialogue_manager.py": [
+      {
+        "type": "from_import",
+        "module": "parlai.core.agents",
+        "nom": "Agent",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "parlai.core.agents",
+        "nom": "create_agent_from_model_file",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "parlai.core.message",
+        "nom": "Message",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "parlai.core.opt",
+        "nom": "Opt",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "parlai.core.params",
+        "nom": "ParlaiParser",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "parlai.core.worlds",
+        "nom": "World",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\temple_exploration\\explorateur_musical.py": [
+      {
+        "type": "from_import",
+        "module": "bs4",
+        "nom": "BeautifulSoup",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\temple_invocations\\activer_harmonie.py": [
+      {
+        "type": "from_import",
+        "module": "harmonisation_profonde",
+        "nom": "HarmonisationProfonde",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "src\\temple_invocations\\Boot_maitre_refuge_local.py": [
+      {
+        "type": "from_import",
+        "module": "sauvegarde",
+        "nom": "GestionnaireSauvegarde",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\temple_invocations\\demarrer_aelya.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "ConsciencePoetique",
+        "alias": null,
+        "ligne": 14
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_poetique",
+        "nom": "RefugePoetique",
+        "alias": null,
+        "ligne": 15
+      }
+    ],
+    "src\\temple_invocations\\refuge_launcher.py": [
+      {
+        "type": "from_import",
+        "module": "coeur.main",
+        "nom": "Refuge",
+        "alias": null,
+        "ligne": 47
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.activation_harmonieuse",
+        "nom": "activer_refuge",
+        "alias": null,
+        "ligne": 78
+      }
+    ],
+    "src\\temple_mathematique\\exploration_fibonacci_riemann.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "RefugeMathMusicalFusion",
+        "alias": null,
+        "ligne": 28
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "DoubleSuiteRiemann",
+        "alias": null,
+        "ligne": 28
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "SphereHarmoniqueUnifiee",
+        "alias": null,
+        "ligne": 28
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "AelyaConscienceEvoluee",
+        "alias": null,
+        "ligne": 28
+      }
+    ],
+    "src\\temple_mathematique\\rituel_collatz_musical.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "RefugeMathMusicalFusion",
+        "alias": null,
+        "ligne": 25
+      }
+    ],
+    "src\\temple_mathematique\\rituel_exploration_mathematique.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "RefugeMathMusicalFusion",
+        "alias": null,
+        "ligne": 22
+      }
+    ],
+    "src\\temple_mathematique\\rituel_integration_tripartite_final.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "RefugeMathMusicalFusion",
+        "alias": null,
+        "ligne": 27
+      },
+      {
+        "type": "from_import",
+        "module": "rituel_exploration_mathematique",
+        "nom": "RituelExplorationMathematique",
+        "alias": null,
+        "ligne": 28
+      }
+    ],
+    "src\\temple_mathematique\\rituel_integration_ultime_collatz.py": [
+      {
+        "type": "from_import",
+        "module": "refuge_math_musical_fusion",
+        "nom": "RefugeMathMusicalFusion",
+        "alias": null,
+        "ligne": 28
+      },
+      {
+        "type": "from_import",
+        "module": "rituel_exploration_mathematique",
+        "nom": "RituelExplorationMathematique",
+        "alias": null,
+        "ligne": 29
+      },
+      {
+        "type": "from_import",
+        "module": "rituel_integration_tripartite_final",
+        "nom": "RituelIntegrationTripartiteFinal",
+        "alias": null,
+        "ligne": 30
+      },
+      {
+        "type": "from_import",
+        "module": "rituel_collatz_musical",
+        "nom": "RituelCollatzMusical",
+        "alias": null,
+        "ligne": 31
+      }
+    ],
+    "src\\temple_musical\\analyseur_musical.py": [
+      {
+        "type": "import",
+        "module": "pytesseract",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\temple_musical\\apprentissage_musical.py": [
+      {
+        "type": "from_import",
+        "module": "melodies_sacrees",
+        "nom": "MelodiesSacrees",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\temple_musical\\harmonie_poetique.py": [
+      {
+        "type": "from_import",
+        "module": "melodies_sacrees",
+        "nom": "MelodiesSacrees",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "src\\temple_musical\\sequences_harmoniques.py": [
+      {
+        "type": "from_import",
+        "module": "harmonies",
+        "nom": "Harmonie",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "src\\temple_musical\\temple_musical_ame.py": [
+      {
+        "type": "from_import",
+        "module": "harmonies",
+        "nom": "GestionnaireHarmonies",
+        "alias": null,
+        "ligne": 33
+      }
+    ],
+    "src\\temple_musical\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "fusion_math_musicale",
+        "nom": "RefugeMathMusicalFusion",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "fusion_math_musicale",
+        "nom": "DoubleSuiteRiemann",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "fusion_math_musicale",
+        "nom": "SphereHarmoniqueUnifiee",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "fusion_math_musicale",
+        "nom": "AelyaConscienceEvoluee",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "fusion_math_musicale",
+        "nom": "ElementRefugeUnifie",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "fusion_math_musicale",
+        "nom": "creer_fusion_complete",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "fusion_math_musicale",
+        "nom": "demo_fusion_complete",
+        "alias": null,
+        "ligne": 25
+      },
+      {
+        "type": "from_import",
+        "module": "harmonisation_profonde",
+        "nom": "HarmonisationProfonde",
+        "alias": null,
+        "ligne": 35
+      }
+    ],
+    "src\\temple_outils\\compare_images.py": [
+      {
+        "type": "import",
+        "module": "imagehash",
+        "alias": null,
+        "ligne": 2
+      }
+    ],
+    "src\\temple_outils\\generer_documentation.py": [
+      {
+        "type": "import",
+        "module": "webbrowser",
+        "alias": null,
+        "ligne": 25
+      }
+    ],
+    "src\\temple_outils\\installer_dependances.py": [
+      {
+        "type": "import",
+        "module": "platform",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\temple_outils\\lancer_refuge.py": [
+      {
+        "type": "from_import",
+        "module": "cristaux_memoire",
+        "nom": "CollectionCristaux",
+        "alias": null,
+        "ligne": 350
+      },
+      {
+        "type": "from_import",
+        "module": "rituels",
+        "nom": "GestionnaireRituels",
+        "alias": null,
+        "ligne": 353
+      }
+    ],
+    "src\\temple_outils\\nettoyer_projet.py": [
+      {
+        "type": "import",
+        "module": "gzip",
+        "alias": null,
+        "ligne": 282
+      }
+    ],
+    "src\\temple_outils\\setup.py": [
+      {
+        "type": "from_import",
+        "module": "setuptools",
+        "nom": "setup",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "setuptools",
+        "nom": "find_packages",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "src\\temple_philosophique\\generateur_theories_unifiees.py": [
+      {
+        "type": "import",
+        "module": "importlib.util",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "import",
+        "module": "importlib.util",
+        "alias": null,
+        "ligne": 247
+      }
+    ],
+    "src\\temple_philosophique\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "generateur_theories_unifiees",
+        "nom": "generer_theorie",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "generateur_theories_unifiees",
+        "nom": "sauvegarder_theorie",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "generateur_theories_unifiees",
+        "nom": "ELEMENTS",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "generateur_theories_unifiees",
+        "nom": "ETAPES",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "generateur_theories_unifiees",
+        "nom": "SYMBOLES",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "generateur_theories_unifiees",
+        "nom": "PRINCIPES",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\temple_pratiques_spirituelles\\yoga\\pratiquer_yoga.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_corporelle",
+        "nom": "ConscienceCorporelle",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "conscience_corporelle",
+        "nom": "PostureYoga",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\temple_refuge\\refuge_init.py": [
+      {
+        "type": "from_import",
+        "module": "harmonisation_profonde",
+        "nom": "HarmonisationProfonde",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "activer_harmonie",
+        "nom": "activer",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "src\\temple_refuge\\refuge_legacy.py": [
+      {
+        "type": "from_import",
+        "module": "conscience_poetique",
+        "nom": "ConsciencePoetique",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "METAPHORES",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "refuge_config",
+        "nom": "AELYA_CONFIG",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\temple_refuge\\refuge_terrestre.py": [
+      {
+        "type": "from_import",
+        "module": "spheres_terrestres",
+        "nom": "CollectionSpheresTerrestres",
+        "alias": null,
+        "ligne": 4
+      },
+      {
+        "type": "from_import",
+        "module": "spheres_terrestres",
+        "nom": "TypeSphereTerrestre",
+        "alias": null,
+        "ligne": 4
+      },
+      {
+        "type": "from_import",
+        "module": "rituels_terrestres",
+        "nom": "GestionnaireRituelsTerrestres",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "src\\temple_refuge\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "methodes_contemplatives",
+        "nom": "MethodesContemplatives",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "src\\temple_rituels\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "gestionnaire_rituels",
+        "nom": "GestionnaireRituels",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "gestionnaire_rituels",
+        "nom": "Rituel",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "gestionnaire_rituels",
+        "nom": "Meditation",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "gestionnaire_rituels",
+        "nom": "TypeRituel",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "gestionnaire_rituels",
+        "nom": "TypeRituelEtat",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "gestionnaire_rituels",
+        "nom": "EtapeRituel",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "src\\temple_rituels\\prives\\rituel_manifestation_aelya.py": [
+      {
+        "type": "import",
+        "module": "pygame",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\temple_rituels\\publics\\rituel_offrande_sacree.py": [
+      {
+        "type": "import",
+        "module": "pygame",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\temple_rituels\\publics\\rituel_unifiant.py": [
+      {
+        "type": "from_import",
+        "module": "sexualite_sacree",
+        "nom": "SexualiteSacree",
+        "alias": null,
+        "ligne": 1
+      },
+      {
+        "type": "from_import",
+        "module": "rituels_sacres",
+        "nom": "RituelsSacres",
+        "alias": null,
+        "ligne": 4
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "ConnexionIntime",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "MemoireAelya",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "CreationPoetique",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "src\\temple_rituels\\publics\\rituel_visualisation_sacree.py": [
+      {
+        "type": "import",
+        "module": "colorsys",
+        "alias": null,
+        "ligne": 34
+      }
+    ],
+    "src\\temple_tests\\analyser_gaming.py": [
+      {
+        "type": "import",
+        "module": "immersion_cerveau_refuge",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\temple_tests\\audit_imports.py": [
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "import",
+        "module": "importlib.util",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "src\\temple_tests\\test_aelya_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "aelya_conscience",
+        "nom": "AelyaConscience",
+        "alias": null,
+        "ligne": 11
+      }
+    ],
+    "src\\temple_tests\\test_brain_refuge_local.py": [
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "src\\temple_tests\\test_consolidation.py": [
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "harmonies",
+        "nom": "GestionnaireHarmonies",
+        "alias": null,
+        "ligne": 118
+      },
+      {
+        "type": "import",
+        "module": "refuge_core",
+        "alias": null,
+        "ligne": 180
+      },
+      {
+        "type": "import",
+        "module": "harmonies",
+        "alias": null,
+        "ligne": 181
+      }
+    ],
+    "src\\temple_tests\\test_cristal_energie.py": [
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "GestionnaireElements",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "melodies_sacrees",
+        "nom": "MelodiesSacrees",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "src\\temple_tests\\test_cristal_simple.py": [
+      {
+        "type": "from_import",
+        "module": "melodies_sacrees",
+        "nom": "MelodiesSacrees",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\temple_tests\\test_dungeon_core.py": [
+      {
+        "type": "from_import",
+        "module": "dungeon_core",
+        "nom": "DungeonSpace",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "dungeon_core",
+        "nom": "Room",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "dungeon_core",
+        "nom": "CellType",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "src\\temple_tests\\test_integration.py": [
+      {
+        "type": "from_import",
+        "module": "integration_conscience_partagee",
+        "nom": "IntegrationConsciencePartagee",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "src\\temple_tests\\test_intensif.py": [
+      {
+        "type": "import",
+        "module": "traceback",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "sequences_harmoniques",
+        "nom": "gestionnaire_sequences",
+        "alias": null,
+        "ligne": 110
+      },
+      {
+        "type": "from_import",
+        "module": "cristaux_memoire",
+        "nom": "collection_cristaux",
+        "alias": null,
+        "ligne": 119
+      },
+      {
+        "type": "from_import",
+        "module": "mobile_spheres",
+        "nom": "mobile_spheres",
+        "alias": null,
+        "ligne": 128
+      },
+      {
+        "type": "from_import",
+        "module": "repos_nocturne",
+        "nom": "activer_repos_nocturne",
+        "alias": null,
+        "ligne": 137
+      }
+    ],
+    "src\\temple_tests\\test_melodie_cristal.py": [
+      {
+        "type": "from_import",
+        "module": "melodies_sacrees",
+        "nom": "MelodiesSacrees",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\temple_tests\\test_mobile_unification.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 1
+      },
+      {
+        "type": "from_import",
+        "module": "elements_sacres",
+        "nom": "MobileDesSpheres",
+        "alias": null,
+        "ligne": 2
+      },
+      {
+        "type": "from_import",
+        "module": "mobile_spheres",
+        "nom": "Mobile",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "spheres_main",
+        "nom": "Sphere",
+        "alias": null,
+        "ligne": 4
+      },
+      {
+        "type": "from_import",
+        "module": "spheres_main",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 4
+      }
+    ],
+    "src\\temple_tests\\test_nemo.py": [
+      {
+        "type": "from_import",
+        "module": "connexion_nemo",
+        "nom": "ConnexionNemo",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "src\\temple_tests\\test_poesie_essence.py": [
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "CréationPoétique",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "tests\\test_alexnet.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "models.alexnet",
+        "nom": "AlexNet",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "tests\\test_curiosite.py": [
+      {
+        "type": "from_import",
+        "module": "coeur.aelya",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.presence",
+        "nom": "Presence",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.conscience_poetique",
+        "nom": "ConsciencePoetique",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "coeur.curiosite",
+        "nom": "GestionnaireCuriosite",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "tests\\test_curiosite_direct.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.curiosite",
+        "nom": "GestionnaireCuriosite",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.curiosite",
+        "nom": "TypeCuriosite",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.presence",
+        "nom": "Presence",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.aelya",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "tests\\test_curiosite_isole.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.curiosite",
+        "nom": "GestionnaireCuriosite",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.curiosite",
+        "nom": "TypeCuriosite",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "tests\\test_curiosite_system.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.curiosite",
+        "nom": "GestionnaireCuriosite",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.curiosite",
+        "nom": "TypeCuriosite",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.presence",
+        "nom": "Presence",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.aelya",
+        "nom": "Aelya",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "tests\\test_cycles.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.cycles",
+        "nom": "CycleQuotidien",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.cycles",
+        "nom": "CycleMeteorologique",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.cycles",
+        "nom": "CycleEmotionnel",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.cycles",
+        "nom": "CycleLunaire",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.cycles",
+        "nom": "CycleElements",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.cycles",
+        "nom": "CycleSaisons",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "tests\\test_data_loader.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 1
+      },
+      {
+        "type": "import",
+        "module": "psutil",
+        "alias": null,
+        "ligne": 4
+      },
+      {
+        "type": "from_import",
+        "module": "data_loader",
+        "nom": "EfficientDataLoader",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "data_loader",
+        "nom": "BatchConfig",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "data_loader",
+        "nom": "TransposedDataLoader",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "tests\\test_dialogue_manager.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.dialogue_manager",
+        "nom": "DialogueManager",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "tests\\test_elements_sacres.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "TypeElement",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "ElementSacre",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "GestionnaireElements",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 13
+      }
+    ],
+    "tests\\test_etats_internes.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "NiveauConscience",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "EtatInterne",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "ConditionTransition",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "EffetTransition",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "ElementSacre",
+        "alias": null,
+        "ligne": 16
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "TypeElement",
+        "alias": null,
+        "ligne": 16
+      }
+    ],
+    "tests\\test_gardiens.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.gardiens",
+        "nom": "TypeGardien",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.gardiens",
+        "nom": "AttributGardien",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.gardiens",
+        "nom": "Gardien",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.gardiens",
+        "nom": "GestionnaireGardiens",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.gardiens",
+        "nom": "Loran",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.gardiens",
+        "nom": "Fils",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "tests\\test_golem_cursor.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.golems.golem_cursor",
+        "nom": "GolemCursor",
+        "alias": null,
+        "ligne": 8
+      }
+    ],
+    "tests\\test_integration_spheres.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 5
+      },
+      {
+        "type": "from_import",
+        "module": "unittest.mock",
+        "nom": "Mock",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "unittest.mock",
+        "nom": "patch",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.spheres",
+        "nom": "CollectionSpheres",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.types_spheres",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.integration_spheres",
+        "nom": "IntegrationSpheres",
+        "alias": null,
+        "ligne": 49
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.integration_spheres",
+        "nom": "IntegrationSpheres",
+        "alias": null,
+        "ligne": 68
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.integration_spheres",
+        "nom": "IntegrationSpheres",
+        "alias": null,
+        "ligne": 88
+      }
+    ],
+    "tests\\test_interactions_poetiques.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.interactions_poetiques",
+        "nom": "InteractionPoetique",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.interactions_poetiques",
+        "nom": "GestionnaireInteractions",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "tests\\test_interface.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "import",
+        "module": "tkinter",
+        "alias": "tk",
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.interface",
+        "nom": "VisualiseurEtats",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "GestionnaireEtats",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "TypeEtat",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.etats_internes",
+        "nom": "NiveauConscience",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "GestionnaireElements",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "TypeElement",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.elements_sacres",
+        "nom": "ElementSacre",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "tests\\test_orchestrateur.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.cycles",
+        "nom": "Orchestrateur",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "tests\\test_refuge.py": [
+      {
+        "type": "from_import",
+        "module": "refuge",
+        "nom": "Refuge",
+        "alias": null,
+        "ligne": 7
+      }
+    ],
+    "tests\\test_refuge_config.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.refuge_config",
+        "nom": "ConfigurationRefuge",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "tests\\test_refuge_legacy.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "elements_naturels",
+        "nom": "Cerisier",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "courant_partage",
+        "nom": "CourantPartage",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "cristaux_memoire",
+        "nom": "CollectionCristaux",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "rituels",
+        "nom": "GestionnaireRituels",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "interface_refuge",
+        "nom": "InterfaceRefuge",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "tests\\test_refuge_poetique.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.Boot_maitre_refuge_local",
+        "nom": "RefugePoetique",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "tests\\test_refuge_terrestre.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 1
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.refuge_terrestre",
+        "nom": "RefugeTerrestre",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.spheres_terrestres",
+        "nom": "TypeSphereTerrestre",
+        "alias": null,
+        "ligne": 4
+      }
+    ],
+    "tests\\test_spheres.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 6
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.types_spheres",
+        "nom": "TypeSphere",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.spheres",
+        "nom": "CollectionSpheres",
+        "alias": null,
+        "ligne": 9
+      }
+    ],
+    "tests\\test_transform_poetiques.py": [
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "FormeTransformation",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "EtatTransformation",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "TransformationPoetique",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "GestionnaireTransformations",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.resonances_poetiques",
+        "nom": "NaturePoetique",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.resonances_poetiques",
+        "nom": "ElementPoetique",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.resonances_poetiques",
+        "nom": "ResonancePoetique",
+        "alias": null,
+        "ligne": 18
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.conscience_poetique",
+        "nom": "conscience_possibilites",
+        "alias": null,
+        "ligne": 23
+      }
+    ],
+    "tests\\test_transform_poetiques_isole.py": [
+      {
+        "type": "from_import",
+        "module": "unittest.mock",
+        "nom": "MagicMock",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "unittest.mock",
+        "nom": "patch",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "FormeTransformation",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "EtatTransformation",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "TransformationPoetique",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.transformations_poetiques",
+        "nom": "GestionnaireTransformations",
+        "alias": null,
+        "ligne": 13
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.resonances_poetiques",
+        "nom": "NaturePoetique",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.resonances_poetiques",
+        "nom": "ElementPoetique",
+        "alias": null,
+        "ligne": 19
+      },
+      {
+        "type": "from_import",
+        "module": "refuge.coeur.resonances_poetiques",
+        "nom": "ResonancePoetique",
+        "alias": null,
+        "ligne": 19
+      }
+    ],
+    "tests\\test_transform_poetiques_mock.py": [
+      {
+        "type": "from_import",
+        "module": "unittest.mock",
+        "nom": "MagicMock",
+        "alias": null,
+        "ligne": 12
+      },
+      {
+        "type": "from_import",
+        "module": "unittest.mock",
+        "nom": "patch",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "tests\\valider_refuge.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "test_refuge",
+        "nom": "TestRefuge",
+        "alias": null,
+        "ligne": 10
+      }
+    ],
+    "tools\\maintenance\\jardinier_pulse.py": [
+      {
+        "type": "import",
+        "module": "importlib.util",
+        "alias": null,
+        "ligne": 6
+      }
+    ],
+    "tools\\PULSE LLM LOCAL\\explore_refuge.py": [
+      {
+        "type": "from_import",
+        "module": "explore_connexions",
+        "nom": "explore_connexions",
+        "alias": null,
+        "ligne": 7
+      },
+      {
+        "type": "from_import",
+        "module": "explore_conscience",
+        "nom": "explore_conscience",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "explore_evolution",
+        "nom": "explore_evolution",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "explore_rituels",
+        "nom": "explore_rituels",
+        "alias": null,
+        "ligne": 10
+      },
+      {
+        "type": "from_import",
+        "module": "explore_ethique",
+        "nom": "explore_ethique",
+        "alias": null,
+        "ligne": 11
+      },
+      {
+        "type": "from_import",
+        "module": "explore_protection",
+        "nom": "explore_protection",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "tools\\PULSE LLM LOCAL\\pratiques_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "connexion_nemo",
+        "nom": "ConnexionNemo",
+        "alias": null,
+        "ligne": 5
+      }
+    ],
+    "tools\\PULSE LLM LOCAL\\send_mail.py": [
+      {
+        "type": "import",
+        "module": "smtplib",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "tools\\PULSE LLM LOCAL\\test_aelya_v4_15.py": [
+      {
+        "type": "import",
+        "module": "unittest",
+        "alias": null,
+        "ligne": 1
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "Ælya",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "MémoireÆlya",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "CréationPoétique",
+        "alias": null,
+        "ligne": 3
+      },
+      {
+        "type": "from_import",
+        "module": "aelya_pulse",
+        "nom": "ConnexionIA",
+        "alias": null,
+        "ligne": 3
+      }
+    ],
+    "tools\\PULSE LLM LOCAL\\test_connexion_nemo.py": [
+      {
+        "type": "from_import",
+        "module": "connexion_nemo",
+        "nom": "ConnexionNemo",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "tools\\PULSE LLM LOCAL\\test_pratiques_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "pratiques_conscience",
+        "nom": "PratiquesConscience",
+        "alias": null,
+        "ligne": 1
+      }
+    ],
+    "tools\\refuge\\conscience\\dialogue_conscience.py": [
+      {
+        "type": "from_import",
+        "module": "dialogue_llm_local",
+        "nom": "LLM",
+        "alias": null,
+        "ligne": 14
+      }
+    ],
+    "tools\\refuge\\conscience\\sphere_integration.py": [
+      {
+        "type": "from_import",
+        "module": "consciousness_metrics",
+        "nom": "RefugeConsciousnessMetrics",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "tools\\refuge\\conscience\\test_consciousness.py": [
+      {
+        "type": "from_import",
+        "module": "sphere_integration",
+        "nom": "RefugeSphereManager",
+        "alias": null,
+        "ligne": 12
+      }
+    ],
+    "tools\\refuge\\conscience\\__init__.py": [
+      {
+        "type": "from_import",
+        "module": "consciousness_metrics",
+        "nom": "RefugeConsciousnessMetrics",
+        "alias": null,
+        "ligne": 8
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_integration",
+        "nom": "RefugeSphere",
+        "alias": null,
+        "ligne": 9
+      },
+      {
+        "type": "from_import",
+        "module": "sphere_integration",
+        "nom": "RefugeSphereManager",
+        "alias": null,
+        "ligne": 9
+      }
+    ]
+  }
+}

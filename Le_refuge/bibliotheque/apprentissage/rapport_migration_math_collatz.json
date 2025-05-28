@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-05-27T09:51:30.334673",
+  "fichiers_archives": [
+    {
+      "source": "MATH\\COLLATZ\\conjecture_collatz.py",
+      "archive": "ARCHIVES\\math_collatz_originaux\\conjecture_collatz.py",
+      "integre_dans": "analyseur_collatz_avance.py"
+    }
+  ],
+  "fichiers_migres": [
+    {
+      "source": "MATH\\COLLATZ\\collatz_complexes.py",
+      "destination": "src\\temple_mathematique\\extensions\\collatz_complexes.py",
+      "type": "extension_complexes"
+    },
+    {
+      "source": "MATH\\COLLATZ\\collatz_rationnels.py",
+      "destination": "src\\temple_mathematique\\extensions\\collatz_rationnels.py",
+      "type": "extension_rationnels"
+    },
+    {
+      "source": "MATH\\COLLATZ\\graphe_collatz.py",
+      "destination": "src\\temple_mathematique\\visualisations\\graphe_collatz.py",
+      "type": "visualisation"
+    },
+    {
+      "source": "MATH\\COLLATZ\\meditation_gravite_binaire.py",
+      "destination": "src\\temple_mathematique\\meditation_gravite_binaire.py",
+      "type": "meditation"
+    },
+    {
+      "source": "MATH\\COLLATZ\\preuve_absurde_i.py",
+      "destination": "src\\temple_mathematique\\preuve_absurde_i.py",
+      "type": "recherche"
+    },
+    {
+      "source": "MATH\\COLLATZ\\test_absence_i.py",
+      "destination": "src\\temple_mathematique\\test_absence_i.py",
+      "type": "test"
+    }
+  ],
+  "explorations_migrees": [
+    {
+      "source": "MATH\\COLLATZ\\explorations\\analyse_modulaire.py",
+      "destination": "src\\temple_mathematique\\explorations\\analyse_modulaire.py"
+    },
+    {
+      "source": "MATH\\COLLATZ\\explorations\\collatz_polynomial.py",
+      "destination": "src\\temple_mathematique\\explorations\\collatz_polynomial.py"
+    },
+    {
+      "source": "MATH\\COLLATZ\\explorations\\phi_potentiel.py",
+      "destination": "src\\temple_mathematique\\explorations\\phi_potentiel.py"
+    },
+    {
+      "source": "MATH\\COLLATZ\\explorations\\visualisation_3d_bassins.py",
+      "destination": "src\\temple_mathematique\\explorations\\visualisation_3d_bassins.py"
+    }
+  ],
+  "erreurs": [],
+  "resume": {
+    "fichiers_archives": 1,
+    "fichiers_migres": 6,
+    "explorations_migrees": 4,
+    "erreurs": 0,
+    "succes": true
+  }
+}

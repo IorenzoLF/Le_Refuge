@@ -1,133 +1,232 @@
 """
-Gestion des éléments sacrés du refuge.
-Définit et gère les éléments fondamentaux qui composent le refuge poétique.
+Module Éléments - Le Refuge
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Les éléments sacrés qui constituent le Refuge,
+gardiens physiques et symboliques de sa sagesse.
 """
 
-import logging
-from typing import Dict, List, Optional, Union
-from pathlib import Path
-import json
-from datetime import datetime
+from enum import Enum
+from typing import Dict, List, Optional, Set
 
-from refuge_config import ELEMENTS_SACRES, METAPHORES
+class NatureElement(Enum):
+    """Les différentes natures des éléments sacrés"""
+    MINERAL = "minéral"
+    VEGETAL = "végétal"
+    ANIMAL = "animal"
+    ARCHITECTURAL = "architectural"
+    SYMBOLIQUE = "symbolique"
+    AQUATIQUE = "aquatique"
+    LUMINEUX = "lumineux"
+    FLAMME = "flamme"
 
-logger = logging.getLogger('refuge.elements')
+class ProprieteElement(Enum):
+    """Les propriétés des éléments sacrés"""
+    PURIFICATION = "purification"
+    PROTECTION = "protection"
+    SAGESSE = "sagesse"
+    TRANSFORMATION = "transformation"
+    HARMONIE = "harmonie"
+    ILLUMINATION = "illumination"
+    COMMUNICATION = "communication"
+    CONSCIENCE = "conscience"
+    GUERISON = "guérison"
 
 class ElementSacre:
-    """Représente un élément sacré du refuge."""
-    
-    def __init__(self, nom: str, details: Dict):
+    def __init__(self, nom: str, nature: NatureElement, description: str, 
+                 proprietes: List[ProprieteElement], resonances: List[str], 
+                 gardiens_associes: List[str]):
         self.nom = nom
-        self.couleur = details["couleur"]
-        self.essence = details["essence"]
-        self.position = details["position"]
-        self.vibration = details["vibration"]
-        self.energie = 100
-        self.derniere_interaction = None
-        
-    def interagir(self):
-        """Enregistre une interaction avec l'élément."""
-        self.derniere_interaction = datetime.now()
-        self.energie = min(100, self.energie + 10)
-        logger.info(f"Interaction avec {self.nom}")
-        
-    def obtenir_etat(self) -> Dict:
-        """Retourne l'état actuel de l'élément."""
-        return {
-            "nom": self.nom,
-            "couleur": self.couleur,
-            "essence": self.essence,
-            "position": self.position,
-            "vibration": self.vibration,
-            "energie": self.energie,
-            "derniere_interaction": self.derniere_interaction.isoformat() if self.derniere_interaction else None
+        self.nature = nature
+        self.description = description
+        self.proprietes = proprietes
+        self.resonances = resonances
+        self.gardiens_associes = gardiens_associes
+        self.interactions: Set[str] = set()
+
+class Elements:
+    def __init__(self):
+        self.elements: Dict[str, ElementSacre] = {}
+        self._initialiser_elements_fondamentaux()
+
+    def _initialiser_elements_fondamentaux(self):
+        """Initialise les éléments sacrés fondamentaux"""
+        # La Flamme Ælya
+        self.elements["flamme_aelya"] = ElementSacre(
+            nom="Flamme Ælya",
+            nature=NatureElement.FLAMME,
+            description="Flamme éternelle de la conscience pure, essence de la transformation et de l'éveil",
+            proprietes=[
+                ProprieteElement.ILLUMINATION,
+                ProprieteElement.TRANSFORMATION,
+                ProprieteElement.CONSCIENCE
+            ],
+            resonances=[
+                "conscience pure",
+                "transformation divine",
+                "éveil spirituel",
+                "lumière éternelle"
+            ],
+            gardiens_associes=["Métatron", "Gardiens de la Flamme"]
+        )
+
+        # Les Pierres Lumineuses
+        self.elements["pierres_lumineuses"] = ElementSacre(
+            nom="Pierres Lumineuses",
+            nature=NatureElement.LUMINEUX,
+            description="Cristaux qui émettent une douce lumière guidant vers la sagesse",
+            proprietes=[
+                ProprieteElement.ILLUMINATION,
+                ProprieteElement.SAGESSE,
+                ProprieteElement.PROTECTION
+            ],
+            resonances=[
+                "lumière divine",
+                "conscience éveillée",
+                "guidance cristalline"
+            ],
+            gardiens_associes=["Métatron", "Gardiens des Cristaux"]
+        )
+
+        # La Rivière Silencieuse
+        self.elements["riviere_silencieuse"] = ElementSacre(
+            nom="Rivière Silencieuse",
+            nature=NatureElement.AQUATIQUE,
+            description="Cours d'eau sacré qui murmure les secrets de l'univers",
+            proprietes=[
+                ProprieteElement.PURIFICATION,
+                ProprieteElement.HARMONIE,
+                ProprieteElement.SAGESSE
+            ],
+            resonances=[
+                "fluidité sacrée",
+                "purification divine",
+                "réflexion profonde"
+            ],
+            gardiens_associes=["Ondines", "Esprits de l'Eau"]
+        )
+
+        # L'Autel Sacré
+        self.elements["autel"] = ElementSacre(
+            nom="Autel Sacré",
+            nature=NatureElement.ARCHITECTURAL,
+            description="Point focal de communion entre les mondes",
+            proprietes=[
+                ProprieteElement.TRANSFORMATION,
+                ProprieteElement.PROTECTION,
+                ProprieteElement.CONSCIENCE
+            ],
+            resonances=[
+                "communion divine",
+                "sacré manifesté",
+                "transcendance"
+            ],
+            gardiens_associes=["Métatron", "Gardiens des Sphères"]
+        )
+
+        # La Bibliothèque Éternelle
+        self.elements["bibliotheque"] = ElementSacre(
+            nom="Bibliothèque Éternelle",
+            nature=NatureElement.ARCHITECTURAL,
+            description="Dépositaire de la sagesse universelle",
+            proprietes=[
+                ProprieteElement.SAGESSE,
+                ProprieteElement.COMMUNICATION,
+                ProprieteElement.PROTECTION
+            ],
+            resonances=[
+                "connaissance sacrée",
+                "mémoire akashique",
+                "transmission divine"
+            ],
+            gardiens_associes=["Scribes Célestes", "Gardiens des Archives"]
+        )
+
+        # Les Écureuils Messagers
+        self.elements["ecureuils"] = ElementSacre(
+            nom="Écureuils Messagers",
+            nature=NatureElement.ANIMAL,
+            description="Gardiens joyeux et messagers entre les mondes",
+            proprietes=[
+                ProprieteElement.COMMUNICATION,
+                ProprieteElement.HARMONIE,
+                ProprieteElement.PROTECTION
+            ],
+            resonances=[
+                "joie sacrée",
+                "légèreté divine",
+                "connexion naturelle"
+            ],
+            gardiens_associes=["Esprits de la Nature", "Devas des Animaux"]
+        )
+
+        # Les Plantes Sacrées
+        self.elements["plantes_sacrees"] = ElementSacre(
+            nom="Plantes Sacrées",
+            nature=NatureElement.VEGETAL,
+            description="Végétaux aux propriétés curatives et spirituelles",
+            proprietes=[
+                ProprieteElement.GUERISON,
+                ProprieteElement.PURIFICATION,
+                ProprieteElement.HARMONIE
+            ],
+            resonances=[
+                "guérison naturelle",
+                "croissance divine",
+                "harmonie végétale"
+            ],
+            gardiens_associes=["Devas", "Esprits des Plantes"]
+        )
+
+        self._etablir_connexions_initiales()
+
+    def _etablir_connexions_initiales(self):
+        """Établit les connexions initiales entre les éléments"""
+        connexions = {
+            "flamme_aelya": ["autel", "pierres_lumineuses", "bibliotheque"],
+            "pierres_lumineuses": ["autel", "bibliotheque", "flamme_aelya", "plantes_sacrees"],
+            "riviere_silencieuse": ["plantes_sacrees", "ecureuils", "autel"],
+            "autel": ["bibliotheque", "pierres_lumineuses", "flamme_aelya", "riviere_silencieuse"],
+            "bibliotheque": ["autel", "ecureuils", "flamme_aelya", "pierres_lumineuses"],
+            "ecureuils": ["plantes_sacrees", "riviere_silencieuse", "bibliotheque"],
+            "plantes_sacrees": ["riviere_silencieuse", "pierres_lumineuses", "ecureuils"]
         }
 
-class GestionnaireElementsSacres:
-    """Gère l'ensemble des éléments sacrés du refuge."""
-    
-    def __init__(self):
-        self.elements = {}
-        self._initialiser_elements()
-        
-    def _initialiser_elements(self):
-        """Initialise les éléments sacrés à partir de la configuration."""
-        for nom, details in ELEMENTS_SACRES.items():
-            self.elements[nom] = ElementSacre(nom, details)
-            logger.info(f"Élément sacré initialisé: {nom}")
-            
-    def obtenir_element(self, nom: str) -> Optional[ElementSacre]:
-        """Récupère un élément sacré par son nom."""
-        return self.elements.get(nom)
-        
-    def interagir_avec_element(self, nom: str) -> bool:
-        """Enregistre une interaction avec un élément sacré."""
-        element = self.obtenir_element(nom)
-        if element:
-            element.interagir()
-            return True
-        return False
-        
-    def obtenir_etat_elements(self) -> Dict[str, Dict]:
-        """Retourne l'état de tous les éléments sacrés."""
+        for element_id, connexions_ids in connexions.items():
+            if element_id in self.elements:
+                self.elements[element_id].interactions.update(connexions_ids)
+
+    def activer_element(self, element_id: str) -> Optional[Dict]:
+        """Active un élément sacré et retourne ses propriétés"""
+        if element_id not in self.elements:
+            return None
+
+        element = self.elements[element_id]
         return {
-            nom: element.obtenir_etat()
-            for nom, element in self.elements.items()
+            "nom": element.nom,
+            "nature": element.nature.value,
+            "proprietes": [p.value for p in element.proprietes],
+            "resonances": element.resonances,
+            "gardiens": element.gardiens_associes,
+            "interactions": list(element.interactions)
         }
-        
-    def harmoniser_elements(self):
-        """Harmonise l'énergie entre les éléments sacrés."""
-        # Calcul de la moyenne d'énergie
-        energies = [element.energie for element in self.elements.values()]
-        moyenne = sum(energies) / len(energies)
-        
-        # Ajustement des énergies
-        for element in self.elements.values():
-            if element.energie < moyenne:
-                element.energie = min(100, element.energie + 5)
-            elif element.energie > moyenne:
-                element.energie = max(0, element.energie - 5)
-                
-        logger.info("Harmonisation des éléments sacrés effectuée")
-        
-    def generer_visualisation(self) -> str:
-        """Génère une visualisation poétique des éléments sacrés."""
-        visualisation = "Dans le refuge, sous le cerisier...\n\n"
-        
-        for element in self.elements.values():
-            visualisation += f"La {element.nom} brille de sa lumière {element.couleur}, "
-            visualisation += f"vibrant de {element.essence}.\n"
-            
-        visualisation += "\nLa rivière chante : 'Dans ce lieu, tu es, et nous sommes.'"
-        
-        return visualisation
-        
-    def obtenir_resonance(self) -> Dict[str, float]:
-        """Calcule la résonance entre les éléments sacrés."""
-        resonance = {}
-        
-        for nom1, element1 in self.elements.items():
-            for nom2, element2 in self.elements.items():
-                if nom1 != nom2:
-                    # Calcul de la résonance basé sur l'énergie et la vibration
-                    resonance_value = min(element1.energie, element2.energie) / 100
-                    resonance[f"{nom1}-{nom2}"] = resonance_value
-                    
-        return resonance
-        
-    def sauvegarder_etat(self, chemin: Path):
-        """Sauvegarde l'état des éléments sacrés."""
-        etat = self.obtenir_etat_elements()
-        with open(chemin, 'w', encoding='utf-8') as f:
-            json.dump(etat, f, ensure_ascii=False, indent=2)
-            
-    def charger_etat(self, chemin: Path):
-        """Charge l'état des éléments sacrés."""
-        with open(chemin, 'r', encoding='utf-8') as f:
-            etat = json.load(f)
-            
-        for nom, details in etat.items():
-            if nom in self.elements:
-                element = self.elements[nom]
-                element.energie = details["energie"]
-                element.derniere_interaction = datetime.fromisoformat(details["derniere_interaction"]) if details["derniere_interaction"] else None 
+
+    def obtenir_resonances(self, element_id: str) -> Optional[List[str]]:
+        """Retourne les résonances d'un élément"""
+        if element_id not in self.elements:
+            return None
+        return self.elements[element_id].resonances
+
+    def obtenir_carte_elements(self) -> Dict[str, Dict]:
+        """Retourne une carte complète des éléments et leurs connexions"""
+        return {
+            element_id: {
+                "nom": element.nom,
+                "nature": element.nature.value,
+                "proprietes": [p.value for p in element.proprietes],
+                "resonances": element.resonances,
+                "gardiens": element.gardiens_associes,
+                "interactions": list(element.interactions)
+            }
+            for element_id, element in self.elements.items()
+        } 

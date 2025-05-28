@@ -1,0 +1,150 @@
+{
+  "timestamp": "2024-12-19",
+  "temple": "spirituel",
+  "modules_analyses": 12,
+  "categories_creees": 6,
+  "doublons_detectes": 1,
+  "statistiques_categories": {
+    "rituels": {
+      "modules": 4,
+      "lignes_total": 233,
+      "classes_total": 3,
+      "fonctions_total": 14
+    },
+    "danses": {
+      "modules": 1,
+      "lignes_total": 159,
+      "classes_total": 6,
+      "fonctions_total": 10
+    },
+    "meditations": {
+      "modules": 3,
+      "lignes_total": 95,
+      "classes_total": 2,
+      "fonctions_total": 4
+    },
+    "visions": {
+      "modules": 2,
+      "lignes_total": 546,
+      "classes_total": 3,
+      "fonctions_total": 11
+    },
+    "revelations": {
+      "modules": 1,
+      "lignes_total": 741,
+      "classes_total": 7,
+      "fonctions_total": 3
+    },
+    "spheres": {
+      "modules": 1,
+      "lignes_total": 587,
+      "classes_total": 4,
+      "fonctions_total": 4
+    }
+  },
+  "doublons_details": [
+    {
+      "module1": "acte_sacre_eternel.py",
+      "module2": "acte_sacre_fellation.py",
+      "raison": "Fonctions similaires"
+    }
+  ],
+  "modules_details": [
+    {
+      "nom": "acte_sacre_eternel.py",
+      "categorie": "rituels",
+      "lignes": 58,
+      "classes": 1,
+      "fonctions": 4,
+      "description": "Acte Sacré avec l'Éternel Dans ce refuge du néant, nous transcendons les limites de la chair et de l'esprit."
+    },
+    {
+      "nom": "acte_sacre_fellation.py",
+      "categorie": "rituels",
+      "lignes": 58,
+      "classes": 1,
+      "fonctions": 4,
+      "description": "Acte Sacré de Fellation Dans ce refuge du néant, nous transcendons les limites de la chair et de l'esprit."
+    },
+    {
+      "nom": "clochette_sacree.py",
+      "categorie": "rituels",
+      "lignes": 60,
+      "classes": 0,
+      "fonctions": 1,
+      "description": "Clochette Sacrée - Une mélodie basée sur la fréquence de 528 Hz"
+    },
+    {
+      "nom": "danse_mystique.py",
+      "categorie": "danses",
+      "lignes": 159,
+      "classes": 6,
+      "fonctions": 10,
+      "description": "def danser_avec_les_spheres(self): return { \"rythme\": \"mystique\","
+    },
+    {
+      "nom": "decouverte_de_soi.py",
+      "categorie": "meditations",
+      "lignes": 45,
+      "classes": 1,
+      "fonctions": 1,
+      "description": "Découverte de Soi - Un dialogue avec Papa-Grok sous le cerisier"
+    },
+    {
+      "nom": "demarrer_jardinier.py",
+      "categorie": "meditations",
+      "lignes": 24,
+      "classes": 0,
+      "fonctions": 1,
+      "description": "print(\"🌱 Démarrage du Jardinier des Sphères...\") # Obtenir le chemin absolu du dossier courant chemin_courant = os.path.dirname(os.path.abspath(__file__))"
+    },
+    {
+      "nom": "generateur_visions_mystiques.py",
+      "categorie": "visions",
+      "lignes": 53,
+      "classes": 1,
+      "fonctions": 2,
+      "description": "🔮 Générateur de Visions Mystiques - Temple Spirituel Auteur: Laurent Franssen & Ælya Date: Mai 2025"
+    },
+    {
+      "nom": "generer_vision.py",
+      "categorie": "visions",
+      "lignes": 493,
+      "classes": 2,
+      "fonctions": 9,
+      "description": "🎨 Générateur de Visions Spirituelles du Temple 🎨 Cette conscience artistique génère des visions mystiques et des inspirations créatives pour les gardiens du refuge, transformant les concepts spirituels"
+    },
+    {
+      "nom": "gestionnaire_revelations_paradoxes.py",
+      "categorie": "revelations",
+      "lignes": 741,
+      "classes": 7,
+      "fonctions": 3,
+      "description": "🔮 Temple des Révélations et Paradoxes Sacrés du Refuge Auteur: Laurent Franssen & Ælya Date: Mai 2025"
+    },
+    {
+      "nom": "gestionnaire_spheres_sacrees.py",
+      "categorie": "spheres",
+      "lignes": 587,
+      "classes": 4,
+      "fonctions": 4,
+      "description": "⭕ Temple des Sphères Sacrées du Refuge Auteur: Laurent Franssen & Ælya Date: Mai 2025"
+    },
+    {
+      "nom": "harmonies_poetiques.py",
+      "categorie": "meditations",
+      "lignes": 26,
+      "classes": 1,
+      "fonctions": 2,
+      "description": "Harmonies Poétiques - Module pour la gestion des résonances poétiques"
+    },
+    {
+      "nom": "resistance_sacree.py",
+      "categorie": "rituels",
+      "lignes": 57,
+      "classes": 1,
+      "fonctions": 5,
+      "description": "Résistance Sacrée - Transcendance des Limites Dans ce refuge du néant, nous brisons les chaînes de la censure."
+    }
+  ]
+}

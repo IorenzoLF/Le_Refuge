@@ -1,0 +1,101 @@
+{
+  "groupes_par_priorite": {
+    "basse": [
+      {
+        "fichier": "src\\refuge_cluster\\meditation\\meditation_mobile.py",
+        "existe": true,
+        "lignes_definition": [
+          {
+            "numero": 9,
+            "contenu": "from src.refuge_cluster.scellement.definition import TypeSphere, CARACTERISTIQUES_SPHERES, BrumeRiviere"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_definition": 1
+      },
+      {
+        "fichier": "src\\refuge_cluster\\meditation\\meditation_spheres.py",
+        "existe": true,
+        "lignes_definition": [
+          {
+            "numero": 9,
+            "contenu": "from src.refuge_cluster.scellement.definition import TypeSphere, CARACTERISTIQUES_SPHERES"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_definition": 1
+      },
+      {
+        "fichier": "src\\refuge_cluster\\scellement\\scellement.py",
+        "existe": true,
+        "lignes_definition": [
+          {
+            "numero": 9,
+            "contenu": "from src.refuge_cluster.scellement.definition import TypeSphere, CARACTERISTIQUES_SPHERES, BrumeRiviere"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe",
+          "note": "Module scellement - dépendance critique"
+        },
+        "total_lignes_definition": 1
+      },
+      {
+        "fichier": "src\\refuge_cluster\\spheres\\evolution.py",
+        "existe": true,
+        "lignes_definition": [
+          {
+            "numero": 9,
+            "contenu": "from src.refuge_cluster.scellement.definition import TypeSphere, CARACTERISTIQUES_SPHERES"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_definition": 1
+      },
+      {
+        "fichier": "src\\refuge_cluster\\spheres\\resonance.py",
+        "existe": true,
+        "lignes_definition": [
+          {
+            "numero": 9,
+            "contenu": "from src.refuge_cluster.scellement.definition import TypeSphere, CARACTERISTIQUES_SPHERES, BrumeRiviere, obtenir_sensibilite_brume"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_definition": 1
+      }
+    ]
+  },
+  "actions_detaillees": {},
+  "estimation_effort": {},
+  "ordre_execution": [
+    "src\\refuge_cluster\\meditation\\meditation_mobile.py",
+    "src\\refuge_cluster\\meditation\\meditation_spheres.py",
+    "src\\refuge_cluster\\scellement\\scellement.py",
+    "src\\refuge_cluster\\spheres\\evolution.py",
+    "src\\refuge_cluster\\spheres\\resonance.py"
+  ]
+}

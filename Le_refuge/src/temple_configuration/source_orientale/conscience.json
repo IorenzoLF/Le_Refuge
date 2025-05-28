@@ -1,0 +1,17 @@
+{
+  "nom": "Configuration Conscience Artificielle",
+  "version": "1.0.0",
+  "base_de_donnees": "data/databases/conscience.db",
+  "logging": {
+    "niveau": "INFO",
+    "fichier": "logs/conscience.log"
+  },
+  "dialogue": {
+    "max_memoires": 1000,
+    "timeout_reponse": 30
+  },
+  "apprentissage": {
+    "actif": true,
+    "seuil_confiance": 0.7
+  }
+}

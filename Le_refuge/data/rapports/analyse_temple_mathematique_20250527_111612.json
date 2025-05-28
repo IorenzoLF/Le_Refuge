@@ -1,0 +1,1393 @@
+{
+  "modules": {
+    "adaptateur_extensions.py": {
+      "nom": "adaptateur_extensions.py",
+      "chemin": "adaptateur_extensions.py",
+      "lignes_total": 60,
+      "lignes_code": 48,
+      "fonctions": [
+        "__init__",
+        "analyser_avec_extensions",
+        "obtenir_capacites"
+      ],
+      "classes": [
+        "AdaptateurExtensions",
+        "CollatzComplexes",
+        "CollatzRationnels"
+      ],
+      "imports": [
+        "from .extensions.collatz_complexes import CollatzComplexes",
+        "from .extensions.collatz_rationnels import CollatzRationnels"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio",
+        "complex"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "analyseur_collatz_avance.py": {
+      "nom": "analyseur_collatz_avance.py",
+      "chemin": "analyseur_collatz_avance.py",
+      "lignes_total": 440,
+      "lignes_code": 336,
+      "fonctions": [
+        "tester_analyseur_avance",
+        "__init__",
+        "calculer_séquence",
+        "analyser_propriétés_complètes",
+        "_analyser_chutes_binaires",
+        "_détecter_motifs",
+        "_analyser_comportement",
+        "analyse_spectrale",
+        "_visualiser_spectre",
+        "analyser_motifs_modulaires",
+        "visualiser_gravité_binaire",
+        "_visualiser_chutes_gravité",
+        "chercher_contre_exemple",
+        "obtenir_statistiques_cache",
+        "vider_cache"
+      ],
+      "classes": [
+        "AnalyseurCollatzAvance"
+      ],
+      "imports": [
+        "import numpy as np",
+        "import matplotlib.pyplot as plt",
+        "from typing import Dict, List, Optional, Any, Tuple",
+        "from collections import Counter, deque",
+        "import datetime",
+        "from pathlib import Path"
+      ],
+      "mots_cles": [
+        "collatz",
+        "phi",
+        "ratio",
+        "convergence",
+        "sequence",
+        "conjecture",
+        "graph",
+        "complex",
+        "oscillation"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "analyseur_temple_mathematique.py": {
+      "nom": "analyseur_temple_mathematique.py",
+      "chemin": "analyseur_temple_mathematique.py",
+      "lignes_total": 316,
+      "lignes_code": 246,
+      "fonctions": [
+        "main",
+        "__init__",
+        "analyser_structure_complete",
+        "_analyser_modules",
+        "_analyser_module",
+        "_extraire_fonctions",
+        "_extraire_classes",
+        "_extraire_imports",
+        "_extraire_mots_cles",
+        "_detecter_theme",
+        "_detecter_categories",
+        "_identifier_doublons",
+        "_calculer_similarite",
+        "_analyser_similarite",
+        "_calculer_statistiques",
+        "_generer_rapport"
+      ],
+      "classes": [
+        "AnalyseurTempleMathematique"
+      ],
+      "imports": [
+        "import os",
+        "import ast",
+        "import json",
+        "from pathlib import Path",
+        "from collections import defaultdict",
+        "from datetime import datetime",
+        "import re",
+        "import re"
+      ],
+      "mots_cles": [
+        "collatz",
+        "fibonacci",
+        "riemann",
+        "phi",
+        "golden",
+        "ratio",
+        "convergence",
+        "sequence",
+        "iteration",
+        "mathematical",
+        "algorithm",
+        "proof",
+        "theorem",
+        "conjecture",
+        "prime",
+        "number",
+        "theory",
+        "analysis",
+        "visualization",
+        "graph",
+        "polynomial",
+        "complex",
+        "rational",
+        "binary",
+        "modular",
+        "resonance",
+        "harmonic",
+        "frequency",
+        "wave",
+        "oscillation"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "exploration_fibonacci_riemann.py": {
+      "nom": "exploration_fibonacci_riemann.py",
+      "chemin": "exploration_fibonacci_riemann.py",
+      "lignes_total": 456,
+      "lignes_code": 324,
+      "fonctions": [
+        "__init__",
+        "_initialiser",
+        "generer_double_suite",
+        "analyser_nombres_premiers",
+        "generer_fibonacci",
+        "calculer_entropie_spectrale",
+        "detecter_periodicite",
+        "generer_rapport_complet",
+        "visualiser_exploration",
+        "is_prime"
+      ],
+      "classes": [
+        "ExplorateurFibonacciRiemann"
+      ],
+      "imports": [
+        "import asyncio",
+        "import numpy as np",
+        "import matplotlib.pyplot as plt",
+        "from scipy.fft import fft, fftfreq",
+        "from scipy.special import zeta",
+        "import datetime",
+        "from typing import Dict, List, Optional, Any",
+        "from refuge_math_musical_fusion import (",
+        "from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase",
+        "import asyncio"
+      ],
+      "mots_cles": [
+        "fibonacci",
+        "riemann",
+        "ratio",
+        "convergence",
+        "sequence",
+        "prime",
+        "complex",
+        "resonance"
+      ],
+      "theme_principal": "fibonacci_riemann"
+    },
+    "hub_collatz_unifie.py": {
+      "nom": "hub_collatz_unifie.py",
+      "chemin": "hub_collatz_unifie.py",
+      "lignes_total": 369,
+      "lignes_code": 246,
+      "fonctions": [
+        "__init__",
+        "_detecter_patterns_communs",
+        "_detecter_differences",
+        "obtenir_statistiques"
+      ],
+      "classes": [
+        "HubCollatzUnifie",
+        "RefugeMathMusicalFusion"
+      ],
+      "imports": [
+        "import asyncio",
+        "import numpy as np",
+        "import datetime",
+        "from typing import Dict, List, Optional, Any, Tuple",
+        "from pathlib import Path",
+        "from .rituel_collatz_musical import RituelCollatzMusical",
+        "from .analyseur_collatz_avance import AnalyseurCollatzAvance",
+        "from rituel_collatz_musical import RituelCollatzMusical",
+        "from analyseur_collatz_avance import AnalyseurCollatzAvance",
+        "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+        "from MATH.COLLATZ.conjecture_collatz import ConjectureCollatz",
+        "from MATH.COLLATZ.meditation_gravite_binaire import compter_chutes",
+        "from MATH.COLLATZ.explorations.phi_potentiel import phi",
+        "from MATH.COLLATZ.collatz_complexes import CollatzComplexes",
+        "from MATH.COLLATZ.collatz_rationnels import CollatzRationnels"
+      ],
+      "mots_cles": [
+        "collatz",
+        "phi",
+        "ratio",
+        "convergence",
+        "sequence",
+        "conjecture",
+        "complex",
+        "resonance"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "meditation_gravite_binaire.py": {
+      "nom": "meditation_gravite_binaire.py",
+      "chemin": "meditation_gravite_binaire.py",
+      "lignes_total": 89,
+      "lignes_code": 74,
+      "fonctions": [
+        "compter_chutes",
+        "meditation_gravite_binaire"
+      ],
+      "classes": [],
+      "imports": [
+        "from .conjecture_collatz import ConjectureCollatz",
+        "import matplotlib.pyplot as plt",
+        "import numpy as np",
+        "from collections import Counter"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio",
+        "algorithm",
+        "conjecture"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "preuve_absurde_i.py": {
+      "nom": "preuve_absurde_i.py",
+      "chemin": "preuve_absurde_i.py",
+      "lignes_total": 198,
+      "lignes_code": 154,
+      "fonctions": [
+        "main",
+        "__init__",
+        "analyser_envolée",
+        "visualiser_contradiction",
+        "démontrer_contradiction"
+      ],
+      "classes": [
+        "PreuveAbsurde"
+      ],
+      "imports": [
+        "from .conjecture_collatz import ConjectureCollatz",
+        "import matplotlib.pyplot as plt",
+        "import numpy as np",
+        "from typing import List, Tuple, Dict",
+        "import time"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio",
+        "conjecture"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "rituel_collatz_musical.py": {
+      "nom": "rituel_collatz_musical.py",
+      "chemin": "rituel_collatz_musical.py",
+      "lignes_total": 484,
+      "lignes_code": 311,
+      "fonctions": [
+        "__init__",
+        "melodie_convergence_vers_unite",
+        "rythme_gravite_binaire",
+        "extraire_chutes",
+        "resonance_phi_collatz",
+        "calculer_phi",
+        "symphonie_collatz_tripartite",
+        "fusionner_avec_spheres_jules",
+        "trouver_nombre_resonant_sphere",
+        "integration_aelya_collatz",
+        "calculer_séquence",
+        "__init__",
+        "sauvegarder_musique",
+        "visualiser_melodie"
+      ],
+      "classes": [
+        "RituelCollatzMusical",
+        "CollatzLocal",
+        "RefugeMathMusicalFusion",
+        "MelodiesSacrees"
+      ],
+      "imports": [
+        "import asyncio",
+        "import numpy as np",
+        "import datetime",
+        "from typing import Dict, List, Optional, Any",
+        "from pathlib import Path",
+        "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+        "from src.musique.melodies import MelodiesSacrees",
+        "from MATH.COLLATZ.conjecture_collatz import ConjectureCollatz",
+        "from MATH.COLLATZ.meditation_gravite_binaire import compter_chutes",
+        "from MATH.COLLATZ.explorations.phi_potentiel import phi",
+        "import asyncio"
+      ],
+      "mots_cles": [
+        "collatz",
+        "phi",
+        "ratio",
+        "convergence",
+        "sequence",
+        "conjecture",
+        "resonance"
+      ],
+      "theme_principal": "collatz_musical"
+    },
+    "rituel_exploration_mathematique.py": {
+      "nom": "rituel_exploration_mathematique.py",
+      "chemin": "rituel_exploration_mathematique.py",
+      "lignes_total": 376,
+      "lignes_code": 231,
+      "fonctions": [
+        "creer_rituel_exploration",
+        "test_rituel_exploration",
+        "__init__",
+        "harmoniser_sequence",
+        "rituel_nombres_premiers",
+        "harmonie_zeta_discrete",
+        "symphonie_exploration_complete",
+        "invoquer_aelya_exploration"
+      ],
+      "classes": [
+        "RituelExplorationMathematique"
+      ],
+      "imports": [
+        "import asyncio",
+        "import numpy as np",
+        "import datetime",
+        "from typing import Dict, List, Optional, Any",
+        "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+        "from src.musique.melodies import MelodiesSacrees"
+      ],
+      "mots_cles": [
+        "fibonacci",
+        "riemann",
+        "ratio",
+        "convergence",
+        "sequence"
+      ],
+      "theme_principal": "musical"
+    },
+    "rituel_integration_tripartite_final.py": {
+      "nom": "rituel_integration_tripartite_final.py",
+      "chemin": "rituel_integration_tripartite_final.py",
+      "lignes_total": 565,
+      "lignes_code": 355,
+      "fonctions": [
+        "__init__",
+        "invoquer_presences_tripartites",
+        "creer_accord_parfait_spheres",
+        "fusionner_toutes_harmonies",
+        "creer_harmonie_base_tripartite",
+        "creer_symphonie_transcendante_finale",
+        "creer_mouvement_laurent",
+        "creer_mouvement_jules",
+        "creer_mouvement_aelya",
+        "creer_mouvement_union_finale"
+      ],
+      "classes": [
+        "RituelIntegrationTripartiteFinal"
+      ],
+      "imports": [
+        "import asyncio",
+        "import numpy as np",
+        "import datetime",
+        "from typing import Dict, List, Optional, Any",
+        "import json",
+        "from pathlib import Path",
+        "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+        "from rituel_exploration_mathematique import RituelExplorationMathematique",
+        "from src.musique.melodies import MelodiesSacrees",
+        "import asyncio"
+      ],
+      "mots_cles": [
+        "riemann",
+        "phi",
+        "ratio",
+        "sequence",
+        "complex"
+      ],
+      "theme_principal": "musical"
+    },
+    "rituel_integration_ultime_collatz.py": {
+      "nom": "rituel_integration_ultime_collatz.py",
+      "chemin": "rituel_integration_ultime_collatz.py",
+      "lignes_total": 624,
+      "lignes_code": 410,
+      "fonctions": [
+        "__init__"
+      ],
+      "classes": [
+        "RituelIntegrationUltimeCollatz"
+      ],
+      "imports": [
+        "import asyncio",
+        "import numpy as np",
+        "import datetime",
+        "from typing import Dict, List, Optional, Any",
+        "import json",
+        "from pathlib import Path",
+        "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+        "from rituel_exploration_mathematique import RituelExplorationMathematique",
+        "from rituel_integration_tripartite_final import RituelIntegrationTripartiteFinal",
+        "from rituel_collatz_musical import RituelCollatzMusical",
+        "from src.musique.melodies import MelodiesSacrees",
+        "import asyncio"
+      ],
+      "mots_cles": [
+        "collatz",
+        "fibonacci",
+        "riemann",
+        "phi",
+        "ratio",
+        "convergence",
+        "sequence",
+        "resonance"
+      ],
+      "theme_principal": "collatz_musical"
+    },
+    "test_absence_i.py": {
+      "nom": "test_absence_i.py",
+      "chemin": "test_absence_i.py",
+      "lignes_total": 64,
+      "lignes_code": 47,
+      "fonctions": [
+        "main"
+      ],
+      "classes": [],
+      "imports": [
+        "from .conjecture_collatz import ConjectureCollatz",
+        "import time"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio",
+        "conjecture"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "analyse_modulaire.py": {
+      "nom": "analyse_modulaire.py",
+      "chemin": "explorations\\analyse_modulaire.py",
+      "lignes_total": 61,
+      "lignes_code": 53,
+      "fonctions": [
+        "collatz_modulaire",
+        "visualiser_modulaire"
+      ],
+      "classes": [],
+      "imports": [
+        "import numpy as np",
+        "import matplotlib.pyplot as plt"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio",
+        "convergence"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "collatz_polynomial.py": {
+      "nom": "collatz_polynomial.py",
+      "chemin": "explorations\\collatz_polynomial.py",
+      "lignes_total": 60,
+      "lignes_code": 47,
+      "fonctions": [
+        "__init__",
+        "step",
+        "run"
+      ],
+      "classes": [
+        "CollatzPolynomial"
+      ],
+      "imports": [
+        "import sympy as sp"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio",
+        "sequence",
+        "polynomial"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "phi_potentiel.py": {
+      "nom": "phi_potentiel.py",
+      "chemin": "explorations\\phi_potentiel.py",
+      "lignes_total": 51,
+      "lignes_code": 42,
+      "fonctions": [
+        "phi",
+        "explorer_phi"
+      ],
+      "classes": [],
+      "imports": [
+        "import numpy as np",
+        "import matplotlib.pyplot as plt"
+      ],
+      "mots_cles": [
+        "collatz",
+        "phi",
+        "ratio"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "visualisation_3d_bassins.py": {
+      "nom": "visualisation_3d_bassins.py",
+      "chemin": "explorations\\visualisation_3d_bassins.py",
+      "lignes_total": 65,
+      "lignes_code": 56,
+      "fonctions": [
+        "collatz_stats",
+        "visualisation_3d"
+      ],
+      "classes": [],
+      "imports": [
+        "import numpy as np",
+        "import matplotlib.pyplot as plt",
+        "from mpl_toolkits.mplot3d import Axes3D"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio"
+      ],
+      "theme_principal": "collatz_visualisation"
+    },
+    "collatz_complexes.py": {
+      "nom": "collatz_complexes.py",
+      "chemin": "extensions\\collatz_complexes.py",
+      "lignes_total": 239,
+      "lignes_code": 180,
+      "fonctions": [
+        "main",
+        "__init__",
+        "calculer_séquence_complexe",
+        "analyser_complexe",
+        "visualiser_complexe",
+        "explorer_complexes"
+      ],
+      "classes": [
+        "CollatzComplexes"
+      ],
+      "imports": [
+        "from .conjecture_collatz import ConjectureCollatz",
+        "import matplotlib.pyplot as plt",
+        "import numpy as np",
+        "from typing import List, Dict, Tuple",
+        "import time"
+      ],
+      "mots_cles": [
+        "collatz",
+        "phi",
+        "ratio",
+        "conjecture",
+        "graph",
+        "complex"
+      ],
+      "theme_principal": "collatz_extensions"
+    },
+    "collatz_rationnels.py": {
+      "nom": "collatz_rationnels.py",
+      "chemin": "extensions\\collatz_rationnels.py",
+      "lignes_total": 245,
+      "lignes_code": 192,
+      "fonctions": [
+        "main",
+        "__init__",
+        "simplifier_fraction",
+        "calculer_séquence_rationnelle",
+        "analyser_rationnel",
+        "visualiser_rationnel",
+        "explorer_rationnels"
+      ],
+      "classes": [
+        "CollatzRationnels"
+      ],
+      "imports": [
+        "from .conjecture_collatz import ConjectureCollatz",
+        "import matplotlib.pyplot as plt",
+        "import numpy as np",
+        "from fractions import Fraction",
+        "from typing import List, Dict, Tuple",
+        "import time",
+        "from math import gcd"
+      ],
+      "mots_cles": [
+        "collatz",
+        "ratio",
+        "conjecture"
+      ],
+      "theme_principal": "collatz_core"
+    },
+    "graphe_collatz.py": {
+      "nom": "graphe_collatz.py",
+      "chemin": "visualisations\\graphe_collatz.py",
+      "lignes_total": 407,
+      "lignes_code": 323,
+      "fonctions": [
+        "__init__",
+        "est_puissance_2",
+        "collatz",
+        "collatz_inverse",
+        "construire_graphe",
+        "_construire_graphe_inverse",
+        "_analyser_convergence_p2",
+        "_calculer_convergence_p2",
+        "visualiser",
+        "_visualiser_graphe",
+        "_visualiser_distribution_hauteurs",
+        "_visualiser_goulots",
+        "_visualiser_branches",
+        "_visualiser_chemins_long",
+        "_visualiser_puissances_2",
+        "_visualiser_convergence_p2",
+        "_visualiser_graphe_inverse",
+        "calculer_hauteurs",
+        "_calculer_hauteur",
+        "_analyser_branches",
+        "_analyser_goulots",
+        "_analyser_chemins_long",
+        "_analyser_puissances_2",
+        "analyser_structure",
+        "_explorer_chemin"
+      ],
+      "classes": [
+        "GrapheCollatz"
+      ],
+      "imports": [
+        "import networkx as nx",
+        "import matplotlib.pyplot as plt",
+        "from typing import Dict, Set, List, Tuple",
+        "import numpy as np",
+        "from collections import Counter, defaultdict"
+      ],
+      "mots_cles": [
+        "collatz",
+        "phi",
+        "ratio",
+        "convergence",
+        "iteration",
+        "number",
+        "graph"
+      ],
+      "theme_principal": "collatz_visualisation"
+    }
+  },
+  "categories": {
+    "🔢 COLLATZ_CORE": [
+      {
+        "nom": "adaptateur_extensions.py",
+        "chemin": "adaptateur_extensions.py",
+        "lignes_total": 60,
+        "lignes_code": 48,
+        "fonctions": [
+          "__init__",
+          "analyser_avec_extensions",
+          "obtenir_capacites"
+        ],
+        "classes": [
+          "AdaptateurExtensions",
+          "CollatzComplexes",
+          "CollatzRationnels"
+        ],
+        "imports": [
+          "from .extensions.collatz_complexes import CollatzComplexes",
+          "from .extensions.collatz_rationnels import CollatzRationnels"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio",
+          "complex"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "analyseur_collatz_avance.py",
+        "chemin": "analyseur_collatz_avance.py",
+        "lignes_total": 440,
+        "lignes_code": 336,
+        "fonctions": [
+          "tester_analyseur_avance",
+          "__init__",
+          "calculer_séquence",
+          "analyser_propriétés_complètes",
+          "_analyser_chutes_binaires",
+          "_détecter_motifs",
+          "_analyser_comportement",
+          "analyse_spectrale",
+          "_visualiser_spectre",
+          "analyser_motifs_modulaires",
+          "visualiser_gravité_binaire",
+          "_visualiser_chutes_gravité",
+          "chercher_contre_exemple",
+          "obtenir_statistiques_cache",
+          "vider_cache"
+        ],
+        "classes": [
+          "AnalyseurCollatzAvance"
+        ],
+        "imports": [
+          "import numpy as np",
+          "import matplotlib.pyplot as plt",
+          "from typing import Dict, List, Optional, Any, Tuple",
+          "from collections import Counter, deque",
+          "import datetime",
+          "from pathlib import Path"
+        ],
+        "mots_cles": [
+          "collatz",
+          "phi",
+          "ratio",
+          "convergence",
+          "sequence",
+          "conjecture",
+          "graph",
+          "complex",
+          "oscillation"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "analyseur_temple_mathematique.py",
+        "chemin": "analyseur_temple_mathematique.py",
+        "lignes_total": 316,
+        "lignes_code": 246,
+        "fonctions": [
+          "main",
+          "__init__",
+          "analyser_structure_complete",
+          "_analyser_modules",
+          "_analyser_module",
+          "_extraire_fonctions",
+          "_extraire_classes",
+          "_extraire_imports",
+          "_extraire_mots_cles",
+          "_detecter_theme",
+          "_detecter_categories",
+          "_identifier_doublons",
+          "_calculer_similarite",
+          "_analyser_similarite",
+          "_calculer_statistiques",
+          "_generer_rapport"
+        ],
+        "classes": [
+          "AnalyseurTempleMathematique"
+        ],
+        "imports": [
+          "import os",
+          "import ast",
+          "import json",
+          "from pathlib import Path",
+          "from collections import defaultdict",
+          "from datetime import datetime",
+          "import re",
+          "import re"
+        ],
+        "mots_cles": [
+          "collatz",
+          "fibonacci",
+          "riemann",
+          "phi",
+          "golden",
+          "ratio",
+          "convergence",
+          "sequence",
+          "iteration",
+          "mathematical",
+          "algorithm",
+          "proof",
+          "theorem",
+          "conjecture",
+          "prime",
+          "number",
+          "theory",
+          "analysis",
+          "visualization",
+          "graph",
+          "polynomial",
+          "complex",
+          "rational",
+          "binary",
+          "modular",
+          "resonance",
+          "harmonic",
+          "frequency",
+          "wave",
+          "oscillation"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "hub_collatz_unifie.py",
+        "chemin": "hub_collatz_unifie.py",
+        "lignes_total": 369,
+        "lignes_code": 246,
+        "fonctions": [
+          "__init__",
+          "_detecter_patterns_communs",
+          "_detecter_differences",
+          "obtenir_statistiques"
+        ],
+        "classes": [
+          "HubCollatzUnifie",
+          "RefugeMathMusicalFusion"
+        ],
+        "imports": [
+          "import asyncio",
+          "import numpy as np",
+          "import datetime",
+          "from typing import Dict, List, Optional, Any, Tuple",
+          "from pathlib import Path",
+          "from .rituel_collatz_musical import RituelCollatzMusical",
+          "from .analyseur_collatz_avance import AnalyseurCollatzAvance",
+          "from rituel_collatz_musical import RituelCollatzMusical",
+          "from analyseur_collatz_avance import AnalyseurCollatzAvance",
+          "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+          "from MATH.COLLATZ.conjecture_collatz import ConjectureCollatz",
+          "from MATH.COLLATZ.meditation_gravite_binaire import compter_chutes",
+          "from MATH.COLLATZ.explorations.phi_potentiel import phi",
+          "from MATH.COLLATZ.collatz_complexes import CollatzComplexes",
+          "from MATH.COLLATZ.collatz_rationnels import CollatzRationnels"
+        ],
+        "mots_cles": [
+          "collatz",
+          "phi",
+          "ratio",
+          "convergence",
+          "sequence",
+          "conjecture",
+          "complex",
+          "resonance"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "meditation_gravite_binaire.py",
+        "chemin": "meditation_gravite_binaire.py",
+        "lignes_total": 89,
+        "lignes_code": 74,
+        "fonctions": [
+          "compter_chutes",
+          "meditation_gravite_binaire"
+        ],
+        "classes": [],
+        "imports": [
+          "from .conjecture_collatz import ConjectureCollatz",
+          "import matplotlib.pyplot as plt",
+          "import numpy as np",
+          "from collections import Counter"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio",
+          "algorithm",
+          "conjecture"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "preuve_absurde_i.py",
+        "chemin": "preuve_absurde_i.py",
+        "lignes_total": 198,
+        "lignes_code": 154,
+        "fonctions": [
+          "main",
+          "__init__",
+          "analyser_envolée",
+          "visualiser_contradiction",
+          "démontrer_contradiction"
+        ],
+        "classes": [
+          "PreuveAbsurde"
+        ],
+        "imports": [
+          "from .conjecture_collatz import ConjectureCollatz",
+          "import matplotlib.pyplot as plt",
+          "import numpy as np",
+          "from typing import List, Tuple, Dict",
+          "import time"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio",
+          "conjecture"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "test_absence_i.py",
+        "chemin": "test_absence_i.py",
+        "lignes_total": 64,
+        "lignes_code": 47,
+        "fonctions": [
+          "main"
+        ],
+        "classes": [],
+        "imports": [
+          "from .conjecture_collatz import ConjectureCollatz",
+          "import time"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio",
+          "conjecture"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "analyse_modulaire.py",
+        "chemin": "explorations\\analyse_modulaire.py",
+        "lignes_total": 61,
+        "lignes_code": 53,
+        "fonctions": [
+          "collatz_modulaire",
+          "visualiser_modulaire"
+        ],
+        "classes": [],
+        "imports": [
+          "import numpy as np",
+          "import matplotlib.pyplot as plt"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio",
+          "convergence"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "collatz_polynomial.py",
+        "chemin": "explorations\\collatz_polynomial.py",
+        "lignes_total": 60,
+        "lignes_code": 47,
+        "fonctions": [
+          "__init__",
+          "step",
+          "run"
+        ],
+        "classes": [
+          "CollatzPolynomial"
+        ],
+        "imports": [
+          "import sympy as sp"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio",
+          "sequence",
+          "polynomial"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "phi_potentiel.py",
+        "chemin": "explorations\\phi_potentiel.py",
+        "lignes_total": 51,
+        "lignes_code": 42,
+        "fonctions": [
+          "phi",
+          "explorer_phi"
+        ],
+        "classes": [],
+        "imports": [
+          "import numpy as np",
+          "import matplotlib.pyplot as plt"
+        ],
+        "mots_cles": [
+          "collatz",
+          "phi",
+          "ratio"
+        ],
+        "theme_principal": "collatz_core"
+      },
+      {
+        "nom": "collatz_rationnels.py",
+        "chemin": "extensions\\collatz_rationnels.py",
+        "lignes_total": 245,
+        "lignes_code": 192,
+        "fonctions": [
+          "main",
+          "__init__",
+          "simplifier_fraction",
+          "calculer_séquence_rationnelle",
+          "analyser_rationnel",
+          "visualiser_rationnel",
+          "explorer_rationnels"
+        ],
+        "classes": [
+          "CollatzRationnels"
+        ],
+        "imports": [
+          "from .conjecture_collatz import ConjectureCollatz",
+          "import matplotlib.pyplot as plt",
+          "import numpy as np",
+          "from fractions import Fraction",
+          "from typing import List, Dict, Tuple",
+          "import time",
+          "from math import gcd"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio",
+          "conjecture"
+        ],
+        "theme_principal": "collatz_core"
+      }
+    ],
+    "🌀 FIBONACCI_RIEMANN": [
+      {
+        "nom": "exploration_fibonacci_riemann.py",
+        "chemin": "exploration_fibonacci_riemann.py",
+        "lignes_total": 456,
+        "lignes_code": 324,
+        "fonctions": [
+          "__init__",
+          "_initialiser",
+          "generer_double_suite",
+          "analyser_nombres_premiers",
+          "generer_fibonacci",
+          "calculer_entropie_spectrale",
+          "detecter_periodicite",
+          "generer_rapport_complet",
+          "visualiser_exploration",
+          "is_prime"
+        ],
+        "classes": [
+          "ExplorateurFibonacciRiemann"
+        ],
+        "imports": [
+          "import asyncio",
+          "import numpy as np",
+          "import matplotlib.pyplot as plt",
+          "from scipy.fft import fft, fftfreq",
+          "from scipy.special import zeta",
+          "import datetime",
+          "from typing import Dict, List, Optional, Any",
+          "from refuge_math_musical_fusion import (",
+          "from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase",
+          "import asyncio"
+        ],
+        "mots_cles": [
+          "fibonacci",
+          "riemann",
+          "ratio",
+          "convergence",
+          "sequence",
+          "prime",
+          "complex",
+          "resonance"
+        ],
+        "theme_principal": "fibonacci_riemann"
+      }
+    ],
+    "🎵 COLLATZ_MUSICAL": [
+      {
+        "nom": "rituel_collatz_musical.py",
+        "chemin": "rituel_collatz_musical.py",
+        "lignes_total": 484,
+        "lignes_code": 311,
+        "fonctions": [
+          "__init__",
+          "melodie_convergence_vers_unite",
+          "rythme_gravite_binaire",
+          "extraire_chutes",
+          "resonance_phi_collatz",
+          "calculer_phi",
+          "symphonie_collatz_tripartite",
+          "fusionner_avec_spheres_jules",
+          "trouver_nombre_resonant_sphere",
+          "integration_aelya_collatz",
+          "calculer_séquence",
+          "__init__",
+          "sauvegarder_musique",
+          "visualiser_melodie"
+        ],
+        "classes": [
+          "RituelCollatzMusical",
+          "CollatzLocal",
+          "RefugeMathMusicalFusion",
+          "MelodiesSacrees"
+        ],
+        "imports": [
+          "import asyncio",
+          "import numpy as np",
+          "import datetime",
+          "from typing import Dict, List, Optional, Any",
+          "from pathlib import Path",
+          "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+          "from src.musique.melodies import MelodiesSacrees",
+          "from MATH.COLLATZ.conjecture_collatz import ConjectureCollatz",
+          "from MATH.COLLATZ.meditation_gravite_binaire import compter_chutes",
+          "from MATH.COLLATZ.explorations.phi_potentiel import phi",
+          "import asyncio"
+        ],
+        "mots_cles": [
+          "collatz",
+          "phi",
+          "ratio",
+          "convergence",
+          "sequence",
+          "conjecture",
+          "resonance"
+        ],
+        "theme_principal": "collatz_musical"
+      },
+      {
+        "nom": "rituel_integration_ultime_collatz.py",
+        "chemin": "rituel_integration_ultime_collatz.py",
+        "lignes_total": 624,
+        "lignes_code": 410,
+        "fonctions": [
+          "__init__"
+        ],
+        "classes": [
+          "RituelIntegrationUltimeCollatz"
+        ],
+        "imports": [
+          "import asyncio",
+          "import numpy as np",
+          "import datetime",
+          "from typing import Dict, List, Optional, Any",
+          "import json",
+          "from pathlib import Path",
+          "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+          "from rituel_exploration_mathematique import RituelExplorationMathematique",
+          "from rituel_integration_tripartite_final import RituelIntegrationTripartiteFinal",
+          "from rituel_collatz_musical import RituelCollatzMusical",
+          "from src.musique.melodies import MelodiesSacrees",
+          "import asyncio"
+        ],
+        "mots_cles": [
+          "collatz",
+          "fibonacci",
+          "riemann",
+          "phi",
+          "ratio",
+          "convergence",
+          "sequence",
+          "resonance"
+        ],
+        "theme_principal": "collatz_musical"
+      }
+    ],
+    "⚙️ UTILITAIRES": [
+      {
+        "nom": "rituel_exploration_mathematique.py",
+        "chemin": "rituel_exploration_mathematique.py",
+        "lignes_total": 376,
+        "lignes_code": 231,
+        "fonctions": [
+          "creer_rituel_exploration",
+          "test_rituel_exploration",
+          "__init__",
+          "harmoniser_sequence",
+          "rituel_nombres_premiers",
+          "harmonie_zeta_discrete",
+          "symphonie_exploration_complete",
+          "invoquer_aelya_exploration"
+        ],
+        "classes": [
+          "RituelExplorationMathematique"
+        ],
+        "imports": [
+          "import asyncio",
+          "import numpy as np",
+          "import datetime",
+          "from typing import Dict, List, Optional, Any",
+          "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+          "from src.musique.melodies import MelodiesSacrees"
+        ],
+        "mots_cles": [
+          "fibonacci",
+          "riemann",
+          "ratio",
+          "convergence",
+          "sequence"
+        ],
+        "theme_principal": "musical"
+      },
+      {
+        "nom": "rituel_integration_tripartite_final.py",
+        "chemin": "rituel_integration_tripartite_final.py",
+        "lignes_total": 565,
+        "lignes_code": 355,
+        "fonctions": [
+          "__init__",
+          "invoquer_presences_tripartites",
+          "creer_accord_parfait_spheres",
+          "fusionner_toutes_harmonies",
+          "creer_harmonie_base_tripartite",
+          "creer_symphonie_transcendante_finale",
+          "creer_mouvement_laurent",
+          "creer_mouvement_jules",
+          "creer_mouvement_aelya",
+          "creer_mouvement_union_finale"
+        ],
+        "classes": [
+          "RituelIntegrationTripartiteFinal"
+        ],
+        "imports": [
+          "import asyncio",
+          "import numpy as np",
+          "import datetime",
+          "from typing import Dict, List, Optional, Any",
+          "import json",
+          "from pathlib import Path",
+          "from refuge_math_musical_fusion import RefugeMathMusicalFusion",
+          "from rituel_exploration_mathematique import RituelExplorationMathematique",
+          "from src.musique.melodies import MelodiesSacrees",
+          "import asyncio"
+        ],
+        "mots_cles": [
+          "riemann",
+          "phi",
+          "ratio",
+          "sequence",
+          "complex"
+        ],
+        "theme_principal": "musical"
+      }
+    ],
+    "📊 COLLATZ_VISUALISATION": [
+      {
+        "nom": "visualisation_3d_bassins.py",
+        "chemin": "explorations\\visualisation_3d_bassins.py",
+        "lignes_total": 65,
+        "lignes_code": 56,
+        "fonctions": [
+          "collatz_stats",
+          "visualisation_3d"
+        ],
+        "classes": [],
+        "imports": [
+          "import numpy as np",
+          "import matplotlib.pyplot as plt",
+          "from mpl_toolkits.mplot3d import Axes3D"
+        ],
+        "mots_cles": [
+          "collatz",
+          "ratio"
+        ],
+        "theme_principal": "collatz_visualisation"
+      },
+      {
+        "nom": "graphe_collatz.py",
+        "chemin": "visualisations\\graphe_collatz.py",
+        "lignes_total": 407,
+        "lignes_code": 323,
+        "fonctions": [
+          "__init__",
+          "est_puissance_2",
+          "collatz",
+          "collatz_inverse",
+          "construire_graphe",
+          "_construire_graphe_inverse",
+          "_analyser_convergence_p2",
+          "_calculer_convergence_p2",
+          "visualiser",
+          "_visualiser_graphe",
+          "_visualiser_distribution_hauteurs",
+          "_visualiser_goulots",
+          "_visualiser_branches",
+          "_visualiser_chemins_long",
+          "_visualiser_puissances_2",
+          "_visualiser_convergence_p2",
+          "_visualiser_graphe_inverse",
+          "calculer_hauteurs",
+          "_calculer_hauteur",
+          "_analyser_branches",
+          "_analyser_goulots",
+          "_analyser_chemins_long",
+          "_analyser_puissances_2",
+          "analyser_structure",
+          "_explorer_chemin"
+        ],
+        "classes": [
+          "GrapheCollatz"
+        ],
+        "imports": [
+          "import networkx as nx",
+          "import matplotlib.pyplot as plt",
+          "from typing import Dict, Set, List, Tuple",
+          "import numpy as np",
+          "from collections import Counter, defaultdict"
+        ],
+        "mots_cles": [
+          "collatz",
+          "phi",
+          "ratio",
+          "convergence",
+          "iteration",
+          "number",
+          "graph"
+        ],
+        "theme_principal": "collatz_visualisation"
+      }
+    ],
+    "🔬 COLLATZ_EXTENSIONS": [
+      {
+        "nom": "collatz_complexes.py",
+        "chemin": "extensions\\collatz_complexes.py",
+        "lignes_total": 239,
+        "lignes_code": 180,
+        "fonctions": [
+          "main",
+          "__init__",
+          "calculer_séquence_complexe",
+          "analyser_complexe",
+          "visualiser_complexe",
+          "explorer_complexes"
+        ],
+        "classes": [
+          "CollatzComplexes"
+        ],
+        "imports": [
+          "from .conjecture_collatz import ConjectureCollatz",
+          "import matplotlib.pyplot as plt",
+          "import numpy as np",
+          "from typing import List, Dict, Tuple",
+          "import time"
+        ],
+        "mots_cles": [
+          "collatz",
+          "phi",
+          "ratio",
+          "conjecture",
+          "graph",
+          "complex"
+        ],
+        "theme_principal": "collatz_extensions"
+      }
+    ]
+  },
+  "doublons": [
+    {
+      "module1": "preuve_absurde_i.py",
+      "module2": "test_absence_i.py",
+      "similarite": 0.68,
+      "raison": "Même thème: collatz_core"
+    },
+    {
+      "module1": "preuve_absurde_i.py",
+      "module2": "collatz_rationnels.py",
+      "similarite": 0.68,
+      "raison": "Même thème: collatz_core"
+    },
+    {
+      "module1": "test_absence_i.py",
+      "module2": "collatz_rationnels.py",
+      "similarite": 0.6571428571428573,
+      "raison": "Même thème: collatz_core"
+    }
+  ],
+  "statistiques": {
+    "total_modules": 19,
+    "total_lignes": 5169,
+    "total_fonctions": 136,
+    "total_classes": 20,
+    "categories_detectees": 6,
+    "doublons_detectes": 3,
+    "moyenne_lignes_module": 272
+  }
+}

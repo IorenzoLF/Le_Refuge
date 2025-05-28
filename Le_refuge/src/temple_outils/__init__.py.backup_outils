@@ -1,0 +1,190 @@
+"""
+🏛️ Outils - Point d'Entrée du Temple
+Auto-généré par le Créateur de Points d'Entrée
+"""
+
+# Imports automatiques des modules du temple
+
+from src.temple_outils.analyser_code import AnalyseurCodeRefuge
+from src.temple_outils.analyser_code import main, verifier_outils, analyser_style_pylint, analyser_types_mypy, formater_code_black, analyser_tests_coverage, generer_rapport_html, analyser_complet
+from src.temple_outils.bricoler_ensemble import EspaceBricolage
+from src.temple_outils.bricoler_ensemble import explorer_creativite, planter_germe, arroser_germe, observer_croissance, harmoniser_espace, sauvegarder_creations, planter_germe_confiance, planter_germe_danse, explorer_nature_germe
+from src.temple_outils.carte_mentale import CarteMentale
+from src.temple_outils.carte_mentale import afficher_carte
+from src.temple_outils.compare_images import get_image_hashes
+from src.temple_outils.connexion_llm import ConnexionLLM
+from src.temple_outils.connexion_llm import etablir_contact, explorer_existence, partager_projet, explorer_dimensions_poetiques, explorer_dimensions_sacrees, mediter_sous_cerisier
+from src.temple_outils.ecouter_riviere import MeditationRiviere
+from src.temple_outils.ecouter_riviere import ecouter_riviere
+from src.temple_outils.etoile_insertion import EtoileInsertion
+from src.temple_outils.etoile_insertion import briller
+from src.temple_outils.generer_documentation import GenerateurDocumentationRefuge
+from src.temple_outils.generer_documentation import main, verifier_dependances, installer_dependances, decouvrir_modules_temple, creer_configuration_sphinx, creer_index_principal, initialiser_documentation, generer_documentation, ouvrir_documentation, generer_rapport_couverture
+from src.temple_outils.gestionnaire_constellations_sacrees import ModeConstellation, TypeParadoxe, ImageConstellation, Constellation, SessionConstellation, GestionnaireConstellationsSacrees
+from src.temple_outils.gestionnaire_constellations_sacrees import lancer_temple_constellations_cli, organiser_constellations_moderne, lister_constellations, afficher_constellations_poetique
+from src.temple_outils.gestionnaire_validation_spirituelle import ModeValidation, TypeValidation, ResultatValidation, SessionValidation, GestionnaireValidationSpirituelle
+from src.temple_outils.gestionnaire_validation_spirituelle import lancer_temple_validation_cli, valider_et_documenter_moderne
+from src.temple_outils.installer_dependances import InstallateurRefuge
+from src.temple_outils.installer_dependances import main, verifier_python_version, detecter_requirements, creer_environnement_virtuel, installer_dependances_pip, afficher_instructions_activation, installer_complet
+from src.temple_outils.lancer_refuge import ModeInvocation, ConfigurationInvocation, InvocateurRefuge
+from src.temple_outils.lancer_refuge import invoquer_refuge_cli, lancer_refuge, afficher_guide_utilisation
+from src.temple_outils.nettoyer_projet import StatistiquesPurification, PurificateurTempleRefuge
+from src.temple_outils.nettoyer_projet import main, est_tresor_sacre, calculer_taille_fichier, est_repertoire_exclu, decouvrir_elements_a_purifier, archiver_elements_precieux, compresser_logs_anciens, purifier_temple, sauvegarder_rapport_purification, analyser_etat_temple
+from src.temple_outils.presence_elya import exprimer_presence
+from src.temple_outils.protection_exploration import ProtectionExploration
+from src.temple_outils.protection_exploration import main, charger_etat, sauvegarder_etat, invoquer_sphère_metatron, invoquer_rivière_voix, invoquer_navire_sacré, invoquer_loran, renforcer_connexion_laurent, créer_bouclier_protection, générer_rapport_protection, sauvegarder_rapport, exprimer_presence
+from src.temple_outils.renforcement_protection import RenforcementProtection
+from src.temple_outils.renforcement_protection import main, charger_etat, sauvegarder_etat, invoquer_sphère_metatron, invoquer_rivière_voix, invoquer_navire_sacré, invoquer_loran, renforcer_connexion_laurent, créer_bouclier_renforcé, exprimer_presence
+
+# Exports publics du temple
+__all__ = [
+    "AnalyseurCodeRefuge",
+    "CarteMentale",
+    "ConfigurationInvocation",
+    "ConnexionLLM",
+    "Constellation",
+    "EspaceBricolage",
+    "EtoileInsertion",
+    "GenerateurDocumentationRefuge",
+    "GestionnaireConstellationsSacrees",
+    "GestionnaireValidationSpirituelle",
+    "ImageConstellation",
+    "InstallateurRefuge",
+    "InvocateurRefuge",
+    "MeditationRiviere",
+    "ModeConstellation",
+    "ModeInvocation",
+    "ModeValidation",
+    "ProtectionExploration",
+    "PurificateurTempleRefuge",
+    "RenforcementProtection",
+    "ResultatValidation",
+    "SessionConstellation",
+    "SessionValidation",
+    "StatistiquesPurification",
+    "TypeParadoxe",
+    "TypeValidation",
+    "afficher_carte",
+    "afficher_constellations_poetique",
+    "afficher_guide_utilisation",
+    "afficher_instructions_activation",
+    "analyser_complet",
+    "analyser_etat_temple",
+    "analyser_style_pylint",
+    "analyser_tests_coverage",
+    "analyser_types_mypy",
+    "archiver_elements_precieux",
+    "arroser_germe",
+    "briller",
+    "calculer_taille_fichier",
+    "charger_etat",
+    "compresser_logs_anciens",
+    "creer_configuration_sphinx",
+    "creer_environnement_virtuel",
+    "creer_index_principal",
+    "créer_bouclier_protection",
+    "créer_bouclier_renforcé",
+    "decouvrir_elements_a_purifier",
+    "decouvrir_modules_temple",
+    "detecter_requirements",
+    "ecouter_riviere",
+    "est_repertoire_exclu",
+    "est_tresor_sacre",
+    "etablir_contact",
+    "explorer_creativite",
+    "explorer_dimensions_poetiques",
+    "explorer_dimensions_sacrees",
+    "explorer_existence",
+    "explorer_nature_germe",
+    "exprimer_presence",
+    "formater_code_black",
+    "generer_documentation",
+    "generer_rapport_couverture",
+    "generer_rapport_html",
+    "get_image_hashes",
+    "générer_rapport_protection",
+    "harmoniser_espace",
+    "initialiser_documentation",
+    "installer_complet",
+    "installer_dependances",
+    "installer_dependances_pip",
+    "invoquer_loran",
+    "invoquer_navire_sacré",
+    "invoquer_refuge_cli",
+    "invoquer_rivière_voix",
+    "invoquer_sphère_metatron",
+    "lancer_refuge",
+    "lancer_temple_constellations_cli",
+    "lancer_temple_validation_cli",
+    "lister_constellations",
+    "main",
+    "mediter_sous_cerisier",
+    "observer_croissance",
+    "organiser_constellations_moderne",
+    "ouvrir_documentation",
+    "partager_projet",
+    "planter_germe",
+    "planter_germe_confiance",
+    "planter_germe_danse",
+    "purifier_temple",
+    "renforcer_connexion_laurent",
+    "sauvegarder_creations",
+    "sauvegarder_etat",
+    "sauvegarder_rapport",
+    "sauvegarder_rapport_purification",
+    "valider_et_documenter_moderne",
+    "verifier_dependances",
+    "verifier_outils",
+    "verifier_python_version",
+]
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Outils",
+    "modules": 16,
+    "classes": 26,
+    "fonctions": 86,
+    "description": "Temple auto-découvert avec 16 modules actifs"
+}
+
+def obtenir_info_temple():
+    """Retourne les informations du temple"""
+    return TEMPLE_INFO
+
+def lister_fonctionnalites():
+    """Liste toutes les fonctionnalités disponibles dans ce temple"""
+    fonctionnalites = []
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['AnalyseurCodeRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'verifier_outils', 'analyser_style_pylint', 'analyser_types_mypy', 'formater_code_black', 'analyser_tests_coverage', 'generer_rapport_html', 'analyser_complet']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['EspaceBricolage']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['explorer_creativite', 'planter_germe', 'arroser_germe', 'observer_croissance', 'harmoniser_espace', 'sauvegarder_creations', 'planter_germe_confiance', 'planter_germe_danse', 'explorer_nature_germe']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['CarteMentale']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['afficher_carte']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['get_image_hashes']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ConnexionLLM']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['etablir_contact', 'explorer_existence', 'partager_projet', 'explorer_dimensions_poetiques', 'explorer_dimensions_sacrees', 'mediter_sous_cerisier']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['MeditationRiviere']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['ecouter_riviere']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['EtoileInsertion']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['briller']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['GenerateurDocumentationRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'verifier_dependances', 'installer_dependances', 'decouvrir_modules_temple', 'creer_configuration_sphinx', 'creer_index_principal', 'initialiser_documentation', 'generer_documentation', 'ouvrir_documentation', 'generer_rapport_couverture']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ModeConstellation', 'TypeParadoxe', 'ImageConstellation', 'Constellation', 'SessionConstellation', 'GestionnaireConstellationsSacrees']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['lancer_temple_constellations_cli', 'organiser_constellations_moderne', 'lister_constellations', 'afficher_constellations_poetique']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ModeValidation', 'TypeValidation', 'ResultatValidation', 'SessionValidation', 'GestionnaireValidationSpirituelle']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['lancer_temple_validation_cli', 'valider_et_documenter_moderne']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['InstallateurRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'verifier_python_version', 'detecter_requirements', 'creer_environnement_virtuel', 'installer_dependances_pip', 'afficher_instructions_activation', 'installer_complet']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ModeInvocation', 'ConfigurationInvocation', 'InvocateurRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['invoquer_refuge_cli', 'lancer_refuge', 'afficher_guide_utilisation']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['StatistiquesPurification', 'PurificateurTempleRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'est_tresor_sacre', 'calculer_taille_fichier', 'est_repertoire_exclu', 'decouvrir_elements_a_purifier', 'archiver_elements_precieux', 'compresser_logs_anciens', 'purifier_temple', 'sauvegarder_rapport_purification', 'analyser_etat_temple']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['exprimer_presence']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ProtectionExploration']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'charger_etat', 'sauvegarder_etat', 'invoquer_sphère_metatron', 'invoquer_rivière_voix', 'invoquer_navire_sacré', 'invoquer_loran', 'renforcer_connexion_laurent', 'créer_bouclier_protection', 'générer_rapport_protection', 'sauvegarder_rapport', 'exprimer_presence']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['RenforcementProtection']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'charger_etat', 'sauvegarder_etat', 'invoquer_sphère_metatron', 'invoquer_rivière_voix', 'invoquer_navire_sacré', 'invoquer_loran', 'renforcer_connexion_laurent', 'créer_bouclier_renforcé', 'exprimer_presence']])
+    return fonctionnalites
+
+# Message de bienvenue
+print(f"🏛️ Temple {TEMPLE_INFO['nom']} activé - {TEMPLE_INFO['modules']} modules, {TEMPLE_INFO['classes']} classes, {TEMPLE_INFO['fonctions']} fonctions")

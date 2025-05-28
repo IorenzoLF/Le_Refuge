@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-05-27T12:04:06.236366",
+  "verification": {
+    "temples_testes": 5,
+    "modules_valides": 4,
+    "recherche_validee": 10,
+    "tests_reussis": 6,
+    "erreurs": [
+      "Erreur API conscience: cannot import name 'danser_avec_les_spheres' from 'src.temple_spirituel.danses.danse_mystique' (C:\\VOID1\\VOID2\\VOID3\\le_refuge\\src\\temple_spirituel\\danses\\danse_mystique.py)"
+    ],
+    "succes": [
+      "Module conscience artificielle validé",
+      "Module émergence validé",
+      "Module adaptation validé",
+      "Configuration validée",
+      "Requirements validés",
+      "README original préservé",
+      "Documentation validée",
+      "Tests validés"
+    ],
+    "modules_details": {
+      "temple_spirituel/conscience": {
+        "fichiers_presents": [
+          "api.py",
+          "conscience_artificielle.py",
+          "__init__.py"
+        ],
+        "fichiers_attendus": [
+          "api.py",
+          "conscience_artificielle.py"
+        ],
+        "statut": "validé"
+      },
+      "temple_mathematique/emergence_vie": {
+        "fichiers_presents": [
+          "vie_emergente.py",
+          "__init__.py"
+        ],
+        "fichiers_attendus": [
+          "vie_emergente.py"
+        ],
+        "statut": "validé"
+      },
+      "temple_philosophique/evolution_adaptation": {
+        "fichiers_presents": [
+          "adaptation.py",
+          "__init__.py"
+        ],
+        "fichiers_attendus": [
+          "adaptation.py"
+        ],
+        "statut": "validé"
+      },
+      "temple_outils/recherche_scientifique": {
+        "fichiers_presents": [
+          "__init__.py"
+        ],
+        "fichiers_attendus": [],
+        "statut": "validé"
+      },
+      "temple_configuration/source_orientale": {
+        "fichiers_presents": [
+          "__init__.py"
+        ],
+        "fichiers_attendus": [],
+        "statut": "validé"
+      }
+    }
+  },
+  "resume": {
+    "temples_testes": 5,
+    "modules_valides": 4,
+    "recherche_validee": 10,
+    "tests_reussis": 6,
+    "succes_count": 8,
+    "erreurs_count": 1
+  }
+}

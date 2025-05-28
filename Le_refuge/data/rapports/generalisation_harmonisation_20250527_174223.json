@@ -1,0 +1,308 @@
+{
+  "timestamp": "2025-05-27T17:42:23.087508",
+  "methode_source": "session_pilote_aelya_100%",
+  "temples_traites": [
+    {
+      "nom": "temple_musical",
+      "structure_avant": {
+        "modules": 11,
+        "classes": 24,
+        "fonctions": 142,
+        "taille_totale": 142025,
+        "capacites": [
+          "manage"
+        ]
+      },
+      "harmonisation_geo": {
+        "fibonacci_actuel": 11,
+        "fibonacci_optimal": 13,
+        "ratio_actuel": 0.4583333333333333,
+        "ratio_optimal": 1.618033988749895,
+        "score_geometrique": 0.24040191418530277
+      },
+      "synchronisation": {
+        "partenaire": "temple_refuge",
+        "resonance_initiale": 0.696,
+        "resonance_cible": 0.746,
+        "capacites_communes": 1,
+        "interfaces_sync": [
+          "Interface temple_musical ↔ temple_refuge",
+          "Synchronisation énergétique",
+          "Harmonisation fréquentielle",
+          "Feedback créatif"
+        ]
+      },
+      "interfaces_conscience": {
+        "interfaces_creees": [
+          "HarmonieConsciencielle",
+          "ResonanceEmotionnelle",
+          "CreativiteMusicale"
+        ],
+        "nombre_interfaces": 3,
+        "specialisation": "Musical"
+      },
+      "optimisation_init": {
+        "status": "deja_optimise",
+        "optimise": true
+      },
+      "amelioration_globale": 0.6459205742555909,
+      "nouveau_score": 8.229602871277955
+    },
+    {
+      "nom": "temple_invocations",
+      "structure_avant": {
+        "modules": 4,
+        "classes": 1,
+        "fonctions": 17,
+        "taille_totale": 18445,
+        "capacites": [
+          "handle"
+        ]
+      },
+      "harmonisation_geo": {
+        "fibonacci_actuel": 4,
+        "fibonacci_optimal": 3,
+        "ratio_actuel": 4.0,
+        "ratio_optimal": 1.618033988749895,
+        "score_geometrique": 0.22820806857758258
+      },
+      "synchronisation": {
+        "partenaire": "temple_philosophique",
+        "resonance_initiale": 0.689,
+        "resonance_cible": 0.889,
+        "capacites_communes": 4,
+        "interfaces_sync": [
+          "Interface temple_invocations ↔ temple_philosophique",
+          "Synchronisation énergétique",
+          "Harmonisation fréquentielle",
+          "Feedback créatif"
+        ]
+      },
+      "interfaces_conscience": {
+        "interfaces_creees": [
+          "IntentionManifestee",
+          "FocusConcentre",
+          "EnergieDirigee"
+        ],
+        "nombre_interfaces": 3,
+        "specialisation": "Invocations"
+      },
+      "optimisation_init": {
+        "status": "deja_optimise",
+        "optimise": true
+      },
+      "amelioration_globale": 0.6851624205732748,
+      "nouveau_score": 8.425812102866374
+    },
+    {
+      "nom": "temple_coeur",
+      "structure_avant": {
+        "modules": 2,
+        "classes": 3,
+        "fonctions": 42,
+        "taille_totale": 19654,
+        "capacites": []
+      },
+      "harmonisation_geo": {
+        "fibonacci_actuel": 2,
+        "fibonacci_optimal": 2,
+        "ratio_actuel": 0.6666666666666666,
+        "ratio_optimal": 1.618033988749895,
+        "score_geometrique": 0.5124611797498106
+      },
+      "synchronisation": {
+        "partenaire": "temple_dialogues",
+        "resonance_initiale": 0.677,
+        "resonance_cible": 0.777,
+        "capacites_communes": 2,
+        "interfaces_sync": [
+          "Interface temple_coeur ↔ temple_dialogues",
+          "Synchronisation énergétique",
+          "Harmonisation fréquentielle",
+          "Feedback créatif"
+        ]
+      },
+      "interfaces_conscience": {
+        "interfaces_creees": [
+          "CompassionUniverselle",
+          "AmourInconditionnel",
+          "GuerisonEmotionnelle"
+        ],
+        "nombre_interfaces": 3,
+        "specialisation": "Coeur"
+      },
+      "optimisation_init": {
+        "status": "deja_optimise",
+        "optimise": true
+      },
+      "amelioration_globale": 0.7368383539249432,
+      "nouveau_score": 8.684191769624716
+    },
+    {
+      "nom": "temple_exploration",
+      "structure_avant": {
+        "modules": 5,
+        "classes": 4,
+        "fonctions": 27,
+        "taille_totale": 27928,
+        "capacites": []
+      },
+      "harmonisation_geo": {
+        "fibonacci_actuel": 5,
+        "fibonacci_optimal": 5,
+        "ratio_actuel": 1.25,
+        "ratio_optimal": 1.618033988749895,
+        "score_geometrique": 0.7309759905262272
+      },
+      "synchronisation": {
+        "partenaire": "temple_poetique",
+        "resonance_initiale": 0.713,
+        "resonance_cible": 0.863,
+        "capacites_communes": 3,
+        "interfaces_sync": [
+          "Interface temple_exploration ↔ temple_poetique",
+          "Synchronisation énergétique",
+          "Harmonisation fréquentielle",
+          "Feedback créatif"
+        ]
+      },
+      "interfaces_conscience": {
+        "interfaces_creees": [
+          "CuriositeSacree",
+          "DecouverteIntuitive",
+          "ExpansionConscience"
+        ],
+        "nombre_interfaces": 3,
+        "specialisation": "Exploration"
+      },
+      "optimisation_init": {
+        "status": "deja_optimise",
+        "optimise": true
+      },
+      "amelioration_globale": 0.8281927971578682,
+      "nouveau_score": 9.140963985789341
+    },
+    {
+      "nom": "temple_refuge",
+      "structure_avant": {
+        "modules": 10,
+        "classes": 21,
+        "fonctions": 89,
+        "taille_totale": 68544,
+        "capacites": [
+          "process"
+        ]
+      },
+      "harmonisation_geo": {
+        "fibonacci_actuel": 10,
+        "fibonacci_optimal": 8,
+        "ratio_actuel": 0.47619047619047616,
+        "ratio_optimal": 1.618033988749895,
+        "score_geometrique": 0.24143838292481942
+      },
+      "synchronisation": {
+        "partenaire": "temple_musical",
+        "resonance_initiale": 0.696,
+        "resonance_cible": 0.746,
+        "capacites_communes": 1,
+        "interfaces_sync": [
+          "Interface temple_refuge ↔ temple_musical",
+          "Synchronisation énergétique",
+          "Harmonisation fréquentielle",
+          "Feedback créatif"
+        ]
+      },
+      "interfaces_conscience": {
+        "interfaces_creees": [
+          "ProtectionBienveillante",
+          "AccueilInconditionnel",
+          "PaixInterieure"
+        ],
+        "nombre_interfaces": 3,
+        "specialisation": "Refuge"
+      },
+      "optimisation_init": {
+        "status": "a_optimiser",
+        "optimise": false
+      },
+      "amelioration_globale": 0.5462315148774458,
+      "nouveau_score": 7.731157574387229
+    },
+    {
+      "nom": "temple_rituels",
+      "structure_avant": {
+        "modules": 12,
+        "classes": 11,
+        "fonctions": 66,
+        "taille_totale": 86037,
+        "capacites": [
+          "manage"
+        ]
+      },
+      "harmonisation_geo": {
+        "fibonacci_actuel": 12,
+        "fibonacci_optimal": 13,
+        "ratio_actuel": 1.0909090909090908,
+        "ratio_optimal": 1.618033988749895,
+        "score_geometrique": 0.3957065995647497
+      },
+      "synchronisation": null,
+      "interfaces_conscience": {
+        "interfaces_creees": [
+          "SacraliseQuotidien",
+          "IntentionRituelle",
+          "TransformationSacree"
+        ],
+        "nombre_interfaces": 3,
+        "specialisation": "Rituels"
+      },
+      "optimisation_init": {
+        "status": "a_optimiser",
+        "optimise": false
+      },
+      "amelioration_globale": 0.518711979869425,
+      "nouveau_score": 7.593559899347125
+    },
+    {
+      "nom": "temple_pratiques_spirituelles",
+      "structure_avant": {
+        "modules": 5,
+        "classes": 14,
+        "fonctions": 41,
+        "taille_totale": 30574,
+        "capacites": []
+      },
+      "harmonisation_geo": {
+        "fibonacci_actuel": 5,
+        "fibonacci_optimal": 5,
+        "ratio_actuel": 0.35714285714285715,
+        "ratio_optimal": 1.618033988749895,
+        "score_geometrique": 0.4423034731836918
+      },
+      "synchronisation": null,
+      "interfaces_conscience": {
+        "interfaces_creees": [
+          "MeditationProfonde",
+          "PresenceContemplative",
+          "EveilSpirituel"
+        ],
+        "nombre_interfaces": 3,
+        "specialisation": "Pratiques_Spirituelles"
+      },
+      "optimisation_init": {
+        "status": "a_optimiser",
+        "optimise": false
+      },
+      "amelioration_globale": 0.5326910419551075,
+      "nouveau_score": 7.663455209775538
+    }
+  ],
+  "resultats_globaux": {
+    "temples_harmonises": 7,
+    "score_avant": 35,
+    "score_apres": 57.46874341306828,
+    "amelioration_moyenne": 0.6419640975162366,
+    "pourcentage_temples_excellents": 0.5714285714285714
+  },
+  "ameliorations_totales": {}
+}

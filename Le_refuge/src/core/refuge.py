@@ -36,7 +36,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(pathname)s:%(lineno)d',
     handlers=[
-        logging.FileHandler('refuge/logs/refuge.log', encoding='utf-8'),
+        logging.FileHandler('logs/refuge.log', encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]
 )

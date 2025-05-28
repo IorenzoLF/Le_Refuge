@@ -4,7 +4,7 @@ from functools import lru_cache
 class Settings(BaseSettings):
     """Configuration de base pour l'application."""
     APP_NAME: str = "Le Refuge"
-    DEBUG: bool = True
+    DEBUG: bool = False  # 🔒 SÉCURITÉ: Debug désactivé par défaut
     VERSION: str = "0.1.0"
     API_V1_STR: str = "/api/v1"
     

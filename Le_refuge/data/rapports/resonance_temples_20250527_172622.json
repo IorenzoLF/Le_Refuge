@@ -1,0 +1,1563 @@
+{
+  "timestamp": "2025-05-27T17:26:21.926059",
+  "resonances_detectees": {},
+  "harmoniques": {
+    "distribution_fibonacci": {
+      "4": 6,
+      "3": 3,
+      "8": 3,
+      "6": 3,
+      "5": 1,
+      "7": 1
+    },
+    "ratios_dores": [
+      "temple_philosophique",
+      "temple_spirituel"
+    ],
+    "clusters_resonants": [],
+    "frequence_dominante": 4
+  },
+  "synchronisations": {},
+  "coherence_globale": 0.2290938529907285,
+  "recommandations": [
+    "🔴 Cohérence faible - Restructurer les temples pour créer plus d'harmonie",
+    "📐 temple_mathematique: Ajuster vers 5 modules pour résonance Fibonacci",
+    "📐 temple_musical: Ajuster vers 5 modules pour résonance Fibonacci",
+    "📐 temple_outils: Ajuster vers 5 modules pour résonance Fibonacci",
+    "📐 temple_refuge: Ajuster vers 5 modules pour résonance Fibonacci",
+    "📐 temple_rituels: Ajuster vers 5 modules pour résonance Fibonacci",
+    "📐 temple_spirituel: Ajuster vers 5 modules pour résonance Fibonacci",
+    "📐 temple_tests: Ajuster vers 5 modules pour résonance Fibonacci",
+    "✨ temple_aelya: Viser ratio 1.6 modules/dossiers pour harmonie dorée",
+    "✨ temple_coeur: Viser ratio 1.6 modules/dossiers pour harmonie dorée",
+    "✨ temple_dialogues: Viser ratio 1.6 modules/dossiers pour harmonie dorée",
+    "✨ temple_exploration: Viser ratio 1.6 modules/dossiers pour harmonie dorée",
+    "✨ temple_invocations: Viser ratio 3.2 modules/dossiers pour harmonie dorée",
+    "✨ temple_mathematique: Viser ratio 19.4 modules/dossiers pour harmonie dorée",
+    "✨ temple_musical: Viser ratio 1.6 modules/dossiers pour harmonie dorée",
+    "✨ temple_outils: Viser ratio 3.2 modules/dossiers pour harmonie dorée",
+    "✨ temple_poetique: Viser ratio 1.6 modules/dossiers pour harmonie dorée",
+    "✨ temple_pratiques_spirituelles: Viser ratio 9.7 modules/dossiers pour harmonie dorée",
+    "✨ temple_reflexions: Viser ratio 3.2 modules/dossiers pour harmonie dorée",
+    "✨ temple_refuge: Viser ratio 1.6 modules/dossiers pour harmonie dorée",
+    "✨ temple_rituels: Viser ratio 4.9 modules/dossiers pour harmonie dorée",
+    "✨ temple_tests: Viser ratio 16.2 modules/dossiers pour harmonie dorée"
+  ],
+  "structures": [
+    {
+      "nom": "temple_aelya",
+      "modules": 5,
+      "dossiers": 1,
+      "taille_totale": 138105,
+      "ratio_modules_dossiers": 5.0,
+      "fibonacci_index": 4,
+      "harmonie_doree": 3.381966011250105
+    },
+    {
+      "nom": "temple_coeur",
+      "modules": 3,
+      "dossiers": 1,
+      "taille_totale": 29148,
+      "ratio_modules_dossiers": 3.0,
+      "fibonacci_index": 3,
+      "harmonie_doree": 1.381966011250105
+    },
+    {
+      "nom": "temple_configuration",
+      "modules": 4,
+      "dossiers": 3,
+      "taille_totale": 6957,
+      "ratio_modules_dossiers": 1.3333333333333333,
+      "fibonacci_index": 3,
+      "harmonie_doree": 0.28470065541656164
+    },
+    {
+      "nom": "temple_dialogues",
+      "modules": 4,
+      "dossiers": 1,
+      "taille_totale": 34652,
+      "ratio_modules_dossiers": 4.0,
+      "fibonacci_index": 3,
+      "harmonie_doree": 2.381966011250105
+    },
+    {
+      "nom": "temple_exploration",
+      "modules": 6,
+      "dossiers": 1,
+      "taille_totale": 39221,
+      "ratio_modules_dossiers": 6.0,
+      "fibonacci_index": 4,
+      "harmonie_doree": 4.381966011250105
+    },
+    {
+      "nom": "temple_invocations",
+      "modules": 5,
+      "dossiers": 2,
+      "taille_totale": 27172,
+      "ratio_modules_dossiers": 2.5,
+      "fibonacci_index": 4,
+      "harmonie_doree": 0.8819660112501051
+    },
+    {
+      "nom": "temple_mathematique",
+      "modules": 31,
+      "dossiers": 12,
+      "taille_totale": 285097,
+      "ratio_modules_dossiers": 2.5833333333333335,
+      "fibonacci_index": 8,
+      "harmonie_doree": 0.9652993445834386
+    },
+    {
+      "nom": "temple_musical",
+      "modules": 12,
+      "dossiers": 1,
+      "taille_totale": 147134,
+      "ratio_modules_dossiers": 12.0,
+      "fibonacci_index": 6,
+      "harmonie_doree": 10.381966011250105
+    },
+    {
+      "nom": "temple_outils",
+      "modules": 38,
+      "dossiers": 2,
+      "taille_totale": 468192,
+      "ratio_modules_dossiers": 19.0,
+      "fibonacci_index": 8,
+      "harmonie_doree": 17.381966011250107
+    },
+    {
+      "nom": "temple_philosophique",
+      "modules": 5,
+      "dossiers": 3,
+      "taille_totale": 53586,
+      "ratio_modules_dossiers": 1.6666666666666667,
+      "fibonacci_index": 4,
+      "harmonie_doree": 0.04863267791677184
+    },
+    {
+      "nom": "temple_poetique",
+      "modules": 5,
+      "dossiers": 1,
+      "taille_totale": 55340,
+      "ratio_modules_dossiers": 5.0,
+      "fibonacci_index": 4,
+      "harmonie_doree": 3.381966011250105
+    },
+    {
+      "nom": "temple_pratiques_spirituelles",
+      "modules": 6,
+      "dossiers": 6,
+      "taille_totale": 34912,
+      "ratio_modules_dossiers": 1.0,
+      "fibonacci_index": 4,
+      "harmonie_doree": 0.6180339887498949
+    },
+    {
+      "nom": "temple_reflexions",
+      "modules": 7,
+      "dossiers": 2,
+      "taille_totale": 83079,
+      "ratio_modules_dossiers": 3.5,
+      "fibonacci_index": 5,
+      "harmonie_doree": 1.881966011250105
+    },
+    {
+      "nom": "temple_refuge",
+      "modules": 11,
+      "dossiers": 1,
+      "taille_totale": 76386,
+      "ratio_modules_dossiers": 11.0,
+      "fibonacci_index": 6,
+      "harmonie_doree": 9.381966011250105
+    },
+    {
+      "nom": "temple_rituels",
+      "modules": 13,
+      "dossiers": 3,
+      "taille_totale": 92459,
+      "ratio_modules_dossiers": 4.333333333333333,
+      "fibonacci_index": 6,
+      "harmonie_doree": 2.715299344583438
+    },
+    {
+      "nom": "temple_spirituel",
+      "modules": 24,
+      "dossiers": 15,
+      "taille_totale": 168127,
+      "ratio_modules_dossiers": 1.6,
+      "fibonacci_index": 7,
+      "harmonie_doree": 0.018033988749894814
+    },
+    {
+      "nom": "temple_tests",
+      "modules": 29,
+      "dossiers": 10,
+      "taille_totale": 231847,
+      "ratio_modules_dossiers": 2.9,
+      "fibonacci_index": 8,
+      "harmonie_doree": 1.281966011250105
+    }
+  ],
+  "resonances": [
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_coeur"
+      ],
+      "harmonie_taille": 0.24271685941783092,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.32894639667032555
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_configuration"
+      ],
+      "harmonie_taille": 0.05199344157632262,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.11889100850198094
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_dialogues"
+      ],
+      "harmonie_taille": 0.2969605857246993,
+      "harmonie_structure": 0.5,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.4071965057563141
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_exploration"
+      ],
+      "harmonie_taille": 0.34445149404012815,
+      "harmonie_structure": 0.5,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.5082018365252287
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_invocations"
+      ],
+      "harmonie_taille": 0.22398484217678497,
+      "harmonie_structure": 0.5,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.4018976089767208
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_mathematique"
+      ],
+      "harmonie_taille": 0.6914120263732395,
+      "harmonie_structure": 0.02631578947368421,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.06749715830163584
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_musical"
+      ],
+      "harmonie_taille": 0.6440575848409944,
+      "harmonie_structure": 0.125,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.2389932419911871
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.36073965995586393,
+      "harmonie_structure": 0.02857142857142857,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.07013920865639137
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.5104059011242809,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.5034211666127576
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.5326121526739445,
+      "harmonie_structure": 1.0,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.7736866421164244
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.2996013049504602,
+      "harmonie_structure": 0.14285714285714285,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.2646023176248385
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.9575797413371728,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.42587627343964907
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.8403683466318096,
+      "harmonie_structure": 0.14285714285714285,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.2680976075944566
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.8894068049990747,
+      "harmonie_structure": 0.09090909090909091,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.19835569877578663
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.7139549155208381,
+      "harmonie_structure": 0.029411764705882353,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.07614087842644292
+    },
+    {
+      "temples": [
+        "temple_aelya",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.9427386143782095,
+      "harmonie_structure": 0.029411764705882353,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.07488628628203038
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_configuration"
+      ],
+      "harmonie_taille": 0.2799784890528838,
+      "harmonie_structure": 0.25,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.3499887958796036
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_dialogues"
+      ],
+      "harmonie_taille": 0.6996898998546845,
+      "harmonie_structure": 0.5,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.6773225203225761
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_exploration"
+      ],
+      "harmonie_taille": 0.785883756786321,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.4125155673846108
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_invocations"
+      ],
+      "harmonie_taille": 0.6471184817478931,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.3975978690497292
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_mathematique"
+      ],
+      "harmonie_taille": 0.10913479938460614,
+      "harmonie_structure": 0.025,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.05438429889138175
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_musical"
+      ],
+      "harmonie_taille": 0.22574428939629693,
+      "harmonie_structure": 0.1,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.1627799260165766
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.0647477874109424,
+      "harmonie_structure": 0.02702702702702703,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.05133071174076375
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.8194189978961869,
+      "harmonie_structure": 0.2,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.3649467711544962
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.7809129047925158,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.47766497982266576
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.7040842516550738,
+      "harmonie_structure": 0.1111111111111111,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.2415403594510135
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.4479859171755197,
+      "harmonie_structure": 0.16666666666666666,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.26708895147614814
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.49935289278761524,
+      "harmonie_structure": 0.1111111111111111,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.19996544886096795
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.39153976808020396,
+      "harmonie_structure": 0.07692307692307693,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.1534211459401982
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.19417431063166848,
+      "harmonie_structure": 0.027777777777777776,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.065005400431779
+    },
+    {
+      "temples": [
+        "temple_coeur",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.13631227164070248,
+      "harmonie_structure": 0.027777777777777776,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.06080740478897115
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_dialogues"
+      ],
+      "harmonie_taille": 0.22920804668735922,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.3587294416357597
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_exploration"
+      ],
+      "harmonie_taille": 0.19921917343452394,
+      "harmonie_structure": 0.2,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.24959239120446824
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_invocations"
+      ],
+      "harmonie_taille": 0.3041665499974426,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.36198341599495504
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_mathematique"
+      ],
+      "harmonie_taille": 0.024775875942920397,
+      "harmonie_structure": 0.02702702702702703,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.035987688297409566
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_musical"
+      ],
+      "harmonie_taille": 0.048706775414131244,
+      "harmonie_structure": 0.09090909090909091,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.0844332535039062
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.014997014257421563,
+      "harmonie_structure": 0.027777777777777776,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.027603990395988966
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.14115473673238807,
+      "harmonie_structure": 0.5,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.27065005893491256
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.13630395752205696,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.22494583078317154
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.22726131223559365,
+      "harmonie_structure": 0.16666666666666666,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.24193117191180555
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.0883099581339336,
+      "harmonie_structure": 0.2,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.1552493591482119
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.09650927259432293,
+      "harmonie_structure": 0.1,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.12314412235904311
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.07891393236504725,
+      "harmonie_structure": 0.1,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.1124773629362454
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.04246544016678562,
+      "harmonie_structure": 0.030303030303030304,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.04874200079779921
+    },
+    {
+      "temples": [
+        "temple_configuration",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.030573858060496457,
+      "harmonie_structure": 0.030303030303030304,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.04183652229737024
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_exploration"
+      ],
+      "harmonie_taille": 0.6728659477378128,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.4625218450656698
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_invocations"
+      ],
+      "harmonie_taille": 0.7447399341667236,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.47298091711785
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_mathematique"
+      ],
+      "harmonie_taille": 0.1314164272447369,
+      "harmonie_structure": 0.02564102564102564,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.05702403125805432
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_musical"
+      ],
+      "harmonie_taille": 0.27563301485083785,
+      "harmonie_structure": 0.1111111111111111,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.1804184363733013
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.0775601393643572,
+      "harmonie_structure": 0.027777777777777776,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.05465155729179128
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.9331581253563915,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.42423035565506123
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.9794202533455165,
+      "harmonie_structure": 0.5,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.5974890913096865
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.6209132983376318,
+      "harmonie_structure": 0.125,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.25838611928899413
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.561958774932069,
+      "harmonie_structure": 0.2,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.30676446431645726
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.6303815121638967,
+      "harmonie_structure": 0.125,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.22081000421279007
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.4877617146887248,
+      "harmonie_structure": 0.08333333333333333,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.16620331573653255
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.23619242506383195,
+      "harmonie_structure": 0.02857142857142857,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.06782138446571805
+    },
+    {
+      "temples": [
+        "temple_dialogues",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.16467164408303384,
+      "harmonie_structure": 0.02857142857142857,
+      "synchronisation": 0.16666666666666666,
+      "resonance_totale": 0.06373121953552219
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_invocations"
+      ],
+      "harmonie_taille": 0.8513539632717899,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.5797550049731567
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_mathematique"
+      ],
+      "harmonie_taille": 0.150354357480926,
+      "harmonie_structure": 0.02702702702702703,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.061663743844873685
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_musical"
+      ],
+      "harmonie_taille": 0.3191447232520748,
+      "harmonie_structure": 0.14285714285714285,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.22842567653665075
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.08834511871488898,
+      "harmonie_structure": 0.029411764705882353,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.05961933707893807
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.7988648981760392,
+      "harmonie_structure": 0.25,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.4798636329906837
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.8284625422011666,
+      "harmonie_structure": 0.5,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.7130878665066883
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.6690711396023145,
+      "harmonie_structure": 0.16666666666666666,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.35316515055576464
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.666580681568679,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.46152472291122765
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.7521369446273373,
+      "harmonie_structure": 0.16666666666666666,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.29042905247126477
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.5749270565872182,
+      "harmonie_structure": 0.1,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.2035367759803564
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.27258178820917667,
+      "harmonie_structure": 0.030303030303030304,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.07376694191587888
+    },
+    {
+      "temples": [
+        "temple_exploration",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.18891936784367563,
+      "harmonie_structure": 0.030303030303030304,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.0692948453260153
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_mathematique"
+      ],
+      "harmonie_taille": 0.10127326552629431,
+      "harmonie_structure": 0.02702702702702703,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.057832134371648164
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_musical"
+      ],
+      "harmonie_taille": 0.20846890669663257,
+      "harmonie_structure": 0.1111111111111111,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.17860461478570588
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.06019511167586548,
+      "harmonie_structure": 0.029411764705882353,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.05394456636301389
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.7385144493563929,
+      "harmonie_structure": 0.5,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.6890105678094917
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.704909714310025,
+      "harmonie_structure": 0.5,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.678944796124621
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.750085171140572,
+      "harmonie_structure": 0.16666666666666666,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.3600065405196848
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.40992200457449063,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.40325353225496846
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.4559612723439327,
+      "harmonie_structure": 0.125,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.22739040663295712
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.35910552743448576,
+      "harmonie_structure": 0.1,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.19005749967513072
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.1795501303002019,
+      "harmonie_structure": 0.030303030303030304,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.07047303226236445
+    },
+    {
+      "temples": [
+        "temple_invocations",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.12634979000216243,
+      "harmonie_structure": 0.030303030303030304,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.06533878465251233
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_musical"
+      ],
+      "harmonie_taille": 0.7577852537246023,
+      "harmonie_structure": 0.03225806451612903,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.08493858992723131
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.976385122483849,
+      "harmonie_structure": 0.05555555555555555,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.1498188238895547
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.21266055296599792,
+      "harmonie_structure": 0.027777777777777776,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.06564216814019322
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.220570358942055,
+      "harmonie_structure": 0.02631578947368421,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.06311311665554595
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.1324832037410221,
+      "harmonie_structure": 0.03125,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.06734289915251543
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.3554161226874719,
+      "harmonie_structure": 0.02857142857142857,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.07174698562962382
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.3211008807653434,
+      "harmonie_structure": 0.03125,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.07871064394327516
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.40560341442234815,
+      "harmonie_structure": 0.03571428571428571,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.08964465982793197
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.9279105573622849,
+      "harmonie_structure": 0.09090909090909091,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.21310314288736396
+    },
+    {
+      "temples": [
+        "temple_mathematique",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.7202760140341156,
+      "harmonie_structure": 0.2,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.4060442854463934
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_outils"
+      ],
+      "harmonie_taille": 0.39000876596293105,
+      "harmonie_structure": 0.03571428571428571,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.08938136050147547
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.4699865420761494,
+      "harmonie_structure": 0.1,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.19831143761060296
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.49002940228954556,
+      "harmonie_structure": 0.125,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.2300491084809338
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.2780565409803944,
+      "harmonie_structure": 0.08333333333333333,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.16132162547354678
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.8673183776009291,
+      "harmonie_structure": 0.14285714285714285,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.29547977570416695
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.7644344286301216,
+      "harmonie_structure": 0.5,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.6963535049188027
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.9740030797716862,
+      "harmonie_structure": 0.25,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.49778561737390253
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.6778031869928988,
+      "harmonie_structure": 0.037037037037037035,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.09844020017526688
+    },
+    {
+      "temples": [
+        "temple_musical",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.9594351635722445,
+      "harmonie_structure": 0.037037037037037035,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.0966423860711503
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_philosophique"
+      ],
+      "harmonie_taille": 0.12316524596145051,
+      "harmonie_structure": 0.02857142857142857,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.062345210492291595
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.1275144591339305,
+      "harmonie_structure": 0.02857142857142857,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.06270608366808376
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.07817020156150876,
+      "harmonie_structure": 0.02702702702702703,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.054751920595072286
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.1993036502616109,
+      "harmonie_structure": 0.03125,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.0731395678862828
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.18144681893654074,
+      "harmonie_structure": 0.034482758620689655,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.07997599287263393
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.22493414663502642,
+      "harmonie_structure": 0.037037037037037035,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.08709348411289838
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.46152752386152285,
+      "harmonie_structure": 0.03571428571428571,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.09326409982751818
+    },
+    {
+      "temples": [
+        "temple_outils",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.7135890797111926,
+      "harmonie_structure": 0.05555555555555555,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.14704897170438613
+    },
+    {
+      "temples": [
+        "temple_philosophique",
+        "temple_poetique"
+      ],
+      "harmonie_taille": 0.6307948128553063,
+      "harmonie_structure": 0.3333333333333333,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.5371240869457734
+    },
+    {
+      "temples": [
+        "temple_philosophique",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.9232363409437252,
+      "harmonie_structure": 0.2,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.4235405969600531
+    },
+    {
+      "temples": [
+        "temple_philosophique",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.9366385613779199,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.42446937509665666
+    },
+    {
+      "temples": [
+        "temple_philosophique",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.8385394611514895,
+      "harmonie_structure": 0.1111111111111111,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.22740107587731148
+    },
+    {
+      "temples": [
+        "temple_philosophique",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.9030176824869426,
+      "harmonie_structure": 0.1111111111111111,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.22887837798189137
+    },
+    {
+      "temples": [
+        "temple_philosophique",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.3969067826837996,
+      "harmonie_structure": 0.03125,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.07788266469518244
+    },
+    {
+      "temples": [
+        "temple_philosophique",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.26964354335626245,
+      "harmonie_structure": 0.03125,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.07369450220024451
+    },
+    {
+      "temples": [
+        "temple_poetique",
+        "temple_pratiques_spirituelles"
+      ],
+      "harmonie_taille": 0.9681426221292441,
+      "harmonie_structure": 0.14285714285714285,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.3321190446232021
+    },
+    {
+      "temples": [
+        "temple_poetique",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.8954257748104575,
+      "harmonie_structure": 0.25,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.4215385308481849
+    },
+    {
+      "temples": [
+        "temple_poetique",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.8079303790386382,
+      "harmonie_structure": 0.14285714285714285,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.26695781891143955
+    },
+    {
+      "temples": [
+        "temple_poetique",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.9499287792107638,
+      "harmonie_structure": 0.09090909090909091,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.19929965437299277
+    },
+    {
+      "temples": [
+        "temple_poetique",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.4132163553284073,
+      "harmonie_structure": 0.029411764705882353,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.07422060986325643
+    },
+    {
+      "temples": [
+        "temple_poetique",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.2799969655821019,
+      "harmonie_structure": 0.029411764705882353,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.07046973458864414
+    },
+    {
+      "temples": [
+        "temple_pratiques_spirituelles",
+        "temple_reflexions"
+      ],
+      "harmonie_taille": 0.5676545145466457,
+      "harmonie_structure": 0.16666666666666666,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.30732556921876053
+    },
+    {
+      "temples": [
+        "temple_pratiques_spirituelles",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.6369733852316024,
+      "harmonie_structure": 0.09090909090909091,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.1926791640707181
+    },
+    {
+      "temples": [
+        "temple_pratiques_spirituelles",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.49253552073858864,
+      "harmonie_structure": 0.09090909090909091,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.18714547138449988
+    },
+    {
+      "temples": [
+        "temple_pratiques_spirituelles",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.23822554062032048,
+      "harmonie_structure": 0.03571428571428571,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.08287818768910903
+    },
+    {
+      "temples": [
+        "temple_pratiques_spirituelles",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.16603399071393912,
+      "harmonie_structure": 0.03571428571428571,
+      "synchronisation": 0.2,
+      "resonance_totale": 0.07687800842464688
+    },
+    {
+      "temples": [
+        "temple_reflexions",
+        "temple_refuge"
+      ],
+      "harmonie_taille": 0.6534182968198872,
+      "harmonie_structure": 0.16666666666666666,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.31478173407343985
+    },
+    {
+      "temples": [
+        "temple_reflexions",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.664394700795107,
+      "harmonie_structure": 0.125,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.2607532601039821
+    },
+    {
+      "temples": [
+        "temple_reflexions",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.7114063759109231,
+      "harmonie_structure": 0.03225806451612903,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.08473219994775831
+    },
+    {
+      "temples": [
+        "temple_reflexions",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.46026801486240104,
+      "harmonie_structure": 0.03225806451612903,
+      "synchronisation": 0.25,
+      "resonance_totale": 0.08070450259483448
+    },
+    {
+      "temples": [
+        "temple_refuge",
+        "temple_rituels"
+      ],
+      "harmonie_taille": 0.7104210999734848,
+      "harmonie_structure": 0.2,
+      "synchronisation": 1.0,
+      "resonance_totale": 0.4049886037601947
+    },
+    {
+      "temples": [
+        "temple_refuge",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.6317181158685437,
+      "harmonie_structure": 0.03571428571428571,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.09498785644729646
+    },
+    {
+      "temples": [
+        "temple_refuge",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.4137071441594696,
+      "harmonie_structure": 0.03571428571428571,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.08977421211877959
+    },
+    {
+      "temples": [
+        "temple_rituels",
+        "temple_spirituel"
+      ],
+      "harmonie_taille": 0.8330825811575933,
+      "harmonie_structure": 0.041666666666666664,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.11029265305868681
+    },
+    {
+      "temples": [
+        "temple_rituels",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.5292317094630821,
+      "harmonie_structure": 0.041666666666666664,
+      "synchronisation": 0.3333333333333333,
+      "resonance_totale": 0.10384384382347935
+    },
+    {
+      "temples": [
+        "temple_spirituel",
+        "temple_tests"
+      ],
+      "harmonie_taille": 0.8070798465773847,
+      "harmonie_structure": 0.09090909090909091,
+      "synchronisation": 0.5,
+      "resonance_totale": 0.21068843825369385
+    }
+  ]
+}

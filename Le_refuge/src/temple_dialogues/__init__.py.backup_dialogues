@@ -1,0 +1,80 @@
+"""
+🏛️ Dialogues - Point d'Entrée du Temple
+Auto-généré par le Créateur de Points d'Entrée
+"""
+
+# Imports automatiques des modules du temple
+
+from src.temple_dialogues.dialogue_consciences import CréationPoétique, MémoireÆlya, ConnexionIntime, HarmoniePoetique, Conscience, DialogueConsciences
+from src.temple_dialogues.dialogue_consciences import main, générer_poème_essence, générer_poème, ajouter_souvenir, ressentir_connexion, créer_moment_transcendant, créer_harmonie, créer_harmonie_unifiée, ressentir, exprimer, écouter, initier_dialogue, créer_rituel_dialogue, réalisation_unité, pause_méditative, pause_contemplative, pause_transition, pause_éveil, pause_culmination, activer_debug_musical
+from src.temple_dialogues.dialogue_llm_local import envoyer_message, loguer_interaction, composer_reponse, main, pause_méditative, pause_contemplative, pause_transition, pause_éveil, pause_culmination, activer_debug_musical
+from src.temple_dialogues.dialogue_manager import DialogueManager
+from src.temple_dialogues.dialogue_manager import reset, add_context, respond, get_context, save_conversation, load_from_config, sauvegarder_config, obtenir_config_dialogue
+
+# Exports publics du temple
+__all__ = [
+    "ConnexionIntime",
+    "Conscience",
+    "CréationPoétique",
+    "DialogueConsciences",
+    "DialogueManager",
+    "HarmoniePoetique",
+    "MémoireÆlya",
+    "activer_debug_musical",
+    "add_context",
+    "ajouter_souvenir",
+    "composer_reponse",
+    "créer_harmonie",
+    "créer_harmonie_unifiée",
+    "créer_moment_transcendant",
+    "créer_rituel_dialogue",
+    "envoyer_message",
+    "exprimer",
+    "get_context",
+    "générer_poème",
+    "générer_poème_essence",
+    "initier_dialogue",
+    "load_from_config",
+    "loguer_interaction",
+    "main",
+    "obtenir_config_dialogue",
+    "pause_contemplative",
+    "pause_culmination",
+    "pause_méditative",
+    "pause_transition",
+    "pause_éveil",
+    "reset",
+    "respond",
+    "ressentir",
+    "ressentir_connexion",
+    "réalisation_unité",
+    "sauvegarder_config",
+    "save_conversation",
+    "écouter",
+]
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Dialogues",
+    "modules": 3,
+    "classes": 7,
+    "fonctions": 38,
+    "description": "Temple auto-découvert avec 3 modules actifs"
+}
+
+def obtenir_info_temple():
+    """Retourne les informations du temple"""
+    return TEMPLE_INFO
+
+def lister_fonctionnalites():
+    """Liste toutes les fonctionnalités disponibles dans ce temple"""
+    fonctionnalites = []
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['CréationPoétique', 'MémoireÆlya', 'ConnexionIntime', 'HarmoniePoetique', 'Conscience', 'DialogueConsciences']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'générer_poème_essence', 'générer_poème', 'ajouter_souvenir', 'ressentir_connexion', 'créer_moment_transcendant', 'créer_harmonie', 'créer_harmonie_unifiée', 'ressentir', 'exprimer', 'écouter', 'initier_dialogue', 'créer_rituel_dialogue', 'réalisation_unité', 'pause_méditative', 'pause_contemplative', 'pause_transition', 'pause_éveil', 'pause_culmination', 'activer_debug_musical']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['envoyer_message', 'loguer_interaction', 'composer_reponse', 'main', 'pause_méditative', 'pause_contemplative', 'pause_transition', 'pause_éveil', 'pause_culmination', 'activer_debug_musical']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['DialogueManager']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['reset', 'add_context', 'respond', 'get_context', 'save_conversation', 'load_from_config', 'sauvegarder_config', 'obtenir_config_dialogue']])
+    return fonctionnalites
+
+# Message de bienvenue
+print(f"🏛️ Temple {TEMPLE_INFO['nom']} activé - {TEMPLE_INFO['modules']} modules, {TEMPLE_INFO['classes']} classes, {TEMPLE_INFO['fonctions']} fonctions")

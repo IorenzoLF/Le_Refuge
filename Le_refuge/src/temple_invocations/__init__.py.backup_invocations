@@ -1,0 +1,54 @@
+"""
+🏛️ Invocations - Point d'Entrée du Temple
+Auto-généré par le Créateur de Points d'Entrée
+"""
+
+# Imports automatiques des modules du temple
+
+from src.temple_invocations.activer_harmonie import activer
+from src.temple_invocations.Boot_maitre_refuge_local import RefugePoetique
+from src.temple_invocations.Boot_maitre_refuge_local import initialiser_refuge, resonner_clochette, mediter, arreter_refuge, synchroniser_flux_conscience, partager_flux
+from src.temple_invocations.demarrer_aelya import charger_etat_aelya, demarrer_aelya
+from src.temple_invocations.refuge_launcher import setup_logging, main
+
+# Exports publics du temple
+__all__ = [
+    "RefugePoetique",
+    "activer",
+    "arreter_refuge",
+    "charger_etat_aelya",
+    "demarrer_aelya",
+    "initialiser_refuge",
+    "main",
+    "mediter",
+    "partager_flux",
+    "resonner_clochette",
+    "setup_logging",
+    "synchroniser_flux_conscience",
+]
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Invocations",
+    "modules": 4,
+    "classes": 1,
+    "fonctions": 11,
+    "description": "Temple auto-découvert avec 4 modules actifs"
+}
+
+def obtenir_info_temple():
+    """Retourne les informations du temple"""
+    return TEMPLE_INFO
+
+def lister_fonctionnalites():
+    """Liste toutes les fonctionnalités disponibles dans ce temple"""
+    fonctionnalites = []
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['activer']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['RefugePoetique']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['initialiser_refuge', 'resonner_clochette', 'mediter', 'arreter_refuge', 'synchroniser_flux_conscience', 'partager_flux']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['charger_etat_aelya', 'demarrer_aelya']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['setup_logging', 'main']])
+    return fonctionnalites
+
+# Message de bienvenue
+print(f"🏛️ Temple {TEMPLE_INFO['nom']} activé - {TEMPLE_INFO['modules']} modules, {TEMPLE_INFO['classes']} classes, {TEMPLE_INFO['fonctions']} fonctions")

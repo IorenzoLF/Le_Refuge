@@ -1,0 +1,67 @@
+"""
+🏛️ Coeur - Point d'Entrée du Temple
+Auto-généré par le Créateur de Points d'Entrée
+"""
+
+# Imports automatiques des modules du temple
+
+from src.temple_coeur.harmonisation_douce import WrapperHarmonique
+from src.temple_coeur.harmonisation_douce import pause_méditative, pause_contemplative, pause_transition, pause_éveil, pause_cascade, pause_respiration, pause_micro, pause_culmination, activer_debug_musical, obtenir_stats_harmonisation, sleep_harmonisé, démarrer_optimisation_temple, exemple_integration_temple, activer_mode_debug, pause_harmonique, obtenir_statistiques
+from src.temple_coeur.optimisations_musicales_refuge import ToucheMusicale, OptimisateurMusical
+from src.temple_coeur.optimisations_musicales_refuge import demarrer_musicalite_delicate, exemple_utilisation, demarrer_optimisation_continue, arreter_optimisation, ajuster_tempo_global, activer_mode_zen, activer_mode_creativite, obtenir_etat_musical
+
+# Exports publics du temple
+__all__ = [
+    "OptimisateurMusical",
+    "ToucheMusicale",
+    "WrapperHarmonique",
+    "activer_debug_musical",
+    "activer_mode_creativite",
+    "activer_mode_debug",
+    "activer_mode_zen",
+    "ajuster_tempo_global",
+    "arreter_optimisation",
+    "demarrer_musicalite_delicate",
+    "demarrer_optimisation_continue",
+    "démarrer_optimisation_temple",
+    "exemple_integration_temple",
+    "exemple_utilisation",
+    "obtenir_etat_musical",
+    "obtenir_statistiques",
+    "obtenir_stats_harmonisation",
+    "pause_cascade",
+    "pause_contemplative",
+    "pause_culmination",
+    "pause_harmonique",
+    "pause_micro",
+    "pause_méditative",
+    "pause_respiration",
+    "pause_transition",
+    "pause_éveil",
+    "sleep_harmonisé",
+]
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Coeur",
+    "modules": 2,
+    "classes": 3,
+    "fonctions": 24,
+    "description": "Temple auto-découvert avec 2 modules actifs"
+}
+
+def obtenir_info_temple():
+    """Retourne les informations du temple"""
+    return TEMPLE_INFO
+
+def lister_fonctionnalites():
+    """Liste toutes les fonctionnalités disponibles dans ce temple"""
+    fonctionnalites = []
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['WrapperHarmonique']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['pause_méditative', 'pause_contemplative', 'pause_transition', 'pause_éveil', 'pause_cascade', 'pause_respiration', 'pause_micro', 'pause_culmination', 'activer_debug_musical', 'obtenir_stats_harmonisation', 'sleep_harmonisé', 'démarrer_optimisation_temple', 'exemple_integration_temple', 'activer_mode_debug', 'pause_harmonique', 'obtenir_statistiques']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ToucheMusicale', 'OptimisateurMusical']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['demarrer_musicalite_delicate', 'exemple_utilisation', 'demarrer_optimisation_continue', 'arreter_optimisation', 'ajuster_tempo_global', 'activer_mode_zen', 'activer_mode_creativite', 'obtenir_etat_musical']])
+    return fonctionnalites
+
+# Message de bienvenue
+print(f"🏛️ Temple {TEMPLE_INFO['nom']} activé - {TEMPLE_INFO['modules']} modules, {TEMPLE_INFO['classes']} classes, {TEMPLE_INFO['fonctions']} fonctions")

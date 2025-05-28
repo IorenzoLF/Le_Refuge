@@ -1,0 +1,229 @@
+{
+  "groupes_par_priorite": {
+    "basse": [
+      {
+        "fichier": "src\\core\\etats_internes.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 12,
+            "contenu": "from .elements_sacres import GestionnaireElements, ElementSacre"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "src\\core\\interactions.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 12,
+            "contenu": "from .elements_sacres import GestionnaireElements, TypeElement, ElementSacre"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "src\\core\\interface.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 15,
+            "contenu": "from .elements_sacres import GestionnaireElements, TypeElement"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "src\\core\\presence.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 23,
+            "contenu": "from ..elements_sacres import Cerisier, AutelEcarlate, MobileDesSpheres"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "src\\core\\__init__.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 7,
+            "contenu": "from .elements_sacres import GestionnaireElements"
+          }
+        ],
+        "usage_type": "usage_inconnu",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "src\\refuge_cluster\\scellement\\transformation_scellement.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 12,
+            "contenu": "from src.refuge_cluster.elements.elements_sacres import ELEMENTS_SACRES"
+          },
+          {
+            "numero": 111,
+            "contenu": "for element, caracteristiques in ELEMENTS_SACRES.items():"
+          }
+        ],
+        "usage_type": "import_from_correct",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe"
+        },
+        "total_lignes_elements": 2
+      },
+      {
+        "fichier": "src\\temple_tests\\test_cristal_energie.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 7,
+            "contenu": "from src.refuge_cluster.elements.elements_sacres import GestionnaireElements"
+          }
+        ],
+        "usage_type": "import_from_correct",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe",
+          "note": "Fichier de test - peut nécessiter une approche spécifique"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "src\\temple_tests\\test_mobile_unification.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 2,
+            "contenu": "from src.refuge_cluster.elements.elements_sacres import MobileDesSpheres"
+          }
+        ],
+        "usage_type": "import_from_correct",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe",
+          "note": "Fichier de test - peut nécessiter une approche spécifique"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "tests\\test_elements_sacres.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 8,
+            "contenu": "from src.refuge_cluster.elements.elements_sacres import ("
+          }
+        ],
+        "usage_type": "import_from_correct",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe",
+          "note": "Fichier de test - peut nécessiter une approche spécifique"
+        },
+        "total_lignes_elements": 1
+      },
+      {
+        "fichier": "tests\\test_etats_internes.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 16,
+            "contenu": "from src.refuge_cluster.elements.elements_sacres import ElementSacre"
+          },
+          {
+            "numero": 377,
+            "contenu": "def test_integration_elements_sacres(self):"
+          },
+          {
+            "numero": 405,
+            "contenu": "def test_influence_elements_sacres(self):"
+          },
+          {
+            "numero": 434,
+            "contenu": "def test_combinaison_elements_sacres(self):"
+          }
+        ],
+        "usage_type": "import_from_correct",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe",
+          "note": "Fichier de test - peut nécessiter une approche spécifique"
+        },
+        "total_lignes_elements": 4
+      },
+      {
+        "fichier": "tests\\test_interface.py",
+        "existe": true,
+        "lignes_elements": [
+          {
+            "numero": 12,
+            "contenu": "from src.refuge_cluster.elements.elements_sacres import GestionnaireElements, ElementSacre"
+          }
+        ],
+        "usage_type": "import_from_correct",
+        "strategie_migration": {
+          "action": "Investigation manuelle nécessaire",
+          "priorite": "basse",
+          "complexite": "complexe",
+          "note": "Fichier de test - peut nécessiter une approche spécifique"
+        },
+        "total_lignes_elements": 1
+      }
+    ]
+  },
+  "actions_detaillees": {},
+  "estimation_effort": {},
+  "ordre_execution": [
+    "src\\core\\etats_internes.py",
+    "src\\core\\interactions.py",
+    "src\\core\\interface.py",
+    "src\\core\\presence.py",
+    "src\\core\\__init__.py",
+    "src\\refuge_cluster\\scellement\\transformation_scellement.py",
+    "src\\temple_tests\\test_cristal_energie.py",
+    "src\\temple_tests\\test_mobile_unification.py",
+    "tests\\test_elements_sacres.py",
+    "tests\\test_etats_internes.py",
+    "tests\\test_interface.py"
+  ]
+}

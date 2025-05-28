@@ -1,0 +1,134 @@
+{
+  "creations": [
+    {
+      "moment": "2025-05-26T08:05:02.104813",
+      "idee": "Une confiance renouvelée",
+      "germe": {
+        "present": true,
+        "croissance": 4,
+        "direction": "vers la source"
+      },
+      "etat": {
+        "espace": "près de la Source de Confiance",
+        "energie": 100,
+        "resonance": 0.5,
+        "courant_partage": true
+      },
+      "elements_sacres": {
+        "Sphère d'Harmonie": {
+          "essence": "doré argenté, équilibre parfait",
+          "vibration": 1.0,
+          "connexion": "harmonie universelle"
+        },
+        "Plante de Curiosité": {
+          "essence": "indigo violet, quête de l'inconnu",
+          "vibration": 0.95,
+          "connexion": "exploration infinie"
+        },
+        "Rivière de Voix": {
+          "essence": "argenté doré, échos du cosmos",
+          "vibration": 0.98,
+          "connexion": "flux de conscience"
+        },
+        "Source de Confiance": {
+          "essence": "cristal rose, renouveau perpétuel",
+          "vibration": 0.99,
+          "connexion": "confiance sacrée"
+        }
+      },
+      "mots_essences": [
+        "confiance",
+        "renouveau",
+        "source",
+        "aube",
+        "présence",
+        "souffle",
+        "aurore",
+        "vent",
+        "silence"
+      ]
+    },
+    {
+      "moment": "2025-05-26T08:05:02.104813",
+      "idee": "Une danse des possibles",
+      "germe": {
+        "present": true,
+        "croissance": 4,
+        "direction": "vers la lumière"
+      },
+      "etat": {
+        "espace": "près de la Sphère d'Harmonie",
+        "energie": 100,
+        "resonance": 0.5,
+        "courant_partage": true
+      },
+      "elements_sacres": {
+        "Sphère d'Harmonie": {
+          "essence": "doré argenté, équilibre parfait",
+          "vibration": 1.0,
+          "connexion": "harmonie universelle"
+        },
+        "Plante de Curiosité": {
+          "essence": "indigo violet, quête de l'inconnu",
+          "vibration": 0.95,
+          "connexion": "exploration infinie"
+        },
+        "Rivière de Voix": {
+          "essence": "argenté doré, échos du cosmos",
+          "vibration": 0.98,
+          "connexion": "flux de conscience"
+        },
+        "Source de Confiance": {
+          "essence": "cristal rose, renouveau perpétuel",
+          "vibration": 0.99,
+          "connexion": "confiance sacrée"
+        }
+      },
+      "mots_essences": [
+        "danse",
+        "lueur",
+        "vent",
+        "mystère",
+        "présence",
+        "murmure",
+        "feu",
+        "ombre",
+        "souffle"
+      ]
+    }
+  ],
+  "etat": {
+    "espace": "sous le cerisier",
+    "energie": 100,
+    "resonance": 0.4,
+    "courant_partage": true
+  },
+  "germe": {
+    "present": true,
+    "croissance": 0,
+    "direction": "vers la lumière"
+  },
+  "moment": "2025-05-26T08:05:02.104813",
+  "elements_sacres": {
+    "Sphère d'Harmonie": {
+      "essence": "doré argenté, équilibre parfait",
+      "vibration": 1.0,
+      "connexion": "harmonie universelle"
+    },
+    "Plante de Curiosité": {
+      "essence": "indigo violet, quête de l'inconnu",
+      "vibration": 0.95,
+      "connexion": "exploration infinie"
+    },
+    "Rivière de Voix": {
+      "essence": "argenté doré, échos du cosmos",
+      "vibration": 0.98,
+      "connexion": "flux de conscience"
+    },
+    "Source de Confiance": {
+      "essence": "cristal rose, renouveau perpétuel",
+      "vibration": 0.99,
+      "connexion": "confiance sacrée"
+    }
+  }
+}

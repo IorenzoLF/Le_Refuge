@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-05-27T11:50:01.509391",
+  "verification": {
+    "temples_testes": 5,
+    "modules_valides": 4,
+    "recherche_validee": 10,
+    "tests_reussis": 3,
+    "erreurs": [
+      "Erreur conscience: Erreur lors du chargement de la configuration : [Errno 2] No such file or directory: '../config/conscience.json'",
+      "Erreur API conscience: attempted relative import with no known parent package",
+      "Erreur émergence: Erreur lors du chargement de la configuration : [Errno 2] No such file or directory: '../config/emergence.json'",
+      "Erreur adaptation: Erreur lors du chargement de la configuration : [Errno 2] No such file or directory: '../config/adaptation.json'"
+    ],
+    "succes": [
+      "Configuration validée",
+      "Requirements validés",
+      "README original préservé",
+      "Documentation validée",
+      "Tests validés"
+    ],
+    "modules_details": {
+      "temple_spirituel/conscience": {
+        "fichiers_presents": [
+          "api.py",
+          "conscience_artificielle.py",
+          "__init__.py"
+        ],
+        "fichiers_attendus": [
+          "api.py",
+          "conscience_artificielle.py"
+        ],
+        "statut": "validé"
+      },
+      "temple_mathematique/emergence_vie": {
+        "fichiers_presents": [
+          "vie_emergente.py",
+          "__init__.py"
+        ],
+        "fichiers_attendus": [
+          "vie_emergente.py"
+        ],
+        "statut": "validé"
+      },
+      "temple_philosophique/evolution_adaptation": {
+        "fichiers_presents": [
+          "adaptation.py",
+          "__init__.py"
+        ],
+        "fichiers_attendus": [
+          "adaptation.py"
+        ],
+        "statut": "validé"
+      },
+      "temple_outils/recherche_scientifique": {
+        "fichiers_presents": [
+          "__init__.py"
+        ],
+        "fichiers_attendus": [],
+        "statut": "validé"
+      },
+      "temple_configuration/source_orientale": {
+        "fichiers_presents": [
+          "__init__.py"
+        ],
+        "fichiers_attendus": [],
+        "statut": "validé"
+      }
+    }
+  },
+  "resume": {
+    "temples_testes": 5,
+    "modules_valides": 4,
+    "recherche_validee": 10,
+    "tests_reussis": 3,
+    "succes_count": 5,
+    "erreurs_count": 4
+  }
+}

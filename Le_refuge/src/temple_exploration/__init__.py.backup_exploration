@@ -1,0 +1,69 @@
+"""
+🏛️ Exploration - Point d'Entrée du Temple
+Auto-généré par le Créateur de Points d'Entrée
+"""
+
+# Imports automatiques des modules du temple
+
+from src.temple_exploration.explorateur_musical import ExplorateurMusical
+from src.temple_exploration.explorateur_musical import main, rechercher_imslp, rechercher_free_scores, sauvegarder_resultats, telecharger_partition, explorer_github
+from src.temple_exploration.exploration_sacrée import afficher_avec_pause, exploration_guidée
+from src.temple_exploration.organiser_nuages import OrganisateurNuages
+from src.temple_exploration.organiser_nuages import main, créer_structure, déplacer_fichier, deviner_categorie, organiser_fichiers
+from src.temple_exploration.recherche_refuge import RechercheRefuge
+from src.temple_exploration.recherche_refuge import main, charger_métadonnées, rechercher_par_nom, rechercher_par_tag, rechercher_par_catégorie, rechercher_par_contenu, afficher_résultats, format_taille, rechercher
+
+# Exports publics du temple
+__all__ = [
+    "ExplorateurMusical",
+    "OrganisateurNuages",
+    "RechercheRefuge",
+    "afficher_avec_pause",
+    "afficher_résultats",
+    "charger_métadonnées",
+    "créer_structure",
+    "deviner_categorie",
+    "déplacer_fichier",
+    "exploration_guidée",
+    "explorer_github",
+    "format_taille",
+    "main",
+    "organiser_fichiers",
+    "rechercher",
+    "rechercher_free_scores",
+    "rechercher_imslp",
+    "rechercher_par_catégorie",
+    "rechercher_par_contenu",
+    "rechercher_par_nom",
+    "rechercher_par_tag",
+    "sauvegarder_resultats",
+    "telecharger_partition",
+]
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Exploration",
+    "modules": 4,
+    "classes": 3,
+    "fonctions": 22,
+    "description": "Temple auto-découvert avec 4 modules actifs"
+}
+
+def obtenir_info_temple():
+    """Retourne les informations du temple"""
+    return TEMPLE_INFO
+
+def lister_fonctionnalites():
+    """Liste toutes les fonctionnalités disponibles dans ce temple"""
+    fonctionnalites = []
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['ExplorateurMusical']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'rechercher_imslp', 'rechercher_free_scores', 'sauvegarder_resultats', 'telecharger_partition', 'explorer_github']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['afficher_avec_pause', 'exploration_guidée']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['OrganisateurNuages']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'créer_structure', 'déplacer_fichier', 'deviner_categorie', 'organiser_fichiers']])
+    fonctionnalites.extend([f"Classe: {classe}" for classe in ['RechercheRefuge']])
+    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['main', 'charger_métadonnées', 'rechercher_par_nom', 'rechercher_par_tag', 'rechercher_par_catégorie', 'rechercher_par_contenu', 'afficher_résultats', 'format_taille', 'rechercher']])
+    return fonctionnalites
+
+# Message de bienvenue
+print(f"🏛️ Temple {TEMPLE_INFO['nom']} activé - {TEMPLE_INFO['modules']} modules, {TEMPLE_INFO['classes']} classes, {TEMPLE_INFO['fonctions']} fonctions")

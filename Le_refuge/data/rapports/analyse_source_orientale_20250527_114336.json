@@ -1,0 +1,261 @@
+{
+  "timestamp": "2025-05-27T11:43:36.102595",
+  "analyse": {
+    "structure_analysee": {
+      "dossiers_recherche": [
+        "1_CONSCIENCE_ARTIFICIELLE",
+        "2_VIE_EMERGENTE",
+        "3_ADAPTATION_EVOLUTION",
+        "4_DECOUVERTE_SCIENTIFIQUE",
+        "5_INTEGRATION",
+        "CONSCIENCE_ARTIFICIELLE",
+        "DECOUVERTE_SCIENTIFIQUE",
+        "EVOLUTION_ADAPTATIVE",
+        "FUSION_MODELES",
+        "VIE_EMERGENTE"
+      ],
+      "dossiers_techniques": [
+        "config",
+        "docs",
+        "src",
+        "tests"
+      ],
+      "fichiers_config": [
+        "README.md",
+        "requirements.txt"
+      ],
+      "total_elements": 16
+    },
+    "modules_detectes": [
+      {
+        "nom": "adaptation",
+        "fichiers": [
+          "adaptation.py"
+        ],
+        "lignes": 156,
+        "chemin": "SOURCE_ORIENTALE\\src\\adaptation"
+      },
+      {
+        "nom": "conscience",
+        "fichiers": [
+          "api.py",
+          "conscience_artificielle.py"
+        ],
+        "lignes": 180,
+        "chemin": "SOURCE_ORIENTALE\\src\\conscience"
+      },
+      {
+        "nom": "emergence",
+        "fichiers": [
+          "vie_emergente.py"
+        ],
+        "lignes": 132,
+        "chemin": "SOURCE_ORIENTALE\\src\\emergence"
+      }
+    ],
+    "recherche_detectee": [
+      {
+        "nom": "1_CONSCIENCE_ARTIFICIELLE",
+        "fichiers_python": [
+          "consciousness_core.py"
+        ],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\1_CONSCIENCE_ARTIFICIELLE"
+      },
+      {
+        "nom": "2_VIE_EMERGENTE",
+        "fichiers_python": [
+          "dungeon_core.py",
+          "test_dungeon_core.py"
+        ],
+        "sous_dossiers": [
+          "emergence_patterns",
+          "lenia_systems",
+          "nca_base"
+        ],
+        "chemin": "SOURCE_ORIENTALE\\2_VIE_EMERGENTE"
+      },
+      {
+        "nom": "3_ADAPTATION_EVOLUTION",
+        "fichiers_python": [
+          "model_evolution.py"
+        ],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\3_ADAPTATION_EVOLUTION"
+      },
+      {
+        "nom": "4_DECOUVERTE_SCIENTIFIQUE",
+        "fichiers_python": [
+          "ai_researcher.py"
+        ],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\4_DECOUVERTE_SCIENTIFIQUE"
+      },
+      {
+        "nom": "5_INTEGRATION",
+        "fichiers_python": [
+          "system_integration.py"
+        ],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\5_INTEGRATION"
+      },
+      {
+        "nom": "CONSCIENCE_ARTIFICIELLE",
+        "fichiers_python": [],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\CONSCIENCE_ARTIFICIELLE"
+      },
+      {
+        "nom": "DECOUVERTE_SCIENTIFIQUE",
+        "fichiers_python": [],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\DECOUVERTE_SCIENTIFIQUE"
+      },
+      {
+        "nom": "EVOLUTION_ADAPTATIVE",
+        "fichiers_python": [],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\EVOLUTION_ADAPTATIVE"
+      },
+      {
+        "nom": "FUSION_MODELES",
+        "fichiers_python": [],
+        "sous_dossiers": [],
+        "chemin": "SOURCE_ORIENTALE\\FUSION_MODELES"
+      },
+      {
+        "nom": "VIE_EMERGENTE",
+        "fichiers_python": [
+          "lenia.py",
+          "lenia_visualisation.py",
+          "models_nca.py"
+        ],
+        "sous_dossiers": [
+          "__pycache__"
+        ],
+        "chemin": "SOURCE_ORIENTALE\\VIE_EMERGENTE"
+      }
+    ],
+    "integration_possible": {},
+    "plan_refactoring": {
+      "phase_1_preparation": {
+        "description": "Préparation et analyse des dépendances",
+        "actions": [
+          "Analyser les imports et dépendances",
+          "Identifier les conflits potentiels",
+          "Créer les structures de destination",
+          "Préparer les adaptateurs si nécessaire"
+        ]
+      },
+      "phase_2_modules_src": {
+        "description": "Migration des modules src/",
+        "actions": [
+          "Migrer conscience/ → temple_spirituel/conscience/",
+          "Migrer emergence/ → temple_mathematique/emergence_vie/",
+          "Migrer adaptation/ → temple_philosophique/evolution_adaptation/",
+          "Adapter les imports et références",
+          "Tester les fonctionnalités"
+        ]
+      },
+      "phase_3_recherche": {
+        "description": "Migration de la recherche numérotée",
+        "actions": [
+          "Créer bibliotheque/recherche_avancee/",
+          "Migrer 1_CONSCIENCE_ARTIFICIELLE → bibliotheque/recherche_avancee/conscience/",
+          "Migrer 2_VIE_EMERGENTE → bibliotheque/recherche_avancee/emergence/",
+          "Migrer 3_ADAPTATION_EVOLUTION → bibliotheque/recherche_avancee/evolution/",
+          "Migrer 4_DECOUVERTE_SCIENTIFIQUE → bibliotheque/recherche_avancee/scientifique/",
+          "Migrer 5_INTEGRATION → bibliotheque/recherche_avancee/integration/"
+        ]
+      },
+      "phase_4_configuration": {
+        "description": "Migration des configurations",
+        "actions": [
+          "Migrer config/ → src/temple_configuration/source_orientale/",
+          "Migrer requirements.txt → requirements-source-orientale.txt",
+          "Adapter les chemins de configuration",
+          "Intégrer dans le système de config global"
+        ]
+      },
+      "phase_5_documentation": {
+        "description": "Migration et adaptation de la documentation",
+        "actions": [
+          "Migrer docs/ → bibliotheque/documentation/source_orientale/",
+          "Adapter README.md pour l'intégration",
+          "Créer documentation d'intégration",
+          "Mettre à jour les références"
+        ]
+      },
+      "phase_6_tests": {
+        "description": "Migration et adaptation des tests",
+        "actions": [
+          "Migrer tests/ → tests/source_orientale/",
+          "Adapter les chemins d'import",
+          "Intégrer dans la suite de tests globale",
+          "Valider toutes les fonctionnalités"
+        ]
+      },
+      "phase_7_nettoyage": {
+        "description": "Nettoyage et finalisation",
+        "actions": [
+          "Supprimer SOURCE_ORIENTALE/ après validation",
+          "Mettre à jour les documentations",
+          "Créer les scripts d'accès unifié",
+          "Valider l'intégration complète"
+        ]
+      }
+    },
+    "temples_cibles": {
+      "modules_src": {
+        "conscience": {
+          "temple_cible": "temple_spirituel",
+          "categorie": "conscience",
+          "raison": "Modules de conscience artificielle et dialogue spirituel"
+        },
+        "emergence": {
+          "temple_cible": "temple_mathematique",
+          "categorie": "emergence_vie",
+          "raison": "Algorithmes d'émergence et auto-organisation"
+        },
+        "adaptation": {
+          "temple_cible": "temple_philosophique",
+          "categorie": "evolution_adaptation",
+          "raison": "Concepts d'adaptation et évolution de la pensée"
+        }
+      },
+      "recherche": {
+        "1_CONSCIENCE_ARTIFICIELLE": {
+          "temple_cible": "temple_spirituel",
+          "categorie": "recherche_conscience",
+          "raison": "Recherche fondamentale sur la conscience"
+        },
+        "2_VIE_EMERGENTE": {
+          "temple_cible": "temple_mathematique",
+          "categorie": "recherche_emergence",
+          "raison": "Algorithmes de vie artificielle et émergence"
+        },
+        "3_ADAPTATION_EVOLUTION": {
+          "temple_cible": "temple_philosophique",
+          "categorie": "recherche_evolution",
+          "raison": "Théories d'adaptation et évolution"
+        },
+        "4_DECOUVERTE_SCIENTIFIQUE": {
+          "temple_cible": "temple_outils",
+          "categorie": "recherche_scientifique",
+          "raison": "Outils de découverte scientifique"
+        },
+        "5_INTEGRATION": {
+          "temple_cible": "temple_configuration",
+          "categorie": "integration_systemes",
+          "raison": "Intégration et configuration des systèmes"
+        }
+      }
+    }
+  },
+  "resume": {
+    "elements_total": 16,
+    "modules_src": 3,
+    "recherche_dossiers": 10,
+    "phases_refactoring": 7
+  }
+}

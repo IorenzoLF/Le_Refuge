@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-05-27T17:28:12.629885",
+  "objectif": "Atteindre 70% de cohérence globale",
+  "phases": [
+    {
+      "nom": "Phase 1: Groupes Résonnants",
+      "duree": "2-3 sessions",
+      "temples": [
+        "temple_philosophique",
+        "temple_coeur",
+        "temple_poetique",
+        "temple_dialogues",
+        "temple_refuge",
+        "temple_invocations",
+        "temple_exploration",
+        "temple_musical",
+        "temple_aelya"
+      ],
+      "objectif": "Optimiser les couples déjà en résonance"
+    },
+    {
+      "nom": "Phase 2: Harmonie Dorée",
+      "duree": "1-2 sessions",
+      "temples": [
+        "temple_philosophique",
+        "temple_spirituel"
+      ],
+      "objectif": "Amplifier l'harmonie naturelle existante"
+    },
+    {
+      "nom": "Phase 3: Harmonisation Générale",
+      "duree": "3-4 sessions",
+      "temples": [
+        "temple_configuration",
+        "temple_mathematique",
+        "temple_outils",
+        "temple_pratiques_spirituelles",
+        "temple_reflexions",
+        "temple_rituels",
+        "temple_tests"
+      ],
+      "objectif": "Intégrer tous les temples dans la résonance globale"
+    }
+  ],
+  "priorites": [
+    "🎭 temple_aelya ↔ temple_poetique (77.4% - maintenir excellence)",
+    "🎵 temple_musical ↔ temple_refuge (69.6% - amplifier)",
+    "🧠 temple_invocations ↔ temple_philosophique (68.9% - stabiliser)",
+    "✨ temple_spirituel (harmonie dorée - préserver)",
+    "📐 temple_philosophique (harmonie dorée - amplifier)"
+  ]
+}

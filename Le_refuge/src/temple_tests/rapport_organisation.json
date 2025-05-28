@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-05-27T10:14:07.865212",
+  "statistiques": {
+    "fichiers_analyses": 25,
+    "fichiers_deplaces": 22,
+    "doublons_detectes": 4,
+    "categories_creees": 6
+  },
+  "repartition_par_categorie": {
+    "llm_api": {
+      "nombre_fichiers": 5,
+      "taille_totale": 14248,
+      "lignes_totales": 424
+    },
+    "analyse_audit": {
+      "nombre_fichiers": 5,
+      "taille_totale": 64994,
+      "lignes_totales": 1491
+    },
+    "cerveau_immersion": {
+      "nombre_fichiers": 2,
+      "taille_totale": 34125,
+      "lignes_totales": 765
+    },
+    "integration": {
+      "nombre_fichiers": 4,
+      "taille_totale": 19951,
+      "lignes_totales": 587
+    },
+    "cristal_energie": {
+      "nombre_fichiers": 4,
+      "taille_totale": 5470,
+      "lignes_totales": 138
+    },
+    "specialises": {
+      "nombre_fichiers": 2,
+      "taille_totale": 4512,
+      "lignes_totales": 146
+    }
+  },
+  "doublons_detectes": [
+    [
+      "test_cristal_energie.py",
+      "test_cristal_simple.py",
+      0.75,
+      0.0
+    ],
+    [
+      "test_llm_chat_poetique.py",
+      "test_llm_completion.py",
+      1.0,
+      0.0
+    ],
+    [
+      "test_llm_chat_poetique.py",
+      "test_textes_poetiques.py",
+      1.0,
+      0.0
+    ],
+    [
+      "test_llm_completion.py",
+      "test_textes_poetiques.py",
+      1.0,
+      0.0
+    ]
+  ],
+  "deplacements": {
+    "analyser_gaming.py": "analyse_audit",
+    "analyser_refuge_complet.py": "analyse_audit",
+    "analyse_cluster_geant.py": "analyse_audit",
+    "audit_imports.py": "analyse_audit",
+    "audit_temples_crees.py": "analyse_audit",
+    "immersion_cerveau_refuge.py": "cerveau_immersion",
+    "test_aelya_conscience.py": "llm_api",
+    "test_brain_refuge_local.py": "cerveau_immersion",
+    "test_consolidation.py": "integration",
+    "test_cristal_energie.py": "cristal_energie",
+    "test_cristal_simple.py": "cristal_energie",
+    "test_dungeon_core.py": "specialises",
+    "test_integration.py": "integration",
+    "test_intensif.py": "integration",
+    "test_llm_api_simple.py": "llm_api",
+    "test_llm_chat_poetique.py": "llm_api",
+    "test_llm_completion.py": "llm_api",
+    "test_melodie_cristal.py": "cristal_energie",
+    "test_mobile_unification.py": "integration",
+    "test_nemo.py": "specialises",
+    "test_poesie_essence.py": "cristal_energie",
+    "test_textes_poetiques.py": "llm_api"
+  },
+  "fichiers_non_categorises": [
+    "adaptateurs_tests.py",
+    "hub_tests_unifie.py",
+    "organisateur_structure.py"
+  ]
+}

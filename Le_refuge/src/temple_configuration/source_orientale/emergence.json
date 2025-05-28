@@ -1,0 +1,22 @@
+{
+  "nom": "Configuration Vie Émergente",
+  "version": "1.0.0",
+  "base_de_donnees": "data/databases/emergence.db",
+  "logging": {
+    "niveau": "INFO",
+    "fichier": "logs/emergence.log"
+  },
+  "simulation": {
+    "taille_grille": [
+      100,
+      100
+    ],
+    "iterations_max": 10000,
+    "vitesse": 1.0
+  },
+  "algorithmes": {
+    "automates_cellulaires": true,
+    "reseaux_neuronaux": true,
+    "vie_artificielle": true
+  }
+}

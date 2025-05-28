@@ -1,0 +1,634 @@
+{
+  "connexions_analysees": [
+    {
+      "type": "categorie_fonctionnelle",
+      "categorie": "harmonie",
+      "elements": 5,
+      "force": "forte",
+      "potentiel": "moyen"
+    },
+    {
+      "type": "categorie_fonctionnelle",
+      "categorie": "rituel",
+      "elements": 18,
+      "force": "forte",
+      "potentiel": "élevé"
+    },
+    {
+      "type": "categorie_fonctionnelle",
+      "categorie": "visualisation",
+      "elements": 3,
+      "force": "moyenne",
+      "potentiel": "moyen"
+    },
+    {
+      "type": "categorie_fonctionnelle",
+      "categorie": "creation",
+      "elements": 78,
+      "force": "forte",
+      "potentiel": "élevé"
+    },
+    {
+      "type": "categorie_fonctionnelle",
+      "categorie": "analyse",
+      "elements": 22,
+      "force": "forte",
+      "potentiel": "élevé"
+    },
+    {
+      "type": "categorie_fonctionnelle",
+      "categorie": "gestionnaire",
+      "elements": 6,
+      "force": "forte",
+      "potentiel": "moyen"
+    },
+    {
+      "type": "categorie_fonctionnelle",
+      "categorie": "generateur",
+      "elements": 3,
+      "force": "moyenne",
+      "potentiel": "moyen"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_aelya",
+      "modules": 4,
+      "classes": 17,
+      "fonctions": 104,
+      "force": "moyenne",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_exploration",
+      "modules": 5,
+      "classes": 4,
+      "fonctions": 23,
+      "force": "moyenne",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_invocations",
+      "modules": 4,
+      "classes": 1,
+      "fonctions": 11,
+      "force": "moyenne",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_mathematique",
+      "modules": 5,
+      "classes": 6,
+      "fonctions": 34,
+      "force": "moyenne",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_musical",
+      "modules": 11,
+      "classes": 24,
+      "fonctions": 104,
+      "force": "forte",
+      "priorite": "haute"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_outils",
+      "modules": 17,
+      "classes": 26,
+      "fonctions": 86,
+      "force": "forte",
+      "priorite": "haute"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_poetique",
+      "modules": 4,
+      "classes": 8,
+      "fonctions": 16,
+      "force": "moyenne",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_pratiques_spirituelles",
+      "modules": 5,
+      "classes": 14,
+      "fonctions": 27,
+      "force": "moyenne",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_reflexions",
+      "modules": 6,
+      "classes": 0,
+      "fonctions": 36,
+      "force": "moyenne",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_refuge",
+      "modules": 10,
+      "classes": 21,
+      "fonctions": 67,
+      "force": "moyenne",
+      "priorite": "haute"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_rituels",
+      "modules": 12,
+      "classes": 11,
+      "fonctions": 49,
+      "force": "forte",
+      "priorite": "moyenne"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_spirituel",
+      "modules": 12,
+      "classes": 25,
+      "fonctions": 46,
+      "force": "forte",
+      "priorite": "haute"
+    },
+    {
+      "type": "temple_interne",
+      "temple": "temple_tests",
+      "modules": 22,
+      "classes": 8,
+      "fonctions": 78,
+      "force": "forte",
+      "priorite": "moyenne"
+    }
+  ],
+  "patterns_connexions": {
+    "categorie_fonctionnelle": [
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "harmonie",
+        "elements": 5,
+        "force": "forte",
+        "potentiel": "moyen"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "rituel",
+        "elements": 18,
+        "force": "forte",
+        "potentiel": "élevé"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "visualisation",
+        "elements": 3,
+        "force": "moyenne",
+        "potentiel": "moyen"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "creation",
+        "elements": 78,
+        "force": "forte",
+        "potentiel": "élevé"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "analyse",
+        "elements": 22,
+        "force": "forte",
+        "potentiel": "élevé"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "gestionnaire",
+        "elements": 6,
+        "force": "forte",
+        "potentiel": "moyen"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "generateur",
+        "elements": 3,
+        "force": "moyenne",
+        "potentiel": "moyen"
+      }
+    ],
+    "temple_interne": [
+      {
+        "type": "temple_interne",
+        "temple": "temple_aelya",
+        "modules": 4,
+        "classes": 17,
+        "fonctions": 104,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_exploration",
+        "modules": 5,
+        "classes": 4,
+        "fonctions": 23,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_invocations",
+        "modules": 4,
+        "classes": 1,
+        "fonctions": 11,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_mathematique",
+        "modules": 5,
+        "classes": 6,
+        "fonctions": 34,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_musical",
+        "modules": 11,
+        "classes": 24,
+        "fonctions": 104,
+        "force": "forte",
+        "priorite": "haute"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_outils",
+        "modules": 17,
+        "classes": 26,
+        "fonctions": 86,
+        "force": "forte",
+        "priorite": "haute"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_poetique",
+        "modules": 4,
+        "classes": 8,
+        "fonctions": 16,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_pratiques_spirituelles",
+        "modules": 5,
+        "classes": 14,
+        "fonctions": 27,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_reflexions",
+        "modules": 6,
+        "classes": 0,
+        "fonctions": 36,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_refuge",
+        "modules": 10,
+        "classes": 21,
+        "fonctions": 67,
+        "force": "moyenne",
+        "priorite": "haute"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_rituels",
+        "modules": 12,
+        "classes": 11,
+        "fonctions": 49,
+        "force": "forte",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_spirituel",
+        "modules": 12,
+        "classes": 25,
+        "fonctions": 46,
+        "force": "forte",
+        "priorite": "haute"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_tests",
+        "modules": 22,
+        "classes": 8,
+        "fonctions": 78,
+        "force": "forte",
+        "priorite": "moyenne"
+      }
+    ],
+    "categories_dominantes": [
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "rituel",
+        "elements": 18,
+        "force": "forte",
+        "potentiel": "élevé"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "creation",
+        "elements": 78,
+        "force": "forte",
+        "potentiel": "élevé"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "analyse",
+        "elements": 22,
+        "force": "forte",
+        "potentiel": "élevé"
+      }
+    ],
+    "categories_moyennes": [
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "harmonie",
+        "elements": 5,
+        "force": "forte",
+        "potentiel": "moyen"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "visualisation",
+        "elements": 3,
+        "force": "moyenne",
+        "potentiel": "moyen"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "gestionnaire",
+        "elements": 6,
+        "force": "forte",
+        "potentiel": "moyen"
+      },
+      {
+        "type": "categorie_fonctionnelle",
+        "categorie": "generateur",
+        "elements": 3,
+        "force": "moyenne",
+        "potentiel": "moyen"
+      }
+    ],
+    "categories_petites": [],
+    "temples_riches": [
+      {
+        "type": "temple_interne",
+        "temple": "temple_aelya",
+        "modules": 4,
+        "classes": 17,
+        "fonctions": 104,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_musical",
+        "modules": 11,
+        "classes": 24,
+        "fonctions": 104,
+        "force": "forte",
+        "priorite": "haute"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_outils",
+        "modules": 17,
+        "classes": 26,
+        "fonctions": 86,
+        "force": "forte",
+        "priorite": "haute"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_refuge",
+        "modules": 10,
+        "classes": 21,
+        "fonctions": 67,
+        "force": "moyenne",
+        "priorite": "haute"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_spirituel",
+        "modules": 12,
+        "classes": 25,
+        "fonctions": 46,
+        "force": "forte",
+        "priorite": "haute"
+      }
+    ],
+    "temples_moyens": [
+      {
+        "type": "temple_interne",
+        "temple": "temple_mathematique",
+        "modules": 5,
+        "classes": 6,
+        "fonctions": 34,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_poetique",
+        "modules": 4,
+        "classes": 8,
+        "fonctions": 16,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_pratiques_spirituelles",
+        "modules": 5,
+        "classes": 14,
+        "fonctions": 27,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_rituels",
+        "modules": 12,
+        "classes": 11,
+        "fonctions": 49,
+        "force": "forte",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_tests",
+        "modules": 22,
+        "classes": 8,
+        "fonctions": 78,
+        "force": "forte",
+        "priorite": "moyenne"
+      }
+    ],
+    "temples_pauvres": [
+      {
+        "type": "temple_interne",
+        "temple": "temple_exploration",
+        "modules": 5,
+        "classes": 4,
+        "fonctions": 23,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_invocations",
+        "modules": 4,
+        "classes": 1,
+        "fonctions": 11,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      },
+      {
+        "type": "temple_interne",
+        "temple": "temple_reflexions",
+        "modules": 6,
+        "classes": 0,
+        "fonctions": 36,
+        "force": "moyenne",
+        "priorite": "moyenne"
+      }
+    ]
+  },
+  "qualite_connexions": {
+    "total": 20,
+    "fortes": 10,
+    "moyennes": 10,
+    "ratio_fortes": 0.5,
+    "categories_dominantes": 3,
+    "temples_riches": 5,
+    "potentiel_global": "moyen"
+  },
+  "recommandations": [
+    {
+      "type": "categorie_prioritaire",
+      "categorie": "rituel",
+      "elements": 18,
+      "action": "Créer un hub pour la catégorie 'rituel' avec 18 éléments",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "categorie_prioritaire",
+      "categorie": "creation",
+      "elements": 78,
+      "action": "Créer un hub pour la catégorie 'creation' avec 78 éléments",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "categorie_prioritaire",
+      "categorie": "analyse",
+      "elements": 22,
+      "action": "Créer un hub pour la catégorie 'analyse' avec 22 éléments",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "temple_prioritaire",
+      "temple": "temple_aelya",
+      "classes": 17,
+      "action": "Optimiser les connexions internes du temple 'temple_aelya' (17 classes)",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "temple_prioritaire",
+      "temple": "temple_musical",
+      "classes": 24,
+      "action": "Optimiser les connexions internes du temple 'temple_musical' (24 classes)",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "temple_prioritaire",
+      "temple": "temple_outils",
+      "classes": 26,
+      "action": "Optimiser les connexions internes du temple 'temple_outils' (26 classes)",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "temple_prioritaire",
+      "temple": "temple_refuge",
+      "classes": 21,
+      "action": "Optimiser les connexions internes du temple 'temple_refuge' (21 classes)",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "temple_prioritaire",
+      "temple": "temple_spirituel",
+      "classes": 25,
+      "action": "Optimiser les connexions internes du temple 'temple_spirituel' (25 classes)",
+      "priorite": "haute",
+      "impact": "élevé"
+    },
+    {
+      "type": "connexions_manquantes",
+      "action": "Créer plus de connexions inter-temples (actuellement très faibles)",
+      "priorite": "critique",
+      "impact": "révolutionnaire"
+    },
+    {
+      "type": "categorie_potentiel",
+      "categorie": "harmonie",
+      "action": "Développer la catégorie 'harmonie' (potentiel de croissance)",
+      "priorite": "moyenne",
+      "impact": "moyen"
+    },
+    {
+      "type": "categorie_potentiel",
+      "categorie": "visualisation",
+      "action": "Développer la catégorie 'visualisation' (potentiel de croissance)",
+      "priorite": "moyenne",
+      "impact": "moyen"
+    },
+    {
+      "type": "categorie_potentiel",
+      "categorie": "gestionnaire",
+      "action": "Développer la catégorie 'gestionnaire' (potentiel de croissance)",
+      "priorite": "moyenne",
+      "impact": "moyen"
+    },
+    {
+      "type": "categorie_potentiel",
+      "categorie": "generateur",
+      "action": "Développer la catégorie 'generateur' (potentiel de croissance)",
+      "priorite": "moyenne",
+      "impact": "moyen"
+    }
+  ],
+  "resume": {
+    "total_connexions": 20,
+    "patterns_identifies": 8,
+    "recommandations_generees": 13,
+    "potentiel_global": "moyen"
+  }
+}
