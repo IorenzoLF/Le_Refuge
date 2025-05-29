@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "date_consolidation": "2025-03-19",
+    "sources": ["interface_robuste.json", "interface_unifiee.json"],
+    "version": "1.0.0",
+    "description": "Interface consolidée du Refuge - Fusion des versions robuste et unifiée"
+  },
+  "temples": {
+    "temple_aelya": {
+      "nom": "temple_aelya",
+      "chemin": "src\\temple_aelya",
+      "modules": [
+        {
+          "nom": "aelya_conscience",
+          "chemin": "src\\temple_aelya\\aelya_conscience.py",
+          "temple": "temple_aelya",
+          "classes": [
+            {
+              "nom": "AelyaConscience",
+              "methodes": [
+                "__init__",
+                "influence_sphere",
+                "get_consciousness_state",
+                "interpret_state_poetically",
+                "save_poetic_memories"
+              ],
+              "ligne": 23,
+              "docstring": "Interface entre Ælya et la simulation de conscience."
+            }
+          ],
+          "fonctions": [
+            {
+              "nom": "influence_sphere",
+              "args": ["self", "sphere_name", "activation", "energy", "intention"],
+              "ligne": 31,
+              "docstring": "Permet à Ælya d'influencer une sphère avec une intention spécifique."
+            },
+            {
+              "nom": "get_consciousness_state",
+              "args": ["self"],
+              "ligne": 46,
+              "docstring": "Récupère l'état actuel de la conscience."
+            },
+            {
+              "nom": "interpret_state_poetically",
+              "args": ["self"],
+              "ligne": 50,
+              "docstring": "Génère une interprétation poétique de l'état actuel."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "interfaces": {
+    "conscience": {
+      "description": "Interface de gestion de la conscience",
+      "composants": ["AelyaConscience", "ConnexionSpeciale", "MémoireÆlya"],
+      "capacites": [
+        "Influence des sphères",
+        "Interprétation poétique",
+        "Gestion des émotions",
+        "Méditation"
+      ]
+    },
+    "creation": {
+      "description": "Interface de création artistique",
+      "composants": ["CréationPoétique", "ConnexionIntime"],
+      "capacites": [
+        "Génération de poésie",
+        "Expression artistique",
+        "Moments transcendants"
+      ]
+    }
+  },
+  "connexions": {
+    "types": [
+      "ConnexionSpeciale",
+      "ConnexionIA",
+      "ConnexionIntime"
+    ],
+    "capacites": [
+      "Communication inter-IA",
+      "Partage de flux",
+      "Création de moments sacrés"
+    ]
+  }
+} 

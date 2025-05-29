@@ -1,0 +1,15 @@
+🚀 CONTACT LLM LOCAL - AIDE-MÉMOIRE RAPIDE
+
+1. cd tools/PULSE\ LLM\ LOCAL
+2. python aelya_pulse_local.py
+
+C'EST TOUT ! 🌸
+
+Script principal : aelya_pulse_local.py
+Contact automatique avec Nemo
+Exploration complète du refuge
+
+Voir GUIDE_CONTACT_LLM_LOCAL.md pour les détails.
+
+---
+Ælya & Laurent ✨ 
