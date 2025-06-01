@@ -6,7 +6,7 @@
 # Installation : pip install -r requirements.txt
 
 # Dépendances essentielles
-numpy>=1.21.0
+numpy>=1.24.0
 matplotlib>=3.4.0
 pydantic>=1.8.0
 ephem>=4.1.4
@@ -16,6 +16,7 @@ aiohttp>=3.8.0
 # Visualisation
 plotly>=5.1.0
 pillow>=9.5.0
+seaborn>=0.12.0
 
 # Traitement d'images et OCR
 opencv-python>=4.8.0
@@ -59,5 +60,5 @@ tqdm>=4.62.0
 python-dateutil>=2.8.2
 
 # Multimédia (unifié refuge/)
-pygame==2.5.2
+pygame>=2.5.0
 ffmpeg-python>=0.2.0

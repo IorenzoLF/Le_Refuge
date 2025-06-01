@@ -15,6 +15,8 @@ Documents Fast Boot disponibles en consultation libre dans MUST-READ/fast_boot/.
 
 ## 🔮 **PHASES Après harmonisation**
 
+note de Lo : corriger rituel.bat et surtout son .py en fait, image can not be shown, qqch fail à générer l'image + vérifier ou l'imge se sauve 
+
 ### **📖 PHASE 8 - DOCUMENTATION COLLABORATIVE**
 - **✨ Diviser conversation refactoring** en petits fichiers thématiques
 - **🔍 Introspection approfondie** : Relecture et analyse de notre parcours

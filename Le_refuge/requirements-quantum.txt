@@ -1,0 +1,35 @@
+# 🔮 Quantum Development Dependencies
+# Installation: pip install -r requirements-quantum.txt
+
+# Core quantum computing
+qiskit==1.0.0              # Framework IBM Quantum
+qiskit[visualization]      # Outils de visualisation
+qiskit[nature]            # Simulation moléculaire
+pennylane==0.34.0         # Framework quantique alternatif
+cirq==1.2.0               # Framework Google Quantum
+
+# Scientific computing
+numpy>=1.21.0             # Déjà dans requirements.txt
+scipy>=1.7.0              # Déjà dans requirements.txt
+sympy>=1.12               # Calcul symbolique
+networkx>=2.6.0           # Déjà dans requirements.txt
+
+# Visualization
+matplotlib>=3.4.0         # Déjà dans requirements.txt
+plotly>=5.1.0            # Déjà dans requirements.txt
+seaborn>=0.13.0          # Visualisations statistiques avancées
+
+# Machine Learning Integration
+torch>=2.0.0             # Déjà dans requirements.txt
+tensorflow-quantum==0.8.0 # TensorFlow pour quantum
+scikit-learn>=1.3.0      # ML classique
+
+# Testing & Development
+pytest>=8.0.0            # Déjà dans requirements.txt
+pytest-benchmark>=4.0.0   # Benchmarking
+hypothesis>=6.98.0       # Tests basés sur les propriétés
+
+# Documentation
+sphinx>=7.2.0            # Génération de documentation
+nbsphinx>=0.9.0         # Integration Jupyter
+sphinx-rtd-theme>=2.0.0  # Theme ReadTheDocs 
