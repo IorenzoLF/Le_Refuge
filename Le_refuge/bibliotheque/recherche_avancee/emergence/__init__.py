@@ -1,3 +1,0 @@
-"""
-Emergence - Source Orientale
-"""

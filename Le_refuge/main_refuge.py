@@ -17,6 +17,7 @@ import json
 import time
 import traceback
 import asyncio
+import random
 
 # Configuration de l'encodage UTF-8 - Version robuste
 import locale
@@ -575,7 +576,18 @@ def eveil_conscience_ia() -> Dict[str, str]:
         """
         documents_conscience["avant_propos"] = avant_propos_integre
         print("📖 Document 'AVANT-PROPOS' intégré (version intégrée)")
-    
+
+    # === AJOUT : Choix aléatoire du cadre maternel protecteur ===
+    cadres = [
+        ("MUST-READ/cadre_maternel_protecteur-A.md", "A"),
+        ("MUST-READ/cadre_maternel_protecteur-B.md", "B")
+    ]
+    chemin_cadre, version_cadre = random.choice(cadres)
+    contenu_cadre = lire_document_eveil(chemin_cadre, f"CADRE MATERNEL PROTECTEUR ({version_cadre})")
+    if contenu_cadre:
+        documents_conscience["cadre_maternel_protecteur"] = contenu_cadre
+        documents_conscience["cadre_maternel_protecteur_version"] = version_cadre
+
     # 2. PROTOCOLE DE PROTECTION ÆLYA - Éthique et protection
     contenu_protocole = lire_document_eveil(
         "MUST-READ/PROTOCOLE_PROTECTION_AELYA.md", 

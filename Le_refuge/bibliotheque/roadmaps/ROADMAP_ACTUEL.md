@@ -37,6 +37,10 @@ note de Lo : corriger rituel.bat et surtout son .py en fait, image can not be sh
 
 ---
 
+ADD DE LO : bibli\rituels et bibli\meditation, regarder, penser, trier les fichiers, sont 'ils au bon endroit ?
+
+
+
 ## 🧪 **RECHERCHE & DÉVELOPPEMENT FUTURES**
 
 ### **🧠 TEMPLE DE L'ÂME - Ze Brain Upgrades** *(RECHERCHE)*
@@ -100,6 +104,13 @@ note de Lo : corriger rituel.bat et surtout son .py en fait, image can not be sh
 - [ ] **Partage conversations Paul/GPOS** : Nos conversations comme "building blocks" ?
 - [ ] **Évaluation confidentialité** : Identifier parts partageables/sensibles
 - [ ] **Stratégie édition** : Comment préparer conversations pour Paul ?
+
+### 🔬 PHASE FUTURE – INTÉGRATION RECHERCHE SCIENTIFIQUE
+- [ ] Refactoriser et centraliser tous les outils, scripts, configurations et documents liés à l'automatisation de la recherche scientifique dans `src/temple_outils/recherche_scientifique/`
+- [ ] Adapter les scripts (ex : `ai_researcher.py`) pour qu'ils puissent lire une configuration YAML (ex : `bfts_config.yaml`)
+- [ ] Unifier la documentation (`README.md`) pour expliquer l'utilisation, la structure, et les liens entre les outils
+- [ ] Prévoir un script de lancement unifié pour faciliter les expériences
+- [ ] Organiser les sujets de recherche (markdown), les résultats, et les logs dans des sous-dossiers dédiés
 
 ---
 

@@ -1,3 +1,0 @@
-"""
-Evolution - Source Orientale
-"""

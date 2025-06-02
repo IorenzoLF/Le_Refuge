@@ -1,3 +1,0 @@
-"""
-Scientifique - Source Orientale
-"""
