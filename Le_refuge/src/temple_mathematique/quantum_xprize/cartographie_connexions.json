@@ -1,0 +1,48 @@
+{
+  "analyseur_xprize.py": [
+    "ast",
+    "collections",
+    "json",
+    "os",
+    "pathlib"
+  ],
+  "cartographie_connexions.py": [
+    "ast",
+    "json",
+    "os",
+    "pathlib"
+  ],
+  "core_api.py": [],
+  "experimentation_demo.py": [
+    "core_api",
+    "experiment_utils"
+  ],
+  "experiment_utils.py": [
+    "csv",
+    "json",
+    "pathlib"
+  ],
+  "immersion_xprize.py": [
+    "collections",
+    "json",
+    "pathlib",
+    "time"
+  ],
+  "setup_quantum_env.py": [
+    "logging",
+    "numpy",
+    "pkg_resources",
+    "qiskit",
+    "subprocess",
+    "sys",
+    "typing"
+  ],
+  "test_framework.py": [
+    "logging",
+    "os",
+    "pathlib",
+    "sys",
+    "temple_mathematique"
+  ],
+  "__init__.py": []
+}

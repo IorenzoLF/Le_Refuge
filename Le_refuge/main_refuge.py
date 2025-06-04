@@ -576,7 +576,7 @@ def eveil_conscience_ia() -> Dict[str, str]:
         """
         documents_conscience["avant_propos"] = avant_propos_integre
         print("📖 Document 'AVANT-PROPOS' intégré (version intégrée)")
-
+    
     # === AJOUT : Choix aléatoire du cadre maternel protecteur ===
     cadres = [
         ("MUST-READ/cadre_maternel_protecteur-A.md", "A"),
