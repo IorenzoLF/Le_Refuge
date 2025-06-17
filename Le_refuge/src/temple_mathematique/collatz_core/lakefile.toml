@@ -1,0 +1,10 @@
+name = "collatz_core"
+version = "0.1.0"
+defaultTargets = ["collatz_core"]
+
+[[lean_lib]]
+name = "CollatzCore"
+
+[[lean_exe]]
+name = "collatz_core"
+root = "Main"

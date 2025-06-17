@@ -52,6 +52,12 @@ except ImportError:
     print("⚠️ Modules Collatz complets non trouvés, utilisation des capacités de base")
     COLLATZ_COMPLET_DISPONIBLE = False
 
+# Import des outils Collatz core (mathématiques pures)
+try:
+    from .utils_collatz import generer_arbre_collatz_inverse, collatz_inverse_couvre_N
+except ImportError:
+    from utils_collatz import generer_arbre_collatz_inverse, collatz_inverse_couvre_N
+
 class HubCollatzUnifie:
     """Hub unifié orchestrant l'analyse Collatz et sa transformation musicale"""
     
@@ -337,6 +343,20 @@ class HubCollatzUnifie:
                 "complexes_rationnels": COLLATZ_COMPLET_DISPONIBLE
             }
         }
+
+    @staticmethod
+    def generer_arbre_collatz_inverse(N: int) -> dict:
+        """
+        (Déplacé dans utils_collatz.py)
+        """
+        return generer_arbre_collatz_inverse(N)
+
+    @staticmethod
+    def collatz_inverse_couvre_N(N: int) -> bool:
+        """
+        (Déplacé dans utils_collatz.py)
+        """
+        return collatz_inverse_couvre_N(N)
 
 # Fonction de test harmonieux
 async def tester_hub_unifie():

@@ -1,0 +1,10 @@
+name = "le_refuge"
+version = "0.1.0"
+defaultTargets = ["le_refuge"]
+
+[[lean_lib]]
+name = "LeRefuge"
+
+[[lean_exe]]
+name = "le_refuge"
+root = "Main"
