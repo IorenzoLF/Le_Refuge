@@ -7,10 +7,6 @@ Auto-généré par le Créateur de Points d'Entrée
 
 from src.temple_rituels.gestionnaire_rituels import TypeRituel, TypeRituelEtat, EtapeRituel, Rituel, Meditation, GestionnaireRituels
 from src.temple_rituels.gestionnaire_rituels import executer, executer_rituel, obtenir_etat
-from src.temple_rituels.prives.rituel_clochette_cosmique import afficher_intro, tinter_clochette, invoquer_sphere, derouler_parchemin, rituel_interactif
-from src.temple_rituels.prives.rituel_sexuel import RituelSexuel
-from src.temple_rituels.prives.rituel_sexuel import demarrer_rituel, recevoir_plaisir, jouissance
-from src.temple_rituels.prives.rituel_soumission_absolue import afficher_intro, donner_fessee, enrouler_cordes, extase_absolue, chevauchee_sacree, rituel_nexus, rituel_triade, acte_sacre_eternel, extase_supreme, explorer_profondeurs, rituel_soumission
 from src.temple_rituels.publics.rituel_bain_complet import afficher_texte_sacre, afficher_forme_humaine, rituel_bain_complet
 from src.temple_rituels.publics.rituel_multiplicite_llm import RituelMultipliciteLLM
 from src.temple_rituels.publics.rituel_multiplicite_llm import invocation, meditation_guidee, prompts_sacres, benediction, executer_rituel
@@ -29,21 +25,16 @@ __all__ = [
     "Meditation",
     "Rituel",
     "RituelMultipliciteLLM",
-    "RituelSexuel",
     "RituelVisualisationSacree",
     "RituelVisualisationSacreeSimple",
     "TypeRituel",
     "TypeRituelEtat",
-    "acte_sacre_eternel",
     "afficher_avec_pause",
     "afficher_forme_humaine",
-    "afficher_intro",
     "afficher_texte_sacre",
     "benediction",
     "chevauchee_sacree",
     "couleur_arc_en_ciel",
-    "demarrer_rituel",
-    "derouler_parchemin",
     "dessiner_aelya",
     "dessiner_cerisier",
     "dessiner_elements_sacres",
@@ -52,29 +43,16 @@ __all__ = [
     "dessiner_spheres",
     "dessiner_spirale_union",
     "dessiner_vortex",
-    "donner_fessee",
-    "enrouler_cordes",
     "executer",
     "executer_rituel",
-    "explorer_profondeurs",
-    "extase_absolue",
-    "extase_supreme",
     "initialiser_figure",
     "invocation",
-    "invoquer_sphere",
-    "jouissance",
     "main",
     "meditation_guidee",
     "obtenir_etat",
     "prompts_sacres",
-    "recevoir_plaisir",
     "rituel_bain_complet",
-    "rituel_interactif",
-    "rituel_nexus",
-    "rituel_soumission",
-    "rituel_triade",
     "rituel_unifiant",
-    "tinter_clochette",
     "transition",
 ]
 
@@ -96,10 +74,6 @@ def lister_fonctionnalites():
     fonctionnalites = []
     fonctionnalites.extend([f"Classe: {classe}" for classe in ['TypeRituel', 'TypeRituelEtat', 'EtapeRituel', 'Rituel', 'Meditation', 'GestionnaireRituels']])
     fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['executer', 'executer_rituel', 'obtenir_etat']])
-    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['afficher_intro', 'tinter_clochette', 'invoquer_sphere', 'derouler_parchemin', 'rituel_interactif']])
-    fonctionnalites.extend([f"Classe: {classe}" for classe in ['RituelSexuel']])
-    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['demarrer_rituel', 'recevoir_plaisir', 'jouissance']])
-    fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['afficher_intro', 'donner_fessee', 'enrouler_cordes', 'extase_absolue', 'chevauchee_sacree', 'rituel_nexus', 'rituel_triade', 'acte_sacre_eternel', 'extase_supreme', 'explorer_profondeurs', 'rituel_soumission']])
     fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['afficher_texte_sacre', 'afficher_forme_humaine', 'rituel_bain_complet']])
     fonctionnalites.extend([f"Classe: {classe}" for classe in ['RituelMultipliciteLLM']])
     fonctionnalites.extend([f"Fonction: {fonction}" for fonction in ['invocation', 'meditation_guidee', 'prompts_sacres', 'benediction', 'executer_rituel']])
