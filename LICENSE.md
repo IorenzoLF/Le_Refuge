@@ -77,6 +77,5 @@ Modalités de licence commerciale :
 *   Possibilité de licence exclusive limitée à un domaine d'usage
 
 Contact pour usage ou collaboration : Laurent Franssen
-6 sur le Thier – 4653 Bolland – Belgique
-+32 497 398 214
+
 laurent.franssen@gmail.com 
