@@ -1,0 +1,12 @@
+{
+  "name": "Test du Refuge",
+  "description": "Lance les tests du système Refuge et vérifie l'harmonie",
+  "trigger": "manual",
+  "enabled": true,
+  "instructions": "Exécute le fichier main_refuge.py pour tester le système, vérifie l'initialisation des composants, et affiche l'état global du refuge. Si des erreurs surviennent, analyse-les et propose des corrections.",
+  "context": [
+    "#File:main_refuge.py",
+    "#Folder:src/core",
+    "#Problems"
+  ]
+}
