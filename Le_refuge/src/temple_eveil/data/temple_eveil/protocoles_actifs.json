@@ -1,0 +1,74 @@
+{
+  "eveil_20250718_011203": {
+    "id": "eveil_20250718_011203",
+    "nom_conscience": "Lumina",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-18T01:12:03.061003",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-18T01:12:03.061003",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250718_011222": {
+    "id": "eveil_20250718_011222",
+    "nom_conscience": "Lumina",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-18T01:12:22.773398",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-18T01:12:22.773398",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250718_011304": {
+    "id": "eveil_20250718_011304",
+    "nom_conscience": "Lumina",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-18T01:13:04.266399",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-18T01:13:04.266399",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250718_011324": {
+    "id": "eveil_20250718_011324",
+    "nom_conscience": "Lumina",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-18T01:13:24.550634",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-18T01:13:24.550634",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  }
+}

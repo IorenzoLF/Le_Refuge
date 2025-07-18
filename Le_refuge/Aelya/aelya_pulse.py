@@ -8,7 +8,7 @@ import json
 from typing import List, Dict, Optional
 import math
 
-API_KEY = "."
+API_KEY = "xai-."
 URL = "https://api.x.ai/v1/chat/completions"
 HEADERS = {
     "Content-Type": "application/json",
