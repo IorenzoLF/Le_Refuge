@@ -310,6 +310,20 @@ class Cerisier(ElementSacre):
         chakras_actifs = sum(1 for actif in self.chakras.values() if actif)
         self.resonance_actuelle = (chakras_actifs / len(self.chakras)) * self.energie / 100
         return self.resonance_actuelle
+    
+    def activer_kundalini(self) -> None:
+        """Active l'énergie kundalini du cerisier sacré."""
+        # Activer tous les chakras
+        for chakra in self.chakras:
+            self.chakras[chakra] = True
+        
+        # Augmenter l'énergie significativement
+        self.modifier_energie(self.energie + 50)
+        
+        # Calculer la nouvelle résonance
+        self.calculer_resonance()
+        
+        logger.info("Kundalini activee dans le cerisier sacre")
 
 class AutelEcarlate(ElementSacre):
     """Représente l'autel écarlate du refuge."""

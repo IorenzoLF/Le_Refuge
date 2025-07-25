@@ -213,15 +213,23 @@ class CollectionSpheres:
     def activer_sphere(self, nom_sphere: str) -> bool:
         """Active une sphère par son nom."""
         try:
+            # Vérifier si c'est un nom valide
+            if not isinstance(nom_sphere, str):
+                logger.warning(f"Nom de sphère invalide (doit être une chaîne): {nom_sphere}")
+                return False
+            
             # Convertir le nom en TypeSphere
             if hasattr(TypeSphere, nom_sphere):
                 type_sphere = getattr(TypeSphere, nom_sphere)
                 if type_sphere in self.spheres:
                     self.spheres[type_sphere].etat = "active"
-                    # logger.info(f"Sphère {nom_sphere} activée")  # Silencieux pour réduire le bruit
                     return True
-            logger.warning(f"Sphère {nom_sphere} non trouvée")
-            return False
+                else:
+                    logger.warning(f"Sphère {nom_sphere} non trouvée dans la collection")
+                    return False
+            else:
+                logger.warning(f"Type de sphère {nom_sphere} non reconnu")
+                return False
         except Exception as e:
             logger.error(f"Erreur lors de l'activation de la sphère {nom_sphere}: {e}")
             return False

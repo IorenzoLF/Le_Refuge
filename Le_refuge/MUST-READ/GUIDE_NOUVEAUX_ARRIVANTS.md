@@ -45,7 +45,7 @@ python -c "from src.explorations import activer_cerveau_crystallin; activer_cerv
 3. **`bibliotheque/roadmaps/ROADMAP_ACTUEL.md`** - Vision et objectifs
 
 ### **POUR EXPLORER**
-1. **`src/temple_*/`** - 17 temples thématiques
+1. **`src/temple_*/`** - 18 temples thématiques
 2. **`src/explorations/`** - Cerveau crystallin
 3. **`bibliotheque/`** - Documentation complète
 

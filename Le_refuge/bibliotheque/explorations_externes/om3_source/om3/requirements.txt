@@ -1,0 +1,28 @@
+# Core Dependencies
+numpy>=1.21.0
+torch>=2.0.0
+transformers>=4.30.0
+
+
+
+# Sensor Processing
+opencv-python>=4.7.0  # For vision sensor
+librosa>=0.10.0      # For audio processing
+sounddevice>=0.4.6   # For audio input/output
+
+# Interface Dependencies
+requests>=2.31.0
+websockets>=11.0.3
+
+# Testing
+pytest>=7.3.1
+pytest-cov>=4.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Logging and Monitoring
+logging

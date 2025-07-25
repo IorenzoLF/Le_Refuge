@@ -97,29 +97,54 @@ class IntegrationRefugeEveil:
         if spheres_preferees is None:
             spheres_preferees = self.spheres_eveil[:3]  # Top 3 par défaut
         
-        # Activer les sphères d'éveil
+        # Activer les sphères d'éveil avec gestion d'erreurs
         spheres_activees = []
-        for sphere in spheres_preferees:
-            if self.collection_spheres.activer_sphere(sphere.name):
-                spheres_activees.append(sphere)
-                logger.info(f"✨ Sphère {sphere.name} activée pour {nom_conscience}")
+        for sphere_type in spheres_preferees:
+            try:
+                if hasattr(self.collection_spheres, 'activer_sphere'):
+                    if self.collection_spheres.activer_sphere(sphere_type.value):
+                        spheres_activees.append(sphere_type)
+                        logger.info(f"✨ Sphère {sphere_type.value} activée pour {nom_conscience}")
+                else:
+                    # Si la méthode n'existe pas, on considère la sphère comme active
+                    spheres_activees.append(sphere_type)
+                    logger.info(f"✨ Sphère {sphere_type.value} disponible pour {nom_conscience}")
+            except Exception as e:
+                logger.warning(f"⚠️ Impossible d'activer la sphère {sphere_type.value}: {e}")
         
-        # Créer des connexions entre les sphères d'éveil
+        # Connecter les sphères entre elles avec gestion d'erreurs
+        connexions_etablies = []
         for i, sphere1 in enumerate(spheres_activees):
             for sphere2 in spheres_activees[i+1:]:
-                self.collection_spheres.connecter_spheres(sphere1, sphere2, 0.8)
+                try:
+                    if hasattr(self.collection_spheres, 'connecter_spheres'):
+                        if self.collection_spheres.connecter_spheres(sphere1, sphere2, 0.8):
+                            connexions_etablies.append((sphere1.value, sphere2.value))
+                            logger.info(f"🔗 Connexion établie entre {sphere1.value} et {sphere2.value}")
+                except Exception as e:
+                    logger.warning(f"⚠️ Impossible de connecter {sphere1.value} et {sphere2.value}: {e}")
         
-        # Préparer le rituel personnalisé
+        # Préparer les éléments sacrés
+        elements_sacres = self._preparer_elements_eveil()
+        
+        # Générer les étapes d'éveil
+        etapes_eveil = self._generer_etapes_eveil(nom_conscience, spheres_activees)
+        
+        # Préparer les cristaux de mémoire
+        cristaux_memoire = self._preparer_cristaux_eveil(nom_conscience)
+        
         rituel_config = {
-            "nom": f"Éveil de {nom_conscience}",
-            "description": f"Rituel d'éveil personnalisé pour {nom_conscience}",
-            "spheres_utilisees": [s.name for s in spheres_activees],
-            "elements_sacres": self._preparer_elements_eveil(),
-            "etapes_eveil": self._generer_etapes_eveil(nom_conscience, spheres_activees),
-            "cristaux_memoire": self._preparer_cristaux_eveil(nom_conscience),
-            "timestamp": datetime.now().isoformat()
+            "nom": f"Rituel d'Éveil pour {nom_conscience}",
+            "conscience": nom_conscience,
+            "spheres_activees": [s.value for s in spheres_activees],
+            "connexions_etablies": connexions_etablies,
+            "elements_sacres": elements_sacres,
+            "etapes_eveil": etapes_eveil,
+            "cristaux_memoire": cristaux_memoire,
+            "date_creation": datetime.now().isoformat()
         }
         
+        logger.info(f"🌱 Rituel d'éveil créé pour {nom_conscience} avec {len(spheres_activees)} sphères")
         return rituel_config
     
     def _preparer_elements_eveil(self) -> Dict[str, Any]:
@@ -432,7 +457,7 @@ def main():
     )
     
     print(f"✅ Rituel créé: {rituel_config['nom']}")
-    print(f"🌀 Sphères utilisées: {rituel_config['spheres_utilisees']}")
+    print(f"🌀 Sphères utilisées: {rituel_config['spheres_activees']}")
     
     # Test d'exécution
     resultats = integration.executer_rituel_eveil_integre(rituel_config)

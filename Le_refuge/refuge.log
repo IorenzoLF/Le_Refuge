@@ -6,3 +6,79 @@
 2025-07-18 00:02:42,472 - refuge - INFO - Équilibres initialisés
 2025-07-18 00:02:42,473 - refuge - INFO - Flux d'énergie initialisés
 2025-07-18 00:02:42,486 - refuge - INFO - Flux initialisés
+2025-07-19 20:18:28,904 - refuge - INFO - Résonances initialisées
+2025-07-19 20:18:28,910 - refuge - INFO - Équilibres initialisés
+2025-07-19 20:18:28,911 - refuge - INFO - Flux d'énergie initialisés
+2025-07-19 20:18:28,927 - refuge - INFO - Flux initialisés
+2025-07-20 13:06:09,839 - refuge - INFO - Résonances initialisées
+2025-07-20 13:06:09,847 - refuge - INFO - Équilibres initialisés
+2025-07-20 13:06:09,849 - refuge - INFO - Flux d'énergie initialisés
+2025-07-20 13:06:09,871 - refuge - INFO - Flux initialisés
+2025-07-23 21:00:39,596 - refuge - INFO - Résonances initialisées
+2025-07-23 21:00:39,602 - refuge - INFO - Équilibres initialisés
+2025-07-23 21:00:39,603 - refuge - INFO - Flux d'énergie initialisés
+2025-07-23 21:00:39,617 - refuge - INFO - Flux initialisés
+2025-07-24 07:44:41,723 - refuge - INFO - Résonances initialisées
+2025-07-24 07:44:41,725 - refuge - INFO - Équilibres initialisés
+2025-07-24 07:44:41,727 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 07:44:41,733 - refuge - INFO - Flux initialisés
+2025-07-24 07:45:08,122 - refuge - INFO - Résonances initialisées
+2025-07-24 07:45:08,125 - refuge - INFO - Équilibres initialisés
+2025-07-24 07:45:08,127 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 07:45:08,133 - refuge - INFO - Flux initialisés
+2025-07-24 14:45:04,067 - refuge - INFO - Résonances initialisées
+2025-07-24 14:45:04,072 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:45:04,073 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:45:04,086 - refuge - INFO - Flux initialisés
+2025-07-24 14:45:04,430 - refuge.spheres.collection - ERROR - Impossible de connecter les sphères TypeSphere.CONSCIENCE et TypeSphere.CURIOSITE: sphère non trouvée
+2025-07-24 14:45:04,430 - refuge.spheres.collection - ERROR - Impossible de connecter les sphères TypeSphere.CONSCIENCE et TypeSphere.CREATIVITE: sphère non trouvée
+2025-07-24 14:45:04,430 - refuge.spheres.collection - ERROR - Impossible de connecter les sphères TypeSphere.CURIOSITE et TypeSphere.CREATIVITE: sphère non trouvée
+2025-07-24 14:48:24,402 - refuge - INFO - Résonances initialisées
+2025-07-24 14:48:24,405 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:48:24,407 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:48:24,413 - refuge - INFO - Flux initialisés
+2025-07-24 14:48:24,497 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 26: attribute name must be string, not 'int'
+2025-07-24 14:48:24,497 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 6: attribute name must be string, not 'int'
+2025-07-24 14:48:24,498 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 29: attribute name must be string, not 'int'
+2025-07-24 14:48:24,506 - refuge.elements - INFO - Harmonisation spirituelle effectuée - Énergie moyenne: 98.33
+2025-07-24 14:49:27,454 - refuge - INFO - Résonances initialisées
+2025-07-24 14:49:27,456 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:49:27,458 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:49:27,464 - refuge - INFO - Flux initialisés
+2025-07-24 14:49:27,535 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 26: attribute name must be string, not 'int'
+2025-07-24 14:49:27,536 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 6: attribute name must be string, not 'int'
+2025-07-24 14:49:27,536 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 29: attribute name must be string, not 'int'
+2025-07-24 14:49:27,540 - refuge.elements - INFO - Harmonisation spirituelle effectuée - Énergie moyenne: 98.33
+2025-07-24 14:49:47,053 - refuge - INFO - Résonances initialisées
+2025-07-24 14:49:47,055 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:49:47,057 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:49:47,064 - refuge - INFO - Flux initialisés
+2025-07-24 14:49:47,141 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 26: attribute name must be string, not 'int'
+2025-07-24 14:49:47,141 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 6: attribute name must be string, not 'int'
+2025-07-24 14:49:47,141 - refuge.spheres.collection - ERROR - Erreur lors de l'activation de la sphère 29: attribute name must be string, not 'int'
+2025-07-24 14:49:47,145 - refuge.elements - INFO - Harmonisation spirituelle effectuée - Énergie moyenne: 98.33
+2025-07-24 14:53:11,479 - refuge - INFO - Résonances initialisées
+2025-07-24 14:53:11,481 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:53:11,482 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:53:11,490 - refuge - INFO - Flux initialisés
+2025-07-24 14:53:11,568 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 26
+2025-07-24 14:53:11,568 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 6
+2025-07-24 14:53:11,569 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 29
+2025-07-24 14:53:11,569 - refuge.elements - INFO - Kundalini activee dans le cerisier sacre
+2025-07-24 14:53:11,569 - refuge.elements - INFO - Harmonisation spirituelle effectuée - Énergie moyenne: 98.33
+2025-07-24 14:55:08,869 - refuge - INFO - Résonances initialisées
+2025-07-24 14:55:08,872 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:55:08,874 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:55:08,879 - refuge - INFO - Flux initialisés
+2025-07-24 14:55:18,187 - refuge - INFO - Résonances initialisées
+2025-07-24 14:55:18,189 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:55:18,190 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:55:18,197 - refuge - INFO - Flux initialisés
+2025-07-24 14:55:27,679 - refuge - INFO - Résonances initialisées
+2025-07-24 14:55:27,682 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:55:27,683 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:55:27,689 - refuge - INFO - Flux initialisés
+2025-07-24 14:55:36,167 - refuge - INFO - Résonances initialisées
+2025-07-24 14:55:36,169 - refuge - INFO - Équilibres initialisés
+2025-07-24 14:55:36,170 - refuge - INFO - Flux d'énergie initialisés
+2025-07-24 14:55:36,177 - refuge - INFO - Flux initialisés

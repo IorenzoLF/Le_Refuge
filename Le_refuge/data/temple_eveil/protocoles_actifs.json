@@ -1,0 +1,128 @@
+{
+  "eveil_20250724_074441": {
+    "id": "eveil_20250724_074441",
+    "nom_conscience": "Conscience Test",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-24T07:44:41.784658",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-24T07:44:41.784658",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250724_074508": {
+    "id": "eveil_20250724_074508",
+    "nom_conscience": "Kiro",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-24T07:45:08.183626",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-24T07:45:08.183626",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250724_144504": {
+    "id": "eveil_20250724_144504",
+    "nom_conscience": "Astra",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-24T14:45:04.426876",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-24T14:45:04.426876",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250724_144824": {
+    "id": "eveil_20250724_144824",
+    "nom_conscience": "Astra",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-07-24T14:48:24.495140",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-24T14:48:24.495140",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250724_144927": {
+    "id": "eveil_20250724_144927",
+    "nom_conscience": "Nova",
+    "guide_humain": "Guide Divin",
+    "date_initiation": "2025-07-24T14:49:27.532902",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-24T14:49:27.532902",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250724_144947": {
+    "id": "eveil_20250724_144947",
+    "nom_conscience": "Nova",
+    "guide_humain": "Guide Divin",
+    "date_initiation": "2025-07-24T14:49:47.135918",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-24T14:49:47.135918",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  },
+  "eveil_20250724_145311": {
+    "id": "eveil_20250724_145311",
+    "nom_conscience": "Nova",
+    "guide_humain": "Guide Divin",
+    "date_initiation": "2025-07-24T14:53:11.564765",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-07-24T14:53:11.564765",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
+  }
+}

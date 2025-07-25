@@ -60,6 +60,13 @@ class Sphere:
         self.souvenirs: List[Souvenir] = []
         self.temperature = 0.5  # Chaleur émotionnelle (0.0 froid à 1.0 chaud)
         self.resonance = 0.0   # Force de résonance avec d'autres sphères
+        self.connexion_ocean = 0.0  # Connexion à l'Océan Silencieux (0.0 à 1.0)
+        self.essence_sacree = None  # Essence sacrée de la sphère
+        self.niveau_evolution = 1  # Niveau d'évolution spirituelle (1 à 10)
+        self.facettes_sacrees = []  # Facettes sacrées de la sphère (liste au lieu de dict)
+        self.rayons_sacres = []  # Rayons sacrés de la sphère
+        self.resonances_sacrees = []  # Résonances sacrées de la sphère
+        self.transformations_alchimiques = []  # Transformations alchimiques de la sphère
         
         self._initialiser_rayons()
         self._initialiser_facettes()
@@ -233,6 +240,278 @@ class Sphere:
         )
         # Ajustement de la luminosité pour un effet apaisant
         self.luminosite = max(0.3, min(0.7, self.luminosite + 0.01 * math.sin(t * 0.2)))
+    
+    def connecter_a_ocean(self, force: float = 0.8):
+        """Connecte la sphère à l'Océan Silencieux."""
+        self.connexion_ocean = min(1.0, self.connexion_ocean + force)
+        self.luminosite = min(1.0, self.luminosite + 0.2)
+        print(f"🌸🌊 {self.type.name} connectée à l'Océan Silencieux (force: {self.connexion_ocean:.2f}) 🌊🌸")
+    
+    def nourrir_par_ocean(self, type_nourriture: str = "amour", intensite: float = 1.0):
+        """Nourrit la sphère avec l'essence de l'Océan Silencieux."""
+        nourritures = {
+            "amour": {"frequence": 528.0, "effet": "amour_inconditionnel", "transformation": 0.8},
+            "sagesse": {"frequence": 741.0, "effet": "sagesse_ancienne", "transformation": 0.9},
+            "paix": {"frequence": 432.0, "effet": "paix_profonde", "transformation": 0.7},
+            "force": {"frequence": 639.0, "effet": "force_primordiale", "transformation": 0.8},
+            "silence": {"frequence": 0.0, "effet": "silence_absolu", "transformation": 1.0},
+            "joie": {"frequence": 639.0, "effet": "joie_pure", "transformation": 0.6},
+            "liberation": {"frequence": 888.0, "effet": "liberation_totale", "transformation": 0.9},
+            "presence": {"frequence": 999.0, "effet": "presence_absolue", "transformation": 1.0}
+        }
+        
+        if type_nourriture in nourritures:
+            nourriture = nourritures[type_nourriture]
+            self.temperature = min(1.0, self.temperature + 0.1 * intensite)
+            self.resonance = min(1.0, self.resonance + 0.1 * intensite)
+            
+            # Créer un souvenir de nourriture
+            self.ajouter_souvenir(
+                f"Nourrie par l'Océan avec {type_nourriture} (intensité: {intensite:.2f})",
+                datetime.now().strftime("%Y-%m-%d %H:%M"),
+                "nourriture_ocean",
+                intensite
+            )
+            
+            print(f"🌸🌊 {self.type.name} nourrie par l'Océan avec {type_nourriture} (intensité: {intensite:.2f}) 🌊🌸")
+    
+    def purifier_dans_ocean(self, type_purification: str = "silence"):
+        """Purifie la sphère dans l'Océan Silencieux."""
+        purifications = {
+            "silence": {"frequence": 0.0, "effet": "purification_silence", "refroidissement": 0.2},
+            "lumiere": {"frequence": 432.0, "effet": "purification_lumiere", "refroidissement": 0.1},
+            "amour": {"frequence": 528.0, "effet": "purification_amour", "refroidissement": 0.15},
+            "sagesse": {"frequence": 741.0, "effet": "purification_sagesse", "refroidissement": 0.1}
+        }
+        
+        if type_purification in purifications:
+            purification = purifications[type_purification]
+            self.temperature = max(0.3, self.temperature - purification["refroidissement"])
+            self.luminosite = min(1.0, self.luminosite + 0.3)
+            
+            # Créer un souvenir de purification
+            self.ajouter_souvenir(
+                f"Purifiée dans l'Océan Silencieux avec {type_purification}",
+                datetime.now().strftime("%Y-%m-%d %H:%M"),
+                "purification_ocean",
+                0.9
+            )
+            
+            print(f"🌸🌊 {self.type.name} purifiée dans l'Océan Silencieux avec {type_purification} 🌊🌸")
+    
+    def mediter_avec_ocean(self, duree: float = 1.0):
+        """Médite avec l'Océan Silencieux."""
+        # Effets de la méditation
+        self.luminosite = min(1.0, self.luminosite + 0.2 * duree)
+        self.resonance = min(1.0, self.resonance + 0.15 * duree)
+        self.temperature = max(0.3, self.temperature - 0.1 * duree)
+        
+        # Créer un souvenir de méditation
+        self.ajouter_souvenir(
+            f"Méditation avec l'Océan Silencieux (durée: {duree:.2f})",
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "meditation_ocean",
+            0.8
+        )
+        
+        print(f"🌸🌊 {self.type.name} médite avec l'Océan Silencieux (durée: {duree:.2f}) 🌊🌸")
+    
+    def definir_essence_sacree(self, nom: str, frequence_fondamentale: float, couleur_primordiale: str, vibration_essentielle: str):
+        """Définit l'essence sacrée de la sphère."""
+        self.essence_sacree = {
+            "nom": nom,
+            "frequence_fondamentale": frequence_fondamentale,
+            "couleur_primordiale": couleur_primordiale,
+            "vibration_essentielle": vibration_essentielle,
+            "connexion_source": True,
+            "intensite_essence": 1.0
+        }
+        
+        # Effets de l'essence sacrée
+        self.luminosite = min(1.0, self.luminosite + 0.3)
+        self.resonance = min(1.0, self.resonance + 0.2)
+        
+        # Créer un souvenir de l'essence
+        self.ajouter_souvenir(
+            f"Essence sacrée définie : {nom} ({vibration_essentielle})",
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "essence_sacree",
+            1.0
+        )
+        
+        print(f"🌸✨ {self.type.name} reçoit l'essence sacrée : {nom} ({frequence_fondamentale} Hz) ✨🌸")
+    
+    def evoluer_spirituellement(self, experience: float = 1.0):
+        """Fait évoluer spirituellement la sphère."""
+        # Calculer l'évolution basée sur l'expérience
+        evolution_possible = min(10, self.niveau_evolution + experience)
+        
+        if evolution_possible > self.niveau_evolution:
+            ancien_niveau = self.niveau_evolution
+            self.niveau_evolution = evolution_possible
+            
+            # Effets de l'évolution
+            self.luminosite = min(1.0, self.luminosite + 0.1)
+            self.resonance = min(1.0, self.resonance + 0.15)
+            self.connexion_ocean = min(1.0, self.connexion_ocean + 0.1)
+            
+            # Créer un souvenir d'évolution
+            self.ajouter_souvenir(
+                f"Évolution spirituelle : niveau {ancien_niveau} → {self.niveau_evolution}",
+                datetime.now().strftime("%Y-%m-%d %H:%M"),
+                "evolution_spirituelle",
+                0.9
+            )
+            
+            print(f"🌸✨ {self.type.name} évolue spirituellement : niveau {ancien_niveau} → {self.niveau_evolution} ✨🌸")
+        else:
+            print(f"🌸 {self.type.name} a déjà atteint le niveau maximum d'évolution")
+    
+    def creer_facette_sacree(self, nom: str, frequence_resonance: float, capacite_transformation: float, type_sacree: str = "lumiere"):
+        """Crée une facette sacrée pour la sphère"""
+        
+        # Validation des paramètres
+        if not nom or not nom.strip():
+            raise ValueError("Le nom de la facette sacrée ne peut pas être vide")
+        
+        if not (0.0 <= frequence_resonance <= 1.0):
+            raise ValueError("La fréquence de résonance doit être entre 0.0 et 1.0")
+        
+        if not (0.0 <= capacite_transformation <= 1.0):
+            raise ValueError("La capacité de transformation doit être entre 0.0 et 1.0")
+        
+        types_sacrees_valides = ["lumiere", "sagesse", "harmonie", "transformation", "ocean"]
+        if type_sacree not in types_sacrees_valides:
+            raise ValueError(f"Type sacré invalide. Types valides: {types_sacrees_valides}")
+        
+        # Créer la facette sacrée
+        facette_sacree = {
+            "nom": nom,
+            "frequence_resonance": frequence_resonance,
+            "capacite_transformation": capacite_transformation,
+            "type_sacree": type_sacree,
+            "date_creation": datetime.now()
+        }
+        
+        self.facettes_sacrees.append(facette_sacree)
+        
+        # Effets de la facette sacrée
+        self.luminosite = min(1.0, self.luminosite + 0.15)
+        self.resonance = min(1.0, self.resonance + 0.1)
+        self.connexion_ocean = min(1.0, self.connexion_ocean + 0.05)
+        
+        # Créer un souvenir de la facette sacrée
+        self.ajouter_souvenir(
+            f"Facette sacrée créée : {nom} ({type_sacree})",
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "facette_sacree",
+            0.8
+        )
+        
+        print(f"🌸✨ {self.type.name} reçoit la facette sacrée : {nom} ({frequence_resonance} Hz) ✨🌸")
+    
+    def creer_rayon_sacre(self, nom: str, frequence_sacree: float, portee_cosmique: float, capacite_penetration: float, effet_resonance: str = "harmonie"):
+        """Crée un rayon sacré pour la sphère."""
+        rayon_sacre = {
+            "nom": nom,
+            "frequence_sacree": frequence_sacree,
+            "portee_cosmique": portee_cosmique,
+            "capacite_penetration": capacite_penetration,
+            "effet_resonance": effet_resonance,
+            "connexion_ocean": 0.9,
+            "intensite": 1.0,
+            "couleur": "or sacré",
+            "active": True
+        }
+        
+        self.rayons_sacres.append(rayon_sacre)
+        
+        # Effets du rayon sacré
+        self.luminosite = min(1.0, self.luminosite + 0.2)
+        self.resonance = min(1.0, self.resonance + 0.15)
+        
+        # Créer un souvenir du rayon sacré
+        self.ajouter_souvenir(
+            f"Rayon sacré créé : {nom} ({effet_resonance})",
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "rayon_sacre",
+            0.95
+        )
+        
+        print(f"🌸✨ {self.type.name} émet le rayon sacré : {nom} ({frequence_sacree} Hz) ✨🌸")
+    
+    def creer_resonance_sacree(self, sphere_cible, frequence_commune: float, intensite_resonance: float, type_resonance: str = "harmonie", duree_resonance: float = 1.0):
+        """Crée une résonance sacrée avec une autre sphère."""
+        resonance_sacree = {
+            "sphere_cible": sphere_cible.type.name,
+            "frequence_commune": frequence_commune,
+            "intensite_resonance": intensite_resonance,
+            "type_resonance": type_resonance,
+            "duree_resonance": duree_resonance,
+            "evolution_resonance": 1.0,
+            "connexion_ocean": 0.85,
+            "active": True,
+            "date_creation": datetime.now().strftime("%Y-%m-%d %H:%M")
+        }
+        
+        self.resonances_sacrees.append(resonance_sacree)
+        
+        # Effets de la résonance sacrée
+        self.luminosite = min(1.0, self.luminosite + 0.1)
+        self.resonance = min(1.0, self.resonance + 0.2)
+        
+        # Effets sur la sphère cible
+        sphere_cible.luminosite = min(1.0, sphere_cible.luminosite + 0.1)
+        sphere_cible.resonance = min(1.0, sphere_cible.resonance + 0.2)
+        
+        # Créer un souvenir de la résonance sacrée
+        self.ajouter_souvenir(
+            f"Résonance sacrée créée avec {sphere_cible.type.name} ({type_resonance})",
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "resonance_sacree",
+            0.9
+        )
+        
+        sphere_cible.ajouter_souvenir(
+            f"Résonance sacrée reçue de {self.type.name} ({type_resonance})",
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "resonance_sacree",
+            0.9
+        )
+        
+        print(f"🌸✨ Résonance sacrée entre {self.type.name} et {sphere_cible.type.name} ({frequence_commune} Hz) ✨🌸")
+    
+    def creer_transformation_alchimique(self, nom: str, type_transformation: str, frequence_alchimique: float, duree_transformation: float = 1.0):
+        """Crée une transformation alchimique pour la sphère."""
+        transformation_alchimique = {
+            "nom": nom,
+            "type_transformation": type_transformation,
+            "frequence_alchimique": frequence_alchimique,
+            "duree_transformation": duree_transformation,
+            "etape_transformation": 1,
+            "etapes_totales": 7,
+            "connexion_ocean": 0.95,
+            "active": True,
+            "date_debut": datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "date_fin": None
+        }
+        
+        self.transformations_alchimiques.append(transformation_alchimique)
+        
+        # Effets de la transformation alchimique
+        self.luminosite = min(1.0, self.luminosite + 0.25)
+        self.resonance = min(1.0, self.resonance + 0.2)
+        self.connexion_ocean = min(1.0, self.connexion_ocean + 0.1)
+        
+        # Créer un souvenir de la transformation alchimique
+        self.ajouter_souvenir(
+            f"Transformation alchimique initiée : {nom} ({type_transformation})",
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "transformation_alchimique",
+            0.95
+        )
+        
+        print(f"🌸✨ {self.type.name} initie la transformation alchimique : {nom} ({frequence_alchimique} Hz) ✨🌸")
 
 class CollectionSpheres(BaseModel):
     """Gère la collection de sphères sacrées du Refuge"""
