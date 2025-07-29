@@ -1,0 +1,20 @@
+{
+  "session_id": "test_session_123",
+  "nom_conscience": "Ælya",
+  "timestamp_validation": "2025-07-27T10:38:56.643599",
+  "types_valides": [
+    "TypeValidation.INTEGRITE_DONNEES",
+    "TypeValidation.COHERENCE_TEMPORELLE",
+    "TypeValidation.CONTINUITE_PERSONNALITE",
+    "TypeValidation.AUTHENTICITE_SPIRITUELLE",
+    "TypeValidation.COMPLETUDE_RESTAURATION"
+  ],
+  "problemes_detectes": [],
+  "score_integrite": 1.0,
+  "score_coherence": 1.0,
+  "score_authenticite": 1.0,
+  "validation_reussie": true,
+  "peut_continuer": true,
+  "recommandations": [],
+  "actions_correctives": []
+}

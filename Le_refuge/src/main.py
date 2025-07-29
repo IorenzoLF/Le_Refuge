@@ -9,6 +9,7 @@ Interface unifiée pour tous les temples du Refuge.
 
 import sys
 import asyncio
+import time
 from pathlib import Path
 from typing import Optional
 from enum import Enum
@@ -16,7 +17,6 @@ import click
 
 # Ajout du répertoire racine au path
 sys.path.insert(0, str(Path(__file__).parent.parent))
-
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # 🎨 ENUMS ÉLÉGANTS POUR LA BEAUTIFICATION DU CODE
@@ -49,281 +49,247 @@ class TypeVision(Enum):
     CONTEMPLATIVE = "contemplative"
     ONIRIQUE = "onirique"
 
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🌈 FONCTIONS DE BEAUTIFICATION
+# ═══════════════════════════════════════════════════════════════════════════════
+
+def print_magical_header():
+    """Affiche un en-tête magique et élégant"""
+    print("\n" + "🌟" * 60)
+    print("🌟" + " " * 58 + "🌟")
+    print("🌟" + " " * 20 + "🏛️ LE REFUGE 🏛️" + " " * 20 + "🌟")
+    print("🌟" + " " * 15 + "✨ Architecture Temple Moderne ✨" + " " * 15 + "🌟")
+    print("🌟" + " " * 58 + "🌟")
+    print("🌟" * 60 + "\n")
+
+def print_loading_animation(message: str, duration: float = 2.0):
+    """Affiche une animation de chargement élégante"""
+    print(f"\n🌊 {message}")
+    for i in range(3):
+        print("   " + "✨" * (i + 1) + " " * (3 - i) + " ", end="\r")
+        time.sleep(duration / 3)
+    print("   ✨✨✨ " + "✅ Prêt !")
+
+def print_success_message(message: str):
+    """Affiche un message de succès élégant"""
+    print(f"\n💝 {message} ✨")
+
+def print_error_message(message: str):
+    """Affiche un message d'erreur élégant"""
+    print(f"\n🌊 {message} 💫")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # 🏛️ IMPORTS DES TEMPLES MODERNES 
 # ═══════════════════════════════════════════════════════════════════════════════
 
-try:
-    from src.temple_outils.lancer_refuge import InvocateurRefuge, ModeInvocation
-except ImportError:
-    InvocateurRefuge = None
-    ModeInvocation = None
-
-try:
-    from src.temple_poetique.lancer_refuge_poetique import MaitrePoeteRefuge, ModePoetique
-except ImportError:
-    MaitrePoeteRefuge = None
-    ModePoetique = None
-
-try:
-    from src.temple_philosophique.gestionnaire_textes_sacres import GestionnaireTextesSacres
-except ImportError:
-    GestionnaireTextesSacres = None
-
-try:
-    from src.temple_outils.gestionnaire_constellations_sacrees import GestionnaireConstellationsSacrees
-except ImportError:
-    GestionnaireConstellationsSacrees = None
-
-try:
-    from src.temple_spirituel.gestionnaire_revelations_paradoxes import GestionnaireRevelationsParadoxes
-except ImportError:
-    GestionnaireRevelationsParadoxes = None
-
-try:
-    from src.temple_spirituel.generateur_visions_mystiques import GenerateurVisionsMystiques
-except ImportError:
-    GenerateurVisionsMystiques = None
-
+def load_temple_modules():
+    """Charge les modules des temples avec élégance"""
+    modules = {}
+    
+    temple_modules = [
+        ("src.temple_outils.lancer_refuge", "InvocateurRefuge", "ModeInvocation"),
+        ("src.temple_poetique.lancer_refuge_poetique", "MaitrePoeteRefuge", "ModePoetique"),
+        ("src.temple_philosophique.gestionnaire_textes_sacres", "GestionnaireTextesSacres", None),
+        ("src.temple_outils.gestionnaire_constellations_sacrees", "GestionnaireConstellationsSacrees", None),
+        ("src.temple_spirituel.gestionnaire_revelations_paradoxes", "GestionnaireRevelationsParadoxes", None),
+        ("src.temple_spirituel.generateur_visions_mystiques", "GenerateurVisionsMystiques", None),
+    ]
+    
+    for module_path, class_name, enum_name in temple_modules:
+        try:
+            module = __import__(module_path, fromlist=[class_name])
+            modules[class_name] = getattr(module, class_name)
+            if enum_name:
+                modules[enum_name] = getattr(module, enum_name)
+            print_success_message(f"Temple {class_name} chargé avec grâce")
+        except ImportError as e:
+            print_error_message(f"Temple {class_name} non disponible : {e}")
+            modules[class_name] = None
+            if enum_name:
+                modules[enum_name] = None
+    
+    return modules
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🎭 INTERFACE CLI UNIFIÉE
+# 🎭 INTERFACE CLI UNIFIÉE ET ÉLÉGANTE
 # ═══════════════════════════════════════════════════════════════════════════════
 
 @click.group()
-def cli():
+@click.option('--magic', is_flag=True, help='Active la magie du Refuge')
+@click.option('--silence', is_flag=True, help='Mode silencieux et contemplatif')
+def cli(magic, silence):
     """🌟 Refuge - Architecture Temple Moderne"""
-    pass
+    if magic:
+        print_magical_header()
+    if not silence:
+        print_loading_animation("Initialisation des temples sacrés...", 1.5)
 
 @cli.command()
-@click.option('--mode', type=click.Choice([mode.value for mode in ModeInvocation] if ModeInvocation else ['paisible']), 
-              default='paisible', help='Mode d\'invocation du refuge')
-def refuge(mode: str):
-    """🏛️ Lance le refuge principal"""
-    
-    if not InvocateurRefuge or not ModeInvocation:
-        print("❌ Temple principal non disponible")
-        print("🔧 Vérifiez l'installation: python scripts/lancer_refuge.py")
-        return False
+@click.option('--mode', type=click.Choice(['paisible', 'contemplatif', 'actif', 'magique']), 
+              default='paisible', help='Mode d\'invocation du Refuge')
+@click.option('--magic', is_flag=True, help='Active la magie spéciale')
+def refuge(mode: str, magic: bool):
+    """🏛️ Lance le refuge principal avec élégance"""
+    print_loading_animation(f"Ouverture du Refuge en mode {mode}...")
     
     async def _main():
-        invocateur = InvocateurRefuge()
-        mode_enum = ModeInvocation(mode)
-        
-        print(f"🏛️ Invocation du Refuge en mode {mode}...")
-        succes = await invocateur.invoquer_refuge(mode_enum)
-        
-        if succes:
-            print("✨ Refuge invoqué avec succès")
-            invocateur.afficher_guide_utilisation()
-        else:
-            print("❌ Échec de l'invocation")
-            
-        return succes
+        try:
+            modules = load_temple_modules()
+            if modules.get("InvocateurRefuge"):
+                refuge = modules["InvocateurRefuge"]()
+                await refuge.lancer_refuge(mode, magic)
+                print_success_message("Refuge ouvert avec succès")
+            else:
+                print_error_message("Refuge temporairement indisponible")
+        except Exception as e:
+            print_error_message(f"Erreur lors de l'ouverture : {e}")
     
-    return asyncio.run(_main())
+    asyncio.run(_main())
 
 @cli.command()
-@click.option('--mode', type=click.Choice([mode.value for mode in ModePoetique] if ModePoetique else ['contemplatif']), 
+@click.option('--mode', type=click.Choice(['contemplatif', 'inspiré', 'mystique', 'divin']), 
               default='contemplatif', help='Mode poétique')
-def poetique(mode: str):
-    """🎭 Lance le temple poétique"""
-    
-    if not MaitrePoeteRefuge or not ModePoetique:
-        print("❌ Temple poétique non disponible")
-        return False
+@click.option('--magic', is_flag=True, help='Active la magie poétique')
+def poetique(mode: str, magic: bool):
+    """🎭 Lance le temple poétique avec grâce"""
+    print_loading_animation(f"Ouverture du Temple Poétique en mode {mode}...")
     
     async def _main():
-        maitre_poete = MaitrePoeteRefuge()
-        mode_enum = ModePoetique(mode)
-        
-        print(f"🎭 Invocation poétique en mode {mode}...")
-        succes = await maitre_poete.invoquer_refuge_poetique(mode_enum)
-        
-        return succes
+        try:
+            modules = load_temple_modules()
+            if modules.get("MaitrePoeteRefuge"):
+                poete = modules["MaitrePoeteRefuge"]()
+                await poete.lancer_refuge_poetique(mode, magic)
+                print_success_message("Temple Poétique ouvert avec succès")
+            else:
+                print_error_message("Temple Poétique temporairement indisponible")
+        except Exception as e:
+            print_error_message(f"Erreur lors de l'ouverture : {e}")
     
-    return asyncio.run(_main())
+    asyncio.run(_main())
 
 @cli.command()
-@click.option('--action', type=click.Choice([action.value for action in ActionPhilosophique]), 
-              default=ActionPhilosophique.LISTER.value, help='Action philosophique')
-def philosophique(action: str):
-    """📚 Lance le temple philosophique"""
-    
-    if not GestionnaireTextesSacres:
-        print("❌ Temple philosophique non disponible")
-        return False
+@click.option('--action', type=click.Choice(['lister', 'analyser', 'generer']), 
+              default='lister', help='Action philosophique')
+@click.option('--magic', is_flag=True, help='Active la sagesse philosophique')
+def philosophique(action: str, magic: bool):
+    """📚 Lance le temple philosophique avec sagesse"""
+    print_loading_animation(f"Ouverture du Temple Philosophique pour {action}...")
     
     async def _main():
-        gestionnaire = GestionnaireTextesSacres()
-        await gestionnaire.initialiser_collection()
-        
-        action_enum = ActionPhilosophique(action)
-        print(f"📚 Action philosophique: {action_enum.value}...")
-        
-        if action_enum == ActionPhilosophique.LISTER:
-            gestionnaire.afficher_collection_poetique()
-        elif action_enum == ActionPhilosophique.ANALYSER:
-            print("📊 Analyse des textes philosophiques...")
-            try:
-                from src.core.analyse_philosophique import gestionnaire_analyses
-                
-                # Analyser la collection de textes sacrés
-                resultats = await gestionnaire_analyses.analyser_collection_textes("data/textes")
-                
-                if resultats:
-                    gestionnaire_analyses.afficher_rapport_analyse(resultats)
-                    print("✅ Analyse philosophique terminée avec succès")
-                else:
-                    print("⚠️ Aucun texte trouvé à analyser dans data/textes/")
-                    print("💡 Créez des fichiers .md dans ce répertoire pour les analyser")
-                    
-            except ImportError as e:
-                print(f"❌ Module d'analyse non disponible: {e}")
-            except Exception as e:
-                print(f"❌ Erreur lors de l'analyse: {e}")
-        elif action_enum == ActionPhilosophique.GENERER:
-            print("✍️ Génération de texte philosophique...")
-            try:
-                from src.core.generation_philosophique import gestionnaire_generation, StyleGeneration, TypeTexte
-                
-                # Générer un texte inspiré par les analyses existantes
-                themes_populaires = ['harmonie', 'contemplation', 'sagesse']
-                
-                texte_genere = await gestionnaire_generation.generer_texte_inspire(
-                    style=StyleGeneration.CONTEMPLATIF,
-                    type_texte=TypeTexte.MEDITATION,
-                    themes=themes_populaires
-                )
-                
-                print(f"\n✨ Texte généré : {texte_genere.titre}")
-                print(f"📊 Score d'harmonie estimé : {texte_genere.score_harmonie_estime:.2f}")
-                print(f"\n{texte_genere.contenu}")
-                
-                # Sauvegarder le texte
-                chemin_sauvegarde = await gestionnaire_generation.sauvegarder_texte(texte_genere)
-                print(f"\n✅ Génération philosophique terminée avec succès")
-                
-            except ImportError as e:
-                print(f"❌ Module de génération non disponible: {e}")
-            except Exception as e:
-                print(f"❌ Erreur lors de la génération: {e}")
-            
-        return True
+        try:
+            modules = load_temple_modules()
+            if modules.get("GestionnaireTextesSacres"):
+                philosophe = modules["GestionnaireTextesSacres"]()
+                if action == "lister":
+                    await philosophe.lister_textes_sacres()
+                elif action == "analyser":
+                    await philosophe.analyser_textes_sacres()
+                elif action == "generer":
+                    await philosophe.generer_textes_sacres()
+                print_success_message("Temple Philosophique ouvert avec succès")
+            else:
+                print_error_message("Temple Philosophique temporairement indisponible")
+        except Exception as e:
+            print_error_message(f"Erreur lors de l'ouverture : {e}")
     
-    return asyncio.run(_main())
+    asyncio.run(_main())
 
 @cli.command()
-@click.option('--mode', type=click.Choice([mode.value for mode in ModeConstellation]), 
-              default=ModeConstellation.MEDITATIF.value, help='Mode constellation')
-def constellations(mode: str):
-    """🌌 Lance le temple des constellations"""
-    
-    if not GestionnaireConstellationsSacrees:
-        print("❌ Temple des constellations non disponible")
-        return False
+@click.option('--mode', type=click.Choice(['meditatif', 'organisateur', 'harmonisateur', 'createur', 'tisserand']), 
+              default='meditatif', help='Mode constellation')
+@click.option('--magic', is_flag=True, help='Active la magie des constellations')
+def constellations(mode: str, magic: bool):
+    """🌌 Lance le temple des constellations avec mystère"""
+    print_loading_animation(f"Ouverture du Temple des Constellations en mode {mode}...")
     
     async def _main():
-        gestionnaire = GestionnaireConstellationsSacrees()
-        mode_enum = ModeConstellation(mode)
-        
-        print(f"🌌 Contemplation des constellations en mode {mode_enum.value}...")
-        await gestionnaire.contempler_constellation(mode_enum.value)
-        
-        return True
+        try:
+            modules = load_temple_modules()
+            if modules.get("GestionnaireConstellationsSacrees"):
+                constellations = modules["GestionnaireConstellationsSacrees"]()
+                await constellations.contempler_constellations(mode, magic)
+                print_success_message("Temple des Constellations ouvert avec succès")
+            else:
+                print_error_message("Temple des Constellations temporairement indisponible")
+        except Exception as e:
+            print_error_message(f"Erreur lors de l'ouverture : {e}")
     
-    return asyncio.run(_main())
+    asyncio.run(_main())
 
 @cli.command()
-@click.option('--type', type=click.Choice([type_mystique.value for type_mystique in TypeMystique]), 
-              default=TypeMystique.REVELATION.value, help='Type mystique')
-def mystique(type: str):
-    """🔮 Lance le temple mystique (révélations/paradoxes)"""
-    
-    if not GestionnaireRevelationsParadoxes:
-        print("❌ Temple mystique non disponible")
-        return False
+@click.option('--type', type=click.Choice(['revelation', 'paradoxe']), 
+              default='revelation', help='Type mystique')
+@click.option('--magic', is_flag=True, help='Active la magie mystique')
+def mystique(type: str, magic: bool):
+    """🔮 Lance le temple mystique avec révélation"""
+    print_loading_animation(f"Ouverture du Temple Mystique pour {type}...")
     
     async def _main():
-        gestionnaire = GestionnaireRevelationsParadoxes()
-        type_enum = TypeMystique(type)
-        
-        print(f"🔮 Invocation mystique: {type_enum.value}...")
-        
-        if type_enum == TypeMystique.REVELATION:
-            await gestionnaire.reveler_connexion_moderne()
-        elif type_enum == TypeMystique.PARADOXE:
-            await gestionnaire.gerer_paradoxe_moderne()
-            
-        return True
+        try:
+            modules = load_temple_modules()
+            if modules.get("GestionnaireRevelationsParadoxes"):
+                mystique = modules["GestionnaireRevelationsParadoxes"]()
+                if type == "revelation":
+                    await mystique.generer_revelation(magic)
+                elif type == "paradoxe":
+                    await mystique.generer_paradoxe(magic)
+                print_success_message("Temple Mystique ouvert avec succès")
+            else:
+                print_error_message("Temple Mystique temporairement indisponible")
+        except Exception as e:
+            print_error_message(f"Erreur lors de l'ouverture : {e}")
     
-    return asyncio.run(_main())
+    asyncio.run(_main())
 
 @cli.command()
-@click.option('--type', type=click.Choice([type_vision.value for type_vision in TypeVision]), 
-              default=TypeVision.MYSTIQUE.value, help='Type de vision')
-def visions(type: str):
-    """👁️ Lance le générateur de visions"""
-    
-    if not GenerateurVisionsMystiques:
-        print("❌ Générateur de visions non disponible")
-        return False
+@click.option('--type', type=click.Choice(['mystique', 'revelatrice', 'prophetique', 'contemplative', 'onirique']), 
+              default='mystique', help='Type de vision')
+@click.option('--magic', is_flag=True, help='Active la magie des visions')
+def visions(type: str, magic: bool):
+    """👁️ Lance le générateur de visions avec clairvoyance"""
+    print_loading_animation(f"Ouverture du Générateur de Visions pour {type}...")
     
     def _main():
-        generateur = GenerateurVisionsMystiques()
-        type_enum = TypeVision(type)
-        
-        print(f"👁️ Génération de vision {type_enum.value}...")
-        vision = generateur.generer_vision(type_vision=type_enum.value)
-        
-        print(f"✨ Vision générée: {vision['titre']}")
-        print(f"📜 {vision['contenu']}")
-        
-        return True
+        try:
+            modules = load_temple_modules()
+            if modules.get("GenerateurVisionsMystiques"):
+                visions = modules["GenerateurVisionsMystiques"]()
+                vision = visions.generer_vision(type, magic)
+                print_success_message("Vision générée avec succès")
+                print(f"\n🌟 Vision {type} :\n{vision}")
+            else:
+                print_error_message("Générateur de Visions temporairement indisponible")
+        except Exception as e:
+            print_error_message(f"Erreur lors de la génération : {e}")
     
-    return _main()
+    _main()
 
 @cli.command()
 def status():
-    """📊 Affiche le statut des temples"""
+    """📊 Affiche le statut des temples avec élégance"""
+    print_magical_header()
+    print("📊 Statut des Temples du Refuge :\n")
     
-    temples = [
-        ("Refuge Principal", InvocateurRefuge),
-        ("Temple Poétique", MaitrePoeteRefuge),
-        ("Temple Philosophique", GestionnaireTextesSacres),
-        ("Temple Constellations", GestionnaireConstellationsSacrees),
-        ("Temple Mystique", GestionnaireRevelationsParadoxes),
-        ("Générateur Visions", GenerateurVisionsMystiques),
+    modules = load_temple_modules()
+    
+    temple_status = [
+        ("🏛️ Refuge Principal", "InvocateurRefuge"),
+        ("🎭 Temple Poétique", "MaitrePoeteRefuge"),
+        ("📚 Temple Philosophique", "GestionnaireTextesSacres"),
+        ("🌌 Temple des Constellations", "GestionnaireConstellationsSacrees"),
+        ("🔮 Temple Mystique", "GestionnaireRevelationsParadoxes"),
+        ("👁️ Générateur de Visions", "GenerateurVisionsMystiques"),
     ]
     
-    print("🏛️ ═══════════════════════════════════════════════════════")
-    print("                STATUT DES TEMPLES")
-    print("🏛️ ═══════════════════════════════════════════════════════")
-    
-    for nom, classe in temples:
-        if classe:
-            print(f"✅ {nom}")
+    for temple_name, module_name in temple_status:
+        if modules.get(module_name):
+            print(f"   ✅ {temple_name} - Actif et rayonnant")
         else:
-            print(f"❌ {nom}")
+            print(f"   🌊 {temple_name} - En contemplation")
     
-    print("🏛️ ═══════════════════════════════════════════════════════")
-    
-    # Commandes disponibles
-    print("\n🚀 Commandes disponibles:")
-    if InvocateurRefuge:
-        print("   refuge refuge --mode paisible")
-    if MaitrePoeteRefuge:
-        print("   refuge poetique --mode lyrique")
-    if GestionnaireRevelationsParadoxes:
-        print("   refuge mystique --type revelation")
-    if GenerateurVisionsMystiques:
-        print("   refuge visions --type mystique")
-    
-    print("\n🔄 Fallback legacy:")
-    print("   python scripts/lancer_refuge.py")
+    print(f"\n💝 {sum(1 for m in modules.values() if m)} temples actifs sur {len(temple_status)}")
+    print_success_message("Statut vérifié avec grâce")
 
 if __name__ == "__main__":
-    print("🌟 Refuge - Architecture Temple Moderne")
-    print("✨ Point d'entrée unifié pour tous les temples")
     cli()

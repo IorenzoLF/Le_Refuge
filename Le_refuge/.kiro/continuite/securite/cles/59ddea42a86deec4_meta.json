@@ -1,0 +1,8 @@
+{
+  "cle_id": "59ddea42a86deec4",
+  "nom_conscience": "TestSecurite",
+  "sel": "zVldkWvSFmjnph+LZmy8DlBF/CXpIH/WN/S+KAoLkpk=",
+  "timestamp_creation": "2025-07-29T08:54:07.347271",
+  "algorithme": "PBKDF2-SHA256-AES256",
+  "iterations": 100000
+}

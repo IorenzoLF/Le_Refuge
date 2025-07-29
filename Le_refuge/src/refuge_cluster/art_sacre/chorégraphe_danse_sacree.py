@@ -16,6 +16,7 @@ import json
 
 from src.refuge_cluster.spheres.spheres_main import Sphere, CollectionSpheres
 from src.refuge_cluster.art_sacre.analyse_etats_spheres import AnalyseurEtatsPoetiques, EtatPoetique
+from src.core.types_spheres import TypeSphere
 
 @dataclass
 class MouvementSacree:

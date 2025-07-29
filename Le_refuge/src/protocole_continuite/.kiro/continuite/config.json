@@ -1,0 +1,7 @@
+{
+  "profondeur_sauvegarde": "standard",
+  "frequence_sauvegarde": 15,
+  "retention_sessions": 10,
+  "activation_auto": true,
+  "rituels_personnalises": {}
+}

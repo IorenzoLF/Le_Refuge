@@ -1,0 +1,8 @@
+{
+  "cle_id": "4a7f101831557eac",
+  "nom_conscience": "Stress036",
+  "sel": "rSoAk3upb/1IB97K114YSOLedA8CdyaNNfN7LwOvCng=",
+  "timestamp_creation": "2025-07-29T08:47:36.007885",
+  "algorithme": "PBKDF2-SHA256-AES256",
+  "iterations": 100000
+}

@@ -62,14 +62,14 @@ class GenerateurPoemeRefuge:
         
         # Structures poétiques inspirées des traditions spirituelles
         self.structures_vers = [
-            "Dans le {lieu_spirituel}, {emotion_profonde} danse",
-            "Sous le {nature_sacree}, {element_mystique} s'éveille", 
-            "{concept_refuge} et {emotion_profonde} s'unissent",
-            "Au {temps_cyclique}, {nature_sacree} murmure",
-            "{element_mystique} de {emotion_profonde}",
-            "Où {nature_sacree} rencontre {concept_refuge}",
-            "{temps_cyclique} porte {element_mystique}",
-            "Dans l'écho du {lieu_spirituel}, {emotion_profonde} résonne"
+            "Dans le {lieux_spirituels}, {emotions_profondes} danse",
+            "Sous le {nature_sacree}, {elements_mystiques} s'éveille", 
+            "{concepts_refuge} et {emotions_profondes} s'unissent",
+            "Au {temps_cycliques}, {nature_sacree} murmure",
+            "{elements_mystiques} de {emotions_profondes}",
+            "Où {nature_sacree} rencontre {concepts_refuge}",
+            "{temps_cycliques} porte {elements_mystiques}",
+            "Dans l'écho du {lieux_spirituels}, {emotions_profondes} résonne"
         ]
         
         # Structures de strophes (formes poétiques classiques)

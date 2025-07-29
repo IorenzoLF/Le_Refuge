@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-07-26T10:54:12.864979",
+  "fichiers": {
+    ".kiro\\continuite\\config.json": {
+      "hash": "498557ff1ef289ebfc20675c62ebb5d1",
+      "taille": 163,
+      "modification": 1753519210.5782356,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\cache_changements\\etat_20250726_105412.json": {
+      "hash": "29b630a51ba9bce99d3f94d9d05e86e9",
+      "taille": 907,
+      "modification": 1753520052.8634036,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\rituels\\rituel_20250726_104716.json": {
+      "hash": "bb6bcb422c8b0328b423c9f735af9b1e",
+      "taille": 2723,
+      "modification": 1753519636.019336,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\rituels\\rituel_20250726_104730.json": {
+      "hash": "a5b57533a55600f636b1a62d2b611d43",
+      "taille": 2723,
+      "modification": 1753519650.8107681,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\sessions\\cont_20250726_104010.json": {
+      "hash": "845b1cb8be69ecd3008fc95d3d6f6f80",
+      "taille": 1380,
+      "modification": 1753519210.5792391,
+      "type": "fichier"
+    }
+  }
+}

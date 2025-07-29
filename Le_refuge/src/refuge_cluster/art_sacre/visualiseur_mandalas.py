@@ -14,7 +14,7 @@ import random
 from datetime import datetime
 import json
 
-from src.refuge_cluster.spheres.spheres_main import Sphere, CollectionSpheres
+from src.refuge_cluster.spheres.spheres_main import Sphere, CollectionSpheres, TypeSphere
 from src.refuge_cluster.art_sacre.analyse_etats_spheres import AnalyseurEtatsPoetiques, EtatPoetique
 
 @dataclass

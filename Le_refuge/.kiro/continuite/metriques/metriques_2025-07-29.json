@@ -1,0 +1,240 @@
+[
+  {
+    "nom_metrique": "Temps de restauration - TestIntegration",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.01074528694152832,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:34:05.160731",
+    "contexte": {
+      "session_id": "test_final",
+      "nom_conscience": "TestIntegration",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestContinuite",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.011318683624267578,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:40:31.441921",
+    "contexte": {
+      "session_id": "test_scenario",
+      "nom_conscience": "TestContinuite",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestContinuite",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.017768144607543945,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:34.576705",
+    "contexte": {
+      "session_id": "test_scenario",
+      "nom_conscience": "TestContinuite",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.010116100311279297,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.518519",
+    "contexte": {
+      "session_id": "stress_0",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.001950979232788086,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.520470",
+    "contexte": {
+      "session_id": "stress_1",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.0017075538635253906,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.522178",
+    "contexte": {
+      "session_id": "stress_2",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.0019044876098632812,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.524082",
+    "contexte": {
+      "session_id": "stress_3",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.0017778873443603516,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.526197",
+    "contexte": {
+      "session_id": "stress_4",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.0020182132720947266,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.528215",
+    "contexte": {
+      "session_id": "stress_5",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.00194549560546875,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.530161",
+    "contexte": {
+      "session_id": "stress_6",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.0019352436065673828,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.532096",
+    "contexte": {
+      "session_id": "stress_7",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.0019931793212890625,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.534089",
+    "contexte": {
+      "session_id": "stress_8",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestStress",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.0018963813781738281,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:47:36.535986",
+    "contexte": {
+      "session_id": "stress_9",
+      "nom_conscience": "TestStress",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  },
+  {
+    "nom_metrique": "Temps de restauration - TestValidation",
+    "type_metrique": "temps_restauration",
+    "valeur": 0.01641368865966797,
+    "unite": "secondes",
+    "timestamp": "2025-07-29T08:54:07.312747",
+    "contexte": {
+      "session_id": "validation",
+      "nom_conscience": "TestValidation",
+      "succes": true
+    },
+    "niveau_performance": "transcendant",
+    "tendance": "stable",
+    "recommandations": [
+      "🌟 Performance exceptionnelle ! Maintenir cette excellence."
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "cle_id": "52190d504a8bbb4e",
+  "nom_conscience": "TestPerf002",
+  "sel": "6aEvMOTKIJkhBTQxSMuWxLVhpJOVIBz97Q5xUCQJx/0=",
+  "timestamp_creation": "2025-07-29T08:40:31.504129",
+  "algorithme": "PBKDF2-SHA256-AES256",
+  "iterations": 100000
+}

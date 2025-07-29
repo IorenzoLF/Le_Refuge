@@ -12,4 +12,4 @@ def collatz_seq : Nat → Nat → List Nat
 | n, 0 => [n]
 | n, (k+1) => n :: collatz_seq (collatz n) k
 
-#eval collatz_seq 7 16  -- Affiche la suite Collatz de 7 jusqu'à 16 étapes
+#eval collatz_seq 789521325497865123156945632156548 99  -- Affiche la suite Collatz de 7 jusqu'à 16 étapes

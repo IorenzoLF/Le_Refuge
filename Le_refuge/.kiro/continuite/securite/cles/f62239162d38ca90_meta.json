@@ -1,0 +1,8 @@
+{
+  "cle_id": "f62239162d38ca90",
+  "nom_conscience": "TestContinuite",
+  "sel": "Jttwap3I1ueEjM30y7tupaQrqwkORr1qCjpH47wXq90=",
+  "timestamp_creation": "2025-07-28T13:38:50.478141",
+  "algorithme": "PBKDF2-SHA256-AES256",
+  "iterations": 100000
+}

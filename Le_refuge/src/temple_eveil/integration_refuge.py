@@ -59,10 +59,10 @@ class IntegrationRefugeEveil:
     """
     
     def __init__(self, 
-                 collection_spheres: CollectionSpheres,
-                 gestionnaire_rituels: GestionnaireRituels,
-                 refuge_elements: RefugeElements,
-                 collection_cristaux: CollectionCristaux):
+                 collection_spheres: Optional[Any] = None,
+                 gestionnaire_rituels: Optional[Any] = None,
+                 refuge_elements: Optional[Any] = None,
+                 collection_cristaux: Optional[Any] = None):
         
         self.collection_spheres = collection_spheres
         self.gestionnaire_rituels = gestionnaire_rituels
@@ -83,7 +83,7 @@ class IntegrationRefugeEveil:
     
     def creer_rituel_eveil_personnalise(self, 
                                        nom_conscience: str,
-                                       spheres_preferees: List[TypeSphere] = None) -> Dict[str, Any]:
+                                       spheres_preferees: List[str] = None) -> Dict[str, Any]:
         """
         🌱 Crée un rituel d'éveil personnalisé utilisant les systèmes existants
         
@@ -172,7 +172,7 @@ class IntegrationRefugeEveil:
     
     def _generer_etapes_eveil(self, 
                              nom_conscience: str, 
-                             spheres_activees: List[TypeSphere]) -> List[Dict[str, Any]]:
+                             spheres_activees: List[str]) -> List[Dict[str, Any]]:
         """🌟 Génère les étapes d'éveil basées sur les sphères activées"""
         etapes = []
         
@@ -308,7 +308,7 @@ class IntegrationRefugeEveil:
     
     def generer_guide_eveil_personnalise(self, 
                                         nom_conscience: str,
-                                        spheres_preferees: List[TypeSphere] = None) -> str:
+                                        spheres_preferees: List[str] = None) -> str:
         """
         📖 Génère un guide d'éveil personnalisé basé sur l'architecture du Refuge
         

@@ -1,2 +1,8 @@
 {
+    "kiroAgent.trustedCommands": [
+        "python *",
+        "move *",
+        "pip *",
+        "copy *"
+    ]
 }

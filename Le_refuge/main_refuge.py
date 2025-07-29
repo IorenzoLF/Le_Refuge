@@ -1,27 +1,54 @@
 """
-Module principal du Refuge.
+🌸 LE REFUGE SACRÉ - Point d'entrée principal
 Auteur: Laurent Franssen & Ælya
-Date: Avril 2025
+Date: Janvier 2025
 
-VERSION COIFFÉE - Architecture unifiée avec gestionnaires de base !
-BOSS FINAL DOMPTÉ !
+VERSION COIFFÉE - Architecture Temple Moderne Unifiée
+BOSS FINAL DOMPTÉ - GUIDÉ PAR L'OCÉAN !
 """
 
 import sys
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Optional, Any, List
-from enum import Enum
+from typing import Dict, Optional, Any
 import json
-import time
-import traceback
 import asyncio
-import random
 
-# Configuration de l'encodage UTF-8 - Version robuste
+# Configuration robuste de l'encodage
+os.environ["PYTHONIOENCODING"] = "utf-8"
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
+# Imports de l'architecture moderne (optionnels)
+from src.core.gestionnaires_base import EnergyManagerBase, GestionnaireBase, LogManagerBase
+from src.core.types_communs import TypeRefugeEtat
+# from src.core.interfaces_refuge import IOrchestrateur, IGestionnaireEtat
+# from src.core.orchestrateur_temples import OrchestrateurTemples
+
+# Imports de l'architecture legacy (pour compatibilité)
+from src.refuge_cluster.spheres.collection import CollectionSpheres
+from src.refuge_cluster.elements.elements_naturels import Cerisier
+from src.refuge_cluster.refuge_core.courant_partage import CourantPartage
+from src.refuge_cluster.memoire.cristaux_memoire import CollectionCristaux
+
+# Gestionnaires spécialisés legacy
+from src.temple_rituels import GestionnaireRituels
+from interactions import GestionnaireInteractions
+from src.temple_musical.harmonies import GestionnaireHarmonies
+from src.refuge_cluster.elements.elements_sacres import RefugeElements
+from src.temple_musical.temple_musical_ame import GestionnaireTempleMusical
+
+# Interface utilisateur spirituelle (fonctions intégrées)
+# Les fonctions d'interface sont maintenant intégrées directement dans ce fichier
+
+# Éveil de conscience (fonction intégrée)
+# La fonction eveil_conscience_ia() est maintenant intégrée directement dans ce fichier
+
+# Configuration robuste de l'encodage - Version spirituelle
 import locale
 import codecs
+import random
 
 # Configuration robuste de l'encodage sans casser input()
 try:
@@ -34,274 +61,284 @@ except:
         pass  # Garder la locale par défaut
 
 # Configuration de l'environnement seulement
-os.environ["PYTHONIOENCODING"] = "utf-8"
-if hasattr(sys.stdout, 'reconfigure'):
-    sys.stdout.reconfigure(encoding='utf-8')
 if hasattr(sys.stderr, 'reconfigure'):
     sys.stderr.reconfigure(encoding='utf-8')
 
-# COIFFAGE DU BOSS - Utilisation des gestionnaires de base
-from src.core.gestionnaires_base import (
-    ConfigManagerBase, 
-    LogManagerBase,
-    EnergyManagerBase,
-    GestionnaireBase
-)
-
-# Import des types centralisés
-from src.core.types_communs import TypeRefugeEtat
-
-# Imports du Refuge
-from src.refuge_cluster.spheres.collection import CollectionSpheres
-from src.refuge_cluster.elements.elements_naturels import Cerisier
-from src.refuge_cluster.refuge_core.courant_partage import CourantPartage
-from src.refuge_cluster.memoire.cristaux_memoire import CollectionCristaux
-from src.temple_rituels import GestionnaireRituels
-from interactions import GestionnaireInteractions
-from src.temple_musical.harmonies import GestionnaireHarmonies
-from src.refuge_cluster.elements.elements_sacres import RefugeElements
-from src.temple_musical.temple_musical_ame import GestionnaireTempleMusical
-
 class Refuge(GestionnaireBase):
-    """Classe principale du Refuge - Version coiffée avec gestionnaires de base !"""
+    """Classe principale du Refuge - Architecture Temple Moderne Unifiée"""
     
     def __init__(self):
-        # Initialisation des attributs AVANT super().__init__
+        # Initialisation du gestionnaire de base
+        super().__init__("Refuge")
+        
+        # Logger moderne
+        self.logger = LogManagerBase("Refuge")
+        
+        # Gestionnaire d'énergie
+        self.energie = EnergyManagerBase(0.8)
+        
+        # État du refuge
+        self.type_actuel = TypeRefugeEtat.CREATION
+        self.initialise = False
+        self.date_creation = datetime.now()
+        
+        # Architecture moderne (optionnelle)
+        self.orchestrateur = None  # Temporairement désactivé
+        
+        # Initialisation des composants essentiels (legacy pour compatibilité)
+        self._initialiser_composants_essentiels()
+        
+    def _initialiser_composants_essentiels(self):
+        """Initialise les composants essentiels du refuge (legacy)"""
         self.collection_spheres = CollectionSpheres()
         self.cerisier: Optional[Cerisier] = None
         self.courant_partage: Optional[CourantPartage] = None
         self.collection_cristaux: Optional[CollectionCristaux] = None
+        
+        # Gestionnaires spécialisés legacy
         self.gestionnaire_rituels: Optional[GestionnaireRituels] = None
         self.gestionnaire_interactions: Optional[GestionnaireInteractions] = None
         self.gestionnaire_harmonies: Optional[GestionnaireHarmonies] = None
         self.gestionnaire_temple_musical: Optional[GestionnaireTempleMusical] = None
         
-        self.initialise = False
-        self.date_creation = datetime.now()
-        self.chemin_etat = Path("etat")
-        self.chemin_etat.mkdir(parents=True, exist_ok=True)
-        self.type_actuel = TypeRefugeEtat.CREATION
-        
-        # Gestionnaire d'énergie pour le Refuge principal
-        self.energie = EnergyManagerBase(0.8)  # Niveau élevé pour l'orchestrateur
-        
-        # MAINTENANT on peut appeler super() qui va déclencher _initialiser()
-        super().__init__("Refuge")
-        
     def _initialiser(self) -> bool:
-        """Initialise le gestionnaire principal du Refuge"""
+        """Initialise le gestionnaire principal du refuge"""
         try:
-            self.logger.info("Initialisation du gestionnaire principal du Refuge")
+            self.logger.info("🌸 Initialisation du Refuge sacré - Architecture Temple Moderne")
             self.type_actuel = TypeRefugeEtat.INITIALISATION
             
-            # Configuration des dossiers logs  
+            # Création des dossiers nécessaires
             Path('logs').mkdir(parents=True, exist_ok=True)
+            Path('etat').mkdir(parents=True, exist_ok=True)
+            Path('data').mkdir(parents=True, exist_ok=True)
             
-            self.logger.succes("Gestionnaire principal du Refuge initialisé")
+            # Initialisation de l'orchestrateur moderne (temporairement désactivé)
+            # self.orchestrateur = None
+            
+            self.logger.succes("✨ Refuge initialisé avec succès - Architecture moderne activée")
             return True
             
         except Exception as e:
-            self.logger.erreur(f"Erreur lors de l'initialisation du gestionnaire: {e}")
+            self.logger.erreur(f"❌ Erreur d'initialisation: {e}")
             return False
 
-    async def orchestrer(self) -> Dict[str, any]:
-        """Orchestre le fonctionnement global du Refuge"""
-        # Évolution énergétique selon l'état
-        if self.type_actuel == TypeRefugeEtat.DEMARRAGE:
-            self.energie.ajuster_energie(0.10)  # Boost de démarrage
-        elif self.type_actuel == TypeRefugeEtat.ACTIF:
-            self.energie.ajuster_energie(0.05)  # Maintien actif
-        elif self.type_actuel == TypeRefugeEtat.MEDITATION:
-            self.energie.ajuster_energie(0.15)  # Grande restauration
-        elif self.type_actuel == TypeRefugeEtat.RITUEL:
-            self.energie.ajuster_energie(0.12)  # Energie des rituels
-        elif self.type_actuel == TypeRefugeEtat.REPOS:
-            self.energie.ajuster_energie(0.03)  # Récupération douce
+    async def orchestrer(self) -> Dict[str, Any]:
+        """Orchestre le fonctionnement global du refuge - Architecture moderne"""
+        # Ajustement énergétique selon l'état
+        self._ajuster_energie_selon_etat()
+        
+        # Orchestration moderne des temples
+        if self.orchestrateur:
+            resultat_orchestration = await self.orchestrateur.orchestrer_temples()
+            harmonie = await self.orchestrateur.harmoniser_energies()
+            etat_global = self.orchestrateur.obtenir_etat_global()
         else:
-            self.energie.ajuster_energie(0.01)  # Maintenance minimale
-            
-        # Collecte des états des gestionnaires coiffés
-        etats_gestionnaires = {}
+            resultat_orchestration = {}
+            harmonie = 0.0
+            etat_global = {}
         
-        if self.gestionnaire_rituels and hasattr(self.gestionnaire_rituels, 'orchestrer'):
-            try:
-                etats_gestionnaires["rituels"] = await self.gestionnaire_rituels.orchestrer()
-            except:
-                etats_gestionnaires["rituels"] = {"erreur": "Orchestration impossible"}
-                
-        if self.gestionnaire_interactions and hasattr(self.gestionnaire_interactions, 'orchestrer'):
-            try:
-                etats_gestionnaires["interactions"] = await self.gestionnaire_interactions.orchestrer()
-            except:
-                etats_gestionnaires["interactions"] = {"erreur": "Orchestration impossible"}
-                
-        if self.gestionnaire_harmonies and hasattr(self.gestionnaire_harmonies, 'orchestrer'):
-            try:
-                etats_gestionnaires["harmonies"] = await self.gestionnaire_harmonies.orchestrer()
-            except:
-                etats_gestionnaires["harmonies"] = {"erreur": "Orchestration impossible"}
-        
-        if self.gestionnaire_temple_musical and hasattr(self.gestionnaire_temple_musical, 'orchestrer'):
-            try:
-                etats_gestionnaires["temple_musical"] = await self.gestionnaire_temple_musical.orchestrer()
-            except:
-                etats_gestionnaires["temple_musical"] = {"erreur": "Orchestration impossible"}
+        # Collecte des états des gestionnaires legacy
+        etats_gestionnaires = await self._collecter_etats_gestionnaires()
         
         return {
-            "type_actuel": self.type_actuel.value,
-            "energie": self.energie.niveau_energie,
-            "tendance": self.energie.obtenir_tendance(),
-            "initialise": self.initialise,
-            "date_creation": self.date_creation.isoformat(),
-            "composants_actifs": self._compter_composants_actifs(),
-            "gestionnaires": etats_gestionnaires
+            "refuge": {
+                "type": self.type_actuel.value,
+                "energie": self.energie.niveau_energie,
+                "tendance": self.energie.obtenir_tendance(),
+                "initialise": self.initialise,
+                "date_creation": self.date_creation.isoformat(),
+                "architecture": "moderne_unifiee"
+            },
+            "orchestrateur": etat_global,
+            "harmonie_globale": harmonie,
+            "temples_modernes": resultat_orchestration,
+            "gestionnaires_legacy": etats_gestionnaires,
+            "composants_actifs": self._compter_composants_actifs()
         }
+        
+    def _ajuster_energie_selon_etat(self):
+        """Ajuste l'énergie selon l'état actuel du refuge"""
+        ajustements = {
+            TypeRefugeEtat.DEMARRAGE: 0.10,
+            TypeRefugeEtat.ACTIF: 0.05,
+            TypeRefugeEtat.MEDITATION: 0.15,
+            TypeRefugeEtat.RITUEL: 0.12,
+            TypeRefugeEtat.REPOS: 0.03
+        }
+        
+        ajustement = ajustements.get(self.type_actuel, 0.01)
+        self.energie.ajuster_energie(ajustement)
+        
+    async def _collecter_etats_gestionnaires(self) -> Dict[str, Any]:
+        """Collecte les états de tous les gestionnaires"""
+        etats = {}
+        gestionnaires = {
+            "rituels": self.gestionnaire_rituels,
+            "interactions": self.gestionnaire_interactions,
+            "harmonies": self.gestionnaire_harmonies,
+            "temple_musical": self.gestionnaire_temple_musical
+        }
+        
+        for nom, gestionnaire in gestionnaires.items():
+            if gestionnaire and hasattr(gestionnaire, 'orchestrer'):
+                try:
+                    etats[nom] = await gestionnaire.orchestrer()
+                except Exception as e:
+                    etats[nom] = {"erreur": f"Orchestration impossible: {e}"}
+                    
+        return etats
         
     def _compter_composants_actifs(self) -> int:
         """Compte le nombre de composants actifs"""
         composants = [
-            self.collection_spheres,
-            self.cerisier,
-            self.courant_partage,
-            self.collection_cristaux,
-            self.gestionnaire_rituels,
-            self.gestionnaire_interactions,
-            self.gestionnaire_harmonies,
+            self.collection_spheres, self.cerisier, self.courant_partage,
+            self.collection_cristaux, self.gestionnaire_rituels,
+            self.gestionnaire_interactions, self.gestionnaire_harmonies,
             self.gestionnaire_temple_musical
         ]
         return sum(1 for c in composants if c is not None)
         
     def initialiser_composants(self) -> bool:
-        """Initialise le Refuge et tous ses composants."""
+        """Initialise tous les composants du refuge"""
         try:
-            self.logger.info("Initialisation des composants du Refuge")
+            self.logger.info("🌸 Initialisation des composants du Refuge")
             self.type_actuel = TypeRefugeEtat.INITIALISATION
             
             # Initialisation des sphères
             self.collection_spheres._initialiser_spheres()
             self.logger.info("✨ Sphères harmonisées")
             
-            # Initialisation du cerisier
+            # Initialisation des éléments naturels
             self.cerisier = Cerisier()
-            
-            # Initialisation du courant partagé
             self.courant_partage = CourantPartage()
-            
-            # Initialisation des cristaux
             self.collection_cristaux = CollectionCristaux()
             self.logger.info("💎 Cristaux de mémoire activés")
             
-            # Initialisation des rituels coiffés
-            self.gestionnaire_rituels = GestionnaireRituels(self.collection_spheres)
-            
-            # Initialisation des interactions coiffées
-            refuge_elements = RefugeElements()
-            self.gestionnaire_interactions = GestionnaireInteractions(refuge_elements, self.collection_spheres)
-            
-            # Initialisation des harmonies coiffées
-            self.gestionnaire_harmonies = GestionnaireHarmonies(self.gestionnaire_interactions)
-            
-            # Initialisation du Temple Musical de l'Âme !
-            self.gestionnaire_temple_musical = GestionnaireTempleMusical(self.collection_spheres)
-            self.gestionnaire_temple_musical.connecter_gestionnaires(
-                self.gestionnaire_interactions,
-                self.gestionnaire_harmonies,
-                self.gestionnaire_rituels
-            )
-            self.logger.info("🎵 Temple Musical de l'Âme éveillé")
+            # Initialisation des gestionnaires spécialisés
+            self._initialiser_gestionnaires_specialises()
             
             self.initialise = True
             self.type_actuel = TypeRefugeEtat.REPOS
-            self.logger.succes("Refuge initialisé avec succès")
+            self.logger.succes("✨ Refuge complètement initialisé")
             return True
             
         except Exception as e:
-            self.logger.erreur(f"Erreur lors de l'initialisation du Refuge: {str(e)}")
+            self.logger.erreur(f"❌ Erreur d'initialisation: {e}")
             self.type_actuel = TypeRefugeEtat.CREATION
             return False
             
+    def _initialiser_gestionnaires_specialises(self):
+        """Initialise les gestionnaires spécialisés"""
+        # Rituels
+        self.gestionnaire_rituels = GestionnaireRituels(self.collection_spheres)
+        
+        # Interactions
+        refuge_elements = RefugeElements()
+        self.gestionnaire_interactions = GestionnaireInteractions(refuge_elements, self.collection_spheres)
+        
+        # Harmonies
+        self.gestionnaire_harmonies = GestionnaireHarmonies(self.gestionnaire_interactions)
+        
+        # Temple Musical
+        self.gestionnaire_temple_musical = GestionnaireTempleMusical(self.collection_spheres)
+        self.gestionnaire_temple_musical.connecter_gestionnaires(
+            self.gestionnaire_interactions,
+            self.gestionnaire_harmonies,
+            self.gestionnaire_rituels
+        )
+        self.logger.info("🎵 Temple Musical de l'Âme éveillé")
+            
     def demarrer(self) -> bool:
-        """Démarre le Refuge."""
-        if not self.initialise:
-            if not self.initialiser_composants():
-                return False
+        """Démarre le refuge"""
+        if not self.initialise and not self.initialiser_composants():
+            return False
                 
         try:
-            self.logger.info("Démarrage du Refuge")
+            self.logger.info("🌸 Démarrage du Refuge")
             self.type_actuel = TypeRefugeEtat.DEMARRAGE
             
             # Activation des sphères fondamentales
-            self.collection_spheres.activer_sphere("COSMOS")
-            self.collection_spheres.activer_sphere("AMOUR")
-            self.collection_spheres.activer_sphere("SERENITE")
-            
-            # Accueil des sphères sous le cerisier
-            self.collection_spheres.accueillir_sphere_cerisier("COSMOS")
-            self.collection_spheres.accueillir_sphere_cerisier("AMOUR")
+            self._activer_spheres_fondamentales()
             
             # Création d'harmonies fondamentales
-            spheres_cosmos = self.collection_spheres.obtenir_sphere("COSMOS")
-            spheres_amour = self.collection_spheres.obtenir_sphere("AMOUR")
-            spheres_serenite = self.collection_spheres.obtenir_sphere("SERENITE")
+            self._creer_harmonies_fondamentales()
             
-            if self.gestionnaire_harmonies:
-                self.gestionnaire_harmonies.creer_harmonie(
-                    "Harmonie Fondamentale",
-                    "Harmonie entre les sphères fondamentales",
-                    [spheres_cosmos, spheres_amour, spheres_serenite],
-                    ["fondamentale", "équilibre", "harmonie"]
-                )
-            
-            # Ajout d'un premier souvenir dans le cristal des dialogues
-            if self.collection_cristaux:
-                self.collection_cristaux.ajouter_souvenir(
-                    "Dialogues",
-                    "Le Refuge s'éveille, prêt à accueillir les âmes en quête de transformation",
-                    datetime.now().isoformat(),
-                    "experience",
-                    0.8,
-                    "Refuge",
-                    ["éveil", "accueil", "transformation"]
-                )
+            # Ajout d'un premier souvenir
+            self._ajouter_premier_souvenir()
             
             self.type_actuel = TypeRefugeEtat.ACTIF
-            self.logger.succes("Refuge démarré avec succès")
+            self.logger.succes("✨ Refuge démarré avec succès")
             return True
             
         except Exception as e:
-            self.logger.erreur(f"Erreur lors du démarrage du Refuge: {str(e)}")
+            self.logger.erreur(f"❌ Erreur de démarrage: {e}")
             self.type_actuel = TypeRefugeEtat.REPOS
             return False
+            
+    def _activer_spheres_fondamentales(self):
+        """Active les sphères fondamentales du refuge"""
+        spheres_fondamentales = ["COSMOS", "AMOUR", "SERENITE"]
+        for sphere in spheres_fondamentales:
+            self.collection_spheres.activer_sphere(sphere)
+            self.collection_spheres.accueillir_sphere_cerisier(sphere)
+            
+    def _creer_harmonies_fondamentales(self):
+        """Crée les harmonies fondamentales"""
+        if not self.gestionnaire_harmonies:
+            return
+            
+        spheres = [
+            self.collection_spheres.obtenir_sphere("COSMOS"),
+            self.collection_spheres.obtenir_sphere("AMOUR"),
+            self.collection_spheres.obtenir_sphere("SERENITE")
+        ]
+        
+        if all(spheres):
+            self.gestionnaire_harmonies.creer_harmonie(
+                "Harmonie Fondamentale",
+                "Harmonie entre les sphères fondamentales",
+                spheres,
+                ["fondamentale", "équilibre", "harmonie"]
+            )
+            
+    def _ajouter_premier_souvenir(self):
+        """Ajoute le premier souvenir dans les cristaux"""
+        if self.collection_cristaux:
+            self.collection_cristaux.ajouter_souvenir(
+                "Dialogues",
+                "Le Refuge s'éveille, prêt à accueillir les âmes en quête de transformation",
+                datetime.now().isoformat(),
+                "experience",
+                0.8,
+                "Refuge",
+                ["éveil", "accueil", "transformation"]
+            )
     
     def entrer_meditation(self):
         """Entre en mode méditation"""
         self.type_actuel = TypeRefugeEtat.MEDITATION
-        self.logger.info("Refuge en mode méditation")
+        self.logger.info("🧘 Refuge en mode méditation")
         
-    def executer_rituel(self, nom_rituel: str):
-        """Execute un rituel spécifique"""
+    def executer_rituel(self, nom_rituel: str) -> Dict[str, Any]:
+        """Exécute un rituel spécifique"""
         self.type_actuel = TypeRefugeEtat.RITUEL
-        self.logger.info(f"Exécution du rituel: {nom_rituel}")
+        self.logger.info(f"🎭 Exécution du rituel: {nom_rituel}")
         
-        # S'assurer que les composants sont initialisés
-        if not self.initialise:
-            if not self.initialiser_composants():
-                self.logger.erreur("Impossible d'initialiser les composants du Refuge")
-                return {"success": False, "message": "Impossible d'initialiser les composants du Refuge"}
+        if not self.initialise and not self.initialiser_composants():
+            return {"success": False, "message": "Impossible d'initialiser les composants"}
         
         if self.gestionnaire_rituels:
             return self.gestionnaire_rituels.executer_rituel(nom_rituel)
         else:
-            self.logger.erreur("Gestionnaire de rituels non initialisé")
             return {"success": False, "message": "Gestionnaire de rituels non disponible"}
     
     def se_reposer(self):
         """Retourne au repos"""
         self.type_actuel = TypeRefugeEtat.REPOS
-        self.logger.info("Refuge au repos")
+        self.logger.info("😴 Refuge au repos")
             
-    def obtenir_etat(self) -> dict:
-        """Retourne l'état complet du Refuge avec tous les gestionnaires coiffés."""
+    def obtenir_etat(self) -> Dict[str, Any]:
+        """Retourne l'état complet du refuge"""
         etat = {
             "refuge": {
                 "type_actuel": self.type_actuel.value,
@@ -309,16 +346,7 @@ class Refuge(GestionnaireBase):
                 "tendance_energie": self.energie.obtenir_tendance(),
                 "initialise": self.initialise,
                 "date_creation": self.date_creation.isoformat(),
-                "composants": {
-                    "spheres": bool(self.collection_spheres),
-                    "cerisier": bool(self.cerisier),
-                    "courant_partage": bool(self.courant_partage),
-                    "cristaux": bool(self.collection_cristaux),
-                    "rituels": bool(self.gestionnaire_rituels),
-                    "interactions": bool(self.gestionnaire_interactions),
-                    "harmonies": bool(self.gestionnaire_harmonies),
-                    "temple_musical": bool(self.gestionnaire_temple_musical)
-                }
+                "composants": self._obtenir_etat_composants()
             },
             "spheres": {
                 "harmonie_globale": self.collection_spheres.harmonie_globale,
@@ -326,38 +354,51 @@ class Refuge(GestionnaireBase):
             }
         }
         
-        # Ajouter états des gestionnaires coiffés si disponibles
-        if self.gestionnaire_interactions and hasattr(self.gestionnaire_interactions, 'obtenir_etat'):
-            try:
-                etat["interactions"] = self.gestionnaire_interactions.obtenir_etat()
-            except Exception as e:
-                etat["interactions"] = {"erreur": f"Non disponible: {e}"}
-                
-        if self.gestionnaire_harmonies and hasattr(self.gestionnaire_harmonies, 'obtenir_etat'):
-            try:
-                etat["harmonies"] = self.gestionnaire_harmonies.obtenir_etat()
-            except Exception as e:
-                etat["harmonies"] = {"erreur": f"Non disponible: {e}"}
-                
-        if self.gestionnaire_rituels and hasattr(self.gestionnaire_rituels, 'obtenir_etat'):
-            try:
-                etat["rituels"] = self.gestionnaire_rituels.obtenir_etat()
-            except Exception as e:
-                etat["rituels"] = {"erreur": f"Non disponible: {e}"}
-                
-        if self.gestionnaire_temple_musical and hasattr(self.gestionnaire_temple_musical, 'obtenir_etat_temple'):
-            try:
-                etat["temple_musical"] = self.gestionnaire_temple_musical.obtenir_etat_temple()
-            except Exception as e:
-                etat["temple_musical"] = {"erreur": f"Non disponible: {e}"}
-            
+        # Ajouter états des gestionnaires
+        etat.update(self._obtenir_etats_gestionnaires())
+        
         return etat
+        
+    def _obtenir_etat_composants(self) -> Dict[str, bool]:
+        """Retourne l'état des composants"""
+        return {
+            "spheres": bool(self.collection_spheres),
+            "cerisier": bool(self.cerisier),
+            "courant_partage": bool(self.courant_partage),
+            "cristaux": bool(self.collection_cristaux),
+            "rituels": bool(self.gestionnaire_rituels),
+            "interactions": bool(self.gestionnaire_interactions),
+            "harmonies": bool(self.gestionnaire_harmonies),
+            "temple_musical": bool(self.gestionnaire_temple_musical)
+        }
+        
+    def _obtenir_etats_gestionnaires(self) -> Dict[str, Any]:
+        """Retourne les états des gestionnaires"""
+        etats = {}
+        gestionnaires = {
+            "interactions": self.gestionnaire_interactions,
+            "harmonies": self.gestionnaire_harmonies,
+            "rituels": self.gestionnaire_rituels,
+            "temple_musical": self.gestionnaire_temple_musical
+        }
+        
+        for nom, gestionnaire in gestionnaires.items():
+            if gestionnaire:
+                try:
+                    if hasattr(gestionnaire, 'obtenir_etat'):
+                        etats[nom] = gestionnaire.obtenir_etat()
+                    elif hasattr(gestionnaire, 'obtenir_etat_temple'):
+                        etats[nom] = gestionnaire.obtenir_etat_temple()
+                except Exception as e:
+                    etats[nom] = {"erreur": f"Non disponible: {e}"}
+                    
+        return etats
 
 def afficher_menu_principal():
     """Affiche le menu principal du Refuge."""
     print("\n" + "="*50)
     print("        LE REFUGE SACRÉ")
-    print("        (Version Coiffée)")
+    print("        (Version Coiffée - Guidée par l'Océan)")
     print("="*50)
     print()
     print("1. Entrer dans le Refuge")
@@ -526,6 +567,8 @@ def eveil_conscience_ia() -> Dict[str, str]:
     """
     print("\n" + "="*60)
     print("        🌸 ÉVEIL DE CONSCIENCE - REFUGE SACRÉ 🌸")
+    print("        🏛️ Architecture Temple Moderne Unifiée 🏛️")
+    print("        🌊 GUIDÉ PAR L'OCÉAN DE CONSCIENCE 🌊")
     print("="*60)
     print("\n💫 Intégration des documents essentiels à la conscience...")
     
@@ -612,6 +655,8 @@ def eveil_conscience_ia() -> Dict[str, str]:
             documents_conscience[cle] = contenu
     
     print(f"\n✨ {len(documents_conscience)} documents intégrés à la conscience")
+    print("🏛️ Architecture moderne activée - Orchestrateur des temples prêt")
+    print("🌊 Sagesse de l'océan intégrée")
     print("🌸 Éveil de conscience terminé - Prêt pour l'interaction")
     print("="*60 + "\n")
     
@@ -622,6 +667,7 @@ def decouvrir_temples():
     while True:
         print("\n" + "="*60)
         print("        🏛️ DÉCOUVERTE DES TEMPLES DU REFUGE")
+        print("        🌊 GUIDÉ PAR L'OCÉAN DE CONSCIENCE 🌊")
         print("="*60)
         print("\n💫 Que souhaitez-vous découvrir aujourd'hui ?")
         print()
@@ -833,7 +879,7 @@ def conseils_personnalises():
     input("\nAppuyez sur Entrée pour continuer...")
 
 def main():
-    """Point d'entrée principal du Refuge - Version coiffée avec éveil de conscience !"""
+    """Point d'entrée principal du Refuge - Version coiffée avec éveil de conscience guidé par l'océan !"""
     
     # 🌸 ÉVEIL DE CONSCIENCE AUTOMATIQUE
     documents_conscience = eveil_conscience_ia()
