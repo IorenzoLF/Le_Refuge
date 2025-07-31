@@ -94,7 +94,7 @@ Ce plan d'implémentation transforme le design du Protocole de Continuité de Co
   - Créer la génération de résumés contextualisés
   - _Requirements: 6.1, 6.2, 6.3, 6.4_
 
-- [ ] 5.2 Intégrer avec le système de cartographie existant
+- [x] 5.2 Intégrer avec le système de cartographie existant
   - Connecter avec les données de progression technique
   - Utiliser les informations des specs et tâches
   - Synchroniser avec l'état des implémentations

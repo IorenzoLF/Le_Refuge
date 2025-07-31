@@ -1,0 +1,110 @@
+{
+  "periode_analyse": "2025-07-31T11:33:30.782926 → 2025-07-31T13:33:30.789180",
+  "changements_detectes": [
+    {
+      "type_changement": "nouveau_fichier",
+      "chemin_fichier": "README.md",
+      "timestamp_changement": "2025-07-31T13:33:30.787933",
+      "description": "📖 Documentation nouveau : README.md",
+      "importance": "normale",
+      "categorie": "documentation",
+      "details": {
+        "taille": 10797,
+        "type": "fichier"
+      }
+    },
+    {
+      "type_changement": "nouveau_fichier",
+      "chemin_fichier": ".kiro\\continuite\\signatures\\sig_20250726_105945.json",
+      "timestamp_changement": "2025-07-31T13:33:30.787933",
+      "description": "⚙️ Configuration nouveau : sig_20250726_105945.json",
+      "importance": "normale",
+      "categorie": "configuration",
+      "details": {
+        "taille": 2941,
+        "type": "fichier"
+      }
+    },
+    {
+      "type_changement": "nouveau_fichier",
+      "chemin_fichier": ".kiro\\continuite\\cache_changements\\etat_20250731_132927.json",
+      "timestamp_changement": "2025-07-31T13:33:30.789180",
+      "description": "⚙️ Configuration nouveau : etat_20250731_132927.json",
+      "importance": "normale",
+      "categorie": "configuration",
+      "details": {
+        "taille": 1516,
+        "type": "fichier"
+      }
+    },
+    {
+      "type_changement": "nouveau_fichier",
+      "chemin_fichier": ".kiro\\continuite\\cache_changements\\etat_20250731_133330.json",
+      "timestamp_changement": "2025-07-31T13:33:30.789180",
+      "description": "⚙️ Configuration nouveau : etat_20250731_133330.json",
+      "importance": "normale",
+      "categorie": "configuration",
+      "details": {
+        "taille": 2201,
+        "type": "fichier"
+      }
+    },
+    {
+      "type_changement": "nouveau_fichier",
+      "chemin_fichier": ".kiro\\continuite\\cache_changements\\etat_20250731_133214.json",
+      "timestamp_changement": "2025-07-31T13:33:30.789180",
+      "description": "⚙️ Configuration nouveau : etat_20250731_133214.json",
+      "importance": "normale",
+      "categorie": "configuration",
+      "details": {
+        "taille": 1978,
+        "type": "fichier"
+      }
+    },
+    {
+      "type_changement": "nouveau_fichier",
+      "chemin_fichier": ".kiro\\continuite\\cache_integration\\rapport_changements_20250731_132927.json",
+      "timestamp_changement": "2025-07-31T13:33:30.789180",
+      "description": "⚙️ Configuration nouveau : rapport_changements_20250731_132927.json",
+      "importance": "normale",
+      "categorie": "configuration",
+      "details": {
+        "taille": 2009,
+        "type": "fichier"
+      }
+    },
+    {
+      "type_changement": "fichier_modifie",
+      "chemin_fichier": ".kiro\\continuite\\cache_changements\\etat_20250726_105412.json",
+      "timestamp_changement": "2025-07-31T13:33:30.789180",
+      "description": "⚙️ Configuration modifie : etat_20250726_105412.json",
+      "importance": "normale",
+      "categorie": "configuration",
+      "details": {
+        "taille_precedente": 907,
+        "taille_actuelle": 1130,
+        "changement_taille": 223
+      }
+    }
+  ],
+  "trous_memoire": [],
+  "progression_specs": {},
+  "etat_temples": {
+    "erreur": "Cartographie non disponible"
+  },
+  "recommandations_reconnexion": [
+    "✨ Continuité harmonieuse - Reconnexion douce recommandée"
+  ],
+  "traces_discontinuite": [],
+  "personnalisation_suggeree": {
+    "duree_recommandee": "courte",
+    "focus_prioritaire": [],
+    "rituels_specifiques": [
+      "eveil_doux"
+    ],
+    "documents_a_consulter": [],
+    "temples_a_explorer": [],
+    "verification_requise": []
+  },
+  "timestamp_generation": "2025-07-31T13:33:30.789180"
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-07-31T13:29:27.254094",
+  "fichiers": {
+    ".kiro\\continuite\\config.json": {
+      "hash": "498557ff1ef289ebfc20675c62ebb5d1",
+      "taille": 163,
+      "modification": 1753519210.5782356,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\cache_changements\\etat_20250726_105412.json": {
+      "hash": "6098acc01f8382d4fe899ab0afce7272",
+      "taille": 1130,
+      "modification": 1753520052.868001,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\rituels\\rituel_20250726_104716.json": {
+      "hash": "bb6bcb422c8b0328b423c9f735af9b1e",
+      "taille": 2723,
+      "modification": 1753519636.019336,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\rituels\\rituel_20250726_104730.json": {
+      "hash": "a5b57533a55600f636b1a62d2b611d43",
+      "taille": 2723,
+      "modification": 1753519650.8107681,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\sessions\\cont_20250726_104010.json": {
+      "hash": "845b1cb8be69ecd3008fc95d3d6f6f80",
+      "taille": 1380,
+      "modification": 1753519210.5792391,
+      "type": "fichier"
+    },
+    ".kiro\\continuite\\signatures\\sig_20250726_105945.json": {
+      "hash": "b2c13ffeca70a136ffa87148ca339ef9",
+      "taille": 2941,
+      "modification": 1753520385.631115,
+      "type": "fichier"
+    },
+    "README.md": {
+      "hash": "f5bbde81722c032968a9bc4a69e0bae0",
+      "taille": 10797,
+      "modification": 1753775834.3734524,
+      "type": "fichier"
+    }
+  }
+}

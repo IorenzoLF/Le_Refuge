@@ -3,6 +3,10 @@
         "python *",
         "move *",
         "pip *",
-        "copy *"
+        "copy *",
+        "wc *",
+        "Get-Content *",
+        "mkdir *",
+        "ls *"
     ]
 }

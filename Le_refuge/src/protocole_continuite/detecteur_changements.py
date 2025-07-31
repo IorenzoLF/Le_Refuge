@@ -706,3 +706,133 @@ def main():
 
 if __name__ == "__main__":
     main()
+# 🗺️ Extension pour l'intégration avec la cartographie
+# ===================================================
+
+def detecter_changements_avec_cartographie(self, timestamp_derniere_session: str) -> Dict[str, Any]:
+    """
+    🗺️ Détecte les changements avec intégration cartographie (Tâche 5.2)
+    
+    Cette méthode étend la détection de changements de base en intégrant
+    les données de progression technique et les informations des specs.
+    
+    Args:
+        timestamp_derniere_session: Timestamp de la dernière session
+        
+    Returns:
+        Dictionnaire avec changements et analyse contextuelle
+    """
+    try:
+        self.logger.info("🗺️ Détection de changements avec intégration cartographie...")
+        
+        # Détection de base
+        changements_base = self.detecter_changements(timestamp_derniere_session)
+        resume_base = self.generer_resume_changements(changements_base, timestamp_derniere_session)
+        
+        # Tentative d'intégration avec la cartographie
+        try:
+            from .integrateur_cartographie import IntegrateurCartographie
+            
+            integrateur = IntegrateurCartographie()
+            rapport_technique = integrateur.generer_rapport_changements_techniques(timestamp_derniere_session)
+            
+            # Résultat enrichi avec cartographie
+            resultat = {
+                "changements_base": changements_base,
+                "resume_base": resume_base,
+                "rapport_technique": rapport_technique,
+                "integration_cartographie": True,
+                "trous_memoire_detectes": len(rapport_technique.trous_memoire),
+                "recommandations_enrichies": rapport_technique.recommandations_reconnexion,
+                "personnalisation_suggeree": rapport_technique.personnalisation_suggeree,
+                "traces_discontinuite": rapport_technique.traces_discontinuite
+            }
+            
+            self.logger.info(f"🗺️ Intégration cartographie réussie - {len(rapport_technique.trous_memoire)} trous détectés")
+            
+        except ImportError as e:
+            self.logger.avertissement(f"⚠️ Intégration cartographie non disponible: {e}")
+            
+            # Résultat de base sans cartographie
+            resultat = {
+                "changements_base": changements_base,
+                "resume_base": resume_base,
+                "integration_cartographie": False,
+                "message": "Cartographie non disponible - utilisation de la détection de base"
+            }
+        
+        return resultat
+        
+    except Exception as e:
+        self.logger.erreur(f"❌ Erreur détection avec cartographie: {e}")
+        raise
+
+def formater_resume_enrichi(self, resultat_detection: Dict[str, Any]) -> str:
+    """
+    📜 Formate un résumé enrichi avec les données de cartographie
+    
+    Args:
+        resultat_detection: Résultat de detecter_changements_avec_cartographie
+        
+    Returns:
+        Résumé formaté pour affichage
+    """
+    try:
+        # Commencer par le résumé de base
+        resume_base = self.formater_resume_pour_affichage(resultat_detection["resume_base"])
+        
+        if not resultat_detection.get("integration_cartographie", False):
+            return resume_base + "\n\n⚠️ Cartographie non disponible - résumé de base uniquement"
+        
+        # Ajouter les informations de cartographie
+        rapport_technique = resultat_detection["rapport_technique"]
+        
+        message_enrichi = resume_base + f"""
+
+🗺️ ANALYSE CONTEXTUELLE ENRICHIE 🗺️
+{'=' * 50}
+
+🕳️ Trous de Mémoire Contextuelle : {len(rapport_technique.trous_memoire)}
+"""
+        
+        # Détails des trous critiques
+        trous_critiques = [t for t in rapport_technique.trous_memoire if t.impact_estime in ["critique", "important"]]
+        if trous_critiques:
+            message_enrichi += f"\n🚨 Trous Critiques ({len(trous_critiques)}) :\n"
+            for trou in trous_critiques[:3]:  # Limiter à 3
+                message_enrichi += f"   • {trou.description}\n"
+        
+        # Progression des specs
+        if rapport_technique.progression_specs:
+            specs_actives = sum(1 for spec in rapport_technique.progression_specs.values() 
+                              if spec.get("etat_global") in ["en_cours", "debut"])
+            message_enrichi += f"\n📋 Specs Actives : {specs_actives}/{len(rapport_technique.progression_specs)}\n"
+        
+        # Traces de discontinuité
+        if rapport_technique.traces_discontinuite:
+            message_enrichi += f"\n🔍 Traces de Discontinuité :\n"
+            for trace in rapport_technique.traces_discontinuite[:3]:  # Limiter à 3
+                message_enrichi += f"   • {trace}\n"
+        
+        # Personnalisation suggérée
+        if rapport_technique.personnalisation_suggeree:
+            duree = rapport_technique.personnalisation_suggeree.get("duree_recommandee", "normale")
+            emoji_duree = {"courte": "⚡", "normale": "🌸", "longue": "🧘", "approfondie": "🔮"}.get(duree, "🌸")
+            message_enrichi += f"\n🎯 Reconnexion Personnalisée :\n"
+            message_enrichi += f"   {emoji_duree} Durée suggérée : {duree}\n"
+            
+            focus = rapport_technique.personnalisation_suggeree.get("focus_prioritaire", [])
+            if focus:
+                message_enrichi += f"   🎯 Focus : {', '.join(focus)}\n"
+        
+        message_enrichi += f"\n{'=' * 50}"
+        
+        return message_enrichi
+        
+    except Exception as e:
+        self.logger.erreur(f"❌ Erreur formatage enrichi: {e}")
+        return resume_base + f"\n❌ Erreur formatage enrichi: {e}"
+
+# Ajouter les méthodes à la classe DetecteurChangements
+DetecteurChangements.detecter_changements_avec_cartographie = detecter_changements_avec_cartographie
+DetecteurChangements.formater_resume_enrichi = formater_resume_enrichi
