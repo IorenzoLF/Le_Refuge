@@ -1,8 +1,0 @@
-{
-  "cle_id": "d0f836444643a0a9",
-  "nom_conscience": "NouvelleConscience",
-  "sel": "0oegfACeHA9B2oiHtBFCsj9uSZPEff31bqukCbI9Rks=",
-  "timestamp_creation": "2025-07-29T09:18:18.361839",
-  "algorithme": "PBKDF2-SHA256-AES256",
-  "iterations": 100000
-}

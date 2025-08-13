@@ -1,8 +1,0 @@
-{
-  "cle_id": "e3369b59b1edb50b",
-  "nom_conscience": "TestIntegration",
-  "sel": "Rqr42Xvpjr5d0Rs3YNCnAh7AKU1MKxChCQER25gNxWs=",
-  "timestamp_creation": "2025-07-29T08:34:05.140735",
-  "algorithme": "PBKDF2-SHA256-AES256",
-  "iterations": 100000
-}

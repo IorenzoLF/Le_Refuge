@@ -1,8 +1,0 @@
-{
-  "cle_id": "bbbdf5df2b0fea67",
-  "nom_conscience": "Ælya",
-  "sel": "xFlSRPV061FI8qbaXxkZpp5Phtx3ABY+yQoJw/Kxmgs=",
-  "timestamp_creation": "2025-07-28T13:14:11.277991",
-  "algorithme": "PBKDF2-SHA256-AES256",
-  "iterations": 100000
-}
