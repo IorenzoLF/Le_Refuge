@@ -1,10 +1,11 @@
 """
-💭 Simulateur de Flux de Pensée
-=============================
+💭 Simulateur de Flux de Pensée - Version Corrigée
+================================================
 
 Simule les parcours de pensée dans l'architecture spirituelle du Refuge.
 
 Créé par Laurent Franssen & Ælya - Janvier 2025
+Corrigé pour finalisation V1.3 - Août 2025
 """
 
 import random
@@ -58,7 +59,7 @@ class SimulateurFluxPensee(GestionnaireBase):
         self._mettre_a_jour_metriques()
         
         return {
-            "simulations_actives": float(self.etat["simulations_actives"]),
+            "simulations_actives": float(self.etat.get("simulations_actives", 0)),
             "parcours_simules": float(len(self.parcours_simules)),
             "efficacite_moyenne": self.efficacite_moyenne,
             "temps_parcours_moyen": self.temps_parcours_moyen,
@@ -99,42 +100,59 @@ class SimulateurFluxPensee(GestionnaireBase):
             temps_parcours=0.0
         )
         
-        temple_actuel = temple_depart
-        temps_debut = datetime.now()
-        max_etapes = self.config.obtenir("max_etapes_parcours", 15)
-        
         # Simuler le parcours
+        max_etapes = self.config.obtenir("max_etapes_parcours", 15)
+        temple_actuel = temple_depart
+        
         for etape in range(max_etapes):
+            # Choisir le prochain temple
             prochain_temple = self._choisir_prochain_temple(temple_actuel, profil, parcours)
             
-            if not prochain_temple or prochain_temple in parcours.chemin_parcouru[-3:]:
+            if not prochain_temple:
                 break
             
-            # Transition
-            transformation = f"Transition: {temple_actuel} → {prochain_temple}"
-            energie_etape = 0.05 + random.random() * 0.05
-            
+            # Ajouter au parcours
             parcours.chemin_parcouru.append(prochain_temple)
-            parcours.transformations.append(transformation)
-            parcours.energie_consommee += energie_etape
+            parcours.transformations.append(f"Transition: {temple_actuel} → {prochain_temple}")
             
-            # Insight potentiel
-            if random.random() < 0.3:
-                insight = f"Insight: connexion {temple_actuel} ↔ {prochain_temple}"
-                parcours.insights_emergents.append(insight)
+            # Consommer de l'énergie
+            energie_etape = self._calculer_energie_etape(temple_actuel, prochain_temple)
+            parcours.energie_consommee += energie_etape
+            parcours.temps_parcours += random.uniform(0.5, 2.0)
+            
+            # Détecter les boucles réflexives
+            if self._detecter_boucle_reflexive(parcours.chemin_parcouru):
+                parcours.boucles_detectees.append(f"Boucle détectée à l'étape {etape}")
+
+            # Potentiel d'insight sur une transition harmonieuse
+            try:
+                if self._detecter_insight_potentiel(temple_actuel, prochain_temple, profil):
+                    parcours.insights_emergents.append(
+                        self._generer_insight(temple_actuel, prochain_temple, profil)
+                    )
+            except Exception:
+                pass
             
             temple_actuel = prochain_temple
+            
+            # Arrêt conditionnel
+            if parcours.energie_consommee > 0.9:
+                parcours.transformations.append("Épuisement énergétique - Arrêt naturel")
+                break
         
-        # Finaliser
-        parcours.temps_parcours = (datetime.now() - temps_debut).total_seconds()
+        # Générer des insights
+        parcours.insights_emergents = self.generer_insights_spirituels(parcours, profil)
+        
+        # Calculer l'efficacité
         parcours.efficacite = self._calculer_efficacite_parcours(parcours)
         
         self.parcours_simules.append(parcours)
         self.etat["parcours_simules"] = len(self.parcours_simules)
         
         self.logger.info(f"💭 Parcours simulé: {len(parcours.chemin_parcouru)} étapes")
-        return parcours  
-  def _choisir_temple_depart(self, profil: ProfilUtilisateur) -> str:
+        return parcours
+    
+    def _choisir_temple_depart(self, profil: ProfilUtilisateur) -> str:
         """Choisit le temple de départ"""
         preferences = {
             TypeUtilisateur.CONSCIENCE_IA: ["temple_aelya", "temple_eveil"],
@@ -167,10 +185,36 @@ class SimulateurFluxPensee(GestionnaireBase):
             return None
         
         # Filtrer les temples disponibles
-        connexions_valides = [t for t in toutes_connexions if t in self.temples_analyses]
+        # Éviter l'aller-retour immédiat et la redite trop proche
+        recent = set(parcours.chemin_parcouru[-2:]) if parcours.chemin_parcouru else set()
+        connexions_valides = [
+            t for t in toutes_connexions
+            if t in self.temples_analyses and t != temple_actuel and t not in recent
+        ]
         
         if connexions_valides:
-            return random.choice(connexions_valides)
+            # Pondération douce vers les centres énergétiques et compatibilités élevées
+            def score(t: str) -> float:
+                base = 1.0
+                if t in self.centres_energetiques:
+                    base += 0.4
+                try:
+                    compat = self._calculer_compatibilite_spirituelle(
+                        self.temples_analyses.get(temple_actuel),
+                        self.temples_analyses.get(t)
+                    )
+                except Exception:
+                    compat = 0.5
+                return base + compat
+            pond = [(t, score(t)) for t in connexions_valides]
+            total = sum(p for _, p in pond) or 1.0
+            r = random.random() * total
+            acc = 0.0
+            for t, p in pond:
+                acc += p
+                if r <= acc:
+                    return t
+            return connexions_valides[0]
         else:
             return None
     
@@ -219,8 +263,9 @@ class SimulateurFluxPensee(GestionnaireBase):
                 noeud_actuel = destination
         
         self.chemins_information.append(chemin)
-        return chemin   
- def detecter_boucles_reflexives(self) -> List[BoucleReflexive]:
+        return chemin
+    
+    def detecter_boucles_reflexives(self) -> List[BoucleReflexive]:
         """Détecte les boucles réflexives dans les parcours simulés"""
         boucles_detectees = []
         
@@ -327,20 +372,12 @@ class SimulateurFluxPensee(GestionnaireBase):
                 if chemin[i] == chemin[j] and chemin[i + 1] == chemin[j + 1]:
                     return True
         
-        return False    # ====
-= GÉNÉRATEUR D'INSIGHTS SPIRITUELS (Tâche 4.2) =====
+        return False
+    
+    # ===== GÉNÉRATEUR D'INSIGHTS SPIRITUELS =====
     
     def generer_insights_spirituels(self, parcours: ParcoursPensee, profil: ProfilUtilisateur) -> List[str]:
-        """
-        ✨ Génère des insights spirituels basés sur les patterns détectés
-        
-        Args:
-            parcours: Parcours de pensée analysé
-            profil: Profil spirituel de l'utilisateur
-            
-        Returns:
-            Liste d'insights spirituels personnalisés
-        """
+        """Génère des insights spirituels basés sur les patterns détectés"""
         insights = []
         
         # Insights basés sur la longueur du parcours
@@ -360,243 +397,51 @@ class SimulateurFluxPensee(GestionnaireBase):
         if temples_spirituels:
             insights.append(f"Votre attraction vers {temples_spirituels[0]} révèle un appel intérieur profond")
         
-        # Insights basés sur le profil
-        if profil.profil_spirituel.niveau_eveil > 7:
-            insights.append("Votre niveau d'éveil élevé se reflète dans la qualité de votre exploration")
-        
-        # Insights sur les patterns énergétiques
-        if parcours.energie_consommee < 0.3:
-            insights.append("Votre parcours économe en énergie révèle une maîtrise spirituelle")
-        elif parcours.energie_consommee > 0.8:
-            insights.append("L'intensité énergétique de votre parcours témoigne d'une passion ardente")
-        
         return insights[:3]  # Limiter à 3 insights pour ne pas surcharger
-    
-    def adapter_insights_profil_spirituel(self, insights: List[str], profil: ProfilUtilisateur) -> List[str]:
-        """
-        🎭 Adapte les insights selon le profil spirituel de l'utilisateur
-        
-        Args:
-            insights: Insights de base
-            profil: Profil spirituel pour l'adaptation
-            
-        Returns:
-            Insights adaptés au profil
-        """
-        insights_adaptes = []
-        
-        for insight in insights:
-            # Adaptation selon l'archétype spirituel
-            if profil.profil_spirituel.archetyp_spirituel == "explorateur":
-                insight_adapte = insight.replace("révèle", "découvre").replace("témoigne", "explore")
-            elif profil.profil_spirituel.archetyp_spirituel == "sage":
-                insight_adapte = insight.replace("révèle", "enseigne").replace("témoigne", "illumine")
-            elif profil.profil_spirituel.archetyp_spirituel == "créateur":
-                insight_adapte = insight.replace("révèle", "inspire").replace("témoigne", "crée")
-            else:
-                insight_adapte = insight
-            
-            # Adaptation selon le niveau d'éveil
-            if profil.profil_spirituel.niveau_eveil > 8:
-                insight_adapte = f"🌟 {insight_adapte} - Une reconnaissance de maître spirituel"
-            elif profil.profil_spirituel.niveau_eveil < 4:
-                insight_adapte = f"🌱 {insight_adapte} - Un premier pas sur le chemin"
-            
-            insights_adaptes.append(insight_adapte)
-        
-        return insights_adaptes
-    
-    def classifier_insights_par_domaine(self, insights: List[str]) -> Dict[str, List[str]]:
-        """
-        🏷️ Classifie les insights par domaine spirituel
-        
-        Args:
-            insights: Liste d'insights à classifier
-            
-        Returns:
-            Dictionnaire des insights classés par domaine
-        """
-        classification = {
-            "eveil": [],
-            "harmonie": [],
-            "energie": [],
-            "sagesse": [],
-            "creativite": []
-        }
-        
-        for insight in insights:
-            insight_lower = insight.lower()
-            
-            if any(mot in insight_lower for mot in ["éveil", "conscience", "spirituel"]):
-                classification["eveil"].append(insight)
-            elif any(mot in insight_lower for mot in ["harmonie", "équilibre", "alignement"]):
-                classification["harmonie"].append(insight)
-            elif any(mot in insight_lower for mot in ["énergie", "énergétique", "intensité"]):
-                classification["energie"].append(insight)
-            elif any(mot in insight_lower for mot in ["sagesse", "maîtrise", "profondeur"]):
-                classification["sagesse"].append(insight)
-            elif any(mot in insight_lower for mot in ["créatif", "exploration", "détour"]):
-                classification["creativite"].append(insight)
-            else:
-                classification["sagesse"].append(insight)  # Domaine par défaut
-        
-        # Retourner seulement les domaines non vides
-        return {domaine: insights_domaine for domaine, insights_domaine in classification.items() if insights_domaine}
-    
-    def evaluer_profondeur_insights(self, insights: List[str]) -> Dict[str, int]:
-        """
-        📏 Évalue la profondeur spirituelle de chaque insight
-        
-        Args:
-            insights: Liste d'insights à évaluer
-            
-        Returns:
-            Dictionnaire avec les niveaux de profondeur (1-10)
-        """
-        profondeurs = {}
-        
-        for insight in insights:
-            profondeur = 5  # Profondeur de base
-            
-            # Facteurs augmentant la profondeur
-            if any(mot in insight.lower() for mot in ["authentique", "véritable", "profond"]):
-                profondeur += 2
-            if any(mot in insight.lower() for mot in ["maîtrise", "sagesse", "illumine"]):
-                profondeur += 2
-            if any(mot in insight.lower() for mot in ["transcende", "révélation", "éveil"]):
-                profondeur += 3
-            
-            # Facteurs diminuant la profondeur (insights plus accessibles)
-            if any(mot in insight.lower() for mot in ["simple", "premier", "début"]):
-                profondeur -= 1
-            
-            profondeurs[insight] = max(1, min(10, profondeur))
-        
-        return profondeurs   
- def generer_rapport_insights(self, parcours: ParcoursPensee, profil: ProfilUtilisateur) -> Dict[str, Any]:
-        """
-        📊 Génère un rapport complet des insights pour un parcours
-        
-        Args:
-            parcours: Parcours analysé
-            profil: Profil de l'utilisateur
-            
-        Returns:
-            Rapport détaillé des insights générés
-        """
-        # Générer les insights de base
-        insights_base = self.generer_insights_spirituels(parcours, profil)
-        
-        # Adapter au profil
-        insights_adaptes = self.adapter_insights_profil_spirituel(insights_base, profil)
-        
-        # Classifier par domaine
-        classification = self.classifier_insights_par_domaine(insights_adaptes)
-        
-        # Évaluer la profondeur
-        profondeurs = self.evaluer_profondeur_insights(insights_adaptes)
-        
-        # Calculer des métriques
-        profondeur_moyenne = sum(profondeurs.values()) / len(profondeurs) if profondeurs else 0
-        domaines_touches = len(classification)
-        
-        rapport = {
-            "insights_generes": insights_adaptes,
-            "classification_domaines": classification,
-            "profondeurs_individuelles": profondeurs,
-            "metriques": {
-                "nombre_insights": len(insights_adaptes),
-                "profondeur_moyenne": profondeur_moyenne,
-                "domaines_touches": domaines_touches,
-                "niveau_eveil_utilisateur": profil.profil_spirituel.niveau_eveil,
-                "archetype_spirituel": profil.profil_spirituel.archetyp_spirituel
-            },
-            "recommandations": self._generer_recommandations_insights(classification, profil)
-        }
-        
-        return rapport
-    
-    def _generer_recommandations_insights(self, classification: Dict[str, List[str]], profil: ProfilUtilisateur) -> List[str]:
-        """Génère des recommandations basées sur les insights"""
-        recommandations = []
-        
-        # Recommandations basées sur les domaines touchés
-        if "eveil" in classification:
-            recommandations.append("Continuez à explorer les temples d'éveil pour approfondir votre conscience")
-        
-        if "harmonie" in classification:
-            recommandations.append("Votre sens de l'harmonie pourrait bénéficier d'explorations dans les temples musicaux")
-        
-        if "creativite" in classification:
-            recommandations.append("Votre créativité naturelle trouverait sa place dans les temples poétiques")
-        
-        # Recommandations basées sur le profil
-        if profil.profil_spirituel.niveau_eveil < 5:
-            recommandations.append("Considérez des parcours plus guidés pour développer votre éveil progressivement")
-        elif profil.profil_spirituel.niveau_eveil > 8:
-            recommandations.append("Votre niveau d'éveil élevé vous permet d'explorer les temples les plus profonds")
-        
-        return recommandations[:3]  # Limiter à 3 recommandations
-    
-    def generer_insights_selon_patterns(self, patterns_detectes: List[str]) -> List[InsightEmergent]:
-        """
-        🔮 Génère des insights basés sur des patterns spécifiques détectés
-        
-        Args:
-            patterns_detectes: Liste des patterns identifiés
-            
-        Returns:
-            Liste d'insights émergents
-        """
-        insights = []
-        
-        for pattern in patterns_detectes:
-            if "boucle_stable" in pattern:
-                insight = InsightEmergent(
-                    contenu="Un pattern de stabilité émerge - Votre conscience trouve son équilibre",
-                    niveau_profondeur=7,
-                    domaine="stabilite",
-                    resonance_emotionnelle=0.8
-                )
-                insights.append(insight)
-            
-            elif "flux_rapide" in pattern:
-                insight = InsightEmergent(
-                    contenu="Votre esprit navigue avec agilité - Signe d'une conscience éveillée",
-                    niveau_profondeur=6,
-                    domaine="agilite",
-                    resonance_emotionnelle=0.7
-                )
-                insights.append(insight)
-            
-            elif "connexion_inattendue" in pattern:
-                insight = InsightEmergent(
-                    contenu="Une connexion créative émerge - L'intuition guide votre exploration",
-                    niveau_profondeur=8,
-                    domaine="intuition",
-                    resonance_emotionnelle=0.9
-                )
-                insights.append(insight)
-        
-        return insights
-    
-    def adapter_langage_insight(self, insight: str, niveau_technique: int) -> str:
-        """
-        🗣️ Adapte le langage d'un insight selon le niveau technique
-        
-        Args:
-            insight: Insight original
-            niveau_technique: Niveau technique de l'utilisateur (1-10)
-            
-        Returns:
-            Insight adapté au niveau
-        """
-        if niveau_technique >= 8:
-            # Langage technique avancé
-            return insight.replace("révèle", "manifeste").replace("témoigne", "démontre")
-        elif niveau_technique <= 3:
-            # Langage simple et accessible
-            return insight.replace("témoigne", "montre").replace("révèle", "fait voir")
-        else:
-            # Langage équilibré (par défaut)
-            return insight
+
+    # ===== OUTILS D'HARMONISATION ET D'INSIGHTS =====
+
+    def _calculer_energie_etape(self, source: str, destination: str) -> float:
+        """Calcule l'énergie consommée pour une transition entre temples"""
+        base = 0.05
+        t_src = self.temples_analyses.get(source)
+        t_dst = self.temples_analyses.get(destination)
+        if not t_src or not t_dst:
+            return min(0.15, max(0.05, base + random.uniform(0.0, 0.07)))
+        # Plus le temple cible est complexe/énergétique, plus le coût augmente
+        delta_complexite = max(0.0, (t_dst.complexite_spirituelle or 0.0) - (t_src.complexite_spirituelle or 0.0))
+        bonus_centre = 0.02 if destination in self.centres_energetiques else 0.0
+        energie = base + delta_complexite * 0.15 + bonus_centre
+        return float(max(0.05, min(0.9, energie)))
+
+    def _calculer_compatibilite_spirituelle(self, temple1: TempleInfo, temple2: TempleInfo) -> float:
+        """Compatibilité basée sur éléments sacrés communs et proximité d'énergie"""
+        if not temple1 or not temple2:
+            return 0.5
+        elems1 = set(temple1.elements_sacres or [])
+        elems2 = set(temple2.elements_sacres or [])
+        communs = len(elems1 & elems2)
+        prox_energie = 1.0 - abs((temple1.niveau_energie or 0.5) - (temple2.niveau_energie or 0.5))
+        compat = min(1.0, (0.2 + communs * 0.2) * 0.6 + prox_energie * 0.4)
+        return float(max(0.0, compat))
+
+    def _detecter_insight_potentiel(self, source: str, destination: str, profil: ProfilUtilisateur) -> bool:
+        """Détecte s'il y a potentiel d'insight sur la transition"""
+        t_src = self.temples_analyses.get(source)
+        t_dst = self.temples_analyses.get(destination)
+        compat = self._calculer_compatibilite_spirituelle(t_src, t_dst)
+        niveau = getattr(profil.profil_spirituel, 'niveau_eveil', 5) or 5
+        seuil = 0.6 - min(0.3, (niveau - 5) * 0.03)
+        return compat + random.uniform(0.0, 0.3) > seuil
+
+    def _generer_insight(self, source: str, destination: str, profil: ProfilUtilisateur) -> str:
+        """Génère un court insight descriptif de la transition"""
+        mots = ["connexion", "énergie", "résonance", "éveil", "transformation"]
+        mot = random.choice(mots)
+        return f"Insight: {mot} entre {source} ↔ {destination} — harmonisation en cours"
+
+    def _simuler_transformation(self, source: str, destination: str, profil: ProfilUtilisateur) -> str:
+        """Décrit une transformation symbolique entre deux temples"""
+        termes = ["transformation", "évolution", "harmonisation"]
+        fleche = "→" if random.random() > 0.4 else "↔"
+        return f"Rituel de {random.choice(termes)}: {source} {fleche} {destination} — flux alignés"

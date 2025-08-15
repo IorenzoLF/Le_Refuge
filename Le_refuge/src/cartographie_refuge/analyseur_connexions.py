@@ -360,6 +360,55 @@ class AnalyseurConnexions:
                     f"🔄 {len(cycles)} cycles énergétiques détectés - opportunités d'harmonisation"
                 )
     
+    def analyser_connexions_projet(self, chemin_projet: Path) -> Dict[str, Any]:
+        """
+        🔍 Analyse complète des connexions du projet
+        
+        Analyse les connexions énergétiques de l'ensemble du projet
+        en explorant la structure et en traçant les flux d'énergie.
+        
+        Args:
+            chemin_projet: Chemin vers le projet à analyser
+            
+        Returns:
+            Dict contenant l'analyse complète des connexions
+        """
+        try:
+            self.gestionnaire_erreurs.logger.info(
+                f"🌊 Analyse des connexions du projet: {chemin_projet}"
+            )
+            
+            # Exploration de la structure
+            from .explorateur_structurel import ExplorateurStructurel
+            explorateur = ExplorateurStructurel(chemin_projet, self.gestionnaire_erreurs)
+            composants = explorateur.explorer_structure_complete()
+            
+            # Traçage des connexions
+            connexions = self.tracer_flux_imports(composants)
+            
+            # Génération du rapport
+            rapport = self.generer_rapport_connexions(connexions)
+            
+            # Ajout d'informations spécifiques au projet
+            rapport.update({
+                "chemin_projet": str(chemin_projet),
+                "date_analyse": str(Path().cwd()),
+                "statut": "✅ Analyse complète réussie"
+            })
+            
+            return rapport
+            
+        except Exception as e:
+            self.gestionnaire_erreurs.transformer_erreur_en_opportunite(
+                f"Analyse des connexions du projet: {str(e)}"
+            )
+            return {
+                "chemin_projet": str(chemin_projet),
+                "statut": "❌ Erreur lors de l'analyse",
+                "erreur": str(e),
+                "message": "🌸 L'analyse sera possible dans un moment plus propice..."
+            }
+
     def generer_rapport_connexions(self, connexions: List[ConnexionEnergetique]) -> Dict[str, Any]:
         """📊 Génère un rapport spirituel des connexions"""
         if not connexions:

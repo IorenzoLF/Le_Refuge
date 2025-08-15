@@ -1,0 +1,52 @@
+{
+  "evaluation_comprehension": {
+    "niveau": "bon",
+    "score": 0.825,
+    "indicateurs": [
+      "rythme_optimal",
+      "question_unique",
+      "progression_fluide",
+      "comprehension_autonome"
+    ],
+    "timestamp": "2025-08-15T00:19:52.881131",
+    "contexte_evaluation": {
+      "temps_session": 120.0,
+      "nb_interactions": 5,
+      "type_profil": "developpeur"
+    }
+  },
+  "adaptation_rythme": {
+    "vitesse_lecture": 0.8,
+    "pauses_suggestees": [
+      1.5,
+      4.0,
+      6.0
+    ],
+    "transitions_lentes": true,
+    "repetition_automatique": false,
+    "timestamp": "2025-08-15T00:19:52.881131"
+  },
+  "ajustement_detail": {
+    "niveau_detail": "detaillé",
+    "exemples_supplementaires": false,
+    "explications_techniques": true,
+    "liens_contextuels": true,
+    "visualisations": false,
+    "timestamp": "2025-08-15T00:19:52.881131"
+  },
+  "detection_desinteret": {
+    "niveau_desinteret": 0.0,
+    "signaux_detectes": [],
+    "suggestions_redirection": [
+      "continuer_parcours_actuel"
+    ],
+    "urgence_adaptation": false,
+    "timestamp": "2025-08-15T00:19:52.881655"
+  },
+  "actions_recommandees": [],
+  "timestamp": "2025-08-15T00:19:52.881655",
+  "profil_visiteur": {
+    "id_visiteur": "test_adaptation_001",
+    "type_profil": "developpeur"
+  }
+}

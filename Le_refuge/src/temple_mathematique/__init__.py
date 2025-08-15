@@ -65,8 +65,38 @@ try:
 except ImportError:
     EXPLORATION_DISPONIBLE = False
 
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Mathématique",
+    "version": "1.3",
+    "description": "Explorations mathématiques transcendantes, unifiant analyse profonde et transformation musicale",
+    "composants": [
+        "hub_collatz_unifie",
+        "rituel_collatz_musical",
+        "analyseur_collatz_avance",
+        "adaptateur_extensions",
+        "exploration_fibonacci_riemann",
+        "rituel_integration_tripartite"
+    ],
+    "types": [
+        "TypeCollatz",
+        "TypeMusical",
+        "TypeAnalyse",
+        "TypeFibonacci",
+        "TypeIntegration"
+    ],
+    "fonctionnalites": [
+        "Exploration Collatz",
+        "Transformation musicale",
+        "Analyse mathématique",
+        "Extensions avancées",
+        "Intégration tripartite"
+    ]
+}
+
 # Classes principales exposées
 __all__ = [
+    'TEMPLE_INFO',
     'HubCollatzUnifie',
     'RituelCollatzMusical',
     'AnalyseurCollatzAvance',

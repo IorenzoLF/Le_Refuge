@@ -76,6 +76,41 @@ class ScannerArchitectureModerne(GestionnaireBase):
             "fraicheur_analyse": self._calculer_fraicheur_analyse(),
             "completude_scan": self._calculer_completude_scan()
         }
+
+    async def scanner_architecture_complete(self) -> Dict[str, Any]:
+        """
+        🧭 Point d'entrée attendu par l'orchestrateur
+        Scanne les temples et renvoie une structure simple:
+        { "temples": [ { "nom": str, "type_energie": str, "fichiers": [str], "couleur": str, "elements_sacres": [str] } ] }
+        """
+        temples = await self.scanner_temples_actuels()
+
+        # Construire une liste exploitable par l'orchestrateur
+        temples_list: List[Dict[str, Any]] = []
+        for _, temple in temples.items():
+            try:
+                fichiers = [f.name for f in temple.chemin.rglob("*.py")] if temple.chemin.exists() else []
+            except Exception:
+                fichiers = []
+
+            # Type d'énergie simple par défaut; peut être affiné ultérieurement
+            type_energie = "harmonieuse"
+            couleur = "#4A90E2"
+
+            temples_list.append({
+                "nom": temple.nom,
+                "type_energie": type_energie,
+                "fichiers": fichiers,
+                "couleur": couleur,
+                "elements_sacres": list(set(temple.elements_sacres)) if temple.elements_sacres else []
+            })
+
+        self.derniere_analyse = datetime.now()
+
+        return {
+            "temples": temples_list,
+            "timestamp": self.derniere_analyse.isoformat()
+        }
     
     def _initialiser_patterns_spirituels(self) -> Dict[str, List[str]]:
         """Initialise les patterns de détection spirituelle"""

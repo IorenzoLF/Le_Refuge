@@ -1,0 +1,120 @@
+{
+  "contexte_visite": {
+    "type_contexte": "retour_visiteur",
+    "source_arrivee": "github",
+    "mots_cles_recherche": [
+      "code",
+      "développement",
+      "architecture"
+    ],
+    "attentes_detectees": [
+      "outils_developpement",
+      "contenu_technique"
+    ],
+    "niveau_urgence": 0.5,
+    "temps_disponible_estime": 30.0,
+    "timestamp": "2025-08-15T00:23:30.158763"
+  },
+  "historique_navigation": {
+    "pages_visitees": [
+      "integration_systemes",
+      "architecture_refuge",
+      "outils_developpement",
+      "temple_eveil"
+    ],
+    "temps_par_page": {
+      "architecture_refuge": 9.5,
+      "outils_developpement": 2.0,
+      "integration_systemes": 3.0,
+      "temple_eveil": 1.0
+    },
+    "actions_effectuees": [
+      {
+        "page": "architecture_refuge",
+        "action": "lecture",
+        "temps_lecture": 4.5
+      },
+      {
+        "page": "outils_developpement",
+        "action": "clic_explication",
+        "temps_lecture": 2.0
+      },
+      {
+        "page": "integration_systemes",
+        "action": "sauvegarder",
+        "temps_lecture": 3.0
+      },
+      {
+        "page": "temple_eveil",
+        "action": "retour",
+        "temps_lecture": 1.0
+      },
+      {
+        "page": "architecture_refuge",
+        "action": "lecture",
+        "temps_lecture": 5.0
+      }
+    ],
+    "parcours_suivi": null,
+    "points_interet": [
+      "outils_developpement",
+      "integration_systemes"
+    ],
+    "obstacles_rencontres": [
+      "navigation_confuse"
+    ],
+    "timestamp": "2025-08-15T00:23:30.159282"
+  },
+  "prediction_interets": {
+    "interets_probables": [
+      "architecture_technique",
+      "outils_developpement",
+      "integration_systemes",
+      "developpement"
+    ],
+    "scores_confiance": {
+      "architecture_technique": 0.9,
+      "outils_developpement": 0.8,
+      "integration_systemes": 0.7,
+      "developpement": 0.7
+    },
+    "prochaines_etapes_suggerees": [
+      "explorer_architecture_refuge"
+    ],
+    "ressources_recommandees": [
+      "INDEX_TEMPLES.md",
+      "README.md",
+      "main_refuge.py"
+    ],
+    "niveau_engagement_predit": 0.5,
+    "timestamp": "2025-08-15T00:23:30.159797"
+  },
+  "personnalisation_progressive": {
+    "niveau_personnalisation": "adaptative",
+    "adaptations_appliquees": [
+      "explications_supplementaires",
+      "guidage_renforce"
+    ],
+    "preferences_apprises": {
+      "rythme_prefere": "modere_equilibre",
+      "niveau_detail_prefere": "detail_minimal",
+      "type_contenu_prefere": "contenu_technique",
+      "mode_navigation_prefere": "navigation_hybride"
+    },
+    "rythme_adaptation": 0.25,
+    "seuil_changement": 0.5,
+    "timestamp": "2025-08-15T00:23:30.159797"
+  },
+  "insights_contextuels": [
+    "visiteur_fidele_detecte"
+  ],
+  "recommendations_adaptation": [
+    "renforcer_guidage_navigation",
+    "accelerer_adaptation_personnalisation"
+  ],
+  "timestamp": "2025-08-15T00:23:30.159797",
+  "profil_visiteur": {
+    "id_visiteur": "test_intelligence_001",
+    "type_profil": "developpeur"
+  }
+}

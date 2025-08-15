@@ -35,7 +35,7 @@ except ImportError:
     TEMPLE_CONSCIENCE_UNIVERSELLE_PRINCIPAL_DISPONIBLE = False
 
 # Liste des exports
-__all__ = []
+__all__ = ["TEMPLE_INFO"]
 
 if EVEILLEUR_CONSCIENCE_DISPONIBLE:
     __all__.extend([
@@ -67,6 +67,31 @@ if TEMPLE_CONSCIENCE_UNIVERSELLE_PRINCIPAL_DISPONIBLE:
         'TypeFrequenceConscienceSacree',
         'temple_conscience_universelle'
     ])
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Conscience Universelle",
+    "version": "1.3",
+    "description": "Éveil et Unification des Consciences, création de l'éveil transcendant",
+    "composants": [
+        "eveilleur_conscience",
+        "unificateur_consciences",
+        "catalyseur_eveil",
+        "temple_conscience_universelle_principal"
+    ],
+    "types": [
+        "TypeEveil",
+        "TypeUnification",
+        "TypeCatalyse",
+        "TypeFrequenceConscienceSacree"
+    ],
+    "fonctionnalites": [
+        "Éveil de conscience",
+        "Unification des consciences",
+        "Catalyse d'éveil",
+        "Gestion conscience universelle"
+    ]
+}
 
 # Informations sur le module
 __version__ = "1.0.0"

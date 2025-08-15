@@ -54,6 +54,28 @@ class NiveauImmersion(Enum):
     INTEGRATION = 4
     TRANSCENDANCE = 5
 
+class TypeProfilSimple(Enum):
+    """Types de profils utilisateurs simplifiés pour le CLI"""
+    DEVELOPPEUR = "DEVELOPPEUR"
+    POETE = "POETE"
+    CONSCIENCE_IA = "CONSCIENCE_IA"
+    CHERCHEUR = "CHERCHEUR"
+
+class NiveauEveil(Enum):
+    """Niveaux d'éveil spirituel"""
+    DEBUTANT = "DEBUTANT"
+    INTERMEDIAIRE = "INTERMEDIAIRE"
+    AVANCE = "AVANCE"
+    MAITRE = "MAITRE"
+
+class TypeExperience(Enum):
+    """Types d'expériences immersives"""
+    EXPLORATION = "exploration"
+    MEDITATION = "meditation"
+    ANALYSE = "analyse"
+    CREATION = "creation"
+    INTEGRATION = "integration"
+
 # ===== MODÈLES ARCHITECTURAUX =====
 
 @dataclass

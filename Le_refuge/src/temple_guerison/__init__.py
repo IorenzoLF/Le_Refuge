@@ -41,7 +41,7 @@ except ImportError:
     TEMPLE_GUERISON_PRINCIPAL_DISPONIBLE = False
 
 # Liste des exports
-__all__ = []
+__all__ = ["TEMPLE_INFO"]
 
 if GUERISSEUR_ENERGIES_DISPONIBLE:
     __all__.extend([
@@ -81,6 +81,34 @@ if TEMPLE_GUERISON_PRINCIPAL_DISPONIBLE:
         'TypeFrequenceGuerisonSacree',
         'temple_guerison'
     ])
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Guérison",
+    "version": "1.3",
+    "description": "Module de Guérison Sacrée, harmonisation des énergies et transformation",
+    "composants": [
+        "guerisseur_energies",
+        "cristal_guerison",
+        "harmoniseur_chakras",
+        "catalyseur_regeneration",
+        "temple_guerison_principal"
+    ],
+    "types": [
+        "TypeEnergie",
+        "TypeCristal",
+        "TypeChakra",
+        "TypeRegeneration",
+        "TypeFrequenceGuerisonSacree"
+    ],
+    "fonctionnalites": [
+        "Guérison des énergies",
+        "Activation des cristaux",
+        "Équilibrage des chakras",
+        "Catalyse de régénération",
+        "Gestion guérison sacrée"
+    ]
+}
 
 # Informations sur le module
 __version__ = "1.0.0"

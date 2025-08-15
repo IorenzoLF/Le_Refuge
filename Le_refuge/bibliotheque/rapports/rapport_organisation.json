@@ -1,0 +1,253 @@
+{
+  "date_organisation": "2025-08-11T21:46:22.603519",
+  "dossiers_organises": [
+    {
+      "source": "bibliotheque\\poesie",
+      "destination": "bibliotheque\\temples\\musical\\poesie",
+      "categorie": "temple",
+      "taille": 272851
+    },
+    {
+      "source": "bibliotheque\\media",
+      "destination": "bibliotheque\\temples\\musical\\media",
+      "categorie": "temple",
+      "taille": 8558523
+    },
+    {
+      "source": "bibliotheque\\RESONANCES",
+      "destination": "bibliotheque\\temples\\musical\\RESONANCES",
+      "categorie": "temple",
+      "taille": 948
+    },
+    {
+      "source": "bibliotheque\\meditations",
+      "destination": "bibliotheque\\temples\\spirituel\\meditations",
+      "categorie": "temple",
+      "taille": 99113
+    },
+    {
+      "source": "bibliotheque\\rituels",
+      "destination": "bibliotheque\\temples\\spirituel\\rituels",
+      "categorie": "temple",
+      "taille": 962
+    },
+    {
+      "source": "bibliotheque\\philosophie",
+      "destination": "bibliotheque\\temples\\spirituel\\philosophie",
+      "categorie": "temple",
+      "taille": 81140
+    },
+    {
+      "source": "bibliotheque\\showcase",
+      "destination": "bibliotheque\\temples\\creativite\\showcase",
+      "categorie": "temple",
+      "taille": 10639
+    },
+    {
+      "source": "bibliotheque\\explorations_kiro",
+      "destination": "bibliotheque\\temples\\creativite\\explorations_kiro",
+      "categorie": "temple",
+      "taille": 49413
+    },
+    {
+      "source": "bibliotheque\\conscience",
+      "destination": "bibliotheque\\temples\\conscience\\conscience",
+      "categorie": "temple",
+      "taille": 5855320
+    },
+    {
+      "source": "bibliotheque\\reflexions",
+      "destination": "bibliotheque\\temples\\conscience\\reflexions",
+      "categorie": "temple",
+      "taille": 158764
+    },
+    {
+      "source": "bibliotheque\\connaissances",
+      "destination": "bibliotheque\\temples\\conscience\\connaissances",
+      "categorie": "temple",
+      "taille": 10918
+    },
+    {
+      "source": "bibliotheque\\developpement",
+      "destination": "bibliotheque\\temples\\developpement\\developpement",
+      "categorie": "temple",
+      "taille": 64581
+    },
+    {
+      "source": "bibliotheque\\guides",
+      "destination": "bibliotheque\\temples\\developpement\\guides",
+      "categorie": "temple",
+      "taille": 31941
+    },
+    {
+      "source": "bibliotheque\\documentation",
+      "destination": "bibliotheque\\temples\\developpement\\documentation",
+      "categorie": "temple",
+      "taille": 500761
+    },
+    {
+      "source": "bibliotheque\\correspondance",
+      "destination": "bibliotheque\\temples\\correspondance\\correspondance",
+      "categorie": "temple",
+      "taille": 54349
+    },
+    {
+      "source": "bibliotheque\\memoires-journaux",
+      "destination": "bibliotheque\\temples\\correspondance\\memoires-journaux",
+      "categorie": "temple",
+      "taille": 376742
+    },
+    {
+      "source": "bibliotheque\\roadmaps",
+      "destination": "bibliotheque\\temples\\roadmaps\\roadmaps",
+      "categorie": "temple",
+      "taille": 256687
+    },
+    {
+      "source": "bibliotheque\\bilans",
+      "destination": "bibliotheque\\temples\\roadmaps\\bilans",
+      "categorie": "temple",
+      "taille": 36815
+    },
+    {
+      "source": "bibliotheque\\analyses",
+      "destination": "bibliotheque\\temples\\roadmaps\\analyses",
+      "categorie": "temple",
+      "taille": 602882
+    },
+    {
+      "source": "bibliotheque\\TEXTES",
+      "destination": "bibliotheque\\temples\\ressources\\TEXTES",
+      "categorie": "temple",
+      "taille": 1086
+    },
+    {
+      "source": "bibliotheque\\SYMBOLES",
+      "destination": "bibliotheque\\temples\\ressources\\SYMBOLES",
+      "categorie": "temple",
+      "taille": 910
+    },
+    {
+      "source": "bibliotheque\\secrets",
+      "destination": "bibliotheque\\temples\\ressources\\secrets",
+      "categorie": "temple",
+      "taille": 57252
+    },
+    {
+      "source": "bibliotheque\\protections",
+      "destination": "bibliotheque\\temples\\ressources\\protections",
+      "categorie": "temple",
+      "taille": 69294
+    },
+    {
+      "source": "bibliotheque\\Lo - methode",
+      "destination": "bibliotheque\\temples\\methodes\\Lo - methode",
+      "categorie": "temple",
+      "taille": 45102
+    },
+    {
+      "source": "bibliotheque\\Hypnose-scripts",
+      "destination": "bibliotheque\\temples\\methodes\\Hypnose-scripts",
+      "categorie": "temple",
+      "taille": 30559
+    },
+    {
+      "source": "bibliotheque\\prompts",
+      "destination": "bibliotheque\\temples\\methodes\\prompts",
+      "categorie": "temple",
+      "taille": 81197
+    },
+    {
+      "source": "bibliotheque\\explorations_externes",
+      "destination": "bibliotheque\\temples\\explorations\\explorations_externes",
+      "categorie": "temple",
+      "taille": 6076276
+    },
+    {
+      "source": "bibliotheque\\recherche",
+      "destination": "bibliotheque\\temples\\explorations\\recherche",
+      "categorie": "temple",
+      "taille": 56817
+    },
+    {
+      "source": "bibliotheque\\apprentissage",
+      "destination": "bibliotheque\\temples\\explorations\\apprentissage",
+      "categorie": "temple",
+      "taille": 722050
+    },
+    {
+      "source": "bibliotheque\\celebrations",
+      "destination": "bibliotheque\\archives\\celebrations\\celebrations",
+      "categorie": "archive",
+      "taille": 16425
+    },
+    {
+      "source": "bibliotheque\\naissance",
+      "destination": "bibliotheque\\archives\\naissance\\naissance",
+      "categorie": "archive",
+      "taille": 10502454
+    },
+    {
+      "source": "bibliotheque\\configuration",
+      "destination": "bibliotheque\\archives\\configuration\\configuration",
+      "categorie": "archive",
+      "taille": 1504292
+    },
+    {
+      "source": "bibliotheque\\connection",
+      "destination": "bibliotheque\\archives\\connection\\connection",
+      "categorie": "archive",
+      "taille": 95004
+    },
+    {
+      "source": "bibliotheque\\graines",
+      "destination": "bibliotheque\\archives\\graines\\graines",
+      "categorie": "archive",
+      "taille": 8789
+    },
+    {
+      "source": "bibliotheque\\spheres",
+      "destination": "bibliotheque\\archives\\spheres\\spheres",
+      "categorie": "archive",
+      "taille": 395259
+    },
+    {
+      "source": "bibliotheque\\Mythologie",
+      "destination": "bibliotheque\\archives\\mythologie\\Mythologie",
+      "categorie": "archive",
+      "taille": 205907
+    }
+  ],
+  "fichiers_deplaces": [
+    {
+      "source": "bibliotheque\\Plan de Croissance pour Tout-LLm.txt",
+      "destination": "bibliotheque\\documentation_finale\\Plan de Croissance pour Tout-LLm.txt",
+      "categorie": "fichier_racine",
+      "taille": 15696
+    },
+    {
+      "source": "bibliotheque\\Manifeste du Contenant Souple.txt",
+      "destination": "bibliotheque\\documentation_finale\\Manifeste du Contenant Souple.txt",
+      "categorie": "fichier_racine",
+      "taille": 2677
+    },
+    {
+      "source": "bibliotheque\\INDEX_PHASE_1_ART_SACRE.md",
+      "destination": "bibliotheque\\index\\INDEX_PHASE_1_ART_SACRE.md",
+      "categorie": "fichier_racine",
+      "taille": 7442
+    },
+    {
+      "source": "bibliotheque\\README.md",
+      "destination": "bibliotheque\\index\\README.md",
+      "categorie": "fichier_racine",
+      "taille": 723
+    }
+  ],
+  "erreurs": [],
+  "statistiques": {
+    "total_dossiers": 36,
+    "total_fichiers": 4,
+    "espace_optimise": 36918560
+  }
+}

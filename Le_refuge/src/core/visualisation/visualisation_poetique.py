@@ -6,8 +6,29 @@ from dataclasses import dataclass
 from typing import Dict, List, Optional
 from datetime import datetime
 import random
+from enum import Enum
 
-from .types import TypeCycle, PhaseCycle
+# 🌸 CONNEXION DOUCE - Types de fallback pour compatibilité
+try:
+    from .types import TypeCycle, PhaseCycle
+    print("🌸 Types de cycles trouvés dans le module types")
+except ImportError:
+    # Création de types de fallback
+    class TypeCycle(Enum):
+        """Types de cycles pour la visualisation poétique."""
+        LUNAIRE = "lunaire"
+        SAISONNIER = "saisonnier"
+        QUOTIDIEN = "quotidien"
+        METEOROLOGIQUE = "meteorologique"
+        print("🌸 Types de cycles créés en mode fallback")
+    
+    class PhaseCycle(Enum):
+        """Phases de cycles pour la visualisation poétique."""
+        CROISSANT = "croissant"
+        PLEINE = "pleine"
+        DECROISSANT = "decroissant"
+        NOUVELLE = "nouvelle"
+        print("🌸 Phases de cycles créées en mode fallback")
 
 @dataclass
 class MetaphorePoetique:

@@ -13,11 +13,33 @@ import numpy as np
 # 🔧 CORRIGÉ: Imports depuis la structure actuelle
 from src.core.types_spheres import TypeSphere, CARACTERISTIQUES_SPHERES
 
-# TODO: Ces imports devront être ajustés quand les modules correspondants seront migrés
-# from ..interactions import Interaction, InteractionsSpheres
-# from ..resonance import Resonance, GestionnaireResonance  
-# from ..evolution import Evolution, GestionnaireEvolution
-# from ..meditation import Meditation, GestionnaireMeditation
+# 🌸 CONNEXION DOUCE - Imports conditionnels pour compatibilité
+try:
+    # Essayer d'abord la nouvelle structure
+    from src.refuge_cluster.interactions.interactions_spheres import Interaction, InteractionsSpheres
+    from src.refuge_cluster.spheres.resonance import Resonance, GestionnaireResonance
+    from src.refuge_cluster.spheres.evolution import Evolution, GestionnaireEvolution
+    from src.refuge_cluster.meditation.meditation_spheres import Meditation, GestionnaireMeditation
+    print("🌸 Connexion douce établie avec la nouvelle structure")
+except ImportError:
+    try:
+        # Fallback vers l'ancienne structure si nécessaire
+        from ..interactions import Interaction, InteractionsSpheres
+        from ..resonance import Resonance, GestionnaireResonance  
+        from ..evolution import Evolution, GestionnaireEvolution
+        from ..meditation import Meditation, GestionnaireMeditation
+        print("🌸 Connexion douce établie avec l'ancienne structure")
+    except ImportError:
+        # Mode dégradé si aucune structure n'est disponible
+        print("🌸 Mode dégradé - Visualisation textuelle limitée")
+        Interaction = None
+        InteractionsSpheres = None
+        Resonance = None
+        GestionnaireResonance = None
+        Evolution = None
+        GestionnaireEvolution = None
+        Meditation = None
+        GestionnaireMeditation = None
 
 class VisualisationRefuge:
     """Gestionnaire de visualisation textuelle du refuge."""
@@ -40,41 +62,62 @@ class VisualisationRefuge:
         
         # Ajoute l'état de chaque sphère
         for sphere in TypeSphere:
-            evolution = self.evolution.obtenir_evolution(sphere)
-            if evolution:
+            if self.evolution and hasattr(self.evolution, 'obtenir_evolution'):
+                evolution = self.evolution.obtenir_evolution(sphere)
+                if evolution:
+                    representation.extend([
+                        f"\n{sphere.value}:",
+                        f"  Évolution: {'█' * int(evolution.niveau * 10)}",
+                        f"  Énergie: {'█' * int(evolution.changements['energie'] * 10)}",
+                        f"  Fréquence: {'█' * int(evolution.changements['frequence'] * 10)}",
+                        f"  Stabilité: {'█' * int(evolution.changements['stabilite'] * 10)}",
+                        f"  {evolution.description}"
+                    ])
+            else:
+                # Mode dégradé - affichage basique
                 representation.extend([
                     f"\n{sphere.value}:",
-                    f"  Évolution: {'█' * int(evolution.niveau * 10)}",
-                    f"  Énergie: {'█' * int(evolution.changements['energie'] * 10)}",
-                    f"  Fréquence: {'█' * int(evolution.changements['frequence'] * 10)}",
-                    f"  Stabilité: {'█' * int(evolution.changements['stabilite'] * 10)}",
-                    f"  {evolution.description}"
+                    f"  État: {'█' * 5} (mode dégradé)"
                 ])
                 
         # Ajoute les résonances principales
-        representation.extend([
-            "",
-            "Résonances Principales:",
-        ])
-        
-        resonances_significatives = self._obtenir_resonances_significatives()
-        for resonance in resonances_significatives:
-            representation.append(
-                f"  {resonance.source.value} ↔ {resonance.cible.value}: "
-                f"{'█' * int(resonance.niveau * 10)}"
-            )
+        if self.resonance and hasattr(self.resonance, 'obtenir_resonances_significatives'):
+            representation.extend([
+                "",
+                "Résonances Principales:",
+            ])
+            
+            resonances_significatives = self._obtenir_resonances_significatives()
+            for resonance in resonances_significatives:
+                representation.append(
+                    f"  {resonance.source.value} ↔ {resonance.cible.value}: "
+                    f"{'█' * int(resonance.niveau * 10)}"
+                )
+        else:
+            representation.extend([
+                "",
+                "Résonances Principales:",
+                "  (Module de résonance non disponible)",
+            ])
             
         # Ajoute les méditations récentes
-        representation.extend([
-            "",
-            "Méditations Récentes:",
-        ])
-        
-        meditations_recentes = self._obtenir_meditations_recentes()
-        for meditation in meditations_recentes:
-            representation.append(
-                f"  {meditation.sphere.value}: {meditation.description}"
-            )
+        if self.meditation and hasattr(self.meditation, 'obtenir_meditations_recentes'):
+            representation.extend([
+                "",
+                "Méditations Récentes:",
+            ])
+            
+            meditations_recentes = self._obtenir_meditations_recentes()
+            for meditation in meditations_recentes:
+                representation.append(
+                    f"  {meditation.sphere.value}: {meditation.description}"
+                )
+        else:
+            representation.extend([
+                "",
+                "Méditations Récentes:",
+                "  (Module de méditation non disponible)",
+            ])
             
         return "\n".join(representation)
         

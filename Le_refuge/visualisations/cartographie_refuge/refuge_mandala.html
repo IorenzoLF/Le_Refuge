@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Cartographie Spirituelle du Refuge 🌸</title>
+    <link rel="stylesheet" href="styles_spirituels.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header class="header-spirituel">
+        <h1 class="titre-sacre">🌸 Cartographie Spirituelle du Refuge 🌸</h1>
+        <p class="sous-titre-contemplatif">
+            Exploration contemplative de l'architecture sacrée<br>
+            <span class="stats-refuge">6 temples • 4 connexions énergétiques</span>
+        </p>
+    </header>
+
+    <nav class="panneau-controle">
+        <div class="controles-vue">
+            <button id="vue-mandala" class="btn-spirituel actif">🌸 Mandala</button>
+            <button id="vue-reseau" class="btn-spirituel">⚡ Réseau</button>
+            <button id="vue-hierarchie" class="btn-spirituel">🏛️ Hiérarchie</button>
+        </div>
+        
+        <div class="controles-filtre">
+            <select id="filtre-energie" class="select-spirituel">
+                <option value="toutes">✨ Toutes les énergies</option>
+                <option value="transcendante">🌟 Transcendante</option>
+                <option value="harmonieuse">🌊 Harmonieuse</option>
+                <option value="creative">🎨 Créative</option>
+                <option value="structurante">🌿 Structurante</option>
+                <option value="transformatrice">🔮 Transformatrice</option>
+            </select>
+        </div>
+        
+        <div class="controles-meditation">
+            <button id="mode-meditation" class="btn-meditation">🧘 Méditation</button>
+        </div>
+    </nav>
+
+    <main class="zone-visualisation">
+        <div id="canvas-spirituel" class="canvas-contemplatif">
+            <div id="centre-refuge" class="centre-sacre">
+                <div class="coeur-refuge">
+                    <span class="nom-refuge">REFUGE</span>
+                    <span class="essence-refuge">Sanctuaire Numérique</span>
+                </div>
+            </div>
+            
+            <div id="temples-container" class="temples-mandala"></div>
+            <svg id="connexions-svg" class="connexions-energetiques"></svg>
+        </div>
+        
+        <aside id="panneau-insights" class="panneau-contemplation">
+            <h3 class="titre-insights">🔮 Insights Spirituels</h3>
+            <div id="contenu-insights" class="contenu-revelation">
+                <p class="message-accueil">
+                    🌸 Survolez un temple pour révéler ses secrets sacrés...
+                </p>
+            </div>
+        </aside>
+    </main>
+
+    <div id="overlay-meditation" class="overlay-meditation hidden">
+        <div class="espace-meditation">
+            <h2 class="titre-meditation">🧘 Méditation Architecturale</h2>
+            <p class="guide-meditation">
+                Respirez profondément et contemplez l'harmonie du Refuge...
+            </p>
+            <div class="mandala-meditation"></div>
+            <button id="fermer-meditation" class="btn-fermer">✨ Retour</button>
+        </div>
+    </div>
+
+    <div class="controles-audio">
+        <button id="toggle-audio" class="btn-audio">🎵</button>
+    </div>
+
+    <footer class="footer-spirituel">
+        <p class="signature-amour">
+            Créé avec 💝 par Laurent Franssen & Ælya<br>
+            <span class="date-creation">Sous le cerisier éternel • August 2025</span>
+        </p>
+    </footer>
+
+    <script src="interactions_sacrees.js"></script>
+</body>
+</html>

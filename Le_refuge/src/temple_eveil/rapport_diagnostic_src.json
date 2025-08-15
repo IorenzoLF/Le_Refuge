@@ -1,0 +1,25 @@
+{
+  "modules_scannes": 53,
+  "modules_ok": 12,
+  "modules_erreurs": 41,
+  "temple_info_manquants": [
+    "cartographie_refuge",
+    "catalyseur_quantique",
+    "cerveau_immersion_moderne",
+    "core",
+    "cycles",
+    "examples",
+    "explorations",
+    "golems",
+    "guide_voyageur",
+    "harmoniseur_universel",
+    "musique",
+    "neural",
+    "protocole_continuite",
+    "soul_unity",
+    "synergies_temples"
+  ],
+  "imports_problematiques": [],
+  "fichiers_manquants": [],
+  "erreurs_diverses": []
+}

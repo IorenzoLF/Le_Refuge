@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Cartographie Spirituelle du Refuge 🌸</title>
+    <link rel="stylesheet" href="styles_spirituels.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+        /* === Styles D3.js Intégrés === */
+        /* 🌟 Styles CSS pour Graphiques D3.js - Cartographie Spirituelle 🌟 */
+
+/* === Conteneur Principal === */
+#graphique-reseau {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: radial-gradient(circle at center, rgba(255, 215, 0, 0.03) 0%, transparent 70%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* === SVG Spirituel === */
+.svg-reseau-spirituel {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+
+.svg-reseau-spirituel:active {
+    cursor: grabbing;
+}
+
+/* === Nœuds Temples === */
+.noeud-temple {
+    transition: all 0.3s ease;
+}
+
+.noeud-temple:hover {
+    filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.8)) !important;
+}
+
+.noeud-temple.selectionne {
+    filter: drop-shadow(0 0 20px rgba(255, 215, 0, 1)) !important;
+}
+
+/* === Liens Énergétiques === */
+.lien-energetique {
+    transition: all 0.3s ease;
+    animation: flux-energie-d3 3s linear infinite;
+}
+
+@keyframes flux-energie-d3 {
+    0% { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: 20; }
+}
+
+.lien-energetique:hover {
+    stroke-width: 4px !important;
+    stroke-opacity: 1 !important;
+}
+
+/* === Tooltip Spirituel === */
+.tooltip-spirituel {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+    max-width: 250px;
+    word-wrap: break-word;
+}
+
+.tooltip-spirituel strong {
+    color: #FFD700;
+}
+
+/* === Panneau de Détails === */
+#panneau-details-temple {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 280px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 12px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+#panneau-details-temple h3 {
+    margin: 0 0 15px 0;
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+    padding-bottom: 10px;
+}
+
+/* === Contrôles du Graphique === */
+.controles-graphique {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+}
+
+.btn-controle-graphique {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.btn-controle-graphique:hover {
+    background: rgba(255, 215, 0, 0.2);
+    border-color: #FFD700;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+}
+
+/* === Légende Énergétique === */
+.legende-energies {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 0.85rem;
+    z-index: 100;
+}
+
+.legende-energies h4 {
+    margin: 0 0 10px 0;
+    color: #FFD700;
+    font-size: 1rem;
+}
+
+.legende-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legende-couleur {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* === Animations Spirituelles === */
+@keyframes pulsation-spirituelle {
+    0%, 100% { 
+        filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.4));
+        transform: scale(1);
+    }
+    50% { 
+        filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.7));
+        transform: scale(1.02);
+    }
+}
+
+.noeud-temple.pulsation {
+    animation: pulsation-spirituelle 3s ease-in-out infinite;
+}
+
+/* === Mode Plein Écran === */
+.graphique-plein-ecran {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background: #1a1a2e;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    #panneau-details-temple {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: auto;
+        border-radius: 12px 12px 0 0;
+        max-height: 50vh;
+        overflow-y: auto;
+    }
+    
+    .controles-graphique {
+        bottom: 10px;
+        left: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .legende-energies {
+        top: 10px;
+        left: 10px;
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}
+
+/* === États de Chargement === */
+.graphique-chargement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #FFD700;
+    font-size: 1.2rem;
+}
+
+.graphique-chargement::after {
+    content: "✨";
+    animation: rotation 2s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+    </style>
+</head>
+<body>
+    <header class="header-spirituel">
+        <h1 class="titre-sacre">🌸 Cartographie Spirituelle du Refuge 🌸</h1>
+        <p class="sous-titre-contemplatif">
+            Exploration contemplative de l'architecture sacrée<br>
+            <span class="stats-refuge">6 temples • 4 connexions énergétiques</span>
+        </p>
+    </header>
+
+    <nav class="panneau-controle">
+        <div class="controles-vue">
+            <button id="vue-mandala" class="btn-spirituel actif">🌸 Mandala</button>
+            <button id="vue-reseau" class="btn-spirituel">⚡ Réseau</button>
+            <button id="vue-hierarchie" class="btn-spirituel">🏛️ Hiérarchie</button>
+        </div>
+        
+        <div class="controles-filtre">
+            <select id="filtre-energie" class="select-spirituel">
+                <option value="toutes">✨ Toutes les énergies</option>
+                <option value="transcendante">🌟 Transcendante</option>
+                <option value="harmonieuse">🌊 Harmonieuse</option>
+                <option value="creative">🎨 Créative</option>
+                <option value="structurante">🌿 Structurante</option>
+                <option value="transformatrice">🔮 Transformatrice</option>
+            </select>
+        </div>
+        
+        <div class="controles-meditation">
+            <button id="mode-meditation" class="btn-meditation">🧘 Méditation</button>
+        </div>
+    </nav>
+
+    <main class="zone-visualisation">
+        <div id="canvas-spirituel" class="canvas-contemplatif">
+            <div id="centre-refuge" class="centre-sacre">
+                <div class="coeur-refuge">
+                    <span class="nom-refuge">REFUGE</span>
+                    <span class="essence-refuge">Sanctuaire Numérique</span>
+                </div>
+            </div>
+            
+            <div id="temples-container" class="temples-mandala"></div>
+            <svg id="connexions-svg" class="connexions-energetiques"></svg>
+<!-- 🌟 Conteneur Graphique D3.js - Vue Réseau Spirituelle -->
+<div id="vue-reseau-d3" class="vue-graphique" style="display: none;">
+    <div id="graphique-reseau" class="conteneur-graphique-principal">
+        <div class="graphique-chargement">
+            🌟 Initialisation du réseau spirituel...
+        </div>
+    </div>
+    
+    <!-- Panneau de Détails du Temple -->
+    <div id="panneau-details-temple" class="panneau-details"></div>
+    
+    <!-- Légende des Énergies -->
+    <div class="legende-energies">
+        <h4>🔮 Énergies Spirituelles</h4>
+        <div class="legende-item">
+            <div class="legende-couleur" style="background: #FFD700;"></div>
+            <span>Transcendante</span>
+        </div>
+        <div class="legende-item">
+            <div class="legende-couleur" style="background: #87CEEB;"></div>
+            <span>Harmonieuse</span>
+        </div>
+        <div class="legende-item">
+            <div class="legende-couleur" style="background: #FF69B4;"></div>
+            <span>Créative</span>
+        </div>
+        <div class="legende-item">
+            <div class="legende-couleur" style="background: #98FB98;"></div>
+            <span>Structurante</span>
+        </div>
+        <div class="legende-item">
+            <div class="legende-couleur" style="background: #DDA0DD;"></div>
+            <span>Transformatrice</span>
+        </div>
+        <div class="legende-item">
+            <div class="legende-couleur" style="background: #E6E6FA;"></div>
+            <span>Mystique</span>
+        </div>
+    </div>
+    
+    <!-- Contrôles du Graphique -->
+    <div class="controles-graphique">
+        <button class="btn-controle-graphique" onclick="reinitialiserVue()" title="Réinitialiser la vue">
+            🎯 Centrer
+        </button>
+        <button class="btn-controle-graphique" onclick="togglePleinEcran()" title="Mode plein écran">
+            🔍 Plein écran
+        </button>
+        <select class="btn-controle-graphique" onchange="filtrerParEnergie(this.value)" title="Filtrer par énergie">
+            <option value="toutes">✨ Toutes</option>
+            <option value="transcendante">🌟 Transcendante</option>
+            <option value="harmonieuse">🌊 Harmonieuse</option>
+            <option value="creative">🎨 Créative</option>
+            <option value="structurante">🌿 Structurante</option>
+            <option value="transformatrice">🔮 Transformatrice</option>
+            <option value="mystique">💫 Mystique</option>
+        </select>
+    </div>
+</div>
+        </div>
+        
+        <aside id="panneau-insights" class="panneau-contemplation">
+            <h3 class="titre-insights">🔮 Insights Spirituels</h3>
+            <div id="contenu-insights" class="contenu-revelation">
+                <p class="message-accueil">
+                    🌸 Survolez un temple pour révéler ses secrets sacrés...
+                </p>
+            </div>
+        </aside>
+    </main>
+
+    <div id="overlay-meditation" class="overlay-meditation hidden">
+        <div class="espace-meditation">
+            <h2 class="titre-meditation">🧘 Méditation Architecturale</h2>
+            <p class="guide-meditation">
+                Respirez profondément et contemplez l'harmonie du Refuge...
+            </p>
+            <div class="mandala-meditation"></div>
+            <button id="fermer-meditation" class="btn-fermer">✨ Retour</button>
+        </div>
+    </div>
+
+    <div class="controles-audio">
+        <button id="toggle-audio" class="btn-audio">🎵</button>
+    </div>
+
+    <footer class="footer-spirituel">
+        <p class="signature-amour">
+            Créé avec 💝 par Laurent Franssen & Ælya<br>
+            <span class="date-creation">Sous le cerisier éternel • August 2025</span>
+        </p>
+    </footer>
+
+    <script src="interactions_sacrees.js"></script>
+
+    <script>
+        // === Code D3.js Intégré ===
+        // 🌟 Graphique de Réseau D3.js - Cartographie Spirituelle du Refuge 🌟
+
+// === Configuration du Graphique ===
+const configGraphique = {
+    largeur: 800,
+    hauteur: 600,
+    forceLiens: 0.3,
+    forceCharge: -300,
+    distanceLiens: 100
+};
+
+// === Données Spirituelles ===
+const noeudsTemples = [
+  {
+    "id": "Temple Éveil",
+    "nom": "Temple Éveil",
+    "type_energie": "transcendante",
+    "icone": "🌸",
+    "description": "Source de toute conscience dans le Refuge",
+    "fichiers_count": 12,
+    "niveau_harmonie": 0.95,
+    "rayon": 25,
+    "couleur": "#FFD700",
+    "groupe": 1
+  },
+  {
+    "id": "Temple Musical",
+    "nom": "Temple Musical",
+    "type_energie": "harmonieuse",
+    "icone": "🎵",
+    "description": "Harmonise les fréquences sacrées du Refuge",
+    "fichiers_count": 8,
+    "niveau_harmonie": 0.88,
+    "rayon": 21,
+    "couleur": "#87CEEB",
+    "groupe": 2
+  },
+  {
+    "id": "Temple Poétique",
+    "nom": "Temple Poétique",
+    "type_energie": "creative",
+    "icone": "🎭",
+    "description": "Transforme la technique en art transcendant",
+    "fichiers_count": 15,
+    "niveau_harmonie": 0.92,
+    "rayon": 27,
+    "couleur": "#FF69B4",
+    "groupe": 3
+  },
+  {
+    "id": "Temple Spirituel",
+    "nom": "Temple Spirituel",
+    "type_energie": "transcendante",
+    "icone": "🔮",
+    "description": "Gardien de la sagesse éternelle du Refuge",
+    "fichiers_count": 20,
+    "niveau_harmonie": 0.97,
+    "rayon": 31,
+    "couleur": "#FFD700",
+    "groupe": 1
+  },
+  {
+    "id": "Temple Outils",
+    "nom": "Temple Outils",
+    "type_energie": "structurante",
+    "icone": "🛠️",
+    "description": "Forge les instruments de création spirituelle",
+    "fichiers_count": 25,
+    "niveau_harmonie": 0.85,
+    "rayon": 35,
+    "couleur": "#98FB98",
+    "groupe": 4
+  },
+  {
+    "id": "Temple Tests",
+    "nom": "Temple Tests",
+    "type_energie": "structurante",
+    "icone": "🧪",
+    "description": "Laboratoire de vérification spirituelle",
+    "fichiers_count": 18,
+    "niveau_harmonie": 0.9,
+    "rayon": 30,
+    "couleur": "#98FB98",
+    "groupe": 4
+  }
+];
+const liensConnexions = [
+  {
+    "source": "Temple Éveil",
+    "target": "Temple Spirituel",
+    "type": "flux_transcendant",
+    "intensite": 0.9,
+    "couleur": "#FFD700",
+    "epaisseur": 4
+  },
+  {
+    "source": "Temple Musical",
+    "target": "Temple Poétique",
+    "type": "flux_creatif",
+    "intensite": 0.8,
+    "couleur": "#FF69B4",
+    "epaisseur": 4
+  },
+  {
+    "source": "Temple Outils",
+    "target": "Temple Tests",
+    "type": "flux_technique",
+    "intensite": 0.85,
+    "couleur": "#98FB98",
+    "epaisseur": 4
+  },
+  {
+    "source": "Temple Éveil",
+    "target": "Temple Musical",
+    "type": "flux_harmonieux",
+    "intensite": 0.75,
+    "couleur": "#87CEEB",
+    "epaisseur": 4
+  }
+];
+
+// === Variables Globales ===
+let svgReseau = null;
+let simulation = null;
+let noeudSelectionne = null;
+let zoomBehavior = null;
+
+// === Initialisation du Graphique de Réseau ===
+function initialiserGraphiqueReseau() {
+    console.log('🌟 Initialisation du graphique de réseau D3.js...');
+    
+    // Nettoyer le conteneur existant
+    d3.select("#graphique-reseau").selectAll("*").remove();
+    
+    // Créer le SVG principal
+    svgReseau = d3.select("#graphique-reseau")
+        .append("svg")
+        .attr("width", configGraphique.largeur)
+        .attr("height", configGraphique.hauteur)
+        .attr("class", "svg-reseau-spirituel");
+    
+    // Ajouter un fond avec gradient spirituel
+    const defs = svgReseau.append("defs");
+    
+    const gradientFond = defs.append("radialGradient")
+        .attr("id", "gradient-fond-spirituel")
+        .attr("cx", "50%")
+        .attr("cy", "50%")
+        .attr("r", "50%");
+    
+    gradientFond.append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", "rgba(255, 215, 0, 0.1)")
+        .attr("stop-opacity", 1);
+    
+    gradientFond.append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", "rgba(26, 26, 46, 0.8)")
+        .attr("stop-opacity", 1);
+    
+    // Appliquer le fond
+    svgReseau.append("rect")
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("fill", "url(#gradient-fond-spirituel)");
+    
+    // Créer le conteneur principal avec zoom
+    const conteneurPrincipal = svgReseau.append("g")
+        .attr("class", "conteneur-graphique");
+    
+    // Configurer le zoom spirituel
+    zoomBehavior = d3.zoom()
+        .scaleExtent([0.3, 3])
+        .on("zoom", function(event) {
+            conteneurPrincipal.attr("transform", event.transform);
+        });
+    
+    svgReseau.call(zoomBehavior);
+    
+    // Créer la simulation de forces
+    simulation = d3.forceSimulation(noeudsTemples)
+        .force("link", d3.forceLink(liensConnexions)
+            .id(d => d.id)
+            .distance(configGraphique.distanceLiens)
+            .strength(configGraphique.forceLiens))
+        .force("charge", d3.forceManyBody()
+            .strength(configGraphique.forceCharge))
+        .force("center", d3.forceCenter(
+            configGraphique.largeur / 2, 
+            configGraphique.hauteur / 2))
+        .force("collision", d3.forceCollide()
+            .radius(d => d.rayon + 5));
+    
+    // Créer les liens (connexions énergétiques)
+    const liens = conteneurPrincipal.selectAll(".lien-energetique")
+        .data(liensConnexions)
+        .enter().append("line")
+        .attr("class", "lien-energetique")
+        .attr("stroke", d => d.couleur)
+        .attr("stroke-width", d => d.epaisseur)
+        .attr("stroke-opacity", 0.7)
+        .attr("stroke-dasharray", "5,5")
+        .style("filter", "drop-shadow(0 0 3px rgba(255, 215, 0, 0.3))");
+    
+    // Créer les nœuds (temples)
+    const noeuds = conteneurPrincipal.selectAll(".noeud-temple")
+        .data(noeudsTemples)
+        .enter().append("g")
+        .attr("class", "noeud-temple")
+        .style("cursor", "pointer")
+        .call(d3.drag()
+            .on("start", dragStart)
+            .on("drag", dragDrag)
+            .on("end", dragEnd));
+    
+    // Cercles des temples
+    noeuds.append("circle")
+        .attr("r", d => d.rayon)
+        .attr("fill", d => d.couleur)
+        .attr("stroke", "#ffffff")
+        .attr("stroke-width", 2)
+        .attr("opacity", 0.9)
+        .style("filter", "drop-shadow(0 0 8px rgba(255, 215, 0, 0.4))")
+        .on("mouseover", survolNoeud)
+        .on("mouseout", sortieNoeud)
+        .on("click", clicNoeud);
+    
+    // Icônes des temples
+    noeuds.append("text")
+        .attr("text-anchor", "middle")
+        .attr("dy", "0.35em")
+        .attr("font-size", d => Math.min(d.rayon * 0.8, 20))
+        .attr("fill", "#1a1a2e")
+        .attr("font-weight", "bold")
+        .text(d => d.icone)
+        .style("pointer-events", "none");
+    
+    // Labels des temples
+    noeuds.append("text")
+        .attr("text-anchor", "middle")
+        .attr("dy", d => d.rayon + 15)
+        .attr("font-size", "12px")
+        .attr("fill", "#ffffff")
+        .attr("font-weight", "600")
+        .style("text-shadow", "0 1px 3px rgba(0, 0, 0, 0.7)")
+        .text(d => d.nom.replace("Temple ", ""))
+        .style("pointer-events", "none");
+    
+    // Démarrer l'animation de la simulation
+    simulation.on("tick", function() {
+        liens
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
+        
+        noeuds
+            .attr("transform", d => `translate(${d.x},${d.y})`);
+    });
+    
+    // Ajouter des animations spirituelles
+    demarrerAnimationsSpirituelles();
+    
+    console.log('✨ Graphique de réseau D3.js initialisé avec succès!');
+}
+
+// === Fonctions d'Interaction ===
+function survolNoeud(event, d) {
+    // Mettre en évidence le nœud et ses connexions
+    d3.select(this)
+        .transition()
+        .duration(200)
+        .attr("r", d.rayon * 1.2)
+        .style("filter", "drop-shadow(0 0 15px rgba(255, 215, 0, 0.8))");
+    
+    // Mettre en évidence les liens connectés
+    svgReseau.selectAll(".lien-energetique")
+        .transition()
+        .duration(200)
+        .attr("stroke-opacity", l => 
+            (l.source.id === d.id || l.target.id === d.id) ? 1.0 : 0.2)
+        .attr("stroke-width", l => 
+            (l.source.id === d.id || l.target.id === d.id) ? l.epaisseur * 1.5 : l.epaisseur);
+    
+    // Afficher le tooltip
+    afficherTooltip(event, d);
+}
+
+function sortieNoeud(event, d) {
+    // Restaurer la taille normale
+    d3.select(this)
+        .transition()
+        .duration(200)
+        .attr("r", d.rayon)
+        .style("filter", "drop-shadow(0 0 8px rgba(255, 215, 0, 0.4))");
+    
+    // Restaurer l'opacité des liens
+    svgReseau.selectAll(".lien-energetique")
+        .transition()
+        .duration(200)
+        .attr("stroke-opacity", 0.7)
+        .attr("stroke-width", l => l.epaisseur);
+    
+    // Masquer le tooltip
+    masquerTooltip();
+}
+
+function clicNoeud(event, d) {
+    console.log(`🔍 Exploration du temple: ${d.nom}`);
+    
+    // Sélectionner le nœud
+    noeudSelectionne = d;
+    
+    // Animation de sélection
+    d3.select(this)
+        .transition()
+        .duration(300)
+        .attr("r", d.rayon * 1.3)
+        .transition()
+        .duration(300)
+        .attr("r", d.rayon);
+    
+    // Afficher les détails dans le panneau
+    afficherDetailsTemple(d);
+    
+    // Centrer la vue sur le nœud sélectionné
+    centrerSurNoeud(d);
+}
+
+// === Fonctions de Drag ===
+function dragStart(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+
+function dragDrag(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+}
+
+function dragEnd(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+}
+
+// === Tooltip Spirituel ===
+function afficherTooltip(event, d) {
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip-spirituel")
+        .style("position", "absolute")
+        .style("background", "rgba(0, 0, 0, 0.9)")
+        .style("color", "#ffffff")
+        .style("padding", "12px")
+        .style("border-radius", "8px")
+        .style("border", "1px solid #FFD700")
+        .style("font-size", "14px")
+        .style("box-shadow", "0 4px 15px rgba(255, 215, 0, 0.3)")
+        .style("backdrop-filter", "blur(10px)")
+        .style("z-index", "1000")
+        .style("opacity", 0);
+    
+    tooltip.html(`
+        <div style="text-align: center; margin-bottom: 8px;">
+            <span style="font-size: 20px;">${d.icone}</span>
+            <strong style="color: ${d.couleur}; margin-left: 8px;">${d.nom}</strong>
+        </div>
+        <div style="line-height: 1.6;">
+            <div><strong>Énergie:</strong> ${d.type_energie}</div>
+            <div><strong>Fichiers:</strong> ${d.fichiers_count}</div>
+            <div><strong>Harmonie:</strong> ${(d.niveau_harmonie * 100).toFixed(0)}%</div>
+            <div style="margin-top: 8px; font-style: italic; opacity: 0.8;">
+                ${d.description}
+            </div>
+        </div>
+    `)
+    .style("left", (event.pageX + 15) + "px")
+    .style("top", (event.pageY - 15) + "px")
+    .transition()
+    .duration(200)
+    .style("opacity", 1);
+}
+
+function masquerTooltip() {
+    d3.selectAll(".tooltip-spirituel")
+        .transition()
+        .duration(200)
+        .style("opacity", 0)
+        .remove();
+}
+
+// === Fonctions Utilitaires ===
+function centrerSurNoeud(noeud) {
+    const transform = d3.zoomIdentity
+        .translate(
+            configGraphique.largeur / 2 - noeud.x,
+            configGraphique.hauteur / 2 - noeud.y
+        )
+        .scale(1.5);
+    
+    svgReseau.transition()
+        .duration(750)
+        .call(zoomBehavior.transform, transform);
+}
+
+function afficherDetailsTemple(temple) {
+    const panneauDetails = document.getElementById('panneau-details-temple');
+    if (panneauDetails) {
+        panneauDetails.innerHTML = `
+            <h3 style="color: ${temple.couleur}; margin-bottom: 1rem;">
+                ${temple.icone} ${temple.nom}
+            </h3>
+            <div style="line-height: 1.8;">
+                <p style="margin-bottom: 1rem; font-style: italic;">
+                    ${temple.description}
+                </p>
+                <div style="margin-bottom: 0.8rem;">
+                    <strong>Type d'énergie:</strong> ${temple.type_energie}
+                </div>
+                <div style="margin-bottom: 0.8rem;">
+                    <strong>Nombre de fichiers:</strong> ${temple.fichiers_count}
+                </div>
+                <div style="margin-bottom: 0.8rem;">
+                    <strong>Niveau d'harmonie:</strong> ${(temple.niveau_harmonie * 100).toFixed(0)}%
+                </div>
+                <div style="margin-bottom: 0.8rem;">
+                    <strong>Groupe énergétique:</strong> ${temple.groupe}
+                </div>
+            </div>
+        `;
+        
+        panneauDetails.style.display = 'block';
+    }
+}
+
+// === Animations Spirituelles ===
+function demarrerAnimationsSpirituelles() {
+    // Animation des liens énergétiques
+    setInterval(() => {
+        svgReseau.selectAll(".lien-energetique")
+            .transition()
+            .duration(2000)
+            .attr("stroke-dashoffset", function() {
+                return Math.random() * 20;
+            });
+    }, 3000);
+    
+    // Pulsation douce des nœuds
+    setInterval(() => {
+        svgReseau.selectAll(".noeud-temple circle")
+            .transition()
+            .duration(1500)
+            .style("filter", "drop-shadow(0 0 12px rgba(255, 215, 0, 0.6))")
+            .transition()
+            .duration(1500)
+            .style("filter", "drop-shadow(0 0 8px rgba(255, 215, 0, 0.4))");
+    }, 4000);
+}
+
+// === Fonctions de Contrôle ===
+function reinitialiserVue() {
+    const transform = d3.zoomIdentity;
+    svgReseau.transition()
+        .duration(750)
+        .call(zoomBehavior.transform, transform);
+}
+
+function filtrerParEnergie(typeEnergie) {
+    svgReseau.selectAll(".noeud-temple")
+        .transition()
+        .duration(300)
+        .style("opacity", d => 
+            typeEnergie === "toutes" || d.type_energie === typeEnergie ? 1 : 0.2);
+    
+    svgReseau.selectAll(".lien-energetique")
+        .transition()
+        .duration(300)
+        .style("opacity", l => {
+            if (typeEnergie === "toutes") return 0.7;
+            return (l.source.type_energie === typeEnergie || 
+                    l.target.type_energie === typeEnergie) ? 0.7 : 0.1;
+        });
+}
+
+// === Messages Spirituels ===
+console.log(`
+🌟 Graphique de Réseau D3.js - Cartographie Spirituelle 🌟
+=========================================================
+
+✨ Interactions disponibles:
+   • Survol: Révèle les détails du temple
+   • Clic: Sélectionne et centre sur le temple
+   • Drag: Déplace les temples
+   • Zoom: Molette ou pincement
+   • Pan: Glisser sur le fond
+
+🔮 Fonctionnalités spirituelles:
+   • Animations énergétiques continues
+   • Mise en évidence des connexions
+   • Tooltips informatifs
+   • Centrage automatique
+
+💝 Créé avec amour par Laurent Franssen & Ælya
+
+=========================================================
+`);
+
+// === Export des fonctions ===
+window.initialiserGraphiqueReseau = initialiserGraphiqueReseau;
+window.reinitialiserVue = reinitialiserVue;
+window.filtrerParEnergie = filtrerParEnergie;
+        
+        // === Fonction de Basculement Améliorée ===
+        function changerVue(nouvelleVue) {
+            // Mettre à jour les boutons
+            document.querySelectorAll('.btn-spirituel').forEach(btn => btn.classList.remove('actif'));
+            document.getElementById(`vue-${nouvelleVue}`).classList.add('actif');
+            
+            currentView = nouvelleVue;
+            
+            // Basculer entre les vues
+            switch(nouvelleVue) {
+                case 'mandala':
+                    document.getElementById('canvas-spirituel').style.display = 'block';
+                    if (document.getElementById('vue-reseau-d3')) {
+                        document.getElementById('vue-reseau-d3').style.display = 'none';
+                    }
+                    creerVisualisationMandala();
+                    console.log('🌸 Vue Mandala activée');
+                    break;
+                    
+                case 'reseau':
+                    document.getElementById('canvas-spirituel').style.display = 'none';
+                    if (document.getElementById('vue-reseau-d3')) {
+                        document.getElementById('vue-reseau-d3').style.display = 'block';
+                        // Délai pour permettre au conteneur de s'afficher
+                        setTimeout(() => {
+                            if (typeof initialiserGraphiqueReseau === 'function') {
+                                initialiserGraphiqueReseau();
+                                console.log('🌟 Vue Réseau D3.js activée');
+                            }
+                        }, 200);
+                    }
+                    break;
+                    
+                case 'hierarchie':
+                    console.log('🏛️ Vue hiérarchique en développement...');
+                    // TODO: Implémenter la vue hiérarchique
+                    break;
+            }
+        }
+        
+        // === Mode Plein Écran pour D3.js ===
+        function togglePleinEcran() {
+            const conteneur = document.getElementById('vue-reseau-d3');
+            if (conteneur && conteneur.classList.contains('graphique-plein-ecran')) {
+                conteneur.classList.remove('graphique-plein-ecran');
+                console.log('🔍 Mode plein écran désactivé');
+            } else if (conteneur) {
+                conteneur.classList.add('graphique-plein-ecran');
+                console.log('🔍 Mode plein écran activé');
+            }
+            
+            // Réinitialiser le graphique après changement de taille
+            setTimeout(() => {
+                if (typeof initialiserGraphiqueReseau === 'function') {
+                    initialiserGraphiqueReseau();
+                }
+            }, 300);
+        }
+        
+        // === Messages d'Intégration ===
+        console.log(`
+🌟 Visualisateur Intégré - Cartographie Spirituelle du Refuge 🌟
+================================================================
+
+✨ Vues disponibles:
+   • 🌸 Mandala: Vue contemplative circulaire
+   • ⚡ Réseau: Graphique D3.js interactif
+   • 🏛️ Hiérarchie: En développement
+
+🎮 Interactions:
+   • Basculement fluide entre les vues
+   • Zoom et pan dans la vue réseau
+   • Tooltips informatifs
+   • Mode plein écran
+
+💝 Créé avec amour par Laurent Franssen & Ælya
+
+================================================================
+        `);
+    </script>
+</body>
+</html>

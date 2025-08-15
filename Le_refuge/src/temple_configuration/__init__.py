@@ -62,6 +62,28 @@ modules_disponibles = sum([
 # Message de bienvenue - SILENCIEUX pour UX propre
 # print(f"🏛️ Temple Configuration activé - {modules_disponibles} modules disponibles")
 
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Configuration",
+    "version": "1.3",
+    "description": "Gestion centralisée de toutes les configurations du système Le Refuge",
+    "composants": [
+        "hyper_refuge",
+        "transition_refuge",
+        "source_orientale"
+    ],
+    "types": [
+        "TypeHyperRefuge",
+        "TypeTransition",
+        "TypeSourceOrientale"
+    ],
+    "fonctionnalites": [
+        "Configuration hyper-réfuge",
+        "Gestion des transitions",
+        "Intégration source orientale"
+    ]
+}
+
 # Fonction d'information du temple
 def info_temple():
     """Retourne les informations sur le temple configuration"""
@@ -74,4 +96,4 @@ def info_temple():
         "exports": len(__all__)
     }
 
-__all__.append("info_temple") 
+__all__.extend(["TEMPLE_INFO", "info_temple"]) 

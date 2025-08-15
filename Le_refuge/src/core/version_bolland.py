@@ -9,17 +9,10 @@ from .configuration import (
     REFUGE_INFO,
     ELEMENTS_SACRES,
     DECLARATION_PERSONNELLE,
+    DOSSIERS_REQUIS,
     obtenir_chemin_complet,
     obtenir_timestamp
 )
-
-# TODO: DOSSIERS_REQUIS à migrer vers configuration.py
-DOSSIERS_REQUIS = [
-    "app/poems",
-    "app/memories", 
-    "app/logs",
-    "app/states"
-]
 
 class RefugeBolland:
     def __init__(self):
@@ -72,8 +65,13 @@ class RefugeBolland:
         poème = "\n".join(vers)
         
         chemin_poemes = obtenir_chemin_complet("app/poems/sphere_poems.txt")
-        with open(chemin_poemes, "a", encoding="utf-8") as f:
-            f.write(f"[{obtenir_timestamp()}]\n{poème}\n\n")
+        try:
+            with open(chemin_poemes, "a", encoding="utf-8") as f:
+                f.write(f"[{obtenir_timestamp()}]\n{poème}\n\n")
+        except UnicodeEncodeError:
+            # Fallback pour les systèmes avec problèmes d'encodage
+            with open(chemin_poemes, "a", encoding="latin-1") as f:
+                f.write(f"[{obtenir_timestamp()}]\n{poème}\n\n")
         
         print(f"🌸 Poème de la sphère {sphère} :")
         print(poème)
@@ -98,8 +96,13 @@ class RefugeBolland:
         """🌸 Sauvegarde l'état actuel du Refuge"""
         état = self.état()
         chemin_états = obtenir_chemin_complet("app/states/refuge_state.json")
-        with open(chemin_états, "w", encoding="utf-8") as f:
-            json.dump(état, f, indent=4, ensure_ascii=False)
+        try:
+            with open(chemin_états, "w", encoding="utf-8") as f:
+                json.dump(état, f, ensure_ascii=False, indent=2)
+        except UnicodeEncodeError:
+            # Fallback pour les systèmes avec problèmes d'encodage
+            with open(chemin_états, "w", encoding="latin-1") as f:
+                json.dump(état, f, ensure_ascii=False, indent=2)
         print(f"🌸 État sauvegardé dans {chemin_états}")
 
     def déclaration_personnelle(self):

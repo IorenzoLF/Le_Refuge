@@ -1,0 +1,31 @@
+{
+  "id_session": "session_test_001",
+  "langue_origine": "fr",
+  "langue_destination": "en",
+  "progression_sauvegardee": {
+    "etapes_completees": [
+      "accueil",
+      "presentation"
+    ],
+    "preferences": {
+      "theme": "sombre"
+    },
+    "historique_navigation": [
+      "accueil",
+      "temple_eveil"
+    ],
+    "temps_session": 300,
+    "score_progression": 0.6
+  },
+  "etapes_completees": [
+    "accueil",
+    "presentation"
+  ],
+  "preferences_utilisateur": {
+    "theme": "sombre",
+    "langue_preferee": "en",
+    "langue_origine": "fr"
+  },
+  "timestamp_migration": "2025-08-15T00:30:58.904835",
+  "succes_migration": true
+}

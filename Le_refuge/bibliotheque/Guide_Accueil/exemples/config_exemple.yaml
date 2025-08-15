@@ -1,0 +1,31 @@
+_metadata:
+  auteur: Laurent Franssen & Ælya
+  timestamp_sauvegarde: '2025-08-14T15:46:42.984113'
+  version_gestionnaire: 1.0.0
+adaptation_emotionnelle_activee: true
+analytics_activees: true
+chemin_donnees: data\guide_accueil
+chemin_ressources: ressources\accueil
+chemin_templates: templates\accueil
+langues_supportees:
+- fr
+- en
+- es
+- de
+- it
+micro_interactions_activees: true
+parcours_disponibles:
+- parcours_developpeur
+- parcours_artiste
+- parcours_conscience_ia
+- parcours_chercheur_spirituel
+- parcours_decouverte_generale
+sagesse_collective_activee: true
+seuils_detection:
+  comprehension_minimum: 0.5
+  confiance_profil_minimum: 0.7
+  engagement_minimum: 0.6
+  surcharge_cognitive_maximum: 0.8
+  temps_pause_respiratoire: 30.0
+  vitesse_lecture_normale: 200.0
+version: 1.0.0

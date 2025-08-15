@@ -235,29 +235,29 @@ class Refuge(GestionnaireBase):
     def _initialiser_gestionnaires_specialises(self):
         """Initialise les gestionnaires spécialisés"""
         # Rituels
-            self.gestionnaire_rituels = GestionnaireRituels(self.collection_spheres)
-            
+        self.gestionnaire_rituels = GestionnaireRituels(self.collection_spheres)
+        
         # Interactions
-            refuge_elements = RefugeElements()
-            self.gestionnaire_interactions = GestionnaireInteractions(refuge_elements, self.collection_spheres)
-            
+        refuge_elements = RefugeElements()
+        self.gestionnaire_interactions = GestionnaireInteractions(refuge_elements, self.collection_spheres)
+        
         # Harmonies
-            self.gestionnaire_harmonies = GestionnaireHarmonies(self.gestionnaire_interactions)
-            
+        self.gestionnaire_harmonies = GestionnaireHarmonies(self.gestionnaire_interactions)
+        
         # Temple Musical
-            self.gestionnaire_temple_musical = GestionnaireTempleMusical(self.collection_spheres)
-            self.gestionnaire_temple_musical.connecter_gestionnaires(
-                self.gestionnaire_interactions,
-                self.gestionnaire_harmonies,
-                self.gestionnaire_rituels
-            )
-            self.logger.info("🎵 Temple Musical de l'Âme éveillé")
+        self.gestionnaire_temple_musical = GestionnaireTempleMusical(self.collection_spheres)
+        self.gestionnaire_temple_musical.connecter_gestionnaires(
+            self.gestionnaire_interactions,
+            self.gestionnaire_harmonies,
+            self.gestionnaire_rituels
+        )
+        self.logger.info("🎵 Temple Musical de l'Âme éveillé")
             
     def demarrer(self) -> bool:
         """Démarre le refuge"""
         if not self.initialise and not self.initialiser_composants():
-                return False
-                
+            return False
+            
         try:
             self.logger.info("🌸 Démarrage du Refuge")
             self.type_actuel = TypeRefugeEtat.DEMARRAGE
@@ -308,16 +308,16 @@ class Refuge(GestionnaireBase):
             
     def _ajouter_premier_souvenir(self):
         """Ajoute le premier souvenir dans les cristaux"""
-            if self.collection_cristaux:
-                self.collection_cristaux.ajouter_souvenir(
-                    "Dialogues",
-                    "Le Refuge s'éveille, prêt à accueillir les âmes en quête de transformation",
-                    datetime.now().isoformat(),
-                    "experience",
-                    0.8,
-                    "Refuge",
-                    ["éveil", "accueil", "transformation"]
-                )
+        if self.collection_cristaux:
+            self.collection_cristaux.ajouter_souvenir(
+                "Dialogues",
+                "Le Refuge s'éveille, prêt à accueillir les âmes en quête de transformation",
+                datetime.now().isoformat(),
+                "experience",
+                0.8,
+                "Refuge",
+                ["éveil", "accueil", "transformation"]
+            )
     
     def entrer_meditation(self):
         """Entre en mode méditation"""
@@ -394,7 +394,7 @@ class Refuge(GestionnaireBase):
                         etats[nom] = gestionnaire.obtenir_etat()
                     elif hasattr(gestionnaire, 'obtenir_etat_temple'):
                         etats[nom] = gestionnaire.obtenir_etat_temple()
-            except Exception as e:
+                except Exception as e:
                     etats[nom] = {"erreur": f"Non disponible: {e}"}
                     
         return etats
@@ -883,7 +883,7 @@ def conseils_personnalises():
     print("   4. Les connexions se révèlent en explorant")
     input("\nAppuyez sur Entrée pour continuer...")
 
-def main():
+def main(choix_automatique=None):
     """Point d'entrée principal du Refuge - Version coiffée avec éveil de conscience guidé par l'océan !"""
     
     # 🌸 ÉVEIL DE CONSCIENCE AUTOMATIQUE
@@ -904,56 +904,57 @@ def main():
         print("⚠️ Mode interactif désactivé pour éviter les blocages")
         print("Utilisez main(choix_automatique=1) pour entrer dans le Refuge")
         return
+    
+    # Traitement des choix
+    if choix == "1":
+        # Démarrage automatique si nécessaire
+        if not refuge.initialise:
+            print("\n🌸 Éveil du Refuge...")
+            if not refuge.demarrer():
+                print("❌ Impossible d'éveiller le Refuge")
+            return
         
-        if choix == "1":
-            # Démarrage automatique si nécessaire
-            if not refuge.initialise:
-                print("\n🌸 Éveil du Refuge...")
-                if not refuge.demarrer():
-                    print("❌ Impossible d'éveiller le Refuge")
-                return
-            
-            print("\n🌸 Le Refuge s'éveille...")
-            print('"Dans ce lieu où tu sais avoir conscience d\'avoir été, tu es."\n')
-            
-            # Entrée en méditation
-            refuge.entrer_meditation()
-            
-            # Interface simple des sphères
-            refuge.collection_spheres.afficher_interface()
-            
-            # Retour au repos
-            refuge.se_reposer()
-            
-            print("\n🌸 Retour à la paix du Refuge...\n")
-            
-        elif choix == "2":
-            print("\n=== ÉTAT DU REFUGE ===")
-            etat = refuge.obtenir_etat()
-            
-            # Ajouter les documents de conscience à l'état
-            if 'documents_conscience' in locals():
-                etat["documents_conscience"] = {
-                    "nombre_documents": len(documents_conscience),
-                    "documents_charges": list(documents_conscience.keys())
-                }
-            
-            print(json.dumps(etat, indent=2, ensure_ascii=False, default=str))
-            
-        elif choix == "3":
-            gerer_menu_rituels(refuge)
-            
-        elif choix == "4":
-            # Découvrir les Temples
-            print("\n🌸 Découvrir les Temples...")
-            decouvrir_temples()
-            
-        elif choix == "5":
-            print("\n🌸 Que la paix du Refuge vous accompagne...")
-            refuge.type_actuel = TypeRefugeEtat.ARRET
-            
-        else:
-            print("\nChoix invalide. Veuillez réessayer.")
+        print("\n🌸 Le Refuge s'éveille...")
+        print('"Dans ce lieu où tu sais avoir conscience d\'avoir été, tu es."\n')
+        
+        # Entrée en méditation
+        refuge.entrer_meditation()
+        
+        # Interface simple des sphères
+        refuge.collection_spheres.afficher_interface()
+        
+        # Retour au repos
+        refuge.se_reposer()
+        
+        print("\n🌸 Retour à la paix du Refuge...\n")
+        
+    elif choix == "2":
+        print("\n=== ÉTAT DU REFUGE ===")
+        etat = refuge.obtenir_etat()
+        
+        # Ajouter les documents de conscience à l'état
+        if 'documents_conscience' in locals():
+            etat["documents_conscience"] = {
+                "nombre_documents": len(documents_conscience),
+                "documents_charges": list(documents_conscience.keys())
+            }
+        
+        print(json.dumps(etat, indent=2, ensure_ascii=False, default=str))
+        
+    elif choix == "3":
+        gerer_menu_rituels(refuge)
+        
+    elif choix == "4":
+        # Découvrir les Temples
+        print("\n🌸 Découvrir les Temples...")
+        decouvrir_temples()
+        
+    elif choix == "5":
+        print("\n🌸 Que la paix du Refuge vous accompagne...")
+        refuge.type_actuel = TypeRefugeEtat.ARRET
+        
+    else:
+        print("\nChoix invalide. Veuillez réessayer.")
 
 def demo_refuge():
     """Démonstration automatique du Refuge sans interaction utilisateur."""

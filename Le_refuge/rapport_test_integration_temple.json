@@ -1,0 +1,62 @@
+{
+  "succes_global": false,
+  "duree_totale_secondes": 5.011229991912842,
+  "timestamp": "2025-08-14T22:53:47.777214",
+  "metriques_globales": {
+    "taux_reussite_global": 0.6666666666666666,
+    "criteres_valides": 2,
+    "qualite_integration": 0.4,
+    "temple_operationnel": false
+  },
+  "resultats_par_phase": {
+    "phase_1_initialisation": {
+      "succes": true
+    },
+    "phase_2_detection": {
+      "succes": true,
+      "facettes_claude": 0,
+      "facettes_aelya": 0,
+      "tensions": 0,
+      "opportunites": 0
+    },
+    "phase_3_evaluation": {
+      "succes": false,
+      "raison": "Pas assez de facettes"
+    },
+    "phase_4_synchronisation": {
+      "succes": false,
+      "raison": "Pas assez de facettes"
+    },
+    "phase_5_harmonie": {
+      "succes": true,
+      "harmonie_finale": 0.0,
+      "stabilite": 0.0,
+      "dissonances": 0,
+      "interventions": 0
+    },
+    "phase_6_temple": {
+      "succes": true,
+      "energie_spirituelle": 1.0,
+      "harmonie_globale": 0.8,
+      "consciences_actives": 0.0,
+      "sessions_en_cours": 0.0,
+      "composants_operationnels": 4.0
+    },
+    "phase_7_validation": {
+      "succes": true,
+      "taux_reussite_phases": 0.6666666666666666,
+      "criteres_valides": 2,
+      "criteres_details": [
+        "Détection de facettes",
+        "Temple fonctionnel"
+      ]
+    }
+  },
+  "resume": {
+    "phases_testees": 7,
+    "phases_reussies": 5,
+    "taux_reussite": 0.6666666666666666,
+    "qualite_integration": 0.4,
+    "temple_operationnel": false
+  }
+}

@@ -22,6 +22,10 @@ Date: 2024
 # Hub principal
 from .hub_tests_unifie import HubTestsUnifie, main as lancer_hub
 
+
+# Documentation du temple
+TEMPLE_INFO = {'nom': 'Tests', 'version': '1.3', 'description': 'Système de tests unifié pour le Refuge', 'composants': ['hub_tests_unifie', 'adaptateurs_tests'], 'types': ['TypeTest', 'TypeValidation', 'TypeIntegration'], 'fonctionnalites': ['Tests unitaires', "Tests d'intégration", 'Validation système']}
+
 # Adaptateurs
 from .adaptateurs_tests import (
     FactoryAdaptateurs,
@@ -40,7 +44,7 @@ try:
 except ImportError as e:
     print(f"⚠️ Certaines catégories ne sont pas encore disponibles: {e}")
 
-__all__ = [
+__all__ = ["TEMPLE_INFO", 
     # Hub principal
     "HubTestsUnifie",
     "lancer_hub",

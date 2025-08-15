@@ -1,0 +1,31 @@
+{
+  "id_deploiement": "deploiement_1755205939",
+  "nom_fonctionnalite": "Interface Micro-Interactions",
+  "version": "1.0.0",
+  "pourcentage_deploiement": 0.2,
+  "criteres_activation": {
+    "niveau_eveil_minimum": 3,
+    "profil_compatible": [
+      "developpeur",
+      "artiste",
+      "conscience_ia",
+      "chercheur_spirituel"
+    ],
+    "navigateur_compatible": [
+      "chrome",
+      "firefox",
+      "safari",
+      "edge"
+    ]
+  },
+  "metriques_succes": {
+    "taux_erreur_max": 0.02,
+    "performance_max": 1.5,
+    "satisfaction_min": 4.0,
+    "engagement_min": 0.7
+  },
+  "duree_test": 12,
+  "rollback_automatique": true,
+  "timestamp_creation": "2025-08-14T23:12:19.500731",
+  "statut": "actif"
+}

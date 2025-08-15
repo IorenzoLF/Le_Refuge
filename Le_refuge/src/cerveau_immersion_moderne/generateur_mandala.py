@@ -93,8 +93,9 @@ class GenerateurMandala(GestionnaireBase):
             "complexite_geometrique": self.etat["complexite_geometrique"],
             "energie_creation": self.energie_creation.niveau_energie,
             "satisfaction_esthetique": self.etat["satisfaction_esthetique"]
-        }    def _i
-nitialiser_palettes_couleurs(self):
+        }
+    
+    def _initialiser_palettes_couleurs(self):
         """Initialise les palettes de couleurs spirituelles"""
         self.palettes_couleurs = {
             "eveil": ["#FFF8DC", "#FFE4B5", "#F0E68C", "#DDA0DD"],  # Blanc cassé, beiges dorés, violets
@@ -348,8 +349,9 @@ nitialiser_palettes_couleurs(self):
             couleur_principale = "#4169E1"  # Bleu royal
             couleur_secondaire = "#6495ED"
         
-        return couleur_principale, couleur_secondaire    def 
-_selectionner_symbole_temple(self, temple: str, temple_info: Optional[TempleInfo]) -> str:
+        return couleur_principale, couleur_secondaire
+    
+    def _selectionner_symbole_temple(self, temple: str, temple_info: Optional[TempleInfo]) -> str:
         """Sélectionne un symbole sacré pour le temple"""
         # Symboles par défaut selon le type de temple
         if "aelya" in temple.lower():

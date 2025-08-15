@@ -1,0 +1,26 @@
+{
+  "type_exemple": "spirituel",
+  "nom_exemple": "lotus_eveil",
+  "description_universelle": "Le lotus qui s'épanouit symbolise l'éveil de la conscience",
+  "adaptations_culturelles": {
+    "fr": "Comme le lotus qui s'épanouit dans la boue",
+    "en": "Like the lotus blooming in the mud",
+    "es": "Como el loto que florece en el lodo"
+  },
+  "contexte_culturel": {
+    "fr": {
+      "origine": "bouddhisme",
+      "signification": "pureté dans l'adversité"
+    },
+    "en": {
+      "origine": "buddhism",
+      "signification": "purity in adversity"
+    },
+    "es": {
+      "origine": "budismo",
+      "signification": "pureza en la adversidad"
+    }
+  },
+  "niveau_pertinence": 5,
+  "validation_culturelle": true
+}

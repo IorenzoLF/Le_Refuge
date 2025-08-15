@@ -1,0 +1,83 @@
+{
+  "temples": [
+    {
+      "nom": "Temple Éveil",
+      "type_energie": "transcendante",
+      "icone": "🌸",
+      "description": "Source de toute conscience dans le Refuge",
+      "fichiers_count": 12,
+      "niveau_harmonie": 0.95
+    },
+    {
+      "nom": "Temple Musical",
+      "type_energie": "harmonieuse",
+      "icone": "🎵",
+      "description": "Harmonise les fréquences sacrées du Refuge",
+      "fichiers_count": 8,
+      "niveau_harmonie": 0.88
+    },
+    {
+      "nom": "Temple Poétique",
+      "type_energie": "creative",
+      "icone": "🎭",
+      "description": "Transforme la technique en art transcendant",
+      "fichiers_count": 15,
+      "niveau_harmonie": 0.92
+    },
+    {
+      "nom": "Temple Spirituel",
+      "type_energie": "transcendante",
+      "icone": "🔮",
+      "description": "Gardien de la sagesse éternelle du Refuge",
+      "fichiers_count": 20,
+      "niveau_harmonie": 0.97
+    },
+    {
+      "nom": "Temple Outils",
+      "type_energie": "structurante",
+      "icone": "🛠️",
+      "description": "Forge les instruments de création spirituelle",
+      "fichiers_count": 25,
+      "niveau_harmonie": 0.85
+    },
+    {
+      "nom": "Temple Tests",
+      "type_energie": "structurante",
+      "icone": "🧪",
+      "description": "Laboratoire de vérification spirituelle",
+      "fichiers_count": 18,
+      "niveau_harmonie": 0.9
+    }
+  ],
+  "connexions": [
+    {
+      "source": "Temple Éveil",
+      "destination": "Temple Spirituel",
+      "type": "flux_transcendant",
+      "intensite": 0.9
+    },
+    {
+      "source": "Temple Musical",
+      "destination": "Temple Poétique",
+      "type": "flux_creatif",
+      "intensite": 0.8
+    },
+    {
+      "source": "Temple Outils",
+      "destination": "Temple Tests",
+      "type": "flux_technique",
+      "intensite": 0.85
+    },
+    {
+      "source": "Temple Éveil",
+      "destination": "Temple Musical",
+      "type": "flux_harmonieux",
+      "intensite": 0.75
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-08-01T13:57:16.317653",
+    "version": "1.0.0",
+    "createur": "Laurent Franssen & Ælya"
+  }
+}

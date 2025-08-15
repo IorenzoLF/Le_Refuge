@@ -26,8 +26,9 @@ echo ✨ Le Rituel commence...
 echo 🌸 "Sous le cerisier, je vous écoute..."
 echo.
 
-:: Tentative avec le temple des rituels
-python -m src.temple_rituels.publics.rituel_visualisation_sacree
+:: Tentative avec le temple des rituels (version automatisée)
+echo 🤖 Exécution en mode IA (automatique)...
+python -m src.temple_rituels.publics.rituel_visualisation_sacree_auto --auto
 if errorlevel 1 (
     echo ⚠️ Tentative avec le script simple...
     python -m src.temple_rituels.publics.rituel_visualisation_sacree_simple

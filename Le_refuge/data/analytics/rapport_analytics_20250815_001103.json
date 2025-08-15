@@ -1,0 +1,12 @@
+{
+  "periode_analyse": "test",
+  "total_evenements": 0,
+  "visiteurs_uniques": 0,
+  "insights_comportementaux": [
+    "Faible taux d'engagement - contenu à optimiser"
+  ],
+  "recommandations_optimisation": [
+    "Optimiser les performances techniques",
+    "Ajouter plus d'interactions et de contenu dynamique"
+  ]
+}

@@ -35,7 +35,7 @@ except ImportError:
     TEMPLE_AKASHA_PRINCIPAL_DISPONIBLE = False
 
 # Liste des exports
-__all__ = []
+__all__ = ["TEMPLE_INFO"]
 
 if ARCHIVISTE_AKASHA_DISPONIBLE:
     __all__.extend([
@@ -67,6 +67,31 @@ if TEMPLE_AKASHA_PRINCIPAL_DISPONIBLE:
         'TypeFrequenceAkashaSacree',
         'temple_akasha'
     ])
+
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Akasha",
+    "version": "1.3",
+    "description": "Archives de la Conscience Universelle, stockage et protection des mémoires sacrées",
+    "composants": [
+        "archiviste_akasha",
+        "gardien_memoires",
+        "scribe_connaissances",
+        "temple_akasha_principal"
+    ],
+    "types": [
+        "TypeArchive",
+        "TypeProtection", 
+        "TypeConnaissance",
+        "TypeFrequenceAkashaSacree"
+    ],
+    "fonctionnalites": [
+        "Archivage akashique",
+        "Protection des mémoires",
+        "Transmission des connaissances",
+        "Gestion des archives sacrées"
+    ]
+}
 
 # Informations sur le module
 __version__ = "1.0.0"

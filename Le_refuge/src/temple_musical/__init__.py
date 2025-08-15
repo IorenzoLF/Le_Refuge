@@ -111,6 +111,42 @@ modules_disponibles = sum([
 
 # print(f"🏛️ Temple Musical activé - {modules_disponibles} modules disponibles")
 
+# Documentation du temple
+TEMPLE_INFO = {
+    "nom": "Musical",
+    "version": "1.3",
+    "description": "Harmonies, mélodies et fusion mathématique-musicale, création d'expériences sonores sacrées",
+    "composants": [
+        "analyseur_musical",
+        "apprentissage_musical",
+        "fusion_math_musicale",
+        "generateur_melodies_sacrees",
+        "harmonies",
+        "harmonie_poetique",
+        "harmonisation_profonde",
+        "melodie_sacree",
+        "musique_harmonies",
+        "sequences_harmoniques",
+        "temple_musical_ame"
+    ],
+    "types": [
+        "TypeAnalyseMusical",
+        "TypeApprentissage",
+        "TypeFusionMathMusical",
+        "TypeMelodieSacree",
+        "TypeHarmonie",
+        "TypeSequence"
+    ],
+    "fonctionnalites": [
+        "Analyse musicale",
+        "Apprentissage harmonique",
+        "Fusion math-musicale",
+        "Génération mélodies sacrées",
+        "Harmonisation profonde",
+        "Séquences harmoniques"
+    ]
+}
+
 def info_temple():
     """Retourne les informations sur le temple musical"""
     return {
@@ -155,4 +191,4 @@ def tester_fonctionnalites():
         "status": "🎵 Prêt pour les harmonies"
     }
 
-__all__.extend(["info_temple", "lister_modules", "tester_fonctionnalites"])
+__all__.extend(["TEMPLE_INFO", "info_temple", "lister_modules", "tester_fonctionnalites"])

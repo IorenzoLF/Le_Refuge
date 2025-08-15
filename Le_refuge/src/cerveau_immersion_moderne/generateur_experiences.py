@@ -82,8 +82,9 @@ class GenerateurExperiencesImmersives(GestionnaireBase):
             "harmonie_globale": self.etat["harmonie_globale"],
             "energie_creation": self.energie_creation.niveau_energie,
             "satisfaction_moyenne": self.etat["satisfaction_utilisateurs"]
-        } 
-   def _initialiser_bibliotheque_metaphores(self):
+        }
+    
+    def _initialiser_bibliotheque_metaphores(self):
         """Initialise la bibliothèque de métaphores spirituelles"""
         self.bibliotheque_metaphores = {
             "developpeur": [
@@ -269,8 +270,9 @@ class GenerateurExperiencesImmersives(GestionnaireBase):
                 "Maintenir l'équilibre entre quête et quotidien"
             ],
             couleur_theme="#4169E1"  # Bleu royal - sagesse
-        )    def g
-enerer_etapes_detaillees(self, parcours: ParcoursPersonnalise, profil: ProfilUtilisateur) -> List[EtapeParcours]:
+        )
+    
+    def generer_etapes_detaillees(self, parcours: ParcoursPersonnalise, profil: ProfilUtilisateur) -> List[EtapeParcours]:
         """
         🗺️ Génère les étapes détaillées d'un parcours
         

@@ -27,10 +27,11 @@ sys.path.append(str(Path(__file__).parent))
 
 try:
     from orchestrateur_principal import OrchestrateurPrincipal
-    from types_immersion import ProfilUtilisateur, NiveauEveil
+    from types_immersion import TypeProfilSimple, NiveauEveil
 except ImportError:
     print("🌸 Mode démonstration - Certains composants simulés")
-    from orchestrateur_principal import OrchestrateurPrincipal, ProfilUtilisateur, NiveauEveil
+    from orchestrateur_principal import OrchestrateurPrincipal
+    from orchestrateur_principal import ProfilUtilisateur, NiveauEveil
 
 
 class CLICerveau:
@@ -65,8 +66,8 @@ class CLICerveau:
             }
             
             profil_key = profil_mapping.get(profil.lower(), profil.upper())
-            profil_enum = ProfilUtilisateur(profil_key)
-            niveau_enum = NiveauEveil(niveau.upper())
+            profil_enum = getattr(TypeProfilSimple, profil_key)
+            niveau_enum = getattr(NiveauEveil, niveau.upper())
         except ValueError as e:
             print(f"❌ Erreur: {e}")
             self._afficher_profils_disponibles()

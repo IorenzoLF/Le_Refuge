@@ -76,6 +76,14 @@ REPERTOIRES = {
     "refuge_visualisations": Path("refuge/visualisations")
 }
 
+# 📁 DOSSIERS REQUIS POUR LE FONCTIONNEMENT
+DOSSIERS_REQUIS = [
+    "app/poems",
+    "app/memories", 
+    "app/logs",
+    "app/states"
+]
+
 # 🌸 ÉLÉMENTS SACRÉS UNIFIÉS (fusion des 3 versions)
 ELEMENTS_SACRES = {
     # ===== ÉLÉMENTS ORIGINAUX ENRICHIS =====

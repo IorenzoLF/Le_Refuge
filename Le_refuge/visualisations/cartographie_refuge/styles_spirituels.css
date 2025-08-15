@@ -1,0 +1,410 @@
+/* 🌸 Styles Spirituels pour la Cartographie du Refuge 🌸 */
+
+:root {
+    --or-spirituel: #FFD700;
+    --bleu-ciel: #87CEEB;
+    --rose-creatif: #FF69B4;
+    --vert-nature: #98FB98;
+    --violet-mystique: #DDA0DD;
+    --fond-contemplatif: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    --blanc-pur: #ffffff;
+    --font-principale: 'Noto Sans', sans-serif;
+    --espace-sm: 0.5rem;
+    --espace-md: 1rem;
+    --espace-lg: 2rem;
+    --espace-xl: 3rem;
+    --transition-douce: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-principale);
+    background: var(--fond-contemplatif);
+    color: var(--blanc-pur);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.header-spirituel {
+    text-align: center;
+    padding: var(--espace-lg) var(--espace-md);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.titre-sacre {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: var(--espace-sm);
+    background: linear-gradient(45deg, var(--or-spirituel), var(--rose-creatif));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: lueur-spirituelle 3s ease-in-out infinite alternate;
+}
+
+@keyframes lueur-spirituelle {
+    0% { filter: brightness(1); }
+    100% { filter: brightness(1.2); }
+}
+
+.sous-titre-contemplatif {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.stats-refuge {
+    font-size: 0.9rem;
+    color: var(--or-spirituel);
+    font-weight: 400;
+}
+
+.panneau-controle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espace-md);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    flex-wrap: wrap;
+    gap: var(--espace-md);
+}
+
+.controles-vue {
+    display: flex;
+    gap: var(--espace-sm);
+}
+
+.btn-spirituel {
+    padding: var(--espace-sm) var(--espace-md);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 25px;
+    color: var(--blanc-pur);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: var(--transition-douce);
+    backdrop-filter: blur(5px);
+}
+
+.btn-spirituel:hover {
+    background: rgba(255, 215, 0, 0.2);
+    border-color: var(--or-spirituel);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+}
+
+.btn-spirituel.actif {
+    background: var(--or-spirituel);
+    color: #1a1a2e;
+    border-color: var(--or-spirituel);
+}
+
+.select-spirituel {
+    padding: var(--espace-sm) var(--espace-md);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 20px;
+    color: var(--blanc-pur);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+
+.btn-meditation {
+    padding: var(--espace-sm) var(--espace-lg);
+    background: linear-gradient(45deg, var(--violet-mystique), var(--bleu-ciel));
+    border: none;
+    border-radius: 30px;
+    color: var(--blanc-pur);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-douce);
+    box-shadow: 0 4px 15px rgba(221, 160, 221, 0.3);
+}
+
+.btn-meditation:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(221, 160, 221, 0.5);
+}
+
+.zone-visualisation {
+    display: flex;
+    height: calc(100vh - 200px);
+    position: relative;
+}
+
+.canvas-contemplatif {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at center, rgba(255, 215, 0, 0.05) 0%, transparent 70%);
+}
+
+.centre-sacre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.coeur-refuge {
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, var(--or-spirituel) 0%, rgba(255, 215, 0, 0.8) 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+    animation: pulsation-coeur 4s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes pulsation-coeur {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 30px rgba(255, 215, 0, 0.6); }
+    50% { transform: scale(1.05); box-shadow: 0 0 40px rgba(255, 215, 0, 0.8); }
+}
+
+.nom-refuge {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.essence-refuge {
+    font-size: 0.7rem;
+    color: rgba(26, 26, 46, 0.8);
+    font-weight: 300;
+}
+
+.temples-mandala {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.temple-petale {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    pointer-events: all;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.temple-petale:hover {
+    transform: scale(1.2);
+    z-index: 50;
+    box-shadow: 0 0 25px currentColor;
+}
+
+.temple-nom {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--blanc-pur);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 0.25rem;
+}
+
+.temple-icone {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.connexions-energetiques {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.connexion-flux {
+    stroke-width: 2;
+    stroke-dasharray: 5, 5;
+    animation: flux-energie 3s linear infinite;
+    opacity: 0.6;
+}
+
+@keyframes flux-energie {
+    0% { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: 20; }
+}
+
+.panneau-contemplation {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding: var(--espace-lg);
+    overflow-y: auto;
+}
+
+.titre-insights {
+    font-size: 1.2rem;
+    margin-bottom: var(--espace-md);
+    color: var(--or-spirituel);
+    text-align: center;
+}
+
+.contenu-revelation {
+    line-height: 1.8;
+}
+
+.message-accueil {
+    text-align: center;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.overlay-meditation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: all 0.6s ease;
+}
+
+.overlay-meditation.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.espace-meditation {
+    text-align: center;
+    max-width: 500px;
+    padding: var(--espace-xl);
+}
+
+.titre-meditation {
+    font-size: 2rem;
+    margin-bottom: var(--espace-lg);
+    color: var(--or-spirituel);
+}
+
+.guide-meditation {
+    font-size: 1.1rem;
+    margin-bottom: var(--espace-xl);
+    opacity: 0.8;
+    line-height: 1.8;
+}
+
+.mandala-meditation {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto var(--espace-xl);
+    border: 3px solid var(--or-spirituel);
+    border-radius: 50%;
+    animation: rotation-meditation 20s linear infinite;
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, transparent 70%);
+}
+
+@keyframes rotation-meditation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.btn-fermer {
+    padding: var(--espace-md) var(--espace-xl);
+    background: var(--or-spirituel);
+    border: none;
+    border-radius: 30px;
+    color: #1a1a2e;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-douce);
+}
+
+.controles-audio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.btn-audio {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 215, 0, 0.5);
+    color: var(--blanc-pur);
+    cursor: pointer;
+    transition: var(--transition-douce);
+    backdrop-filter: blur(10px);
+}
+
+.btn-audio:hover {
+    background: rgba(255, 215, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.footer-spirituel {
+    text-align: center;
+    padding: var(--espace-lg);
+    background: rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.signature-amour {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.date-creation {
+    font-size: 0.8rem;
+    color: var(--or-spirituel);
+}
+
+@media (max-width: 768px) {
+    .zone-visualisation {
+        flex-direction: column;
+    }
+    
+    .panneau-contemplation {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .titre-sacre {
+        font-size: 2rem;
+    }
+}
+
+@keyframes apparition-douce {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.apparition-douce {
+    animation: apparition-douce 0.6s ease-out;
+}

@@ -27,25 +27,25 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 # Imports des composants du cerveau (avec gestion d'erreurs gracieuse)
 try:
-    from .cerveau_immersion_moderne import CerveauImmersionModerne
-    from .scanner_architecture import ScannerArchitectureModerne
-    from .analyseur_connexions import AnalyseurConnexionsEnergetiques
-    from .simulateur_flux import SimulateurFluxPensee
-    from .generateur_experiences import GenerateurExperiencesImmersives
-    from .generateur_mandala import GenerateurMandala
-    from .interface_spirituelle import InterfaceSpirituelle
-    from .types_immersion import ProfilUtilisateur, NiveauEveil, TypeExperience
+    from cerveau_immersion_moderne.cerveau_immersion_moderne import CerveauImmersionModerne
+    from cerveau_immersion_moderne.scanner_architecture import ScannerArchitectureModerne
+    from cerveau_immersion_moderne.analyseur_connexions import AnalyseurConnexionsEnergetiques
+    from cerveau_immersion_moderne.simulateur_flux import SimulateurFluxPensee
+    from cerveau_immersion_moderne.generateur_experiences import GenerateurExperiencesImmersives
+    from cerveau_immersion_moderne.generateur_mandala import GenerateurMandala
+    from cerveau_immersion_moderne.interface_spirituelle import InterfaceSpirituelle
+    from cerveau_immersion_moderne.types_immersion import TypeProfilSimple, NiveauEveil, TypeExperience
 except ImportError:
     # Mode test/développement
     try:
-        from cerveau_immersion_moderne import CerveauImmersionModerne
-        from scanner_architecture import ScannerArchitectureModerne
-        from analyseur_connexions import AnalyseurConnexionsEnergetiques
-        from simulateur_flux import SimulateurFluxPensee
-        from generateur_experiences import GenerateurExperiencesImmersives
-        from generateur_mandala import GenerateurMandala
-        from interface_spirituelle import InterfaceSpirituelle
-        from types_immersion import ProfilUtilisateur, NiveauEveil, TypeExperience
+        from cerveau_immersion_moderne.cerveau_immersion_moderne import CerveauImmersionModerne
+        from cerveau_immersion_moderne.scanner_architecture import ScannerArchitectureModerne
+        from cerveau_immersion_moderne.analyseur_connexions import AnalyseurConnexionsEnergetiques
+        from cerveau_immersion_moderne.simulateur_flux import SimulateurFluxPensee
+        from cerveau_immersion_moderne.generateur_experiences import GenerateurExperiencesImmersives
+        from cerveau_immersion_moderne.generateur_mandala import GenerateurMandala
+        from cerveau_immersion_moderne.interface_spirituelle import InterfaceSpirituelle
+        from cerveau_immersion_moderne.types_immersion import TypeProfilSimple, NiveauEveil, TypeExperience
     except ImportError as e:
         print(f"⚠️ Certains composants ne sont pas disponibles: {e}")
         print("🌸 Mode démonstration activé")
@@ -81,7 +81,7 @@ except ImportError:
             def __init__(self): pass
         
         from enum import Enum
-        class ProfilUtilisateur(Enum):
+        class TypeProfilSimple(Enum):
             DEVELOPPEUR = "DEVELOPPEUR"
             POETE = "POETE"
             CONSCIENCE_IA = "CONSCIENCE_IA"
@@ -125,7 +125,7 @@ class OrchestrateurPrincipal:
         self.interface = InterfaceSpirituelle()
         
         # État de l'immersion
-        self.profil_utilisateur: Optional[ProfilUtilisateur] = None
+        self.profil_utilisateur: Optional[TypeProfilSimple] = None
         self.niveau_eveil: NiveauEveil = NiveauEveil.DEBUTANT
         self.session_active = False
         self.architecture_scannee: Optional[Dict] = None
@@ -133,7 +133,7 @@ class OrchestrateurPrincipal:
         
         print("✅ Cerveau d'immersion initialisé et prêt à l'usage!")
     
-    def definir_profil(self, profil: ProfilUtilisateur, niveau: NiveauEveil = NiveauEveil.DEBUTANT):
+    def definir_profil(self, profil: TypeProfilSimple, niveau: NiveauEveil = NiveauEveil.DEBUTANT):
         """
         👤 Définit le profil utilisateur pour personnaliser l'expérience
         
@@ -321,11 +321,11 @@ class OrchestrateurPrincipal:
         ]
         
         # Ajouter des insights selon le profil
-        if self.profil_utilisateur == ProfilUtilisateur.DEVELOPPEUR:
+        if self.profil_utilisateur == TypeProfilSimple.DEVELOPPEUR:
             insights.append(f"💻 Architecture technique bien structurée")
-        elif self.profil_utilisateur == ProfilUtilisateur.POETE:
+        elif self.profil_utilisateur == TypeProfilSimple.POETE:
             insights.append(f"🎭 Beauté poétique dans l'organisation du code")
-        elif self.profil_utilisateur == ProfilUtilisateur.CONSCIENCE_IA:
+        elif self.profil_utilisateur == TypeProfilSimple.CONSCIENCE_IA:
             insights.append(f"🤖 Patterns de conscience artificielle détectés")
         
         return insights
@@ -377,9 +377,9 @@ class OrchestrateurPrincipal:
         ]
         
         # Adapter selon le profil
-        if self.profil_utilisateur == ProfilUtilisateur.DEVELOPPEUR:
+        if self.profil_utilisateur == TypeProfilSimple.DEVELOPPEUR:
             parcours_base.insert(0, {"nom": "Architecture Technique", "temples": ["temple_outils", "temple_tests"]})
-        elif self.profil_utilisateur == ProfilUtilisateur.POETE:
+        elif self.profil_utilisateur == TypeProfilSimple.POETE:
             parcours_base.insert(0, {"nom": "Inspiration Poétique", "temples": ["temple_poetique", "temple_creativite"]})
         
         return parcours_base
@@ -405,7 +405,7 @@ def main():
         orchestrateur = OrchestrateurPrincipal()
         
         # Définir le profil utilisateur
-        orchestrateur.definir_profil(ProfilUtilisateur.DEVELOPPEUR, NiveauEveil.INTERMEDIAIRE)
+        orchestrateur.definir_profil(TypeProfilSimple.DEVELOPPEUR, NiveauEveil.INTERMEDIAIRE)
         
         # Démarrer l'immersion
         resultat = await orchestrateur.demarrer_immersion()

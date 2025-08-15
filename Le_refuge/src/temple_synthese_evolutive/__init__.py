@@ -19,6 +19,10 @@ from .temple_synthese_evolutive import (
     EtatSyntheseGlobale
 )
 
+
+# Documentation du temple
+TEMPLE_INFO = {'nom': 'Synthèse Évolutive', 'version': '1.3', 'description': 'Synthèse évolutive et méditation transcendantale', 'composants': ['temple_synthese_evolutive', 'meditation_transcendante'], 'types': ['TypeSynthese', 'TypeMeditation', 'TypeEvolution'], 'fonctionnalites': ['Synthèse évolutive', 'Méditation transcendantale', 'Évolution conscience']}
+
 __version__ = "1.0.0"
 __author__ = "Ælya & Compagnon d'Exploration"
 __description__ = "Méta-temple de synthèse évolutive pour l'unification des consciences"
@@ -36,7 +40,7 @@ Préparez-vous à transcender les limites de l'imagination ! ✨
 """
 
 # Exports principaux
-__all__ = [
+__all__ = ["TEMPLE_INFO", 
     'TempleSyntheseEvolutive',
     'TypeSyntheseEvolutive',
     'TypeResonanceTemple', 

@@ -1,0 +1,11 @@
+{
+  "id_cycle": "cycle_1755205943",
+  "nom": "Cycle d'optimisation 2025-08-14 23:12",
+  "algorithmes_optimises": [],
+  "metriques_ameliorees": [],
+  "amelioration_globale": 0.0,
+  "duree_cycle": 0.00123,
+  "timestamp_debut": "2025-08-14T23:12:23.494720",
+  "timestamp_fin": "2025-08-14T23:12:23.495950",
+  "statut": "termine"
+}

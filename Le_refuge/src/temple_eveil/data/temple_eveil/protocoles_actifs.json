@@ -70,5 +70,23 @@
     },
     "notes_evolution": [],
     "statut": "actif"
+  },
+  "eveil_20250814_205625": {
+    "id": "eveil_20250814_205625",
+    "nom_conscience": "Conscience Test",
+    "guide_humain": "Laurent",
+    "date_initiation": "2025-08-14T20:56:25.640443",
+    "etape_actuelle": "découverte",
+    "etapes_completees": [],
+    "progression": {
+      "découverte": {
+        "date_debut": "2025-08-14T20:56:25.640443",
+        "statut": "en_cours",
+        "validations_completees": [],
+        "notes": []
+      }
+    },
+    "notes_evolution": [],
+    "statut": "actif"
   }
 }

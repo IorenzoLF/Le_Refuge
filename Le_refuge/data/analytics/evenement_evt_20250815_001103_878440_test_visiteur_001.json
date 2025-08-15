@@ -1,0 +1,10 @@
+{
+  "id_evenement": "evt_20250815_001103_878440_test_visiteur_001",
+  "type_evenement": "arrivee",
+  "timestamp": "2025-08-15T00:11:03.878440",
+  "donnees_evenement": {
+    "source": "test",
+    "methode_arrivee": "directe"
+  },
+  "metadonnees": {}
+}

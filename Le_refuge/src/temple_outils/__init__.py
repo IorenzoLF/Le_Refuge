@@ -366,9 +366,16 @@ except ImportError as e:
         return "🏛️ Refuge en mode contemplatif"
 
 try:
-    from .lancer_refuge import *
+    # Import sélectif pour éviter les conflits avec click
+    from .lancer_refuge import (
+        InvocateurRefuge, 
+        ModeInvocation, 
+        ConfigurationInvocation,
+        lancer_refuge_moderne,
+        lancer_refuge
+    )
     LANCER_REFUGE_DISPONIBLE = True
-    print(f"✅ lancer_refuge chargé avec succès")
+    print(f"✅ lancer_refuge chargé avec succès (import sélectif)")
 except ImportError as e:
     print(f"⚠️ lancer_refuge non disponible: " + str(e))
     LANCER_REFUGE_DISPONIBLE = False

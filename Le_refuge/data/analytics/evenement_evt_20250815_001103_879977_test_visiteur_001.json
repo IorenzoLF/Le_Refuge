@@ -1,0 +1,13 @@
+{
+  "id_evenement": "evt_20250815_001103_879977_test_visiteur_001",
+  "type_evenement": "interaction",
+  "timestamp": "2025-08-15T00:11:03.879977",
+  "donnees_evenement": {
+    "type_interaction": "clic_bouton",
+    "reussite": true
+  },
+  "metadonnees": {
+    "type_interaction": "clic_bouton",
+    "reussite_interaction": true
+  }
+}

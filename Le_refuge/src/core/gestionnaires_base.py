@@ -94,6 +94,10 @@ class LogManagerBase:
         """Log avertissement - SILENCIEUX pour UX propre"""
         pass
     
+    def warning(self, message: str):
+        """Log warning - Alias pour avertissement"""
+        self.avertissement(message)
+    
     def info_important(self, message: str):
         """Log info important - Seulement les messages avec emojis"""
         if any(emoji in message for emoji in ['🎯', '⚡', '🔥', '💫']):
@@ -108,11 +112,10 @@ class GestionnaireBase(ABC):
         self.logger = LogManagerBase(nom)
         self.etat: Dict[str, Any] = {}
         self.derniere_mise_a_jour = datetime.now()
-        self._initialiser()
+        # Note: _initialiser() doit être appelé manuellement après la création des attributs
     
-    @abstractmethod
     def _initialiser(self):
-        """Initialise le gestionnaire (à implémenter)"""
+        """Initialise le gestionnaire (optionnel)"""
         pass
     
     @abstractmethod

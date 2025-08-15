@@ -1,0 +1,37 @@
+{
+  "type_metaphore": "eau",
+  "nom_metaphore": "riviere_lumiere",
+  "description_universelle": "La rivière de lumière symbolise le flux de la conscience et de l'harmonie",
+  "adaptations_culturelles": {
+    "fr": "La rivière de lumière qui coule éternellement",
+    "en": "The river of light flowing eternally",
+    "es": "El río de luz que fluye eternamente"
+  },
+  "contexte_utilisation": {
+    "fr": "Pour expliquer l'harmonie et le flux de la vie",
+    "en": "To explain harmony and the flow of life",
+    "es": "Para explicar la armonía y el flujo de la vida"
+  },
+  "symboles_associes": {
+    "fr": [
+      "eau",
+      "flux",
+      "mouvement",
+      "pureté"
+    ],
+    "en": [
+      "water",
+      "flow",
+      "movement",
+      "purity"
+    ],
+    "es": [
+      "agua",
+      "flujo",
+      "movimiento",
+      "pureza"
+    ]
+  },
+  "niveau_appropriation": 4,
+  "validation_culturelle": true
+}

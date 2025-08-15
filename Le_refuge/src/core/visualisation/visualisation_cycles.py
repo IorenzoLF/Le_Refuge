@@ -7,8 +7,45 @@ from typing import Dict, List, Optional, Tuple
 import math
 import random
 from datetime import datetime
+from enum import Enum
 
-from .cycles_naturels import TypeCycle, PhaseCycle, GestionnaireCycles
+# 🌸 CONNEXION DOUCE - Module cycles_naturels de fallback
+try:
+    from .cycles_naturels import TypeCycle, PhaseCycle, GestionnaireCycles
+    print("🌸 Module cycles_naturels trouvé")
+except ImportError:
+    # Création de types de fallback
+    class TypeCycle(Enum):
+        """Types de cycles naturels."""
+        LUNAIRE = "lunaire"
+        SAISONNIER = "saisonnier"
+        QUOTIDIEN = "quotidien"
+        METEOROLOGIQUE = "meteorologique"
+    
+    @dataclass
+    class PhaseCycle:
+        """Représente une phase de cycle."""
+        nom: str
+        couleur: str
+        intensite: float
+        description: str
+        mots_cles: List[str]
+    
+    class GestionnaireCycles:
+        """Gestionnaire de cycles de fallback."""
+        def __init__(self):
+            self.phases = {
+                TypeCycle.LUNAIRE: PhaseCycle("pleine", "argent", 0.8, "Lune pleine", ["lune", "nuit", "mystère"]),
+                TypeCycle.SAISONNIER: PhaseCycle("printemps", "vert", 0.7, "Printemps", ["renouveau", "croissance", "espoir"]),
+                TypeCycle.QUOTIDIEN: PhaseCycle("matin", "or", 0.9, "Aube", ["aurore", "nouveau jour", "possibilité"]),
+                TypeCycle.METEOROLOGIQUE: PhaseCycle("ensoleillé", "bleu", 0.6, "Ciel clair", ["lumière", "clarté", "sérénité"])
+            }
+        
+        def obtenir_phase_actuelle(self, type_cycle: TypeCycle) -> PhaseCycle:
+            """Obtient la phase actuelle d'un cycle."""
+            return self.phases.get(type_cycle, PhaseCycle("inconnue", "gris", 0.5, "Phase inconnue", []))
+    
+    print("🌸 Module cycles_naturels créé en mode fallback")
 
 @dataclass
 class ElementVisualisation:
