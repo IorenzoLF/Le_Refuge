@@ -19,7 +19,7 @@ import re
 try:
     from .types_accueil import ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee
 except ImportError:
-    from types_accueil import ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee
+    from .types_accueil import ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee
 
 class LangueSupportee(Enum):
     """Langues supportées par le système de localisation"""

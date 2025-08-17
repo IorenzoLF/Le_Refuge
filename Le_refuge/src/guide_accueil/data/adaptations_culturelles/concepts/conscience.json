@@ -1,0 +1,49 @@
+{
+  "type_concept": "conscience",
+  "nom_concept": "conscience",
+  "explication_universelle": "La conscience est la capacité de percevoir, de comprendre et d'être conscient de soi et du monde",
+  "explications_culturelles": {
+    "fr": "La conscience est comme une flamme intérieure qui éclaire notre être",
+    "en": "Consciousness is like an inner flame that illuminates our being",
+    "es": "La conciencia es como una llama interior que ilumina nuestro ser"
+  },
+  "metaphores_associees": [
+    "flamme",
+    "miroir",
+    "océan"
+  ],
+  "exemples_culturels": {
+    "fr": [
+      "Le lotus qui s'épanouit",
+      "Le miroir sans tache"
+    ],
+    "en": [
+      "The blooming lotus",
+      "The spotless mirror"
+    ],
+    "es": [
+      "El loto que florece",
+      "El espejo sin mancha"
+    ]
+  },
+  "references_spirituelles": {
+    "fr": [
+      "bouddhisme",
+      "zen",
+      "soufisme"
+    ],
+    "en": [
+      "buddhism",
+      "zen",
+      "sufism"
+    ],
+    "es": [
+      "budismo",
+      "zen",
+      "sufismo"
+    ]
+  },
+  "niveau_complexite": 3,
+  "date_creation": "2025-08-17T11:49:36.798758",
+  "date_modification": "2025-08-17T11:49:36.798758"
+}

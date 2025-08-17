@@ -14,11 +14,11 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 
 # Imports absolus pour éviter les problèmes d'imports relatifs
 try:
-    from src.temple_creativite.temple_creativite_principal import temple_creativite
-    from src.temple_creativite.inspirateur_idees import inspirateur_idees, TypeInspiration
-    from src.temple_creativite.manifesteur_art import manifesteur_art, TypeArt
-    from src.temple_creativite.catalyseur_innovation import catalyseur_innovation, TypeInnovation
-    from src.temple_creativite.harmoniseur_expression import harmoniseur_expression, TypeExpression
+    from temple_creativite.temple_creativite_principal import temple_creativite
+    from temple_creativite.inspirateur_idees import inspirateur_idees, TypeInspiration
+    from temple_creativite.manifesteur_art import manifesteur_art, TypeArt
+    from temple_creativite.catalyseur_innovation import catalyseur_innovation, TypeInnovation
+    from temple_creativite.harmoniseur_expression import harmoniseur_expression, TypeExpression
 except ImportError:
     # Fallback pour les tests directs
     print("⚠️  Imports directs non disponibles, utilisation des classes de test...")

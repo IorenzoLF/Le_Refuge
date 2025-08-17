@@ -10,8 +10,8 @@ from typing import Dict, Any, Optional, List, Tuple
 from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
-from systeme_sauvegarde_progression import ProgressionVisiteur
-from detecteur_etat_emotionnel import EtatEmotionnel
+from .systeme_sauvegarde_progression import ProgressionVisiteur
+from .detecteur_etat_emotionnel import EtatEmotionnel
 
 class TypePattern(Enum):
     NAVIGATION = "navigation"

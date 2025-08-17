@@ -1,0 +1,15 @@
+[
+  {
+    "type_reponse": "transition_apaisee",
+    "etat_emotionnel": "autre",
+    "message_principal": "🌸 Votre rythme contemplatif est parfait. Laissez-moi vous guider dans une transition douce...",
+    "actions_immediates": [
+      "activer_transition_visuelle",
+      "ajouter_musique_transition",
+      "ralentir_animations",
+      "offrir_options_pause"
+    ],
+    "confiance_reponse": 0.6799999999999999,
+    "timestamp_creation": "2025-08-17T11:49:10.453506"
+  }
+]

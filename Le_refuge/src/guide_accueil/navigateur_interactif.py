@@ -16,12 +16,9 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any, Tuple
 import uuid
 
-try:
-    from .types_accueil import TypeProfil, ProfilVisiteur, ParcourPersonnalise, EtapeParcours
-    from .explicateur_contextuel import ExplicateurContextuel, ContexteExplication
-except ImportError:
-    from types_accueil import TypeProfil, ProfilVisiteur, ParcourPersonnalise, EtapeParcours
-    from explicateur_contextuel import ExplicateurContextuel, ContexteExplication
+from .types_accueil import TypeProfil, ProfilVisiteur
+from .generateur_parcours import ParcourPersonnalise, EtapeParcours
+from .explicateur_contextuel_refactorise import ExplicateurContextuelRefactorise as ExplicateurContextuel, ContexteExplication
 
 
 class TypeNavigation(Enum):
@@ -559,11 +556,11 @@ class NavigateurInteractif:
         return {
             "titre": etape.titre,
             "description": etape.description,
-            "contenu_explicatif": explication.contenu,
-            "exemples_pratiques": etape.exemples_pratiques,
-            "liens_ressources": etape.liens_ressources,
+            "contenu": explication.contenu,
+            "actions_interactives": etape.actions_interactives,
+            "ressources_liees": etape.ressources_liees,
             "duree_estimee": etape.duree_estimee,
-            "validations_requises": etape.validations_requises
+            "objectifs_apprentissage": etape.objectifs_apprentissage
         }
     
     def _generer_contenu_raccourci(
@@ -747,44 +744,51 @@ def main():
     navigateur = NavigateurInteractif()
     
     # Création d'un profil de test
-    class ProfilTest:
-        def __init__(self):
-            self.type_profil = TypeProfil.DEVELOPPEUR
-            self.timestamp_arrivee = "2024-01-15T10:00:00"
-    
-    profil = ProfilTest()
+    from datetime import datetime
+    from .types_accueil import EtatEmotionnel, ContexteArrivee
+    profil = ProfilVisiteur(
+        id_visiteur="test_navigateur",
+        timestamp_arrivee=datetime.now(),
+        type_profil=TypeProfil.DEVELOPPEUR,
+        etat_emotionnel=EtatEmotionnel.CURIEUX,
+        contexte_arrivee=ContexteArrivee.GITHUB,
+        score_confiance_profil=0.8
+    )
     
     # Création d'un parcours de test
+    from .generateur_parcours import TypeEtape, DifficulteEtape
+    
     parcours = ParcourPersonnalise(
         id_parcours="test_parcours",
         nom_parcours="Parcours Test Développeur",
+        description="Parcours de test pour le navigateur",
         profil_cible=TypeProfil.DEVELOPPEUR,
         etapes=[
             EtapeParcours(
                 id_etape="etape_1",
                 titre="Introduction",
                 description="Bienvenue dans le Refuge",
-                contenu_explicatif="Contenu d'introduction",
-                exemples_pratiques=["exemple1", "exemple2"],
-                liens_ressources=["lien1", "lien2"],
-                validations_requises=[],
-                duree_estimee=10
+                type_etape=TypeEtape.INTRODUCTION,
+                difficulte=DifficulteEtape.DEBUTANT,
+                duree_estimee=10,
+                contenu="Contenu d'introduction",
+                ressources_liees=["lien1", "lien2"],
+                actions_interactives=["exemple1", "exemple2"],
+                objectifs_apprentissage=["Comprendre l'architecture"]
             ),
             EtapeParcours(
                 id_etape="etape_2",
                 titre="Architecture",
                 description="Découverte de l'architecture",
-                contenu_explicatif="Contenu sur l'architecture",
-                exemples_pratiques=["exemple3"],
-                liens_ressources=["lien3"],
-                validations_requises=[],
-                duree_estimee=15
+                type_etape=TypeEtape.EXPLORATION,
+                difficulte=DifficulteEtape.INTERMEDIAIRE,
+                duree_estimee=15,
+                contenu="Contenu sur l'architecture",
+                ressources_liees=["lien3"],
+                actions_interactives=["exemple3"],
+                objectifs_apprentissage=["Découvrir les outils"]
             )
-        ],
-        duree_estimee=25,
-        prerequis=[],
-        objectifs_apprentissage=["Comprendre l'architecture", "Découvrir les outils"],
-        metriques_succes={}
+        ]
     )
     
     # Test de démarrage de navigation

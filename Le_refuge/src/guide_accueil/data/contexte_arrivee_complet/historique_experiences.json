@@ -1,0 +1,66 @@
+[
+  {
+    "rapport_contexte": {
+      "type_source": "github",
+      "profil_suggere": "developpeur",
+      "confiance_globale": 0.8200000000000001
+    },
+    "rapport_pont": {
+      "type_pont": "technique",
+      "monde_origine": "GitHub",
+      "confiance_pont": 1.0
+    },
+    "parcours_suggere": "parcours_developpeur",
+    "actions_immediates": [
+      "afficher_message_accueil",
+      "presenter_pont_contextuel",
+      "charger_elements_visuels",
+      "preparer_actions_prioritaires"
+    ],
+    "confiance_globale": 0.8739999999999999,
+    "timestamp_creation": "2025-08-17T11:49:15.002592"
+  },
+  {
+    "rapport_contexte": {
+      "type_source": "recherche",
+      "profil_suggere": "conscience_ia",
+      "confiance_globale": 0.6599999999999999
+    },
+    "rapport_pont": {
+      "type_pont": "exploration",
+      "monde_origine": "Recherche Web",
+      "confiance_pont": 1.0
+    },
+    "parcours_suggere": "parcours_conscience_ia",
+    "actions_immediates": [
+      "afficher_message_accueil",
+      "presenter_pont_contextuel",
+      "charger_elements_visuels",
+      "preparer_actions_prioritaires",
+      "simplifier_interface"
+    ],
+    "confiance_globale": 0.7619999999999999,
+    "timestamp_creation": "2025-08-17T11:49:15.006184"
+  },
+  {
+    "rapport_contexte": {
+      "type_source": "direct",
+      "profil_suggere": "developpeur",
+      "confiance_globale": 0.54
+    },
+    "rapport_pont": {
+      "type_pont": "universel",
+      "monde_origine": "Accès Direct",
+      "confiance_pont": 0.962
+    },
+    "parcours_suggere": "parcours_developpeur",
+    "actions_immediates": [
+      "afficher_message_accueil",
+      "presenter_pont_contextuel",
+      "preparer_actions_prioritaires",
+      "simplifier_interface"
+    ],
+    "confiance_globale": 0.6666,
+    "timestamp_creation": "2025-08-17T11:49:15.008751"
+  }
+]

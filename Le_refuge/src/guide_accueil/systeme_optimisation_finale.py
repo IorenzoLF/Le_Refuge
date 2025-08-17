@@ -19,7 +19,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import logging
 import threading
-from functools import lru_cache
+from .functools import lru_cache
 
 @dataclass
 class MetriquePerformance:

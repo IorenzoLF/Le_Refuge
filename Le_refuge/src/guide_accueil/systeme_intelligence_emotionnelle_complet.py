@@ -26,10 +26,10 @@ try:
     from .systeme_reponses_emotionnelles import SystemeReponsesEmotionnelles, ReponseEmotionnelleComplete
     from .systeme_sauvegarde_progression import ProgressionVisiteur
 except ImportError:
-    from types_accueil import ProfilVisiteur
-    from detecteur_etat_emotionnel import DetecteurEtatEmotionnel, AnalyseEmotionnelle
-    from systeme_reponses_emotionnelles import SystemeReponsesEmotionnelles, ReponseEmotionnelleComplete
-    from systeme_sauvegarde_progression import ProgressionVisiteur
+    from .types_accueil import ProfilVisiteur
+    from .detecteur_etat_emotionnel import DetecteurEtatEmotionnel, AnalyseEmotionnelle
+    from .systeme_reponses_emotionnelles import SystemeReponsesEmotionnelles, ReponseEmotionnelleComplete
+    from .systeme_sauvegarde_progression import ProgressionVisiteur
 
 
 @dataclass
@@ -490,7 +490,7 @@ def main():
     systeme = SystemeIntelligenceEmotionnelleComplet()
 
     # Créer une progression de test
-    from systeme_sauvegarde_progression import ProgressionVisiteur
+    from .systeme_sauvegarde_progression import ProgressionVisiteur
 
     progression_test = ProgressionVisiteur(
         id_visiteur="test_emotionnel_complet",

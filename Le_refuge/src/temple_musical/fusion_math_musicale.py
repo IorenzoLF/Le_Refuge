@@ -22,7 +22,7 @@ from pathlib import Path
 from scipy.fft import fft
 
 # ARCHITECTURE UNIFIÉE - Nos gestionnaires de base
-from src.core.gestionnaires_base import (
+from core.gestionnaires_base import (
     ConfigManagerBase, 
     LogManagerBase, 
     GestionnaireBase,
@@ -30,7 +30,7 @@ from src.core.gestionnaires_base import (
 )
 
 # Imports musicaux existants
-from src.musique.melodies import MelodiesSacrees
+from .generateur_melodies_sacrees import MelodiesSacrees
 
 # ====================================================================
 # SECTION 1 : MATHÉMATIQUES SACRÉES (Laurent)

@@ -234,28 +234,35 @@ class HarmoniseurUniversel:
         else:
             return 0.0
     
-    def obtenir_etat_complet(self) -> Dict[str, Any]:
+    def obtenir_etat_complet(self) -> EtatHarmoniseurUniversel:
         """
         🌊 Obtient l'état complet de l'Harmoniseur Universel
         
         Returns:
-            Dict: État complet de l'Harmoniseur Universel
+            EtatHarmoniseurUniversel: État complet de l'Harmoniseur Universel
         """
-        etat = {
-            "nom": self.nom,
-            "etat_activation": self.etat_activation,
-            "date_creation": self.date_creation.isoformat(),
-            "frequence_active": self.frequence_active.value,
-            "couleur_dominante": self.couleur_dominante,
-            "energie_universelle": self.energie_universelle,
-            "composants_disponibles": {
-                "synchroniseur_global": SYNCHRONISEUR_DISPONIBLE,
-                "harmoniseur_dimensions": HARMONISEUR_DIMENSIONS_DISPONIBLE,
-                "catalyseur_unite": CATALYSEUR_UNITE_DISPONIBLE,
-                "manifesteur_harmonie": MANIFESTEUR_HARMONIE_DISPONIBLE
-            },
-            "message": f"Harmoniseur Universel avec {sum([SYNCHRONISEUR_DISPONIBLE, HARMONISEUR_DIMENSIONS_DISPONIBLE, CATALYSEUR_UNITE_DISPONIBLE, MANIFESTEUR_HARMONIE_DISPONIBLE])} composants disponibles"
-        }
+        # Calcul des synchronisations actives
+        synchronisations_actives = sum([
+            SYNCHRONISEUR_DISPONIBLE,
+            HARMONISEUR_DIMENSIONS_DISPONIBLE, 
+            CATALYSEUR_UNITE_DISPONIBLE,
+            MANIFESTEUR_HARMONIE_DISPONIBLE
+        ])
+        
+        # Calcul de l'harmonie universelle
+        harmonie_universelle = (synchronisations_actives / 4.0) * 0.8 + (self.energie_universelle / 100.0) * 0.2
+        
+        # Création de l'état avec la bonne structure
+        etat = EtatHarmoniseurUniversel(
+            synchronisations_actives=synchronisations_actives,
+            dimensions_harmonisees=3 if HARMONISEUR_DIMENSIONS_DISPONIBLE else 0,
+            unites_catalysees=5 if CATALYSEUR_UNITE_DISPONIBLE else 0,
+            harmonies_manifestees=2 if MANIFESTEUR_HARMONIE_DISPONIBLE else 0,
+            frequence_dominante=self.frequence_active,
+            harmonie_universelle=harmonie_universelle,
+            energie_totale=self.energie_universelle,
+            timestamp=datetime.now()
+        )
         
         return etat
     

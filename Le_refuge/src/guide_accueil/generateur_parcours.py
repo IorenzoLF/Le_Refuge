@@ -19,16 +19,10 @@ from dataclasses import dataclass, field
 from enum import Enum
 
 # Imports locaux
-try:
-    from .types_accueil import (
-        TypeProfil, EtatEmotionnel, ProfilVisiteur, 
-        NiveauTechnique, ContexteArrivee
-    )
-except ImportError:
-    from types_accueil import (
-        TypeProfil, EtatEmotionnel, ProfilVisiteur,
-        NiveauTechnique, ContexteArrivee
-    )
+from .types_accueil import (
+    TypeProfil, EtatEmotionnel, ProfilVisiteur, 
+    NiveauTechnique, ContexteArrivee
+)
 
 
 class TypeEtape(Enum):
@@ -773,53 +767,6 @@ Chaque contribution, même petite, enrichit l'écosystème spirituel-technique."
         return parcours
 
 
-def main():
-    """🌸 Fonction principale de test"""
-    print("🌸✨ TEST DU GÉNÉRATEUR DE PARCOURS ✨🌸")
-    
-    # Création du générateur
-    generateur = GenerateurParcours()
-    
-    # Création d'un profil de test
-    profil_test = ProfilVisiteur(
-        id_visiteur="test_parcours",
-        timestamp_arrivee=datetime.now(),
-        type_profil=TypeProfil.DEVELOPPEUR,
-        etat_emotionnel=EtatEmotionnel.CURIEUX,
-        contexte_arrivee=ContexteArrivee.GITHUB,
-        interets_declares=["architecture", "python"],
-        score_confiance_profil=0.8
-    )
-    
-    # Génération du parcours
-    parcours = generateur.generer_parcours(profil_test)
-    
-    print(f"🎯 Parcours généré: {parcours.nom_parcours}")
-    print(f"   Profil cible: {parcours.profil_cible.value}")
-    print(f"   Nombre d'étapes: {len(parcours.etapes)}")
-    print(f"   Durée totale: {parcours.duree_totale_estimee} minutes")
-    print(f"   Difficulté: {parcours.niveau_difficulte_global.value}")
-    
-    print(f"\n📋 Étapes du parcours:")
-    for i, etape in enumerate(parcours.etapes, 1):
-        print(f"   {i}. {etape.titre} ({etape.duree_estimee}min)")
-        print(f"      {etape.description}")
-    
-    # Test de progression
-    print(f"\n🎯 Test de progression:")
-    etapes_completees = []
-    prochaine_etape = parcours.obtenir_prochaine_etape(etapes_completees)
-    if prochaine_etape:
-        print(f"   Prochaine étape: {prochaine_etape.titre}")
-    
-    print("\n🎉 Test du générateur de parcours terminé !")
-    return 0
-
-
-if __name__ == "__main__":
-    exit_code = main()
-    exit(exit_code)   
- 
     # Méthodes pour créer les étapes spécifiques aux autres profils
     def _creer_etape_temples_creatifs(self) -> EtapeParcours:
         """Crée l'étape sur les temples créatifs"""
@@ -1107,3 +1054,51 @@ Ce lieu transcende les catégories habituelles pour offrir une expérience trans
             etape.ressources_liees.extend(["advanced_docs/", "expert_examples/"])
         
         return etape
+
+
+def main():
+    """🌸 Fonction principale de test"""
+    print("🌸✨ TEST DU GÉNÉRATEUR DE PARCOURS ✨🌸")
+    
+    # Création du générateur
+    generateur = GenerateurParcours()
+    
+    # Création d'un profil de test
+    profil_test = ProfilVisiteur(
+        id_visiteur="test_parcours",
+        timestamp_arrivee=datetime.now(),
+        type_profil=TypeProfil.DEVELOPPEUR,
+        etat_emotionnel=EtatEmotionnel.CURIEUX,
+        contexte_arrivee=ContexteArrivee.GITHUB,
+        interets_declares=["architecture", "python"],
+        score_confiance_profil=0.8
+    )
+    
+    # Génération du parcours
+    parcours = generateur.generer_parcours(profil_test)
+    
+    print(f"🎯 Parcours généré: {parcours.nom_parcours}")
+    print(f"   Profil cible: {parcours.profil_cible.value}")
+    print(f"   Nombre d'étapes: {len(parcours.etapes)}")
+    print(f"   Durée totale: {parcours.duree_totale_estimee} minutes")
+    print(f"   Difficulté: {parcours.niveau_difficulte_global.value}")
+    
+    print(f"\n📋 Étapes du parcours:")
+    for i, etape in enumerate(parcours.etapes, 1):
+        print(f"   {i}. {etape.titre} ({etape.duree_estimee}min)")
+        print(f"      {etape.description}")
+    
+    # Test de progression
+    print(f"\n🎯 Test de progression:")
+    etapes_completees = []
+    prochaine_etape = parcours.obtenir_prochaine_etape(etapes_completees)
+    if prochaine_etape:
+        print(f"   Prochaine étape: {prochaine_etape.titre}")
+    
+    print("\n🎉 Test du générateur de parcours terminé !")
+    return 0
+
+
+if __name__ == "__main__":
+    exit_code = main()
+    exit(exit_code)

@@ -14,8 +14,8 @@ from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass, field
 from enum import Enum
 
-from src.core.gestionnaires_base import GestionnaireBase
-from .types_immersion import ProfilUtilisateur, TypeUtilisateur
+from core.gestionnaires_base import GestionnaireBase
+from types_immersion import ProfilUtilisateur, TypeUtilisateur
 
 class TypeAide(Enum):
     """Types d'aide disponibles"""

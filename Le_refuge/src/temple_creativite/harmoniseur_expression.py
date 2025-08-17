@@ -17,8 +17,8 @@ import math
 import random
 
 # Imports du Refuge
-from src.core.configuration import REFUGE_INFO
-from src.core.types_spheres import TypeSphere
+from core.configuration import REFUGE_INFO
+from core.types_spheres import TypeSphere
 
 logger = logging.getLogger('temple_creativite.harmoniseur_expression')
 

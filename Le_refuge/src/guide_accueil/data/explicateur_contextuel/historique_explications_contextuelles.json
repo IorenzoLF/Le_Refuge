@@ -1,0 +1,132 @@
+[
+  {
+    "titre": "🔧 architecture - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 1.0,
+    "timestamp_creation": "2025-08-17T11:49:06.157912"
+  },
+  {
+    "titre": "🎨 creativite - Une exploration créative",
+    "niveau": "intermediaire",
+    "style": "poetique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 0.9800000000000001,
+    "timestamp_creation": "2025-08-17T11:49:06.159962"
+  },
+  {
+    "titre": "🔧 gestionnaires - Vue d'ensemble technique",
+    "niveau": "intermediaire",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 0.9600000000000001,
+    "timestamp_creation": "2025-08-17T11:49:06.162016"
+  },
+  {
+    "titre": "🔧 Introduction - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 0.9600000000000001,
+    "timestamp_creation": "2025-08-17T11:55:18.897587"
+  },
+  {
+    "titre": "🔧 Introduction - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 0.9600000000000001,
+    "timestamp_creation": "2025-08-17T11:55:44.593706"
+  },
+  {
+    "titre": "🔧 Architecture - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 1.0,
+    "timestamp_creation": "2025-08-17T11:55:44.595755"
+  },
+  {
+    "titre": "🔧 Architecture Rapide - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 1.0,
+    "timestamp_creation": "2025-08-17T11:55:44.597815"
+  },
+  {
+    "titre": "🔧 Introduction - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 0.9600000000000001,
+    "timestamp_creation": "2025-08-17T13:33:43.222413"
+  },
+  {
+    "titre": "🔧 Architecture - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 1.0,
+    "timestamp_creation": "2025-08-17T13:33:43.224466"
+  },
+  {
+    "titre": "🔧 Architecture Rapide - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 1.0,
+    "timestamp_creation": "2025-08-17T13:33:43.226522"
+  },
+  {
+    "titre": "🔧 Introduction - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 0.9600000000000001,
+    "timestamp_creation": "2025-08-17T13:40:19.731589"
+  },
+  {
+    "titre": "🔧 Architecture - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 1.0,
+    "timestamp_creation": "2025-08-17T13:40:19.733631"
+  },
+  {
+    "titre": "🔧 Architecture Rapide - Vue d'ensemble technique",
+    "niveau": "approfondi",
+    "style": "technique",
+    "nombre_exemples": 3,
+    "nombre_metaphores": 3,
+    "duree_lecture_estimee": 1,
+    "confiance_globale": 1.0,
+    "timestamp_creation": "2025-08-17T13:40:19.735670"
+  }
+]

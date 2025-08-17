@@ -25,7 +25,7 @@ try:
         MessageAccueil, TypeMessage, NiveauPersonnalisation
     )
 except ImportError:
-    from types_accueil import (
+    from .types_accueil import (
         TypeProfil, EtatEmotionnel, ContexteArrivee, ProfilVisiteur,
         MessageAccueil, TypeMessage, NiveauPersonnalisation
     )

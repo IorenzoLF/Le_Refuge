@@ -1,0 +1,98 @@
+[
+  {
+    "concept": "architecture",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 2,
+    "confiance_explication": 0.9999999999999999,
+    "timestamp_creation": "2025-08-17T11:49:06.157404"
+  },
+  {
+    "concept": "gestionnaires",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 0,
+    "confiance_explication": 0.7999999999999999,
+    "timestamp_creation": "2025-08-17T11:49:06.160994"
+  },
+  {
+    "concept": "Introduction",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 3,
+    "nombre_references": 0,
+    "confiance_explication": 0.7999999999999999,
+    "timestamp_creation": "2025-08-17T11:55:18.896552"
+  },
+  {
+    "concept": "Introduction",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 3,
+    "nombre_references": 0,
+    "confiance_explication": 0.7999999999999999,
+    "timestamp_creation": "2025-08-17T11:55:44.592682"
+  },
+  {
+    "concept": "Architecture",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 2,
+    "confiance_explication": 0.9999999999999999,
+    "timestamp_creation": "2025-08-17T11:55:44.595240"
+  },
+  {
+    "concept": "Architecture Rapide",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 0,
+    "confiance_explication": 0.7,
+    "timestamp_creation": "2025-08-17T11:55:44.597301"
+  },
+  {
+    "concept": "Introduction",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 3,
+    "nombre_references": 0,
+    "confiance_explication": 0.7999999999999999,
+    "timestamp_creation": "2025-08-17T13:33:43.221386"
+  },
+  {
+    "concept": "Architecture",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 2,
+    "confiance_explication": 0.9999999999999999,
+    "timestamp_creation": "2025-08-17T13:33:43.223955"
+  },
+  {
+    "concept": "Architecture Rapide",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 0,
+    "confiance_explication": 0.7,
+    "timestamp_creation": "2025-08-17T13:33:43.225490"
+  },
+  {
+    "concept": "Introduction",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 3,
+    "nombre_references": 0,
+    "confiance_explication": 0.7999999999999999,
+    "timestamp_creation": "2025-08-17T13:40:19.730545"
+  },
+  {
+    "concept": "Architecture",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 2,
+    "confiance_explication": 0.9999999999999999,
+    "timestamp_creation": "2025-08-17T13:40:19.733121"
+  },
+  {
+    "concept": "Architecture Rapide",
+    "niveau_complexite": "intermédiaire",
+    "nombre_exemples": 1,
+    "nombre_references": 0,
+    "confiance_explication": 0.7,
+    "timestamp_creation": "2025-08-17T13:40:19.735163"
+  }
+]

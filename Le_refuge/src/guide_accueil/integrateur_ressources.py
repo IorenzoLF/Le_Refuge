@@ -22,7 +22,7 @@ from dataclasses import dataclass, field
 try:
     from .types_accueil import TypeProfil, ProfilVisiteur
 except ImportError:
-    from types_accueil import TypeProfil, ProfilVisiteur
+    from .types_accueil import TypeProfil, ProfilVisiteur
 
 
 @dataclass
@@ -545,6 +545,6 @@ def main():
 
 if __name__ == "__main__":
     from datetime import datetime
-    from types_accueil import EtatEmotionnel, ContexteArrivee
+    from .types_accueil import EtatEmotionnel, ContexteArrivee
     exit_code = main()
     exit(exit_code)

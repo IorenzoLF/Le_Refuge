@@ -17,7 +17,7 @@ from enum import Enum
 try:
     from .types_accueil import ProfilVisiteur, TypeFeedback, TypeProfil, EtatEmotionnel, ContexteArrivee
 except ImportError:
-    from types_accueil import ProfilVisiteur, TypeFeedback, TypeProfil, EtatEmotionnel, ContexteArrivee
+    from .types_accueil import ProfilVisiteur, TypeFeedback, TypeProfil, EtatEmotionnel, ContexteArrivee
 
 class NiveauSatisfaction(Enum):
     """🌸 Niveaux de satisfaction"""

@@ -26,7 +26,7 @@ try:
         AnalyseTechnique, AnalyseCreative, AnalyseIA, AnalyseSpirituelle
     )
 except ImportError:
-    from types_accueil import (
+    from .types_accueil import (
         TypeProfil, EtatEmotionnel, NiveauTechnique,
         AnalyseTechnique, AnalyseCreative, AnalyseIA, AnalyseSpirituelle
     )

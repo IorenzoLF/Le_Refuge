@@ -12,8 +12,8 @@ import math
 from typing import Dict, List, Optional, Any
 from datetime import datetime
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import (
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import (
     TempleInfo, ParcoursPensee, ProfilUtilisateur, TypeUtilisateur,
     CheminInformation, BoucleReflexive, InsightEmergent
 )

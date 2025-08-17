@@ -14,7 +14,7 @@ from enum import Enum
 import json
 from pathlib import Path
 
-from src.core.gestionnaires_base import GestionnaireBase
+from core.gestionnaires_base import GestionnaireBase
 
 class TypeConnaissance(Enum):
     """Types de connaissances dans la base"""

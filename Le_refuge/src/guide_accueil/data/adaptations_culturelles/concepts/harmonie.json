@@ -1,0 +1,49 @@
+{
+  "type_concept": "harmonie",
+  "nom_concept": "harmonie",
+  "explication_universelle": "L'harmonie est l'équilibre parfait entre tous les éléments de l'existence",
+  "explications_culturelles": {
+    "fr": "L'harmonie est comme une rivière de lumière qui coule naturellement",
+    "en": "Harmony is like a river of light flowing naturally",
+    "es": "La armonía es como un río de luz que fluye naturalmente"
+  },
+  "metaphores_associees": [
+    "rivière",
+    "musique",
+    "danse"
+  ],
+  "exemples_culturels": {
+    "fr": [
+      "La symphonie cosmique",
+      "La danse des éléments"
+    ],
+    "en": [
+      "The cosmic symphony",
+      "The dance of elements"
+    ],
+    "es": [
+      "La sinfonía cósmica",
+      "La danza de los elementos"
+    ]
+  },
+  "references_spirituelles": {
+    "fr": [
+      "taoïsme",
+      "yoga",
+      "zen"
+    ],
+    "en": [
+      "taoism",
+      "yoga",
+      "zen"
+    ],
+    "es": [
+      "taoísmo",
+      "yoga",
+      "zen"
+    ]
+  },
+  "niveau_complexite": 2,
+  "date_creation": "2025-08-17T11:49:36.798758",
+  "date_modification": "2025-08-17T11:49:36.798758"
+}

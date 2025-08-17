@@ -1,0 +1,21 @@
+[
+  {
+    "id_visiteur": "test_emotionnel_complet",
+    "etat_emotionnel": "contemplatif",
+    "type_reponse": "transition_apaisee",
+    "adaptations_appliquees": [
+      "interface_ajouter_espaces_blancs",
+      "interface_utiliser_typographie_serene",
+      "interface_proposer_pauses_reflexion",
+      "interface_encourager_exploration_profonde",
+      "transitions_douces",
+      "espaces_contemplatifs",
+      "rythme_adapte",
+      "ton_intime",
+      "rythme_lent",
+      "style_collaboratif"
+    ],
+    "confiance_globale": 0.8639999999999999,
+    "timestamp_creation": "2025-08-17T11:49:10.454017"
+  }
+]

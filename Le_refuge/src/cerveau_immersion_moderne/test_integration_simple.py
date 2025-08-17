@@ -17,7 +17,7 @@ def test_gestionnaire_ressources():
     print("=" * 42)
     
     try:
-        from .gestionnaire_ressources_simple import GestionnaireRessources
+        from gestionnaire_ressources_simple import GestionnaireRessources
         
         # Créer et initialiser
         gestionnaire = GestionnaireRessources()
@@ -43,7 +43,7 @@ def test_integrateur_parcours():
     print("=" * 47)
     
     try:
-        from .integrateur_parcours_ressources_simple import IntegrateurParcoursRessources
+        from integrateur_parcours_ressources_simple import IntegrateurParcoursRessources
         
         # Créer et initialiser
         integrateur = IntegrateurParcoursRessources()
@@ -67,7 +67,7 @@ def test_transition_fluide():
     print("=" * 32)
     
     try:
-        from .integrateur_parcours_ressources_simple import IntegrateurParcoursRessources
+        from integrateur_parcours_ressources_simple import IntegrateurParcoursRessources
         
         integrateur = IntegrateurParcoursRessources()
         

@@ -15,8 +15,8 @@ from typing import Dict, List, Set, Optional, Any
 from datetime import datetime
 import importlib.util
 
-from src.core.gestionnaires_base import GestionnaireBase
-from .types_immersion import TempleInfo, TypeEnergie, EMOJIS_SACRES, METAPHORES_ARCHITECTURALES
+from core.gestionnaires_base import GestionnaireBase
+from types_immersion import TempleInfo, TypeEnergie, EMOJIS_SACRES, METAPHORES_ARCHITECTURALES
 
 class ScannerArchitectureModerne(GestionnaireBase):
     """

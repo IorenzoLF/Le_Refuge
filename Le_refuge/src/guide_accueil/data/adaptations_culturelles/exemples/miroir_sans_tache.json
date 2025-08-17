@@ -1,0 +1,26 @@
+{
+  "type_exemple": "philosophique",
+  "nom_exemple": "miroir_sans_tache",
+  "description_universelle": "Le miroir sans tache reflète la pureté de la conscience",
+  "adaptations_culturelles": {
+    "fr": "Comme un miroir sans tache qui reflète la vérité",
+    "en": "Like a spotless mirror reflecting truth",
+    "es": "Como un espejo sin mancha que refleja la verdad"
+  },
+  "contexte_culturel": {
+    "fr": {
+      "origine": "zen",
+      "signification": "clarté de l'esprit"
+    },
+    "en": {
+      "origine": "zen",
+      "signification": "clarity of mind"
+    },
+    "es": {
+      "origine": "zen",
+      "signification": "claridad de la mente"
+    }
+  },
+  "niveau_pertinence": 4,
+  "validation_culturelle": true
+}

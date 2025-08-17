@@ -26,7 +26,7 @@ from urllib.parse import urlparse, parse_qs
 try:
     from .types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
 except ImportError:
-    from types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
+    from .types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
 
 
 class TypeSource(Enum):

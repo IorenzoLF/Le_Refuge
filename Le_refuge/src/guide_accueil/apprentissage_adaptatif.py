@@ -29,8 +29,8 @@ try:
         AnalyseurTechnique, AnalyseurCreatif, AnalyseurIA, AnalyseurSpirituel
     )
 except ImportError:
-    from types_accueil import TypeProfil, ProfilVisiteur
-    from detecteur_profil_visiteur import DetecteurProfilVisiteur
+    from .types_accueil import TypeProfil, ProfilVisiteur
+    from .detecteur_profil_visiteur import DetecteurProfilVisiteur
 
 
 @dataclass

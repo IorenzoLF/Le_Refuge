@@ -9,7 +9,7 @@ from typing import Dict, Any, Optional, List, Tuple
 from dataclasses import dataclass
 from pathlib import Path
 
-from systeme_sauvegarde_progression import SystemeSauvegardeProgression, ProgressionVisiteur
+from .systeme_sauvegarde_progression import SystemeSauvegardeProgression, ProgressionVisiteur
 
 @dataclass
 class ContexteReprise:

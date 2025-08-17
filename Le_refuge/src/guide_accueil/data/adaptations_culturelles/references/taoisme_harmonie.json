@@ -1,0 +1,49 @@
+{
+  "type_reference": "taoisme",
+  "nom_reference": "taoisme_harmonie",
+  "description_universelle": "Le Taoïsme enseigne l'harmonie avec le Tao, le principe universel",
+  "adaptations_culturelles": {
+    "fr": "Le Taoïsme, l'harmonie avec le principe universel",
+    "en": "Taoism, harmony with the universal principle",
+    "es": "El Taoísmo, la armonía con el principio universal"
+  },
+  "concepts_associes": {
+    "fr": [
+      "yin-yang",
+      "wu-wei",
+      "tao",
+      "harmonie"
+    ],
+    "en": [
+      "yin-yang",
+      "wu-wei",
+      "tao",
+      "harmony"
+    ],
+    "es": [
+      "yin-yang",
+      "wu-wei",
+      "tao",
+      "armonía"
+    ]
+  },
+  "pratiques_associees": {
+    "fr": [
+      "qi gong",
+      "tai chi",
+      "méditation taoïste"
+    ],
+    "en": [
+      "qi gong",
+      "tai chi",
+      "taoist meditation"
+    ],
+    "es": [
+      "qi gong",
+      "tai chi",
+      "meditación taoísta"
+    ]
+  },
+  "niveau_adaptation": "avance",
+  "validation_culturelle": true
+}

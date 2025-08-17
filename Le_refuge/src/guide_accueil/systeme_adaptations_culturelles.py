@@ -18,8 +18,8 @@ try:
     from .types_accueil import ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee
     from .systeme_localisation import LangueSupportee, NiveauAdaptationCulturelle
 except ImportError:
-    from types_accueil import ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee
-    from systeme_localisation import LangueSupportee, NiveauAdaptationCulturelle
+    from .types_accueil import ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee
+    from .systeme_localisation import LangueSupportee, NiveauAdaptationCulturelle
 
 class TypeConcept(Enum):
     """Types de concepts universels"""

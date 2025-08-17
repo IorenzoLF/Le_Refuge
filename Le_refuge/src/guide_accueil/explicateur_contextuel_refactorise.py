@@ -29,12 +29,12 @@ try:
     from .explicateur_technique import ExplicateurTechnique, ExplicationTechnique
     from .explicateur_creatif import ExplicateurCreatif, ExplicationCreatif, StyleCreatif
 except ImportError:
-    from types_accueil import (
+    from .types_accueil import (
         ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee, 
         NiveauTechnique, ComportementNavigation
     )
-    from explicateur_technique import ExplicateurTechnique, ExplicationTechnique
-    from explicateur_creatif import ExplicateurCreatif, ExplicationCreatif, StyleCreatif
+    from .explicateur_technique import ExplicateurTechnique, ExplicationTechnique
+    from .explicateur_creatif import ExplicateurCreatif, ExplicationCreatif, StyleCreatif
 
 
 class NiveauExplication(Enum):

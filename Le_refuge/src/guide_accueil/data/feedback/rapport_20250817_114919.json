@@ -1,0 +1,11 @@
+{
+  "periode_analyse": "test",
+  "total_feedbacks": 0,
+  "satisfaction_moyenne": 0.0,
+  "tendances_identifiees": [
+    "Satisfaction globale faible"
+  ],
+  "recommandations": [
+    "Audit complet de l'expérience utilisateur"
+  ]
+}

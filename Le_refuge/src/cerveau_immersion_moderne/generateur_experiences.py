@@ -12,8 +12,8 @@ from typing import Dict, List, Optional, Any
 from datetime import datetime
 from dataclasses import dataclass
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import (
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import (
     TempleInfo, ProfilUtilisateur, TypeUtilisateur, ExperienceImmersion,
     NiveauImmersion, InsightSpirituel, DomaineInsight
 )

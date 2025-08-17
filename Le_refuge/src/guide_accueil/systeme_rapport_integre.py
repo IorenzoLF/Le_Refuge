@@ -19,9 +19,9 @@ try:
     from .systeme_analytics_avance import SystemeAnalyticsAvance, EvenementTracking, MetriqueComportementale, PatternComportemental
     from .types_accueil import ProfilVisiteur
 except ImportError:
-    from systeme_feedback_intelligent import SystemeFeedbackIntelligent, FeedbackCollecte, InsightFeedback
-    from systeme_analytics_avance import SystemeAnalyticsAvance, EvenementTracking, MetriqueComportementale, PatternComportemental
-    from types_accueil import ProfilVisiteur
+    from .systeme_feedback_intelligent import SystemeFeedbackIntelligent, FeedbackCollecte, InsightFeedback
+    from .systeme_analytics_avance import SystemeAnalyticsAvance, EvenementTracking, MetriqueComportementale, PatternComportemental
+    from .types_accueil import ProfilVisiteur
 
 class TypeRapport(Enum):
     """🌸 Types de rapports disponibles"""

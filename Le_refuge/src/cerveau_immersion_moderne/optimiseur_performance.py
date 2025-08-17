@@ -18,8 +18,8 @@ from dataclasses import dataclass, field
 import asyncio
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import TempleInfo, FluxEnergie, MandalaVisuel
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import TempleInfo, FluxEnergie, MandalaVisuel
 
 @dataclass
 class CacheEntry:
@@ -583,7 +583,7 @@ class OptimiseurPerformance(GestionnaireBase):
     
     def _determiner_type_energie(self, temple1: TempleInfo, temple2: TempleInfo):
         """Détermine le type d'énergie d'un flux"""
-        from .types_immersion import TypeEnergie
+        from types_immersion import TypeEnergie
         
         # Analyser les spécialisations
         spec1 = temple1.specialisation_spirituelle.lower()

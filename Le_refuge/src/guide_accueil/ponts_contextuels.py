@@ -25,8 +25,8 @@ try:
     from .types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
     from .analyseur_contexte_arrivee import RapportContexteArrivee, TypeSource, TypeAttente
 except ImportError:
-    from types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
-    from analyseur_contexte_arrivee import RapportContexteArrivee, TypeSource, TypeAttente
+    from .types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
+    from .analyseur_contexte_arrivee import RapportContexteArrivee, TypeSource, TypeAttente
 
 
 class TypePont(Enum):
@@ -656,7 +656,7 @@ def main():
     ponts = PontsContextuels()
     
     # Créer un rapport de contexte de test
-    from analyseur_contexte_arrivee import RapportContexteArrivee, ContexteSource, AnalyseMotsCles, AttentesImplicites, TypeSource, TypeAttente, TypeProfil
+    from .analyseur_contexte_arrivee import RapportContexteArrivee, ContexteSource, AnalyseMotsCles, AttentesImplicites, TypeSource, TypeAttente, TypeProfil
     
     rapport_test = RapportContexteArrivee(
         contexte_source=ContexteSource(

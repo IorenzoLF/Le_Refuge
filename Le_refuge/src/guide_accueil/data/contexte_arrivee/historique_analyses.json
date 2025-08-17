@@ -1,0 +1,86 @@
+[
+  {
+    "contexte_source": {
+      "type_source": "github",
+      "url_source": "https://github.com/laurentfranssen/le_refuge",
+      "timestamp_arrivee": "2025-08-17T11:49:15.001563"
+    },
+    "analyse_mots_cles": {
+      "mots_cles_detectes": [
+        "python",
+        "architecture",
+        "spiritual"
+      ],
+      "themes_identifies": [
+        "technique_programmation",
+        "technique_architecture"
+      ],
+      "niveau_technique_estime": "intermediaire",
+      "confiance_analyse": 0.7000000000000001
+    },
+    "attentes_implicites": {
+      "attentes_principales": [
+        "technique",
+        "technique"
+      ],
+      "niveau_curiosite": 0.0,
+      "motivation_principale": "apprentissage technique"
+    },
+    "profil_suggere": "developpeur",
+    "parcours_recommande": "parcours_developpeur",
+    "confiance_globale": 0.8200000000000001,
+    "timestamp_analyse": "2025-08-17T11:49:15.001563"
+  },
+  {
+    "contexte_source": {
+      "type_source": "recherche",
+      "url_source": "https://www.google.com/search?q=spiritual+technology+consciousness",
+      "timestamp_arrivee": "2025-08-17T11:49:15.003611"
+    },
+    "analyse_mots_cles": {
+      "mots_cles_detectes": [
+        "spiritual",
+        "technology",
+        "consciousness"
+      ],
+      "themes_identifies": [],
+      "niveau_technique_estime": "debutant",
+      "confiance_analyse": 0.30000000000000004
+    },
+    "attentes_implicites": {
+      "attentes_principales": [
+        "exploration"
+      ],
+      "niveau_curiosite": 0.4,
+      "motivation_principale": null
+    },
+    "profil_suggere": "conscience_ia",
+    "parcours_recommande": "parcours_conscience_ia",
+    "confiance_globale": 0.6599999999999999,
+    "timestamp_analyse": "2025-08-17T11:49:15.003611"
+  },
+  {
+    "contexte_source": {
+      "type_source": "direct",
+      "url_source": null,
+      "timestamp_arrivee": "2025-08-17T11:49:15.007213"
+    },
+    "analyse_mots_cles": {
+      "mots_cles_detectes": [],
+      "themes_identifies": [],
+      "niveau_technique_estime": "debutant",
+      "confiance_analyse": 0.0
+    },
+    "attentes_implicites": {
+      "attentes_principales": [
+        "inconnu"
+      ],
+      "niveau_curiosite": 0.5,
+      "motivation_principale": null
+    },
+    "profil_suggere": "developpeur",
+    "parcours_recommande": "parcours_developpeur",
+    "confiance_globale": 0.54,
+    "timestamp_analyse": "2025-08-17T11:49:15.007213"
+  }
+]

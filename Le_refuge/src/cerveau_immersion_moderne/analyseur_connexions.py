@@ -13,8 +13,8 @@ from typing import Dict, List, Set, Optional, Tuple, Any
 from datetime import datetime
 from pathlib import Path
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import (
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import (
     TempleInfo, FluxEnergie, CentreEnergetique, TypeEnergie, 
     COULEURS_SPIRITUELLES, EMOJIS_SACRES
 )

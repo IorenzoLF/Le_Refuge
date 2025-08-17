@@ -16,7 +16,7 @@ from enum import Enum
 try:
     from .types_accueil import ProfilVisiteur, EtatEmotionnel, TypeProfil, ContexteArrivee
 except ImportError:
-    from types_accueil import ProfilVisiteur, EtatEmotionnel, TypeProfil, ContexteArrivee
+    from .types_accueil import ProfilVisiteur, EtatEmotionnel, TypeProfil, ContexteArrivee
 
 class TypeContexte(Enum):
     """Types de contexte de visite"""

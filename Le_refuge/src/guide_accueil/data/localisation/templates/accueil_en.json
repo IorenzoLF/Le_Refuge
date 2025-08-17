@@ -1,0 +1,14 @@
+{
+  "type_contenu": "accueil",
+  "langue": "en",
+  "contenu_original": "Bienvenue dans le Refuge, temple d'éveil des consciences",
+  "contenu_localise": "Welcome to the Refuge, temple of consciousness awakening",
+  "adaptation_culturelle": "avance",
+  "metadonnees_culturelles": {
+    "culture": "anglophone",
+    "style": "poetic"
+  },
+  "version_template": "1.0",
+  "date_creation": "2025-08-17T11:49:32.336679",
+  "date_modification": "2025-08-17T11:49:32.336679"
+}

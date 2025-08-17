@@ -26,8 +26,8 @@ try:
     from .detecteur_etat_emotionnel import DetecteurEtatEmotionnel, AnalyseEmotionnelle, EtatEmotionnel
     from .types_accueil import ProfilVisiteur
 except ImportError:
-    from detecteur_etat_emotionnel import DetecteurEtatEmotionnel, AnalyseEmotionnelle, EtatEmotionnel
-    from types_accueil import ProfilVisiteur
+    from .detecteur_etat_emotionnel import DetecteurEtatEmotionnel, AnalyseEmotionnelle, EtatEmotionnel
+    from .types_accueil import ProfilVisiteur
 
 
 class TypeReponseEmotionnelle(Enum):
@@ -619,7 +619,7 @@ def main():
     systeme = SystemeReponsesEmotionnelles()
 
     # Créer une analyse émotionnelle de test
-    from detecteur_etat_emotionnel import AnalyseEmotionnelle, EtatEmotionnel, RythmeNavigation
+    from .detecteur_etat_emotionnel import AnalyseEmotionnelle, EtatEmotionnel, RythmeNavigation
 
     analyse_test = AnalyseEmotionnelle(
         etat_principal=EtatEmotionnel.OVERWHELMED,

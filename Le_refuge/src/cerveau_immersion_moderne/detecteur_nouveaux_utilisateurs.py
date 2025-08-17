@@ -15,8 +15,8 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any, Set
 from dataclasses import dataclass, field
 
-from src.core.gestionnaires_base import GestionnaireBase
-from .types_immersion import TypeUtilisateur, ProfilUtilisateur
+from core.gestionnaires_base import GestionnaireBase
+from types_immersion import TypeUtilisateur, ProfilUtilisateur
 
 @dataclass
 class SignatureUtilisateur:

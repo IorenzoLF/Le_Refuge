@@ -20,8 +20,8 @@ try:
     from .explicateur_contextuel import ExplicateurContextuel, ContexteExplication
     from .types_accueil import TypeProfil, ProfilVisiteur
 except ImportError:
-    from explicateur_contextuel import ExplicateurContextuel, ContexteExplication
-    from types_accueil import TypeProfil, ProfilVisiteur
+    from .explicateur_contextuel import ExplicateurContextuel, ContexteExplication
+    from .types_accueil import TypeProfil, ProfilVisiteur
 
 
 class TypeSagesseSpirituelle(Enum):

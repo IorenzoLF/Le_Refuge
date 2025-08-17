@@ -32,7 +32,7 @@ try:
         InteractionHistorique
     )
 except ImportError:
-    from types_accueil import (
+    from .types_accueil import (
         TypeProfil,
         EtatEmotionnel,
         ContexteArrivee,

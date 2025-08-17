@@ -1,0 +1,14 @@
+{
+  "id_evenement": "evt_20250817_114923_799971_test_visiteur_001",
+  "type_evenement": "navigation",
+  "timestamp": "2025-08-17T11:49:23.799971",
+  "donnees_evenement": {
+    "origine": "accueil",
+    "destination": "temple_eveil",
+    "temps_section": 45
+  },
+  "metadonnees": {
+    "section_destination": "temple_eveil",
+    "temps_section_precedente": 45
+  }
+}

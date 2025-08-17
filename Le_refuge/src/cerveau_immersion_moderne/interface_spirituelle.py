@@ -13,8 +13,8 @@ from typing import Dict, List, Optional, Any, Tuple
 from datetime import datetime
 from dataclasses import dataclass, field
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import (
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import (
     MandalaVisuel, ProfilUtilisateur, ExperienceImmersion,
     FluxEnergie, CentreEnergetique
 )

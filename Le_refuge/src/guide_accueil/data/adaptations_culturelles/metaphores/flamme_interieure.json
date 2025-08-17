@@ -1,0 +1,37 @@
+{
+  "type_metaphore": "feu",
+  "nom_metaphore": "flamme_interieure",
+  "description_universelle": "La flamme intérieure représente la conscience et l'éveil spirituel",
+  "adaptations_culturelles": {
+    "fr": "La flamme intérieure qui brûle dans le cœur",
+    "en": "The inner flame burning in the heart",
+    "es": "La llama interior que arde en el corazón"
+  },
+  "contexte_utilisation": {
+    "fr": "Pour expliquer l'éveil de la conscience",
+    "en": "To explain consciousness awakening",
+    "es": "Para explicar el despertar de la conciencia"
+  },
+  "symboles_associes": {
+    "fr": [
+      "feu",
+      "lumière",
+      "chaleur",
+      "transformation"
+    ],
+    "en": [
+      "fire",
+      "light",
+      "warmth",
+      "transformation"
+    ],
+    "es": [
+      "fuego",
+      "luz",
+      "calor",
+      "transformación"
+    ]
+  },
+  "niveau_appropriation": 4,
+  "validation_culturelle": true
+}

@@ -10,9 +10,9 @@ from typing import Dict, Any, Optional, List, Tuple
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from systeme_sauvegarde_progression import ProgressionVisiteur
-from detecteur_etat_emotionnel import EtatEmotionnel
-from systeme_sagesse_collective import SystemeSagesseCollective
+from .systeme_sauvegarde_progression import ProgressionVisiteur
+from .detecteur_etat_emotionnel import EtatEmotionnel
+from .systeme_sagesse_collective import SystemeSagesseCollective
 
 class TypePrediction(Enum):
     BESOIN_CONTENU = "besoin_contenu"

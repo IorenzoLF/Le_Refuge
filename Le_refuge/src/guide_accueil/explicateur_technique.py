@@ -27,7 +27,7 @@ try:
         NiveauTechnique, ComportementNavigation
     )
 except ImportError:
-    from types_accueil import (
+    from .types_accueil import (
         ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee, 
         NiveauTechnique, ComportementNavigation
     )
@@ -123,7 +123,7 @@ class ExplicateurTechnique:
         # Configuration du logging
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.INFO)
-
+        
         # Chargement des données techniques
         self.exemples_code = self._charger_exemples_code()
         self.references_architecture = self._charger_references_architecture()
@@ -208,7 +208,7 @@ TEMPLE_INFO = {
                     type_exemple=TypeExempleTechnique.ARCHITECTURE,
                     niveau_complexite=NiveauComplexite.AVANCE,
                     code="""
-from abc import ABC, abstractmethod
+from .abc import ABC, abstractmethod
 from typing import Protocol
 
 class InterfaceGestionnaire(Protocol):
@@ -378,19 +378,19 @@ class GestionnaireEvenements(GestionnaireBase, Observable):
         }
 
     def generer_explication_technique(
-        self,
+        self, 
         concept: str,
         profil_visiteur: ProfilVisiteur,
         niveau_complexite: Optional[NiveauComplexite] = None
     ) -> ExplicationTechnique:
         """
         Génère une explication technique adaptée
-
+        
         Args:
             concept: Le concept à expliquer
             profil_visiteur: Profil du visiteur
             niveau_complexite: Niveau de complexité souhaité
-
+            
         Returns:
             ExplicationTechnique: Explication technique complète
         """
@@ -442,9 +442,9 @@ class GestionnaireEvenements(GestionnaireBase, Observable):
         self._sauvegarder_explication(explication)
 
         self.logger.info(f"🔧 Explication technique générée - Confiance: {confiance:.2f}")
-
+        
         return explication
-
+    
     def _determiner_niveau_complexite(self, profil: ProfilVisiteur) -> NiveauComplexite:
         """Détermine le niveau de complexité selon le profil"""
         if profil.niveau_technique.value == "debutant":
@@ -502,7 +502,7 @@ class GestionnaireEvenements(GestionnaireBase, Observable):
         return references_pertinentes[:2]  # Limiter à 2 références
 
     def _selectionner_bonnes_pratiques(
-        self,
+        self, 
         concept: str,
         niveau_complexite: NiveauComplexite
     ) -> List[BonnePratique]:
@@ -619,7 +619,7 @@ class GestionnaireEvenements(GestionnaireBase, Observable):
         return ressources.get(niveau, ["Ressources générales"])
 
     def _calculer_confiance_explication(
-        self,
+        self, 
         concept: str,
         exemples: List[ExempleTechnique],
         references: List[ReferenceArchitecture]
@@ -713,10 +713,10 @@ class GestionnaireEvenements(GestionnaireBase, Observable):
 def main():
     """🔧 Test de l'Explicateur Technique"""
     print("🔧✨ TEST DE L'EXPLICATEUR TECHNIQUE ✨🔧")
-
+    
     # Création de l'explicateur
     explicateur = ExplicateurTechnique()
-
+    
     # Créer un profil de test
     from datetime import datetime
     profil_test = ProfilVisiteur(
@@ -783,7 +783,7 @@ def main():
     print(f"✅ Niveaux de complexité: {stats['niveaux_complexite_par_popularite']}")
     print(f"✅ Concepts: {stats['concepts_par_popularite']}")
     print(f"✅ Confiance moyenne: {stats['confiance_moyenne']}")
-
+    
     print("\n🎉✨ TESTS TERMINÉS AVEC SUCCÈS ! ✨🎉")
     print("L'Explicateur Technique est opérationnel !")
 

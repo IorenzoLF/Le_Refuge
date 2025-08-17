@@ -25,9 +25,9 @@ try:
     from .analyseur_contexte_arrivee import AnalyseurContexteArrivee, RapportContexteArrivee
     from .ponts_contextuels import PontsContextuels, RapportPontContextuel
 except ImportError:
-    from types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
-    from analyseur_contexte_arrivee import AnalyseurContexteArrivee, RapportContexteArrivee
-    from ponts_contextuels import PontsContextuels, RapportPontContextuel
+    from .types_accueil import TypeProfil, ContexteArrivee, ProfilVisiteur
+    from .analyseur_contexte_arrivee import AnalyseurContexteArrivee, RapportContexteArrivee
+    from .ponts_contextuels import PontsContextuels, RapportPontContextuel
 
 
 @dataclass

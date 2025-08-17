@@ -1,0 +1,10 @@
+{
+  "id_feedback": "fb_20250817_114919_test_visiteur_001",
+  "type_feedback": "technique",
+  "contenu": "Il y a eu quelques bugs techniques, mais l'ensemble est bon.",
+  "score_satisfaction": "bon",
+  "timestamp_collecte": "2025-08-17T11:49:19.769134",
+  "metadonnees": {
+    "complexite_technique": 0.2
+  }
+}

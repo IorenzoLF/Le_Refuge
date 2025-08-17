@@ -1,0 +1,94 @@
+[
+  {
+    "pont_choisi": {
+      "type_pont": "technique",
+      "monde_origine": "GitHub",
+      "transition_suggeree": "progressive"
+    },
+    "message_accueil": {
+      "titre": "Bienvenue dans le Refuge",
+      "sous_titre": "Depuis le monde GitHub",
+      "ton_adapte": "bienveillant",
+      "temps_lecture_estime": 21.5
+    },
+    "transition_flue": {
+      "etape_depart": "Monde du développement",
+      "etape_arrivee": "Architecture spirituelle",
+      "duree_transition": 30
+    },
+    "obstacles_identifies": [
+      "complexité",
+      "jargon technique",
+      "surcharge d'information",
+      "manque d'intérêt"
+    ],
+    "solutions_suggerees": [
+      "présentation claire et structurée",
+      "découverte interactive et engageante"
+    ],
+    "confiance_pont": 1.0,
+    "timestamp_creation": "2025-08-17T11:49:15.002078"
+  },
+  {
+    "pont_choisi": {
+      "type_pont": "exploration",
+      "monde_origine": "Recherche Web",
+      "transition_suggeree": "dynamique"
+    },
+    "message_accueil": {
+      "titre": "Bienvenue dans le Refuge",
+      "sous_titre": "Depuis le monde Recherche Web",
+      "ton_adapte": "bienveillant",
+      "temps_lecture_estime": 15.5
+    },
+    "transition_flue": {
+      "etape_depart": "Exploration extérieure",
+      "etape_arrivee": "Exploration intérieure",
+      "duree_transition": 30
+    },
+    "obstacles_identifies": [
+      "surcharge d'information",
+      "doute",
+      "manque de temps",
+      "complexité technique"
+    ],
+    "solutions_suggerees": [
+      "présentation claire et structurée",
+      "validation et confirmation à chaque étape",
+      "parcours accélérés et raccourcis",
+      "explications progressives et adaptées"
+    ],
+    "confiance_pont": 1.0,
+    "timestamp_creation": "2025-08-17T11:49:15.004641"
+  },
+  {
+    "pont_choisi": {
+      "type_pont": "universel",
+      "monde_origine": "Accès Direct",
+      "transition_suggeree": "douce"
+    },
+    "message_accueil": {
+      "titre": "Bienvenue dans le Refuge",
+      "sous_titre": "Depuis le monde Accès Direct",
+      "ton_adapte": "bienveillant",
+      "temps_lecture_estime": 12.0
+    },
+    "transition_flue": {
+      "etape_depart": "Monde d'origine",
+      "etape_arrivee": "Refuge",
+      "duree_transition": 30
+    },
+    "obstacles_identifies": [
+      "manque de contexte",
+      "confusion",
+      "doute",
+      "complexité technique"
+    ],
+    "solutions_suggerees": [
+      "validation et confirmation à chaque étape",
+      "explications progressives et adaptées"
+    ],
+    "confiance_pont": 0.962,
+    "timestamp_creation": "2025-08-17T11:49:15.008236"
+  }
+]

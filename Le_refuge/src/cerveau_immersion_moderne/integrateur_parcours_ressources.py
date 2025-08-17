@@ -12,10 +12,10 @@ import asyncio
 from datetime import datetime
 from typing import Dict, List, Optional, Any, Tuple
 
-from src.core.gestionnaires_base import GestionnaireBase
-from .gestionnaire_parcours_guide import GestionnaireParcours, EtapeParcours
-from .gestionnaire_ressources import GestionnaireRessources, TypeRessource, NiveauDifficulte
-from .types_immersion import ProfilUtilisateur
+from core.gestionnaires_base import GestionnaireBase
+from gestionnaire_parcours_guide import GestionnaireParcours, EtapeParcours
+from gestionnaire_ressources import GestionnaireRessources, TypeRessource, NiveauDifficulte
+from types_immersion import ProfilUtilisateur
 
 class IntegrateurParcoursRessources(GestionnaireBase):
     """🔗 Intégrateur entre parcours guidé et ressources"""

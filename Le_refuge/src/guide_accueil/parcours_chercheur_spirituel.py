@@ -22,8 +22,8 @@ try:
     from .generateur_parcours import GenerateurParcours, ParcourPersonnalise, EtapeParcours, TypeEtape, DifficulteEtape
     from .types_accueil import TypeProfil, ProfilVisiteur, EtatEmotionnel, ContexteArrivee
 except ImportError:
-    from generateur_parcours import GenerateurParcours, ParcourPersonnalise, EtapeParcours, TypeEtape, DifficulteEtape
-    from types_accueil import TypeProfil, ProfilVisiteur, EtatEmotionnel, ContexteArrivee
+    from .generateur_parcours import GenerateurParcours, ParcourPersonnalise, EtapeParcours, TypeEtape, DifficulteEtape
+    from .types_accueil import TypeProfil, ProfilVisiteur, EtatEmotionnel, ContexteArrivee
 
 
 class ParcoursChercheurSpirituel:

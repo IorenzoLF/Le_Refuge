@@ -14,8 +14,8 @@ from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass, field
 from enum import Enum
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import ProfilUtilisateur, TypeUtilisateur, NiveauImmersion
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import ProfilUtilisateur, TypeUtilisateur, NiveauImmersion
 
 class EtapeParcours(Enum):
     """Étapes du parcours guidé"""
@@ -326,7 +326,7 @@ class GestionnaireParcours(GestionnaireBase):
     async def _detecter_profil_initial(self, indices: Dict[str, Any]) -> ProfilUtilisateur:
         """Détecte le profil initial de l'utilisateur"""
         # Utiliser la logique de détection du cerveau principal
-        from .cerveau_immersion_moderne import CerveauImmersionModerne
+        from cerveau_immersion_moderne import CerveauImmersionModerne
         
         cerveau = CerveauImmersionModerne()
         profil = cerveau.detecter_profil_utilisateur(indices)

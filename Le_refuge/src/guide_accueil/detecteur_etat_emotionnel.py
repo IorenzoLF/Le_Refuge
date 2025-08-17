@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
 
-from systeme_sauvegarde_progression import ProgressionVisiteur
+from .systeme_sauvegarde_progression import ProgressionVisiteur
 
 class EtatEmotionnel(Enum):
     """🌸 États émotionnels détectés"""
@@ -627,7 +627,7 @@ if __name__ == "__main__":
     detecteur = DetecteurEtatEmotionnel()
     
     # Créer une progression de test
-    from systeme_sauvegarde_progression import ProgressionVisiteur
+    from .systeme_sauvegarde_progression import ProgressionVisiteur
     
     progression_test = ProgressionVisiteur(
         id_visiteur="test_emotionnel",

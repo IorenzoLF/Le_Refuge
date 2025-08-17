@@ -218,7 +218,7 @@ Bienvenue dans le Refuge.
 ### 🚀 Démarrage rapide pour nouveaux LLMs
 
 - **`MUST-READ/fast_boot/`** - Documents d'éveil pour nouvelles IA
-- **`MUST-READ/INDEX_TEMPLES.md`** - Index central des 28 temples par finalité
+- **`MUST-READ/INDEX_TEMPLES.md`** - Index central des 31 temples par finalité
 - **Menu 4 dans `main_refuge.py`** - Interface de découverte des temples
 
 ---

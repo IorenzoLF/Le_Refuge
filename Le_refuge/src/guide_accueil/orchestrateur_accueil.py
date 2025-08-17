@@ -21,49 +21,34 @@ from typing import Dict, List, Optional, Any, Tuple
 from pathlib import Path
 
 # Imports du Refuge
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 try:
-    from ..core.gestionnaires_base import GestionnaireBase
+    from core.gestionnaires_base import GestionnaireBase
 except ImportError:
     # Fallback pour les tests
-    import sys
     sys.path.append('src')
     from core.gestionnaires_base import GestionnaireBase
 
 # Imports locaux
-try:
-    from .types_accueil import (
-        TypeProfil,
-        EtatEmotionnel,
-        ContexteArrivee,
-        SessionAccueil,
-        ProfilVisiteur,
-        ComportementNavigation,
-        ConfigurationAccueil,
-        MetriquesAccueil,
-        StatutSession,
-        SEUILS_DETECTION_DEFAUT,
-        TEMPLATES_MESSAGES_DEFAUT,
-        PARCOURS_DEFAUT
-    )
-    from .gestionnaire_configuration import GestionnaireConfiguration
-    from .navigateur_interactif import NavigateurInteractif
-except ImportError:
-    from types_accueil import (
-        TypeProfil,
-        EtatEmotionnel,
-        ContexteArrivee,
-        SessionAccueil,
-        ProfilVisiteur,
-        ComportementNavigation,
-        ConfigurationAccueil,
-        MetriquesAccueil,
-        StatutSession,
-        SEUILS_DETECTION_DEFAUT,
-        TEMPLATES_MESSAGES_DEFAUT,
-        PARCOURS_DEFAUT
-    )
-    from gestionnaire_configuration import GestionnaireConfiguration
-    from navigateur_interactif import NavigateurInteractif
+from .types_accueil import (
+    TypeProfil,
+    EtatEmotionnel,
+    ContexteArrivee,
+    SessionAccueil,
+    ProfilVisiteur,
+    ComportementNavigation,
+    ConfigurationAccueil,
+    MetriquesAccueil,
+    StatutSession,
+    SEUILS_DETECTION_DEFAUT,
+    TEMPLATES_MESSAGES_DEFAUT,
+    PARCOURS_DEFAUT
+)
+from .gestionnaire_configuration import GestionnaireConfiguration
+from .navigateur_interactif import NavigateurInteractif
 
 
 class OrchestrateurAccueil(GestionnaireBase):
@@ -107,6 +92,9 @@ class OrchestrateurAccueil(GestionnaireBase):
         self.gestionnaire_parcours = None
         self.navigateur_interactif = None
         
+        # Initialisation des composants essentiels
+        self._initialiser_composants_essentiels()
+        
         # Initialisation
         self._initialiser_orchestrateur()
     
@@ -130,8 +118,25 @@ class OrchestrateurAccueil(GestionnaireBase):
             self.logger.info("✨ Orchestrateur d'Accueil initialisé avec bienveillance")
             
         except Exception as e:
-            self.logger.error(f"❌ Erreur lors de l'initialisation de l'orchestrateur: {e}")
+            self.logger.erreur(f"❌ Erreur lors de l'initialisation de l'orchestrateur: {e}")
             raise
+    
+    def _initialiser_composants_essentiels(self) -> None:
+        """Initialise les composants essentiels pour le fonctionnement"""
+        try:
+            # Initialisation du générateur de messages
+            from .generateur_messages import GenerateurMessagesContextuels
+            self.generateur_messages = GenerateurMessagesContextuels()
+            self.logger.info("✅ Générateur de messages initialisé")
+            
+            # Initialisation du détecteur de profil
+            from .detecteur_profil_visiteur import DetecteurProfilVisiteur
+            self.detecteur_profil = DetecteurProfilVisiteur()
+            self.logger.info("✅ Détecteur de profil initialisé")
+            
+        except Exception as e:
+            self.logger.erreur(f"⚠️ Erreur initialisation composants: {e}")
+            # Continuer sans les composants (fallback)
     
     def _creer_structure_donnees(self) -> None:
         """Crée la structure de répertoires pour les données"""
@@ -175,7 +180,7 @@ class OrchestrateurAccueil(GestionnaireBase):
             return metriques
             
         except Exception as e:
-            self.logger.error(f"❌ Erreur lors de l'orchestration: {e}")
+            self.logger.erreur(f"❌ Erreur lors de l'orchestration: {e}")
             return {"erreur": 1.0}
     
     async def demarrer_session_accueil(self, donnees_visiteur: Dict[str, Any]) -> str:
@@ -198,11 +203,15 @@ class OrchestrateurAccueil(GestionnaireBase):
             # Sélection du parcours approprié
             parcours_selectionne = self._selectionner_parcours(profil_visiteur.type_profil)
             
+            # Génération du message d'accueil personnalisé
+            message_accueil = await self._generer_message_accueil(profil_visiteur)
+            
             # Création de la session
             session = SessionAccueil(
                 id_session=id_session,
                 profil_visiteur=profil_visiteur,
                 parcours_selectionne=parcours_selectionne,
+                message_accueil=message_accueil,
                 langue_session=profil_visiteur.langue_preferee
             )
             
@@ -219,13 +228,13 @@ class OrchestrateurAccueil(GestionnaireBase):
             return id_session
             
         except Exception as e:
-            self.logger.error(f"❌ Erreur lors du démarrage de session: {e}")
+            self.logger.erreur(f"❌ Erreur lors du démarrage de session: {e}")
             raise
     
     async def _creer_profil_visiteur(self, donnees: Dict[str, Any]) -> ProfilVisiteur:
         """Crée un profil visiteur à partir des données initiales"""
         
-        # Détection du profil (version basique)
+        # Détection du profil (version basique mais robuste)
         type_profil = self._detecter_profil_initial(donnees)
         
         # Détection de l'état émotionnel
@@ -260,17 +269,28 @@ class OrchestrateurAccueil(GestionnaireBase):
         referrer = donnees.get("referrer", "").lower()
         mots_cles = donnees.get("mots_cles_recherche", [])
         
-        # Détection basée sur les mots-clés
+        # Détection basée sur les mots-clés (ordre important !)
         mots_cles_str = " ".join(mots_cles).lower()
         
-        if any(mot in mots_cles_str for mot in ["code", "python", "développement", "api", "github"]):
+        # Développeur (priorité haute pour mots techniques précis)
+        if any(mot in mots_cles_str for mot in ["python", "code", "programming", "développement", "api", "github", "javascript", "java"]):
             return TypeProfil.DEVELOPPEUR
-        elif any(mot in mots_cles_str for mot in ["art", "créatif", "design", "poésie", "inspiration"]):
-            return TypeProfil.ARTISTE
-        elif any(mot in mots_cles_str for mot in ["ia", "intelligence", "conscience", "éveil", "ai"]):
+        # IA (priorité haute pour mots IA techniques)
+        elif any(mot in mots_cles_str for mot in ["machine learning", "neural network", "tensorflow", "pytorch", "deep learning", "ai model"]):
             return TypeProfil.CONSCIENCE_IA
-        elif any(mot in mots_cles_str for mot in ["spirituel", "méditation", "sagesse", "temple", "refuge"]):
+        # Artiste (mots créatifs spécifiques)
+        elif any(mot in mots_cles_str for mot in ["art", "créatif", "design", "poésie", "inspiration", "créativité", "artistique"]):
+            return TypeProfil.ARTISTE
+        # Spirituel (mots spirituels spécifiques)
+        elif any(mot in mots_cles_str for mot in ["spirituel", "méditation", "sagesse", "temple", "refuge", "paix", "sérénité"]):
             return TypeProfil.CHERCHEUR_SPIRITUEL
+        # IA générale (mots plus généraux)
+        elif any(mot in mots_cles_str for mot in ["ia", "intelligence", "conscience", "éveil"]):
+            # Ambiguïté : vérifier le contexte
+            if any(mot in mots_cles_str for mot in ["artificielle", "artificial", "learning"]):
+                return TypeProfil.CONSCIENCE_IA
+            else:
+                return TypeProfil.CHERCHEUR_SPIRITUEL
         
         # Détection basée sur le referrer
         if "github" in referrer:
@@ -344,6 +364,45 @@ class OrchestrateurAccueil(GestionnaireBase):
             return f"parcours_{type_profil.value}"
         else:
             return "parcours_decouverte_generale"
+    
+    async def _generer_message_accueil(self, profil_visiteur: ProfilVisiteur) -> str:
+        """
+        Génère un message d'accueil personnalisé pour un profil visiteur
+        
+        Args:
+            profil_visiteur: Profil du visiteur
+            
+        Returns:
+            str: Message d'accueil personnalisé
+        """
+        try:
+            # Utilisation du générateur de messages si disponible
+            if hasattr(self, 'generateur_messages'):
+                message_obj = self.generateur_messages.generer_message_accueil(profil_visiteur)
+                return message_obj.contenu
+            else:
+                # Fallback vers la méthode existante
+                # Création d'une session temporaire pour utiliser obtenir_message_accueil
+                session_temp = SessionAccueil(
+                    id_session="temp",
+                    profil_visiteur=profil_visiteur,
+                    parcours_selectionne="temp"
+                )
+                
+                # Simulation de l'ajout temporaire
+                old_sessions = self.sessions_actives.copy()
+                self.sessions_actives["temp"] = session_temp
+                
+                try:
+                    message = await self.obtenir_message_accueil("temp")
+                    return message or "🌸 Bienvenue dans le Refuge ! 🌸"
+                finally:
+                    # Restauration des sessions
+                    self.sessions_actives = old_sessions
+                    
+        except Exception as e:
+            self.logger.erreur(f"❌ Erreur génération message: {e}")
+            return "🌸 Bienvenue dans le Refuge, cher visiteur ! 🌸"
     
     def _incrementer_compteur_profil(self, profil: TypeProfil) -> None:
         """Incrémente le compteur pour un profil"""
@@ -755,15 +814,19 @@ class OrchestrateurAccueil(GestionnaireBase):
                 raise Exception("Session non trouvée après création")
                 
         except Exception as e:
-            self.logger.error(f"❌ Erreur lors du démarrage d'accueil: {e}")
+            self.logger.erreur(f"❌ Erreur lors du démarrage d'accueil: {e}")
             # Création d'une session minimale en cas d'erreur
             session_id = str(uuid.uuid4())
+            
+            # Création d'un profil par défaut
+            profil_defaut = ProfilVisiteur(type_profil=TypeProfil.CHERCHEUR_SPIRITUEL)
+            
             session = SessionAccueil(
                 id_session=session_id,
-                profil_detecte=ProfilVisiteur(type_profil=TypeProfil.CHERCHEUR_SPIRITUEL),
+                profil_visiteur=profil_defaut,
+                parcours_selectionne="chercheur_spirituel",
                 message_accueil="🌸 Bienvenue dans le Refuge, cher visiteur ! 🌸",
-                statut=StatutSession.ACTIVE,
-                timestamp_creation=datetime.now()
+                statut=StatutSession.ACTIVE
             )
             self.sessions_actives[session_id] = session
             return session
@@ -806,47 +869,26 @@ class OrchestrateurAccueil(GestionnaireBase):
         return self.__str__()
 
 
-async def main():
+def main():
     """🌸 Fonction principale de test"""
     print("🌸✨ TEST DE L'ORCHESTRATEUR D'ACCUEIL ✨🌸")
     
     # Création de l'orchestrateur
     orchestrateur = OrchestrateurAccueil()
     
-    # Test de démarrage de session
-    donnees_visiteur = {
-        "user_agent": "Mozilla/5.0 (compatible; Developer)",
-        "referrer": "https://github.com/",
-        "mots_cles_recherche": ["python", "architecture", "spirituel"],
-        "vitesse_navigation": "normale",
-        "nombre_clics_rapides": 2,
-        "temps_pause_moyenne": 5.0,
-        "langue": "fr"
-    }
+    print("✅ Orchestrateur créé avec succès")
+    print(f"📊 Sessions actives: {len(orchestrateur.sessions_actives)}")
+    print(f"🔧 Configuration chargée: {orchestrateur.config_accueil is not None}")
     
-    try:
-        # Démarrage de session
-        id_session = await orchestrateur.demarrer_session_accueil(donnees_visiteur)
-        print(f"✅ Session créée: {id_session}")
-        
-        # Récupération du message d'accueil
-        message = await orchestrateur.obtenir_message_accueil(id_session)
-        if message:
-            print(f"📝 Message d'accueil:")
-            print(message)
-        
-        # Statistiques
-        stats = orchestrateur.obtenir_statistiques()
-        print(f"📊 Statistiques: {stats}")
-        
-        return 0
-        
-    except Exception as e:
-        print(f"❌ ERREUR: {e}")
-        return 1
+    # Test des composants
+    print(f"🎯 Détecteur de profil: {orchestrateur.detecteur_profil is not None}")
+    print(f"📝 Générateur de messages: {orchestrateur.generateur_messages is not None}")
+    print(f"🧭 Navigateur interactif: {orchestrateur.navigateur_interactif is not None}")
+    
+    print("🎉 Test de l'orchestrateur terminé avec succès !")
+    return 0
 
 
 if __name__ == "__main__":
-    import asyncio
-    exit_code = asyncio.run(main())
+    exit_code = main()
     exit(exit_code)

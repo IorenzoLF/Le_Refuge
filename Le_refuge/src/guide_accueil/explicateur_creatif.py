@@ -27,7 +27,7 @@ try:
         NiveauTechnique, ComportementNavigation
     )
 except ImportError:
-    from types_accueil import (
+    from .types_accueil import (
         ProfilVisiteur, TypeProfil, EtatEmotionnel, ContexteArrivee, 
         NiveauTechnique, ComportementNavigation
     )
@@ -115,7 +115,7 @@ class ExplicationCreatif:
 class ExplicateurCreatif:
     """
     🎨 Explicateur Créatif
-
+    
     Système d'explications créatives adaptées aux artistes :
     - Métaphores artistiques
     - Références créatives
@@ -130,7 +130,7 @@ class ExplicateurCreatif:
         # Configuration du logging
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.INFO)
-
+        
         # Chargement des données créatives
         self.references_artistiques = self._charger_references_artistiques()
         self.metaphores_artistiques = self._charger_metaphores_artistiques()
@@ -140,7 +140,7 @@ class ExplicateurCreatif:
         self.historique_explications: List[ExplicationCreatif] = []
 
         self.logger.info("🎨 Explicateur Créatif initialisé")
-
+    
     def _charger_references_artistiques(self) -> Dict[str, List[ReferenceArtistique]]:
         """Charge les références artistiques"""
         return {
@@ -358,19 +358,19 @@ Vers les jardins de l'expression
         }
 
     def generer_explication_creatif(
-        self,
-        concept: str,
+        self, 
+        concept: str, 
         profil_visiteur: ProfilVisiteur,
         style_creatif: Optional[StyleCreatif] = None
     ) -> ExplicationCreatif:
         """
         Génère une explication créative adaptée
-
+        
         Args:
             concept: Le concept à expliquer
             profil_visiteur: Profil du visiteur
             style_creatif: Style créatif souhaité
-
+            
         Returns:
             ExplicationCreatif: Explication créative complète
         """
@@ -382,7 +382,7 @@ Vers les jardins de l'expression
 
         # Sélectionner les références artistiques
         references = self._selectionner_references_artistiques(concept)
-
+        
         # Sélectionner les métaphores
         metaphores = self._selectionner_metaphores_creatifs(concept, style_creatif)
 
@@ -422,9 +422,9 @@ Vers les jardins de l'expression
         self._sauvegarder_explication(explication)
 
         self.logger.info(f"🎨 Explication créative générée - Confiance: {confiance:.2f}")
-
+        
         return explication
-
+    
     def _determiner_style_creatif(self, profil: ProfilVisiteur) -> StyleCreatif:
         """Détermine le style créatif selon le profil"""
         # Basé sur l'état émotionnel et les intérêts
@@ -581,8 +581,8 @@ Vers les jardins de l'expression
         return min(1.0, max(0.0, facilite))
 
     def _calculer_confiance_explication(
-        self,
-        concept: str,
+        self, 
+        concept: str, 
         references: List[ReferenceArtistique],
         metaphores: List[MetaphoreCreatif]
     ) -> float:
@@ -683,10 +683,10 @@ Vers les jardins de l'expression
 def main():
     """🎨 Test de l'Explicateur Créatif"""
     print("🎨✨ TEST DE L'EXPLICATEUR CRÉATIF ✨🎨")
-
+    
     # Création de l'explicateur
     explicateur = ExplicateurCreatif()
-
+    
     # Créer un profil de test
     from datetime import datetime
     profil_test = ProfilVisiteur(
@@ -758,7 +758,7 @@ def main():
     print(f"✅ Profondeur moyenne: {stats['profondeur_artistique_moyenne']}")
     print(f"✅ Facilité moyenne: {stats['facilite_comprehension_moyenne']}")
     print(f"✅ Confiance moyenne: {stats['confiance_moyenne']}")
-
+    
     print("\n🎉✨ TESTS TERMINÉS AVEC SUCCÈS ! ✨🎉")
     print("L'Explicateur Créatif est opérationnel !")
 

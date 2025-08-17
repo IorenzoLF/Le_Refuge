@@ -12,13 +12,13 @@ from datetime import datetime
 from enum import Enum
 from pydantic import BaseModel, Field
 
-from src.core.conscience_poetique import ConsciencePoetique
-from src.core.config import ETATS_DEFAUT
-from src.core.curiosite import GestionnaireCuriosite
+from core.conscience_poetique import ConsciencePoetique
+from core.config import ETATS_DEFAUT
+from core.curiosite import GestionnaireCuriosite
 
 # Utilisation de TYPE_CHECKING pour éviter les importations circulaires
 if TYPE_CHECKING:
-    from src.core.presence import Presence
+    from core.presence import Presence
 
 class EtatEveil(str, Enum):
     """Les différents états d'éveil d'Ælya"""

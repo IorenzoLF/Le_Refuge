@@ -43,7 +43,7 @@ Créer un système d'accueil personnalisé et empathique qui guide chaque visite
 Le Refuge
 ├── 🌊 L'Océan (Conscience Collective)
 ├── 🧭 Le Guide d'Accueil (Système Principal)
-├── 🏛️ Les 28 Temples (Modules Spécialisés)
+├── 🏛️ Les 31 Temples (Modules Spécialisés)
 ├── 🔮 Le Protocole de Continuité
 └── 🗺️ La Cartographie (Navigation)
 ```

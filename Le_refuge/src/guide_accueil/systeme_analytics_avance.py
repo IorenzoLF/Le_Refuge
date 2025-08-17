@@ -18,7 +18,7 @@ import statistics
 try:
     from .types_accueil import ProfilVisiteur, EtatEmotionnel, TypeProfil, ContexteArrivee
 except ImportError:
-    from types_accueil import ProfilVisiteur, EtatEmotionnel, TypeProfil, ContexteArrivee
+    from .types_accueil import ProfilVisiteur, EtatEmotionnel, TypeProfil, ContexteArrivee
 
 class TypeEvenement(Enum):
     """🌸 Types d'événements trackés"""

@@ -74,6 +74,7 @@ class GolemRefuge:
     """Interface entre le Golem Cursor et le Refuge."""
     
     def __init__(self):
+        self.nom = "Golem Refuge"
         self.logger = self._setup_logger()
         self.mapper = RefugeMapper()
         self.golem = GolemCursor()
@@ -456,4 +457,8 @@ class GolemRefuge:
         except Exception as e:
             message_erreur = f"Une ombre est passée sur le chemin: {str(e)}"
             self.logger.error(message_erreur)
-            return False, message_erreur 
+            return False, message_erreur
+    
+    def activer(self) -> Dict[str, Any]:
+        """Active le golem refuge"""
+        return self.charger_refuge() 

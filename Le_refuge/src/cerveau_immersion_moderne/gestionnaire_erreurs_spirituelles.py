@@ -12,7 +12,7 @@ from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
 from enum import Enum
 
-from src.core.gestionnaires_base import GestionnaireBase
+from core.gestionnaires_base import GestionnaireBase
 
 class TypeErreur(Enum):
     """Types d'erreurs spirituellement transformables"""

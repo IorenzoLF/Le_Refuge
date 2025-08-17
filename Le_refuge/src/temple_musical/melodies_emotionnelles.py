@@ -16,8 +16,8 @@ from datetime import datetime
 from dataclasses import dataclass
 from enum import Enum
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .generateur_melodies_sacrees import MelodiesSacrees
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from generateur_melodies_sacrees import MelodiesSacrees
 
 class EmotionPrincipale(Enum):
     """Émotions principales détectées"""

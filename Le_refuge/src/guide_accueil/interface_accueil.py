@@ -22,17 +22,17 @@ try:
     from .navigateur_interactif import NavigateurInteractif
     from .explicateur_contextuel import ExplicateurContextuel
 except ImportError:
-    from types_accueil import TypeProfil, ProfilVisiteur, ParcourPersonnalise, EtapeParcours
-    from detecteur_profil_visiteur import DetecteurProfilVisiteur
-    from navigateur_interactif import NavigateurInteractif
-    from explicateur_contextuel import ExplicateurContextuel
+    from .types_accueil import TypeProfil, ProfilVisiteur, ParcourPersonnalise, EtapeParcours
+    from .detecteur_profil_visiteur import DetecteurProfilVisiteur
+    from .navigateur_interactif import NavigateurInteractif
+    from .explicateur_contextuel import ExplicateurContextuel
 
 # Import conditionnel pour OrchestrateurAccueil
 try:
     from .orchestrateur_accueil import OrchestrateurAccueil
 except ImportError:
     try:
-        from orchestrateur_accueil import OrchestrateurAccueil
+        from .orchestrateur_accueil import OrchestrateurAccueil
     except ImportError:
         # Fallback si OrchestrateurAccueil n'est pas disponible
         class OrchestrateurAccueil:
@@ -40,7 +40,7 @@ except ImportError:
                 pass
             
             def generer_message_bienvenue(self, profil):
-                from types_accueil import MessageAccueil, TypeMessage, NiveauPersonnalisation
+                from .types_accueil import MessageAccueil, TypeMessage, NiveauPersonnalisation
                 return MessageAccueil(
                     contenu=f"Bienvenue {profil.type_profil.value} !",
                     type_message=TypeMessage.BIENVENUE,
@@ -58,7 +58,7 @@ except ImportError:
                 }
             
             def generer_parcours_personnalise(self, profil, type_parcours):
-                from types_accueil import EtapeParcours, ParcourPersonnalise
+                from .types_accueil import EtapeParcours, ParcourPersonnalise
                 etape = EtapeParcours(
                     id_etape="etape_test",
                     titre="Étape de test",

@@ -13,8 +13,8 @@ from datetime import datetime
 from typing import Dict, List, Optional, Any
 from pathlib import Path
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from src.core.types_communs import TypeRefugeEtat
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from core.types_communs import TypeRefugeEtat
 from .types_immersion import *
 
 class CerveauImmersionModerne(GestionnaireBase):

@@ -22,8 +22,8 @@ try:
     from .generateur_parcours import GenerateurParcours, ParcourPersonnalise, EtapeParcours, TypeEtape, DifficulteEtape
     from .types_accueil import TypeProfil, ProfilVisiteur, NiveauTechnique
 except ImportError:
-    from generateur_parcours import GenerateurParcours, ParcourPersonnalise, EtapeParcours, TypeEtape, DifficulteEtape
-    from types_accueil import TypeProfil, ProfilVisiteur, NiveauTechnique
+    from .generateur_parcours import GenerateurParcours, ParcourPersonnalise, EtapeParcours, TypeEtape, DifficulteEtape
+    from .types_accueil import TypeProfil, ProfilVisiteur, NiveauTechnique
 
 
 @dataclass
@@ -162,8 +162,8 @@ class TempleSimple:
             "integration_api": ExempleDeveloppeur(
                 titre="🔌 Intégration API Spirituelle",
                 description="Exemple d'API REST avec approche bienveillante",
-                code='''from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+                code='''from .fastapi import FastAPI, HTTPException
+from .pydantic import BaseModel
 from typing import Optional, Dict, Any
 
 app = FastAPI(
@@ -496,7 +496,7 @@ def main():
     parcours_dev = ParcoursDeveloppeur()
     
     # Création d'un profil développeur de test
-    from types_accueil import EtatEmotionnel, ContexteArrivee
+    from .types_accueil import EtatEmotionnel, ContexteArrivee
     
     profil_dev = ProfilVisiteur(
         id_visiteur="dev_expert",

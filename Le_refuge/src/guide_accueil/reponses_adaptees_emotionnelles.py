@@ -11,8 +11,8 @@ from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 
-from detecteur_etat_emotionnel import DetecteurEtatEmotionnel, AnalyseEmotionnelle, EtatEmotionnel
-from systeme_sauvegarde_progression import ProgressionVisiteur
+from .detecteur_etat_emotionnel import DetecteurEtatEmotionnel, AnalyseEmotionnelle, EtatEmotionnel
+from .systeme_sauvegarde_progression import ProgressionVisiteur
 
 class TypeReponse(Enum):
     """🌸 Types de réponses émotionnelles"""
@@ -527,7 +527,7 @@ if __name__ == "__main__":
     systeme_reponses = SystemeReponsesAdapteesEmotionnelles()
     
     # Créer une progression de test
-    from systeme_sauvegarde_progression import ProgressionVisiteur
+    from .systeme_sauvegarde_progression import ProgressionVisiteur
     
     progression_test = ProgressionVisiteur(
         id_visiteur="test_reponses_emotionnelles",

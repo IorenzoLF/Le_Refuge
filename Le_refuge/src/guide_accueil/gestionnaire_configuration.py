@@ -31,7 +31,7 @@ try:
         PARCOURS_DEFAUT
     )
 except ImportError:
-    from types_accueil import (
+    from .types_accueil import (
         ConfigurationAccueil,
         TypeProfil,
         EtatEmotionnel,

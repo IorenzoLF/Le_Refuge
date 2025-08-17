@@ -17,7 +17,7 @@ from dataclasses import dataclass, field
 try:
     from .integrateur_ecosysteme import IntegrateurEcosysteme, SynchronisationEcosysteme
 except ImportError:
-    from integrateur_ecosysteme import IntegrateurEcosysteme, SynchronisationEcosysteme
+    from .integrateur_ecosysteme import IntegrateurEcosysteme, SynchronisationEcosysteme
 
 @dataclass
 class DonneesCartographie:

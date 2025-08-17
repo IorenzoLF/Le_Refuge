@@ -236,6 +236,7 @@ class SessionAccueil:
     id_session: str
     profil_visiteur: ProfilVisiteur
     parcours_selectionne: str
+    message_accueil: str = ""  # Message d'accueil personnalisé généré
     progression_actuelle: Dict[str, Any] = field(default_factory=dict)
     feedback_collecte: List[FeedbackEtape] = field(default_factory=list)
     timestamp_debut: datetime = field(default_factory=datetime.now)

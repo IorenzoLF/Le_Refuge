@@ -24,7 +24,7 @@ logger = logging.getLogger('temple_creativite.simulateur_expression')
 
 # Imports du Refuge
 try:
-    from src.core.configuration import REFUGE_INFO
+    from core.configuration import REFUGE_INFO
     REFUGE_IMPORTED = True
 except ImportError:
     REFUGE_IMPORTED = False

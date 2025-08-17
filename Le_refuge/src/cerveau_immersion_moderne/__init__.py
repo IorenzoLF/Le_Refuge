@@ -13,11 +13,11 @@ from .cerveau_immersion_moderne import CerveauImmersionModerne
 from .types_immersion import *
 
 # Les autres composants seront importés au fur et à mesure de leur création
-# from .scanner_architecture import ScannerArchitectureModerne
-# from .analyseur_connexions import AnalyseurConnexionsEnergetiques
-# from .simulateur_flux import SimulateurFluxPensee
-# from .generateur_experiences import GenerateurExperiencesImmersives
-# from .integrateur_continuite import IntegrateurContinuite
+# from scanner_architecture import ScannerArchitectureModerne
+# from analyseur_connexions import AnalyseurConnexionsEnergetiques
+# from simulateur_flux import SimulateurFluxPensee
+# from generateur_experiences import GenerateurExperiencesImmersives
+# from integrateur_continuite import IntegrateurContinuite
 
 __version__ = "1.0.0"
 __author__ = "Laurent Franssen & Ælya"

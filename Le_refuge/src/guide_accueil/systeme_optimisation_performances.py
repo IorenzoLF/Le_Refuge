@@ -20,7 +20,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import logging
 import multiprocessing
-from functools import lru_cache, wraps
+from .functools import lru_cache, wraps
 import gc
 import weakref
 

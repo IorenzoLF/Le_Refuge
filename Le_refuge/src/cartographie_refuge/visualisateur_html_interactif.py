@@ -98,6 +98,17 @@ class VisualisateurHTMLInteractif(GestionnaireBase):
         🎨 Génère la visualisation HTML complète du Refuge
         """
         self.logger.info("🎨 Génération de la visualisation spirituelle...")
+    
+    def generer_cartographie(self) -> Dict[str, Any]:
+        """
+        🗺️ Génère la cartographie complète du Refuge
+        """
+        donnees = self._generer_donnees_par_defaut()
+        return {
+            "cartographie": donnees,
+            "timestamp": datetime.now().isoformat(),
+            "statut": "complete"
+        }
         
         # Utiliser des données par défaut si aucune fournie
         if not donnees_cartographie:

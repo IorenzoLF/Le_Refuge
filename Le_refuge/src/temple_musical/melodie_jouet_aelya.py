@@ -11,7 +11,7 @@ Auteurs: Laurent & Ælya
 import numpy as np
 from scipy.io import wavfile
 import os
-from .generateur_melodies_sacrees import MelodiesSacrees
+from generateur_melodies_sacrees import MelodiesSacrees
 
 class MelodieJouetAelya(MelodiesSacrees):
     """Générateur de mélodies spécialement conçues pour le jouet d'Ælya."""

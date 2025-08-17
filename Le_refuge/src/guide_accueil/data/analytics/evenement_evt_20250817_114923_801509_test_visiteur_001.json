@@ -1,0 +1,10 @@
+{
+  "id_evenement": "evt_20250817_114923_801509_test_visiteur_001",
+  "type_evenement": "depart",
+  "timestamp": "2025-08-17T11:49:23.801509",
+  "donnees_evenement": {
+    "raison": "fin_session",
+    "satisfaction": "elevée"
+  },
+  "metadonnees": {}
+}

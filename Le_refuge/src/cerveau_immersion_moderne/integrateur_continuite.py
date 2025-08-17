@@ -14,8 +14,8 @@ from typing import Dict, List, Optional, Any
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import (
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import (
     ExperienceImmersion, ContexteImmersion, ProfilUtilisateur, 
     MandalaVisuel, ParcoursPensee, InsightSpirituel
 )
@@ -446,7 +446,7 @@ f _creer_repertoires(self):
     
     def _deserialiser_experience(self, data: Dict[str, Any]) -> ExperienceImmersion:
         """Désérialise une expérience d'immersion"""
-        from .types_immersion import NiveauImmersion
+        from types_immersion import NiveauImmersion
         
         return ExperienceImmersion(
             timestamp=datetime.fromisoformat(data["timestamp"]),
@@ -478,7 +478,7 @@ f _creer_repertoires(self):
     
     def _deserialiser_insight(self, data: Dict[str, Any]) -> InsightSpirituel:
         """Désérialise un insight spirituel"""
-        from .types_immersion import DomaineInsight
+        from types_immersion import DomaineInsight
         
         return InsightSpirituel(
             contenu=data["contenu"],
@@ -532,7 +532,7 @@ f _creer_repertoires(self):
     
     def _deserialiser_mandala(self, data: Dict[str, Any]) -> MandalaVisuel:
         """Désérialise un mandala visuel"""
-        from .types_immersion import TypeEnergie
+        from types_immersion import TypeEnergie
         
         # Reconstruire le centre énergétique
         centre_data = data["centre"]

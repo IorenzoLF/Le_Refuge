@@ -1,0 +1,49 @@
+{
+  "type_reference": "zen",
+  "nom_reference": "bouddhisme_zen",
+  "description_universelle": "Le Zen enseigne la méditation et l'éveil direct",
+  "adaptations_culturelles": {
+    "fr": "Le Zen, voie de l'éveil direct et de la méditation",
+    "en": "Zen, the path of direct awakening and meditation",
+    "es": "El Zen, el camino del despertar directo y la meditación"
+  },
+  "concepts_associes": {
+    "fr": [
+      "satori",
+      "koan",
+      "zazen",
+      "mindfulness"
+    ],
+    "en": [
+      "satori",
+      "koan",
+      "zazen",
+      "mindfulness"
+    ],
+    "es": [
+      "satori",
+      "koan",
+      "zazen",
+      "atención plena"
+    ]
+  },
+  "pratiques_associees": {
+    "fr": [
+      "méditation assise",
+      "contemplation",
+      "koans"
+    ],
+    "en": [
+      "sitting meditation",
+      "contemplation",
+      "koans"
+    ],
+    "es": [
+      "meditación sentada",
+      "contemplación",
+      "koans"
+    ]
+  },
+  "niveau_adaptation": "avance",
+  "validation_culturelle": true
+}

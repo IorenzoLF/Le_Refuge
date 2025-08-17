@@ -21,9 +21,9 @@ try:
     from .navigateur_interactif import NavigateurInteractif, TypeNavigation, TypeAction
     from .explicateur_contextuel import ExplicateurContextuel
 except ImportError:
-    from types_accueil import TypeProfil, ProfilVisiteur, ParcourPersonnalise, EtapeParcours
-    from navigateur_interactif import NavigateurInteractif, TypeNavigation, TypeAction
-    from explicateur_contextuel import ExplicateurContextuel
+    from .types_accueil import TypeProfil, ProfilVisiteur, ParcourPersonnalise, EtapeParcours
+    from .navigateur_interactif import NavigateurInteractif, TypeNavigation, TypeAction
+    from .explicateur_contextuel import ExplicateurContextuel
 
 
 class TypeControle(Enum):

@@ -14,7 +14,7 @@ from enum import Enum
 import colorsys
 import math
 
-from .types_immersion import ProfilUtilisateur, TypeUtilisateur
+from types_immersion import ProfilUtilisateur, TypeUtilisateur
 
 class StyleAnimation(Enum):
     """Styles d'animation disponibles"""

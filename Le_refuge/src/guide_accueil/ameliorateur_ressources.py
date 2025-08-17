@@ -18,8 +18,8 @@ try:
     from .integrateur_ecosysteme import IntegrateurEcosysteme, SynchronisationEcosysteme
     from .types_accueil import ProfilVisiteur
 except ImportError:
-    from integrateur_ecosysteme import IntegrateurEcosysteme, SynchronisationEcosysteme
-    from types_accueil import ProfilVisiteur
+    from .integrateur_ecosysteme import IntegrateurEcosysteme, SynchronisationEcosysteme
+    from .types_accueil import ProfilVisiteur
 
 @dataclass
 class RessourceAmelioree:
@@ -470,7 +470,7 @@ if __name__ == "__main__":
         try:
             from .types_accueil import TypeProfil, EtatEmotionnel, ContexteArrivee
         except ImportError:
-            from types_accueil import TypeProfil, EtatEmotionnel, ContexteArrivee
+            from .types_accueil import TypeProfil, EtatEmotionnel, ContexteArrivee
         
         profil_test = ProfilVisiteur(
             id_visiteur="test_developpeur_001",

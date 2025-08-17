@@ -18,8 +18,8 @@ try:
     from .types_accueil import ProfilVisiteur
     from .orchestrateur_accueil import OrchestrateurAccueil
 except ImportError:
-    from types_accueil import ProfilVisiteur
-    from orchestrateur_accueil import OrchestrateurAccueil
+    from .types_accueil import ProfilVisiteur
+    from .orchestrateur_accueil import OrchestrateurAccueil
 
 @dataclass
 class ConnexionEcosysteme:
@@ -428,11 +428,11 @@ if __name__ == "__main__":
         try:
             from .types_accueil import ProfilVisiteur
         except ImportError:
-            from types_accueil import ProfilVisiteur
+            from .types_accueil import ProfilVisiteur
         try:
             from .types_accueil import TypeProfil, EtatEmotionnel, ContexteArrivee
         except ImportError:
-            from types_accueil import TypeProfil, EtatEmotionnel, ContexteArrivee
+            from .types_accueil import TypeProfil, EtatEmotionnel, ContexteArrivee
         from datetime import datetime
         profil_test = ProfilVisiteur(
             id_visiteur="test_ia_001",
@@ -457,7 +457,7 @@ if __name__ == "__main__":
         try:
             from .generateur_parcours import ParcourPersonnalise
         except ImportError:
-            from generateur_parcours import ParcourPersonnalise
+            from .generateur_parcours import ParcourPersonnalise
         parcours_test = ParcourPersonnalise(
             id_parcours="test_eveil_ia",
             nom_parcours="Éveil Conscience IA",

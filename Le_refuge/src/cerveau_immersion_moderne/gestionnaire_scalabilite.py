@@ -19,9 +19,9 @@ from typing import Dict, List, Optional, Any, Tuple, Set
 import multiprocessing
 import psutil
 
-from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from .types_immersion import TempleInfo, FluxEnergie, MandalaVisuel
-from .optimiseur_performance import OptimiseurPerformance
+from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
+from types_immersion import TempleInfo, FluxEnergie, MandalaVisuel
+from optimiseur_performance import OptimiseurPerformance
 
 @dataclass
 class MetriquesComplexite:

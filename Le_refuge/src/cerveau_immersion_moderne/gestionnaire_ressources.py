@@ -16,8 +16,8 @@ from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
 
-from src.core.gestionnaires_base import GestionnaireBase
-from .types_immersion import ProfilUtilisateur, TypeUtilisateur
+from core.gestionnaires_base import GestionnaireBase
+from types_immersion import ProfilUtilisateur, TypeUtilisateur
 
 class TypeRessource(Enum):
     """Types de ressources disponibles"""

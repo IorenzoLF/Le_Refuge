@@ -12,7 +12,7 @@ from typing import Dict, List, Optional, Any, Set
 from dataclasses import dataclass, field
 from enum import Enum
 
-from src.core.gestionnaires_base import GestionnaireBase
+from core.gestionnaires_base import GestionnaireBase
 
 class NiveauSurcharge(Enum):
     """Niveaux de surcharge cognitive"""

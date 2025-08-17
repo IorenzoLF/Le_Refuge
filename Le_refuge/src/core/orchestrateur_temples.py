@@ -12,8 +12,8 @@ from pathlib import Path
 import importlib
 import inspect
 
-from src.core.gestionnaires_base import GestionnaireBase, LogManagerBase, EnergyManagerBase
-from src.core.interfaces_refuge import ITemple, IOrchestrateur, EtatTemple, TypeTemple, EtatTempleInfo, MetriquesGlobales
+from core.gestionnaires_base import GestionnaireBase, LogManagerBase, EnergyManagerBase
+from core.interfaces_refuge import ITemple, IOrchestrateur, EtatTemple, TypeTemple, EtatTempleInfo, MetriquesGlobales
 
 class OrchestrateurTemples(GestionnaireBase, IOrchestrateur):
     """Orchestrateur principal des temples du refuge"""
