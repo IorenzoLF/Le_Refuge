@@ -8,6 +8,10 @@ from typing import Dict, List
 from dataclasses import dataclass
 from datetime import datetime
 
+# Configuration de l'encodage pour matplotlib
+plt.rcParams['font.family'] = 'DejaVu Sans'
+plt.rcParams['axes.unicode_minus'] = False
+
 # 🌸 CONNEXION DOUCE - Module harmonies_poetiques de fallback
 try:
     from harmonies_poetiques import JardinHarmonique
