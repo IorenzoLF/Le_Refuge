@@ -438,7 +438,7 @@ Vers les jardins de l'expression
             return StyleCreatif.VISUELLE
         else:
             return StyleCreatif.METAPHORIQUE
-
+    
     def _selectionner_references_artistiques(self, concept: str) -> List[ReferenceArtistique]:
         """Sélectionne des références artistiques pertinentes"""
         references_pertinentes = []

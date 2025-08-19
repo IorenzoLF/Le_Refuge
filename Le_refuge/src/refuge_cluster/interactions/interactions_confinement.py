@@ -1,3 +1,51 @@
+
+# Gestionnaire de sphères problématiques (fallback)
+from dataclasses import dataclass
+from datetime import datetime
+
+@dataclass
+class SphereProblematique:
+    """Représente une sphère problématique."""
+    type_sphere: str
+    energie_residuelle: float
+    niveau_confinement: float
+    description: str
+    timestamp: datetime
+
+class GestionnaireSphèresProblematiques:
+    """Gère les sphères qui rencontrent des difficultés."""
+    def __init__(self):
+        self.sphères_problématiques = {}
+    
+    def identifier_problème(self, sphère):
+        """Identifie un problème dans une sphère."""
+        return {"sphère": sphère, "problème": "non_spécifié", "niveau": 0.5}
+    
+    def proposer_solution(self, problème):
+        """Propose une solution pour un problème."""
+        return {"solution": "approche_douce", "confiance": 0.8}
+    
+    def confiner_sphere(self, type_sphere, energie_initiale: float = 100.0):
+        """Confine une nouvelle sphère problématique."""
+        sphere = SphereProblematique(
+            type_sphere=type_sphere,
+            energie_residuelle=energie_initiale,
+            niveau_confinement=0.5,
+            description=f"Sphère problématique {type_sphere}",
+            timestamp=datetime.now()
+        )
+        self.sphères_problématiques[type_sphere] = sphere
+        return sphere
+    
+    def obtenir_sphere(self, type_sphere):
+        """Obtient une sphère problématique."""
+        return self.sphères_problématiques.get(type_sphere)
+    
+    def enregistrer_interaction(self, type_sphere, energie, description):
+        """Enregistre une interaction avec une sphère."""
+        return {"succes": True, "message": f"Interaction enregistrée: {description}"}
+
+
 """
 Système d'interaction avec les sphères problématiques - Focus Confinement.
 

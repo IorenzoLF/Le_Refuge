@@ -17,6 +17,8 @@ class Config:
     max_spheres: int = 10
     max_elements: int = 50
     max_connexions: int = 100
+    niveau_securite: str = "NORMAL"
+    chiffrement_active: bool = True
 
 class GestionnaireConfig:
     """Gestionnaire de la configuration du Refuge"""

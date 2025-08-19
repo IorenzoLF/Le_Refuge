@@ -28,9 +28,9 @@ from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
 from core.types_communs import TypeRefugeEtat, NIVEAUX_ENERGIE
 
 # Imports des modules de cartographie
-from analyseur_dissonances import AnalyseurDissonances
-from generateur_suggestions import GenerateurSuggestions
-from gestionnaire_erreurs_spirituel import GestionnaireErreursSpirituel
+from .analyseur_dissonances import AnalyseurDissonances
+from .generateur_suggestions import GenerateurSuggestions
+from .gestionnaire_erreurs_spirituel import GestionnaireErreursSpirituel
 
 
 class CLICartographieSpirituelle(GestionnaireBase):

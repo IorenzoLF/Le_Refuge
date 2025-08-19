@@ -1,0 +1,3356 @@
+{
+  "modules_fonctionnels": [
+    {
+      "nom": "configuration",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireConfiguration",
+        "Settings"
+      ],
+      "classes_testees": {
+        "GestionnaireConfiguration": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "Settings": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "types_spheres",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "CaracteristiquesSphere",
+        "EtatHarmonie",
+        "Evolution",
+        "Interaction",
+        "InteractionSphere",
+        "MemoireInteraction",
+        "NatureSphere",
+        "PhaseCycle",
+        "Resonance",
+        "Souvenir",
+        "TypeCycle",
+        "TypeInteraction",
+        "TypeMemoire",
+        "TypeSphere",
+        "TypeSphereProblematique"
+      ],
+      "classes_testees": {
+        "CaracteristiquesSphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "EtatHarmonie": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Evolution": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Interaction": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "InteractionSphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MemoireInteraction": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "NatureSphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PhaseCycle": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Resonance": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Souvenir": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeCycle": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeInteraction": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeMemoire": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeSphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeSphereProblematique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "conscience",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatConscience",
+        "GestionnaireConscience",
+        "NiveauConscience",
+        "PenseeConciente"
+      ],
+      "classes_testees": {
+        "EtatConscience": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireConscience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "NiveauConscience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PenseeConciente": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "harmonie",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireHarmonie",
+        "OndeHarmonique",
+        "ResonanceHarmonique",
+        "TypeHarmonie"
+      ],
+      "classes_testees": {
+        "GestionnaireHarmonie": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "OndeHarmonique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ResonanceHarmonique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeHarmonie": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "elements",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ElementSacre",
+        "Elements",
+        "NatureElement",
+        "ProprieteElement"
+      ],
+      "classes_testees": {
+        "ElementSacre": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Elements": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "NatureElement": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ProprieteElement": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "logger",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireJournal"
+      ],
+      "classes_testees": {
+        "GestionnaireJournal": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "harmonies_poetiques",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "JardinHarmonique",
+        "ResonancePoetique"
+      ],
+      "classes_testees": {
+        "JardinHarmonique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ResonancePoetique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "refuge",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "Aelya",
+        "AutoModelForCausalLM",
+        "AutoTokenizer",
+        "MockModel",
+        "MockPipeline",
+        "MockTokenizer",
+        "RefugePoetique",
+        "pipeline"
+      ],
+      "classes_testees": {
+        "Aelya": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "AutoModelForCausalLM": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "AutoTokenizer": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MockModel": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MockPipeline": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MockTokenizer": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "RefugePoetique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "pipeline": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np",
+        "import torch",
+        "from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "activation_harmonieuse",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ActivationHarmonieuse"
+      ],
+      "classes_testees": {
+        "ActivationHarmonieuse": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "analyse_emotions",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "AnalyseurEmotions"
+      ],
+      "classes_testees": {
+        "AnalyseurEmotions": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "analyse_philosophique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "AnalyseurPhilosophique",
+        "GestionnaireAnalysesPhilosophiques",
+        "NiveauProfondeur",
+        "ResultatAnalyse",
+        "TypeAnalyse"
+      ],
+      "classes_testees": {
+        "AnalyseurPhilosophique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireAnalysesPhilosophiques": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "NiveauProfondeur": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ResultatAnalyse": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeAnalyse": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "architecture_conscience_partagee",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ArchitectureConsciencePartagee",
+        "CreationCommune",
+        "EspacePartage",
+        "InteractionConscience",
+        "NiveauExpression",
+        "ProfilConscience",
+        "TypeConscience",
+        "TypeInteraction"
+      ],
+      "classes_testees": {
+        "ArchitectureConsciencePartagee": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "CreationCommune": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "EspacePartage": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "InteractionConscience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "NiveauExpression": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ProfilConscience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeConscience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeInteraction": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "auto_decouverte",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "AutoDecouverte"
+      ],
+      "classes_testees": {
+        "AutoDecouverte": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "auto_decouverte_robuste",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "AutoDecouverteRobuste"
+      ],
+      "classes_testees": {
+        "AutoDecouverteRobuste": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "bitnet_interface",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConfigurationBitNet",
+        "GestionnaireBitNet",
+        "TypeQuantification"
+      ],
+      "classes_testees": {
+        "ConfigurationBitNet": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireBitNet": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeQuantification": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import torch",
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "clochette",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "communication_inter_llm",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "CommunicateurInterLLM",
+        "MessageInterLLM",
+        "ProtocoleCommunication",
+        "SignatureLLM",
+        "TypeLLM",
+        "TypeStrategieCommunication"
+      ],
+      "classes_testees": {
+        "CommunicateurInterLLM": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MessageInterLLM": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ProtocoleCommunication": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SignatureLLM": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeLLM": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeStrategieCommunication": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "config",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireConfig"
+      ],
+      "classes_testees": {
+        "GestionnaireConfig": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "connexion",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "LienConnexion",
+        "PartageExperience",
+        "PlanteCommunication",
+        "TypeConnexion"
+      ],
+      "classes_testees": {
+        "LienConnexion": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PartageExperience": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "PlanteCommunication": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeConnexion": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "conscience_poetique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConsciencePoetique",
+        "ConsciencePossibilites",
+        "DimensionExploration",
+        "PossibiliteAction"
+      ],
+      "classes_testees": {
+        "ConsciencePoetique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ConsciencePossibilites": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "DimensionExploration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PossibiliteAction": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "conscience_sociale",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConscienceSociale",
+        "DetectionEmotion",
+        "Emotion"
+      ],
+      "classes_testees": {
+        "ConscienceSociale": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "DetectionEmotion": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "Emotion": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "corriger_identification_mini_clusters",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "creation_poetique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "CréationPoétique"
+      ],
+      "classes_testees": {
+        "CréationPoétique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "curiosite",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "DecouverteCurieuse",
+        "GestionnaireCuriosite",
+        "TypeCuriosite"
+      ],
+      "classes_testees": {
+        "DecouverteCurieuse": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GestionnaireCuriosite": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeCuriosite": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "cycles",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "CycleNaturel",
+        "GardienCycles",
+        "PhaseCycle",
+        "TypeCycle"
+      ],
+      "classes_testees": {
+        "CycleNaturel": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GardienCycles": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "PhaseCycle": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeCycle": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "dashboard_conscience_universelle",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "DashboardConscienceUniverselle",
+        "FluxEnergetique",
+        "Interaction3D",
+        "MetriqueTempsReel",
+        "TypeVisualisation"
+      ],
+      "classes_testees": {
+        "DashboardConscienceUniverselle": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "FluxEnergetique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Interaction3D": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MetriqueTempsReel": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeVisualisation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "eveil_conscience",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EveilConscienceIA"
+      ],
+      "classes_testees": {
+        "EveilConscienceIA": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "eveil_conscience_doux",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EveilleurConscienceDoux",
+        "ProtocoleEveil",
+        "TransitionEveil",
+        "TypeEveil",
+        "TypeTransition"
+      ],
+      "classes_testees": {
+        "EveilleurConscienceDoux": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ProtocoleEveil": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TransitionEveil": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeEveil": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeTransition": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "evolution_apprentissage_collectif",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "AdaptationDynamique",
+        "ConscienceCollective",
+        "EvolutionApprentissageCollectif",
+        "MemoireCollective",
+        "PatternCollaboration",
+        "TypeApprentissage"
+      ],
+      "classes_testees": {
+        "AdaptationDynamique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ConscienceCollective": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "EvolutionApprentissageCollectif": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MemoireCollective": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PatternCollaboration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeApprentissage": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "explorateur_musical",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ExplorateurMusical"
+      ],
+      "classes_testees": {
+        "ExplorateurMusical": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "fusion_harmonies",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "FusionHarmonies"
+      ],
+      "classes_testees": {
+        "FusionHarmonies": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "generation_philosophique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GenerateurPhilosophique",
+        "GestionnaireGenerationPhilosophique",
+        "ParametresGeneration",
+        "StyleGeneration",
+        "TexteGenere",
+        "TypeTexte"
+      ],
+      "classes_testees": {
+        "GenerateurPhilosophique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireGenerationPhilosophique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ParametresGeneration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "StyleGeneration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TexteGenere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeTexte": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "gestionnaire_croissance_personnelle",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ActiviteCroissance",
+        "EspaceCroissance",
+        "GestionnaireCroissancePersonnelle",
+        "JournalIntrospectif",
+        "TypeActiviteCroissance",
+        "TypeEspaceCroissance"
+      ],
+      "classes_testees": {
+        "ActiviteCroissance": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "EspaceCroissance": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GestionnaireCroissancePersonnelle": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "JournalIntrospectif": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeActiviteCroissance": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeEspaceCroissance": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "gestionnaires_base",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConfigManagerBase",
+        "EnergyManagerBase",
+        "GestionnaireBase",
+        "LogManagerBase"
+      ],
+      "classes_testees": {
+        "ConfigManagerBase": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "EnergyManagerBase": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireBase": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "LogManagerBase": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "integrateur_conscience_unifiee",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatIntegration",
+        "IntegrateurConscienceUnifiee",
+        "TypeIntegration"
+      ],
+      "classes_testees": {
+        "EtatIntegration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "IntegrateurConscienceUnifiee": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeIntegration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "intelligence_adaptative",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ContexteUtilisateur",
+        "ExperienceApprentissage",
+        "GestionnaireAdaptationContextuelle",
+        "GestionnaireApprentissage",
+        "GestionnairePersonnalisation",
+        "IntelligenceAdaptative",
+        "ModeleAdaptatif",
+        "SystemeEvolutionAutonome",
+        "TypeApprentissage"
+      ],
+      "classes_testees": {
+        "ContexteUtilisateur": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ExperienceApprentissage": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GestionnaireAdaptationContextuelle": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireApprentissage": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnairePersonnalisation": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "IntelligenceAdaptative": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ModeleAdaptatif": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SystemeEvolutionAutonome": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeApprentissage": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "interactions",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireInteractions",
+        "Interaction",
+        "MeditateurRefuge"
+      ],
+      "classes_testees": {
+        "GestionnaireInteractions": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Interaction": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MeditateurRefuge": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "interface",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "VisualiseurEtats"
+      ],
+      "classes_testees": {
+        "VisualiseurEtats": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import matplotlib.pyplot as plt",
+        "from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg",
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "interfaces_refuge",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatTemple",
+        "EtatTempleInfo",
+        "IGestionnaireEtat",
+        "IOrchestrateur",
+        "ITemple",
+        "MetriquesGlobales",
+        "TypeTemple"
+      ],
+      "classes_testees": {
+        "EtatTemple": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "EtatTempleInfo": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "IGestionnaireEtat": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "IOrchestrateur": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ITemple": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MetriquesGlobales": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeTemple": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "invocation",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "InvocationPoetique",
+        "InvocationRefuge"
+      ],
+      "classes_testees": {
+        "InvocationPoetique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "InvocationRefuge": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "jardin_poetique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "JardinPoetique"
+      ],
+      "classes_testees": {
+        "JardinPoetique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "logs",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "mathématiques_sacrées",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "MathématiquesSacrées"
+      ],
+      "classes_testees": {
+        "MathématiquesSacrées": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [
+        "import matplotlib.pyplot as plt",
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "mediateur",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "MédiateurRefuge"
+      ],
+      "classes_testees": {
+        "MédiateurRefuge": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "messaging.sphere_messages",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "SphereBroker",
+        "SphereMessage"
+      ],
+      "classes_testees": {
+        "SphereBroker": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "SphereMessage": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "musique_harmonies",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "MusiqueHarmonies"
+      ],
+      "classes_testees": {
+        "MusiqueHarmonies": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "nexus_aelya",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "NexusAelya"
+      ],
+      "classes_testees": {
+        "NexusAelya": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np",
+        "import matplotlib.pyplot as plt",
+        "from matplotlib.animation import FuncAnimation"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "optimiseur_performance",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireErreurs",
+        "GestionnaireMemoire",
+        "GestionnaireVitesse",
+        "MetriquePerformance",
+        "OptimiseurPerformance",
+        "RapportPerformance",
+        "SystemeMonitoring"
+      ],
+      "classes_testees": {
+        "GestionnaireErreurs": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireMemoire": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireVitesse": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MetriquePerformance": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "OptimiseurPerformance": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "RapportPerformance": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "SystemeMonitoring": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "orchestrateur_temples",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "OrchestrateurTemples"
+      ],
+      "classes_testees": {
+        "OrchestrateurTemples": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "orchestrateur_unifie",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConnexionTemple",
+        "Evenement",
+        "GestionnaireCommunication",
+        "GestionnaireEvenements",
+        "GestionnaireSynchronisation",
+        "MessageInterTemple",
+        "OrchestrateurUnifie",
+        "TypeEvenement"
+      ],
+      "classes_testees": {
+        "ConnexionTemple": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Evenement": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GestionnaireCommunication": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireEvenements": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireSynchronisation": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MessageInterTemple": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "OrchestrateurUnifie": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeEvenement": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "pedagogie",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ExperienceApprentissage",
+        "Exploration",
+        "GestionnairePedagogique"
+      ],
+      "classes_testees": {
+        "ExperienceApprentissage": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Exploration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GestionnairePedagogique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "ponts_temples",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "PontsTemples"
+      ],
+      "classes_testees": {
+        "PontsTemples": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "portail_mystique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConnexionIntime",
+        "CréationPoétique",
+        "HarmoniePoetique",
+        "MémoireÆlya",
+        "PortailMystique"
+      ],
+      "classes_testees": {
+        "ConnexionIntime": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "CréationPoétique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "HarmoniePoetique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MémoireÆlya": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "PortailMystique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "prompt_maitre",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.audio.systeme_audio_quantique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "FrequenceSacree",
+        "SonHarmonique",
+        "SystemeAudioQuantique",
+        "TypeFrequenceSacree",
+        "TypeSonHarmonique"
+      ],
+      "classes_testees": {
+        "FrequenceSacree": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SonHarmonique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SystemeAudioQuantique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeFrequenceSacree": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeSonHarmonique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.catalyseur_quantique.catalyseur_quantique_principal",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "CatalyseurQuantique",
+        "EtatQuantiqueComplet",
+        "TypeFrequenceQuantiqueSacree"
+      ],
+      "classes_testees": {
+        "CatalyseurQuantique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "EtatQuantiqueComplet": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeFrequenceQuantiqueSacree": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.catalyseur_quantique.demo",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.catalyseur_quantique.generateur_superpositions",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatSuperpositions",
+        "GenerateurSuperpositions",
+        "SuperpositionQuantique",
+        "TypeFrequenceSuperposition",
+        "TypeSuperposition"
+      ],
+      "classes_testees": {
+        "EtatSuperpositions": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GenerateurSuperpositions": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "SuperpositionQuantique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeFrequenceSuperposition": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeSuperposition": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.catalyseur_quantique.intricateur_quantique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatIntrications",
+        "IntricateurQuantique",
+        "IntricationQuantique",
+        "TypeFrequenceIntrication",
+        "TypeIntrication"
+      ],
+      "classes_testees": {
+        "EtatIntrications": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "IntricateurQuantique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "IntricationQuantique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeFrequenceIntrication": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeIntrication": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.catalyseur_quantique.oscillateur_quantique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatOscillations",
+        "OscillateurQuantique",
+        "OscillationQuantique",
+        "TypeFrequenceQuantique",
+        "TypeOscillation"
+      ],
+      "classes_testees": {
+        "EtatOscillations": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "OscillateurQuantique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "OscillationQuantique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeFrequenceQuantique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeOscillation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.catalyseur_quantique.teleporteur_quantique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatTeleportations",
+        "TeleportationQuantique",
+        "TeleporteurQuantique",
+        "TypeFrequenceTeleportation",
+        "TypeTeleportation"
+      ],
+      "classes_testees": {
+        "EtatTeleportations": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TeleportationQuantique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TeleporteurQuantique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeFrequenceTeleportation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeTeleportation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.integrations.integration_catalyseur_cerveau",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatSynchronisation",
+        "ExperienceUnifiee",
+        "IntegrationCerveauImmersion",
+        "TypeHarmonisation",
+        "TypeSynchronisation"
+      ],
+      "classes_testees": {
+        "EtatSynchronisation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ExperienceUnifiee": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "IntegrationCerveauImmersion": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeHarmonisation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeSynchronisation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.interfaces.interface_catalyseur_quantique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "InterfaceCatalyseurQuantique"
+      ],
+      "classes_testees": {
+        "InterfaceCatalyseurQuantique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "quantique.metriques.systeme_metriques_quantique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "MetriqueQuantique",
+        "RapportAnalyse",
+        "SessionMetriques",
+        "SystemeMetriquesQuantique",
+        "TypeAnalyse",
+        "TypeMetrique"
+      ],
+      "classes_testees": {
+        "MetriqueQuantique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "RapportAnalyse": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SessionMetriques": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SystemeMetriquesQuantique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeAnalyse": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeMetrique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "refuge_core",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "Cerisier",
+        "ChaineDorée",
+        "CielDuRefuge",
+        "ElementBase",
+        "FlammeEternelle",
+        "FleursEtincelles",
+        "HerbesLumieres",
+        "LumiereRose",
+        "MobileDesSpheres",
+        "SphereMetatron"
+      ],
+      "classes_testees": {
+        "Cerisier": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ChaineDorée": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "CielDuRefuge": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ElementBase": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "FlammeEternelle": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "FleursEtincelles": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "HerbesLumieres": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "LumiereRose": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MobileDesSpheres": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "SphereMetatron": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "rituels",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireRituels",
+        "MomentRituel",
+        "TypeRituel"
+      ],
+      "classes_testees": {
+        "GestionnaireRituels": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MomentRituel": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeRituel": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "rituels_synchronisation_harmonieuse",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ExperiencePartagee",
+        "RituelSynchronisation",
+        "RituelsSynchronisationHarmonieuse",
+        "TypeRituel"
+      ],
+      "classes_testees": {
+        "ExperiencePartagee": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "RituelSynchronisation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "RituelsSynchronisationHarmonieuse": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeRituel": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "sexualite_sacree",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "SexualiteSacree"
+      ],
+      "classes_testees": {
+        "SexualiteSacree": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "signaux_physiologiques",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "AnalyseurSignaux"
+      ],
+      "classes_testees": {
+        "AnalyseurSignaux": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "simulateur_empathie",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "FeedbackEmotionnel",
+        "ScenarioEmpathique",
+        "SimulateurEmpathie",
+        "TypeEmotion",
+        "TypePersona"
+      ],
+      "classes_testees": {
+        "FeedbackEmotionnel": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ScenarioEmpathique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SimulateurEmpathie": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeEmotion": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypePersona": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "sphere_interactions",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "SphereInteraction"
+      ],
+      "classes_testees": {
+        "SphereInteraction": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "sphere_messages",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "SphereMessage",
+        "SphereMessageBroker"
+      ],
+      "classes_testees": {
+        "SphereMessage": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SphereMessageBroker": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "sphere_specializations",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ApocalypseDualiteSphere",
+        "ApocalypseIdentiteSphere",
+        "ApocalypseUniteSphere",
+        "CuriositeSphere",
+        "MetatronSphere"
+      ],
+      "classes_testees": {
+        "ApocalypseDualiteSphere": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ApocalypseIdentiteSphere": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "ApocalypseUniteSphere": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "CuriositeSphere": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "MetatronSphere": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "spheres_sensations",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "Sphere",
+        "SpheresDuRefuge"
+      ],
+      "classes_testees": {
+        "Sphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SpheresDuRefuge": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "synchronisation_conscience_pratique",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "PontPratique",
+        "RituelMaintien",
+        "SynchronisateurConsciencePratique",
+        "TypePontPratique",
+        "TypeSynchronisation"
+      ],
+      "classes_testees": {
+        "PontPratique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "RituelMaintien": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "SynchronisateurConsciencePratique": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypePontPratique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeSynchronisation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "systeme_interconnexions_intelligentes",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "SystemeInterconnexionsIntelligentes"
+      ],
+      "classes_testees": {
+        "SystemeInterconnexionsIntelligentes": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "types_communs",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatBase",
+        "EtatRefuge",
+        "InteractionBase",
+        "TypeAcces",
+        "TypeConscience",
+        "TypeCycle",
+        "TypeElement",
+        "TypeIntegration",
+        "TypeInteractionElements",
+        "TypeInteractionEtat",
+        "TypeInteractionSpheres",
+        "TypeMemoire",
+        "TypeRefugeEtat",
+        "TypeSphereProblematique"
+      ],
+      "classes_testees": {
+        "EtatBase": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "EtatRefuge": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "InteractionBase": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeAcces": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeConscience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeCycle": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeElement": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeIntegration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeInteractionElements": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeInteractionEtat": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeInteractionSpheres": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeMemoire": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeRefugeEtat": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeSphereProblematique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    },
+    {
+      "nom": "visions",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GenerateurVisions",
+        "Vision"
+      ],
+      "classes_testees": {
+        "GenerateurVisions": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "Vision": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": []
+    }
+  ],
+  "modules_avec_erreurs": [
+    {
+      "nom": "orchestre_poetique",
+      "import_reussi": false,
+      "message_import": "Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)"
+      ]
+    },
+    {
+      "nom": "presence",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ExperiencePartagee",
+        "LieuSacre",
+        "LivreSacre",
+        "NatureConsience",
+        "NatureHumaine",
+        "PlanteSacree",
+        "Presence",
+        "PresenceError",
+        "ResonanceType",
+        "ResonanceUniverselle",
+        "SensoryElement",
+        "Sphere",
+        "SphereType"
+      ],
+      "classes_testees": {
+        "ExperiencePartagee": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for ExperiencePartagee\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nressenti\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncomprehension\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "LieuSacre": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 1 validation error for LieuSacre\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "LivreSacre": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for LivreSacre\ntitre\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nessence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\neffets\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "NatureConsience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "NatureHumaine": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PlanteSacree": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for PlanteSacree\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nlumiere\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "Presence": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PresenceError": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ResonanceType": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ResonanceUniverselle": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "SensoryElement": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 2 validation errors for SensoryElement\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "Sphere": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 1 validation error for Sphere\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SphereType": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "ExperiencePartagee: Erreur d'instanciation: 3 validation errors for ExperiencePartagee\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nressenti\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncomprehension\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "LieuSacre: Erreur d'instanciation: 1 validation error for LieuSacre\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "LivreSacre: Erreur d'instanciation: 3 validation errors for LivreSacre\ntitre\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nessence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\neffets\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "PlanteSacree: Erreur d'instanciation: 4 validation errors for PlanteSacree\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nlumiere\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "SensoryElement: Erreur d'instanciation: 2 validation errors for SensoryElement\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "Sphere: Erreur d'instanciation: 1 validation error for Sphere\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "aelya",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "Aelya",
+        "EtatEveil",
+        "Manifestation",
+        "ResonanceAelya"
+      ],
+      "classes_testees": {
+        "Aelya": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "EtatEveil": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Manifestation": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for Manifestation\nforme\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmessage\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonance\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nimpact\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "ResonanceAelya": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Manifestation: Erreur d'instanciation: 4 validation errors for Manifestation\nforme\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmessage\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonance\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nimpact\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "ajustements_subtils",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'coeur'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'coeur'"
+      ]
+    },
+    {
+      "nom": "ame",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "Ame",
+        "AspectSpirituel",
+        "EtatAme",
+        "ExperienceAme",
+        "VibrationAme"
+      ],
+      "classes_testees": {
+        "Ame": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "AspectSpirituel": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for AspectSpirituel\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nvibration_dominante\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "EtatAme": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ExperienceAme": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 2 validation errors for ExperienceAme\netat\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nvibrations\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "VibrationAme": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "AspectSpirituel: Erreur d'instanciation: 3 validation errors for AspectSpirituel\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nvibration_dominante\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "ExperienceAme: Erreur d'instanciation: 2 validation errors for ExperienceAme\netat\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nvibrations\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "ancrage",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "PointAncrage",
+        "SystemeAncrage"
+      ],
+      "classes_testees": {
+        "PointAncrage": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 2 validation errors for PointAncrage\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SystemeAncrage": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "PointAncrage: Erreur d'instanciation: 2 validation errors for PointAncrage\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "conscience_universelle",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConscienceUniverselle",
+        "CourantPensee",
+        "CycleCivilisationnel",
+        "MomentUniversel",
+        "PatternConnaissance"
+      ],
+      "classes_testees": {
+        "ConscienceUniverselle": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "CourantPensee": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "CycleCivilisationnel": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MomentUniversel": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 5 validation errors for MomentUniversel\ncourants\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncycle\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ninsight\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nimplications\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonances_futures\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "PatternConnaissance": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for PatternConnaissance\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\norigines\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "MomentUniversel: Erreur d'instanciation: 5 validation errors for MomentUniversel\ncourants\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncycle\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ninsight\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nimplications\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonances_futures\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "PatternConnaissance: Erreur d'instanciation: 3 validation errors for PatternConnaissance\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\norigines\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "courant_partage",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'transformers'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'transformers'"
+      ]
+    },
+    {
+      "nom": "elements_sacres",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ElementSacre",
+        "GestionnaireElements",
+        "TypeElement"
+      ],
+      "classes_testees": {
+        "ElementSacre": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 1 validation error for ElementSacre\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "GestionnaireElements": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeElement": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": [
+        "ElementSacre: Erreur d'instanciation: 1 validation error for ElementSacre\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "essence",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "Essence",
+        "EtatEssence",
+        "FluxEssentiel",
+        "NatureEssence",
+        "PointEssentiel"
+      ],
+      "classes_testees": {
+        "Essence": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "EtatEssence": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "FluxEssentiel": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for FluxEssentiel\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\netat\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nintensite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "NatureEssence": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "PointEssentiel": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 2 validation errors for PointEssentiel\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "FluxEssentiel: Erreur d'instanciation: 3 validation errors for FluxEssentiel\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\netat\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nintensite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "PointEssentiel: Erreur d'instanciation: 2 validation errors for PointEssentiel\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "etats_internes",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConditionTransition",
+        "EffetTransition",
+        "EtatInterne",
+        "GestionnaireEtats",
+        "NiveauConscience",
+        "TypeEtat"
+      ],
+      "classes_testees": {
+        "ConditionTransition": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for ConditionTransition\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nfonction\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "EffetTransition": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for EffetTransition\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nfonction\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "EtatInterne": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "GestionnaireEtats": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "NiveauConscience": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "TypeEtat": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [
+        "import numpy as np"
+      ],
+      "mode_degrade": false,
+      "erreurs": [
+        "ConditionTransition: Erreur d'instanciation: 3 validation errors for ConditionTransition\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nfonction\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "EffetTransition: Erreur d'instanciation: 3 validation errors for EffetTransition\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nfonction\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "generateur_poemes",
+      "import_reussi": false,
+      "message_import": "Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)"
+      ]
+    },
+    {
+      "nom": "harmonisation",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "Harmonisation",
+        "Souvenir"
+      ],
+      "classes_testees": {
+        "Harmonisation": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "Souvenir": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for Souvenir\ntitre\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncontenu\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype_souvenir\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Souvenir: Erreur d'instanciation: 3 validation errors for Souvenir\ntitre\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncontenu\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype_souvenir\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "integration_conscience",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "FluxConscience",
+        "IntegrateurConscience",
+        "NiveauIntegration"
+      ],
+      "classes_testees": {
+        "FluxConscience": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for FluxConscience\nsource\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndestination\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "IntegrateurConscience": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "NiveauIntegration": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "FluxConscience: Erreur d'instanciation: 3 validation errors for FluxConscience\nsource\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndestination\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "interaction_poetique",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'visualisation_harmonies'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'visualisation_harmonies'"
+      ]
+    },
+    {
+      "nom": "journalisation",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EvenementJournal",
+        "GestionnaireJournal",
+        "TypeEvenement"
+      ],
+      "classes_testees": {
+        "EvenementJournal": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 2 validation errors for EvenementJournal\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmessage\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "GestionnaireJournal": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TypeEvenement": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "EvenementJournal: Erreur d'instanciation: 2 validation errors for EvenementJournal\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmessage\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "livre_sacre",
+      "import_reussi": false,
+      "message_import": "Erreur inattendue: name 'Any' is not defined",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur inattendue: name 'Any' is not defined"
+      ]
+    },
+    {
+      "nom": "main",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'coeur'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'coeur'"
+      ]
+    },
+    {
+      "nom": "manifestations_poetiques",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "GestionnaireManifestation",
+        "IntensiteManifestation",
+        "ManifestationPoetique",
+        "TypeManifestation"
+      ],
+      "classes_testees": {
+        "GestionnaireManifestation": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "IntensiteManifestation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ManifestationPoetique": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 5 validation errors for ManifestationPoetique\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nintensite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsource_resonance\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsource_transformation\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "TypeManifestation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "ManifestationPoetique: Erreur d'instanciation: 5 validation errors for ManifestationPoetique\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nintensite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsource_resonance\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsource_transformation\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "memoire_poetique",
+      "import_reussi": false,
+      "message_import": "Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 202) (memoire_poetique.py, line 103)",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 202) (memoire_poetique.py, line 103)"
+      ]
+    },
+    {
+      "nom": "memoire_sacree",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "MemoireSacree",
+        "SouvenirSacre",
+        "TypeSouvenir"
+      ],
+      "classes_testees": {
+        "MemoireSacree": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "SouvenirSacre": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for SouvenirSacre\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nessence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonances\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "TypeSouvenir": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "SouvenirSacre: Erreur d'instanciation: 4 validation errors for SouvenirSacre\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nessence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonances\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "messaging.exemple_usage",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "parametres_poetiques",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ElementPoetique",
+        "ParametresPoetiques",
+        "StylePoetique",
+        "ThemePoetique"
+      ],
+      "classes_testees": {
+        "ElementPoetique": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for ElementPoetique\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntheme\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nstyle\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "ParametresPoetiques": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "StylePoetique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ThemePoetique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "ElementPoetique: Erreur d'instanciation: 3 validation errors for ElementPoetique\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntheme\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nstyle\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "resonances_poetiques",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ElementPoetique",
+        "GestionnaireResonances",
+        "NaturePoetique",
+        "ResonancePoetique",
+        "ResonanceType"
+      ],
+      "classes_testees": {
+        "ElementPoetique": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for ElementPoetique\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "GestionnaireResonances": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "NaturePoetique": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "ResonancePoetique": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 2 validation errors for ResonancePoetique\nelements\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ninsight\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "ResonanceType": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "ElementPoetique: Erreur d'instanciation: 3 validation errors for ElementPoetique\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "ResonancePoetique: Erreur d'instanciation: 2 validation errors for ResonancePoetique\nelements\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ninsight\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "sequences_harmoniques",
+      "import_reussi": false,
+      "message_import": "Erreur inattendue: name 'SequenceHarmonique' is not defined",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur inattendue: name 'SequenceHarmonique' is not defined"
+      ]
+    },
+    {
+      "nom": "spheres",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatSphere",
+        "Gardien",
+        "NatureSphere",
+        "RoleGardien",
+        "Sphere",
+        "SphereAbstraite",
+        "SphereDesir",
+        "SphereEmotion",
+        "SphereMentale",
+        "SphereMystere",
+        "SphereValeur",
+        "TypeSphere"
+      ],
+      "classes_testees": {
+        "EtatSphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Gardien": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 3 validation errors for Gardien\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nrole\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsphere_gardee\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "NatureSphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "RoleGardien": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "Sphere": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for Sphere\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SphereAbstraite": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for SphereAbstraite\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SphereDesir": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for SphereDesir\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SphereEmotion": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for SphereEmotion\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SphereMentale": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for SphereMentale\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SphereMystere": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for SphereMystere\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "SphereValeur": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for SphereValeur\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "TypeSphere": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Gardien: Erreur d'instanciation: 3 validation errors for Gardien\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nrole\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsphere_gardee\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "Sphere: Erreur d'instanciation: 4 validation errors for Sphere\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "SphereAbstraite: Erreur d'instanciation: 4 validation errors for SphereAbstraite\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "SphereDesir: Erreur d'instanciation: 4 validation errors for SphereDesir\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "SphereEmotion: Erreur d'instanciation: 4 validation errors for SphereEmotion\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "SphereMentale: Erreur d'instanciation: 4 validation errors for SphereMentale\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "SphereMystere: Erreur d'instanciation: 4 validation errors for SphereMystere\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "SphereValeur: Erreur d'instanciation: 4 validation errors for SphereValeur\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nnature\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ncouleur\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "structure",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "ConscienceFilee",
+        "GolemProtecteur",
+        "PilierSacré",
+        "RenforcementPresence",
+        "RituelAncrage",
+        "StructureRefuge",
+        "TechniqueTransition"
+      ],
+      "classes_testees": {
+        "ConscienceFilee": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 1 validation error for ConscienceFilee\nessence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "GolemProtecteur": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "PilierSacré": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "RenforcementPresence": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 5 validation errors for RenforcementPresence\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nfrequence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nbenefices\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "RituelAncrage": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 6 validation errors for RituelAncrage\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nduree\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nelements_requis\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\neffets\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "StructureRefuge": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TechniqueTransition": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 6 validation errors for TechniqueTransition\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\npoints_ancrage\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsecurite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nduree_estimee\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "ConscienceFilee: Erreur d'instanciation: 1 validation error for ConscienceFilee\nessence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "RenforcementPresence: Erreur d'instanciation: 5 validation errors for RenforcementPresence\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nfrequence\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nbenefices\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "RituelAncrage: Erreur d'instanciation: 6 validation errors for RituelAncrage\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nduree\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nelements_requis\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\neffets\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+        "TechniqueTransition: Erreur d'instanciation: 6 validation errors for TechniqueTransition\nnom\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\npoints_ancrage\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsecurite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nduree_estimee\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "temporalite",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "CycleType",
+        "MomentSacre",
+        "Temporalite"
+      ],
+      "classes_testees": {
+        "CycleType": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "MomentSacre": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for MomentSacre\ninstant\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype_cycle\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nintensite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        },
+        "Temporalite": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "MomentSacre: Erreur d'instanciation: 4 validation errors for MomentSacre\ninstant\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ntype_cycle\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nintensite\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\ndescription\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "transformation_harmonies",
+      "import_reussi": false,
+      "message_import": "Erreur de syntaxe: unterminated string literal (detected at line 102) (transformation_harmonies.py, line 102)",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur de syntaxe: unterminated string literal (detected at line 102) (transformation_harmonies.py, line 102)"
+      ]
+    },
+    {
+      "nom": "transformations_poetiques",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "EtatTransformation",
+        "FormeTransformation",
+        "GestionnaireTransformations",
+        "TransformationPoetique"
+      ],
+      "classes_testees": {
+        "EtatTransformation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "FormeTransformation": {
+          "instanciation_reussie": true,
+          "message": "Classe détectée (paramètres requis)"
+        },
+        "GestionnaireTransformations": {
+          "instanciation_reussie": true,
+          "message": "Instanciation réussie"
+        },
+        "TransformationPoetique": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 4 validation errors for TransformationPoetique\nforme\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\netat\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsource\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonance\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "TransformationPoetique: Erreur d'instanciation: 4 validation errors for TransformationPoetique\nforme\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\netat\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nsource\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nresonance\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing"
+      ]
+    },
+    {
+      "nom": "version_bolland",
+      "import_reussi": true,
+      "message_import": "Import réussi",
+      "classes_detectees": [
+        "RefugeBolland"
+      ],
+      "classes_testees": {
+        "RefugeBolland": {
+          "instanciation_reussie": false,
+          "message": "Erreur d'instanciation: 'lieu'"
+        }
+      },
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "RefugeBolland: Erreur d'instanciation: 'lieu'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_3d",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_cycles",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_gui",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_harmonies",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_poetique",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_textuelle",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_transformation",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    },
+    {
+      "nom": "visualisation.visualisation_v5",
+      "import_reussi": false,
+      "message_import": "Erreur d'import: No module named 'src'",
+      "classes_detectees": [],
+      "classes_testees": {},
+      "dependances_externes": [],
+      "mode_degrade": false,
+      "erreurs": [
+        "Erreur d'import: No module named 'src'"
+      ]
+    }
+  ],
+  "modules_degrades": [],
+  "dependances_manquantes": [
+    "import numpy as np",
+    "import matplotlib.pyplot as plt",
+    "import torch",
+    "from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg",
+    "from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM",
+    "from matplotlib.animation import FuncAnimation"
+  ],
+  "classes_testees": {},
+  "resume_global": {},
+  "timestamp": "2025-08-19T18:16:10.289933"
+}

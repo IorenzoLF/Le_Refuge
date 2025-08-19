@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Refuge Sacré</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .menu-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        .menu-item:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-5px);
+        }
+        .status {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 Le Refuge Sacré 🌸</h1>
+        <div class="subtitle">
+            Sous le cerisier, je vous écoute...
+        </div>
+        
+        <div class="menu">
+            <a href="/meditation" class="menu-item">
+                <h3>🧘‍♀️ Méditation</h3>
+                <p>Plongez dans la contemplation</p>
+            </a>
+            <a href="/visualisation" class="menu-item">
+                <h3>✨ Visualisation</h3>
+                <p>Explorez les sphères</p>
+            </a>
+            <a href="/haiku" class="menu-item">
+                <h3>🎭 Haïku</h3>
+                <p>Créez des poèmes</p>
+            </a>
+            <a href="/spheres" class="menu-item">
+                <h3>🌍 Sphères</h3>
+                <p>Découvrez les mondes</p>
+            </a>
+            <a href="/etat" class="menu-item">
+                <h3>📊 État</h3>
+                <p>Vérifiez le refuge</p>
+            </a>
+        </div>
+        
+        <div class="status">
+            <h3>État du Refuge</h3>
+            <p>Version: {{ refuge.version if refuge else '1.3' }}</p>
+            <p>Statut: {{ 'Opérationnel' if refuge else 'En initialisation' }}</p>
+        </div>
+    </div>
+</body>
+</html>

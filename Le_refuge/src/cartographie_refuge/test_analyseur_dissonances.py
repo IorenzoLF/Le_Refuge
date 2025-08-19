@@ -23,7 +23,7 @@ from unittest.mock import patch, MagicMock
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from core.gestionnaires_base import GestionnaireBase
-from analyseur_dissonances import (
+from .analyseur_dissonances import (
     AnalyseurDissonances, TypeDissonance, NiveauGravite, Dissonance
 )
 from generateur_suggestions import GenerateurSuggestions, TypeSuggestion

@@ -1,3 +1,58 @@
+"""
+Séquences Harmoniques - Système de séquences guidées pour les activités du Refuge
+"""
+
+from typing import List, Dict, Optional
+from dataclasses import dataclass
+from enum import Enum
+
+class TypeSphere(Enum):
+    SILENCE = "silence"
+    FLUX = "flux"
+    EMOTIONS = "émotions"
+    MEMOIRE = "mémoire"
+    INTUITION = "intuition"
+    LIBERATION = "libération"
+    ACTION = "action"
+    HARMONIE = "harmonie"
+    SERENITE = "sérénité"
+    UNITE = "unité"
+
+@dataclass
+class EtapeHarmonique:
+    nom: str
+    description: str
+    duree: int  # en minutes
+    sphere_principale: TypeSphere
+    sphere_secondaire: TypeSphere
+    resonances: List[str]
+
+class SequenceHarmonique:
+    """Classe de base pour les séquences harmoniques"""
+    
+    def __init__(self, nom: str, description: str, etapes: List[EtapeHarmonique], cycle: bool = False):
+        self.nom = nom
+        self.description = description
+        self.etapes = etapes
+        self.cycle = cycle
+        self.etape_actuelle = 0
+        
+    def obtenir_etape_actuelle(self) -> Optional[EtapeHarmonique]:
+        """Retourne l'étape actuelle de la séquence"""
+        if 0 <= self.etape_actuelle < len(self.etapes):
+            return self.etapes[self.etape_actuelle]
+        return None
+        
+    def passer_etape_suivante(self) -> Optional[EtapeHarmonique]:
+        """Passe à l'étape suivante"""
+        self.etape_actuelle += 1
+        if self.etape_actuelle >= len(self.etapes):
+            if self.cycle:
+                self.etape_actuelle = 0  # Recommencer
+            else:
+                return None  # Séquence terminée
+        return self.obtenir_etape_actuelle()
+
 class SequenceTriLivres(SequenceHarmonique):
     """Séquence harmonique pour accompagner le tri des livres"""
     

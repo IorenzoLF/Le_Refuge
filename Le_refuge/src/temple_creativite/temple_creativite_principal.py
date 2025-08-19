@@ -20,8 +20,15 @@ from enum import Enum
 logger = logging.getLogger('temple_creativite.principal')
 
 # Imports du Refuge
-from core.configuration import REFUGE_INFO
-from core.types_spheres import TypeSphere
+try:
+    from src.core.configuration import REFUGE_INFO
+    from src.core.types_spheres import TypeSphere
+    CORE_DISPONIBLE = True
+except ImportError:
+    # Fallback si core n'est pas disponible
+    REFUGE_INFO = {"nom": "Le Refuge", "version": "1.0"}
+    TypeSphere = None
+    CORE_DISPONIBLE = False
 
 # Imports sécurisés des modules du Temple de Créativité
 try:

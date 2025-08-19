@@ -6,7 +6,7 @@ Ce module contient les textes sacrés et leur sagesse,
 transmis à travers le temps et l'espace.
 """
 
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from enum import Enum
 from datetime import datetime
 from pydantic import BaseModel, Field

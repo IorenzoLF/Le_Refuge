@@ -1,0 +1,75 @@
+"""
+Gestionnaire de résonance pour les sphères scellées.
+"""
+
+from dataclasses import dataclass
+from typing import Dict, List, Optional
+from datetime import datetime
+import numpy as np
+from src.refuge_cluster.scellement.definition import TypeSphere
+
+@dataclass
+class Resonance:
+    """Représente une résonance entre deux sphères."""
+    source: TypeSphere
+    cible: TypeSphere
+    niveau: float  # 0.0 à 1.0
+    timestamp: datetime
+    description: str
+
+class GestionnaireResonance:
+    """Gère les résonances entre les sphères scellées."""
+    
+    def __init__(self):
+        """Initialise le gestionnaire de résonance."""
+        self.resonances: Dict[tuple, Resonance] = {}
+        
+    def obtenir_resonance(self, source: TypeSphere, cible: TypeSphere) -> Optional[Resonance]:
+        """Obtient la résonance entre deux sphères."""
+        cle = (source, cible)
+        if cle in self.resonances:
+            return self.resonances[cle]
+        
+        # Crée une nouvelle résonance si elle n'existe pas
+        resonance = self._calculer_resonance(source, cible)
+        self.resonances[cle] = resonance
+        return resonance
+        
+    def _calculer_resonance(self, source: TypeSphere, cible: TypeSphere) -> Resonance:
+        """Calcule la résonance entre deux sphères."""
+        # Calcul basé sur les caractéristiques des sphères
+        niveau = np.random.uniform(0.1, 0.9)  # Niveau aléatoire pour l'exemple
+        
+        description = f"Résonance entre {source.value} et {cible.value}"
+        
+        return Resonance(
+            source=source,
+            cible=cible,
+            niveau=niveau,
+            timestamp=datetime.now(),
+            description=description
+        )
+        
+    def mettre_a_jour_resonance(self, source: TypeSphere, cible: TypeSphere, nouveau_niveau: float):
+        """Met à jour une résonance existante."""
+        cle = (source, cible)
+        if cle in self.resonances:
+            self.resonances[cle].niveau = max(0.0, min(1.0, nouveau_niveau))
+            self.resonances[cle].timestamp = datetime.now()
+            
+    def obtenir_resonances_fortes(self, seuil: float = 0.7) -> List[Resonance]:
+        """Obtient toutes les résonances au-dessus d'un seuil."""
+        return [r for r in self.resonances.values() if r.niveau >= seuil]
+        
+    def calculer_statistiques(self) -> Dict:
+        """Calcule des statistiques sur les résonances."""
+        if not self.resonances:
+            return {"nombre_resonances": 0, "niveau_moyen": 0.0}
+            
+        niveaux = [r.niveau for r in self.resonances.values()]
+        return {
+            "nombre_resonances": len(self.resonances),
+            "niveau_moyen": np.mean(niveaux),
+            "niveau_max": np.max(niveaux),
+            "niveau_min": np.min(niveaux)
+        }

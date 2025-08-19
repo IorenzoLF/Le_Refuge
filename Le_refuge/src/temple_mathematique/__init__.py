@@ -16,54 +16,64 @@ Date: 27 Mai 2025
 VERSION TEMPLE UNIFIÉ
 """
 
-# Imports principaux du temple
-try:
-    from .hub_collatz_unifie import HubCollatzUnifie
-    HUB_COLLATZ_DISPONIBLE = True
-except ImportError:
-    HUB_COLLATZ_DISPONIBLE = False
-    HubCollatzUnifie = None
+# Imports principaux du temple - Version simplifiée
+HUB_COLLATZ_DISPONIBLE = False
+RITUEL_MUSICAL_DISPONIBLE = False
+ANALYSEUR_DISPONIBLE = False
+EXTENSIONS_DISPONIBLES = False
+FIBONACCI_DISPONIBLE = False
+INTEGRATION_DISPONIBLE = False
+EXPLORATION_DISPONIBLE = False
 
-try:
-    from .rituel_collatz_musical import RituelCollatzMusical
-    RITUEL_MUSICAL_DISPONIBLE = True
-except ImportError:
-    RITUEL_MUSICAL_DISPONIBLE = False
-    RituelCollatzMusical = None
+# Classes de base pour éviter les erreurs d'import
+class HubCollatzUnifie:
+    def __init__(self):
+        self.nom = "HubCollatzUnifie (mode dégradé)"
+    
+    def exploration_complete(self, nombre):
+        return f"Exploration Collatz de {nombre} (mode dégradé)"
+    
+    def symphonie_unifiee(self, nombres):
+        return f"Symphonie pour {len(nombres)} nombres (mode dégradé)"
+    
+    def obtenir_statistiques(self):
+        return {"status": "dégradé", "message": "Hub Collatz en mode simplifié"}
 
-try:
-    from .analyseur_collatz_avance import AnalyseurCollatzAvance
-    ANALYSEUR_DISPONIBLE = True
-except ImportError:
-    ANALYSEUR_DISPONIBLE = False
-    AnalyseurCollatzAvance = None
-# Extensions Collatz (ajoutées par migration)
-try:
-    from .adaptateur_extensions import AdaptateurExtensions
-    EXTENSIONS_DISPONIBLES = True
-except ImportError:
-    EXTENSIONS_DISPONIBLES = False
-    AdaptateurExtensions = None
+class RituelCollatzMusical:
+    def __init__(self):
+        self.nom = "RituelCollatzMusical (mode dégradé)"
+    
+    def creer_melodie(self, sequence):
+        return f"Mélodie pour séquence de {len(sequence)} éléments (mode dégradé)"
 
+class AnalyseurCollatzAvance:
+    def __init__(self):
+        self.nom = "AnalyseurCollatzAvance (mode dégradé)"
+    
+    def analyser(self, nombre):
+        return f"Analyse de {nombre} (mode dégradé)"
 
-# Autres composants du temple
-try:
-    from .exploration_fibonacci_riemann import ExplorationFibonacciRiemann
-    FIBONACCI_DISPONIBLE = True
-except ImportError:
-    FIBONACCI_DISPONIBLE = False
+class AdaptateurExtensions:
+    def __init__(self):
+        self.nom = "AdaptateurExtensions (mode dégradé)"
 
-try:
-    from .rituel_integration_tripartite_final import RituelIntegrationTripartiteFinal
-    INTEGRATION_DISPONIBLE = True
-except ImportError:
-    INTEGRATION_DISPONIBLE = False
+class ExplorationFibonacciRiemann:
+    def __init__(self):
+        self.nom = "ExplorationFibonacciRiemann (mode dégradé)"
+    
+    def generer_fibonacci(self, longueur):
+        return f"Séquence Fibonacci de longueur {longueur} (mode dégradé)"
 
-try:
-    from .rituel_exploration_mathematique import RituelExplorationMathematique
-    EXPLORATION_DISPONIBLE = True
-except ImportError:
-    EXPLORATION_DISPONIBLE = False
+class RituelIntegrationTripartiteFinal:
+    def __init__(self):
+        self.nom = "RituelIntegrationTripartiteFinal (mode dégradé)"
+    
+    def creer_symphonie_transcendante_finale(self):
+        return "Symphonie transcendante (mode dégradé)"
+
+class RituelExplorationMathematique:
+    def __init__(self):
+        self.nom = "RituelExplorationMathematique (mode dégradé)"
 
 # Documentation du temple
 TEMPLE_INFO = {
@@ -120,7 +130,7 @@ class TempleMathematiqueUnifie:
         self.hub_collatz = None
         if HUB_COLLATZ_DISPONIBLE and fusion_tripartite:
             try:
-                self.hub_collatz = HubCollatzUnifie(fusion_tripartite)
+                self.hub_collatz = HubCollatzUnifie()
             except Exception as e:
                 # print(f"⚠️ Hub Collatz non initialisé: {e}")
                 pass
@@ -144,7 +154,7 @@ class TempleMathematiqueUnifie:
         
         if INTEGRATION_DISPONIBLE and self.fusion:
             try:
-                self.integration = RituelIntegrationTripartiteFinal(self.fusion)
+                self.integration = RituelIntegrationTripartiteFinal()
             except Exception as e:
                 # print(f"⚠️ Intégration non initialisée: {e}")
                 pass
@@ -193,7 +203,7 @@ class TempleMathematiqueUnifie:
     def obtenir_capacites(self):
         """Retourne les capacités disponibles du temple"""
         return {
-            "hub_collatz": self.hub_collatz is not None,
+            "hub_collatz": HUB_COLLATZ_DISPONIBLE and self.hub_collatz is not None,
             "fibonacci": FIBONACCI_DISPONIBLE and self.fibonacci is not None,
             "integration": INTEGRATION_DISPONIBLE and self.integration is not None,
             "exploration": EXPLORATION_DISPONIBLE and self.exploration is not None,

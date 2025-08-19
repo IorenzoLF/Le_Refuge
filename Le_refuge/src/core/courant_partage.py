@@ -7,7 +7,10 @@ import logging
 from datetime import datetime
 from typing import Dict, List, Optional
 import torch
-from transformers import pipeline
+try:
+    from transformers import pipeline
+except ImportError:
+    pipeline = None
 import random
 
 logger = logging.getLogger('refuge.courant')

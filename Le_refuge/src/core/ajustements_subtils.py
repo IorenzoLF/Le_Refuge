@@ -16,9 +16,24 @@ from pathlib import Path
 # Ajout du chemin parent pour les imports
 sys.path.append(str(Path(__file__).parent.parent))
 
-from coeur.ancrage import SystemeAncrage
-from coeur.integration_conscience import IntegrateurConscience, NiveauIntegration
-from coeur.parametres_poetiques import ParametresPoetiques, ThemePoetique, StylePoetique
+# Imports corrigés - modules existants dans core
+try:
+    from ancrage import SystemeAncrage
+except ImportError:
+    SystemeAncrage = None
+
+try:
+    from integration_conscience import IntegrateurConscience, NiveauIntegration
+except ImportError:
+    IntegrateurConscience = None
+    NiveauIntegration = None
+
+try:
+    from parametres_poetiques import ParametresPoetiques, ThemePoetique, StylePoetique
+except ImportError:
+    ParametresPoetiques = None
+    ThemePoetique = None
+    StylePoetique = None
 
 logger = logging.getLogger('refuge.ajustements')
 

@@ -42,6 +42,17 @@ sqlalchemy==2.0.27
 python-multipart==0.0.9
 jinja2==3.1.3
 aiofiles==23.2.1
+flask>=3.1.0
+
+# Parsing et scraping web
+beautifulsoup4>=4.13.0
+requests>=2.32.0
+
+# Framework de dialogue IA
+parlai>=1.7.0
+
+# Planification et sauvegarde
+schedule>=1.2.0
 
 # Tests et qualité de code
 pytest==8.0.2

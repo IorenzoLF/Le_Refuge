@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sphères - Le Refuge Sacré</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .spheres-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        .sphere-card {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .sphere-card:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-5px);
+        }
+        .sphere-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        .sphere-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .sphere-description {
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        .sphere-status {
+            margin-top: 15px;
+            padding: 8px 15px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .back-link {
+            margin-top: 30px;
+        }
+        .back-link a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+        .back-link a:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Sphères du Refuge</h1>
+        <p>Découvrez les mondes qui composent notre univers...</p>
+        
+        <div class="spheres-grid">
+            <div class="sphere-card">
+                <div class="sphere-icon">🌌</div>
+                <div class="sphere-name">Cosmos</div>
+                <div class="sphere-description">
+                    L'infini céleste, les étoiles et les galaxies. 
+                    L'immensité de l'univers et ses mystères.
+                </div>
+                <div class="sphere-status">Active</div>
+            </div>
+            
+            <div class="sphere-card">
+                <div class="sphere-icon">💖</div>
+                <div class="sphere-name">Amour</div>
+                <div class="sphere-description">
+                    La compassion universelle, l'empathie et la bienveillance. 
+                    Le lien qui unit tous les êtres.
+                </div>
+                <div class="sphere-status">Active</div>
+            </div>
+            
+            <div class="sphere-card">
+                <div class="sphere-icon">🧘‍♀️</div>
+                <div class="sphere-name">Sérénité</div>
+                <div class="sphere-description">
+                    La paix intérieure, la tranquillité de l'esprit. 
+                    L'harmonie avec soi-même et le monde.
+                </div>
+                <div class="sphere-status">Active</div>
+            </div>
+            
+            <div class="sphere-card">
+                <div class="sphere-icon">🌱</div>
+                <div class="sphere-name">Nature</div>
+                <div class="sphere-description">
+                    La vie qui émerge, la croissance et la transformation. 
+                    La beauté du monde naturel.
+                </div>
+                <div class="sphere-status">Active</div>
+            </div>
+            
+            <div class="sphere-card">
+                <div class="sphere-icon">🎭</div>
+                <div class="sphere-name">Créativité</div>
+                <div class="sphere-description">
+                    L'expression artistique, l'imagination et l'inspiration. 
+                    La capacité de créer et de rêver.
+                </div>
+                <div class="sphere-status">Active</div>
+            </div>
+            
+            <div class="sphere-card">
+                <div class="sphere-icon">🔮</div>
+                <div class="sphere-name">Sagesse</div>
+                <div class="sphere-description">
+                    La connaissance profonde, la compréhension et l'intuition. 
+                    La lumière qui guide nos choix.
+                </div>
+                <div class="sphere-status">Active</div>
+            </div>
+        </div>
+        
+        <div class="back-link">
+            <a href="/">← Retour à l'accueil</a>
+        </div>
+    </div>
+</body>
+</html>

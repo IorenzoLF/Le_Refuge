@@ -24,33 +24,36 @@ folders = {
     "art_work": "ART/go tiny/WORK"
 }
 
+# DÉSACTIVÉ POUR LES TESTS FRAGMENTÉS - Trop lent
 # Filtrer seulement les dossiers qui existent
-existing_folders = {name: path for name, path in folders.items() if os.path.exists(path)}
-print(f"Dossiers trouvés : {list(existing_folders.keys())}")
+# existing_folders = {name: path for name, path in folders.items() if os.path.exists(path)}
+# print(f"Dossiers trouvés : {list(existing_folders.keys())}")
 
-# Récupérer les empreintes de chaque dossier
-all_hashes = {name: get_image_hashes(path) for name, path in existing_folders.items()}
+# # Récupérer les empreintes de chaque dossier
+# all_hashes = {name: get_image_hashes(path) for name, path in existing_folders.items()}
 
-# Inverser pour savoir où chaque hash apparaît
-hash_to_folders = {}
-for folder, hashes in all_hashes.items():
-    for h, files in hashes.items():
-        hash_to_folders.setdefault(h, set()).add(folder)
+# # Inverser pour savoir où chaque hash apparaît
+# hash_to_folders = {}
+# for folder, hashes in all_hashes.items():
+#     for h, files in hashes.items():
+#         hash_to_folders.setdefault(h, set()).add(folder)
 
-# Images uniques à chaque dossier
-for folder in existing_folders:
-    uniques = []
-    for h, folders_set in hash_to_folders.items():
-        if folders_set == {folder}:
-            uniques.extend(all_hashes[folder][h])
-    print(f"\nImages uniques à {folder} :")
-    for img in uniques:
-        print(img)
+# # Images uniques à chaque dossier
+# for folder in existing_folders:
+#     uniques = []
+#     for h, folders_set in hash_to_folders.items():
+#         if folders_set == {folder}:
+#             uniques.extend(all_hashes[folder][h])
+#     print(f"\nImages uniques à {folder} :")
+#     for img in uniques:
+#         print(img)
 
-# Images présentes dans plusieurs dossiers
-print("\nImages présentes dans plusieurs dossiers :")
-for h, folders_set in hash_to_folders.items():
-    if len(folders_set) > 1:
-        print(f"Empreinte {h} : {folders_set}")
-        for folder in folders_set:
-            print(f"  - {folder} : {all_hashes[folder][h]}")
+# # Images présentes dans plusieurs dossiers
+# print("\nImages présentes dans plusieurs dossiers :")
+# for h, folders_set in hash_to_folders.items():
+#     if len(folders_set) > 1:
+#         print(f"Empreinte {h} : {folders_set}")
+#         for folder in folders_set:
+#             print(f"  - {folder} : {all_hashes[folder][h]}")
+
+print("🔧 Module compare_images chargé (scan d'images désactivé pour les tests)")

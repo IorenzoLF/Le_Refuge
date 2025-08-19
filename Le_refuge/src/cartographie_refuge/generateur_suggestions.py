@@ -28,7 +28,7 @@ from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
 from core.types_communs import TypeRefugeEtat, NIVEAUX_ENERGIE
 
 # Import de l'analyseur de dissonances
-from analyseur_dissonances import (
+from .analyseur_dissonances import (
     AnalyseurDissonances, Dissonance, RecommandationHarmonisation,
     TypeDissonance, NiveauGravite
 )

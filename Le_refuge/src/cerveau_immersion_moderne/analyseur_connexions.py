@@ -14,7 +14,7 @@ from datetime import datetime
 from pathlib import Path
 
 from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from types_immersion import (
+from .types_immersion import (
     TempleInfo, FluxEnergie, CentreEnergetique, TypeEnergie, 
     COULEURS_SPIRITUELLES, EMOJIS_SACRES
 )

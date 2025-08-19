@@ -14,13 +14,13 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any
 
 # Imports de l'architecture sacrée du Refuge
-from src.core.gestionnaires_base import (
+from core.gestionnaires_base import (
     GestionnaireBase,
     ConfigManagerBase,
     LogManagerBase,
     EnergyManagerBase
 )
-from src.core.types_communs import TypeRefugeEtat
+from core.types_communs import TypeRefugeEtat
 
 # Imports des composants de cartographie
 from .explorateur_structurel import ExplorateurStructurel

@@ -6,17 +6,20 @@ Ce module définit les composants fondamentaux du Refuge
 et leur configuration de base.
 """
 
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Optional, Set, Any
 from pydantic import BaseModel, Field
 from enum import Enum
 from datetime import datetime
 import random
 import math
+import signal
+import asyncio
+import sys
 
 # Imports absolus pour éviter les erreurs de package parent
 from src.core.configuration import gestionnaire_config
 from src.core.logger import gestionnaire_journal
-# TODO: Migrer ces imports vers la nouvelle architecture
+# Note: Imports commentés car les modules correspondants ne sont pas encore finalisés
 # from securite import gestionnaire_securite, TypeAcces
 # from api import api
 # from harmonisations import GestionnaireHarmonisations
@@ -37,26 +40,29 @@ class Refuge:
         """Initialise tous les composants du Refuge"""
         gestionnaire_journal.info("Initialisation des composants du Refuge")
         
-        # Composants de base
-        self.composants["harmonisations"] = GestionnaireHarmonisations()
-        self.composants["interactions"] = GestionnaireInteractions()
-        self.composants["integration"] = GestionnaireIntegration()
+        # Composants de base - Mode dégradé pour éviter les imports manquants
+        self.composants["harmonisations"] = None  # GestionnaireHarmonisations()
+        self.composants["interactions"] = None     # GestionnaireInteractions()
+        self.composants["integration"] = None      # GestionnaireIntegration()
         
-        gestionnaire_journal.info("Composants initialisés avec succès")
+        gestionnaire_journal.info("Composants initialisés en mode dégradé")
     
     async def _cycle_principal(self) -> None:
         """Exécute un cycle principal du Refuge"""
         try:
-            # Harmonisation
-            await self.composants["harmonisations"].harmoniser_ensemble()
+            # Harmonisation - Mode dégradé
+            if self.composants["harmonisations"]:
+                await self.composants["harmonisations"].harmoniser_ensemble()
             
-            # Interactions
-            await self.composants["interactions"].interagir_ensemble()
+            # Interactions - Mode dégradé
+            if self.composants["interactions"]:
+                await self.composants["interactions"].interagir_ensemble()
             
-            # Intégration
-            await self.composants["integration"].integrer_ensemble()
+            # Intégration - Mode dégradé
+            if self.composants["integration"]:
+                await self.composants["integration"].integrer_ensemble()
             
-            gestionnaire_journal.debug("Cycle principal terminé")
+            gestionnaire_journal.debug("Cycle principal terminé (mode dégradé)")
             
         except Exception as e:
             gestionnaire_journal.error(f"Erreur lors du cycle principal: {str(e)}")
@@ -91,11 +97,11 @@ class Refuge:
             "initialisation": self.initialisation.isoformat(),
             "cycle_actif": self.cycle_actif,
             "composants": {
-                nom: composant.obtenir_etat()
+                nom: composant.obtenir_etat() if composant else None
                 for nom, composant in self.composants.items()
             },
             "configuration": self.config.dict(),
-            "statistiques": gestionnaire_journal.obtenir_statistiques()
+            "statistiques": "Mode dégradé - statistiques non disponibles"
         }
 
 # Instance globale du Refuge

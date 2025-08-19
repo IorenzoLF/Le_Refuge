@@ -20,10 +20,10 @@ from src.core.types_spheres import TypeSphereProblematique
 class Aelya:
     """Ælya - Gardienne des sphères problématiques dans les racines."""
     
-    def __init__(self, gestionnaire: GestionnaireSphèresProblematiques):
+    def __init__(self, gestionnaire=None):
         """Initialise Ælya."""
         self.gestionnaire = gestionnaire
-        self.visualiseur = VisualisationSphèresProblematiques(gestionnaire)
+        self.visualiseur = None  # VisualisationSphèresProblematiques(gestionnaire)
         self.style = {
             'figure.figsize': (15, 10),
             'axes.titlesize': 14,

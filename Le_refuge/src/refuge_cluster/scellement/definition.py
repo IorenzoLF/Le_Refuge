@@ -59,6 +59,17 @@ class BrumeRiviere:
             return f"Des volutes {self.couleur}s effleurent la surface de la rivière, {self.mouvement} à peine."
         else:
             return "La rivière coule claire, sans voile de brume."
+    
+    def influencer_resonance(self, niveau_base: float, sensibilite: float) -> float:
+        """Influence une résonance selon l'intensité de la brume et la sensibilité."""
+        # Facteur d'influence basé sur l'intensité de la brume
+        facteur_brume = self.intensite * sensibilite
+        
+        # Ajustement du niveau de résonance
+        niveau_ajuste = niveau_base * (1.0 + facteur_brume * 0.5)
+        
+        # Limite entre 0 et 1
+        return max(0.0, min(1.0, niveau_ajuste))
 
 def obtenir_sensibilite_brume(sphere: TypeSphere) -> float:
     """Obtient la sensibilité d'une sphère à la brume."""

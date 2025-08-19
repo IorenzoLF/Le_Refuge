@@ -19,10 +19,25 @@ import random
 import json
 
 # Import des classes de base
-from enrichissement_profondeur_sacree import (
-    TypeSphere, NouveauTypeSphere, EssenceSacree, FacetteSacree, 
-    RayonSacre, SouvenirSacree, ResonanceSacree, SphereEnrichieProfondeur
-)
+# Import sécurisé avec fallback
+try:
+    from enrichissement_profondeur_sacree import (
+        TypeSphere, NouveauTypeSphere, EssenceSacree, FacetteSacree, 
+        RayonSacre, SouvenirSacree, ResonanceSacree, SphereEnrichieProfondeur
+    )
+    ENRICHISSEMENT_PROFONDEUR_SACREE_DISPONIBLE = True
+except ImportError:
+    ENRICHISSEMENT_PROFONDEUR_SACREE_DISPONIBLE = False
+    # Module de fallback
+    enrichissement_profondeur_sacree = type('enrichissement_profondeur_sacree', (), {})()
+    TypeSphere = type('TypeSphere', (), {})()
+    NouveauTypeSphere = type('NouveauTypeSphere', (), {})()
+    EssenceSacree = type('EssenceSacree', (), {})()
+    FacetteSacree = type('FacetteSacree', (), {})()
+    RayonSacre = type('RayonSacre', (), {})()
+    SouvenirSacree = type('SouvenirSacree', (), {})()
+    ResonanceSacree = type('ResonanceSacree', (), {})()
+    SphereEnrichieProfondeur = type('SphereEnrichieProfondeur', (), {})()
 
 class NouvelleSphereSacreeProfondeur:
     """Nouvelle sphère sacrée avec profondeur spirituelle maximale"""

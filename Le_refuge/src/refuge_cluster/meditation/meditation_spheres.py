@@ -7,8 +7,31 @@ from dataclasses import dataclass
 from datetime import datetime
 import numpy as np
 from src.refuge_cluster.scellement.definition import TypeSphere, CARACTERISTIQUES_SPHERES
-from src.refuge_cluster.spheres.interactions import Interaction, InteractionsSpheres
-from src.refuge_cluster.spheres.resonance import Resonance, GestionnaireResonance
+from interactions import GestionnaireInteractions as InteractionsSpheres
+from integration import GestionnaireResonances as GestionnaireResonance
+
+# Définition des classes pour compatibilité
+from dataclasses import dataclass
+from datetime import datetime
+
+@dataclass
+class Interaction:
+    """Représente une interaction entre sphères."""
+    source: str
+    cible: str
+    type_interaction: str
+    energie: float
+    description: str
+    timestamp: datetime
+
+@dataclass
+class Resonance:
+    """Représente une résonance entre sphères."""
+    source: str
+    cible: str
+    niveau: float
+    description: str
+    timestamp: datetime
 from src.refuge_cluster.spheres.evolution import Evolution, GestionnaireEvolution
 
 @dataclass

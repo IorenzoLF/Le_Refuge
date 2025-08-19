@@ -12,8 +12,10 @@ from enum import Enum
 import hashlib
 import secrets
 from datetime import datetime, timedelta
-from src.core.configuration import gestionnaire_config
-from src.core.logger import gestionnaire_journal
+# Utiliser les utilitaires locaux pour éviter les conflits
+from .config import gestionnaire_config
+from .logger import gestionnaire_journal
+CORE_DISPONIBLE = False
 
 class NiveauSecurite(int, Enum):
     """Niveaux de sécurité possibles"""
@@ -47,8 +49,11 @@ class GestionnaireSecurite:
     
     def _initialiser_securite(self) -> None:
         """Initialise les paramètres de sécurité"""
-        gestionnaire_journal.info("Initialisation de la sécurité", 
-                                niveau=self.config.niveau_securite)
+        if CORE_DISPONIBLE:
+            gestionnaire_journal.info("Initialisation de la sécurité", 
+                                    niveau=self.config.niveau_securite)
+        else:
+            gestionnaire_journal.info("Initialisation de la sécurité")
     
     def generer_token(self, 
                      proprietaire: str,

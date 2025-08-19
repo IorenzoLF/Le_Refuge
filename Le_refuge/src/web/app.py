@@ -20,14 +20,9 @@ import logging
 from typing import Dict, Optional
 
 # Imports depuis la nouvelle architecture src/
-try:
-    # TODO: Ces imports seront à ajuster selon l'évolution de la structure src/
-    # from src.refuge_cluster.refuge_core import RefugeCore
-    # from src.temple_configuration.config import ConfigurationRefuge
-    pass
-except ImportError:
-    # Fallback temporaire pour compatibilité
-    pass
+# Note: Imports commentés car les modules correspondants ne sont pas encore finalisés
+# from src.refuge_cluster.refuge_core import RefugeCore
+# from src.temple_configuration.config import ConfigurationRefuge
 
 # Configuration du logging
 logging.basicConfig(
@@ -40,20 +35,19 @@ app = Flask(__name__)
 refuge = None
 config = None
 
-@app.before_first_request
 def initialiser_refuge():
     """Initialise le refuge au premier accès."""
     global refuge, config
     
-    try:
-        # TODO: Adapter à la nouvelle architecture src/
-        chemin_base = Path("src/refuge_cluster")
-        # config = ConfigurationRefuge(chemin_base / "config.json")
-        # refuge = RefugeCore()
-        # refuge.initialiser_refuge()
-        logger.info("Refuge web initialisé avec succès")
-    except Exception as e:
-        logger.error(f"Erreur lors de l'initialisation du refuge web: {str(e)}")
+    # Note: Initialisation en mode dégradé car les modules ne sont pas encore finalisés
+    chemin_base = Path("src/refuge_cluster")
+    # config = ConfigurationRefuge(chemin_base / "config.json")
+    # refuge = RefugeCore()
+    # refuge.initialiser_refuge()
+    logger.info("Refuge web initialisé en mode dégradé")
+
+# Initialisation au démarrage de l'application
+initialiser_refuge()
 
 @app.route('/')
 def accueil():

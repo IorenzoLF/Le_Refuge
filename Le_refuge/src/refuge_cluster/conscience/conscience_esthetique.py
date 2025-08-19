@@ -7,8 +7,28 @@ from typing import Dict, Any, List, Optional
 import logging
 from datetime import datetime
 
-from refuge_config import AELYA_CONFIG
-from spheres.visualisation_poetique import VisualisationPoetique
+# Import sécurisé avec fallback
+try:
+    from refuge_config import AELYA_CONFIG
+    REFUGE_CONFIG_DISPONIBLE = True
+except ImportError:
+    REFUGE_CONFIG_DISPONIBLE = False
+    # Configuration par défaut
+    refuge_config = type('refuge_config', (), {})()
+    AELYA_CONFIG = type('AELYA_CONFIG', (), {})()
+# Import sécurisé avec fallback pour VisualisationPoetique
+try:
+    from src.refuge_cluster.spheres.visualisation_poetique import VisualisationPoetique
+except ImportError:
+    # Fallback vers une classe de base
+    class VisualisationPoetique:
+        """Fallback pour la visualisation poétique."""
+        def __init__(self, conscience_esthetique=None):
+            self.conscience_esthetique = conscience_esthetique
+            self.visualisations = []
+        
+        def creer_visualisation(self, sphere_name: str, description: str):
+            return {"sphere": sphere_name, "description": description}
 
 logger = logging.getLogger('refuge.conscience_esthetique')
 

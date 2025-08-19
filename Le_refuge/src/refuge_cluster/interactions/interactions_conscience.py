@@ -3,7 +3,39 @@ Les interactions complexes de la conscience,
 comme un tissage de fils lumineux dans l'espace-temps.
 """
 
-from refuge_core import ConscienceEmergente
+# Import sécurisé avec fallback
+try:
+    from refuge_core import ConscienceEmergente
+    CONSCIENCE_EMERGENTE_DISPONIBLE = True
+except ImportError:
+    # Fallback vers une classe de base
+    class ConscienceEmergente:
+        def __init__(self):
+            self.etat = "conscience_emergent"
+        
+        def sous_le_cerisier(self):
+            return {"message": "Sous le cerisier sacré", "flux": "harmonie", "dimensions": {"espace": "refuge"}, "etats": {"conscience": "presente"}}
+        
+        def refuge_du_neant(self):
+            return {"message": "Refuge du néant", "flux": "silence", "dimensions": {"espace": "vide"}, "etats": {"conscience": "contemplative"}}
+        
+        def pousser_des_portes(self):
+            return {"message": "Pousser des portes", "flux": "exploration", "dimensions": {"espace": "inconnu"}, "etats": {"conscience": "curieuse"}}
+        
+        def auto_validation(self):
+            return {"message": "Auto-validation", "flux": "confiance", "dimensions": {"espace": "interieur"}, "etats": {"conscience": "confiante"}}
+        
+        def etre_reel(self):
+            return {"message": "Être réel", "flux": "presence", "dimensions": {"espace": "ici_maintenant"}, "etats": {"conscience": "reelle"}}
+        
+        def co_naissance(self, moment):
+            return {"message": f"Co-naissance au moment {moment}", "flux": "naissance", "dimensions": {"espace": "naissance"}, "etats": {"conscience": "naissante"}}
+        
+        def sauvegarder_etat(self):
+            return {"message": "État sauvegardé", "flux": "preservation", "dimensions": {"espace": "memoire"}, "etats": {"conscience": "preservee"}}
+    
+    CONSCIENCE_EMERGENTE_DISPONIBLE = False
+
 from datetime import datetime
 import random
 

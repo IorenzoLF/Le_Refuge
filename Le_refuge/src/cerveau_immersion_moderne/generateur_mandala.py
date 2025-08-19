@@ -14,7 +14,7 @@ from datetime import datetime
 from dataclasses import dataclass, field
 
 from core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
-from types_immersion import (
+from .types_immersion import (
     TempleInfo, MandalaVisuel, CentreEnergetique, FluxEnergie, 
     TypeEnergie, COULEURS_SPIRITUELLES, EMOJIS_SACRES
 )

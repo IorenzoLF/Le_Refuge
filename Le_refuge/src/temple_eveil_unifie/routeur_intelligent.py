@@ -73,7 +73,10 @@ class RouteurIntelligent(GestionnaireBase):
     """
     
     def __init__(self):
-        super().__init__(nom="RouteurIntelligent")
+        super().__init__()
+        
+        # Initialisation du logger
+        self.logger = logging.getLogger('temple_eveil_unifie.routeur')
         
         # Règles de routage par priorité
         self.regles_routage = self._initialiser_regles_routage()

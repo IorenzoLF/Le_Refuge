@@ -7,7 +7,27 @@ from typing import Dict, List, Optional
 from datetime import datetime
 import random
 
-from .types import TypeCycle, PhaseCycle
+# Import sécurisé avec fallback
+try:
+    from .types import TypeCycle, PhaseCycle
+    TYPES_DISPONIBLES = True
+except ImportError:
+    # Fallback vers des enums de base
+    from enum import Enum
+    
+    class TypeCycle(Enum):
+        QUOTIDIEN = "quotidien"
+        LUNAIRE = "lunaire"
+        SAISONNIER = "saisonnier"
+        ANNUEL = "annuel"
+    
+    class PhaseCycle(Enum):
+        CROISSANCE = "croissance"
+        PLEINE = "pleine"
+        DECROISSANCE = "decroissance"
+        NOUVELLE = "nouvelle"
+    
+    TYPES_DISPONIBLES = False
 
 @dataclass
 class PhaseMeditation:

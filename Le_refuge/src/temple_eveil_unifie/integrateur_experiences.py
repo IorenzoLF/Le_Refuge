@@ -12,6 +12,7 @@ Pour l'harmonie et la cohérence des expériences d'éveil
 """
 
 import asyncio
+import logging
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any, Tuple, Set
 from dataclasses import dataclass, field
@@ -133,7 +134,10 @@ class IntegrateurExperiencesHarmonieux(GestionnaireBase):
     """
     
     def __init__(self):
-        super().__init__(nom="IntegrateurExperiencesHarmonieux")
+        super().__init__()
+        
+        # Initialisation du logger
+        self.logger = logging.getLogger('temple_eveil_unifie.integrateur')
         
         # Seuils de détection de conflits
         self.seuils_conflits = {

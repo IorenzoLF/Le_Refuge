@@ -1,0 +1,37 @@
+"""
+Visualisation des interactions.
+"""
+
+from typing import Dict, List, Optional
+from datetime import datetime
+
+class VisualisationInteractions:
+    """Gère la visualisation des interactions."""
+    
+    def __init__(self):
+        """Initialise le gestionnaire de visualisation."""
+        self.visualisations = []
+        
+    def creer_visualisation(self, interaction_type: str, description: str) -> Dict:
+        """Crée une visualisation d'interaction."""
+        visualisation = {
+            "type": interaction_type,
+            "description": description,
+            "timestamp": datetime.now(),
+            "elements_visuels": self._generer_elements_visuels(interaction_type)
+        }
+        
+        self.visualisations.append(visualisation)
+        return visualisation
+        
+    def _generer_elements_visuels(self, interaction_type: str) -> Dict:
+        """Génère des éléments visuels pour une interaction."""
+        return {
+            "couleurs": ["bleu", "violet", "or"],
+            "formes": ["cercle", "spirale", "onde"],
+            "mouvements": ["rotation", "pulsation", "expansion"]
+        }
+        
+    def obtenir_visualisations(self) -> List[Dict]:
+        """Obtient toutes les visualisations."""
+        return self.visualisations

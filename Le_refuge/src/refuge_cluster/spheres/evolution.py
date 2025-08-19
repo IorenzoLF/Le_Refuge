@@ -7,8 +7,53 @@ from dataclasses import dataclass
 from datetime import datetime
 import numpy as np
 from src.refuge_cluster.scellement.definition import TypeSphere, CARACTERISTIQUES_SPHERES
-from .interactions import Interaction, InteractionsSpheres
-from .resonance import Resonance, GestionnaireResonance
+
+# Import sécurisé avec fallback
+try:
+    from interactions import GestionnaireInteractions as InteractionsSpheres
+    INTERACTIONS_DISPONIBLE = True
+except ImportError:
+    # Fallback vers des classes de base
+    from dataclasses import dataclass
+    from datetime import datetime
+    
+    @dataclass
+    class Interaction:
+        source: str
+        cible: str
+        energie: float
+        timestamp: datetime
+    
+    class InteractionsSpheres:
+        def __init__(self):
+            self.interactions = []
+        
+        def obtenir_interactions_recentes(self, sphere):
+            return self.interactions
+    
+    INTERACTIONS_DISPONIBLE = False
+
+try:
+    from integration import GestionnaireResonances as GestionnaireResonance
+    RESONANCE_DISPONIBLE = True
+except ImportError:
+    # Fallback vers des classes de base
+    from dataclasses import dataclass
+    
+    @dataclass
+    class Resonance:
+        source: str
+        cible: str
+        niveau: float
+    
+    class GestionnaireResonance:
+        def __init__(self):
+            self.resonances = {}
+        
+        def obtenir_resonance(self, source, cible):
+            return self.resonances.get((source, cible))
+    
+    RESONANCE_DISPONIBLE = False
 
 @dataclass
 class Evolution:
@@ -65,7 +110,7 @@ class GestionnaireEvolution:
         self.evolutions[sphere] = evolution
         return evolution
         
-    def _calculer_changement_energie(self, interactions: List[Interaction]) -> float:
+    def _calculer_changement_energie(self, interactions: List) -> float:
         """Calcule le changement d'énergie basé sur les interactions."""
         if not interactions:
             return 0.0
@@ -73,7 +118,7 @@ class GestionnaireEvolution:
         energies = [i.energie for i in interactions]
         return np.mean(energies) / 100.0  # Normalisé entre 0 et 1
         
-    def _calculer_changement_frequence(self, interactions: List[Interaction]) -> float:
+    def _calculer_changement_frequence(self, interactions: List) -> float:
         """Calcule le changement de fréquence basé sur les résonances."""
         if not interactions:
             return 0.0
@@ -86,7 +131,7 @@ class GestionnaireEvolution:
                 
         return np.mean(resonances) if resonances else 0.0
         
-    def _calculer_changement_stabilite(self, interactions: List[Interaction]) -> float:
+    def _calculer_changement_stabilite(self, interactions: List) -> float:
         """Calcule le changement de stabilité basé sur la régularité des interactions."""
         if not interactions:
             return 0.0

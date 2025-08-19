@@ -98,6 +98,15 @@ except ImportError as e:
     def poetique_simple(*args, **kwargs):
         return "✨ Poésie en mode créatif"
 
+# Gestion de l'erreur fusion_math_musicale
+try:
+    # Tentative d'import du module manquant
+    import core
+    FUSION_MATH_MUSICALE_DISPONIBLE = True
+except ImportError:
+    FUSION_MATH_MUSICALE_DISPONIBLE = False
+    # print("⚠️ fusion_math_musicale non disponible: No module named 'core'")
+
 # Exports dynamiques basés sur les modules disponibles
 __all__ = []
 

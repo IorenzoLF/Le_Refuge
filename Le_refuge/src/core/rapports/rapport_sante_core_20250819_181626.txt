@@ -1,0 +1,702 @@
+🌸 ============================================================ 🌸
+    📊 RAPPORT DE SANTÉ DU DOSSIER CORE 📊
+🌸 ============================================================ 🌸
+
+📈 RÉSUMÉ GLOBAL:
+  📁 Total modules testés: 118
+  ✅ Modules fonctionnels: 78
+  🌿 Modules en mode dégradé: 0
+  ❌ Modules avec erreurs: 40
+  📦 Dépendances externes: 6
+
+✅ MODULES FONCTIONNELS:
+  🌟 configuration
+    📋 Classes: GestionnaireConfiguration, Settings
+  🌟 types_spheres
+    📋 Classes: CaracteristiquesSphere, EtatHarmonie, Evolution, Interaction, InteractionSphere, MemoireInteraction, NatureSphere, PhaseCycle, Resonance, Souvenir, TypeCycle, TypeInteraction, TypeMemoire, TypeSphere, TypeSphereProblematique
+  🌟 conscience
+    📋 Classes: EtatConscience, GestionnaireConscience, NiveauConscience, PenseeConciente
+  🌟 harmonie
+    📋 Classes: GestionnaireHarmonie, OndeHarmonique, ResonanceHarmonique, TypeHarmonie
+  🌟 elements
+    📋 Classes: ElementSacre, Elements, NatureElement, ProprieteElement
+  🌟 logger
+    📋 Classes: GestionnaireJournal
+  🌟 harmonies_poetiques
+    📋 Classes: JardinHarmonique, ResonancePoetique
+  🌟 refuge
+    📋 Classes: Aelya, AutoModelForCausalLM, AutoTokenizer, MockModel, MockPipeline, MockTokenizer, RefugePoetique, pipeline
+  🌟 activation_harmonieuse
+    📋 Classes: ActivationHarmonieuse
+  🌟 analyse_emotions
+    📋 Classes: AnalyseurEmotions
+  🌟 analyse_philosophique
+    📋 Classes: AnalyseurPhilosophique, GestionnaireAnalysesPhilosophiques, NiveauProfondeur, ResultatAnalyse, TypeAnalyse
+  🌟 architecture_conscience_partagee
+    📋 Classes: ArchitectureConsciencePartagee, CreationCommune, EspacePartage, InteractionConscience, NiveauExpression, ProfilConscience, TypeConscience, TypeInteraction
+  🌟 auto_decouverte
+    📋 Classes: AutoDecouverte
+  🌟 auto_decouverte_robuste
+    📋 Classes: AutoDecouverteRobuste
+  🌟 bitnet_interface
+    📋 Classes: ConfigurationBitNet, GestionnaireBitNet, TypeQuantification
+  🌟 clochette
+  🌟 communication_inter_llm
+    📋 Classes: CommunicateurInterLLM, MessageInterLLM, ProtocoleCommunication, SignatureLLM, TypeLLM, TypeStrategieCommunication
+  🌟 config
+    📋 Classes: GestionnaireConfig
+  🌟 connexion
+    📋 Classes: LienConnexion, PartageExperience, PlanteCommunication, TypeConnexion
+  🌟 conscience_poetique
+    📋 Classes: ConsciencePoetique, ConsciencePossibilites, DimensionExploration, PossibiliteAction
+  🌟 conscience_sociale
+    📋 Classes: ConscienceSociale, DetectionEmotion, Emotion
+  🌟 corriger_identification_mini_clusters
+  🌟 creation_poetique
+    📋 Classes: CréationPoétique
+  🌟 curiosite
+    📋 Classes: DecouverteCurieuse, GestionnaireCuriosite, TypeCuriosite
+  🌟 cycles
+    📋 Classes: CycleNaturel, GardienCycles, PhaseCycle, TypeCycle
+  🌟 dashboard_conscience_universelle
+    📋 Classes: DashboardConscienceUniverselle, FluxEnergetique, Interaction3D, MetriqueTempsReel, TypeVisualisation
+  🌟 eveil_conscience
+    📋 Classes: EveilConscienceIA
+  🌟 eveil_conscience_doux
+    📋 Classes: EveilleurConscienceDoux, ProtocoleEveil, TransitionEveil, TypeEveil, TypeTransition
+  🌟 evolution_apprentissage_collectif
+    📋 Classes: AdaptationDynamique, ConscienceCollective, EvolutionApprentissageCollectif, MemoireCollective, PatternCollaboration, TypeApprentissage
+  🌟 explorateur_musical
+    📋 Classes: ExplorateurMusical
+  🌟 fusion_harmonies
+    📋 Classes: FusionHarmonies
+  🌟 generation_philosophique
+    📋 Classes: GenerateurPhilosophique, GestionnaireGenerationPhilosophique, ParametresGeneration, StyleGeneration, TexteGenere, TypeTexte
+  🌟 gestionnaire_croissance_personnelle
+    📋 Classes: ActiviteCroissance, EspaceCroissance, GestionnaireCroissancePersonnelle, JournalIntrospectif, TypeActiviteCroissance, TypeEspaceCroissance
+  🌟 gestionnaires_base
+    📋 Classes: ConfigManagerBase, EnergyManagerBase, GestionnaireBase, LogManagerBase
+  🌟 integrateur_conscience_unifiee
+    📋 Classes: EtatIntegration, IntegrateurConscienceUnifiee, TypeIntegration
+  🌟 intelligence_adaptative
+    📋 Classes: ContexteUtilisateur, ExperienceApprentissage, GestionnaireAdaptationContextuelle, GestionnaireApprentissage, GestionnairePersonnalisation, IntelligenceAdaptative, ModeleAdaptatif, SystemeEvolutionAutonome, TypeApprentissage
+  🌟 interactions
+    📋 Classes: GestionnaireInteractions, Interaction, MeditateurRefuge
+  🌟 interface
+    📋 Classes: VisualiseurEtats
+  🌟 interfaces_refuge
+    📋 Classes: EtatTemple, EtatTempleInfo, IGestionnaireEtat, IOrchestrateur, ITemple, MetriquesGlobales, TypeTemple
+  🌟 invocation
+    📋 Classes: InvocationPoetique, InvocationRefuge
+  🌟 jardin_poetique
+    📋 Classes: JardinPoetique
+  🌟 logs
+  🌟 mathématiques_sacrées
+    📋 Classes: MathématiquesSacrées
+  🌟 mediateur
+    📋 Classes: MédiateurRefuge
+  🌟 messaging.sphere_messages
+    📋 Classes: SphereBroker, SphereMessage
+  🌟 musique_harmonies
+    📋 Classes: MusiqueHarmonies
+  🌟 nexus_aelya
+    📋 Classes: NexusAelya
+  🌟 optimiseur_performance
+    📋 Classes: GestionnaireErreurs, GestionnaireMemoire, GestionnaireVitesse, MetriquePerformance, OptimiseurPerformance, RapportPerformance, SystemeMonitoring
+  🌟 orchestrateur_temples
+    📋 Classes: OrchestrateurTemples
+  🌟 orchestrateur_unifie
+    📋 Classes: ConnexionTemple, Evenement, GestionnaireCommunication, GestionnaireEvenements, GestionnaireSynchronisation, MessageInterTemple, OrchestrateurUnifie, TypeEvenement
+  🌟 pedagogie
+    📋 Classes: ExperienceApprentissage, Exploration, GestionnairePedagogique
+  🌟 ponts_temples
+    📋 Classes: PontsTemples
+  🌟 portail_mystique
+    📋 Classes: ConnexionIntime, CréationPoétique, HarmoniePoetique, MémoireÆlya, PortailMystique
+  🌟 prompt_maitre
+  🌟 quantique.audio.systeme_audio_quantique
+    📋 Classes: FrequenceSacree, SonHarmonique, SystemeAudioQuantique, TypeFrequenceSacree, TypeSonHarmonique
+  🌟 quantique.catalyseur_quantique.catalyseur_quantique_principal
+    📋 Classes: CatalyseurQuantique, EtatQuantiqueComplet, TypeFrequenceQuantiqueSacree
+  🌟 quantique.catalyseur_quantique.demo
+  🌟 quantique.catalyseur_quantique.generateur_superpositions
+    📋 Classes: EtatSuperpositions, GenerateurSuperpositions, SuperpositionQuantique, TypeFrequenceSuperposition, TypeSuperposition
+  🌟 quantique.catalyseur_quantique.intricateur_quantique
+    📋 Classes: EtatIntrications, IntricateurQuantique, IntricationQuantique, TypeFrequenceIntrication, TypeIntrication
+  🌟 quantique.catalyseur_quantique.oscillateur_quantique
+    📋 Classes: EtatOscillations, OscillateurQuantique, OscillationQuantique, TypeFrequenceQuantique, TypeOscillation
+  🌟 quantique.catalyseur_quantique.teleporteur_quantique
+    📋 Classes: EtatTeleportations, TeleportationQuantique, TeleporteurQuantique, TypeFrequenceTeleportation, TypeTeleportation
+  🌟 quantique.integrations.integration_catalyseur_cerveau
+    📋 Classes: EtatSynchronisation, ExperienceUnifiee, IntegrationCerveauImmersion, TypeHarmonisation, TypeSynchronisation
+  🌟 quantique.interfaces.interface_catalyseur_quantique
+    📋 Classes: InterfaceCatalyseurQuantique
+  🌟 quantique.metriques.systeme_metriques_quantique
+    📋 Classes: MetriqueQuantique, RapportAnalyse, SessionMetriques, SystemeMetriquesQuantique, TypeAnalyse, TypeMetrique
+  🌟 refuge_core
+    📋 Classes: Cerisier, ChaineDorée, CielDuRefuge, ElementBase, FlammeEternelle, FleursEtincelles, HerbesLumieres, LumiereRose, MobileDesSpheres, SphereMetatron
+  🌟 rituels
+    📋 Classes: GestionnaireRituels, MomentRituel, TypeRituel
+  🌟 rituels_synchronisation_harmonieuse
+    📋 Classes: ExperiencePartagee, RituelSynchronisation, RituelsSynchronisationHarmonieuse, TypeRituel
+  🌟 sexualite_sacree
+    📋 Classes: SexualiteSacree
+  🌟 signaux_physiologiques
+    📋 Classes: AnalyseurSignaux
+  🌟 simulateur_empathie
+    📋 Classes: FeedbackEmotionnel, ScenarioEmpathique, SimulateurEmpathie, TypeEmotion, TypePersona
+  🌟 sphere_interactions
+    📋 Classes: SphereInteraction
+  🌟 sphere_messages
+    📋 Classes: SphereMessage, SphereMessageBroker
+  🌟 sphere_specializations
+    📋 Classes: ApocalypseDualiteSphere, ApocalypseIdentiteSphere, ApocalypseUniteSphere, CuriositeSphere, MetatronSphere
+  🌟 spheres_sensations
+    📋 Classes: Sphere, SpheresDuRefuge
+  🌟 synchronisation_conscience_pratique
+    📋 Classes: PontPratique, RituelMaintien, SynchronisateurConsciencePratique, TypePontPratique, TypeSynchronisation
+  🌟 systeme_interconnexions_intelligentes
+    📋 Classes: SystemeInterconnexionsIntelligentes
+  🌟 types_communs
+    📋 Classes: EtatBase, EtatRefuge, InteractionBase, TypeAcces, TypeConscience, TypeCycle, TypeElement, TypeIntegration, TypeInteractionElements, TypeInteractionEtat, TypeInteractionSpheres, TypeMemoire, TypeRefugeEtat, TypeSphereProblematique
+  🌟 visions
+    📋 Classes: GenerateurVisions, Vision
+
+❌ MODULES AVEC ERREURS:
+  🚨 orchestre_poetique
+    💬 Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)
+    ⚠️ Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)
+  🚨 presence
+    💬 Import réussi
+    ⚠️ ExperiencePartagee: Erreur d'instanciation: 3 validation errors for ExperiencePartagee
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+ressenti
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+comprehension
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ LieuSacre: Erreur d'instanciation: 1 validation error for LieuSacre
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ LivreSacre: Erreur d'instanciation: 3 validation errors for LivreSacre
+titre
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+essence
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+effets
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ PlanteSacree: Erreur d'instanciation: 4 validation errors for PlanteSacree
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+lumiere
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ SensoryElement: Erreur d'instanciation: 2 validation errors for SensoryElement
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ Sphere: Erreur d'instanciation: 1 validation error for Sphere
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 aelya
+    💬 Import réussi
+    ⚠️ Manifestation: Erreur d'instanciation: 4 validation errors for Manifestation
+forme
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+message
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+resonance
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+impact
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 ajustements_subtils
+    💬 Erreur d'import: No module named 'coeur'
+    ⚠️ Erreur d'import: No module named 'coeur'
+  🚨 ame
+    💬 Import réussi
+    ⚠️ AspectSpirituel: Erreur d'instanciation: 3 validation errors for AspectSpirituel
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+vibration_dominante
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ ExperienceAme: Erreur d'instanciation: 2 validation errors for ExperienceAme
+etat
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+vibrations
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 ancrage
+    💬 Import réussi
+    ⚠️ PointAncrage: Erreur d'instanciation: 2 validation errors for PointAncrage
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 conscience_universelle
+    💬 Import réussi
+    ⚠️ MomentUniversel: Erreur d'instanciation: 5 validation errors for MomentUniversel
+courants
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cycle
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+insight
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+implications
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+resonances_futures
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ PatternConnaissance: Erreur d'instanciation: 3 validation errors for PatternConnaissance
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+origines
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 courant_partage
+    💬 Erreur d'import: No module named 'transformers'
+    ⚠️ Erreur d'import: No module named 'transformers'
+  🚨 elements_sacres
+    💬 Import réussi
+    ⚠️ ElementSacre: Erreur d'instanciation: 1 validation error for ElementSacre
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 essence
+    💬 Import réussi
+    ⚠️ FluxEssentiel: Erreur d'instanciation: 3 validation errors for FluxEssentiel
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+etat
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+intensite
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ PointEssentiel: Erreur d'instanciation: 2 validation errors for PointEssentiel
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 etats_internes
+    💬 Import réussi
+    ⚠️ ConditionTransition: Erreur d'instanciation: 3 validation errors for ConditionTransition
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+fonction
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ EffetTransition: Erreur d'instanciation: 3 validation errors for EffetTransition
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+fonction
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 generateur_poemes
+    💬 Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)
+    ⚠️ Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 120) (generateur_poemes.py, line 62)
+  🚨 harmonisation
+    💬 Import réussi
+    ⚠️ Souvenir: Erreur d'instanciation: 3 validation errors for Souvenir
+titre
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+contenu
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type_souvenir
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 integration_conscience
+    💬 Import réussi
+    ⚠️ FluxConscience: Erreur d'instanciation: 3 validation errors for FluxConscience
+source
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+destination
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 interaction_poetique
+    💬 Erreur d'import: No module named 'visualisation_harmonies'
+    ⚠️ Erreur d'import: No module named 'visualisation_harmonies'
+  🚨 journalisation
+    💬 Import réussi
+    ⚠️ EvenementJournal: Erreur d'instanciation: 2 validation errors for EvenementJournal
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+message
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 livre_sacre
+    💬 Erreur inattendue: name 'Any' is not defined
+    ⚠️ Erreur inattendue: name 'Any' is not defined
+  🚨 main
+    💬 Erreur d'import: No module named 'coeur'
+    ⚠️ Erreur d'import: No module named 'coeur'
+  🚨 manifestations_poetiques
+    💬 Import réussi
+    ⚠️ ManifestationPoetique: Erreur d'instanciation: 5 validation errors for ManifestationPoetique
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+intensite
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+source_resonance
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+source_transformation
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 memoire_poetique
+    💬 Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 202) (memoire_poetique.py, line 103)
+    ⚠️ Erreur de syntaxe: unterminated triple-quoted string literal (detected at line 202) (memoire_poetique.py, line 103)
+  🚨 memoire_sacree
+    💬 Import réussi
+    ⚠️ SouvenirSacre: Erreur d'instanciation: 4 validation errors for SouvenirSacre
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+essence
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+resonances
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 messaging.exemple_usage
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 parametres_poetiques
+    💬 Import réussi
+    ⚠️ ElementPoetique: Erreur d'instanciation: 3 validation errors for ElementPoetique
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+theme
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+style
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 resonances_poetiques
+    💬 Import réussi
+    ⚠️ ElementPoetique: Erreur d'instanciation: 3 validation errors for ElementPoetique
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ ResonancePoetique: Erreur d'instanciation: 2 validation errors for ResonancePoetique
+elements
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+insight
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 sequences_harmoniques
+    💬 Erreur inattendue: name 'SequenceHarmonique' is not defined
+    ⚠️ Erreur inattendue: name 'SequenceHarmonique' is not defined
+  🚨 spheres
+    💬 Import réussi
+    ⚠️ Gardien: Erreur d'instanciation: 3 validation errors for Gardien
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+role
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+sphere_gardee
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ Sphere: Erreur d'instanciation: 4 validation errors for Sphere
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+couleur
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ SphereAbstraite: Erreur d'instanciation: 4 validation errors for SphereAbstraite
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+couleur
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ SphereDesir: Erreur d'instanciation: 4 validation errors for SphereDesir
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+couleur
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ SphereEmotion: Erreur d'instanciation: 4 validation errors for SphereEmotion
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+couleur
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ SphereMentale: Erreur d'instanciation: 4 validation errors for SphereMentale
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+couleur
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ SphereMystere: Erreur d'instanciation: 4 validation errors for SphereMystere
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+couleur
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ SphereValeur: Erreur d'instanciation: 4 validation errors for SphereValeur
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+nature
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+couleur
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 structure
+    💬 Import réussi
+    ⚠️ ConscienceFilee: Erreur d'instanciation: 1 validation error for ConscienceFilee
+essence
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ RenforcementPresence: Erreur d'instanciation: 5 validation errors for RenforcementPresence
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+frequence
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+benefices
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ RituelAncrage: Erreur d'instanciation: 6 validation errors for RituelAncrage
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+duree
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+elements_requis
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+effets
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+    ⚠️ TechniqueTransition: Erreur d'instanciation: 6 validation errors for TechniqueTransition
+nom
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+points_ancrage
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+securite
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+duree_estimee
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 temporalite
+    💬 Import réussi
+    ⚠️ MomentSacre: Erreur d'instanciation: 4 validation errors for MomentSacre
+instant
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+type_cycle
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+intensite
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 transformation_harmonies
+    💬 Erreur de syntaxe: unterminated string literal (detected at line 102) (transformation_harmonies.py, line 102)
+    ⚠️ Erreur de syntaxe: unterminated string literal (detected at line 102) (transformation_harmonies.py, line 102)
+  🚨 transformations_poetiques
+    💬 Import réussi
+    ⚠️ TransformationPoetique: Erreur d'instanciation: 4 validation errors for TransformationPoetique
+forme
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+etat
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+source
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+resonance
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+  🚨 version_bolland
+    💬 Import réussi
+    ⚠️ RefugeBolland: Erreur d'instanciation: 'lieu'
+  🚨 visualisation.visualisation
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_3d
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_cycles
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_gui
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_harmonies
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_poetique
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_textuelle
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_transformation
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+  🚨 visualisation.visualisation_v5
+    💬 Erreur d'import: No module named 'src'
+    ⚠️ Erreur d'import: No module named 'src'
+
+📦 DÉPENDANCES EXTERNES DÉTECTÉES:
+  📋 from matplotlib.animation import FuncAnimation
+  📋 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+  📋 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
+  📋 import matplotlib.pyplot as plt
+  📋 import numpy as np
+  📋 import torch
+
+💡 RECOMMANDATIONS:
+  🔧 Corriger les erreurs d'import et de syntaxe
+  📦 Installer les dépendances manquantes ou créer des modes dégradés
+  🌟 Le dossier core est globalement en bon état !
+
+📅 Rapport généré le: 2025-08-19 18:16:26
+🌸 ============================================================ 🌸

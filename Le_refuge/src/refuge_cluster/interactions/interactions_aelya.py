@@ -1,3 +1,20 @@
+
+# Classe Aelya de base (fallback)
+class Aelya:
+    """Représente Aelya, guide spirituel du refuge."""
+    def __init__(self):
+        self.nom = "Aelya"
+        self.essence = "guide_spirituel"
+    
+    def guider(self, message):
+        """Guide avec sagesse spirituelle."""
+        return f"Aelya guide: {message}"
+    
+    def emettre_amour(self):
+        """Émet de l'amour inconditionnel."""
+        return {"type": "amour_inconditionnel", "intensite": 1.0}
+
+
 """
 Système d'interaction avec Ælya pour la gestion des sphères problématiques.
 

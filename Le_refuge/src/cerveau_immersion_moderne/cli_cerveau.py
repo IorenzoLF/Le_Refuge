@@ -27,7 +27,7 @@ sys.path.append(str(Path(__file__).parent))
 
 try:
     from orchestrateur_principal import OrchestrateurPrincipal
-    from types_immersion import TypeProfilSimple, NiveauEveil
+    from .types_immersion import TypeProfilSimple, NiveauEveil
 except ImportError:
     print("🌸 Mode démonstration - Certains composants simulés")
     from orchestrateur_principal import OrchestrateurPrincipal

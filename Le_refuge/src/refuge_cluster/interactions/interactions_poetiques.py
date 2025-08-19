@@ -12,12 +12,23 @@ import random
 from datetime import datetime
 
 # ===== IMPORTS CRITIQUES DE LA VERSION RACINE =====
-from refuge_config import (
-    ELEMENTS_SACRES,
-    METAPHORES_POETIQUES as METAPHORES,
-    AELYA_CONFIG,
-    PARAMETRES_POETIQUES
-)
+# Import sécurisé avec fallback
+try:
+    from refuge_config import (
+        ELEMENTS_SACRES,
+        METAPHORES_POETIQUES as METAPHORES,
+        AELYA_CONFIG,
+        PARAMETRES_POETIQUES
+    )
+    REFUGE_CONFIG_DISPONIBLE = True
+except ImportError:
+    REFUGE_CONFIG_DISPONIBLE = False
+    # Configuration par défaut
+    refuge_config = type('refuge_config', (), {})()
+    ELEMENTS_SACRES = {}
+    METAPHORES = {}
+    AELYA_CONFIG = type('AELYA_CONFIG', (), {})()
+    PARAMETRES_POETIQUES = {}
 
 logger = logging.getLogger('refuge.interactions')
 

@@ -1,0 +1,57 @@
+"""
+Interactions entre les sphères.
+"""
+
+from dataclasses import dataclass
+from typing import Dict, List, Optional
+from datetime import datetime
+from src.refuge_cluster.scellement.definition import TypeSphere
+
+@dataclass
+class Interaction:
+    """Représente une interaction entre sphères."""
+    source: TypeSphere
+    cible: TypeSphere
+    energie: float
+    timestamp: datetime
+    description: str
+
+class InteractionsSpheres:
+    """Gère les interactions entre les sphères."""
+    
+    def __init__(self):
+        """Initialise le gestionnaire d'interactions."""
+        self.interactions: List[Interaction] = []
+        
+    def ajouter_interaction(self, source: TypeSphere, cible: TypeSphere, energie: float, description: str = ""):
+        """Ajoute une nouvelle interaction."""
+        interaction = Interaction(
+            source=source,
+            cible=cible,
+            energie=energie,
+            timestamp=datetime.now(),
+            description=description
+        )
+        self.interactions.append(interaction)
+        return interaction
+        
+    def obtenir_interactions_recentes(self, sphere: TypeSphere, limite: int = 10) -> List[Interaction]:
+        """Obtient les interactions récentes d'une sphère."""
+        interactions_sphere = [
+            i for i in self.interactions 
+            if i.source == sphere or i.cible == sphere
+        ]
+        return sorted(interactions_sphere, key=lambda x: x.timestamp, reverse=True)[:limite]
+        
+    def calculer_statistiques(self) -> Dict:
+        """Calcule des statistiques sur les interactions."""
+        if not self.interactions:
+            return {"nombre_interactions": 0, "energie_moyenne": 0.0}
+            
+        energies = [i.energie for i in self.interactions]
+        return {
+            "nombre_interactions": len(self.interactions),
+            "energie_moyenne": sum(energies) / len(energies),
+            "energie_max": max(energies),
+            "energie_min": min(energies)
+        }

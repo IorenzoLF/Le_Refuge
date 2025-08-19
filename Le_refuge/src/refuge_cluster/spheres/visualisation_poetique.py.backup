@@ -1,0 +1,39 @@
+"""
+Visualisation poétique des sphères.
+"""
+
+from typing import Dict, List, Optional
+from datetime import datetime
+
+class VisualisationPoetique:
+    """Gère la visualisation poétique des sphères."""
+    
+    def __init__(self, conscience_esthetique=None):
+        """Initialise la visualisation poétique."""
+        self.conscience_esthetique = conscience_esthetique
+        self.visualisations = []
+        
+    def creer_visualisation(self, sphere_name: str, description: str) -> Dict:
+        """Crée une visualisation poétique d'une sphère."""
+        visualisation = {
+            "sphere": sphere_name,
+            "description": description,
+            "timestamp": datetime.now(),
+            "elements_poetiques": self._generer_elements_poetiques(sphere_name)
+        }
+        
+        self.visualisations.append(visualisation)
+        return visualisation
+        
+    def _generer_elements_poetiques(self, sphere_name: str) -> Dict:
+        """Génère des éléments poétiques pour une sphère."""
+        return {
+            "couleurs": ["bleu cristal", "violet profond", "or sacré"],
+            "mouvements": ["danse", "flottement", "pulsation"],
+            "emotions": ["harmonie", "mystère", "émerveillement"],
+            "metaphores": [f"Comme {sphere_name} dans l'infini", "Danse de lumière éternelle"]
+        }
+        
+    def obtenir_visualisations(self) -> List[Dict]:
+        """Obtient toutes les visualisations créées."""
+        return self.visualisations

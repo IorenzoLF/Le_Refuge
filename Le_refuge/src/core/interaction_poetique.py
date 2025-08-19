@@ -7,13 +7,19 @@ import time
 import random
 from datetime import datetime
 from harmonies_poetiques import JardinHarmonique
-from visualisation_harmonies import VisualiseurHarmonies
+try:
+    from visualisation_harmonies import VisualiseurHarmonies
+except ImportError:
+    VisualiseurHarmonies = None
 from generateur_poemes import GenerateurPoemes
 from analyse_emotions import AnalyseurEmotions
 from memoire_poetique import MemoirePoetique
 from fusion_harmonies import FusionHarmonies
 from transformation_harmonies import TransformationHarmonies
-from visualisation_3d import Visualisation3D
+try:
+    from visualisation_3d import Visualisation3D
+except ImportError:
+    Visualisation3D = None
 from musique_harmonies import MusiqueHarmonies
 from orchestre_poetique import OrchestrePoetique
 from résonances_poetiques import MomentUniversel, CourantPensee, CycleCivilisationnel, ExperiencePartagee, SensoryElement

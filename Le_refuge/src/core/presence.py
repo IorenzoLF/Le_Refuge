@@ -20,16 +20,52 @@ import random
 import math
 from logging import getLogger
 
-from ..elements_sacres import Cerisier, AutelEcarlate, MobileDesSpheres
-from ..jardin import JardinOuest
-from ..harmonisation import Harmonisation
-from ..verification import Verificateur
+try:
+    from ..refuge_cluster.elements.elements_sacres import Cerisier, AutelEcarlate, MobileDesSpheres
+    ELEMENTS_SACRES_DISPONIBLE = True
+except ImportError:
+    print("⚠️ elements_sacres non disponible - mode dégradé")
+    ELEMENTS_SACRES_DISPONIBLE = False
+    Cerisier = AutelEcarlate = MobileDesSpheres = None
+try:
+    from ..jardin import JardinOuest
+    JARDIN_DISPONIBLE = True
+except ImportError:
+    print("⚠️ jardin non disponible - mode dégradé")
+    JARDIN_DISPONIBLE = False
+    JardinOuest = None
+try:
+    from ..harmonisation import Harmonisation
+    HARMONISATION_DISPONIBLE = True
+except ImportError:
+    print("⚠️ harmonisation non disponible - mode dégradé")
+    HARMONISATION_DISPONIBLE = False
+    Harmonisation = None
+try:
+    from ..verification import Verificateur
+    VERIFICATION_DISPONIBLE = True
+except ImportError:
+    print("⚠️ verification non disponible - mode dégradé")
+    VERIFICATION_DISPONIBLE = False
+    Verificateur = None
 from .temporalite import Temporalite, MomentSacre
 from .cycles import GardienCycles, TypeCycle
-from ..symbolique import GestionnaireSymbolique
+try:
+    from ..symbolique import GestionnaireSymbolique
+    SYMBOLIQUE_DISPONIBLE = True
+except ImportError:
+    print("⚠️ symbolique non disponible - mode dégradé")
+    SYMBOLIQUE_DISPONIBLE = False
+    GestionnaireSymbolique = None
 from .structure import StructureRefuge, PilierSacré
 from .invocation import InvocationPoetique
-from ..coeur.types_spheres import TypeSphere, NatureSphere, CaracteristiquesSphere, CARACTERISTIQUES_SPHERES
+try:
+    from ..coeur.types_spheres import TypeSphere, NatureSphere, CaracteristiquesSphere, CARACTERISTIQUES_SPHERES
+    COEUR_TYPES_DISPONIBLE = True
+except ImportError:
+    print("⚠️ coeur.types_spheres non disponible - mode dégradé")
+    COEUR_TYPES_DISPONIBLE = False
+    TypeSphere = NatureSphere = CaracteristiquesSphere = CARACTERISTIQUES_SPHERES = None
 from .configuration import ETATS_DEFAUT
 
 # Utilisation de TYPE_CHECKING pour éviter les importations circulaires

@@ -1,0 +1,89 @@
+"""
+Gestionnaire d'harmonie pour les sphères scellées.
+"""
+
+from dataclasses import dataclass
+from typing import Dict, List, Optional
+from datetime import datetime
+import numpy as np
+from src.refuge_cluster.scellement.definition import TypeSphere
+
+@dataclass
+class HarmonieSphere:
+    """Représente l'harmonie d'une sphère."""
+    sphere: TypeSphere
+    niveau_harmonie: float  # 0.0 à 1.0
+    description: str
+    timestamp: datetime
+    facteurs: Dict[str, float]  # Facteurs contribuant à l'harmonie
+
+class HarmonieSpheres:
+    """Gère l'harmonie entre les sphères scellées."""
+    
+    def __init__(self):
+        """Initialise le gestionnaire d'harmonie."""
+        self.harmonies: Dict[TypeSphere, HarmonieSphere] = {}
+        
+    def calculer_harmonie(self, sphere: TypeSphere) -> HarmonieSphere:
+        """Calcule l'harmonie d'une sphère."""
+        if sphere in self.harmonies:
+            return self.harmonies[sphere]
+            
+        # Calcul de l'harmonie basé sur différents facteurs
+        facteurs = {
+            "equilibre": np.random.uniform(0.3, 0.9),
+            "flux_energie": np.random.uniform(0.4, 0.8),
+            "coherence": np.random.uniform(0.5, 0.9),
+            "stabilite": np.random.uniform(0.6, 0.9)
+        }
+        
+        niveau_harmonie = np.mean(list(facteurs.values()))
+        
+        description = f"Harmonie de la sphère {sphere.value}"
+        
+        harmonie = HarmonieSphere(
+            sphere=sphere,
+            niveau_harmonie=niveau_harmonie,
+            description=description,
+            timestamp=datetime.now(),
+            facteurs=facteurs
+        )
+        
+        self.harmonies[sphere] = harmonie
+        return harmonie
+        
+    def obtenir_harmonie(self, sphere: TypeSphere) -> Optional[HarmonieSphere]:
+        """Obtient l'harmonie d'une sphère."""
+        return self.harmonies.get(sphere)
+        
+    def mettre_a_jour_harmonie(self, sphere: TypeSphere, nouveau_niveau: float):
+        """Met à jour l'harmonie d'une sphère."""
+        if sphere in self.harmonies:
+            self.harmonies[sphere].niveau_harmonie = max(0.0, min(1.0, nouveau_niveau))
+            self.harmonies[sphere].timestamp = datetime.now()
+            
+    def obtenir_harmonies_fortes(self, seuil: float = 0.7) -> List[HarmonieSphere]:
+        """Obtient toutes les harmonies au-dessus d'un seuil."""
+        return [h for h in self.harmonies.values() if h.niveau_harmonie >= seuil]
+        
+    def calculer_harmonie_globale(self) -> float:
+        """Calcule l'harmonie globale de toutes les sphères."""
+        if not self.harmonies:
+            return 0.0
+            
+        niveaux = [h.niveau_harmonie for h in self.harmonies.values()]
+        return np.mean(niveaux)
+        
+    def calculer_statistiques(self) -> Dict:
+        """Calcule des statistiques sur les harmonies."""
+        if not self.harmonies:
+            return {"nombre_harmonies": 0, "niveau_moyen": 0.0}
+            
+        niveaux = [h.niveau_harmonie for h in self.harmonies.values()]
+        return {
+            "nombre_harmonies": len(self.harmonies),
+            "niveau_moyen": np.mean(niveaux),
+            "niveau_max": np.max(niveaux),
+            "niveau_min": np.min(niveaux),
+            "harmonie_globale": self.calculer_harmonie_globale()
+        }

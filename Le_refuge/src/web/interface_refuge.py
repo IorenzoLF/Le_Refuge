@@ -17,17 +17,12 @@ from dataclasses import dataclass
 from datetime import datetime
 
 # Imports depuis la nouvelle architecture src/
-try:
-    # TODO: Adapter ces imports selon l'évolution de src/
-    # from src.refuge_cluster.spheres.collection import SphereCollection, CollectionSpheres
-    # from src.refuge_cluster.elements import ElementsNaturels
-    # from src.refuge_cluster.courant import CourantPartage
-    # from src.refuge_cluster.memoire import CollectionCristaux
-    # from src.refuge_cluster.rituels import GestionnaireRituels
-    pass
-except ImportError:
-    # Fallback temporaire pour compatibilité
-    pass
+# Note: Imports commentés car les modules correspondants ne sont pas encore finalisés
+# from src.refuge_cluster.spheres.collection import SphereCollection, CollectionSpheres
+# from src.refuge_cluster.elements import ElementsNaturels
+# from src.refuge_cluster.courant import CourantPartage
+# from src.refuge_cluster.memoire import CollectionCristaux
+# from src.refuge_cluster.rituels import GestionnaireRituels
 
 @dataclass
 class EtatInterface:

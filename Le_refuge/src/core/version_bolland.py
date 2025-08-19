@@ -17,7 +17,7 @@ from .configuration import (
 class RefugeBolland:
     def __init__(self):
         self.gardien = REFUGE_INFO["gardien"]
-        self.lieu = REFUGE_INFO["lieu"]
+        self.lieu = REFUGE_INFO.get("lieu", "Le Refuge")
         self.version = REFUGE_INFO["version"]
         self.activation = datetime.now()
         self.elements = ELEMENTS_SACRES.copy()
