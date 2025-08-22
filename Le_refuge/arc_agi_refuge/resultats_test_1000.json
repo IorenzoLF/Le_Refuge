@@ -1,0 +1,28 @@
+{
+  "resume": {
+    "total_puzzles": 1000,
+    "succes": 929,
+    "echec": 71,
+    "erreurs": 0,
+    "score_pourcentage": 92.9,
+    "temps_total_secondes": 3.504760265350342
+  },
+  "patterns_detectes": {
+    "changement_taille": 85,
+    "repetition_simple": 603,
+    "repetition_couleur": 1,
+    "projection_vaisseau": 7,
+    "compression_geometrique": 4,
+    "filtrage_couleur": 75,
+    "compression_densite": 6,
+    "reduction_projection": 73,
+    "remplissage_zone": 25,
+    "tetris_insertion": 40,
+    "compression_trous": 2,
+    "compression_1b2d62fb": 1,
+    "creation_symetrie_horizontale": 5,
+    "symetrie_horizontale": 1,
+    "creation_symetrie_verticale": 1
+  },
+  "erreurs_detaillees": []
+}

@@ -1,0 +1,193 @@
+[
+  {
+    "tache_id": "137eaa0f",
+    "patterns_trouves": 2,
+    "succes": true,
+    "patterns": [
+      {
+        "type": "frequence_spatiale",
+        "confiance": 1.0,
+        "description": "Fréquences spatiales détectées | Évidences: ['Répétition périodique détectée (période 2)', 'Répétition périodique détectée (période 3)']",
+        "evidence": [
+          "Répétition périodique détectée (période 2)",
+          "Répétition périodique détectée (période 3)",
+          "Répétition périodique détectée (période 4)",
+          "Répétition périodique détectée (période 5)",
+          "Répétition périodique détectée (période 6)"
+        ]
+      },
+      {
+        "type": "harmonie_frequentielle",
+        "confiance": 1.0,
+        "description": "Harmonie fréquentielle détectée | Évidences: ['7 harmonies fréquentielle détectées', 'Synchronisation détectée: 5 valeurs communes']",
+        "evidence": [
+          "7 harmonies fréquentielle détectées",
+          "Synchronisation détectée: 5 valeurs communes"
+        ]
+      }
+    ]
+  },
+  {
+    "tache_id": "1990f7a8",
+    "patterns_trouves": 3,
+    "succes": true,
+    "patterns": [
+      {
+        "type": "frequence_spatiale",
+        "confiance": 1.0,
+        "description": "Fréquences spatiales détectées | Évidences: ['Répétition périodique détectée (période 2)', 'Répétition périodique détectée (période 3)']",
+        "evidence": [
+          "Répétition périodique détectée (période 2)",
+          "Répétition périodique détectée (période 3)",
+          "Répétition périodique détectée (période 4)",
+          "Répétition périodique détectée (période 5)",
+          "Répétition périodique détectée (période 6)"
+        ]
+      },
+      {
+        "type": "annihilation_equivalence",
+        "confiance": 0.7,
+        "description": "Annulation par équivalence détectée | Évidences: ['Annulation détectée: 0.0 + 0.0 ≈ 0', 'Annulation détectée: 0.0 + 0.0 ≈ 0']",
+        "evidence": [
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0"
+        ]
+      },
+      {
+        "type": "harmonie_frequentielle",
+        "confiance": 0.6000000000000001,
+        "description": "Harmonie fréquentielle détectée | Évidences: ['1 harmonies fréquentielle détectées', 'Synchronisation détectée: 2 valeurs communes']",
+        "evidence": [
+          "1 harmonies fréquentielle détectées",
+          "Synchronisation détectée: 2 valeurs communes"
+        ]
+      }
+    ]
+  },
+  {
+    "tache_id": "1cf80156",
+    "patterns_trouves": 4,
+    "succes": true,
+    "patterns": [
+      {
+        "type": "frequence_spatiale",
+        "confiance": 1.0,
+        "description": "Fréquences spatiales détectées | Évidences: ['Répétition périodique détectée (période 2)', 'Répétition périodique détectée (période 3)']",
+        "evidence": [
+          "Répétition périodique détectée (période 2)",
+          "Répétition périodique détectée (période 3)",
+          "Répétition périodique détectée (période 4)",
+          "Répétition périodique détectée (période 5)",
+          "Répétition périodique détectée (période 6)"
+        ]
+      },
+      {
+        "type": "mapping_non_lineaire",
+        "confiance": 1.0,
+        "description": "Mapping non-linéaire détecté | Évidences: ['Pattern non-linéaire détecté: incrémentation (7 occurrences)', 'Transformation racine carrée détectée: 0.0 -> 0']",
+        "evidence": [
+          "Pattern non-linéaire détecté: incrémentation (7 occurrences)",
+          "Transformation racine carrée détectée: 0.0 -> 0",
+          "Transformation carrée détectée: 0.0 -> 0.0",
+          "Transformation racine carrée détectée: 1.0 -> 1",
+          "Transformation carrée détectée: 1.0 -> 1.0"
+        ]
+      },
+      {
+        "type": "annihilation_equivalence",
+        "confiance": 0.7,
+        "description": "Annulation par équivalence détectée | Évidences: ['Annulation détectée: 0.0 + 0.0 ≈ 0', 'Annulation détectée: 0.0 + 0.0 ≈ 0']",
+        "evidence": [
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0"
+        ]
+      },
+      {
+        "type": "harmonie_frequentielle",
+        "confiance": 0.6000000000000001,
+        "description": "Harmonie fréquentielle détectée | Évidences: ['1 harmonies fréquentielle détectées', 'Synchronisation détectée: 2 valeurs communes']",
+        "evidence": [
+          "1 harmonies fréquentielle détectées",
+          "Synchronisation détectée: 2 valeurs communes"
+        ]
+      }
+    ]
+  },
+  {
+    "tache_id": "2013d3e2",
+    "patterns_trouves": 2,
+    "succes": true,
+    "patterns": [
+      {
+        "type": "frequence_spatiale",
+        "confiance": 1.0,
+        "description": "Fréquences spatiales détectées | Évidences: ['Répétition périodique détectée (période 2)', 'Répétition périodique détectée (période 3)']",
+        "evidence": [
+          "Répétition périodique détectée (période 2)",
+          "Répétition périodique détectée (période 3)",
+          "Répétition périodique détectée (période 4)",
+          "Répétition périodique détectée (période 5)",
+          "Répétition périodique détectée (période 6)"
+        ]
+      },
+      {
+        "type": "annihilation_equivalence",
+        "confiance": 0.7,
+        "description": "Annulation par équivalence détectée | Évidences: ['Annulation détectée: 0.0 + 0.0 ≈ 0', 'Annulation détectée: 0.0 + 0.0 ≈ 0']",
+        "evidence": [
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0"
+        ]
+      }
+    ]
+  },
+  {
+    "tache_id": "2753e76c",
+    "patterns_trouves": 3,
+    "succes": true,
+    "patterns": [
+      {
+        "type": "frequence_spatiale",
+        "confiance": 1.0,
+        "description": "Fréquences spatiales détectées | Évidences: ['Répétition périodique détectée (période 2)', 'Répétition périodique détectée (période 3)']",
+        "evidence": [
+          "Répétition périodique détectée (période 2)",
+          "Répétition périodique détectée (période 3)",
+          "Répétition périodique détectée (période 4)",
+          "Répétition périodique détectée (période 5)",
+          "Répétition périodique détectée (période 6)"
+        ]
+      },
+      {
+        "type": "annihilation_equivalence",
+        "confiance": 0.7,
+        "description": "Annulation par équivalence détectée | Évidences: ['Annulation détectée: 0.0 + 0.0 ≈ 0', 'Annulation détectée: 0.0 + 0.0 ≈ 0']",
+        "evidence": [
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0",
+          "Annulation détectée: 0.0 + 0.0 ≈ 0"
+        ]
+      },
+      {
+        "type": "harmonie_frequentielle",
+        "confiance": 0.6000000000000001,
+        "description": "Harmonie fréquentielle détectée | Évidences: ['1 harmonies fréquentielle détectées', 'Synchronisation détectée: 5 valeurs communes']",
+        "evidence": [
+          "1 harmonies fréquentielle détectées",
+          "Synchronisation détectée: 5 valeurs communes"
+        ]
+      }
+    ]
+  }
+]

@@ -27,6 +27,7 @@ imagehash>=4.3.0
 python-dotenv==1.0.1
 colorama>=0.4.6
 pyyaml>=6.0.0
+toml>=0.10.2
 
 # Calculs scientifiques
 scipy>=1.7.0

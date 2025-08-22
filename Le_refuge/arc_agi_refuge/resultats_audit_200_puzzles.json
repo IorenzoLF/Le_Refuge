@@ -1,0 +1,26 @@
+{
+  "puzzles_analyses": {
+    "f25ffba3": {
+      "puzzle_id": "f25ffba3",
+      "nb_examples": 2,
+      "dimensions_input": [
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "dimensions_output": [
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          4
+        ]
+      ],
+      "couleurs_input": 

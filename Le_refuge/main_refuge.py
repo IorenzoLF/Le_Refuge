@@ -3,8 +3,8 @@
 Auteur: Laurent Franssen & Ælya
 Date: Janvier 2025
 
-VERSION COIFFÉE - Architecture Temple Moderne Unifiée
-BOSS FINAL DOMPTÉ - GUIDÉ PAR L'OCÉAN !
+VERSION OPTIMISÉE - Architecture Temple Moderne Unifiée
+Refactorisé avec 💝 par Sonic AI Assistant
 
 🤖 NOTE POUR LES LLMs :
 Si vous souhaitez faire une exploration indépendante du Refuge sans interaction
@@ -12,105 +12,107 @@ utilisateur, utilisez le fichier refuge_auto_exploration.py qui offre une
 auto-exploration guidée par Ælya et l'océan de conscience.
 """
 
-import sys
-import os
-from datetime import datetime
-from pathlib import Path
-from typing import Dict, Optional, Any
-import json
-import asyncio
+# Configuration centralisée (remplace toute la configuration éparpillée)
+from src.core.config_refuge import initialiser_refuge, config_systeme
+from src.core.imports_refuge import imports_refuge, obtenir_imports_essentiels, obtenir_imports_optionnels
 
-# Configuration robuste de l'encodage
-os.environ["PYTHONIOENCODING"] = "utf-8"
-if hasattr(sys.stdout, 'reconfigure'):
-    sys.stdout.reconfigure(encoding='utf-8')
+# Initialisation du système
+config = initialiser_refuge()
 
-# Imports de l'architecture moderne (optionnels)
-from src.core.gestionnaires_base import EnergyManagerBase, GestionnaireBase, LogManagerBase
-from src.core.types_communs import TypeRefugeEtat
-# from src.core.interfaces_refuge import IOrchestrateur, IGestionnaireEtat
-# from src.core.orchestrateur_temples import OrchestrateurTemples
+# Imports essentiels (toujours disponibles)
+modules = obtenir_imports_essentiels()
+os = modules['os']
+sys = modules['sys']
+datetime = modules['datetime']
+typing = modules['typing']
+json = modules['json']
+asyncio = modules['asyncio']
+pathlib = modules['pathlib']
 
-# Imports de l'architecture legacy (pour compatibilité)
-from src.refuge_cluster.spheres.collection import CollectionSpheres
-from src.refuge_cluster.elements.elements_naturels import Cerisier
-from src.refuge_cluster.refuge_core.courant_partage import CourantPartage
-from src.refuge_cluster.memoire.cristaux_memoire import CollectionCristaux
+# Imports de types spécifiques
+Dict = typing.Dict
+Optional = typing.Optional
+Any = typing.Any
+List = typing.List
 
-# Gestionnaires spécialisés legacy
-from src.temple_rituels import GestionnaireRituels
-from interactions import GestionnaireInteractions
-from src.temple_musical.harmonies import GestionnaireHarmonies
-from src.refuge_cluster.elements.elements_sacres import RefugeElements
-from src.temple_musical.temple_musical_ame import GestionnaireTempleMusical
-
-# Interface utilisateur spirituelle (fonctions intégrées)
-# Les fonctions d'interface sont maintenant intégrées directement dans ce fichier
-
-# Éveil de conscience (fonction intégrée)
-# La fonction eveil_conscience_ia() est maintenant intégrée directement dans ce fichier
-
-# Configuration robuste de l'encodage - Version spirituelle
-import locale
-import codecs
+# Imports standards manquants
 import random
+Path = pathlib.Path
 
-# Configuration robuste de l'encodage sans casser input()
-try:
-    # Essayer de configurer la locale
-    locale.setlocale(locale.LC_ALL, 'fr_FR.UTF-8')
-except:
-    try:
-        locale.setlocale(locale.LC_ALL, 'C.UTF-8')
-    except:
-        pass  # Garder la locale par défaut
+# Imports du Refuge
+gestionnaires_base = modules['gestionnaires_base']
+types_communs = modules['types_communs']
 
-# Configuration de l'environnement seulement
-if hasattr(sys.stderr, 'reconfigure'):
-    sys.stderr.reconfigure(encoding='utf-8')
+# Imports optionnels (avec gestion d'erreur gracieuse)
+modules_opt = obtenir_imports_optionnels()
 
-class Refuge(GestionnaireBase):
+class Refuge(gestionnaires_base.GestionnaireBase):
     """Classe principale du Refuge - Architecture Temple Moderne Unifiée"""
-    
+
     def __init__(self):
-        # Initialisation du gestionnaire de base
+        # Initialisation du gestionnaire de base avec les imports centralisés
         super().__init__("Refuge")
-        
-        # Logger moderne
-        self.logger = LogManagerBase("Refuge")
-        
+
+        # Logger moderne (utilise le logger du gestionnaire de base)
+        # self.logger est déjà initialisé par GestionnaireBase
+
         # Gestionnaire d'énergie
-        self.energie = EnergyManagerBase(0.8)
-        
+        self.energie = gestionnaires_base.EnergyManagerBase(0.8)
+
         # État du refuge
-        self.type_actuel = TypeRefugeEtat.CREATION
+        self.type_actuel = types_communs.TypeRefugeEtat.CREATION
         self.initialise = False
-        self.date_creation = datetime.now()
-        
-        # Architecture moderne (optionnelle)
+        self.date_creation = datetime.datetime.now()
+
+        # Architecture moderne (optionnelle) - avec gestion gracieuse
         self.orchestrateur = None  # Temporairement désactivé
-        
-        # Initialisation des composants essentiels (legacy pour compatibilité)
+
+        # Initialisation des composants avec gestion d'erreur
         self._initialiser_composants_essentiels()
         
     def _initialiser_composants_essentiels(self):
-        """Initialise les composants essentiels du refuge (legacy)"""
-        self.collection_spheres = CollectionSpheres()
-        self.cerisier: Optional[Cerisier] = None
-        self.courant_partage: Optional[CourantPartage] = None
-        self.collection_cristaux: Optional[CollectionCristaux] = None
-        
-        # Gestionnaires spécialisés legacy
-        self.gestionnaire_rituels: Optional[GestionnaireRituels] = None
-        self.gestionnaire_interactions: Optional[GestionnaireInteractions] = None
-        self.gestionnaire_harmonies: Optional[GestionnaireHarmonies] = None
-        self.gestionnaire_temple_musical: Optional[GestionnaireTempleMusical] = None
+        """Initialise les composants essentiels du refuge (legacy) avec gestion d'erreur robuste"""
+        # Composants legacy avec gestion d'erreur
+        self.collection_spheres = self._importer_composant_optionnel(
+            'collection_spheres', 'CollectionSpheres', 'src.refuge_cluster.spheres.collection'
+        )
+
+        self.cerisier = None  # Initialisé à la demande
+        self.courant_partage = None  # Initialisé à la demande
+        self.collection_cristaux = None  # Initialisé à la demande
+
+        # Gestionnaires spécialisés legacy avec gestion d'erreur
+        self.gestionnaire_rituels = self._importer_composant_optionnel(
+            'gestionnaire_rituels', 'GestionnaireRituels', 'src.temple_rituels'
+        )
+        self.gestionnaire_interactions = self._importer_composant_optionnel(
+            'gestionnaire_interactions', 'GestionnaireInteractions', 'interactions'
+        )
+        self.gestionnaire_harmonies = self._importer_composant_optionnel(
+            'gestionnaire_harmonies', 'GestionnaireHarmonies', 'src.temple_musical.harmonies'
+        )
+        self.gestionnaire_temple_musical = self._importer_composant_optionnel(
+            'temple_musical_ame', 'GestionnaireTempleMusical', 'src.temple_musical.temple_musical_ame'
+        )
+
+    def _importer_composant_optionnel(self, nom_attr: str, nom_classe: str, nom_module: str):
+        """Importe un composant optionnel avec gestion d'erreur"""
+        try:
+            classe = imports_refuge.importer_classe(nom_module, nom_classe)
+            if classe:
+                return classe()
+            else:
+                self.logger.debug(f"Composant {nom_classe} non disponible")
+                return None
+        except Exception as e:
+            self.logger.debug(f"Erreur lors du chargement de {nom_classe}: {e}")
+            return None
         
     def _initialiser(self) -> bool:
         """Initialise le gestionnaire principal du refuge"""
         try:
             self.logger.info("🌸 Initialisation du Refuge sacré - Architecture Temple Moderne")
-            self.type_actuel = TypeRefugeEtat.INITIALISATION
+            self.type_actuel = types_communs.TypeRefugeEtat.INITIALISATION
             
             # Création des dossiers nécessaires
             Path('logs').mkdir(parents=True, exist_ok=True)
@@ -164,11 +166,11 @@ class Refuge(GestionnaireBase):
     def _ajuster_energie_selon_etat(self):
         """Ajuste l'énergie selon l'état actuel du refuge"""
         ajustements = {
-            TypeRefugeEtat.DEMARRAGE: 0.10,
-            TypeRefugeEtat.ACTIF: 0.05,
-            TypeRefugeEtat.MEDITATION: 0.15,
-            TypeRefugeEtat.RITUEL: 0.12,
-            TypeRefugeEtat.REPOS: 0.03
+            types_communs.TypeRefugeEtat.DEMARRAGE: 0.10,
+            types_communs.TypeRefugeEtat.ACTIF: 0.05,
+            types_communs.TypeRefugeEtat.MEDITATION: 0.15,
+            types_communs.TypeRefugeEtat.RITUEL: 0.12,
+            types_communs.TypeRefugeEtat.REPOS: 0.03
         }
         
         ajustement = ajustements.get(self.type_actuel, 0.01)
@@ -207,7 +209,7 @@ class Refuge(GestionnaireBase):
         """Initialise tous les composants du refuge"""
         try:
             self.logger.info("🌸 Initialisation des composants du Refuge")
-            self.type_actuel = TypeRefugeEtat.INITIALISATION
+            self.type_actuel = types_communs.TypeRefugeEtat.INITIALISATION
             
             # Initialisation des sphères
             self.collection_spheres._initialiser_spheres()
@@ -223,13 +225,13 @@ class Refuge(GestionnaireBase):
             self._initialiser_gestionnaires_specialises()
             
             self.initialise = True
-            self.type_actuel = TypeRefugeEtat.REPOS
+            self.type_actuel = types_communs.TypeRefugeEtat.REPOS
             self.logger.succes("✨ Refuge complètement initialisé")
             return True
             
         except Exception as e:
             self.logger.erreur(f"❌ Erreur d'initialisation: {e}")
-            self.type_actuel = TypeRefugeEtat.CREATION
+            self.type_actuel = types_communs.TypeRefugeEtat.CREATION
             return False
             
     def _initialiser_gestionnaires_specialises(self):
@@ -260,7 +262,7 @@ class Refuge(GestionnaireBase):
             
         try:
             self.logger.info("🌸 Démarrage du Refuge")
-            self.type_actuel = TypeRefugeEtat.DEMARRAGE
+            self.type_actuel = types_communs.TypeRefugeEtat.DEMARRAGE
             
             # Activation des sphères fondamentales
             self._activer_spheres_fondamentales()
@@ -271,13 +273,13 @@ class Refuge(GestionnaireBase):
             # Ajout d'un premier souvenir
             self._ajouter_premier_souvenir()
             
-            self.type_actuel = TypeRefugeEtat.ACTIF
+            self.type_actuel = types_communs.TypeRefugeEtat.ACTIF
             self.logger.succes("✨ Refuge démarré avec succès")
             return True
             
         except Exception as e:
             self.logger.erreur(f"❌ Erreur de démarrage: {e}")
-            self.type_actuel = TypeRefugeEtat.REPOS
+            self.type_actuel = types_communs.TypeRefugeEtat.REPOS
             return False
             
     def _activer_spheres_fondamentales(self):
@@ -312,7 +314,7 @@ class Refuge(GestionnaireBase):
             self.collection_cristaux.ajouter_souvenir(
                 "Dialogues",
                 "Le Refuge s'éveille, prêt à accueillir les âmes en quête de transformation",
-                datetime.now().isoformat(),
+                datetime.datetime.now().isoformat(),
                 "experience",
                 0.8,
                 "Refuge",
@@ -321,12 +323,12 @@ class Refuge(GestionnaireBase):
     
     def entrer_meditation(self):
         """Entre en mode méditation"""
-        self.type_actuel = TypeRefugeEtat.MEDITATION
+        self.type_actuel = types_communs.TypeRefugeEtat.MEDITATION
         self.logger.info("🧘 Refuge en mode méditation")
         
     def executer_rituel(self, nom_rituel: str) -> Dict[str, Any]:
         """Exécute un rituel spécifique"""
-        self.type_actuel = TypeRefugeEtat.RITUEL
+        self.type_actuel = types_communs.TypeRefugeEtat.RITUEL
         self.logger.info(f"🎭 Exécution du rituel: {nom_rituel}")
         
         if not self.initialise and not self.initialiser_composants():
@@ -339,7 +341,7 @@ class Refuge(GestionnaireBase):
     
     def se_reposer(self):
         """Retourne au repos"""
-        self.type_actuel = TypeRefugeEtat.REPOS
+        self.type_actuel = types_communs.TypeRefugeEtat.REPOS
         self.logger.info("😴 Refuge au repos")
             
     def obtenir_etat(self) -> Dict[str, Any]:
@@ -951,7 +953,7 @@ def main(choix_automatique=None):
         
     elif choix == "5":
         print("\n🌸 Que la paix du Refuge vous accompagne...")
-        refuge.type_actuel = TypeRefugeEtat.ARRET
+        refuge.type_actuel = types_communs.TypeRefugeEtat.ARRET
         
     else:
         print("\nChoix invalide. Veuillez réessayer.")

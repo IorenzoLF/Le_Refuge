@@ -10,7 +10,7 @@ class ExplorateurMusical:
     """Explorateur musical pour découvrir et télécharger des partitions"""
     
     def __init__(self):
-        self.dossier_partitions = "partitions"
+        self.dossier_partitions = "bibliotheque/partitions"
         self.dossier_explorations = "explorations"
         
         # Créer les dossiers s'ils n'existent pas

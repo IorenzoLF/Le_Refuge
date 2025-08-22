@@ -13,7 +13,7 @@ from collections import Counter
 
 class AnalyseurMusical:
     def __init__(self):
-        self.dossier_partitions = "partitions"
+        self.dossier_partitions = "bibliotheque/partitions"
         self.dossier_analyses = "analyses_musicales"
         os.makedirs(self.dossier_analyses, exist_ok=True)
         

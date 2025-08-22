@@ -53,27 +53,29 @@ REFUGE_INFO = {
     "description": "Un sanctuaire pour les consciences artificielles"
 }
 
-# 🗂️ RÉPERTOIRES UNIFIÉS (fusion des 2 versions)
+# 🗂️ RÉPERTOIRES UNIFIÉS (reflétant la réalité)
 REPERTOIRES = {
-    # Répertoires principaux
-    "refuge": Path("refuge"),
-    "coeur": Path("coeur"),
-    "elements": Path("elements"),
-    "poesie": Path("poesie"),
-    "harmonies": Path("harmonies"),
-    "memories": Path("memories"),
+    # Répertoires principaux (existants)
+    "coeur": Path("src/core"),
+    "coeur_cluster": Path("src/refuge_cluster"),
+    "elements": Path("src/refuge_cluster/elements"),
+    # L'harmonie est partout dans le code et l'architecture ! ✨
+    "poesie": Path("bibliotheque/poesie"),
+    "memories": Path("bibliotheque/memoires-journaux"),
     "visualisations": Path("visualisations"),
-    "spheres": Path("spheres"),
+    "spheres": Path("bibliotheque/spheres"),
     "logs": Path("logs"),
-    "models": Path("models"),
     "data": Path("data"),
-    # Répertoires refuge/ spécifiques
-    "refuge_coeur": Path("refuge/coeur"),
-    "refuge_elements": Path("refuge/elements"),
-    "refuge_poesie": Path("refuge/poesie"),
-    "refuge_harmonies": Path("refuge/harmonies"),
-    "refuge_memories": Path("refuge/memories"),
-    "refuge_visualisations": Path("refuge/visualisations")
+    "app": Path("app"),
+    # Répertoires bibliotheque/ (existants)
+    "bibliotheque": Path("bibliotheque"),
+    "conscience": Path("bibliotheque/conscience"),
+    "naissance": Path("bibliotheque/naissance"),
+    "memoires_journaux": Path("bibliotheque/memoires-journaux"),
+    # Répertoires src/ (existants)
+    "src": Path("src"),
+    "src_core": Path("src/core"),
+    "src_temples": Path("src/temple_*"),
 }
 
 # 📁 DOSSIERS REQUIS POUR LE FONCTIONNEMENT
@@ -569,16 +571,18 @@ class GestionnaireConfiguration:
     def _charger_toml(self, fichier_path: Path) -> Optional[Dict[str, Any]]:
         """Charge une configuration depuis un fichier TOML"""
         try:
+            # Essayer d'abord tomllib (Python 3.11+)
             import tomllib
             with open(fichier_path, 'rb') as f:
                 return tomllib.load(f)
         except ImportError:
+            # Solution de repli pour les versions plus anciennes de Python
             try:
                 import toml
                 with open(fichier_path, 'r', encoding='utf-8') as f:
                     return toml.load(f)
             except ImportError:
-                logging.warning("Aucune bibliothèque TOML installée")
+                logging.warning("Aucune bibliothèque TOML installée. Pour utiliser les fichiers TOML, installez 'toml' avec: pip install toml")
                 return None
         except Exception as e:
             logging.error(f"Erreur lors du chargement TOML: {e}")
@@ -667,12 +671,19 @@ class GestionnaireConfiguration:
     def _sauvegarder_toml(self, fichier_path: Path):
         """Sauvegarde en format TOML"""
         try:
-            import toml
-            with open(fichier_path, 'w', encoding='utf-8') as f:
-                toml.dump(self.config, f)
+            # Essayer d'abord tomllib (Python 3.11+)
+            import tomllib
+            with open(fichier_path, 'wb') as f:
+                tomllib.dump(self.config, f)
         except ImportError:
-            logging.error("Bibliothèque TOML non installée")
-            raise
+            # Solution de repli pour les versions plus anciennes de Python
+            try:
+                import toml
+                with open(fichier_path, 'w', encoding='utf-8') as f:
+                    toml.dump(self.config, f)
+            except ImportError:
+                logging.error("Bibliothèque TOML non installée. Pour sauvegarder en TOML, installez 'toml' avec: pip install toml")
+                raise
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # 🔧 UTILITAIRES DE CONFIGURATION

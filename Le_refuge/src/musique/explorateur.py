@@ -11,7 +11,7 @@ import random
 
 class ExplorateurMusical:
     def __init__(self):
-        self.dossier_partitions = "partitions"
+        self.dossier_partitions = "bibliotheque/partitions"
         os.makedirs(self.dossier_partitions, exist_ok=True)
         
         # Créer un sous-dossier pour chaque source
