@@ -1,0 +1,18 @@
+{
+  "resolutions": [],
+  "performances": [],
+  "metriques": {},
+  "parametres_optimises": {
+    "confidence_threshold": 0.45,
+    "overfitting_threshold": 0.39492700641424405,
+    "pattern_weights": {
+      "spatial": 0.3,
+      "color": 0.25,
+      "structural": 0.2,
+      "mathematical": 0.15,
+      "hybrid": 0.1
+    },
+    "complexity_weights": {}
+  },
+  "timestamp": "2025-08-24T14:24:26.885150"
+}

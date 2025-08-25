@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "00576224",
+    "success": false,
+    "pattern": "changement_taille",
+    "confidence": 0,
+    "precision": 0.1111111111111111,
+    "time": 0.0,
+    "input_size": "2x2",
+    "output_size": "6x6"
+  },
+  {
+    "id": "007bbfb7",
+    "success": false,
+    "pattern": "changement_taille",
+    "confidence": 0,
+    "precision": 0.7530864197530864,
+    "time": 0.0,
+    "input_size": "3x3",
+    "output_size": "9x9"
+  },
+  {
+    "id": "009d5c81",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8112244897959183,
+    "time": 0.0,
+    "input_size": "14x14",
+    "output_size": "14x14"
+  },
+  {
+    "id": "00d62c1b",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.94,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "00dbd492",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7511111111111111,
+    "time": 0.0,
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  {
+    "id": "017c7c7b",
+    "success": false,
+    "pattern": "inconnu",
+    "confidence": 0,
+    "precision": 0,
+    "time": 0.0,
+    "input_size": "6x3",
+    "output_size": "9x3"
+  },
+  {
+    "id": "025d127b",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8333333333333334,
+    "time": 0.0,
+    "input_size": "8x9",
+    "output_size": "8x9"
+  },
+  {
+    "id": "03560426",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.58,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "045e512c",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9342403628117913,
+    "time": 0.0,
+    "input_size": "21x21",
+    "output_size": "21x21"
+  },
+  {
+    "id": "0520fde7",
+    "success": true,
+    "pattern": "projection_vaisseau",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "3x7",
+    "output_size": "3x3"
+  },
+  {
+    "id": "05269061",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.24489795918367346,
+    "time": 0.0,
+    "input_size": "7x7",
+    "output_size": "7x7"
+  },
+  {
+    "id": "05a7bcf2",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7688888888888888,
+    "time": 0.0005095005035400391,
+    "input_size": "30x30",
+    "output_size": "30x30"
+  },
+  {
+    "id": "05f2a901",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8,
+    "time": 0.0,
+    "input_size": "9x10",
+    "output_size": "9x10"
+  },
+  {
+    "id": "0607ce86",
+    "success": true,
+    "pattern": "changement_taille",
+    "confidence": 0,
+    "precision": 0.8874458874458875,
+    "time": 0.0005121231079101562,
+    "input_size": "21x22",
+    "output_size": "21x22"
+  },
+  {
+    "id": "0692e18c",
+    "success": false,
+    "pattern": "changement_taille",
+    "confidence": 0,
+    "precision": 0.7407407407407407,
+    "time": 0.0,
+    "input_size": "3x3",
+    "output_size": "9x9"
+  },
+  {
+    "id": "06df4c85",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9319470699432892,
+    "time": 0.0,
+    "input_size": "23x23",
+    "output_size": "23x23"
+  },
+  {
+    "id": "070dd51e",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.905,
+    "time": 0.0,
+    "input_size": "20x10",
+    "output_size": "20x10"
+  },
+  {
+    "id": "08ed6ac7",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7654320987654321,
+    "time": 0.0,
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  {
+    "id": "09629e4f",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.5371900826446281,
+    "time": 0.0,
+    "input_size": "11x11",
+    "output_size": "11x11"
+  },
+  {
+    "id": "0962bcdd",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8333333333333334,
+    "time": 0.0005099773406982422,
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  {
+    "id": "09c534e7",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9475,
+    "time": 0.0005123615264892578,
+    "input_size": "20x20",
+    "output_size": "20x20"
+  },
+  {
+    "id": "0a1d4ef5",
+    "success": true,
+    "pattern": "compression_geometrique",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.001016378402709961,
+    "input_size": "30x30",
+    "output_size": "2x3"
+  },
+  {
+    "id": "0a2355a6",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7193877551020408,
+    "time": 0.0,
+    "input_size": "14x14",
+    "output_size": "14x14"
+  },
+  {
+    "id": "0a938d79",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.601010101010101,
+    "time": 0.0,
+    "input_size": "22x9",
+    "output_size": "22x9"
+  },
+  {
+    "id": "0b148d64",
+    "success": true,
+    "pattern": "filtrage_couleur",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "18x19",
+    "output_size": "7x9"
+  },
+  {
+    "id": "0b17323b",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9955555555555555,
+    "time": 0.0005106925964355469,
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  {
+    "id": "0bb8deee",
+    "success": true,
+    "pattern": "filtrage_couleur",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "15x13",
+    "output_size": "6x6"
+  },
+  {
+    "id": "0becf7df",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.77,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "0c786b71",
+    "success": false,
+    "pattern": "changement_taille",
+    "confidence": 0,
+    "precision": 0.08333333333333333,
+    "time": 0.0,
+    "input_size": "3x4",
+    "output_size": "6x8"
+  },
+  {
+    "id": "0c9aba6e",
+    "success": true,
+    "pattern": "compression_densite",
+    "confidence": 0,
+    "precision": 0.8333333333333334,
+    "time": 0.0,
+    "input_size": "13x4",
+    "output_size": "6x4"
+  },
+  {
+    "id": "0ca9ddb6",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8024691358024691,
+    "time": 0.0,
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  {
+    "id": "0d3d703e",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.0,
+    "time": 0.0,
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  {
+    "id": "0d87d2a6",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.88,
+    "time": 0.0,
+    "input_size": "10x20",
+    "output_size": "10x20"
+  },
+  {
+    "id": "0e206a2e",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.919047619047619,
+    "time": 0.0,
+    "input_size": "14x15",
+    "output_size": "14x15"
+  },
+  {
+    "id": "0e671a1a",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8579881656804734,
+    "time": 0.0,
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  {
+    "id": "0f63c0b9",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.5911111111111111,
+    "time": 0.0,
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  {
+    "id": "103eff5b",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7954545454545454,
+    "time": 0.0005130767822265625,
+    "input_size": "22x12",
+    "output_size": "22x12"
+  },
+  {
+    "id": "10fcaaa3",
+    "success": false,
+    "pattern": "changement_taille",
+    "confidence": 0,
+    "precision": 0.5,
+    "time": 0.0,
+    "input_size": "5x3",
+    "output_size": "10x6"
+  },
+  {
+    "id": "11852cab",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.97,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "1190bc91",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.4,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "1190e5a7",
+    "success": true,
+    "pattern": "compression_sections",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "11x11",
+    "output_size": "3x2"
+  },
+  {
+    "id": "11dc524f",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9408284023668639,
+    "time": 0.0005095005035400391,
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  {
+    "id": "11e1fe23",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9696969696969697,
+    "time": 0.0,
+    "input_size": "12x11",
+    "output_size": "12x11"
+  },
+  {
+    "id": "12422b43",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7948717948717948,
+    "time": 0.0,
+    "input_size": "13x6",
+    "output_size": "13x6"
+  },
+  {
+    "id": "12997ef3",
+    "success": false,
+    "pattern": "tetris_insertion",
+    "confidence": 0,
+    "precision": 0.05555555555555555,
+    "time": 0.0005195140838623047,
+    "input_size": "11x11",
+    "output_size": "6x3"
+  },
+  {
+    "id": "12eac192",
+    "success": false,
+    "pattern": "remplissage_zone",
+    "confidence": 0,
+    "precision": 0.5,
+    "time": 0.0005164146423339844,
+    "input_size": "5x8",
+    "output_size": "5x8"
+  },
+  {
+    "id": "13713586",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.6838235294117647,
+    "time": 0.0,
+    "input_size": "16x17",
+    "output_size": "16x17"
+  },
+  {
+    "id": "137eaa0f",
+    "success": true,
+    "pattern": "filtrage_couleur",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "11x11",
+    "output_size": "3x3"
+  },
+  {
+    "id": "137f0df0",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.64,
+    "time": 0.0005102157592773438,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "13f06aa5",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8154761904761905,
+    "time": 0.0,
+    "input_size": "12x14",
+    "output_size": "12x14"
+  },
+  {
+    "id": "140c817e",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.5061728395061729,
+    "time": 0.0,
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  {
+    "id": "14754a24",
+    "success": false,
+    "pattern": "remplissage_zone",
+    "confidence": 0,
+    "precision": 0.45714285714285713,
+    "time": 0.0010218620300292969,
+    "input_size": "14x15",
+    "output_size": "14x15"
+  },
+  {
+    "id": "1478ab18",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.890625,
+    "time": 0.0,
+    "input_size": "8x8",
+    "output_size": "8x8"
+  },
+  {
+    "id": "14b8e18c",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.92,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "150deff5",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7375,
+    "time": 0.0,
+    "input_size": "8x10",
+    "output_size": "8x10"
+  },
+  {
+    "id": "15113be4",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9773156899810964,
+    "time": 0.0,
+    "input_size": "23x23",
+    "output_size": "23x23"
+  },
+  {
+    "id": "15660dd6",
+    "success": false,
+    "pattern": "tetris_insertion",
+    "confidence": 0,
+    "precision": 0.03636363636363636,
+    "time": 0.002058267593383789,
+    "input_size": "19x19",
+    "output_size": "5x17"
+  },
+  {
+    "id": "15663ba9",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8777777777777778,
+    "time": 0.0,
+    "input_size": "12x15",
+    "output_size": "12x15"
+  },
+  {
+    "id": "15696249",
+    "success": false,
+    "pattern": "erreur",
+    "confidence": 0,
+    "precision": 0,
+    "time": 0,
+    "input_size": "N/A",
+    "output_size": "N/A",
+    "error": "list index out of range"
+  },
+  {
+    "id": "17829a00",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.765625,
+    "time": 0.0,
+    "input_size": "16x16",
+    "output_size": "16x16"
+  },
+  {
+    "id": "178fcbfb",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.6625,
+    "time": 0.0,
+    "input_size": "10x8",
+    "output_size": "10x8"
+  },
+  {
+    "id": "17b80ad2",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8888888888888888,
+    "time": 0.0,
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  {
+    "id": "17b866bd",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9226190476190477,
+    "time": 0.0,
+    "input_size": "16x21",
+    "output_size": "16x21"
+  },
+  {
+    "id": "17cae0c1",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.0,
+    "time": 0.0,
+    "input_size": "3x9",
+    "output_size": "3x9"
+  },
+  {
+    "id": "18286ef8",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9791666666666666,
+    "time": 0.0,
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  {
+    "id": "182e5d0f",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8819444444444444,
+    "time": 0.0005090236663818359,
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  {
+    "id": "18419cfa",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9836601307189542,
+    "time": 0.0,
+    "input_size": "18x17",
+    "output_size": "18x17"
+  },
+  {
+    "id": "18447a8d",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.6223776223776224,
+    "time": 0.0,
+    "input_size": "13x11",
+    "output_size": "13x11"
+  },
+  {
+    "id": "184a9768",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.875,
+    "time": 0.0,
+    "input_size": "20x22",
+    "output_size": "20x22"
+  },
+  {
+    "id": "195ba7dc",
+    "success": true,
+    "pattern": "compression_trous",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "5x13",
+    "output_size": "5x6"
+  },
+  {
+    "id": "1990f7a8",
+    "success": false,
+    "pattern": "tetris_insertion",
+    "confidence": 0,
+    "precision": 0.10204081632653061,
+    "time": 0.0005228519439697266,
+    "input_size": "17x19",
+    "output_size": "7x7"
+  },
+  {
+    "id": "19bb5feb",
+    "success": false,
+    "pattern": "tetris_insertion",
+    "confidence": 0,
+    "precision": 0.0,
+    "time": 0.0005125999450683594,
+    "input_size": "16x15",
+    "output_size": "2x2"
+  },
+  {
+    "id": "1a07d186",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9476190476190476,
+    "time": 0.0,
+    "input_size": "15x14",
+    "output_size": "15x14"
+  },
+  {
+    "id": "1a244afd",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.96875,
+    "time": 0.0005278587341308594,
+    "input_size": "16x16",
+    "output_size": "16x16"
+  },
+  {
+    "id": "1a2e2828",
+    "success": true,
+    "pattern": "filtrage_couleur",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "11x12",
+    "output_size": "1x1"
+  },
+  {
+    "id": "1a6449f1",
+    "success": false,
+    "pattern": "filtrage_couleur",
+    "confidence": 0,
+    "precision": 0.625,
+    "time": 0.0005173683166503906,
+    "input_size": "21x23",
+    "output_size": "8x10"
+  },
+  {
+    "id": "1acc24af",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8958333333333334,
+    "time": 0.0,
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  {
+    "id": "1b2d62fb",
+    "success": false,
+    "pattern": "inconnu",
+    "confidence": 0,
+    "precision": 0,
+    "time": 0.0,
+    "input_size": "5x7",
+    "output_size": "5x3"
+  },
+  {
+    "id": "1b59e163",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9135802469135802,
+    "time": 0.0,
+    "input_size": "18x18",
+    "output_size": "18x18"
+  },
+  {
+    "id": "1b60fb0c",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.88,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "1b8318e3",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8933333333333333,
+    "time": 0.0,
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  {
+    "id": "1be83260",
+    "success": true,
+    "pattern": "tetris_insertion",
+    "confidence": 0,
+    "precision": 0.841897233201581,
+    "time": 0.0005092620849609375,
+    "input_size": "27x15",
+    "output_size": "23x11"
+  },
+  {
+    "id": "1bfc4729",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.5,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "1c02dbbe",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7022222222222222,
+    "time": 0.0,
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  {
+    "id": "1c0d0a4b",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.5384615384615384,
+    "time": 0.0,
+    "input_size": "9x13",
+    "output_size": "9x13"
+  },
+  {
+    "id": "1c56ad9f",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9022222222222223,
+    "time": 0.0,
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  {
+    "id": "1c786137",
+    "success": false,
+    "pattern": "tetris_insertion",
+    "confidence": 0,
+    "precision": 0.2,
+    "time": 0.0005121231079101562,
+    "input_size": "13x16",
+    "output_size": "5x3"
+  },
+  {
+    "id": "1caeab9d",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.76,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  {
+    "id": "1cf80156",
+    "success": true,
+    "pattern": "filtrage_couleur",
+    "confidence": 0,
+    "precision": 1.0,
+    "time": 0.0,
+    "input_size": "11x12",
+    "output_size": "5x3"
+  },
+  {
+    "id": "1d0a4b61",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.872,
+    "time": 0.0,
+    "input_size": "25x25",
+    "output_size": "25x25"
+  },
+  {
+    "id": "1d398264",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8625,
+    "time": 0.0,
+    "input_size": "20x20",
+    "output_size": "20x20"
+  },
+  {
+    "id": "1d61978c",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.90234375,
+    "time": 0.0,
+    "input_size": "16x16",
+    "output_size": "16x16"
+  },
+  {
+    "id": "1da012fc",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.9,
+    "time": 0.0,
+    "input_size": "14x20",
+    "output_size": "14x20"
+  },
+  {
+    "id": "1e0a9b12",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8888888888888888,
+    "time": 0.0,
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  {
+    "id": "1e32b0e9",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7820069204152249,
+    "time": 0.0005140304565429688,
+    "input_size": "17x17",
+    "output_size": "17x17"
+  },
+  {
+    "id": "1e5d6875",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.90625,
+    "time": 0.0,
+    "input_size": "8x8",
+    "output_size": "8x8"
+  },
+  {
+    "id": "1e81d6f9",
+    "success": true,
+    "pattern": "changement_taille",
+    "confidence": 0,
+    "precision": 0.9777777777777777,
+    "time": 0.0,
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  {
+    "id": "1efba499",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.8611111111111112,
+    "time": 0.0,
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  {
+    "id": "1f0c79e5",
+    "success": false,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.7283950617283951,
+    "time": 0.0,
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  {
+    "id": "1f642eb9",
+    "success": true,
+    "pattern": "repetition_simple",
+    "confidence": 0,
+    "precision": 0.95,
+    "time": 0.0,
+    "input_size": "10x10",
+    "output_size": "10x10"
+  }
+]

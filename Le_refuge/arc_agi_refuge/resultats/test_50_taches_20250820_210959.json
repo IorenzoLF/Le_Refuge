@@ -1,0 +1,531 @@
+{
+  "total": 50,
+  "traitees": 49,
+  "succes": 49,
+  "patterns_detectes_total": 60,
+  "patterns_frequents": {
+    "agrandissement": 3,
+    "projection_3d": 15,
+    "répétition_alternée": 28,
+    "remplissage_zone": 3,
+    "réduction_dimensionnelle": 6,
+    "filtrage_couleur": 4,
+    "réduction_complexe": 1
+  },
+  "erreurs": 1,
+  "details": [
+    {
+      "tache_id": "00576224",
+      "patterns_identifies": [
+        "agrandissement"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.61,
+      "succes": true,
+      "temps_execution": 0.0015032291412353516
+    },
+    {
+      "tache_id": "007bbfb7",
+      "patterns_identifies": [
+        "projection_3d",
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.7257777777777779,
+      "succes": true,
+      "temps_execution": 0.002176046371459961
+    },
+    {
+      "tache_id": "009d5c81",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.733265306122449,
+      "succes": true,
+      "temps_execution": 0.006265163421630859
+    },
+    {
+      "tache_id": "00d62c1b",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8031111111111111,
+      "succes": true,
+      "temps_execution": 0.006060123443603516
+    },
+    {
+      "tache_id": "00dbd492",
+      "patterns_identifies": [
+        "projection_3d",
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.7494771162903032,
+      "succes": true,
+      "temps_execution": 0.004481315612792969
+    },
+    {
+      "tache_id": "017c7c7b",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6500000000000001,
+      "succes": true,
+      "temps_execution": 0.0020024776458740234
+    },
+    {
+      "tache_id": "025d127b",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7325396825396827,
+      "succes": true,
+      "temps_execution": 0.002392292022705078
+    },
+    {
+      "tache_id": "03560426",
+      "patterns_identifies": [
+        "remplissage_zone"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8500000000000001,
+      "succes": true,
+      "temps_execution": 0.0030202865600585938
+    },
+    {
+      "tache_id": "045e512c",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.794368858654573,
+      "succes": true,
+      "temps_execution": 0.008794307708740234
+    },
+    {
+      "tache_id": "0520fde7",
+      "patterns_identifies": [
+        "réduction_dimensionnelle",
+        "projection_3d"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.6219047619047618,
+      "succes": true,
+      "temps_execution": 0.0013766288757324219
+    },
+    {
+      "tache_id": "05269061",
+      "patterns_identifies": [
+        "filtrage_couleur"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8500000000000001,
+      "succes": true,
+      "temps_execution": 0.0030951499938964844
+    },
+    {
+      "tache_id": "05a7bcf2",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6900000000000001,
+      "succes": true,
+      "temps_execution": 0.014427423477172852
+    },
+    {
+      "tache_id": "05f2a901",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.722784992784993,
+      "succes": true,
+      "temps_execution": 0.0035555362701416016
+    },
+    {
+      "tache_id": "0607ce86",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7757407502466791,
+      "succes": true,
+      "temps_execution": 0.010833978652954102
+    },
+    {
+      "tache_id": "0692e18c",
+      "patterns_identifies": [
+        "agrandissement",
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.7376954732510288,
+      "succes": true,
+      "temps_execution": 0.0025551319122314453
+    },
+    {
+      "tache_id": "06df4c85",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.800371770636421,
+      "succes": true,
+      "temps_execution": 0.010007858276367188
+    },
+    {
+      "tache_id": "070dd51e",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7913333333333334,
+      "succes": true,
+      "temps_execution": 0.004904747009277344
+    },
+    {
+      "tache_id": "08ed6ac7",
+      "patterns_identifies": [
+        "filtrage_couleur",
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.6960493827160494,
+      "succes": true,
+      "temps_execution": 0.002002239227294922
+    },
+    {
+      "tache_id": "09629e4f",
+      "patterns_identifies": [
+        "remplissage_zone"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8500000000000001,
+      "succes": true,
+      "temps_execution": 0.005949735641479492
+    },
+    {
+      "tache_id": "0962bcdd",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7166666666666668,
+      "succes": true,
+      "temps_execution": 0.0034427642822265625
+    },
+    {
+      "tache_id": "09c534e7",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7950781893004116,
+      "succes": true,
+      "temps_execution": 0.008988142013549805
+    },
+    {
+      "tache_id": "0a1d4ef5",
+      "patterns_identifies": [
+        "réduction_complexe",
+        "réduction_dimensionnelle"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.8422666666666667,
+      "succes": true,
+      "temps_execution": 0.009705543518066406
+    },
+    {
+      "tache_id": "0a2355a6",
+      "patterns_identifies": [
+        "filtrage_couleur",
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.6895341166769738,
+      "succes": true,
+      "temps_execution": 0.0049479007720947266
+    },
+    {
+      "tache_id": "0a938d79",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.85,
+      "succes": true,
+      "temps_execution": 0.006861209869384766
+    },
+    {
+      "tache_id": "0b148d64",
+      "patterns_identifies": [
+        "réduction_dimensionnelle"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6683306070966399,
+      "succes": true,
+      "temps_execution": 0.004763364791870117
+    },
+    {
+      "tache_id": "0b17323b",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8411111111111113,
+      "succes": true,
+      "temps_execution": 0.004023075103759766
+    },
+    {
+      "tache_id": "0bb8deee",
+      "patterns_identifies": [
+        "réduction_dimensionnelle"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6790256410256411,
+      "succes": true,
+      "temps_execution": 0.003129720687866211
+    },
+    {
+      "tache_id": "0becf7df",
+      "patterns_identifies": [
+        "répétition_alternée",
+        "remplissage_zone"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.8653333333333334,
+      "succes": true,
+      "temps_execution": 0.0038781166076660156
+    },
+    {
+      "tache_id": "0c786b71",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6100000000000001,
+      "succes": true,
+      "temps_execution": 0.0009987354278564453
+    },
+    {
+      "tache_id": "0c9aba6e",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.61,
+      "succes": true,
+      "temps_execution": 0.0020265579223632812
+    },
+    {
+      "tache_id": "0ca9ddb6",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.744650205761317,
+      "succes": true,
+      "temps_execution": 0.00150299072265625
+    },
+    {
+      "tache_id": "0d3d703e",
+      "patterns_identifies": [
+        "filtrage_couleur"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8500000000000001,
+      "succes": true,
+      "temps_execution": 0.0033152103424072266
+    },
+    {
+      "tache_id": "0d87d2a6",
+      "patterns_identifies": [
+        "projection_3d",
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.7433333333333333,
+      "succes": true,
+      "temps_execution": 0.0050373077392578125
+    },
+    {
+      "tache_id": "0e206a2e",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7806613756613758,
+      "succes": true,
+      "temps_execution": 0.004534721374511719
+    },
+    {
+      "tache_id": "0e671a1a",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7470414201183433,
+      "succes": true,
+      "temps_execution": 0.004864931106567383
+    },
+    {
+      "tache_id": "0f63c0b9",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.85,
+      "succes": true,
+      "temps_execution": 0.0070781707763671875
+    },
+    {
+      "tache_id": "103eff5b",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7220279720279721,
+      "succes": true,
+      "temps_execution": 0.004591226577758789
+    },
+    {
+      "tache_id": "10fcaaa3",
+      "patterns_identifies": [
+        "agrandissement",
+        "projection_3d"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.7,
+      "succes": true,
+      "temps_execution": 0.0012412071228027344
+    },
+    {
+      "tache_id": "11852cab",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8260000000000002,
+      "succes": true,
+      "temps_execution": 0.0041620731353759766
+    },
+    {
+      "tache_id": "1190bc91",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6900000000000001,
+      "succes": true,
+      "temps_execution": 0.0035431385040283203
+    },
+    {
+      "tache_id": "1190e5a7",
+      "patterns_identifies": [
+        "réduction_dimensionnelle"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8500000000000001,
+      "succes": true,
+      "temps_execution": 0.006400585174560547
+    },
+    {
+      "tache_id": "11dc524f",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8058185404339252,
+      "succes": true,
+      "temps_execution": 0.003039836883544922
+    },
+    {
+      "tache_id": "11e1fe23",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.8245454545454547,
+      "succes": true,
+      "temps_execution": 0.005017995834350586
+    },
+    {
+      "tache_id": "12422b43",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.7138017094017095,
+      "succes": true,
+      "temps_execution": 0.003324270248413086
+    },
+    {
+      "tache_id": "12997ef3",
+      "patterns_identifies": [
+        "réduction_dimensionnelle",
+        "projection_3d"
+      ],
+      "nombre_patterns": 2,
+      "confiance_finale": 0.767073199527745,
+      "succes": true,
+      "temps_execution": 0.004236936569213867
+    },
+    {
+      "tache_id": "12eac192",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6465873015873016,
+      "succes": true,
+      "temps_execution": 0.0020139217376708984
+    },
+    {
+      "tache_id": "13713586",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6900000000000001,
+      "succes": true,
+      "temps_execution": 0.006657123565673828
+    },
+    {
+      "tache_id": "137eaa0f",
+      "patterns_identifies": [],
+      "nombre_patterns": 0,
+      "confiance_finale": 0.0,
+      "succes": false,
+      "temps_execution": 0,
+      "erreur": "cannot access local variable 'max_in' where it is not associated with a value"
+    },
+    {
+      "tache_id": "137f0df0",
+      "patterns_identifies": [
+        "projection_3d"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.6633333333333333,
+      "succes": true,
+      "temps_execution": 0.0030083656311035156
+    },
+    {
+      "tache_id": "13f06aa5",
+      "patterns_identifies": [
+        "répétition_alternée"
+      ],
+      "nombre_patterns": 1,
+      "confiance_finale": 0.728988418988419,
+      "succes": true,
+      "temps_execution": 0.005305767059326172
+    }
+  ],
+  "confiance_moyenne": 0.7488903859993233,
+  "succes_rate": 100.0,
+  "patterns_moyens": 1.2244897959183674
+}

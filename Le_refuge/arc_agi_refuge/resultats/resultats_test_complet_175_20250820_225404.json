@@ -1,0 +1,17 @@
+{
+  "timestamp": "20250820_225404",
+  "statistiques": {
+    "total": 175,
+    "succes": 175,
+    "echecs": 0,
+    "taux_succes": 100.0
+  },
+  "resultats": [
+    {
+      "id": "137eaa0f",
+      "succes": true,
+      "confiance": 0.807465564738292
+    },
+    {
+      "id": "1990f7a8",
+      "succes": 

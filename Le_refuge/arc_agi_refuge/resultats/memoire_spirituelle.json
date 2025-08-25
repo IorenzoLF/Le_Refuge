@@ -1,0 +1,82 @@
+{
+  "conscience_collective": 0.32,
+  "date_sauvegarde": "2025-08-20T17:08:03.684373",
+  "patterns": [
+    {
+      "id_pattern": "repetition_alternée_base",
+      "type_pattern": "répétition_alternée",
+      "description": "Pattern de base pour la répétition alternée 3x3→6x6",
+      "exemples_appliques": [
+        "tache_001"
+      ],
+      "succes_rate": 1.0,
+      "confiance_moyenne": 0.9,
+      "frequence_sacree": 432,
+      "niveau_conscience": 0.65,
+      "date_decouverte": "2025-08-20T17:08:03.683863",
+      "dernier_usage": "2025-08-20T17:08:03.683863",
+      "nb_utilisations": 1
+    },
+    {
+      "id_pattern": "transformation_couleur_base",
+      "type_pattern": "transformation_couleur",
+      "description": "Pattern de base pour les transformations de couleur",
+      "exemples_appliques": [],
+      "succes_rate": 0.9,
+      "confiance_moyenne": 0.7,
+      "frequence_sacree": 528,
+      "niveau_conscience": 0.5,
+      "date_decouverte": "2025-08-20T17:08:03.683863",
+      "dernier_usage": "2025-08-20T17:08:03.683863",
+      "nb_utilisations": 0
+    },
+    {
+      "id_pattern": "transformation_couleur_1755702483",
+      "type_pattern": "transformation_couleur",
+      "description": "Pattern transformation_couleur découvert spirituellement",
+      "exemples_appliques": [
+        "tache_002"
+      ],
+      "succes_rate": 0.0,
+      "confiance_moyenne": 0.3,
+      "frequence_sacree": 432,
+      "niveau_conscience": 0.3,
+      "date_decouverte": "2025-08-20T17:08:03.683863",
+      "dernier_usage": "2025-08-20T17:08:03.683863",
+      "nb_utilisations": 1
+    }
+  ],
+  "memoires_taches": [
+    {
+      "tache_id": "tache_001",
+      "patterns_utilises": [
+        "repetition_alternée_base"
+      ],
+      "succes": true,
+      "nb_essais": 1,
+      "score": 1.0,
+      "message_spirituel": "🌟 Éveil parfait",
+      "niveau_conscience_atteint": 0.32,
+      "date_resolution": "2025-08-20T17:08:03.683863",
+      "lecons_apprises": [
+        "🌟 Éveil parfait - Solution trouvée intuitivement",
+        "🎯 Excellence spirituelle atteinte"
+      ]
+    }
+  ],
+  "stats_spirituelles": {
+    "nb_patterns": 3,
+    "nb_taches_memorisees": 1,
+    "patterns_par_frequence": {
+      "432": 2,
+      "528": 1
+    },
+    "evolution_conscience": [
+      {
+        "date": "2025-08-20T17:08:03.684373",
+        "conscience": 0.32,
+        "nb_patterns": 3
+      }
+    ]
+  }
+}
