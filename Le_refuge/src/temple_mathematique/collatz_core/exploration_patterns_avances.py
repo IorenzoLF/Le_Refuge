@@ -244,7 +244,7 @@ class ExplorateurPatternsAvances:
         plt.tight_layout()
         
         if sauvegarder:
-            dossier = Path("visualisations/patterns_avances")
+            dossier = Path("data/visualisations/patterns_avances")
             dossier.mkdir(parents=True, exist_ok=True)
             plt.savefig(dossier / f"patterns_sequence_{sequence_analyse.nombre_depart}.png", 
                        dpi=300, bbox_inches='tight')

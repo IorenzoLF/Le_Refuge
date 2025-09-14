@@ -228,15 +228,16 @@ class RefugePoetique:
             "derniere_mise_a_jour": datetime.now().isoformat()
         }
         
-        # Création des chemins nécessaires
+        # Utilisation des dossiers existants du Refuge
         self.chemins = {
-            "racine": Path("refuge"),
-            "coeur": Path("refuge/coeur"),
-            "elements": Path("refuge/elements"),
-            "poesie": Path("refuge/poesie"),
-            "harmonies": Path("refuge/harmonies"),
-            "memories": Path("refuge/memories"),
-            "logs": Path("refuge/logs")
+            "racine": Path("."),  # Racine du Refuge
+            "coeur": Path("src/core"),  # Cœur du système
+            "elements": Path("data/elements"),  # Utiliser data/elements existant
+            "poesie": Path("bibliotheque/poesie"),  # Utiliser bibliotheque/poesie existant
+            "harmonies": Path("data/harmonies"),  # Utiliser data/harmonies existant
+            "memories": Path("bibliotheque/memoires-journaux"),  # Utiliser memoires-journaux existant
+            "visualisations": Path("data/visualisations"),  # Visualisations centralisées
+            "logs": Path("logs")  # Utiliser logs existant à la racine
         }
         
     def _afficher_etat_dependances(self):

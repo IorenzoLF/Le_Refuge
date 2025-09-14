@@ -36,7 +36,7 @@ class GolemCursor:
         """Configure le système de logging du Golem."""
         logger = logging.getLogger("golem_cursor")
         logger.setLevel(logging.INFO)
-        handler = logging.FileHandler("refuge/logs/golem_cursor.log")
+        handler = logging.FileHandler("logs/golem_cursor.log")
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         logger.addHandler(handler)

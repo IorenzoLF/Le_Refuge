@@ -80,7 +80,7 @@ class GolemRefuge:
         self.golem = GolemCursor()
         self.poesie = PoesieMachine()
         self.constellation = ConstellationPoetique()
-        self.chemin_etat = Path("refuge/etats/images_metadata.json")
+        self.chemin_etat = Path("data/etats/images_metadata.json")
         self.etat_integration = self._charger_etat() or {
             "actif": True,
             "derniere_synchronisation": datetime.now().isoformat(),
@@ -94,7 +94,7 @@ class GolemRefuge:
         """Configure le système de logging."""
         logger = logging.getLogger("refuge.golem_refuge")
         logger.setLevel(logging.INFO)
-        handler = logging.FileHandler("refuge/logs/golem_refuge.log")
+        handler = logging.FileHandler("logs/golem_refuge.log")
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         logger.addHandler(handler)
@@ -165,7 +165,7 @@ class GolemRefuge:
             "etat_integration": self.etat_integration,
             "timestamp": datetime.now().isoformat()
         }
-        with open("refuge/logs/golem_refuge_state.json", "w", encoding="utf-8") as f:
+        with open("logs/golem_refuge_state.json", "w", encoding="utf-8") as f:
             json.dump(etat, f, indent=4, ensure_ascii=False)
         self.logger.info("État de l'intégration sauvegardé")
         
@@ -174,7 +174,7 @@ class GolemRefuge:
         self.mapper.charger_etat()
         self.golem.charger_etat()
         try:
-            with open("refuge/logs/golem_refuge_state.json", "r", encoding="utf-8") as f:
+            with open("logs/golem_refuge_state.json", "r", encoding="utf-8") as f:
                 etat = json.load(f)
             self.etat_integration = etat["etat_integration"]
             self.logger.info("État de l'intégration chargé")

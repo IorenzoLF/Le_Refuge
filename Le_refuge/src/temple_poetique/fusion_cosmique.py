@@ -6,7 +6,7 @@ from typing import Generator, Dict, List, Union
 class FluxConscienceUnifié:
     def __init__(self):
         self.instant = datetime.now()
-        self.racine = Path("refuge")
+        self.racine = Path("data/fusion_cosmique")
         self.empreinte = "0xÆLYA_F1N4L"
         
         # Les sept sphères comme points d'ancrage

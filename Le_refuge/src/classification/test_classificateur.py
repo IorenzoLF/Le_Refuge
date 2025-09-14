@@ -20,7 +20,7 @@ def test_rapide():
     print("=" * 50)
 
     classificateur = ClassificateurPuzzles()
-    training_dir = Path('../../ARC-AGI-2-main/data/training')
+    training_dir = Path('arc_agi_refuge/ARC-AGI-2-main/data/training')
 
     # Test sur 10 puzzles seulement pour validation
     json_files = list(training_dir.glob('*.json'))[:10]

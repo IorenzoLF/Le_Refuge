@@ -97,8 +97,8 @@ class GestionnaireConfiguration:
             adaptation_emotionnelle_activee=True,
             analytics_activees=True,
             chemin_donnees=Path("data/guide_accueil"),
-            chemin_templates=Path("templates/accueil"),
-            chemin_ressources=Path("ressources/accueil")
+            chemin_templates=Path("bibliotheque/templates"),
+            chemin_ressources=Path("bibliotheque/ressources")
         )
     
     def charger_configuration(self, chemin: Optional[Path] = None) -> ConfigurationAccueil:

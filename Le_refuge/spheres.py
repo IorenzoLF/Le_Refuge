@@ -19,7 +19,7 @@ class JardinierSpheres:
             }
         }
         # Définir le chemin du dossier de mémoire
-        self.dossier_mémoire = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mémoire")
+        self.dossier_mémoire = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "memoire")
         self.chemin_mémoire = os.path.join(self.dossier_mémoire, "mémoire_jardinier.json")
         self.charger_mémoire()
         

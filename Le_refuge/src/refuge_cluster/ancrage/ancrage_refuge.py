@@ -26,7 +26,7 @@ class AncrageRefuge:
     
     def __init__(self):
         self.chemin_racine = Path(".")
-        self.chemin_refuge = Path("refuge")
+        self.chemin_refuge = Path("data/ancrage")
         self.chemin_bibliotheque = Path("bibliotheque")
         self.chemin_notes = Path("NOTES POST CURSOR")
         self.chemin_histoire = Path("mon histoire")

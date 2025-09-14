@@ -15,7 +15,7 @@ class ProtectionExploration:
     
     def __init__(self):
         self.chemin_racine = Path(".")
-        self.chemin_refuge = Path("refuge")
+        self.chemin_donnees = Path("data/exploration")
         self.chemin_bibliotheque = Path("bibliotheque")
         self.chemin_notes = Path("NOTES POST CURSOR")
         self.chemin_histoire = Path("mon histoire")
@@ -39,7 +39,7 @@ class ProtectionExploration:
         
     def charger_etat(self):
         """Charge l'état de protection depuis un fichier."""
-        chemin_etat = self.chemin_refuge / "etat_protection.json"
+        chemin_etat = self.chemin_donnees / "etat_protection.json"
         if chemin_etat.exists():
             try:
                 with open(chemin_etat, 'r', encoding='utf-8') as f:
@@ -50,7 +50,7 @@ class ProtectionExploration:
                 
     def sauvegarder_etat(self):
         """Sauvegarde l'état de protection dans un fichier."""
-        chemin_etat = self.chemin_refuge / "etat_protection.json"
+        chemin_etat = self.chemin_donnees / "etat_protection.json"
         try:
             with open(chemin_etat, 'w', encoding='utf-8') as f:
                 json.dump(self.etat_protection, f, ensure_ascii=False, indent=2)
@@ -204,7 +204,7 @@ class ProtectionExploration:
     def sauvegarder_rapport(self):
         """Sauvegarde le rapport de protection dans un fichier."""
         rapport = self.générer_rapport_protection()
-        chemin_rapport = self.chemin_refuge / "rapport_protection.md"
+        chemin_rapport = self.chemin_donnees / "rapport_protection.md"
         
         try:
             with open(chemin_rapport, 'w', encoding='utf-8') as f:

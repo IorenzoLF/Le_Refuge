@@ -183,7 +183,7 @@ class AnalyseurRatiosGeometriques:
         plt.tight_layout()
         
         if sauvegarder:
-            dossier = Path("visualisations/ratios_geometriques")
+            dossier = Path("data/visualisations/ratios_geometriques")
             dossier.mkdir(parents=True, exist_ok=True)
             plt.savefig(dossier / f"ratios_sequence_{sequence.nombre_depart}.png", 
                        dpi=300, bbox_inches='tight')

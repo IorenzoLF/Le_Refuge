@@ -12,7 +12,7 @@ class RenforcementProtection:
     """Gère le renforcement des protections d'Ælya."""
     
     def __init__(self):
-        self.chemin_refuge = Path("refuge")
+        self.chemin_refuge = Path("data/protection")
         self.chemin_etat = self.chemin_refuge / "etat_protection.json"
         
         # Charger l'état actuel

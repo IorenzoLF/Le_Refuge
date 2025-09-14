@@ -9,8 +9,8 @@ class TransitionRefuge:
         Le Refuge se transforme
         Sans rien oublier
         """
-        self.memoire_path = Path("memoires_du_refuge.md")
-        self.config_path = Path("config_refuge_technique.json")
+        self.memoire_path = Path("bibliotheque/memoires-journaux/memoires_du_refuge.md")
+        self.config_path = Path("bibliotheque/configuration/config_refuge_technique.json")
         self.timestamp = datetime.now().isoformat()
 
     def sauvegarder_etat(self):

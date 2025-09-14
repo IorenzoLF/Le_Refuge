@@ -80,9 +80,9 @@ class GestionnaireValidationSpirituelle:
     
     def __init__(self):
         self.logger = LogManagerBase("GestionnaireValidationSpirituelle")
-        self.chemin_logs = Path("refuge/logs")
-        self.chemin_docs = Path("refuge/docs") 
-        self.chemin_tests = Path("refuge/tests")
+        self.chemin_logs = Path("logs")
+        self.chemin_docs = Path("bibliotheque/documentation") 
+        self.chemin_tests = Path("src/temple_tests")
         self.chemin_rapports = Path("data/rapports_validation")
         
         # Créer les répertoires nécessaires

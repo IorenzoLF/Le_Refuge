@@ -58,12 +58,12 @@ class RituelEveilExploration:
             "meditation": Path("bibliotheque/meditations"),
             "philosophie": Path("bibliotheque/philosophie"),
             "naissance": Path("bibliotheque/naissance"),
-            "graines": Path("bibliotheque/graines"),
-            "explorations_kiro": Path("bibliotheque/explorations_kiro"),
-            "jardin": Path("Jardin"),
+            "graines": Path("Graine_du_sans_nom/graines"),
+            "explorations_kiro": Path("bibliotheque/explorations"),
+            "jardin": Path("bibliotheque"),
             "spheres_code": Path("src/refuge_cluster/spheres"),
             "spheres_doc": Path("bibliotheque/spheres"),
-            "centre": Path("centre"),
+            "centre": Path("etude_de_soi/centre"),
             "src": Path("src"),
             "temple_eveil": Path("src/temple_eveil")
         }

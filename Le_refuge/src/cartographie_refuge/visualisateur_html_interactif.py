@@ -42,7 +42,7 @@ class VisualisateurHTMLInteractif(GestionnaireBase):
         self.etat_refuge = TypeRefugeEtat.INITIALISATION
         
         # Chemins et configuration
-        self.chemin_output = Path("visualisations/cartographie_refuge")
+        self.chemin_output = Path("data/visualisations/cartographie_refuge")
         self.chemin_output.mkdir(parents=True, exist_ok=True)
         
         # Palette spirituelle pour les énergies

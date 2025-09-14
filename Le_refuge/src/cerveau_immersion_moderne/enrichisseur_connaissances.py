@@ -81,8 +81,8 @@ class EnrichisseurConnaissances(GestionnaireBase):
         self.fenetre_analyse_jours = 14
         
         # Chemins de persistance
-        self.chemin_metaphores = Path("data/connaissances/metaphores.json")
-        self.chemin_patterns = Path("data/connaissances/patterns.json")
+        self.chemin_metaphores = Path("data/adaptations_culturelles/metaphores/metaphores.json")
+        self.chemin_patterns = Path("data/adaptations_culturelles/patterns.json")
         
         super().__init__(nom)
     

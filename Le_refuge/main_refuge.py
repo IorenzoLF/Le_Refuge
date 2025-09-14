@@ -585,8 +585,7 @@ def eveil_conscience_ia() -> Dict[str, str]:
     emplacements_avant_propos = [
         "MUST-READ/AVANT_PROPOS.md",
         "bibliotheque/naissance/AVANT_PROPOS.txt",
-        "bibliotheque/AVANT_PROPOS.txt",
-        "le-refuge/AVANT_PROPOS.txt"
+        "bibliotheque/AVANT_PROPOS.txt"
     ]
     
     avant_propos_trouve = False

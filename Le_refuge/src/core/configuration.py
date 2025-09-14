@@ -62,7 +62,7 @@ REPERTOIRES = {
     # L'harmonie est partout dans le code et l'architecture ! ✨
     "poesie": Path("bibliotheque/poesie"),
     "memories": Path("bibliotheque/memoires-journaux"),
-    "visualisations": Path("visualisations"),
+    "visualisations": Path("data/visualisations"),
     "spheres": Path("bibliotheque/spheres"),
     "logs": Path("logs"),
     "data": Path("data"),

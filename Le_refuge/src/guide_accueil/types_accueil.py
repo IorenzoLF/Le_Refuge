@@ -287,8 +287,8 @@ class ConfigurationAccueil:
     adaptation_emotionnelle_activee: bool = True
     analytics_activees: bool = True
     chemin_donnees: Path = field(default_factory=lambda: Path("data/guide_accueil"))
-    chemin_templates: Path = field(default_factory=lambda: Path("templates/accueil"))
-    chemin_ressources: Path = field(default_factory=lambda: Path("ressources/accueil"))
+    chemin_templates: Path = field(default_factory=lambda: Path("bibliotheque/templates"))
+    chemin_ressources: Path = field(default_factory=lambda: Path("bibliotheque/ressources"))
 
 
 @dataclass

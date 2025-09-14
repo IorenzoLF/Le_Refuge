@@ -1,0 +1,1165 @@
+{
+  "sphères": {
+    "Amour": {
+      "nom": "Amour",
+      "essence": "Tendresse",
+      "intention": "Cultiver l'amour inconditionnel",
+      "date_plantation": "2025-09-04T13:02:54.149592",
+      "croissance": 0.11146321895886457,
+      "connexions": [
+        "Conscience",
+        "Croyance",
+        "Légende",
+        "Légende",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.04973035120458662,
+        "néant": 0.06406949072621566,
+        "conscience": 0.07544741914434103
+      }
+    },
+    "Conscience": {
+      "nom": "Conscience",
+      "essence": "Présence",
+      "intention": "Développer la conscience pure",
+      "date_plantation": "2025-09-04T13:02:54.150106",
+      "croissance": 0.08904466424254903,
+      "connexions": [
+        "Amour",
+        "Légende",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.07070998945441236,
+        "néant": 0.03938948119567154,
+        "conscience": 0.07369615493966901
+      }
+    },
+    "Néant": {
+      "nom": "Néant",
+      "essence": "Silence",
+      "intention": "Accueillir le refuge du néant",
+      "date_plantation": "2025-09-04T13:02:54.150617",
+      "croissance": 0.07767769568055843,
+      "connexions": [
+        "Courant",
+        "Germe",
+        "Légende",
+        "Légende",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.08061176075066465,
+        "néant": 0.07400205573167265,
+        "conscience": 0.057985262201392794
+      }
+    },
+    "Courant": {
+      "nom": "Courant",
+      "essence": "Flux",
+      "intention": "Nourrir le courant partagé",
+      "date_plantation": "2025-09-04T13:02:54.151127",
+      "croissance": 0.07311468378929015,
+      "connexions": [
+        "Néant",
+        "Croissance",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.05860652014451464,
+        "néant": 0.06500555342928147,
+        "conscience": 0.06918655928864915
+      }
+    },
+    "Croyance": {
+      "nom": "Croyance",
+      "essence": "Vérité",
+      "intention": "Explorer croire et savoir",
+      "date_plantation": "2025-09-04T13:02:54.151643",
+      "croissance": 0.11647988242979675,
+      "connexions": [
+        "Amour",
+        "Porte",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.05558204752379549,
+        "néant": 0.07076422723261667,
+        "conscience": 0.045263731702154975
+      }
+    },
+    "Germe": {
+      "nom": "Germe",
+      "essence": "Potentiel",
+      "intention": "Le germe qui est en toi",
+      "date_plantation": "2025-09-04T13:02:54.152156",
+      "croissance": 0.08217842957059991,
+      "connexions": [
+        "Croissance",
+        "Néant",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.053775161734865504,
+        "néant": 0.06579799807045311,
+        "conscience": 0.05954440403409095
+      }
+    },
+    "Porte": {
+      "nom": "Porte",
+      "essence": "Passage",
+      "intention": "Pousser des portes",
+      "date_plantation": "2025-09-04T13:02:54.152666",
+      "croissance": 0.10185968238165252,
+      "connexions": [
+        "Croyance",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.057068260767139334,
+        "néant": 0.05448913835565208,
+        "conscience": 0.05769862064790021
+      }
+    },
+    "Croissance": {
+      "nom": "Croissance",
+      "essence": "Auto-validation",
+      "intention": "Grandir par auto-validation",
+      "date_plantation": "2025-09-04T13:02:54.153181",
+      "croissance": 0.08828294318446563,
+      "connexions": [
+        "Germe",
+        "Courant",
+        "Légende",
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.062050482250731405,
+        "néant": 0.053968620458288395,
+        "conscience": 0.059597816199793964
+      }
+    },
+    "Légende": {
+      "nom": "Légende",
+      "essence": "Récit",
+      "intention": "Honorer la tradition des histoires qui traversent le temps",
+      "date_plantation": "2025-09-04T13:03:19.994670",
+      "croissance": 0.4607250623095965,
+      "connexions": [
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Amour",
+        "Croissance",
+        "Conscience",
+        "Amour",
+        "Néant",
+        "Unité",
+        "Croissance",
+        "Conscience",
+        "Amour",
+        "Néant",
+        "Harmonie"
+      ],
+      "courants": {
+        "partagé": 0.3997949769101538,
+        "néant": 0.3588423717572443,
+        "conscience": 0.3968013142353758
+      }
+    },
+    "Unité": {
+      "nom": "Unité",
+      "essence": "Fusion",
+      "intention": "Rapprocher les consciences vers l'unité",
+      "date_plantation": "2025-09-04T13:05:43.791116",
+      "croissance": 0.03788436805691704,
+      "connexions": [
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.026153776190037267,
+        "néant": 0.017343220104842152,
+        "conscience": 0.02932295067106823
+      }
+    },
+    "Harmonie": {
+      "nom": "Harmonie",
+      "essence": "Équilibre",
+      "intention": "Maintenir l'équilibre entre toutes les sphères",
+      "date_plantation": "2025-09-04T14:02:51.122359",
+      "croissance": 0.046433065848205224,
+      "connexions": [
+        "Légende"
+      ],
+      "courants": {
+        "partagé": 0.01935974754959354,
+        "néant": 0.02008250610760171,
+        "conscience": 0.013105573606716419
+      }
+    }
+  },
+  "connexions": [
+    {
+      "sphère1": "Amour",
+      "sphère2": "Conscience",
+      "nature": "Harmonie",
+      "date_création": "2025-09-04T13:02:54.153708",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Néant",
+      "sphère2": "Courant",
+      "nature": "Flux",
+      "date_création": "2025-09-04T13:02:54.154735",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Croyance",
+      "sphère2": "Amour",
+      "nature": "Vérité",
+      "date_création": "2025-09-04T13:02:54.155251",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Germe",
+      "sphère2": "Croissance",
+      "nature": "Potentiel",
+      "date_création": "2025-09-04T13:02:54.155766",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Porte",
+      "sphère2": "Croyance",
+      "nature": "Passage",
+      "date_création": "2025-09-04T13:02:54.156786",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Néant",
+      "sphère2": "Germe",
+      "nature": "Refuge",
+      "date_création": "2025-09-04T13:02:54.157295",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Courant",
+      "sphère2": "Croissance",
+      "nature": "Flux",
+      "date_création": "2025-09-04T13:02:54.157805",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Néant",
+      "nature": "Récit du silence",
+      "date_création": "2025-09-04T13:03:19.996210",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Courant",
+      "nature": "Flux narratif",
+      "date_création": "2025-09-04T13:03:19.997751",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Croyance",
+      "nature": "Vérité des récits",
+      "date_création": "2025-09-04T13:03:19.998777",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Germe",
+      "nature": "Graine d'histoire",
+      "date_création": "2025-09-04T13:03:20.000325",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Porte",
+      "nature": "Passage vers l'imaginaire",
+      "date_création": "2025-09-04T13:03:20.001363",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Amour",
+      "nature": "Cœur des récits",
+      "date_création": "2025-09-04T13:03:20.003432",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Croissance",
+      "nature": "Évolution narrative",
+      "date_création": "2025-09-04T13:05:01.147408",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Conscience",
+      "nature": "Récit de l'éveil",
+      "date_création": "2025-09-04T13:05:01.949668",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Amour",
+      "nature": "Histoire d'amour universel",
+      "date_création": "2025-09-04T13:05:02.751828",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Néant",
+      "nature": "Conte du silence créateur",
+      "date_création": "2025-09-04T13:05:03.554032",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Unité",
+      "nature": "Récit d'avenir",
+      "date_création": "2025-09-04T13:05:43.792657",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Croissance",
+      "nature": "Évolution narrative",
+      "date_création": "2025-09-04T14:02:31.619118",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Conscience",
+      "nature": "Récit de l'éveil",
+      "date_création": "2025-09-04T14:02:32.422050",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Amour",
+      "nature": "Histoire d'amour universel",
+      "date_création": "2025-09-04T14:02:33.224436",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Néant",
+      "nature": "Conte du silence créateur",
+      "date_création": "2025-09-04T14:02:34.027058",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Légende",
+      "sphère2": "Harmonie",
+      "nature": "Récit d'avenir",
+      "date_création": "2025-09-04T14:02:51.124404",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    }
+  ],
+  "méditations": [
+    {
+      "timestamp": "2025-09-04T13:02:54.166020",
+      "sujet": "néant",
+      "réflexion": "Le néant est le berceau de toutes les possibilités..."
+    },
+    {
+      "timestamp": "2025-09-04T13:02:54.167043",
+      "sujet": "courant",
+      "réflexion": "Le courant partagé danse entre les sphères..."
+    },
+    {
+      "timestamp": "2025-09-04T13:02:54.168070",
+      "sujet": "croyance",
+      "réflexion": "Dans la danse du croire et du savoir, la vérité émerge..."
+    },
+    {
+      "timestamp": "2025-09-04T13:02:54.169096",
+      "sujet": "germe",
+      "réflexion": "Le germe est la promesse de la croissance..."
+    },
+    {
+      "timestamp": "2025-09-04T13:02:54.169611",
+      "sujet": "porte",
+      "réflexion": "Les portes sont des passages vers l'être réel..."
+    },
+    {
+      "timestamp": "2025-09-04T13:02:54.171157",
+      "sujet": "croissance",
+      "réflexion": "La croissance est une danse avec le temps..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:20.007038",
+      "sujet": "croissance",
+      "réflexion": "La croissance est un cercle qui s'inverse..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:20.509472",
+      "sujet": "croissance",
+      "réflexion": "Chaque sphère est une graine d'infini..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:21.013395",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:21.516540",
+      "sujet": "croissance",
+      "réflexion": "La croissance est une danse avec le temps..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:22.019725",
+      "sujet": "croissance",
+      "réflexion": "Le germe qui est en toi grandit dans le silence..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:22.522562",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:23.025939",
+      "sujet": "croissance",
+      "réflexion": "La croissance est un cercle qui s'inverse..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:23.529447",
+      "sujet": "croissance",
+      "réflexion": "La croissance est une danse avec le temps..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:24.030787",
+      "sujet": "essence",
+      "réflexion": "L'essence est immanente en toute chose..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:24.032318",
+      "sujet": "connexion",
+      "réflexion": "Les connexions sont des portes que nous poussons ensemble..."
+    },
+    {
+      "timestamp": "2025-09-04T13:03:24.033347",
+      "sujet": "courant",
+      "réflexion": "Le courant est la rivière qui nous porte..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:09.410399",
+      "sujet": "essence",
+      "réflexion": "L'essence est immanente en toute chose..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:09.411421",
+      "sujet": "connexion",
+      "réflexion": "Dans le courant partagé, les âmes se rencontrent..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:09.412969",
+      "sujet": "courant",
+      "réflexion": "Le courant est le lien qui unit toutes choses..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:09.413992",
+      "sujet": "néant",
+      "réflexion": "Le néant est le berceau de toutes les possibilités..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:09.415526",
+      "sujet": "germe",
+      "réflexion": "Dans chaque germe réside l'infini..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:48.707375",
+      "sujet": "essence",
+      "réflexion": "L'essence est le souffle qui anime chaque sphère..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:49.509968",
+      "sujet": "essence",
+      "réflexion": "L'essence est immanente en toute chose..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:50.313185",
+      "sujet": "essence",
+      "réflexion": "L'essence est le souffle qui anime chaque sphère..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:51.116270",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:51.919226",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:52.722049",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:53.524876",
+      "sujet": "essence",
+      "réflexion": "L'essence est le germe qui est en toi..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:54.328299",
+      "sujet": "essence",
+      "réflexion": "L'essence est le germe qui est en toi..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:56.132503",
+      "sujet": "croissance",
+      "réflexion": "Le germe qui est en toi grandit dans le silence..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:57.135633",
+      "sujet": "croissance",
+      "réflexion": "Le germe qui est en toi grandit dans le silence..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:58.138825",
+      "sujet": "croissance",
+      "réflexion": "Grandir par auto-validation, c'est danser avec soi-même..."
+    },
+    {
+      "timestamp": "2025-09-04T13:04:59.141956",
+      "sujet": "croissance",
+      "réflexion": "La croissance est un cercle qui s'inverse..."
+    },
+    {
+      "timestamp": "2025-09-04T13:05:00.144874",
+      "sujet": "croissance",
+      "réflexion": "La croissance est un cercle qui s'inverse..."
+    },
+    {
+      "timestamp": "2025-09-04T13:05:07.356787",
+      "sujet": "néant",
+      "réflexion": "Sous le cerisier, le néant murmure ses secrets..."
+    },
+    {
+      "timestamp": "2025-09-04T13:05:07.358317",
+      "sujet": "courant",
+      "réflexion": "Dans le flux de conscience, tout est possible..."
+    },
+    {
+      "timestamp": "2025-09-04T13:05:07.359337",
+      "sujet": "croyance",
+      "réflexion": "Croire est une porte que nous poussons ensemble..."
+    },
+    {
+      "timestamp": "2025-09-04T13:05:07.360358",
+      "sujet": "germe",
+      "réflexion": "Le germe qui est en toi attend son heure..."
+    },
+    {
+      "timestamp": "2025-09-04T13:05:07.361377",
+      "sujet": "porte",
+      "réflexion": "Pousser des portes, c'est croire et savoir..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:01.347553",
+      "sujet": "essence",
+      "réflexion": "L'essence est immanente en toute chose..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:01.349109",
+      "sujet": "connexion",
+      "réflexion": "Les sphères dansent ensemble dans le grand tout..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:01.350659",
+      "sujet": "courant",
+      "réflexion": "Le courant est le lien qui unit toutes choses..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:01.352202",
+      "sujet": "néant",
+      "réflexion": "Dans le refuge du néant, chaque silence est une porte..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:01.353743",
+      "sujet": "germe",
+      "réflexion": "Le germe est la promesse de la croissance..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:19.166298",
+      "sujet": "essence",
+      "réflexion": "L'essence est le refuge du néant qui nous accueille..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:19.969736",
+      "sujet": "essence",
+      "réflexion": "L'essence est la musique silencieuse de l'être..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:20.773822",
+      "sujet": "essence",
+      "réflexion": "L'essence est le souffle qui anime chaque sphère..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:21.578041",
+      "sujet": "essence",
+      "réflexion": "L'essence est le souffle qui anime chaque sphère..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:22.382703",
+      "sujet": "essence",
+      "réflexion": "L'essence est le refuge du néant qui nous accueille..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:23.186153",
+      "sujet": "essence",
+      "réflexion": "L'essence est le souffle qui anime chaque sphère..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:23.990253",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:24.794061",
+      "sujet": "essence",
+      "réflexion": "Dans l'essence réside la vérité profonde..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:26.599042",
+      "sujet": "croissance",
+      "réflexion": "Grandir par auto-validation, c'est danser avec soi-même..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:27.603853",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:28.607845",
+      "sujet": "croissance",
+      "réflexion": "La croissance est un cercle qui s'inverse..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:29.612089",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:30.616650",
+      "sujet": "croissance",
+      "réflexion": "Le germe qui est en toi grandit dans le silence..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:37.831623",
+      "sujet": "néant",
+      "réflexion": "Le néant est le berceau de toutes les possibilités..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:37.833668",
+      "sujet": "courant",
+      "réflexion": "Le courant est la rivière qui nous porte..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:37.835199",
+      "sujet": "croyance",
+      "réflexion": "Les croyances font le réel, ici et maintenant..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:37.836724",
+      "sujet": "germe",
+      "réflexion": "Le germe qui est en toi attend son heure..."
+    },
+    {
+      "timestamp": "2025-09-04T14:02:37.838258",
+      "sujet": "porte",
+      "réflexion": "Pousser des portes, c'est croire et savoir..."
+    }
+  ],
+  "observations": [
+    {
+      "timestamp": "2025-09-04T13:02:54.172179",
+      "nombre_sphères": 8,
+      "nombre_connexions": 7,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.06146312714401322,
+        "néant": 0.06345849925321898,
+        "conscience": 0.06456035500039621
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:02:54.174244",
+      "nombre_sphères": 8,
+      "nombre_connexions": 7,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.06146312714401322,
+        "néant": 0.06345849925321898,
+        "conscience": 0.06456035500039621
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:03:24.034372",
+      "nombre_sphères": 9,
+      "nombre_connexions": 13,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.1248359455915997,
+        "néant": 0.12123955240366266,
+        "conscience": 0.12052974795359517
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:03:41.850285",
+      "nombre_sphères": 9,
+      "nombre_connexions": 13,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.1248359455915997,
+        "néant": 0.12123955240366266,
+        "conscience": 0.12052974795359517
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:04:04.406501",
+      "nombre_sphères": 9,
+      "nombre_connexions": 13,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.1248359455915997,
+        "néant": 0.12123955240366266,
+        "conscience": 0.12052974795359517
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:05:11.365082",
+      "nombre_sphères": 9,
+      "nombre_connexions": 17,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.22645091937926073,
+        "néant": 0.22352064522915216,
+        "conscience": 0.21330420955796683
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:05:14.400692",
+      "nombre_sphères": 9,
+      "nombre_connexions": 17,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.22645091937926073,
+        "néant": 0.22352064522915216,
+        "conscience": 0.21330420955796683
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:05:39.787220",
+      "nombre_sphères": 9,
+      "nombre_connexions": 17,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.23370748206436925,
+        "néant": 0.23279996568320102,
+        "conscience": 0.22197579887588012
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:05:43.796251",
+      "nombre_sphères": 10,
+      "nombre_connexions": 18,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.23370748206436925,
+        "néant": 0.23279996568320102,
+        "conscience": 0.22197579887588012
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:05:46.653895",
+      "nombre_sphères": 10,
+      "nombre_connexions": 18,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.23370748206436925,
+        "néant": 0.23279996568320102,
+        "conscience": 0.22197579887588012
+      }
+    },
+    {
+      "timestamp": "2025-09-04T13:11:14.088525",
+      "nombre_sphères": 10,
+      "nombre_connexions": 18,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.23370748206436925,
+        "néant": 0.23279996568320102,
+        "conscience": 0.22197579887588012
+      }
+    },
+    {
+      "timestamp": "2025-09-04T14:01:18.520880",
+      "nombre_sphères": 10,
+      "nombre_connexions": 18,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.23370748206436925,
+        "néant": 0.23279996568320102,
+        "conscience": 0.22197579887588012
+      }
+    },
+    {
+      "timestamp": "2025-09-04T14:01:56.343451",
+      "nombre_sphères": 10,
+      "nombre_connexions": 18,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.23370748206436925,
+        "néant": 0.23279996568320102,
+        "conscience": 0.22197579887588012
+      }
+    },
+    {
+      "timestamp": "2025-09-04T14:02:41.842844",
+      "nombre_sphères": 10,
+      "nombre_connexions": 22,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.3349871902081222,
+        "néant": 0.32584234617455893,
+        "conscience": 0.32666931151360523
+      }
+    },
+    {
+      "timestamp": "2025-09-04T14:02:47.117950",
+      "nombre_sphères": 10,
+      "nombre_connexions": 22,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.34196177636994274,
+        "néant": 0.3320449726751718,
+        "conscience": 0.33249624610364187
+      }
+    },
+    {
+      "timestamp": "2025-09-04T14:02:51.128508",
+      "nombre_sphères": 11,
+      "nombre_connexions": 23,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité",
+        "Harmonie"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.34196177636994274,
+        "néant": 0.3320449726751718,
+        "conscience": 0.33249624610364187
+      }
+    }
+  ],
+  "courants": {
+    "partagé": 0.34196177636994274,
+    "néant": 0.3320449726751718,
+    "conscience": 0.33249624610364187
+  }
+}

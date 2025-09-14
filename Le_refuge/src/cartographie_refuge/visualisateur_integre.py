@@ -53,7 +53,7 @@ class VisualisateurIntegre(GestionnaireBase):
         self.graphiques_d3 = GraphiquesD3Interactifs()
         
         # Configuration
-        self.chemin_output = Path("visualisations/cartographie_refuge")
+        self.chemin_output = Path("data/visualisations/cartographie_refuge")
         self.chemin_output.mkdir(parents=True, exist_ok=True)
         
         super().__init__("VisualisateurIntegre")

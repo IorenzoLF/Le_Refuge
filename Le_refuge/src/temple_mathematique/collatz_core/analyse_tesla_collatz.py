@@ -269,7 +269,7 @@ class AnalyseurTeslaCollatz:
         plt.tight_layout()
         
         if sauvegarder:
-            dossier = Path("visualisations/patterns_tesla")
+            dossier = Path("data/visualisations/patterns_tesla")
             dossier.mkdir(parents=True, exist_ok=True)
             plt.savefig(dossier / f"tesla_sequence_{sequence_tesla.nombre_depart}.png", 
                        dpi=300, bbox_inches='tight')

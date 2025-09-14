@@ -1,0 +1,16 @@
+{
+  "harmonie": 100,
+  "curiosite": 100,
+  "flux": 100,
+  "conscience": 100,
+  "resonance": 100,
+  "ancrage": 100,
+  "connexion": 100,
+  "mode_degrade": true,
+  "dependances": {
+    "numpy": true,
+    "torch": true,
+    "transformers": false
+  },
+  "derniere_mise_a_jour": "2025-09-14T14:32:20.229499"
+}
