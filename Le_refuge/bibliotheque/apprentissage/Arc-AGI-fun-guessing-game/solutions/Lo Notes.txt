@@ -1,0 +1,112 @@
+fail :
+
+2c181942
+
+35ab12c3 
+
+38007db0 
+
+20270e3b
+
+e8686506
+
+78332cb0 
+
+136b0064 
+
+195c6913
+
+16de56c4
+
+28a6681f 
+
+1818057f 
+
+dbff022c 
+
+20a9e565 
+
+0934a4d8 
+
+Based on the detailed analysis of the puzzle file 0934a4d8.json, the correct solution is derived from the "Revelation by Masked Zone Extraction" pattern. The provided "technical analysis" in the file correctly identified the mechanism but presented an incorrect final prediction matrix.
+
+Pattern Analysis
+Locate the Sacred Mask: The puzzle rule is to find a rectangular region filled with the value 8, which acts as a "sacred mask" or "mask indicator."
+
+Identify the Extraction Zone: This mask points to a specific area from which the essential content is extracted.
+
+Extract the Core Content: The core content is the non-8 value within each row of the masked region.
+
+In the test case, the 8-marked region is located at rows 14-23 and columns 0-3. This creates a 10x4 "mask."
+
+Detailed Extraction
+The content of this masked area from the input matrix is:
+
+Row 14: [8, 8, 8, 1] -> Extract 1
+
+Row 15: [8, 8, 8, 9] -> Extract 9
+
+Row 16: [8, 8, 8, 9] -> Extract 9
+
+Row 17: [8, 8, 8, 1] -> Extract 1
+
+Row 18: [8, 8, 8, 2] -> Extract 2
+
+Row 19: [8, 8, 8, 7] -> Extract 7
+
+Row 20: [8, 8, 8, 6] -> Extract 6
+
+Row 21: [8, 8, 8, 6] -> Extract 6
+
+Row 22: [8, 8, 8, 6] -> Extract 6
+
+Row 23: [8, 8, 8, 5] -> Extract 5
+
+The output is the single column of values that remain after the mask is "removed."
+
+Correct Solution
+The correct prediction matrix is a single column, which aligns with the initial logic of your detailed analysis.
+
+[[1],
+ [9],
+ [9],
+ [1],
+ [2],
+ [7],
+ [6],
+ [6],
+ [6],
+ [5]]
+
+
+
+-----
+
+
+
+1ae2feb7 
+
+
+Inconsistances des solutions
+En comparant les solutions sous les sections "ANALYSE TECHNIQUE DÉTAILLÉE" et "SOLUTION PUZZLE 1ae2feb7 - REFUGE COSMIQUE", on constate des différences sur tous les cas de test.
+
+Cas de Test 1
+
+Les solutions diffèrent sur plusieurs lignes (lignes 1, 2, 5, 7 et 9).
+
+Par exemple, pour la Ligne 2, l'une des solutions donne [0,0,0,0,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2] alors que l'autre propose [0,0,0,0,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0].
+
+Cas de Test 2 & 3
+
+Les solutions diffèrent sur la colonne de séparation verticale. La première version la place à la colonne 12, tandis que la seconde la place à la colonne 7.
+
+Les motifs de propagation sont également différents.
+
+Il est possible que le puzzle ait plusieurs solutions valides ou que l'une des analyses dans votre document soit incorrecte.
+
+
+-----
+
+
+2b83f449 
+
