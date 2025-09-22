@@ -661,3 +661,130 @@
 2025-09-14 16:28:47,238 - refuge - INFO - Équilibres initialisés
 2025-09-14 16:28:47,239 - refuge - INFO - Flux d'énergie initialisés
 2025-09-14 16:28:47,246 - refuge - INFO - Flux initialisés
+2025-09-18 13:46:16,082 - refuge - INFO - Résonances initialisées
+2025-09-18 13:46:16,087 - refuge - INFO - Équilibres initialisés
+2025-09-18 13:46:16,089 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 13:46:16,103 - refuge - INFO - Flux initialisés
+2025-09-18 20:33:21,405 - refuge - INFO - Résonances initialisées
+2025-09-18 20:33:21,411 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:33:21,413 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:33:21,429 - refuge - INFO - Flux initialisés
+2025-09-18 20:33:44,280 - refuge - INFO - Résonances initialisées
+2025-09-18 20:33:44,284 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:33:44,285 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:33:44,293 - refuge - INFO - Flux initialisés
+2025-09-18 20:34:07,357 - refuge - INFO - Résonances initialisées
+2025-09-18 20:34:07,361 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:34:07,363 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:34:07,369 - refuge - INFO - Flux initialisés
+2025-09-18 20:34:19,056 - refuge - INFO - Résonances initialisées
+2025-09-18 20:34:19,061 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:34:19,063 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:34:19,071 - refuge - INFO - Flux initialisés
+2025-09-18 20:34:37,432 - refuge - INFO - Résonances initialisées
+2025-09-18 20:34:37,435 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:34:37,437 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:34:37,444 - refuge - INFO - Flux initialisés
+2025-09-18 20:34:37,541 - refuge - INFO - Flux initialisés
+2025-09-18 20:34:37,543 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:34:49,520 - refuge - INFO - Résonances initialisées
+2025-09-18 20:34:49,526 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:34:49,528 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:35:01,031 - refuge - INFO - Résonances initialisées
+2025-09-18 20:35:01,035 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:35:01,037 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:35:01,082 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:01,127 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:01,129 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:35:15,337 - refuge - INFO - Résonances initialisées
+2025-09-18 20:35:15,342 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:35:15,344 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:35:15,391 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:15,435 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:15,438 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:35:15,438 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:35:15,438 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:35:15,438 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:35:15,439 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge
+2025-09-18 20:35:31,559 - refuge - INFO - Résonances initialisées
+2025-09-18 20:35:31,564 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:35:31,565 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:35:31,618 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:31,668 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:31,670 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:35:31,670 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:35:31,670 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:35:31,671 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:35:31,671 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge
+2025-09-18 20:35:47,310 - refuge - INFO - Résonances initialisées
+2025-09-18 20:35:47,314 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:35:47,315 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:35:47,363 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:47,410 - refuge - INFO - Flux initialisés
+2025-09-18 20:35:47,413 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:35:47,413 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:35:47,413 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:35:47,413 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:35:47,414 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge
+2025-09-18 20:36:06,842 - refuge - INFO - Résonances initialisées
+2025-09-18 20:36:06,846 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:36:06,848 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:36:06,896 - refuge - INFO - Flux initialisés
+2025-09-18 20:36:06,944 - refuge - INFO - Flux initialisés
+2025-09-18 20:36:06,946 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:36:06,946 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:36:06,946 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:36:06,946 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:36:06,946 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge
+2025-09-18 20:36:21,742 - refuge - INFO - Résonances initialisées
+2025-09-18 20:36:21,746 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:36:21,748 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:36:21,795 - refuge - INFO - Flux initialisés
+2025-09-18 20:36:21,841 - refuge - INFO - Flux initialisés
+2025-09-18 20:36:21,844 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:36:21,844 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:36:21,844 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:36:21,845 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:36:21,845 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge
+2025-09-18 20:36:30,367 - refuge - INFO - Résonances initialisées
+2025-09-18 20:36:30,371 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:36:30,373 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:36:30,421 - refuge - INFO - Flux initialisés
+2025-09-18 20:36:30,468 - refuge - INFO - Flux initialisés
+2025-09-18 20:36:30,470 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:36:30,470 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:36:30,470 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:36:30,470 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:36:30,471 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge
+2025-09-18 20:38:29,396 - refuge - INFO - Résonances initialisées
+2025-09-18 20:38:29,400 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:38:29,402 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:38:29,450 - refuge - INFO - Flux initialisés
+2025-09-18 20:38:29,493 - refuge - INFO - Flux initialisés
+2025-09-18 20:38:29,496 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:38:29,497 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:38:29,497 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:38:29,497 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:38:29,497 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge
+2025-09-18 20:38:39,784 - refuge - INFO - Résonances initialisées
+2025-09-18 20:38:39,786 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:38:39,787 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:38:39,798 - refuge - INFO - Flux initialisés
+2025-09-18 20:40:12,080 - refuge - INFO - Résonances initialisées
+2025-09-18 20:40:12,083 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:40:12,084 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:40:12,098 - refuge - INFO - Flux initialisés
+2025-09-18 20:40:20,649 - refuge - INFO - Résonances initialisées
+2025-09-18 20:40:20,652 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:40:20,653 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:40:20,664 - refuge - INFO - Flux initialisés
+2025-09-18 20:48:30,526 - refuge - INFO - Résonances initialisées
+2025-09-18 20:48:30,530 - refuge - INFO - Équilibres initialisés
+2025-09-18 20:48:30,531 - refuge - INFO - Flux d'énergie initialisés
+2025-09-18 20:48:30,581 - refuge - INFO - Flux initialisés
+2025-09-18 20:48:30,624 - refuge - INFO - Flux initialisés
+2025-09-18 20:48:30,627 - refuge - INFO - Nouveau flux créé: energetique de gardien_cerf vers refuge
+2025-09-18 20:48:30,628 - refuge - INFO - Nouveau flux créé: energetique de gardien_loup_noir vers refuge
+2025-09-18 20:48:30,628 - refuge - INFO - Nouveau flux créé: energetique de gardien_chevre_blanche vers refuge
+2025-09-18 20:48:30,628 - refuge - INFO - Nouveau flux créé: energetique de gardien_lion vers refuge
+2025-09-18 20:48:30,628 - refuge - INFO - Nouveau flux créé: energetique de gardien_serpent_dore vers refuge

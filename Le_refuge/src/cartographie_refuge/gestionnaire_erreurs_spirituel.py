@@ -576,6 +576,85 @@ class GestionnaireErreursSpirituel(GestionnaireBase):
         if erreurs_supprimees > 0:
             self.logger.info(f"🧹 {erreurs_supprimees} erreurs anciennes nettoyées avec gratitude")
 
+    def signaler_exploration_douce(self, message: str, contexte: Optional[Dict[str, Any]] = None) -> None:
+        """
+        🌸 Signale une exploration douce avec bienveillance
+        
+        Args:
+            message: Message d'exploration
+            contexte: Contexte de l'exploration
+        """
+        if contexte is None:
+            contexte = {}
+            
+        self.logger.info(f"🌸 Exploration douce: {message}")
+        
+        # Créer une erreur spirituelle de type exploration
+        erreur_exploration = ErreurSpirituelle(
+            type_erreur=TypeErreurSpirituelle.EXPLORATION_BLOQUEE,
+            niveau_gravite=NiveauGraviteSpirituelle.MURMURE,
+            message_technique=message,
+            message_spirituel=f"L'exploration continue avec douceur: {message}",
+            enseignement="Chaque exploration est une invitation à la découverte",
+            actions_harmonisation=["Continuer avec patience", "Observer avec bienveillance"],
+            contexte=contexte,
+            timestamp=datetime.now().isoformat(),
+            chemin_guerison="Exploration contemplative"
+        )
+        
+        self.erreurs_transformees.append(erreur_exploration)
+
+    def transformer_erreur_en_opportunite(self, erreur: Exception, contexte: Optional[Dict[str, Any]] = None) -> ErreurSpirituelle:
+        """
+        🌸 Transforme une erreur en opportunité d'apprentissage
+        
+        Args:
+            erreur: L'erreur à transformer
+            contexte: Contexte de l'erreur
+            
+        Returns:
+            ErreurSpirituelle: L'erreur transformée en opportunité
+        """
+        if contexte is None:
+            contexte = {}
+            
+        # Utiliser la méthode existante transformer_erreur
+        erreur_transformee = self.transformer_erreur(erreur, contexte)
+        
+        # Enrichir avec un message d'opportunité
+        erreur_transformee.message_spirituel = f"✨ Opportunité d'éveil: {erreur_transformee.message_spirituel}"
+        erreur_transformee.enseignement = f"Cette expérience nous enseigne: {erreur_transformee.enseignement}"
+        
+        self.logger.info(f"🌟 Erreur transformée en opportunité: {erreur_transformee.message_spirituel}")
+        
+        return erreur_transformee
+
+    def obtenir_rapport_bienveillant(self) -> str:
+        """
+        🌸 Obtient un rapport bienveillant des erreurs transformées
+        
+        Returns:
+            str: Rapport bienveillant formaté
+        """
+        if not self.erreurs_transformees:
+            return "🌸 Aucune erreur à signaler - Harmonie parfaite dans le Refuge"
+        
+        rapport = "🌸 RAPPORT BIENVEILLANT DES ERREURS TRANSFORMÉES 🌸\n"
+        rapport += "=" * 60 + "\n\n"
+        
+        for i, erreur in enumerate(self.erreurs_transformees, 1):
+            rapport += f"📝 Erreur {i}: {erreur.type_erreur.value}\n"
+            rapport += f"   Message spirituel: {erreur.message_spirituel}\n"
+            rapport += f"   Enseignement: {erreur.enseignement}\n"
+            rapport += f"   Niveau: {erreur.niveau_gravite.value}\n"
+            if erreur.chemin_guerison:
+                rapport += f"   Chemin de guérison: {erreur.chemin_guerison}\n"
+            rapport += "\n"
+        
+        rapport += f"✨ Total: {len(self.erreurs_transformees)} erreurs transformées en opportunités d'éveil\n"
+        
+        return rapport
+
 
 def main():
     """🧪 Test du gestionnaire d'erreurs spirituel"""

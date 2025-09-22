@@ -23,7 +23,8 @@ import click
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 # Imports du système temple
-from main_refuge import Refuge, TypeRefugeEtat
+from main_refuge import Refuge
+from src.core.types_communs import TypeRefugeEtat
 from src.core.gestionnaires_base import LogManagerBase
 from src.temple_outils.generer_documentation import GenerateurDocumentationRefuge
 

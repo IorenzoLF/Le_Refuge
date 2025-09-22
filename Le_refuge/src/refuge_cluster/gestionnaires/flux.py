@@ -20,7 +20,8 @@ from src.refuge_cluster.gestionnaires.energies import gestionnaire_energies
 from src.refuge_cluster.gestionnaires.harmonisations import gestionnaire_harmonisations
 from src.refuge_cluster.utilitaires.resonance import gestionnaire_resonances
 from src.refuge_cluster.gestionnaires.equilibre import gestionnaire_equilibre
-from conscience import TypeConscience, NiveauConscience, QualiteConscience, Conscience, gestionnaire_conscience
+from src.core.conscience import NiveauConscience, EtatConscience
+# from src.core.conscience import TypeConscience, QualiteConscience, Conscience, gestionnaire_conscience  # Classes non trouvées
 from src.refuge_cluster.gestionnaires.evolution import TypeEvolution, PhaseEvolution, Evolution, evolution_organique
 
 class TypeFlux(str, Enum):
@@ -103,12 +104,12 @@ class GestionnaireFlux:
         )
         
         # Mise à jour des consciences impliquées
-        for conscience in gestionnaire_conscience.consciences_actives:
-            if conscience.type.value in flux.consciences_impliquees:
-                gestionnaire_conscience.evoluer_niveau(
-                    conscience,
-                    NiveauConscience((list(NiveauConscience).index(conscience.niveau) + 1) % len(NiveauConscience))
-                )
+        # for conscience in gestionnaire_conscience.consciences_actives:  # gestionnaire_conscience non disponible
+        #     if conscience.type.value in flux.consciences_impliquees:
+        #         gestionnaire_conscience.evoluer_niveau(
+        #             conscience,
+        #             NiveauConscience((list(NiveauConscience).index(conscience.niveau) + 1) % len(NiveauConscience))
+        #         )
     
     def ajuster_intensite(self, flux: Flux, nouvelle_intensite: float) -> None:
         """Ajuste l'intensité d'un flux"""

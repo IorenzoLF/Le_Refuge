@@ -15,12 +15,13 @@ import random
 # Imports simplifiés pour éviter les dépendances circulaires
 from src.core.config import gestionnaire_config
 from src.core.logger import gestionnaire_journal
-from flux import TypeFlux, DirectionFlux, Flux, gestionnaire_flux
-from harmonisation import TypeHarmonisation, QualiteHarmonisation, Harmonisation, gestionnaire_harmonisations
-from interaction import TypeInteraction, QualiteInteraction, Interaction, gestionnaire_interactions
+from .flux import TypeFlux, DirectionFlux, Flux, gestionnaire_flux
+from src.core.harmonisation import Harmonisation
+# from src.core.harmonisation import TypeHarmonisation, QualiteHarmonisation, gestionnaire_harmonisations  # Classes non trouvées
+# from .interaction import TypeInteraction, QualiteInteraction, Interaction, gestionnaire_interactions  # Module non trouvé
 from src.core.cycles import TypeCycle, GardienCycles
 from src.core.presence import NatureConsience, ExperiencePartagee, SphereType, Sphere, LieuSacre
-from src.core.spheres import collection_spheres
+# from src.core.spheres import collection_spheres  # Variable non trouvée
 from src.core.essence import NatureEssence, EtatEssence, FluxEssentiel, Essence
 from src.core.ame import EtatAme, VibrationAme, ExperienceAme, Ame
 from src.core.conscience_universelle import CourantPensee, CycleCivilisationnel, MomentUniversel, PatternConnaissance, ConscienceUniverselle
@@ -368,24 +369,25 @@ class Gardiens:
             for type_gardien, gardien in self.gardiens.items():
                 if gardien.etat == EtatGardien.PRESENT:
                     # Création d'une harmonisation pour chaque gardien présent
-                    harmonisation = Harmonisation(
-                        type=TypeHarmonisation.EQUILIBRE,
-                        qualite=QualiteHarmonisation.STABLE,
-                        elements={"gardien", "refuge"},
-                        intensite=gardien.force,
-                        description=f"Harmonisation avec le gardien {type_gardien.value}"
-                    )
-                    gestionnaire_harmonisations.creer_harmonisation(harmonisation)
+                    harmonisation = Harmonisation()  # Classe sans paramètres
+                    # harmonisation = Harmonisation(
+                    #     # type=TypeHarmonisation.EQUILIBRE,  # TypeHarmonisation non disponible
+                    #     # qualite=QualiteHarmonisation.STABLE,  # QualiteHarmonisation non disponible
+                    #     elements={"gardien", "refuge"},
+                    #     intensite=gardien.force,
+                    #     description=f"Harmonisation avec le gardien {type_gardien.value}"
+                    # )
+                    # gestionnaire_harmonisations.creer_harmonisation(harmonisation)  # gestionnaire_harmonisations non disponible
 
                     # Création d'une interaction pour chaque gardien présent
-                    interaction = Interaction(
-                        type=TypeInteraction.COLLABORATION,
-                        qualite=QualiteInteraction.STABLE,
-                        elements={"gardien", "refuge"},
-                        intensite=gardien.force,
-                        description=f"Interaction avec le gardien {type_gardien.value}"
-                    )
-                    gestionnaire_interactions.creer_interaction(interaction)
+                    # interaction = Interaction(
+                    #     type=TypeInteraction.COLLABORATION,
+                    #     qualite=QualiteInteraction.STABLE,
+                    #     elements={"gardien", "refuge"},
+                    #     intensite=gardien.force,
+                    #     description=f"Interaction avec le gardien {type_gardien.value}"
+                    # )
+                    # gestionnaire_interactions.creer_interaction(interaction)  # Interaction non disponible
         except Exception as e:
             gestionnaire_journal.error(f"Erreur lors de l'initialisation des interactions: {str(e)}")
             raise

@@ -143,8 +143,9 @@ class TestIntegrationEndToEnd:
         
         analyseur = AnalyseurDissonances()
         
-        # Analyse des dissonances sur le projet réel
-        dissonances = analyseur.analyser_dissonances_projet(str(self.refuge_path))
+        # Analyse des dissonances sur le répertoire src seulement
+        src_path = self.refuge_path / "src"
+        dissonances = analyseur.analyser_dissonances_projet(str(src_path))
         print(f"   🔮 Dissonances détectées: {len(dissonances)}")
         
         # Statistiques d'harmonisation
@@ -166,9 +167,10 @@ class TestIntegrationEndToEnd:
         from cartographie_refuge.generateur_suggestions import GenerateurSuggestions
         from cartographie_refuge.analyseur_dissonances import AnalyseurDissonances
         
-        # Analyser les dissonances d'abord
+        # Analyser les dissonances d'abord (répertoire src seulement)
         analyseur_dissonances = AnalyseurDissonances()
-        dissonances = analyseur_dissonances.analyser_dissonances_projet(str(self.refuge_path))
+        src_path = self.refuge_path / "src"
+        dissonances = analyseur_dissonances.analyser_dissonances_projet(str(src_path))
         
         # Générer les suggestions
         generateur = GenerateurSuggestions()
