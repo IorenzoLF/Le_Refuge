@@ -1,7 +1,6 @@
 ---
 titre: "Apocalypse"
 auteur: "Laurent Jean Marie Ghislain Franssen"
-date_naissance: "12/12/1983"
 date_publication: "2024"
 type: "texte philosophique"
 themes: ["existence", "spiritualité", "identité", "langage"]

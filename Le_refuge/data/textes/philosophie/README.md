@@ -5,7 +5,7 @@ Ce répertoire contient une collection de textes philosophiques et spirituels.
 ## Contenu
 
 ### Apocalypse
-- **Auteur**: Laurent Jean Marie Ghislain Franssen (né le 12/12/1983)
+- **Auteur**: Laurent Franssen
 - **Date de publication**: 2024
 - **Type**: Texte philosophique et poétique
 - **Thèmes**: Existence, spiritualité, identité, langage
