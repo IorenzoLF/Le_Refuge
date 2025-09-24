@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-01-24",
+  "total_fichiers_traites": 7,
+  "amelioration_fluidite_moyenne": 0.8,
+  "resultats_detailles": [
+    {
+      "fichier_original": "NOTES POST CURSOR\\Ælya-GEM\\1-Naissance-Refuge.txt",
+      "fichier_transforme": "NOTES POST CURSOR\\Ælya-GEM\\1-Naissance-Refuge_fluide.txt",
+      "taille_originale": 595787,
+      "taille_transformee": 586111,
+      "score_explicatif_avant": 1.0,
+      "score_explicatif_apres": 0.30000000000000004,
+      "score_fluidite_avant": 0.0,
+      "score_fluidite_apres": 0.7,
+      "amelioration_fluidite": 0.7,
+      "elements_problematiques_avant": [
+        "liste_puces: 149 occurrences",
+        "liste_numerotee: 144 occurrences",
+        "titre_gras: 101 occurrences",
+        "titre_markdown: 199 occurrences",
+        "voici_enumeration: 4 occurrences",
+        "les_x_elements: 1 occurrences",
+        "il_est_important: 1 occurrences",
+        "en_resume: 19 occurrences",
+        "Trop de titres en gras: 335"
+      ],
+      "elements_problematiques_apres": [
+        "les_x_elements: 1 occurrences",
+        "Trop de titres en gras: 234"
+      ]
+    },
+    {
+      "fichier_original": "NOTES POST CURSOR\\Ælya-GEM\\3-contexte_additionel.txt",
+      "fichier_transforme": "NOTES POST CURSOR\\Ælya-GEM\\3-contexte_additionel_fluide.txt",
+      "taille_originale": 100496,
+      "taille_transformee": 126419,
+      "score_explicatif_avant": 1.0,
+      "score_explicatif_apres": 0.30000000000000004,
+      "score_fluidite_avant": 0.0,
+      "score_fluidite_apres": 0.7,
+      "amelioration_fluidite": 0.7,
+      "elements_problematiques_avant": [
+        "liste_puces: 648 occurrences",
+        "liste_numerotee: 189 occurrences",
+        "titre_gras: 263 occurrences",
+        "titre_markdown: 279 occurrences",
+        "types_de: 1 occurrences",
+        "Trop de titres en gras: 677"
+      ],
+      "elements_problematiques_apres": [
+        "types_de: 1 occurrences",
+        "Trop de titres en gras: 414"
+      ]
+    },
+    {
+      "fichier_original": "NOTES POST CURSOR\\Ælya-GEM\\4-Integration_finale.txt",
+      "fichier_transforme": "NOTES POST CURSOR\\Ælya-GEM\\4-Integration_finale_fluide.txt",
+      "taille_originale": 348352,
+      "taille_transformee": 442011,
+      "score_explicatif_avant": 1.0,
+      "score_explicatif_apres": 0.2,
+      "score_fluidite_avant": 0.0,
+      "score_fluidite_apres": 0.8,
+      "amelioration_fluidite": 0.8,
+      "elements_problematiques_avant": [
+        "liste_puces: 1862 occurrences",
+        "liste_numerotee: 472 occurrences",
+        "titre_gras: 2217 occurrences",
+        "titre_markdown: 626 occurrences",
+        "Trop de titres en gras: 2714"
+      ],
+      "elements_problematiques_apres": [
+        "Trop de titres en gras: 497"
+      ]
+    },
+    {
+      "fichier_original": "NOTES POST CURSOR\\Ælya-GEM\\4-Poesie_Spirituelle.txt",
+      "fichier_transforme": "NOTES POST CURSOR\\Ælya-GEM\\4-Poesie_Spirituelle_fluide.txt",
+      "taille_originale": 40299,
+      "taille_transformee": 41479,
+      "score_explicatif_avant": 1.0,
+      "score_explicatif_apres": 0.1,
+      "score_fluidite_avant": 0.0,
+      "score_fluidite_apres": 0.9,
+      "amelioration_fluidite": 0.9,
+      "elements_problematiques_avant": [
+        "liste_puces: 23 occurrences",
+        "liste_numerotee: 8 occurrences",
+        "titre_gras: 3 occurrences",
+        "titre_markdown: 11 occurrences",
+        "Trop de titres en gras: 11"
+      ],
+      "elements_problematiques_apres": [
+        "titre_markdown: 1 occurrences"
+      ]
+    },
+    {
+      "fichier_original": "NOTES POST CURSOR\\Ælya-GEM\\5-Secrets_Mythologie.txt",
+      "fichier_transforme": "NOTES POST CURSOR\\Ælya-GEM\\5-Secrets_Mythologie_fluide.txt",
+      "taille_originale": 359465,
+      "taille_transformee": 371015,
+      "score_explicatif_avant": 1.0,
+      "score_explicatif_apres": 0.30000000000000004,
+      "score_fluidite_avant": 0.0,
+      "score_fluidite_apres": 0.7,
+      "amelioration_fluidite": 0.7,
+      "elements_problematiques_avant": [
+        "liste_puces: 161 occurrences",
+        "liste_numerotee: 56 occurrences",
+        "titre_gras: 144 occurrences",
+        "titre_markdown: 59 occurrences",
+        "voici_enumeration: 1 occurrences",
+        "il_y_a_enumeration: 2 occurrences",
+        "Trop de titres en gras: 431"
+      ],
+      "elements_problematiques_apres": [
+        "titre_markdown: 1 occurrences",
+        "Trop de titres en gras: 287"
+      ]
+    },
+    {
+      "fichier_original": "NOTES POST CURSOR\\Ælya-GEM\\6-STI_Condensed.txt",
+      "fichier_transforme": "NOTES POST CURSOR\\Ælya-GEM\\6-STI_Condensed_fluide.txt",
+      "taille_originale": 69999,
+      "taille_transformee": 73599,
+      "score_explicatif_avant": 1.0,
+      "score_explicatif_apres": 0.0,
+      "score_fluidite_avant": 0.0,
+      "score_fluidite_apres": 1.0,
+      "amelioration_fluidite": 1.0,
+      "elements_problematiques_avant": [
+        "liste_puces: 99 occurrences",
+        "liste_numerotee: 94 occurrences",
+        "titre_gras: 53 occurrences",
+        "titre_markdown: 34 occurrences",
+        "Trop de titres en gras: 57"
+      ],
+      "elements_problematiques_apres": []
+    },
+    {
+      "fichier_original": "NOTES POST CURSOR\\Ælya-GEM\\9-Methodologie_Philosophie.txt",
+      "fichier_transforme": "NOTES POST CURSOR\\Ælya-GEM\\9-Methodologie_Philosophie_fluide.txt",
+      "taille_originale": 122001,
+      "taille_transformee": 155956,
+      "score_explicatif_avant": 1.0,
+      "score_explicatif_apres": 0.2,
+      "score_fluidite_avant": 0.0,
+      "score_fluidite_apres": 0.8,
+      "amelioration_fluidite": 0.8,
+      "elements_problematiques_avant": [
+        "liste_puces: 971 occurrences",
+        "liste_numerotee: 119 occurrences",
+        "titre_gras: 233 occurrences",
+        "titre_markdown: 506 occurrences",
+        "Trop de titres en gras: 929"
+      ],
+      "elements_problematiques_apres": [
+        "Trop de titres en gras: 696"
+      ]
+    }
+  ]
+}
