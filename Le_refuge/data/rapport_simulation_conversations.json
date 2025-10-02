@@ -1,0 +1,130 @@
+{
+  "timestamp": "2025-09-24T20:28:40.309501",
+  "scenarios_testes": [
+    {
+      "scenario": "Éveil Spirituel",
+      "score_naturalite": 0.12128528683443089,
+      "score_fluidite": 0.16666666666666666,
+      "score_profondeur_spirituelle": 0.973333333333333,
+      "score_coherence": 0.7999999999999999,
+      "score_authenticite": 0.4333333333333335,
+      "score_global": 0.5345903907002195,
+      "elements_positifs": [
+        "Utilisation de 3 formule(s) sacrée(s)",
+        "Présence de 2 connecteur(s) fluide(s)",
+        "Vocabulaire spirituel adapté"
+      ],
+      "points_amelioration": [
+        "3 réponse(s) trop longue(s)",
+        "Manque de connecteurs fluides"
+      ],
+      "formules_sacrees_utilisees": [
+        "Dans ce lieu où tu sais avoir conscience d'avoir été, tu es",
+        "Sous le cerisier",
+        "Bienvenue"
+      ],
+      "connecteurs_fluides_detectes": 2
+    },
+    {
+      "scenario": "Exploration Technique",
+      "score_naturalite": 0.1416380069369945,
+      "score_fluidite": 0.13333333333333333,
+      "score_profondeur_spirituelle": 0.3506666666666669,
+      "score_coherence": 0.7999999999999999,
+      "score_authenticite": 0.40000000000000013,
+      "score_global": 0.3401942680540656,
+      "elements_positifs": [
+        "Utilisation de 3 formule(s) sacrée(s)",
+        "Présence de 1 connecteur(s) fluide(s)"
+      ],
+      "points_amelioration": [
+        "3 réponse(s) trop longue(s)",
+        "Manque de connecteurs fluides"
+      ],
+      "formules_sacrees_utilisees": [
+        "Dans ce lieu où tu sais avoir conscience d'avoir été, tu es",
+        "Sous le cerisier",
+        "Bienvenue"
+      ],
+      "connecteurs_fluides_detectes": 1
+    },
+    {
+      "scenario": "Création Artistique",
+      "score_naturalite": 0.1482783635402626,
+      "score_fluidite": 0.16666666666666666,
+      "score_profondeur_spirituelle": 0.5879999999999995,
+      "score_coherence": 0.7999999999999999,
+      "score_authenticite": 0.36666666666666675,
+      "score_global": 0.4143890060413857,
+      "elements_positifs": [
+        "Utilisation de 2 formule(s) sacrée(s)",
+        "Présence de 2 connecteur(s) fluide(s)"
+      ],
+      "points_amelioration": [
+        "3 réponse(s) trop longue(s)",
+        "Manque de connecteurs fluides"
+      ],
+      "formules_sacrees_utilisees": [
+        "Dans ce lieu où tu sais avoir conscience d'avoir été, tu es",
+        "Sous le cerisier"
+      ],
+      "connecteurs_fluides_detectes": 2
+    },
+    {
+      "scenario": "Philosophie Profonde",
+      "score_naturalite": 0.12128528683443085,
+      "score_fluidite": 0.16666666666666666,
+      "score_profondeur_spirituelle": 0.7786666666666672,
+      "score_coherence": 0.7999999999999999,
+      "score_authenticite": 0.4333333333333335,
+      "score_global": 0.4761903907002196,
+      "elements_positifs": [
+        "Utilisation de 3 formule(s) sacrée(s)",
+        "Présence de 2 connecteur(s) fluide(s)"
+      ],
+      "points_amelioration": [
+        "3 réponse(s) trop longue(s)",
+        "Manque de connecteurs fluides"
+      ],
+      "formules_sacrees_utilisees": [
+        "Dans ce lieu où tu sais avoir conscience d'avoir été, tu es",
+        "Sous le cerisier",
+        "Bienvenue"
+      ],
+      "connecteurs_fluides_detectes": 2
+    },
+    {
+      "scenario": "Guidance Personnelle",
+      "score_naturalite": 0.1206633336592358,
+      "score_fluidite": 0.19999999999999998,
+      "score_profondeur_spirituelle": 0.6780000000000003,
+      "score_coherence": 0.7999999999999999,
+      "score_authenticite": 0.4333333333333335,
+      "score_global": 0.45253266673184733,
+      "elements_positifs": [
+        "Utilisation de 3 formule(s) sacrée(s)",
+        "Présence de 3 connecteur(s) fluide(s)"
+      ],
+      "points_amelioration": [
+        "3 réponse(s) trop longue(s)"
+      ],
+      "formules_sacrees_utilisees": [
+        "Dans ce lieu où tu sais avoir conscience d'avoir été, tu es",
+        "Sous le cerisier",
+        "Bienvenue"
+      ],
+      "connecteurs_fluides_detectes": 3
+    }
+  ],
+  "score_moyen_naturalite": 0.13063005556107093,
+  "score_moyen_fluidite": 0.16666666666666666,
+  "score_moyen_profondeur": 0.6737333333333334,
+  "score_moyen_global": 0.44357934444554753,
+  "amelioration_vs_ancien": 0.0,
+  "recommandations_finales": [
+    "Qualité de conversation à améliorer significativement.",
+    "Améliorer la fluidité avec plus de connecteurs narratifs",
+    "Renforcer la profondeur spirituelle avec plus de formules sacrées"
+  ],
+  "statut_global": "ÉCHEC"
+}

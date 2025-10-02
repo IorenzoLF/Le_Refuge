@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-09-24T18:15:06.047839",
+  "tests_executes": [
+    {
+      "nom_test": "Couverture Bibliothèque",
+      "statut": "SUCCÈS",
+      "score": 1.0,
+      "details": [
+        "Dossiers bibliothèque détectés: 34",
+        "Fichiers GEM analysés: 10",
+        "Couverture dossiers prioritaires: 100.0%"
+      ],
+      "recommandations": [
+        "Excellente couverture de la bibliothèque"
+      ],
+      "donnees_metriques": {
+        "couverture_dossiers": 1.0,
+        "dossiers_couverts": 6,
+        "dossiers_total": 6
+      }
+    },
+    {
+      "nom_test": "Éléments Essentiels",
+      "statut": "SUCCÈS",
+      "score": 1.0,
+      "details": [
+        "✅ formules sacrées: Intégré",
+        "✅ essence spirituelle: Intégré",
+        "✅ méthodologie: Intégré",
+        "✅ philosophie du Refuge: Intégré",
+        "✅ rituels et cérémonies: Intégré",
+        "✅ architecture symbolique: Intégré"
+      ],
+      "recommandations": [
+        "Tous les éléments essentiels sont bien intégrés"
+      ],
+      "donnees_metriques": {
+        "elements_integres": 6,
+        "elements_total": 6,
+        "score_integration": 1.0
+      }
+    },
+    {
+      "nom_test": "Réduction Mode Explicatif",
+      "statut": "SUCCÈS",
+      "score": 0.7979713637032354,
+      "details": [
+        "📝 1-Naissance-Refuge.txt: 317 patterns explicatifs",
+        "📝 10-Message_Graine_Temoin.txt: 17 patterns explicatifs",
+        "📝 3-contexte_additionel.txt: 837 patterns explicatifs",
+        "📝 4-Integration_finale.txt: 2334 patterns explicatifs",
+        "📝 4-Poesie_Spirituelle.txt: 31 patterns explicatifs",
+        "📝 5-Secrets_Mythologie.txt: 220 patterns explicatifs",
+        "📝 6-STI_Condensed.txt: 193 patterns explicatifs",
+        "📝 8-Formules_Sacrees.txt: 42 patterns explicatifs",
+        "📝 9-Methodologie_Philosophie.txt: 1090 patterns explicatifs",
+        "Total patterns explicatifs: 5081",
+        "Ratio explicatif: 2.02 pour 100 mots",
+        "Réduction estimée: 79.8%"
+      ],
+      "recommandations": [
+        "Excellente réduction du mode explicatif"
+      ],
+      "donnees_metriques": {
+        "patterns_explicatifs_total": 5081,
+        "total_mots": 251499,
+        "ratio_explicatif": 2.020286362967646,
+        "reduction_estimee": 0.7979713637032354
+      }
+    },
+    {
+      "nom_test": "Préservation Essence",
+      "statut": "AVERTISSEMENT",
+      "score": 0.871,
+      "details": [
+        "Score transmission moyen: 0.871",
+        "Fichiers analysés: 10",
+        "Formules sacrées préservées: 35",
+        "• Fluidité poétique: 0.226",
+        "• Naturalité: 0.205"
+      ],
+      "recommandations": [
+        "Essence bien préservée, quelques améliorations possibles"
+      ],
+      "donnees_metriques": {
+        "score_transmission_moyen": 0.871,
+        "nombre_fichiers_analyses": 10,
+        "formules_preservees": 35
+      }
+    },
+    {
+      "nom_test": "Cohérence et Fluidité",
+      "statut": "ÉCHEC",
+      "score": 0.1,
+      "details": [
+        "📝 1-Naissance-Refuge.txt: 2 connecteurs",
+        "📝 10-Message_Graine_Temoin.txt: 0 connecteurs",
+        "📝 3-contexte_additionel.txt: 1 connecteurs",
+        "📝 3-Essence_Refuge_Complete.txt: 2 connecteurs",
+        "🌊 4-Integration_finale.txt: 8 connecteurs (fluide)",
+        "📝 4-Poesie_Spirituelle.txt: 0 connecteurs",
+        "📝 5-Secrets_Mythologie.txt: 1 connecteurs",
+        "📝 6-STI_Condensed.txt: 1 connecteurs",
+        "📝 8-Formules_Sacrees.txt: 0 connecteurs",
+        "📝 9-Methodologie_Philosophie.txt: 0 connecteurs",
+        "Total connecteurs fluides: 15",
+        "Fichiers fluides: 1/10",
+        "Score fluidité: 10.0%"
+      ],
+      "recommandations": [
+        "Fluidité insuffisante, ajouter plus de connecteurs"
+      ],
+      "donnees_metriques": {
+        "total_connecteurs": 15,
+        "fichiers_fluides": 1,
+        "total_fichiers": 10,
+        "score_fluidite": 0.1
+      }
+    },
+    {
+      "nom_test": "Optimisation Gemini",
+      "statut": "SUCCÈS",
+      "score": 1.0,
+      "details": [
+        "Contraintes respectées: Oui",
+        "Fichiers sélectionnés: 10/10",
+        "Taille totale: 1.68/100.0 Mo",
+        "Score transmission: 0.796"
+      ],
+      "recommandations": [
+        "Optimisation Gemini parfaite"
+      ],
+      "donnees_metriques": {
+        "nombre_fichiers_selectionnes": 10,
+        "taille_totale_mo": 1.681,
+        "score_transmission_moyen": 0.796,
+        "contraintes_respectees": true
+      }
+    }
+  ],
+  "score_global": 0.8024457045554854,
+  "couverture_bibliotheque": 1.0,
+  "reduction_mode_explicatif": 0.7979713637032354,
+  "preservation_essence": 0.871,
+  "statut_global": "AVERTISSEMENT",
+  "recommandations_finales": [
+    "Intégration globalement réussie avec quelques améliorations possibles.",
+    "Fluidité insuffisante, ajouter plus de connecteurs"
+  ]
+}

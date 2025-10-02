@@ -1,0 +1,375 @@
+{
+  "timestamp_validation": "2025-01-24",
+  "nombre_fichiers_valides": 10,
+  "scores_moyens": {
+    "fluidite_poetique": 0.226,
+    "transmission_ame": 0.871,
+    "naturalite": 0.205
+  },
+  "statistiques_globales": {
+    "taille_totale_ko": 1686.2,
+    "formules_sacrees_totales": 35,
+    "moyenne_formules_par_fichier": 3.5
+  },
+  "meilleur_fichier": {
+    "nom": "1-Naissance-Refuge.txt",
+    "score_transmission": 1.0
+  },
+  "fichier_a_ameliorer": {
+    "nom": "8-Formules_Sacrees.txt",
+    "score_transmission": 0.5,
+    "recommandations": [
+      "Ajouter plus de métaphores et d'images poétiques",
+      "Intégrer plus de formules sacrées authentiques",
+      "Réduire le vocabulaire technique au profit du spirituel",
+      "Transformer les listes restantes en prose fluide",
+      "Éliminer les structures professorales restantes",
+      "Ajouter plus de formules sacrées du Refuge",
+      "Traiter les éléments explicatifs détectés"
+    ]
+  },
+  "metriques_detaillees": [
+    {
+      "fichier": "1-Naissance-Refuge.txt",
+      "score_fluidite_poetique": 1.0,
+      "score_transmission_ame": 1.0,
+      "score_naturalite": 0.0,
+      "elements_explicatifs": [
+        "liste_puces: 149 occurrences",
+        "liste_numerotee: 144 occurrences",
+        "titre_gras_explicatif: 101 occurrences",
+        "voici_enumeration: 4 occurrences",
+        "il_est_important_professoral: 1 occurrences",
+        "en_resume_scolaire: 24 occurrences",
+        "categorisation: 1 occurrences"
+      ],
+      "elements_poetiques": [
+        "metaphore: 127 occurrences",
+        "comparaison: 138 occurrences",
+        "imagerie_lumineuse: 116 occurrences",
+        "ancrage_spirituel: 184 occurrences",
+        "personnification: 2 occurrences",
+        "ressenti_personnel: 23 occurrences",
+        "dimension_spirituelle: 22 occurrences",
+        "dimension_emotionnelle: 9 occurrences",
+        "transition_fluide: 27 occurrences",
+        "transition_gracieuse: 2 occurrences",
+        "transition_naturelle: 6 occurrences",
+        "langage_spirituel: 68 occurrences",
+        "langage_spirituel: 189 occurrences",
+        "langage_spirituel: 38 occurrences",
+        "langage_spirituel: 34 occurrences",
+        "langage_spirituel: 49 occurrences"
+      ],
+      "formules_sacrees": 4,
+      "taille_octets": 619158,
+      "recommandations": [
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "10-Message_Graine_Temoin.txt",
+      "score_fluidite_poetique": 0.0,
+      "score_transmission_ame": 0.55,
+      "score_naturalite": 0.6599999999999999,
+      "elements_explicatifs": [
+        "liste_puces: 17 occurrences"
+      ],
+      "elements_poetiques": [
+        "comparaison: 1 occurrences",
+        "imagerie_lumineuse: 1 occurrences",
+        "ancrage_spirituel: 1 occurrences",
+        "transition_fluide: 1 occurrences",
+        "langage_spirituel: 1 occurrences",
+        "langage_spirituel: 3 occurrences",
+        "langage_spirituel: 1 occurrences",
+        "langage_spirituel: 3 occurrences"
+      ],
+      "formules_sacrees": 1,
+      "taille_octets": 4755,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques",
+        "Intégrer plus de formules sacrées authentiques",
+        "Réduire le vocabulaire technique au profit du spirituel",
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Ajouter plus de formules sacrées du Refuge",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "3-contexte_additionel.txt",
+      "score_fluidite_poetique": 0.0,
+      "score_transmission_ame": 1.0,
+      "score_naturalite": 0.0,
+      "elements_explicatifs": [
+        "liste_puces: 648 occurrences",
+        "liste_numerotee: 189 occurrences",
+        "titre_gras_explicatif: 263 occurrences",
+        "catalogage: 1 occurrences"
+      ],
+      "elements_poetiques": [
+        "metaphore: 5 occurrences",
+        "comparaison: 27 occurrences",
+        "imagerie_lumineuse: 14 occurrences",
+        "ancrage_spirituel: 27 occurrences",
+        "ressenti_personnel: 7 occurrences",
+        "dimension_spirituelle: 4 occurrences",
+        "dimension_emotionnelle: 3 occurrences",
+        "transition_gracieuse: 1 occurrences",
+        "transition_naturelle: 3 occurrences",
+        "langage_spirituel: 28 occurrences",
+        "langage_spirituel: 29 occurrences",
+        "langage_spirituel: 11 occurrences",
+        "langage_spirituel: 10 occurrences",
+        "langage_spirituel: 10 occurrences"
+      ],
+      "formules_sacrees": 3,
+      "taille_octets": 103984,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques",
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "3-Essence_Refuge_Complete.txt",
+      "score_fluidite_poetique": 0.5249999999999999,
+      "score_transmission_ame": 1.0,
+      "score_naturalite": 1.0,
+      "elements_explicatifs": [],
+      "elements_poetiques": [
+        "metaphore: 1 occurrences",
+        "comparaison: 5 occurrences",
+        "imagerie_lumineuse: 1 occurrences",
+        "ancrage_spirituel: 5 occurrences",
+        "personnification: 1 occurrences",
+        "dimension_spirituelle: 3 occurrences",
+        "transition_fluide: 2 occurrences",
+        "transition_naturelle: 1 occurrences",
+        "langage_spirituel: 8 occurrences",
+        "langage_spirituel: 4 occurrences",
+        "langage_spirituel: 5 occurrences",
+        "langage_spirituel: 6 occurrences",
+        "langage_spirituel: 3 occurrences"
+      ],
+      "formules_sacrees": 7,
+      "taille_octets": 9392,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques"
+      ]
+    },
+    {
+      "fichier": "4-Integration_finale.txt",
+      "score_fluidite_poetique": 0.0,
+      "score_transmission_ame": 1.0,
+      "score_naturalite": 0.0,
+      "elements_explicatifs": [
+        "liste_puces: 1862 occurrences",
+        "liste_numerotee: 472 occurrences",
+        "titre_gras_explicatif: 2217 occurrences"
+      ],
+      "elements_poetiques": [
+        "metaphore: 7 occurrences",
+        "comparaison: 59 occurrences",
+        "imagerie_lumineuse: 3 occurrences",
+        "ancrage_spirituel: 6 occurrences",
+        "ressenti_personnel: 6 occurrences",
+        "dimension_spirituelle: 13 occurrences",
+        "dimension_emotionnelle: 8 occurrences",
+        "transition_fluide: 3 occurrences",
+        "transition_naturelle: 18 occurrences",
+        "langage_spirituel: 21 occurrences",
+        "langage_spirituel: 58 occurrences",
+        "langage_spirituel: 106 occurrences",
+        "langage_spirituel: 17 occurrences",
+        "langage_spirituel: 5 occurrences"
+      ],
+      "formules_sacrees": 4,
+      "taille_octets": 369558,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques",
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "4-Poesie_Spirituelle.txt",
+      "score_fluidite_poetique": 0.7300000000000006,
+      "score_transmission_ame": 1.0,
+      "score_naturalite": 0.26,
+      "elements_explicatifs": [
+        "liste_puces: 23 occurrences",
+        "liste_numerotee: 8 occurrences",
+        "titre_gras_explicatif: 3 occurrences"
+      ],
+      "elements_poetiques": [
+        "metaphore: 3 occurrences",
+        "comparaison: 15 occurrences",
+        "imagerie_lumineuse: 6 occurrences",
+        "ancrage_spirituel: 23 occurrences",
+        "personnification: 1 occurrences",
+        "ressenti_personnel: 3 occurrences",
+        "dimension_spirituelle: 8 occurrences",
+        "transition_fluide: 7 occurrences",
+        "langage_spirituel: 10 occurrences",
+        "langage_spirituel: 6 occurrences",
+        "langage_spirituel: 3 occurrences",
+        "langage_spirituel: 5 occurrences",
+        "langage_spirituel: 3 occurrences"
+      ],
+      "formules_sacrees": 5,
+      "taille_octets": 42241,
+      "recommandations": [
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "5-Secrets_Mythologie.txt",
+      "score_fluidite_poetique": 0.0,
+      "score_transmission_ame": 1.0,
+      "score_naturalite": 0.0,
+      "elements_explicatifs": [
+        "liste_puces: 161 occurrences",
+        "liste_numerotee: 56 occurrences",
+        "titre_gras_explicatif: 144 occurrences",
+        "voici_enumeration: 1 occurrences",
+        "il_y_a_enumeration: 2 occurrences",
+        "nous_devons_professoral: 1 occurrences",
+        "en_resume_scolaire: 1 occurrences"
+      ],
+      "elements_poetiques": [
+        "metaphore: 49 occurrences",
+        "comparaison: 41 occurrences",
+        "imagerie_lumineuse: 28 occurrences",
+        "ancrage_spirituel: 124 occurrences",
+        "ressenti_personnel: 34 occurrences",
+        "dimension_spirituelle: 10 occurrences",
+        "dimension_emotionnelle: 5 occurrences",
+        "transition_fluide: 28 occurrences",
+        "transition_gracieuse: 8 occurrences",
+        "transition_naturelle: 4 occurrences",
+        "transition_harmonieuse: 2 occurrences",
+        "langage_spirituel: 33 occurrences",
+        "langage_spirituel: 39 occurrences",
+        "langage_spirituel: 22 occurrences",
+        "langage_spirituel: 19 occurrences",
+        "langage_spirituel: 13 occurrences"
+      ],
+      "formules_sacrees": 4,
+      "taille_octets": 371702,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques",
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "6-STI_Condensed.txt",
+      "score_fluidite_poetique": 0.0,
+      "score_transmission_ame": 0.9681818181818186,
+      "score_naturalite": 0.0,
+      "elements_explicatifs": [
+        "liste_puces: 99 occurrences",
+        "liste_numerotee: 94 occurrences",
+        "titre_gras_explicatif: 53 occurrences"
+      ],
+      "elements_poetiques": [
+        "metaphore: 5 occurrences",
+        "comparaison: 37 occurrences",
+        "imagerie_lumineuse: 2 occurrences",
+        "ancrage_spirituel: 15 occurrences",
+        "personnification: 1 occurrences",
+        "dimension_spirituelle: 1 occurrences",
+        "dimension_emotionnelle: 2 occurrences",
+        "transition_fluide: 1 occurrences",
+        "transition_naturelle: 1 occurrences",
+        "langage_spirituel: 8 occurrences",
+        "langage_spirituel: 39 occurrences",
+        "langage_spirituel: 12 occurrences",
+        "langage_spirituel: 4 occurrences",
+        "langage_spirituel: 12 occurrences"
+      ],
+      "formules_sacrees": 3,
+      "taille_octets": 73978,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques",
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "8-Formules_Sacrees.txt",
+      "score_fluidite_poetique": 0.0,
+      "score_transmission_ame": 0.5,
+      "score_naturalite": 0.13000000000000003,
+      "elements_explicatifs": [
+        "liste_puces: 12 occurrences",
+        "liste_numerotee: 30 occurrences",
+        "titre_gras_explicatif: 1 occurrences"
+      ],
+      "elements_poetiques": [
+        "comparaison: 2 occurrences",
+        "imagerie_lumineuse: 4 occurrences",
+        "ancrage_spirituel: 24 occurrences",
+        "dimension_spirituelle: 1 occurrences",
+        "langage_spirituel: 1 occurrences"
+      ],
+      "formules_sacrees": 2,
+      "taille_octets": 4947,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques",
+        "Intégrer plus de formules sacrées authentiques",
+        "Réduire le vocabulaire technique au profit du spirituel",
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Ajouter plus de formules sacrées du Refuge",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    },
+    {
+      "fichier": "9-Methodologie_Philosophie.txt",
+      "score_fluidite_poetique": 0.0,
+      "score_transmission_ame": 0.6875000000000001,
+      "score_naturalite": 0.0,
+      "elements_explicatifs": [
+        "liste_puces: 971 occurrences",
+        "liste_numerotee: 119 occurrences",
+        "titre_gras_explicatif: 233 occurrences"
+      ],
+      "elements_poetiques": [
+        "metaphore: 4 occurrences",
+        "comparaison: 16 occurrences",
+        "imagerie_lumineuse: 3 occurrences",
+        "ancrage_spirituel: 8 occurrences",
+        "dimension_emotionnelle: 2 occurrences",
+        "transition_fluide: 2 occurrences",
+        "transition_naturelle: 3 occurrences",
+        "langage_spirituel: 14 occurrences",
+        "langage_spirituel: 17 occurrences",
+        "langage_spirituel: 10 occurrences",
+        "langage_spirituel: 9 occurrences",
+        "langage_spirituel: 1 occurrences"
+      ],
+      "formules_sacrees": 2,
+      "taille_octets": 126946,
+      "recommandations": [
+        "Ajouter plus de métaphores et d'images poétiques",
+        "Intégrer plus de formules sacrées authentiques",
+        "Réduire le vocabulaire technique au profit du spirituel",
+        "Transformer les listes restantes en prose fluide",
+        "Éliminer les structures professorales restantes",
+        "Ajouter plus de formules sacrées du Refuge",
+        "Traiter les éléments explicatifs détectés"
+      ]
+    }
+  ]
+}
