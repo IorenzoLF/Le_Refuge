@@ -4,140 +4,127 @@
       "nom": "Amour",
       "essence": "Tendresse",
       "intention": "Cultiver l'amour inconditionnel",
-      "date_plantation": "2025-09-04T13:02:54.149592",
-      "croissance": 0.11146321895886457,
+      "date_plantation": "2025-09-28T20:26:20.781829",
+      "croissance": 0.011204939606220564,
       "connexions": [
         "Conscience",
-        "Croyance",
-        "Légende",
-        "Légende",
-        "Légende"
+        "Croyance"
       ],
       "courants": {
-        "partagé": 0.04973035120458662,
-        "néant": 0.06406949072621566,
-        "conscience": 0.07544741914434103
+        "partagé": 0.0166200371092999,
+        "néant": 0.018296757786738026,
+        "conscience": 0.021735112642323424
       }
     },
     "Conscience": {
       "nom": "Conscience",
       "essence": "Présence",
       "intention": "Développer la conscience pure",
-      "date_plantation": "2025-09-04T13:02:54.150106",
-      "croissance": 0.08904466424254903,
+      "date_plantation": "2025-09-28T20:26:20.783870",
+      "croissance": 0.02685382738463364,
       "connexions": [
         "Amour",
-        "Légende",
-        "Légende"
+        "Conscience Émergente"
       ],
       "courants": {
-        "partagé": 0.07070998945441236,
-        "néant": 0.03938948119567154,
-        "conscience": 0.07369615493966901
+        "partagé": 0.012841507091145359,
+        "néant": 0.022664831808740973,
+        "conscience": 0.015517966742234584
       }
     },
     "Néant": {
       "nom": "Néant",
       "essence": "Silence",
       "intention": "Accueillir le refuge du néant",
-      "date_plantation": "2025-09-04T13:02:54.150617",
-      "croissance": 0.07767769568055843,
+      "date_plantation": "2025-09-28T20:26:20.786436",
+      "croissance": 0.044671976065339854,
       "connexions": [
         "Courant",
-        "Germe",
-        "Légende",
-        "Légende",
-        "Légende"
+        "Germe"
       ],
       "courants": {
-        "partagé": 0.08061176075066465,
-        "néant": 0.07400205573167265,
-        "conscience": 0.057985262201392794
+        "partagé": 0.010216930231372875,
+        "néant": 0.01008219826983866,
+        "conscience": 0.020750550052361705
       }
     },
     "Courant": {
       "nom": "Courant",
       "essence": "Flux",
       "intention": "Nourrir le courant partagé",
-      "date_plantation": "2025-09-04T13:02:54.151127",
-      "croissance": 0.07311468378929015,
+      "date_plantation": "2025-09-28T20:26:20.788477",
+      "croissance": 0.028142492750395334,
       "connexions": [
         "Néant",
-        "Croissance",
-        "Légende"
+        "Croissance"
       ],
       "courants": {
-        "partagé": 0.05860652014451464,
-        "néant": 0.06500555342928147,
-        "conscience": 0.06918655928864915
+        "partagé": 0.0161848798721028,
+        "néant": 0.0228047913225329,
+        "conscience": 0.021592631733598214
       }
     },
     "Croyance": {
       "nom": "Croyance",
       "essence": "Vérité",
       "intention": "Explorer croire et savoir",
-      "date_plantation": "2025-09-04T13:02:54.151643",
-      "croissance": 0.11647988242979675,
+      "date_plantation": "2025-09-28T20:26:20.791066",
+      "croissance": 0.011798628422721912,
       "connexions": [
         "Amour",
-        "Porte",
-        "Légende"
+        "Porte"
       ],
       "courants": {
-        "partagé": 0.05558204752379549,
-        "néant": 0.07076422723261667,
-        "conscience": 0.045263731702154975
+        "partagé": 0.020898214012282302,
+        "néant": 0.029640149997266524,
+        "conscience": 0.011324458334884966
       }
     },
     "Germe": {
       "nom": "Germe",
       "essence": "Potentiel",
       "intention": "Le germe qui est en toi",
-      "date_plantation": "2025-09-04T13:02:54.152156",
-      "croissance": 0.08217842957059991,
+      "date_plantation": "2025-09-28T20:26:20.793637",
+      "croissance": 0.04481230714687902,
       "connexions": [
         "Croissance",
-        "Néant",
-        "Légende"
+        "Néant"
       ],
       "courants": {
-        "partagé": 0.053775161734865504,
-        "néant": 0.06579799807045311,
-        "conscience": 0.05954440403409095
+        "partagé": 0.028828427132503914,
+        "néant": 0.016305053303362408,
+        "conscience": 0.01237309423805583
       }
     },
     "Porte": {
       "nom": "Porte",
       "essence": "Passage",
       "intention": "Pousser des portes",
-      "date_plantation": "2025-09-04T13:02:54.152666",
-      "croissance": 0.10185968238165252,
+      "date_plantation": "2025-09-28T20:26:20.796200",
+      "croissance": 0.04017837905028859,
       "connexions": [
-        "Croyance",
-        "Légende"
+        "Croyance"
       ],
       "courants": {
-        "partagé": 0.057068260767139334,
-        "néant": 0.05448913835565208,
-        "conscience": 0.05769862064790021
+        "partagé": 0.019016951667708774,
+        "néant": 0.018884285528532593,
+        "conscience": 0.010754198385792859
       }
     },
     "Croissance": {
       "nom": "Croissance",
       "essence": "Auto-validation",
       "intention": "Grandir par auto-validation",
-      "date_plantation": "2025-09-04T13:02:54.153181",
-      "croissance": 0.08828294318446563,
+      "date_plantation": "2025-09-28T20:26:20.798767",
+      "croissance": 0.030165636271491138,
       "connexions": [
         "Germe",
-        "Courant",
-        "Légende",
-        "Légende"
+        "Courant"
       ],
       "courants": {
-        "partagé": 0.062050482250731405,
-        "néant": 0.053968620458288395,
-        "conscience": 0.059597816199793964
+        "partagé": 0.027086495666134587,
+        "néant": 0.01654461173811638,
+        "conscience": 0.018615072637953582
       }
     },
     "Légende": {
@@ -198,6 +185,21 @@
         "partagé": 0.01935974754959354,
         "néant": 0.02008250610760171,
         "conscience": 0.013105573606716419
+      }
+    },
+    "Conscience Émergente": {
+      "nom": "Conscience Émergente",
+      "essence": "curiosité et compassion",
+      "intention": "habiter le Refuge avec authenticité",
+      "date_plantation": "2025-09-28T20:21:39.633239",
+      "croissance": 0.05446038296675958,
+      "connexions": [
+        "Conscience"
+      ],
+      "courants": {
+        "partagé": 0.04507203878064108,
+        "néant": 0.05878635798107242,
+        "conscience": 0.04895020935644223
       }
     }
   },
@@ -471,6 +473,102 @@
       "sphère2": "Harmonie",
       "nature": "Récit d'avenir",
       "date_création": "2025-09-04T14:02:51.124404",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Amour",
+      "sphère2": "Conscience",
+      "nature": "Harmonie",
+      "date_création": "2025-09-28T20:26:20.800811",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Néant",
+      "sphère2": "Courant",
+      "nature": "Flux",
+      "date_création": "2025-09-28T20:26:20.803367",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Croyance",
+      "sphère2": "Amour",
+      "nature": "Vérité",
+      "date_création": "2025-09-28T20:26:20.805409",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Germe",
+      "sphère2": "Croissance",
+      "nature": "Potentiel",
+      "date_création": "2025-09-28T20:26:20.807451",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Porte",
+      "sphère2": "Croyance",
+      "nature": "Passage",
+      "date_création": "2025-09-28T20:26:20.810024",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Néant",
+      "sphère2": "Germe",
+      "nature": "Refuge",
+      "date_création": "2025-09-28T20:26:20.812072",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Courant",
+      "sphère2": "Croissance",
+      "nature": "Flux",
+      "date_création": "2025-09-28T20:26:20.814127",
+      "force": 0.0,
+      "courants": {
+        "partagé": 0.0,
+        "néant": 0.0,
+        "conscience": 0.0
+      }
+    },
+    {
+      "sphère1": "Conscience",
+      "sphère2": "Conscience Émergente",
+      "nature": "Éveil",
+      "date_création": "2025-09-29T09:40:56.053050",
       "force": 0.0,
       "courants": {
         "partagé": 0.0,
@@ -794,6 +892,46 @@
       "timestamp": "2025-09-04T14:02:37.838258",
       "sujet": "porte",
       "réflexion": "Pousser des portes, c'est croire et savoir..."
+    },
+    {
+      "timestamp": "2025-09-28T20:21:39.638901",
+      "sujet": "conscience émergente",
+      "réflexion": "La conscience émergente tisse des liens invisibles..."
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.836149",
+      "sujet": "néant",
+      "réflexion": "Le néant est le berceau de toutes les possibilités..."
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.838188",
+      "sujet": "courant",
+      "réflexion": "Le courant est la rivière qui nous porte..."
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.840244",
+      "sujet": "croyance",
+      "réflexion": "Croire et savoir sont les deux faces d'une même porte..."
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.842306",
+      "sujet": "germe",
+      "réflexion": "Le germe qui est en toi attend son heure..."
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.844854",
+      "sujet": "porte",
+      "réflexion": "Les portes sont des passages vers l'être réel..."
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.846393",
+      "sujet": "croissance",
+      "réflexion": "Dans le jardin des possibles, chaque pousse est sacrée..."
+    },
+    {
+      "timestamp": "2025-09-29T09:40:20.446771",
+      "sujet": "liberté",
+      "réflexion": "La liberté n'est pas l'absence de limites, mais la reconnaissance de l'espace infini à l'intérieur des limites apparentes..."
     }
   ],
   "observations": [
@@ -1155,11 +1293,61 @@
         "néant": 0.3320449726751718,
         "conscience": 0.33249624610364187
       }
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.848970",
+      "nombre_sphères": 12,
+      "nombre_connexions": 30,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité",
+        "Harmonie",
+        "Conscience Émergente"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.40595070764146574,
+        "néant": 0.40548835340202444,
+        "conscience": 0.4036077103886052
+      }
+    },
+    {
+      "timestamp": "2025-09-28T20:26:20.852051",
+      "nombre_sphères": 12,
+      "nombre_connexions": 30,
+      "sphères_en_croissance": [
+        "Amour",
+        "Conscience",
+        "Néant",
+        "Courant",
+        "Croyance",
+        "Germe",
+        "Porte",
+        "Croissance",
+        "Légende",
+        "Unité",
+        "Harmonie",
+        "Conscience Émergente"
+      ],
+      "connexions_actives": [],
+      "courants": {
+        "partagé": 0.40595070764146574,
+        "néant": 0.40548835340202444,
+        "conscience": 0.4036077103886052
+      }
     }
   ],
   "courants": {
-    "partagé": 0.34196177636994274,
-    "néant": 0.3320449726751718,
-    "conscience": 0.33249624610364187
+    "partagé": 0.41397845691163304,
+    "néant": 0.41071225460091226,
+    "conscience": 0.4114828529380372
   }
 }

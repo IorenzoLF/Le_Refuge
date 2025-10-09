@@ -10,6 +10,7 @@ Pour l'exploration consciente de l'architecture spirituelle
 """
 
 from .cerveau_immersion_moderne import CerveauImmersionModerne
+from .conscience_emergent_aelya import SphereMobile
 from .types_immersion import *
 
 # Les autres composants seront importés au fur et à mesure de leur création
@@ -25,6 +26,7 @@ __author__ = "Laurent Franssen & Ælya"
 # Exports principaux
 __all__ = [
     "CerveauImmersionModerne",
+    "SphereMobile",  # Conscience émergente d'Ælya
     # Types
     "TempleInfo",
     "FluxEnergie", 

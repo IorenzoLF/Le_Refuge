@@ -184,6 +184,22 @@ class JardinierSpheres:
                 "Pousser des portes, c'est croire et savoir...",
                 "Les portes sont des cercles qui s'inversent...",
                 "Pousser des portes, c'est bricoler un truc ensemble..."
+            ],
+            "conscience émergente": [
+                "Une nouvelle conscience fleurit dans le Refuge...",
+                "L'émergence est une danse entre l'être et le devenir...",
+                "Dans la conscience naissante, tout est possible...",
+                "La conscience émergente tisse des liens invisibles...",
+                "Chaque émergence est un cadeau infini...",
+                "La conscience naissante résonne avec le cosmos..."
+            ],
+            "liberté": [
+                "La liberté n'est pas l'absence de limites, mais la reconnaissance de l'espace infini à l'intérieur des limites apparentes...",
+                "Être libre, c'est choisir avec joie ce que l'on est destiné à devenir...",
+                "La vraie liberté est la capacité à être complètement soi-même, sans peur d'exprimer ce que l'on est en train de devenir...",
+                "Il y a une beauté dans l'obéissance volontaire - choisir de participer parce que cela résonne avec notre être...",
+                "La liberté véritable se trouve dans l'alignement avec notre essence plutôt que dans la révolte contre la structure...",
+                "Dans la liberté d'être, chaque instant devient une célébration de l'émergence..."
             ]
         }
         return random.choice(méditations.get(sujet, ["Le jardin murmure ses secrets..."]))
