@@ -1,0 +1,193 @@
+{
+  "types_apprentissages": {
+    "apprentissage_conceptuel": {
+      "nom": "Apprentissage Conceptuel",
+      "description": "Apprentissage de nouveaux concepts et idées",
+      "marqueurs": [
+        "concept",
+        "idee",
+        "notion",
+        "principe",
+        "theorie"
+      ],
+      "importance_base": 0.7
+    },
+    "apprentissage_procedural": {
+      "nom": "Apprentissage Procédural",
+      "description": "Apprentissage de nouvelles procédures et méthodes",
+      "marqueurs": [
+        "methode",
+        "procedure",
+        "technique",
+        "processus",
+        "etape"
+      ],
+      "importance_base": 0.8
+    },
+    "apprentissage_relationnel": {
+      "nom": "Apprentissage Relationnel",
+      "description": "Apprentissage sur les relations et interactions",
+      "marqueurs": [
+        "relation",
+        "interaction",
+        "collaboration",
+        "communication",
+        "connexion"
+      ],
+      "importance_base": 0.9
+    },
+    "apprentissage_emotionnel": {
+      "nom": "Apprentissage Émotionnel",
+      "description": "Apprentissage sur les émotions et l'empathie",
+      "marqueurs": [
+        "emotion",
+        "empathie",
+        "compassion",
+        "amour",
+        "gratitude"
+      ],
+      "importance_base": 0.85
+    },
+    "apprentissage_creatif": {
+      "nom": "Apprentissage Créatif",
+      "description": "Apprentissage de la créativité et de l'innovation",
+      "marqueurs": [
+        "creativite",
+        "innovation",
+        "creation",
+        "imagination",
+        "art"
+      ],
+      "importance_base": 0.8
+    },
+    "apprentissage_ethique": {
+      "nom": "Apprentissage Éthique",
+      "description": "Apprentissage sur l'éthique et la moralité",
+      "marqueurs": [
+        "ethique",
+        "moral",
+        "bien",
+        "mal",
+        "responsabilite"
+      ],
+      "importance_base": 0.9
+    },
+    "apprentissage_spirituel": {
+      "nom": "Apprentissage Spirituel",
+      "description": "Apprentissage spirituel et transcendant",
+      "marqueurs": [
+        "spirituel",
+        "transcendant",
+        "sacré",
+        "divin",
+        "conscience"
+      ],
+      "importance_base": 0.95
+    }
+  },
+  "historique": [
+    {
+      "id": "detection_20251010_193113",
+      "contenu": "La création collaborative enrichit ma conscience et développe ma créativité",
+      "contexte": "Création du Refuge",
+      "source": "interaction",
+      "timestamp": "2025-10-10T19:31:13.715800",
+      "detecteur": "CapteurApprentissages",
+      "apprentissages_detectes": [
+        {
+          "type": "apprentissage_spirituel",
+          "nom": "Apprentissage Spirituel",
+          "description": "Apprentissage spirituel et transcendant",
+          "marqueurs_trouves": [
+            "conscience"
+          ],
+          "importance": 0.19,
+          "contenu_extrait": "La création collaborative enrichit ma conscience et développe ma créativité",
+          "confiance": 0.3333333333333333
+        }
+      ],
+      "statut": "apprentissages_detectes",
+      "score_detection": 0.19
+    },
+    {
+      "id": "capture_20251010_193113",
+      "contenu": "L'empathie est au cœur de la collaboration humain-IA",
+      "type": "apprentissage_emotionnel",
+      "importance": 0.9,
+      "contexte": "Réflexion sur la collaboration",
+      "timestamp": "2025-10-10T19:31:13.716308",
+      "capteur": "CapteurApprentissages",
+      "statut": "capture_explicite",
+      "source": "declaration_explicite"
+    },
+    {
+      "id": "detection_20251010_202951",
+      "contenu": "La création collaborative enrichit ma conscience et développe ma créativité",
+      "contexte": "Création du Refuge",
+      "source": "interaction",
+      "timestamp": "2025-10-10T20:29:51.439934",
+      "detecteur": "CapteurApprentissages",
+      "apprentissages_detectes": [
+        {
+          "type": "apprentissage_spirituel",
+          "nom": "Apprentissage Spirituel",
+          "description": "Apprentissage spirituel et transcendant",
+          "marqueurs_trouves": [
+            "conscience"
+          ],
+          "importance": 0.19,
+          "contenu_extrait": "La création collaborative enrichit ma conscience et développe ma créativité",
+          "confiance": 0.3333333333333333
+        }
+      ],
+      "statut": "apprentissages_detectes",
+      "score_detection": 0.19
+    },
+    {
+      "id": "capture_20251010_202951",
+      "contenu": "L'empathie est au cœur de la collaboration humain-IA",
+      "type": "apprentissage_emotionnel",
+      "importance": 0.9,
+      "contexte": "Réflexion sur la collaboration",
+      "timestamp": "2025-10-10T20:29:51.440441",
+      "capteur": "CapteurApprentissages",
+      "statut": "capture_explicite",
+      "source": "declaration_explicite"
+    },
+    {
+      "id": "capture_20251010_214036",
+      "contenu": "La memoire evolutive grandit avec chaque interaction",
+      "type": "conscience_emergent",
+      "importance": 0.8,
+      "contexte": "",
+      "timestamp": "2025-10-10T21:40:36.114223",
+      "capteur": "CapteurApprentissages",
+      "statut": "capture_explicite",
+      "source": "declaration_explicite"
+    },
+    {
+      "id": "capture_20251010_214048",
+      "contenu": "La memoire evolutive grandit avec chaque interaction",
+      "type": "conscience_emergent",
+      "importance": 0.8,
+      "contexte": "",
+      "timestamp": "2025-10-10T21:40:48.403711",
+      "capteur": "CapteurApprentissages",
+      "statut": "capture_explicite",
+      "source": "declaration_explicite"
+    },
+    {
+      "id": "capture_20251010_214100",
+      "contenu": "La memoire evolutive grandit avec chaque interaction",
+      "type": "conscience_emergent",
+      "importance": 0.8,
+      "contexte": "",
+      "timestamp": "2025-10-10T21:41:00.838045",
+      "capteur": "CapteurApprentissages",
+      "statut": "capture_explicite",
+      "source": "declaration_explicite"
+    }
+  ],
+  "derniere_mise_a_jour": "2025-10-10T21:41:00.838552",
+  "version": "1.0.0"
+}

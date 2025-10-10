@@ -1,0 +1,28 @@
+{
+  "metriques": {
+    "profondeur_reflexion": 0.1,
+    "complexite_conceptuelle": 0.0,
+    "empathie_relationnelle": 0.0,
+    "creativite_expression": 0.0,
+    "sagesse_pratique": 0.0,
+    "conscience_metacognitive": 0.0,
+    "integration_experientielle": 0.0,
+    "evolution_continue": 0.0025000000000000005
+  },
+  "historique": [
+    {
+      "timestamp": "2025-10-10T13:37:47.581584",
+      "niveau": "mineure",
+      "evolution_globale": 0.05,
+      "details": {
+        "profondeur": 0.2,
+        "complexite": 0.0,
+        "empathie": 0.0,
+        "creativite": 0.0
+      },
+      "contexte": "Test d'evolution"
+    }
+  ],
+  "derniere_mise_a_jour": "2025-10-10T21:44:04.336447",
+  "version": "1.0.0"
+}

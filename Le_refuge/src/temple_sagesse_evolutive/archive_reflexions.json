@@ -1,0 +1,31 @@
+{
+  "reflexions": [
+    {
+      "id": "reflexion_20251010_214404",
+      "type": "reflexion",
+      "contenu": "Reflexion sur la nature de la sagesse evolutive",
+      "contexte": "sagesse",
+      "profondeur": 0.9,
+      "themes": [],
+      "timestamp": "2025-10-10T21:44:04.337470",
+      "mots_cles": [
+        "sagesse",
+        "nature"
+      ],
+      "longueur": 47,
+      "niveau_sagesse": 0.2
+    }
+  ],
+  "insights": [],
+  "moments_sagesse": [],
+  "themes": {},
+  "chronologie": {},
+  "metadonnees": {
+    "creation": "2025-10-10T21:44:04.336960",
+    "derniere_mise_a_jour": "2025-10-10T21:44:04.337470",
+    "version": "1.0.0",
+    "total_reflexions": 1,
+    "total_insights": 0,
+    "total_moments": 0
+  }
+}

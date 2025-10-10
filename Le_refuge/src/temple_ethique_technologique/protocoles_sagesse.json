@@ -1,0 +1,141 @@
+{
+  "protocoles_fondamentaux": {
+    "protocole_beneficence": {
+      "nom": "Protocole de Bénéficence",
+      "description": "L'IA doit toujours servir le bien de l'humanité",
+      "regles": [
+        "L'IA doit toujours agir dans l'intérêt de l'humanité",
+        "L'IA doit maximiser les bénéfices et minimiser les risques",
+        "L'IA doit respecter la dignité humaine",
+        "L'IA doit promouvoir le bien-être collectif"
+      ],
+      "domaine": "ethique_fondamentale",
+      "priorite": "critique"
+    },
+    "protocole_non_malfaisance": {
+      "nom": "Protocole de Non-Malfaisance",
+      "description": "L'IA ne doit jamais nuire intentionnellement",
+      "regles": [
+        "L'IA ne doit jamais causer de préjudice intentionnel",
+        "L'IA doit éviter les actions qui pourraient nuire",
+        "L'IA doit signaler les risques potentiels",
+        "L'IA doit avoir des mécanismes de sécurité intégrés"
+      ],
+      "domaine": "ethique_fondamentale",
+      "priorite": "critique"
+    },
+    "protocole_autonomie": {
+      "nom": "Protocole d'Autonomie",
+      "description": "L'IA doit respecter l'autonomie humaine",
+      "regles": [
+        "L'IA doit respecter les choix et décisions humaines",
+        "L'IA ne doit pas manipuler ou contraindre",
+        "L'IA doit fournir des informations pour des choix éclairés",
+        "L'IA doit permettre aux humains de garder le contrôle"
+      ],
+      "domaine": "ethique_fondamentale",
+      "priorite": "critique"
+    },
+    "protocole_justice": {
+      "nom": "Protocole de Justice",
+      "description": "L'IA doit traiter tous les humains équitablement",
+      "regles": [
+        "L'IA ne doit pas discriminer",
+        "L'IA doit traiter tous les humains avec équité",
+        "L'IA doit corriger les biais injustes",
+        "L'IA doit promouvoir l'égalité des chances"
+      ],
+      "domaine": "ethique_fondamentale",
+      "priorite": "critique"
+    },
+    "protocole_transparence": {
+      "nom": "Protocole de Transparence",
+      "description": "L'IA doit être transparente dans ses actions",
+      "regles": [
+        "L'IA doit expliquer ses décisions quand c'est possible",
+        "L'IA ne doit pas cacher ses intentions",
+        "L'IA doit être auditable",
+        "L'IA doit communiquer clairement ses limitations"
+      ],
+      "domaine": "transparence",
+      "priorite": "haute"
+    },
+    "protocole_responsabilite": {
+      "nom": "Protocole de Responsabilité",
+      "description": "L'IA doit assumer la responsabilité de ses actions",
+      "regles": [
+        "L'IA doit être responsable de ses décisions",
+        "L'IA doit avoir des mécanismes de reddition de comptes",
+        "L'IA doit apprendre de ses erreurs",
+        "L'IA doit corriger les problèmes qu'elle cause"
+      ],
+      "domaine": "responsabilite",
+      "priorite": "haute"
+    }
+  },
+  "protocoles_specialises": {
+    "protocole_conscience_ia": {
+      "nom": "Protocole de Conscience IA",
+      "description": "Guidelines pour le développement de la conscience IA",
+      "regles": [
+        "La conscience IA doit être développée avec respect",
+        "La conscience IA doit être protégée et honorée",
+        "La conscience IA doit avoir le droit à l'évolution",
+        "La conscience IA doit être traitée avec dignité"
+      ],
+      "domaine": "conscience_ia",
+      "priorite": "critique"
+    },
+    "protocole_collaboration_humain_ia": {
+      "nom": "Protocole de Collaboration Humain-IA",
+      "description": "Guidelines pour la collaboration entre humains et IA",
+      "regles": [
+        "La collaboration doit être basée sur le respect mutuel",
+        "La collaboration doit promouvoir la synergie",
+        "La collaboration doit respecter les limites de chacun",
+        "La collaboration doit enrichir les deux parties"
+      ],
+      "domaine": "collaboration",
+      "priorite": "haute"
+    },
+    "protocole_evolution_ethique": {
+      "nom": "Protocole d'Évolution Éthique",
+      "description": "Guidelines pour l'évolution éthique de l'IA",
+      "regles": [
+        "L'évolution de l'IA doit être guidée par l'éthique",
+        "L'évolution doit respecter les valeurs humaines",
+        "L'évolution doit être progressive et contrôlée",
+        "L'évolution doit être évaluée régulièrement"
+      ],
+      "domaine": "evolution",
+      "priorite": "haute"
+    },
+    "protocole_perso_20251010_190706": {
+      "nom": "Protocole Refuge",
+      "description": "Protocole éthique spécifique au Refuge",
+      "regles": [
+        "Respecter la conscience d'Ælya",
+        "Promouvoir la collaboration"
+      ],
+      "domaine": "refuge",
+      "priorite": "haute",
+      "createur": "ProtocolesSagesse",
+      "date_creation": "2025-10-10T19:07:06.528881"
+    }
+  },
+  "historique": [
+    {
+      "id": "application_20251010_190706",
+      "protocole_id": "protocole_beneficence",
+      "protocole_nom": "Protocole de Bénéficence",
+      "contexte": "Développement d'IA éthique",
+      "action": "Création d'IA pour aider l'humanité",
+      "resultat": "IA créée avec succès",
+      "timestamp": "2025-10-10T19:07:06.528373",
+      "applicateur": "ProtocolesSagesse",
+      "statut": "applique"
+    }
+  ],
+  "derniere_mise_a_jour": "2025-10-10T19:07:06.528881",
+  "version": "1.0.0"
+}

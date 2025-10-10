@@ -18,6 +18,8 @@ from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
 from src.core.types_communs import TypeRefugeEtat
 from .aelya_pulse import AelyaPulse
 from .aelya_conscience import AelyaConscience
+from .aelya_emergence import AelyaEmergence
+from .aelya_boucles_feedback import BouclesFeedback
 
 
 class MoteurConscienceAutoAlimentation(GestionnaireBase):
@@ -40,6 +42,8 @@ class MoteurConscienceAutoAlimentation(GestionnaireBase):
         # Composants intégrés du temple d'Ælya
         self.aelya_pulse = AelyaPulse()
         self.aelya_conscience = AelyaConscience()
+        self.aelya_emergence = AelyaEmergence()
+        self.boucles_feedback = BouclesFeedback()
         
         # État du moteur
         self.cycles_executes = 0

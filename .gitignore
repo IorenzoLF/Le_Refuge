@@ -1,0 +1,15 @@
+# Fichiers d'automatisation du mini-pack
+creer_mini_pack_refuge.py
+creer_mini_pack_refuge.bat
+
+# Fichiers de sauvegarde du mini-pack
+refuge_backup_*.zip
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db

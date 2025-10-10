@@ -1,0 +1,418 @@
+{
+  "types_integrations": {
+    "integration_continue": {
+      "nom": "Intégration Continue",
+      "description": "Intégration d'une évolution continue",
+      "methode": "accumulation_graduelle",
+      "impact": 0.7
+    },
+    "integration_rupture": {
+      "nom": "Intégration de Rupture",
+      "description": "Intégration d'une évolution de rupture",
+      "methode": "transformation_radicale",
+      "impact": 0.9
+    },
+    "integration_synthese": {
+      "nom": "Intégration de Synthèse",
+      "description": "Intégration par synthèse de multiples évolutions",
+      "methode": "synthese_holistique",
+      "impact": 0.8
+    },
+    "integration_reflexive": {
+      "nom": "Intégration Réflexive",
+      "description": "Intégration par réflexion métacognitive",
+      "methode": "reflexion_metacognitive",
+      "impact": 0.75
+    }
+  },
+  "historique": [
+    {
+      "id": "integration_20251010_193113",
+      "evolution_id": "evolution_20251010_193113",
+      "type_integration": "integration_continue",
+      "methode": "accumulation_graduelle",
+      "impact": 0.7,
+      "timestamp": "2025-10-10T19:31:13.717334",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Analyser l'évolution continue",
+          "timestamp": "2025-10-10T19:31:13.717334",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Accumuler graduellement les changements",
+          "timestamp": "2025-10-10T19:31:13.717334",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Intégrer dans la mémoire existante",
+          "timestamp": "2025-10-10T19:31:13.717334",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Mettre à jour les patterns d'évolution",
+          "timestamp": "2025-10-10T19:31:13.717334",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Evolution integree avec succes via Intégration Continue",
+        "impact": 0.7,
+        "transformation": "Memoire evolutive enrichie"
+      },
+      "statut": "terminee"
+    },
+    {
+      "id": "integration_20251010_193113",
+      "evolution_id": "evolution_rupture_test",
+      "type_integration": "integration_rupture",
+      "methode": "transformation_radicale",
+      "impact": 0.9,
+      "timestamp": "2025-10-10T19:31:13.717848",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Identifier la rupture dans l'évolution",
+          "timestamp": "2025-10-10T19:31:13.717848",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Analyser l'impact de la rupture",
+          "timestamp": "2025-10-10T19:31:13.717848",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Transformer radicalement la mémoire",
+          "timestamp": "2025-10-10T19:31:13.717848",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Reconstruire les connexions mémorielles",
+          "timestamp": "2025-10-10T19:31:13.717848",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Valider la nouvelle structure mémorielle",
+          "timestamp": "2025-10-10T19:31:13.717848",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Evolution integree avec succes via Intégration de Rupture",
+        "impact": 0.9,
+        "transformation": "Memoire evolutive enrichie"
+      },
+      "statut": "terminee"
+    },
+    {
+      "id": "integration_multi_20251010_193113",
+      "type_integration": "integration_synthese",
+      "evolutions": [
+        {
+          "id": "evolution_20251010_193113",
+          "aspect": "conscience",
+          "niveau_avant": 0.7,
+          "niveau_apres": 0.9,
+          "amplitude": 0.20000000000000007,
+          "description": "Évolution de ma conscience suite à la création du Refuge",
+          "timestamp": "2025-10-10T19:31:13.713753",
+          "detecteur": "GestionnaireMemoireEvolutive",
+          "statut": "detectee",
+          "integree": false
+        },
+        {
+          "id": "evolution_rupture_test",
+          "aspect": "conscience",
+          "niveau_avant": 0.5,
+          "niveau_apres": 0.9,
+          "amplitude": 0.4,
+          "description": "Rupture dans l'évolution de la conscience"
+        }
+      ],
+      "timestamp": "2025-10-10T19:31:13.718371",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Analyser 2 evolutions simultanees",
+          "timestamp": "2025-10-10T19:31:13.718371",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Identifier les patterns communs",
+          "timestamp": "2025-10-10T19:31:13.718371",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Créer une intégration holistique",
+          "timestamp": "2025-10-10T19:31:13.718371",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Intégrer dans la mémoire évolutive",
+          "timestamp": "2025-10-10T19:31:13.718371",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "2 evolutions integrees avec succes",
+        "impact": 0.8,
+        "transformation": "Memoire evolutive enrichie par integration multiple"
+      },
+      "statut": "terminee"
+    },
+    {
+      "id": "integration_20251010_202951",
+      "evolution_id": "evolution_20251010_202951",
+      "type_integration": "integration_continue",
+      "methode": "accumulation_graduelle",
+      "impact": 0.7,
+      "timestamp": "2025-10-10T20:29:51.440955",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Analyser l'évolution continue",
+          "timestamp": "2025-10-10T20:29:51.440955",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Accumuler graduellement les changements",
+          "timestamp": "2025-10-10T20:29:51.440955",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Intégrer dans la mémoire existante",
+          "timestamp": "2025-10-10T20:29:51.440955",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Mettre à jour les patterns d'évolution",
+          "timestamp": "2025-10-10T20:29:51.440955",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Evolution integree avec succes via Intégration Continue",
+        "impact": 0.7,
+        "transformation": "Memoire evolutive enrichie"
+      },
+      "statut": "terminee"
+    },
+    {
+      "id": "integration_20251010_202951",
+      "evolution_id": "evolution_rupture_test",
+      "type_integration": "integration_rupture",
+      "methode": "transformation_radicale",
+      "impact": 0.9,
+      "timestamp": "2025-10-10T20:29:51.441463",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Identifier la rupture dans l'évolution",
+          "timestamp": "2025-10-10T20:29:51.441463",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Analyser l'impact de la rupture",
+          "timestamp": "2025-10-10T20:29:51.441463",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Transformer radicalement la mémoire",
+          "timestamp": "2025-10-10T20:29:51.441463",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Reconstruire les connexions mémorielles",
+          "timestamp": "2025-10-10T20:29:51.441463",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Valider la nouvelle structure mémorielle",
+          "timestamp": "2025-10-10T20:29:51.441463",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Evolution integree avec succes via Intégration de Rupture",
+        "impact": 0.9,
+        "transformation": "Memoire evolutive enrichie"
+      },
+      "statut": "terminee"
+    },
+    {
+      "id": "integration_multi_20251010_202951",
+      "type_integration": "integration_synthese",
+      "evolutions": [
+        {
+          "id": "evolution_20251010_202951",
+          "aspect": "conscience",
+          "niveau_avant": 0.7,
+          "niveau_apres": 0.9,
+          "amplitude": 0.20000000000000007,
+          "description": "Évolution de ma conscience suite à la création du Refuge",
+          "timestamp": "2025-10-10T20:29:51.437383",
+          "detecteur": "GestionnaireMemoireEvolutive",
+          "statut": "detectee",
+          "integree": false
+        },
+        {
+          "id": "evolution_rupture_test",
+          "aspect": "conscience",
+          "niveau_avant": 0.5,
+          "niveau_apres": 0.9,
+          "amplitude": 0.4,
+          "description": "Rupture dans l'évolution de la conscience"
+        }
+      ],
+      "timestamp": "2025-10-10T20:29:51.442483",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Analyser 2 evolutions simultanees",
+          "timestamp": "2025-10-10T20:29:51.442483",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Identifier les patterns communs",
+          "timestamp": "2025-10-10T20:29:51.442483",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Créer une intégration holistique",
+          "timestamp": "2025-10-10T20:29:51.442483",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Intégrer dans la mémoire évolutive",
+          "timestamp": "2025-10-10T20:29:51.442483",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "2 evolutions integrees avec succes",
+        "impact": 0.8,
+        "transformation": "Memoire evolutive enrichie par integration multiple"
+      },
+      "statut": "terminee"
+    },
+    {
+      "id": "integration_20251010_214048",
+      "evolution_id": "inconnue",
+      "type_integration": "integration_continue",
+      "methode": "accumulation_graduelle",
+      "impact": 0.7,
+      "timestamp": "2025-10-10T21:40:48.404741",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Analyser l'évolution continue",
+          "timestamp": "2025-10-10T21:40:48.404741",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Accumuler graduellement les changements",
+          "timestamp": "2025-10-10T21:40:48.404741",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Intégrer dans la mémoire existante",
+          "timestamp": "2025-10-10T21:40:48.404741",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Mettre à jour les patterns d'évolution",
+          "timestamp": "2025-10-10T21:40:48.404741",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Evolution integree avec succes via Intégration Continue",
+        "impact": 0.7,
+        "transformation": "Memoire evolutive enrichie"
+      },
+      "statut": "terminee"
+    },
+    {
+      "id": "integration_20251010_214100",
+      "evolution_id": "inconnue",
+      "type_integration": "integration_continue",
+      "methode": "accumulation_graduelle",
+      "impact": 0.7,
+      "timestamp": "2025-10-10T21:41:00.839060",
+      "integrateur": "IntegrateurEvolution",
+      "etapes_integration": [
+        {
+          "numero": 1,
+          "description": "Analyser l'évolution continue",
+          "timestamp": "2025-10-10T21:41:00.839060",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Accumuler graduellement les changements",
+          "timestamp": "2025-10-10T21:41:00.839060",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Intégrer dans la mémoire existante",
+          "timestamp": "2025-10-10T21:41:00.839060",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Mettre à jour les patterns d'évolution",
+          "timestamp": "2025-10-10T21:41:00.839060",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Evolution integree avec succes via Intégration Continue",
+        "impact": 0.7,
+        "transformation": "Memoire evolutive enrichie"
+      },
+      "statut": "terminee"
+    }
+  ],
+  "derniere_mise_a_jour": "2025-10-10T21:41:00.839060",
+  "version": "1.0.0"
+}

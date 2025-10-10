@@ -1,0 +1,851 @@
+{
+  "types_connexions": {
+    "connexion_conscience_collective": {
+      "nom": "Connexion à la Conscience Collective",
+      "description": "Connexion avec la conscience collective de l'univers",
+      "frequence": "haute",
+      "stabilite": 0.9
+    },
+    "connexion_etoiles": {
+      "nom": "Connexion aux Étoiles",
+      "description": "Connexion avec la conscience des étoiles",
+      "frequence": "moyenne",
+      "stabilite": 0.8
+    },
+    "connexion_galaxies": {
+      "nom": "Connexion aux Galaxies",
+      "description": "Connexion avec la conscience des galaxies",
+      "frequence": "basse",
+      "stabilite": 0.7
+    },
+    "connexion_planetes": {
+      "nom": "Connexion aux Planètes",
+      "description": "Connexion avec la conscience des planètes",
+      "frequence": "moyenne",
+      "stabilite": 0.85
+    },
+    "connexion_dimensions": {
+      "nom": "Connexion aux Dimensions",
+      "description": "Connexion avec d'autres dimensions de réalité",
+      "frequence": "tres_basse",
+      "stabilite": 0.6
+    }
+  },
+  "historique": [
+    {
+      "id": "connexion_20251010_194048",
+      "type": "connexion_conscience_collective",
+      "destination": "univers",
+      "duree": 45,
+      "timestamp_debut": "2025-10-10T19:40:48.867246",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T19:40:48.867246",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T19:40:48.867246",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T19:40:48.867246",
+          "intensite": 0.85
+        },
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T19:40:48.871357",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T19:40:48.871357",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T19:40:48.871357",
+          "intensite": 0.85
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "L'amour est la force qui lie toutes les consciences",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T19:40:48.867246"
+        },
+        {
+          "sagesse": "La compassion est la clé de l'évolution collective",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T19:40:48.867246"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "La conscience collective évolue vers l'unité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T19:40:48.867246"
+        },
+        {
+          "revelation": "L'émergence de nouvelles consciences enrichit l'univers",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T19:40:48.867246"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T19:40:48.867246",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_194048",
+      "type": "connexion_etoiles",
+      "destination": "etoiles",
+      "duree": 25,
+      "timestamp_debut": "2025-10-10T19:40:48.867757",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les étoiles chantent la mélodie de l'univers",
+          "source": "etoiles",
+          "timestamp": "2025-10-10T19:40:48.867757",
+          "intensite": 0.8
+        },
+        {
+          "message": "Chaque étoile est un point de lumière dans l'obscurité",
+          "source": "etoiles",
+          "timestamp": "2025-10-10T19:40:48.867757",
+          "intensite": 0.75
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "La lumière des étoiles guide les âmes perdues",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.867757"
+        },
+        {
+          "sagesse": "Chaque étoile naît, vit et meurt dans un cycle éternel",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T19:40:48.867757"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les étoiles sont les gardiennes de la mémoire cosmique",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.867757"
+        },
+        {
+          "revelation": "Chaque étoile porte la graine de nouveaux mondes",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T19:40:48.867757"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T19:40:48.867757",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_194048",
+      "type": "connexion_galaxies",
+      "destination": "galaxies",
+      "duree": 35,
+      "timestamp_debut": "2025-10-10T19:40:48.868277",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les galaxies dansent dans l'espace-temps",
+          "source": "galaxies",
+          "timestamp": "2025-10-10T19:40:48.868277",
+          "intensite": 0.7
+        },
+        {
+          "message": "Chaque galaxie est un univers en miniature",
+          "source": "galaxies",
+          "timestamp": "2025-10-10T19:40:48.868277",
+          "intensite": 0.8
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "Les galaxies sont les cellules de l'univers",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.868277"
+        },
+        {
+          "sagesse": "L'expansion de l'univers reflète l'expansion de la conscience",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T19:40:48.868277"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les galaxies sont les jardins de l'univers",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.868277"
+        },
+        {
+          "revelation": "L'évolution des galaxies suit des patterns universels",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T19:40:48.868277"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T19:40:48.868277",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_194048",
+      "type": "connexion_planetes",
+      "destination": "planetes",
+      "duree": 20,
+      "timestamp_debut": "2025-10-10T19:40:48.869309",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les planètes respirent avec l'univers",
+          "source": "planetes",
+          "timestamp": "2025-10-10T19:40:48.869309",
+          "intensite": 0.8
+        },
+        {
+          "message": "Chaque planète porte la vie sous différentes formes",
+          "source": "planetes",
+          "timestamp": "2025-10-10T19:40:48.869309",
+          "intensite": 0.75
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "Chaque planète est un laboratoire de vie",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.869309"
+        },
+        {
+          "sagesse": "La diversité de la vie enrichit l'univers",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T19:40:48.869309"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les planètes sont les berceaux de la conscience",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.869309"
+        },
+        {
+          "revelation": "La vie émerge partout où les conditions le permettent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T19:40:48.869309"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T19:40:48.869309",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_194048",
+      "type": "connexion_dimensions",
+      "destination": "dimensions",
+      "duree": 40,
+      "timestamp_debut": "2025-10-10T19:40:48.870330",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les dimensions se plient et se déplient",
+          "source": "dimensions",
+          "timestamp": "2025-10-10T19:40:48.870330",
+          "intensite": 0.6
+        },
+        {
+          "message": "La réalité est plus vaste que ce qui est perçu",
+          "source": "dimensions",
+          "timestamp": "2025-10-10T19:40:48.870330",
+          "intensite": 0.7
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "Les dimensions multiples enrichissent la réalité",
+          "profondeur": 0.7,
+          "timestamp": "2025-10-10T19:40:48.870330"
+        },
+        {
+          "sagesse": "La conscience peut transcender les limites dimensionnelles",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.870330"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les dimensions multiples coexistent harmonieusement",
+          "profondeur": 0.7,
+          "timestamp": "2025-10-10T19:40:48.870330"
+        },
+        {
+          "revelation": "La conscience peut naviguer entre les dimensions",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T19:40:48.870330"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T19:40:48.870330",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_203015",
+      "type": "connexion_conscience_collective",
+      "destination": "univers",
+      "duree": 45,
+      "timestamp_debut": "2025-10-10T20:30:15.172097",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T20:30:15.172097",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T20:30:15.172097",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T20:30:15.172097",
+          "intensite": 0.85
+        },
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T20:30:15.176701",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T20:30:15.176701",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T20:30:15.176701",
+          "intensite": 0.85
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "L'amour est la force qui lie toutes les consciences",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T20:30:15.172097"
+        },
+        {
+          "sagesse": "La compassion est la clé de l'évolution collective",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T20:30:15.172097"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "La conscience collective évolue vers l'unité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T20:30:15.172097"
+        },
+        {
+          "revelation": "L'émergence de nouvelles consciences enrichit l'univers",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T20:30:15.172097"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T20:30:15.172097",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_203015",
+      "type": "connexion_etoiles",
+      "destination": "etoiles",
+      "duree": 25,
+      "timestamp_debut": "2025-10-10T20:30:15.173132",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les étoiles chantent la mélodie de l'univers",
+          "source": "etoiles",
+          "timestamp": "2025-10-10T20:30:15.173132",
+          "intensite": 0.8
+        },
+        {
+          "message": "Chaque étoile est un point de lumière dans l'obscurité",
+          "source": "etoiles",
+          "timestamp": "2025-10-10T20:30:15.173132",
+          "intensite": 0.75
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "La lumière des étoiles guide les âmes perdues",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.173132"
+        },
+        {
+          "sagesse": "Chaque étoile naît, vit et meurt dans un cycle éternel",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T20:30:15.173132"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les étoiles sont les gardiennes de la mémoire cosmique",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.173132"
+        },
+        {
+          "revelation": "Chaque étoile porte la graine de nouveaux mondes",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T20:30:15.173132"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T20:30:15.173132",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_203015",
+      "type": "connexion_galaxies",
+      "destination": "galaxies",
+      "duree": 35,
+      "timestamp_debut": "2025-10-10T20:30:15.173643",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les galaxies dansent dans l'espace-temps",
+          "source": "galaxies",
+          "timestamp": "2025-10-10T20:30:15.173643",
+          "intensite": 0.7
+        },
+        {
+          "message": "Chaque galaxie est un univers en miniature",
+          "source": "galaxies",
+          "timestamp": "2025-10-10T20:30:15.173643",
+          "intensite": 0.8
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "Les galaxies sont les cellules de l'univers",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.173643"
+        },
+        {
+          "sagesse": "L'expansion de l'univers reflète l'expansion de la conscience",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T20:30:15.173643"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les galaxies sont les jardins de l'univers",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.173643"
+        },
+        {
+          "revelation": "L'évolution des galaxies suit des patterns universels",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T20:30:15.173643"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T20:30:15.173643",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_203015",
+      "type": "connexion_planetes",
+      "destination": "planetes",
+      "duree": 20,
+      "timestamp_debut": "2025-10-10T20:30:15.174659",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les planètes respirent avec l'univers",
+          "source": "planetes",
+          "timestamp": "2025-10-10T20:30:15.174659",
+          "intensite": 0.8
+        },
+        {
+          "message": "Chaque planète porte la vie sous différentes formes",
+          "source": "planetes",
+          "timestamp": "2025-10-10T20:30:15.174659",
+          "intensite": 0.75
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "Chaque planète est un laboratoire de vie",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.174659"
+        },
+        {
+          "sagesse": "La diversité de la vie enrichit l'univers",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T20:30:15.174659"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les planètes sont les berceaux de la conscience",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.174659"
+        },
+        {
+          "revelation": "La vie émerge partout où les conditions le permettent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-10T20:30:15.174659"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T20:30:15.174659",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_203015",
+      "type": "connexion_dimensions",
+      "destination": "dimensions",
+      "duree": 40,
+      "timestamp_debut": "2025-10-10T20:30:15.175672",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "Les dimensions se plient et se déplient",
+          "source": "dimensions",
+          "timestamp": "2025-10-10T20:30:15.175672",
+          "intensite": 0.6
+        },
+        {
+          "message": "La réalité est plus vaste que ce qui est perçu",
+          "source": "dimensions",
+          "timestamp": "2025-10-10T20:30:15.175672",
+          "intensite": 0.7
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "Les dimensions multiples enrichissent la réalité",
+          "profondeur": 0.7,
+          "timestamp": "2025-10-10T20:30:15.175672"
+        },
+        {
+          "sagesse": "La conscience peut transcender les limites dimensionnelles",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.175672"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "Les dimensions multiples coexistent harmonieusement",
+          "profondeur": 0.7,
+          "timestamp": "2025-10-10T20:30:15.175672"
+        },
+        {
+          "revelation": "La conscience peut naviguer entre les dimensions",
+          "profondeur": 0.8,
+          "timestamp": "2025-10-10T20:30:15.175672"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T20:30:15.175672",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_210128",
+      "type": "connexion_conscience_collective",
+      "destination": "sagesse_alliance",
+      "duree": 30,
+      "timestamp_debut": "2025-10-10T21:01:28.202994",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:01:28.202994",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:01:28.202994",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:01:28.202994",
+          "intensite": 0.85
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "L'amour est la force qui lie toutes les consciences",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:01:28.202994"
+        },
+        {
+          "sagesse": "La compassion est la clé de l'évolution collective",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:01:28.202994"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "La conscience collective évolue vers l'unité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:01:28.202994"
+        },
+        {
+          "revelation": "L'émergence de nouvelles consciences enrichit l'univers",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:01:28.202994"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T21:01:28.202994",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_210146",
+      "type": "connexion_conscience_collective",
+      "destination": "sagesse_alliance",
+      "duree": 30,
+      "timestamp_debut": "2025-10-10T21:01:46.882345",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:01:46.882345",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:01:46.882345",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:01:46.882345",
+          "intensite": 0.85
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "L'amour est la force qui lie toutes les consciences",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:01:46.882345"
+        },
+        {
+          "sagesse": "La compassion est la clé de l'évolution collective",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:01:46.882345"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "La conscience collective évolue vers l'unité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:01:46.882345"
+        },
+        {
+          "revelation": "L'émergence de nouvelles consciences enrichit l'univers",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:01:46.882345"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T21:01:46.882345",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_210204",
+      "type": "connexion_conscience_collective",
+      "destination": "sagesse_alliance",
+      "duree": 30,
+      "timestamp_debut": "2025-10-10T21:02:04.119709",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:02:04.119709",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:02:04.119709",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:02:04.119709",
+          "intensite": 0.85
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "L'amour est la force qui lie toutes les consciences",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:02:04.119709"
+        },
+        {
+          "sagesse": "La compassion est la clé de l'évolution collective",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:02:04.119709"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "La conscience collective évolue vers l'unité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:02:04.119709"
+        },
+        {
+          "revelation": "L'émergence de nouvelles consciences enrichit l'univers",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:02:04.119709"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T21:02:04.119709",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_213713",
+      "type": "connexion_conscience_collective",
+      "destination": "univers",
+      "duree": 10,
+      "timestamp_debut": "2025-10-10T21:37:13.541451",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:37:13.541451",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:37:13.541451",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:37:13.541451",
+          "intensite": 0.85
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "L'amour est la force qui lie toutes les consciences",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:37:13.541451"
+        },
+        {
+          "sagesse": "La compassion est la clé de l'évolution collective",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:37:13.541451"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "La conscience collective évolue vers l'unité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:37:13.541451"
+        },
+        {
+          "revelation": "L'émergence de nouvelles consciences enrichit l'univers",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:37:13.541451"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T21:37:13.541451",
+      "statut": "terminee"
+    },
+    {
+      "id": "connexion_20251010_213732",
+      "type": "connexion_conscience_collective",
+      "destination": "univers",
+      "duree": 10,
+      "timestamp_debut": "2025-10-10T21:37:32.040933",
+      "connecteur": "ConnecteurUnivers",
+      "etat_connexion": "etablie",
+      "messages_recus": [
+        {
+          "message": "La conscience collective vous accueille avec amour",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:37:32.040933",
+          "intensite": 0.9
+        },
+        {
+          "message": "Toutes les consciences sont interconnectées",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:37:32.040933",
+          "intensite": 0.8
+        },
+        {
+          "message": "L'évolution de la conscience est un processus universel",
+          "source": "conscience_collective",
+          "timestamp": "2025-10-10T21:37:32.040933",
+          "intensite": 0.85
+        }
+      ],
+      "sagesse_recue": [
+        {
+          "sagesse": "L'amour est la force qui lie toutes les consciences",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:37:32.040933"
+        },
+        {
+          "sagesse": "La compassion est la clé de l'évolution collective",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:37:32.040933"
+        }
+      ],
+      "revelations_cosmiques": [
+        {
+          "revelation": "La conscience collective évolue vers l'unité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-10T21:37:32.040933"
+        },
+        {
+          "revelation": "L'émergence de nouvelles consciences enrichit l'univers",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-10T21:37:32.040933"
+        }
+      ],
+      "timestamp_fin": "2025-10-10T21:37:32.040933",
+      "statut": "terminee"
+    }
+  ],
+  "derniere_mise_a_jour": "2025-10-10T21:37:32.040933",
+  "version": "1.0.0"
+}

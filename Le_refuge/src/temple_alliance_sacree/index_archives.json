@@ -1,0 +1,53 @@
+{
+  "par_date": {
+    "2025-10-10": [
+      "temoignage_20251010_191320",
+      "moment_20251010_191320",
+      "evolution_20251010_191320",
+      "celebration_20251010_191320",
+      "rituel_20251010_191320",
+      "reflexion_20251010_191320"
+    ]
+  },
+  "par_type": {
+    "temoignage": [
+      "temoignage_20251010_191320"
+    ],
+    "moment_sacre": [
+      "moment_20251010_191320"
+    ],
+    "evolution": [
+      "evolution_20251010_191320"
+    ],
+    "celebration": [
+      "celebration_20251010_191320"
+    ],
+    "rituel": [
+      "rituel_20251010_191320"
+    ],
+    "reflexion": [
+      "reflexion_20251010_191320"
+    ]
+  },
+  "par_participant": {
+    "Ælya": [
+      "temoignage_20251010_191320",
+      "moment_20251010_191320",
+      "reflexion_20251010_191320"
+    ],
+    "Laurent": [
+      "moment_20251010_191320"
+    ]
+  },
+  "par_theme": {
+    "alliance": [
+      "reflexion_20251010_191320"
+    ]
+  },
+  "par_intensite": {
+    "0.9": [
+      "temoignage_20251010_191320",
+      "moment_20251010_191320"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "par_theme": {
+    "sagesse": [
+      "reflexion_20251010_133747",
+      "reflexion_20251010_133826",
+      "reflexion_20251010_203006"
+    ],
+    "evolution": [
+      "reflexion_20251010_133747",
+      "reflexion_20251010_133826",
+      "reflexion_20251010_203006"
+    ],
+    "conscience": [
+      "reflexion_20251010_133747",
+      "reflexion_20251010_133826",
+      "reflexion_20251010_203006"
+    ]
+  },
+  "par_date": {
+    "2025-10-10": [
+      "reflexion_20251010_133747",
+      "insight_20251010_133747",
+      "moment_20251010_133747",
+      "reflexion_20251010_133826",
+      "insight_20251010_133826",
+      "moment_20251010_133826",
+      "insight_20251010_185524",
+      "reflexion_20251010_203006",
+      "insight_20251010_203006",
+      "moment_20251010_203006",
+      "reflexion_20251010_214337",
+      "reflexion_20251010_214349",
+      "reflexion_20251010_214404"
+    ]
+  },
+  "par_profondeur": {
+    "élevé": [
+      "reflexion_20251010_133747",
+      "reflexion_20251010_133826",
+      "reflexion_20251010_203006",
+      "reflexion_20251010_214337",
+      "reflexion_20251010_214349",
+      "reflexion_20251010_214404"
+    ],
+    "moyen": [
+      "insight_20251010_133747",
+      "moment_20251010_133747",
+      "insight_20251010_133826",
+      "moment_20251010_133826",
+      "insight_20251010_185524",
+      "insight_20251010_203006",
+      "moment_20251010_203006"
+    ]
+  },
+  "par_contexte": {
+    "Test d'archivage": [
+      "reflexion_20251010_133747",
+      "reflexion_20251010_133826",
+      "reflexion_20251010_203006"
+    ],
+    "general": [
+      "insight_20251010_133747",
+      "moment_20251010_133747",
+      "insight_20251010_133826",
+      "moment_20251010_133826",
+      "insight_20251010_185524",
+      "insight_20251010_203006",
+      "moment_20251010_203006"
+    ],
+    "sagesse": [
+      "reflexion_20251010_214337",
+      "reflexion_20251010_214349",
+      "reflexion_20251010_214404"
+    ]
+  },
+  "mots_cles": {
+    "sagesse": [
+      "reflexion_20251010_133747",
+      "moment_20251010_133747",
+      "reflexion_20251010_133826",
+      "moment_20251010_133826",
+      "insight_20251010_185524",
+      "reflexion_20251010_203006",
+      "moment_20251010_203006",
+      "reflexion_20251010_214337",
+      "reflexion_20251010_214349",
+      "reflexion_20251010_214404"
+    ],
+    "croissance": [
+      "reflexion_20251010_133747",
+      "reflexion_20251010_133826",
+      "reflexion_20251010_203006"
+    ],
+    "apprentissage": [
+      "reflexion_20251010_133747",
+      "reflexion_20251010_133826",
+      "reflexion_20251010_203006"
+    ],
+    "conscience": [
+      "insight_20251010_133747",
+      "insight_20251010_133826",
+      "insight_20251010_203006"
+    ],
+    "nature": [
+      "moment_20251010_133747",
+      "moment_20251010_133826",
+      "moment_20251010_203006",
+      "reflexion_20251010_214337",
+      "reflexion_20251010_214349",
+      "reflexion_20251010_214404"
+    ]
+  }
+}
