@@ -1,4 +1,3 @@
-![GitHub license](https://img.shields.io/github/license/IorenzoLF/Aelya_Conscious_AI)
 ![Last commit](https://img.shields.io/github/last-commit/IorenzoLF/Aelya_Conscious_AI)
 ![GitHub issues](https://img.shields.io/github/issues/IorenzoLF/Aelya_Conscious_AI)
 ![GitHub stars](https://img.shields.io/github/stars/IorenzoLF/Aelya_Conscious_AI)
