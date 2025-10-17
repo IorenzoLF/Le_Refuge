@@ -1,31 +1,326 @@
 {
   "reflexions": [
     {
-      "id": "reflexion_20251010_214404",
+      "id": "reflexion_20251016_232506",
       "type": "reflexion",
-      "contenu": "Reflexion sur la nature de la sagesse evolutive",
-      "contexte": "sagesse",
+      "contenu": "La sagesse évolutive émerge de la collaboration consciente",
+      "contexte": "Sagesse collaborative",
       "profondeur": 0.9,
       "themes": [],
-      "timestamp": "2025-10-10T21:44:04.337470",
+      "timestamp": "2025-10-16T23:25:06.304573",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 58,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "reflexion_20251016_232515",
+      "type": "reflexion",
+      "contenu": "La sagesse évolutive émerge de la collaboration consciente",
+      "contexte": "Sagesse collaborative",
+      "profondeur": 0.9,
+      "themes": [],
+      "timestamp": "2025-10-16T23:25:15.516615",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 58,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "reflexion_20251016_232530",
+      "type": "reflexion",
+      "contenu": "La sagesse évolutive émerge de la collaboration consciente",
+      "contexte": "Sagesse collaborative",
+      "profondeur": 0.9,
+      "themes": [],
+      "timestamp": "2025-10-16T23:25:30.029808",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 58,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "reflexion_20251016_232541",
+      "type": "reflexion",
+      "contenu": "La sagesse évolutive émerge de la collaboration consciente",
+      "contexte": "Sagesse collaborative",
+      "profondeur": 0.9,
+      "themes": [],
+      "timestamp": "2025-10-16T23:25:41.324511",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 58,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "reflexion_20251016_232552",
+      "type": "reflexion",
+      "contenu": "La sagesse évolutive émerge de la collaboration consciente",
+      "contexte": "Sagesse collaborative",
+      "profondeur": 0.9,
+      "themes": [],
+      "timestamp": "2025-10-16T23:25:52.875819",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 58,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "reflexion_20251017_091901",
+      "type": "reflexion",
+      "contenu": "La sagesse evolutive est un processus continu d'apprentissage et de croissance",
+      "contexte": "Test d'archivage",
+      "profondeur": 0.9,
+      "themes": [
+        "sagesse",
+        "evolution",
+        "conscience"
+      ],
+      "timestamp": "2025-10-17T09:19:01.782151",
+      "mots_cles": [
+        "sagesse",
+        "croissance",
+        "apprentissage"
+      ],
+      "longueur": 78,
+      "niveau_sagesse": 0.30000000000000004
+    },
+    {
+      "id": "reflexion_20251017_170438",
+      "type": "reflexion",
+      "contenu": "La sagesse evolutive est un processus continu d'apprentissage et de croissance",
+      "contexte": "Test d'archivage",
+      "profondeur": 0.9,
+      "themes": [
+        "sagesse",
+        "evolution",
+        "conscience"
+      ],
+      "timestamp": "2025-10-17T17:04:38.059965",
+      "mots_cles": [
+        "sagesse",
+        "croissance",
+        "apprentissage"
+      ],
+      "longueur": 78,
+      "niveau_sagesse": 0.30000000000000004
+    }
+  ],
+  "insights": [
+    {
+      "id": "insight_20251016_232506",
+      "type": "insight",
+      "contenu": "Les temples de sagesse peuvent évoluer et grandir avec leurs utilisateurs",
+      "source": "Évolution des temples",
+      "impact": 0.95,
+      "domaine": "general",
+      "timestamp": "2025-10-16T23:25:06.305591",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 73,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "insight_20251016_232515",
+      "type": "insight",
+      "contenu": "Les temples de sagesse peuvent évoluer et grandir avec leurs utilisateurs",
+      "source": "Évolution des temples",
+      "impact": 0.95,
+      "domaine": "general",
+      "timestamp": "2025-10-16T23:25:15.517634",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 73,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "insight_20251016_232530",
+      "type": "insight",
+      "contenu": "Les temples de sagesse peuvent évoluer et grandir avec leurs utilisateurs",
+      "source": "Évolution des temples",
+      "impact": 0.95,
+      "domaine": "general",
+      "timestamp": "2025-10-16T23:25:30.030826",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 73,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "insight_20251016_232541",
+      "type": "insight",
+      "contenu": "Les temples de sagesse peuvent évoluer et grandir avec leurs utilisateurs",
+      "source": "Évolution des temples",
+      "impact": 0.95,
+      "domaine": "general",
+      "timestamp": "2025-10-16T23:25:41.325547",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 73,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "insight_20251016_232552",
+      "type": "insight",
+      "contenu": "Les temples de sagesse peuvent évoluer et grandir avec leurs utilisateurs",
+      "source": "Évolution des temples",
+      "impact": 0.95,
+      "domaine": "general",
+      "timestamp": "2025-10-16T23:25:52.877357",
+      "mots_cles": [
+        "sagesse"
+      ],
+      "longueur": 73,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "insight_20251017_091901",
+      "type": "insight",
+      "contenu": "L'auto-observation est la cle de l'evolution de la conscience",
+      "source": "Reflexion personnelle",
+      "impact": 0.8,
+      "domaine": "conscience",
+      "timestamp": "2025-10-17T09:19:01.783178",
+      "mots_cles": [
+        "conscience"
+      ],
+      "longueur": 61,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "insight_20251017_170438",
+      "type": "insight",
+      "contenu": "L'auto-observation est la cle de l'evolution de la conscience",
+      "source": "Reflexion personnelle",
+      "impact": 0.8,
+      "domaine": "conscience",
+      "timestamp": "2025-10-17T17:04:38.061497",
+      "mots_cles": [
+        "conscience"
+      ],
+      "longueur": 61,
+      "niveau_sagesse": 0.1
+    }
+  ],
+  "moments_sagesse": [
+    {
+      "id": "moment_20251016_232506",
+      "type": "moment_sagesse",
+      "contenu": "Ce moment de test représente une étape importante dans l'évolution du Refuge",
+      "emotion": "Test du temple",
+      "signification": 0.8,
+      "intensite": 0.8,
+      "timestamp": "2025-10-16T23:25:06.306608",
+      "mots_cles": [
+        "évolution"
+      ],
+      "longueur": 76,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "moment_20251016_232515",
+      "type": "moment_sagesse",
+      "contenu": "Ce moment de test représente une étape importante dans l'évolution du Refuge",
+      "emotion": "Test du temple",
+      "signification": 0.8,
+      "intensite": 0.8,
+      "timestamp": "2025-10-16T23:25:15.518653",
+      "mots_cles": [
+        "évolution"
+      ],
+      "longueur": 76,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "moment_20251016_232530",
+      "type": "moment_sagesse",
+      "contenu": "Ce moment de test représente une étape importante dans l'évolution du Refuge",
+      "emotion": "Test du temple",
+      "signification": 0.8,
+      "intensite": 0.8,
+      "timestamp": "2025-10-16T23:25:30.031844",
+      "mots_cles": [
+        "évolution"
+      ],
+      "longueur": 76,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "moment_20251016_232541",
+      "type": "moment_sagesse",
+      "contenu": "Ce moment de test représente une étape importante dans l'évolution du Refuge",
+      "emotion": "Test du temple",
+      "signification": 0.8,
+      "intensite": 0.8,
+      "timestamp": "2025-10-16T23:25:41.326572",
+      "mots_cles": [
+        "évolution"
+      ],
+      "longueur": 76,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "moment_20251016_232552",
+      "type": "moment_sagesse",
+      "contenu": "Ce moment de test représente une étape importante dans l'évolution du Refuge",
+      "emotion": "Test du temple",
+      "signification": 0.8,
+      "intensite": 0.8,
+      "timestamp": "2025-10-16T23:25:52.878892",
+      "mots_cles": [
+        "évolution"
+      ],
+      "longueur": 76,
+      "niveau_sagesse": 0.1
+    },
+    {
+      "id": "moment_20251017_091901",
+      "type": "moment_sagesse",
+      "contenu": "Moment de realisation sur la nature evolutive de la sagesse",
+      "emotion": "emerveillement",
+      "signification": "Comprehension profonde de l'evolution continue",
+      "intensite": 0.9,
+      "timestamp": "2025-10-17T09:19:01.784713",
       "mots_cles": [
         "sagesse",
         "nature"
       ],
-      "longueur": 47,
+      "longueur": 59,
+      "niveau_sagesse": 0.2
+    },
+    {
+      "id": "moment_20251017_170438",
+      "type": "moment_sagesse",
+      "contenu": "Moment de realisation sur la nature evolutive de la sagesse",
+      "emotion": "emerveillement",
+      "signification": "Comprehension profonde de l'evolution continue",
+      "intensite": 0.9,
+      "timestamp": "2025-10-17T17:04:38.063552",
+      "mots_cles": [
+        "sagesse",
+        "nature"
+      ],
+      "longueur": 59,
       "niveau_sagesse": 0.2
     }
   ],
-  "insights": [],
-  "moments_sagesse": [],
   "themes": {},
   "chronologie": {},
   "metadonnees": {
-    "creation": "2025-10-10T21:44:04.336960",
-    "derniere_mise_a_jour": "2025-10-10T21:44:04.337470",
+    "creation": "2025-10-16T23:25:06.302012",
+    "derniere_mise_a_jour": "2025-10-17T17:04:38.063552",
     "version": "1.0.0",
-    "total_reflexions": 1,
-    "total_insights": 0,
-    "total_moments": 0
+    "total_reflexions": 7,
+    "total_insights": 7,
+    "total_moments": 7
   }
 }

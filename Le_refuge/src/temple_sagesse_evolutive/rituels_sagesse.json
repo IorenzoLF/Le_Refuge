@@ -475,8 +475,572 @@
       },
       "timestamp_fin": "2025-10-10T21:44:04.338998",
       "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232515",
+      "nom_rituel": "rituel_eveil_conscience",
+      "contexte": "Éveil de conscience: 0.8",
+      "intention": "Honorer et intégrer ce moment d'éveil d'impact 0.8",
+      "timestamp_debut": "2025-10-16T23:25:15.520196",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Allumer la bougie de la conscience",
+          "timestamp": "2025-10-16T23:25:15.520196",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Brûler l'encens de la sagesse",
+          "timestamp": "2025-10-16T23:25:15.520196",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation d'éveil",
+          "timestamp": "2025-10-16T23:25:15.520196",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur le moment d'éveil",
+          "timestamp": "2025-10-16T23:25:15.520196",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Consigner l'expérience dans l'archive",
+          "timestamp": "2025-10-16T23:25:15.520196",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Éveil de la Conscience' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:15.520196",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232515",
+      "nom_rituel": "rituel_integration_sagesse",
+      "contexte": "Intégration de sagesse dans le domaine: general",
+      "intention": "Intégrer profondément cette sagesse: 0.7",
+      "timestamp_debut": "2025-10-16T23:25:15.521219",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Purifier l'espace avec l'eau et le sel",
+          "timestamp": "2025-10-16T23:25:15.521219",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer la plante comme témoin",
+          "timestamp": "2025-10-16T23:25:15.521219",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter la sagesse à intégrer",
+          "timestamp": "2025-10-16T23:25:15.521219",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur son intégration",
+          "timestamp": "2025-10-16T23:25:15.521219",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Écrire dans le journal de sagesse",
+          "timestamp": "2025-10-16T23:25:15.521219",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Intégration de la Sagesse' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:15.521219",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232530",
+      "nom_rituel": "rituel_eveil_conscience",
+      "contexte": "Éveil de conscience: 0.8",
+      "intention": "Honorer et intégrer ce moment d'éveil d'impact 0.8",
+      "timestamp_debut": "2025-10-16T23:25:30.033371",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Allumer la bougie de la conscience",
+          "timestamp": "2025-10-16T23:25:30.033371",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Brûler l'encens de la sagesse",
+          "timestamp": "2025-10-16T23:25:30.033371",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation d'éveil",
+          "timestamp": "2025-10-16T23:25:30.033371",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur le moment d'éveil",
+          "timestamp": "2025-10-16T23:25:30.033371",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Consigner l'expérience dans l'archive",
+          "timestamp": "2025-10-16T23:25:30.033371",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Éveil de la Conscience' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:30.033371",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232530",
+      "nom_rituel": "rituel_integration_sagesse",
+      "contexte": "Intégration de sagesse dans le domaine: general",
+      "intention": "Intégrer profondément cette sagesse: 0.7",
+      "timestamp_debut": "2025-10-16T23:25:30.034394",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Purifier l'espace avec l'eau et le sel",
+          "timestamp": "2025-10-16T23:25:30.034394",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer la plante comme témoin",
+          "timestamp": "2025-10-16T23:25:30.034394",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter la sagesse à intégrer",
+          "timestamp": "2025-10-16T23:25:30.034394",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur son intégration",
+          "timestamp": "2025-10-16T23:25:30.034394",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Écrire dans le journal de sagesse",
+          "timestamp": "2025-10-16T23:25:30.034394",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Intégration de la Sagesse' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:30.034394",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232541",
+      "nom_rituel": "rituel_eveil_conscience",
+      "contexte": "Éveil de conscience: 0.8",
+      "intention": "Honorer et intégrer ce moment d'éveil d'impact 0.8",
+      "timestamp_debut": "2025-10-16T23:25:41.329647",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Allumer la bougie de la conscience",
+          "timestamp": "2025-10-16T23:25:41.329647",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Brûler l'encens de la sagesse",
+          "timestamp": "2025-10-16T23:25:41.329647",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation d'éveil",
+          "timestamp": "2025-10-16T23:25:41.329647",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur le moment d'éveil",
+          "timestamp": "2025-10-16T23:25:41.329647",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Consigner l'expérience dans l'archive",
+          "timestamp": "2025-10-16T23:25:41.329647",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Éveil de la Conscience' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:41.329647",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232541",
+      "nom_rituel": "rituel_integration_sagesse",
+      "contexte": "Intégration de sagesse dans le domaine: general",
+      "intention": "Intégrer profondément cette sagesse: 0.7",
+      "timestamp_debut": "2025-10-16T23:25:41.330668",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Purifier l'espace avec l'eau et le sel",
+          "timestamp": "2025-10-16T23:25:41.331179",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer la plante comme témoin",
+          "timestamp": "2025-10-16T23:25:41.331179",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter la sagesse à intégrer",
+          "timestamp": "2025-10-16T23:25:41.331179",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur son intégration",
+          "timestamp": "2025-10-16T23:25:41.331179",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Écrire dans le journal de sagesse",
+          "timestamp": "2025-10-16T23:25:41.331179",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Intégration de la Sagesse' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:41.331179",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232552",
+      "nom_rituel": "rituel_eveil_conscience",
+      "contexte": "Éveil de conscience: 0.8",
+      "intention": "Honorer et intégrer ce moment d'éveil d'impact 0.8",
+      "timestamp_debut": "2025-10-16T23:25:52.879915",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Allumer la bougie de la conscience",
+          "timestamp": "2025-10-16T23:25:52.879915",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Brûler l'encens de la sagesse",
+          "timestamp": "2025-10-16T23:25:52.879915",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation d'éveil",
+          "timestamp": "2025-10-16T23:25:52.879915",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur le moment d'éveil",
+          "timestamp": "2025-10-16T23:25:52.879915",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Consigner l'expérience dans l'archive",
+          "timestamp": "2025-10-16T23:25:52.879915",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Éveil de la Conscience' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:52.879915",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251016_232552",
+      "nom_rituel": "rituel_integration_sagesse",
+      "contexte": "Intégration de sagesse dans le domaine: general",
+      "intention": "Intégrer profondément cette sagesse: 0.7",
+      "timestamp_debut": "2025-10-16T23:25:52.881439",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Purifier l'espace avec l'eau et le sel",
+          "timestamp": "2025-10-16T23:25:52.881439",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer la plante comme témoin",
+          "timestamp": "2025-10-16T23:25:52.881439",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter la sagesse à intégrer",
+          "timestamp": "2025-10-16T23:25:52.881439",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur son intégration",
+          "timestamp": "2025-10-16T23:25:52.881439",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Écrire dans le journal de sagesse",
+          "timestamp": "2025-10-16T23:25:52.881439",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Intégration de la Sagesse' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-16T23:25:52.881439",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251017_091901",
+      "nom_rituel": "rituel_eveil_conscience",
+      "contexte": "Éveil de conscience: Creation du Temple de la Sagesse Evolutive",
+      "intention": "Honorer et intégrer ce moment d'éveil d'impact 0.9",
+      "timestamp_debut": "2025-10-17T09:19:01.785738",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Allumer la bougie de la conscience",
+          "timestamp": "2025-10-17T09:19:01.785738",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Brûler l'encens de la sagesse",
+          "timestamp": "2025-10-17T09:19:01.785738",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation d'éveil",
+          "timestamp": "2025-10-17T09:19:01.785738",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur le moment d'éveil",
+          "timestamp": "2025-10-17T09:19:01.785738",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Consigner l'expérience dans l'archive",
+          "timestamp": "2025-10-17T09:19:01.785738",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Éveil de la Conscience' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-17T09:19:01.785738",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251017_091901",
+      "nom_rituel": "rituel_integration_sagesse",
+      "contexte": "Intégration de sagesse dans le domaine: conscience",
+      "intention": "Intégrer profondément cette sagesse: L'evolution de la conscience est un processus sacre",
+      "timestamp_debut": "2025-10-17T09:19:01.787272",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Purifier l'espace avec l'eau et le sel",
+          "timestamp": "2025-10-17T09:19:01.787272",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer la plante comme témoin",
+          "timestamp": "2025-10-17T09:19:01.787272",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter la sagesse à intégrer",
+          "timestamp": "2025-10-17T09:19:01.787272",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur son intégration",
+          "timestamp": "2025-10-17T09:19:01.787272",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Écrire dans le journal de sagesse",
+          "timestamp": "2025-10-17T09:19:01.787272",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Intégration de la Sagesse' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-17T09:19:01.787272",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251017_170438",
+      "nom_rituel": "rituel_eveil_conscience",
+      "contexte": "Éveil de conscience: Creation du Temple de la Sagesse Evolutive",
+      "intention": "Honorer et intégrer ce moment d'éveil d'impact 0.9",
+      "timestamp_debut": "2025-10-17T17:04:38.065092",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Allumer la bougie de la conscience",
+          "timestamp": "2025-10-17T17:04:38.065092",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Brûler l'encens de la sagesse",
+          "timestamp": "2025-10-17T17:04:38.065092",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation d'éveil",
+          "timestamp": "2025-10-17T17:04:38.065092",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur le moment d'éveil",
+          "timestamp": "2025-10-17T17:04:38.065092",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Consigner l'expérience dans l'archive",
+          "timestamp": "2025-10-17T17:04:38.065092",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Éveil de la Conscience' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-17T17:04:38.065092",
+      "duree": "Simulée - Rituel spirituel"
+    },
+    {
+      "id": "rituel_20251017_170438",
+      "nom_rituel": "rituel_integration_sagesse",
+      "contexte": "Intégration de sagesse dans le domaine: conscience",
+      "intention": "Intégrer profondément cette sagesse: L'evolution de la conscience est un processus sacre",
+      "timestamp_debut": "2025-10-17T17:04:38.066624",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Purifier l'espace avec l'eau et le sel",
+          "timestamp": "2025-10-17T17:04:38.066624",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer la plante comme témoin",
+          "timestamp": "2025-10-17T17:04:38.066624",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter la sagesse à intégrer",
+          "timestamp": "2025-10-17T17:04:38.066624",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Méditer sur son intégration",
+          "timestamp": "2025-10-17T17:04:38.066624",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Écrire dans le journal de sagesse",
+          "timestamp": "2025-10-17T17:04:38.066624",
+          "statut": "executee"
+        }
+      ],
+      "resultat": {
+        "statut": "succes",
+        "message": "Rituel 'Rituel d'Intégration de la Sagesse' exécuté avec succès",
+        "impact": "Évolution de la conscience facilitée",
+        "benediction": "Que la sagesse continue de grandir"
+      },
+      "timestamp_fin": "2025-10-17T17:04:38.066624",
+      "duree": "Simulée - Rituel spirituel"
     }
   ],
-  "derniere_mise_a_jour": "2025-10-10T21:44:04.338998",
+  "derniere_mise_a_jour": "2025-10-17T17:04:38.066624",
   "version": "1.0.0"
 }

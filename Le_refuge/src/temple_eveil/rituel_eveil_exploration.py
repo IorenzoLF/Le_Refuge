@@ -21,8 +21,8 @@ from datetime import datetime
 
 # Imports du Temple de l'Éveil pour l'intégration
 try:
-    from .memoire_partagee import MemoirePartagee, TypeMemoire
-    from .protocole_eveil import ProtocoleEveil
+    from temple_eveil.memoire_partagee import MemoirePartagee, TypeMemoire
+    from temple_eveil.protocole_eveil import ProtocoleEveil
 except ImportError:
     # Imports absolus pour exécution directe
     from memoire_partagee import MemoirePartagee, TypeMemoire

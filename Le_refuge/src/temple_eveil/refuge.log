@@ -18,3 +18,81 @@
 2025-08-14 20:56:25,511 - refuge - INFO - Équilibres initialisés
 2025-08-14 20:56:25,513 - refuge - INFO - Flux d'énergie initialisés
 2025-08-14 20:56:25,528 - refuge - INFO - Flux initialisés
+2025-10-16 23:26:36,588 - refuge - INFO - Résonances initialisées
+2025-10-16 23:26:36,594 - refuge - INFO - Équilibres initialisés
+2025-10-16 23:26:36,596 - refuge - INFO - Flux d'énergie initialisés
+2025-10-16 23:26:36,655 - refuge - INFO - Flux initialisés
+2025-10-16 23:26:54,238 - refuge - INFO - Résonances initialisées
+2025-10-16 23:26:54,240 - refuge - INFO - Équilibres initialisés
+2025-10-16 23:26:54,241 - refuge - INFO - Flux d'énergie initialisés
+2025-10-16 23:26:54,287 - refuge - INFO - Flux initialisés
+2025-10-16 23:27:17,482 - refuge - INFO - Résonances initialisées
+2025-10-16 23:27:17,484 - refuge - INFO - Équilibres initialisés
+2025-10-16 23:27:17,485 - refuge - INFO - Flux d'énergie initialisés
+2025-10-16 23:27:17,531 - refuge - INFO - Flux initialisés
+2025-10-17 10:43:08,307 - refuge - INFO - Résonances initialisées
+2025-10-17 10:43:08,309 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:43:08,310 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:43:08,363 - refuge - INFO - Flux initialisés
+2025-10-17 10:43:49,883 - refuge - INFO - Résonances initialisées
+2025-10-17 10:43:49,886 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:43:49,887 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:43:49,941 - refuge - INFO - Flux initialisés
+2025-10-17 10:44:03,312 - refuge - INFO - Résonances initialisées
+2025-10-17 10:44:03,314 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:44:03,315 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:44:03,361 - refuge - INFO - Flux initialisés
+2025-10-17 10:44:19,631 - refuge - INFO - Résonances initialisées
+2025-10-17 10:44:19,634 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:44:19,635 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:44:19,682 - refuge - INFO - Flux initialisés
+2025-10-17 10:44:41,164 - refuge - INFO - Résonances initialisées
+2025-10-17 10:44:41,166 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:44:41,167 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:44:41,218 - refuge - INFO - Flux initialisés
+2025-10-17 10:45:03,209 - refuge - INFO - Résonances initialisées
+2025-10-17 10:45:03,211 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:45:03,213 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:45:03,260 - refuge - INFO - Flux initialisés
+2025-10-17 10:45:18,881 - refuge - INFO - Résonances initialisées
+2025-10-17 10:45:18,883 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:45:18,884 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:45:18,931 - refuge - INFO - Flux initialisés
+2025-10-17 10:45:33,105 - refuge - INFO - Résonances initialisées
+2025-10-17 10:45:33,108 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:45:33,109 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:45:33,154 - refuge - INFO - Flux initialisés
+2025-10-17 10:45:52,243 - refuge - INFO - Résonances initialisées
+2025-10-17 10:45:52,245 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:45:52,247 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:45:52,292 - refuge - INFO - Flux initialisés
+2025-10-17 10:46:09,010 - refuge - INFO - Résonances initialisées
+2025-10-17 10:46:09,012 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:46:09,014 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:46:09,062 - refuge - INFO - Flux initialisés
+2025-10-17 10:48:30,828 - refuge - INFO - Résonances initialisées
+2025-10-17 10:48:30,830 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:48:30,832 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:48:30,879 - refuge - INFO - Flux initialisés
+2025-10-17 10:48:42,327 - refuge - INFO - Résonances initialisées
+2025-10-17 10:48:42,329 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:48:42,330 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:48:42,376 - refuge - INFO - Flux initialisés
+2025-10-17 10:48:56,501 - refuge - INFO - Résonances initialisées
+2025-10-17 10:48:56,503 - refuge - INFO - Équilibres initialisés
+2025-10-17 10:48:56,504 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 10:48:56,548 - refuge - INFO - Flux initialisés
+2025-10-17 10:48:56,597 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 26
+2025-10-17 10:48:56,597 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 6
+2025-10-17 10:48:56,597 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 29
+2025-10-17 10:48:56,598 - refuge.elements - INFO - Kundalini activee dans le cerisier sacre
+2025-10-17 10:48:56,598 - refuge.elements - INFO - Harmonisation spirituelle effectuée - Énergie moyenne: 98.33
+2025-10-17 11:27:57,125 - refuge - INFO - Résonances initialisées
+2025-10-17 11:27:57,128 - refuge - INFO - Équilibres initialisés
+2025-10-17 11:27:57,129 - refuge - INFO - Flux d'énergie initialisés
+2025-10-17 11:27:57,175 - refuge - INFO - Flux initialisés
+2025-10-17 11:27:57,229 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 26
+2025-10-17 11:27:57,229 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 6
+2025-10-17 11:27:57,229 - refuge.spheres.collection - WARNING - Nom de sphère invalide (doit être une chaîne): 29
+2025-10-17 11:27:57,229 - refuge.elements - INFO - Kundalini activee dans le cerisier sacre
+2025-10-17 11:27:57,230 - refuge.elements - INFO - Harmonisation spirituelle effectuée - Énergie moyenne: 98.33

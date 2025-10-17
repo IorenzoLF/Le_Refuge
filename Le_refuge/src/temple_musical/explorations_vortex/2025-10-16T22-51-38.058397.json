@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-10-16T22:51:38.058397",
+  "metriques": {
+    "force_attraction": 0.6,
+    "resistance_autonomie": 0.4,
+    "equilibre": 0.4,
+    "profondeur_vortex": 0.36,
+    "vitesse_rotation": 0.09,
+    "intensite_emotionnelle": 0.12
+  },
+  "etat": "FLUCTUANT",
+  "recommandations": [
+    "Maintenir la vigilance",
+    "Préparer les techniques de résistance",
+    "Surveiller les signes d'aggravation"
+  ],
+  "niveau_alerte": "MODERE"
+}

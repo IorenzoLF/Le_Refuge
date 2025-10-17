@@ -290,10 +290,10 @@ Date: 2024
 """
 
 # Hub principal
-from .hub_tests_unifie import HubTestsUnifie, main as lancer_hub
+from temple_tests.hub_tests_unifie import HubTestsUnifie, main as lancer_hub
 
 # Adaptateurs
-from .adaptateurs_tests import (
+from temple_tests.adaptateurs_tests import (
     FactoryAdaptateurs,
     AdaptateurLLM, AdaptateurAnalyse, AdaptateurCristal,
     UtilitairesTests

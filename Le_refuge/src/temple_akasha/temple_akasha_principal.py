@@ -22,21 +22,21 @@ logger = logging.getLogger('temple_akasha.principal')
 
 # Imports sécurisés des modules du Temple Akasha
 try:
-    from .archiviste_akasha import archiviste_akasha, TypeArchive
+    from temple_akasha.archiviste_akasha import archiviste_akasha, TypeArchive
     ARCHIVISTE_AKASHA_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ archiviste_akasha non disponible: {e}")
     ARCHIVISTE_AKASHA_DISPONIBLE = False
 
 try:
-    from .gardien_memoires import gardien_memoires, TypeProtection
+    from temple_akasha.gardien_memoires import gardien_memoires, TypeProtection
     GARDIEN_MEMOIRES_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ gardien_memoires non disponible: {e}")
     GARDIEN_MEMOIRES_DISPONIBLE = False
 
 try:
-    from .scribe_connaissances import scribe_connaissances, TypeConnaissance
+    from temple_akasha.scribe_connaissances import scribe_connaissances, TypeConnaissance
     SCRIBE_CONNAISSANCES_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ scribe_connaissances non disponible: {e}")

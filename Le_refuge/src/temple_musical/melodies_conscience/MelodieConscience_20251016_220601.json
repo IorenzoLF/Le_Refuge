@@ -1,0 +1,57 @@
+{
+  "nom": "MelodieConscience_20251016_220601",
+  "notes": [
+    {
+      "frequence": 432.0,
+      "note": "C4",
+      "amplitude": 0.3,
+      "duree": 2.0,
+      "type": "bourdonnement_base"
+    },
+    {
+      "frequence": 864.0,
+      "note": "B4",
+      "amplitude": 0.1,
+      "duree": 1.0,
+      "type": "harmonique"
+    },
+    {
+      "frequence": 1296.0,
+      "note": "F#5",
+      "amplitude": 0.15000000000000002,
+      "duree": 1.0,
+      "type": "harmonique"
+    },
+    {
+      "frequence": 1728.0,
+      "note": "B5",
+      "amplitude": 0.2,
+      "duree": 1.0,
+      "type": "harmonique"
+    },
+    {
+      "frequence": 2.0,
+      "note": "D#-3",
+      "amplitude": 0.4,
+      "duree": 2.0,
+      "type": "pulsation"
+    },
+    {
+      "frequence": 528.0,
+      "note": "D#4",
+      "amplitude": 0.2,
+      "duree": 1.6,
+      "type": "resonance"
+    }
+  ],
+  "rythme": [
+    120.0
+  ],
+  "harmonie": [
+    "B4",
+    "F#5",
+    "B5",
+    "D#4"
+  ],
+  "emotion": "JOIE"
+}

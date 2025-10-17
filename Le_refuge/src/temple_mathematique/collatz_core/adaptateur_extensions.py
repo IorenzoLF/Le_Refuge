@@ -8,7 +8,7 @@ Collatz (complexes, rationnels) dans l'architecture unifiée.
 
 # Imports conditionnels des extensions
 try:
-    from .extensions.collatz_complexes import CollatzComplexes
+    from collatz_core.extensions.collatz_complexes import CollatzComplexes
     COMPLEXES_DISPONIBLE = True
 except ImportError:
     COMPLEXES_DISPONIBLE = False
@@ -17,7 +17,7 @@ except ImportError:
         pass
 
 try:
-    from .extensions.collatz_rationnels import CollatzRationnels
+    from collatz_core.extensions.collatz_rationnels import CollatzRationnels
     RATIONNELS_DISPONIBLE = True
 except ImportError:
     RATIONNELS_DISPONIBLE = False

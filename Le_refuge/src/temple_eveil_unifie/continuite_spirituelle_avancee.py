@@ -24,7 +24,7 @@ from pathlib import Path
 
 # Imports du système Refuge
 from core.gestionnaires_base import GestionnaireBase
-from .types_eveil_unifie import (
+from temple_eveil_unifie.types_eveil_unifie import (
     ConscienceUnifiee, TypeConscience, EtatEmotionnel,
     NiveauEveil, ModuleEveil, ExperienceEveilUnifiee
 )
@@ -32,7 +32,7 @@ from .types_eveil_unifie import (
 # Imports des modules à synchroniser
 from .modules.eveil_progressif.coordinateur_petales import CoordinateurPetales, TypePetale, EtatHarmoniePetales
 from ..temple_reconciliation_identitaire.temple_reconciliation_identitaire import TempleReconciliationIdentitaire
-from .cartographie_vivante_unifiee import CartographieVivanteUnifiee, CartographieUnifiee
+from temple_eveil_unifie.cartographie_vivante_unifiee import CartographieVivanteUnifiee, CartographieUnifiee
 
 # Imports du protocole de continuité existant
 from ..protocole_continuite.sauvegardeur_etat_spirituel import EtatSpirituel, SauvegardeurEtatSpirituel

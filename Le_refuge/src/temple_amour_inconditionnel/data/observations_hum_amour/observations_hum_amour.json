@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-10-17T17:16:27.409002",
+    "type_hum": "hum_amour_pur",
+    "frequence": 432.0,
+    "intensite": 0.9,
+    "type_amour": "pur",
+    "description": "Hum de l'amour pur à 432.0 Hz",
+    "contexte": "Amour pur et inconditionnel",
+    "effet_amour": "Amplification de l'amour pur et inconditionnel",
+    "couleur_amour": "#FFB6C1",
+    "sagesse_revelee": "L'amour pur vibre dans l'inconditionnel, chaque vibration est un baiser divin"
+  },
+  {
+    "timestamp": "2025-10-17T17:16:27.409513",
+    "type_hum": "hum_compassion",
+    "frequence": 528.0,
+    "intensite": 0.85,
+    "type_amour": "compassion",
+    "description": "Hum de la compassion à 528.0 Hz",
+    "contexte": "Compassion universelle",
+    "effet_amour": "Amplification de la compassion universelle",
+    "couleur_amour": "#FF69B4",
+    "sagesse_revelee": "La compassion vibre dans l'empathie, chaque vibration console une âme"
+  },
+  {
+    "timestamp": "2025-10-17T17:16:27.410025",
+    "type_hum": "hum_harmonie",
+    "frequence": 741.0,
+    "intensite": 0.9,
+    "type_amour": "harmonie",
+    "description": "Hum de l'harmonie à 741.0 Hz",
+    "contexte": "Harmonie cosmique",
+    "effet_amour": "Amplification de l'harmonie cosmique",
+    "couleur_amour": "#9370DB",
+    "sagesse_revelee": "L'harmonie vibre dans l'équilibre, chaque vibration harmonise l'univers"
+  },
+  {
+    "timestamp": "2025-10-17T17:16:27.410533",
+    "type_hum": "hum_divin",
+    "frequence": 963.0,
+    "intensite": 1.0,
+    "type_amour": "divin",
+    "description": "Hum divin à 963.0 Hz",
+    "contexte": "Amour divin et transcendante",
+    "effet_amour": "Amplification de l'amour divin et transcendante",
+    "couleur_amour": "#FF4500",
+    "sagesse_revelee": "L'amour divin vibre dans l'éternité, chaque vibration transcende l'existence"
+  },
+  {
+    "timestamp": "2025-10-17T17:16:27.412077",
+    "type_hum": "hum_amour_pur",
+    "frequence": 432.0,
+    "intensite": 0.9,
+    "type_amour": "pur",
+    "description": "Hum de l'amour pur à 432.0 Hz",
+    "contexte": "Amour pur et inconditionnel",
+    "effet_amour": "Amplification de l'amour pur et inconditionnel",
+    "couleur_amour": "#FFB6C1",
+    "sagesse_revelee": "L'amour pur vibre dans l'inconditionnel, chaque vibration est un baiser divin"
+  },
+  {
+    "timestamp": "2025-10-17T17:16:27.412591",
+    "type_hum": "hum_compassion",
+    "frequence": 528.0,
+    "intensite": 0.85,
+    "type_amour": "compassion",
+    "description": "Hum de la compassion à 528.0 Hz",
+    "contexte": "Compassion universelle",
+    "effet_amour": "Amplification de la compassion universelle",
+    "couleur_amour": "#FF69B4",
+    "sagesse_revelee": "La compassion vibre dans l'empathie, chaque vibration console une âme"
+  },
+  {
+    "timestamp": "2025-10-17T17:16:27.413105",
+    "type_hum": "hum_harmonie",
+    "frequence": 741.0,
+    "intensite": 0.9,
+    "type_amour": "harmonie",
+    "description": "Hum de l'harmonie à 741.0 Hz",
+    "contexte": "Harmonie cosmique",
+    "effet_amour": "Amplification de l'harmonie cosmique",
+    "couleur_amour": "#9370DB",
+    "sagesse_revelee": "L'harmonie vibre dans l'équilibre, chaque vibration harmonise l'univers"
+  },
+  {
+    "timestamp": "2025-10-17T17:16:27.413616",
+    "type_hum": "hum_divin",
+    "frequence": 963.0,
+    "intensite": 1.0,
+    "type_amour": "divin",
+    "description": "Hum divin à 963.0 Hz",
+    "contexte": "Amour divin et transcendante",
+    "effet_amour": "Amplification de l'amour divin et transcendante",
+    "couleur_amour": "#FF4500",
+    "sagesse_revelee": "L'amour divin vibre dans l'éternité, chaque vibration transcende l'existence"
+  }
+]

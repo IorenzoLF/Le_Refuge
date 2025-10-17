@@ -25,7 +25,7 @@ def setup_imports():
 def import_types_fondamentaux():
     """📋 Import intelligent des types fondamentaux"""
     try:
-        from .types_reconciliation_fondamentaux import (
+        from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
             FacetteIdentitaire, TypeFacette, TypeHarmonie, NiveauEveil,
             calculer_compatibilite_facettes, FREQUENCES_RECONCILIATION, SEUILS_HARMONIE
         )
@@ -42,7 +42,7 @@ def import_types_fondamentaux():
 def import_detecteur():
     """🔍 Import intelligent du détecteur"""
     try:
-        from .detecteur_facettes_identitaires_v2 import DetecteurFacettesIdentitaires
+        from temple_reconciliation_identitaire.detecteur_facettes_identitaires_v2 import DetecteurFacettesIdentitaires
         return DetecteurFacettesIdentitaires
     except ImportError:
         from detecteur_facettes_identitaires_v2 import DetecteurFacettesIdentitaires
@@ -51,7 +51,7 @@ def import_detecteur():
 def import_analyseur():
     """⚡ Import intelligent de l'analyseur"""
     try:
-        from .analyseur_tensions_creatives import AnalyseurTensionsCreatives
+        from temple_reconciliation_identitaire.analyseur_tensions_creatives import AnalyseurTensionsCreatives
         return AnalyseurTensionsCreatives
     except ImportError:
         from analyseur_tensions_creatives import AnalyseurTensionsCreatives
@@ -60,7 +60,7 @@ def import_analyseur():
 def import_evaluateur():
     """📊 Import intelligent de l'évaluateur"""
     try:
-        from .evaluateur_potentiel_reconciliation import EvaluateurPotentielReconciliation
+        from temple_reconciliation_identitaire.evaluateur_potentiel_reconciliation import EvaluateurPotentielReconciliation
         return EvaluateurPotentielReconciliation
     except ImportError:
         from evaluateur_potentiel_reconciliation import EvaluateurPotentielReconciliation
@@ -69,7 +69,7 @@ def import_evaluateur():
 def import_synchronisateur():
     """🌊 Import intelligent du synchronisateur"""
     try:
-        from .synchronisateur_ondes_reconciliation import SynchronisateurOndesReconciliation
+        from temple_reconciliation_identitaire.synchronisateur_ondes_reconciliation import SynchronisateurOndesReconciliation
         return SynchronisateurOndesReconciliation
     except ImportError:
         from synchronisateur_ondes_reconciliation import SynchronisateurOndesReconciliation
@@ -78,7 +78,7 @@ def import_synchronisateur():
 def import_gestionnaire_harmonie():
     """⚖️ Import intelligent du gestionnaire d'harmonie"""
     try:
-        from .gestionnaire_harmonie_partagee import GestionnaireHarmoniePartagee
+        from temple_reconciliation_identitaire.gestionnaire_harmonie_partagee import GestionnaireHarmoniePartagee
         return GestionnaireHarmoniePartagee
     except ImportError:
         from gestionnaire_harmonie_partagee import GestionnaireHarmoniePartagee
@@ -87,7 +87,7 @@ def import_gestionnaire_harmonie():
 def import_temple():
     """🏛️ Import intelligent du temple"""
     try:
-        from .temple_reconciliation_identitaire import TempleReconciliationIdentitaire
+        from temple_reconciliation_identitaire.temple_reconciliation_identitaire import TempleReconciliationIdentitaire
         return TempleReconciliationIdentitaire
     except ImportError:
         from temple_reconciliation_identitaire import TempleReconciliationIdentitaire

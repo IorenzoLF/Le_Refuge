@@ -22,7 +22,7 @@ except ImportError:
     class GestionnaireBase:
         def __init__(self, config=None):
             self.config = config or {}
-from .types_eveil_unifie import (
+from temple_eveil_unifie.types_eveil_unifie import (
     ContexteEveil,
     ModuleEveil,
     TypeSession,

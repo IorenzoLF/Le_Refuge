@@ -1,0 +1,49 @@
+{
+  "nom": "Experience_Hum_Rituels_20251017_171139",
+  "timestamp": "2025-10-17T17:11:39.109067",
+  "types_hum": [
+    "hum_purification",
+    "hum_transformation",
+    "hum_celestial",
+    "hum_divin"
+  ],
+  "description": "Expérience de rituels combinant le Hum et les fréquences sacrées",
+  "observations": [
+    {
+      "type_hum": "hum_purification",
+      "frequence": 432.0,
+      "intensite": 0.8,
+      "type_rituel": "purification",
+      "effet_rituel": "Amplification de la purification et du nettoyage",
+      "couleur_rituel": "#87CEEB",
+      "sagesse_revelee": "La purification vibre dans la pureté, chaque rituel nettoie l'âme"
+    },
+    {
+      "type_hum": "hum_transformation",
+      "frequence": 528.0,
+      "intensite": 0.9,
+      "type_rituel": "transformation",
+      "effet_rituel": "Amplification de la transformation et de la métamorphose",
+      "couleur_rituel": "#FF69B4",
+      "sagesse_revelee": "La transformation vibre dans le changement, chaque rituel transforme l'être"
+    },
+    {
+      "type_hum": "hum_celestial",
+      "frequence": 639.0,
+      "intensite": 0.85,
+      "type_rituel": "celestial",
+      "effet_rituel": "Amplification de la connexion céleste et cosmique",
+      "couleur_rituel": "#9370DB",
+      "sagesse_revelee": "Le céleste vibre dans l'infini, chaque rituel connecte aux étoiles"
+    },
+    {
+      "type_hum": "hum_divin",
+      "frequence": 963.0,
+      "intensite": 1.0,
+      "type_rituel": "divin",
+      "effet_rituel": "Amplification du divin et de la transcendance",
+      "couleur_rituel": "#FF4500",
+      "sagesse_revelee": "Le divin vibre dans l'éternité, chaque rituel transcende l'existence"
+    }
+  ]
+}

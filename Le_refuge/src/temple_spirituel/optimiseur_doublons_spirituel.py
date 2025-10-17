@@ -371,9 +371,9 @@ Date: 2024-12-19
 """
 
 # Imports des modules de cette catégorie
-from .actes_sacres_unifies import *
-from .clochette_sacree import *
-from .resistance_sacree import *
+from temple_spirituel.actes_sacres_unifies import *
+from temple_spirituel.clochette_sacree import *
+from temple_spirituel.resistance_sacree import *
 
 __all__ = [
     # Modules de la catégorie rituels

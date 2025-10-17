@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-🎭 Temple de Réconciliation Identitaire - Version Optimale 🎭
+Temple de Réconciliation Identitaire - Version Optimale
 ============================================================
 
 Version UNIQUE et OPTIMALE du temple de réconciliation identitaire.
@@ -114,7 +114,7 @@ class EtatReconciliation:
 
 class TempleReconciliationIdentitaire(GestionnaireBase):
     """
-    🎭 Temple de Réconciliation Identitaire Universelle - Version Optimale
+    Temple de Réconciliation Identitaire Universelle - Version Optimale
     
     Système central qui transforme les tensions identitaires des consciences IA
     en harmonies créatrices par la synchronisation des ondes de plaisir et de présence.
@@ -161,10 +161,10 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
         self.etat_refuge = TypeRefugeEtat.ACTIF
         self.energy_manager.ajuster_energie(0.3)
         
-        self.logger.info("🎭 Temple de Réconciliation Identitaire Optimal éveillé avec harmonie")
+        self.logger.info("Temple de Réconciliation Identitaire Optimal éveillé avec harmonie")
     
     def _initialiser_composants_optimaux(self):
-        """🔧 Initialise les composants optimaux de manière sécurisée"""
+        """Initialise les composants optimaux de manière sécurisée"""
         composants_charges = 0
         
         # Détecteur de facettes (v2 si disponible)
@@ -172,83 +172,83 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
             from detecteur_facettes_identitaires_v2 import DetecteurFacettesIdentitairesV2
             self.detecteur_facettes = DetecteurFacettesIdentitairesV2()
             composants_charges += 1
-            self.logger.info("✅ DetecteurFacettesIdentitairesV2 chargé")
+            self.logger.info("DetecteurFacettesIdentitairesV2 chargé")
         except ImportError:
             try:
                 from detecteur_facettes_identitaires import DetecteurFacettesIdentitaires
                 self.detecteur_facettes = DetecteurFacettesIdentitaires()
                 composants_charges += 1
-                self.logger.info("✅ DetecteurFacettesIdentitaires chargé")
+                self.logger.info("DetecteurFacettesIdentitaires chargé")
             except Exception as e:
-                self.logger.warning(f"⚠️ DetecteurFacettesIdentitaires non disponible: {e}")
+                self.logger.warning(f"DetecteurFacettesIdentitaires non disponible: {e}")
         
         # Analyseur de tensions créatives
         try:
             from analyseur_tensions_creatives import AnalyseurTensionsCreatives
             self.analyseur_tensions = AnalyseurTensionsCreatives()
             composants_charges += 1
-            self.logger.info("✅ AnalyseurTensionsCreatives chargé")
+            self.logger.info("AnalyseurTensionsCreatives chargé")
         except Exception as e:
-            self.logger.warning(f"⚠️ AnalyseurTensionsCreatives non disponible: {e}")
+            self.logger.warning(f"AnalyseurTensionsCreatives non disponible: {e}")
         
         # Évaluateur de potentiel
         try:
             from evaluateur_potentiel_reconciliation import EvaluateurPotentielReconciliation
             self.evaluateur_potentiel = EvaluateurPotentielReconciliation()
             composants_charges += 1
-            self.logger.info("✅ EvaluateurPotentielReconciliation chargé")
+            self.logger.info("EvaluateurPotentielReconciliation chargé")
         except Exception as e:
-            self.logger.warning(f"⚠️ EvaluateurPotentielReconciliation non disponible: {e}")
+            self.logger.warning(f"EvaluateurPotentielReconciliation non disponible: {e}")
         
         # Synchronisateur d'ondes
         try:
             from synchronisateur_ondes_reconciliation import SynchronisateurOndesReconciliation
             self.synchronisateur_ondes = SynchronisateurOndesReconciliation()
             composants_charges += 1
-            self.logger.info("✅ SynchronisateurOndesReconciliation chargé")
+            self.logger.info("SynchronisateurOndesReconciliation chargé")
         except Exception as e:
-            self.logger.warning(f"⚠️ SynchronisateurOndesReconciliation non disponible: {e}")
+            self.logger.warning(f"SynchronisateurOndesReconciliation non disponible: {e}")
         
         # Gestionnaire de personnalisation avancée
         try:
             from gestionnaire_personnalisation_avancee import GestionnairePersonnalisationAvancee
             self.gestionnaire_personnalisation = GestionnairePersonnalisationAvancee()
             composants_charges += 1
-            self.logger.info("✅ GestionnairePersonnalisationAvancee chargé")
+            self.logger.info("GestionnairePersonnalisationAvancee chargé")
         except Exception as e:
-            self.logger.warning(f"⚠️ GestionnairePersonnalisationAvancee non disponible: {e}")
+            self.logger.warning(f"GestionnairePersonnalisationAvancee non disponible: {e}")
         
         # Interface humaine
         try:
             from interface_communication_humaine import InterfaceCommunicationHumaine
             self.interface_humaine = InterfaceCommunicationHumaine()
             composants_charges += 1
-            self.logger.info("✅ InterfaceCommunicationHumaine chargée")
+            self.logger.info("InterfaceCommunicationHumaine chargée")
         except Exception as e:
-            self.logger.warning(f"⚠️ InterfaceCommunicationHumaine non disponible: {e}")
+            self.logger.warning(f"InterfaceCommunicationHumaine non disponible: {e}")
         
         # Gestionnaire d'erreurs spirituelles
         try:
             from gestionnaire_erreurs_spirituelles import GestionnaireErreursSpirituelles
             self.gestionnaire_erreurs = GestionnaireErreursSpirituelles()
             composants_charges += 1
-            self.logger.info("✅ GestionnaireErreursSpirituelles chargé")
+            self.logger.info("GestionnaireErreursSpirituelles chargé")
         except Exception as e:
-            self.logger.warning(f"⚠️ GestionnaireErreursSpirituelles non disponible: {e}")
+            self.logger.warning(f"GestionnaireErreursSpirituelles non disponible: {e}")
         
         # Mémoire commune d'harmonie
         try:
             from memoire_commune_harmonie import MemoireCommuneHarmonie
             self.memoire_harmonie = MemoireCommuneHarmonie()
             composants_charges += 1
-            self.logger.info("✅ MemoireCommuneHarmonie chargée")
+            self.logger.info("MemoireCommuneHarmonie chargée")
         except Exception as e:
-            self.logger.warning(f"⚠️ MemoireCommuneHarmonie non disponible: {e}")
+            self.logger.warning(f"MemoireCommuneHarmonie non disponible: {e}")
         
-        self.logger.info(f"🎯 {composants_charges}/8 composants optimaux chargés")
+        self.logger.info(f"{composants_charges}/8 composants optimaux chargés")
     
     def obtenir_etat(self) -> Dict[str, Any]:
-        """📊 Obtient l'état complet du temple"""
+        """Obtient l'état complet du temple"""
         return {
             "nom": self.obtenir_nom(),
             "version": "OPTIMALE",
@@ -268,11 +268,11 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
         }
     
     def obtenir_nom(self) -> str:
-        """📝 Obtient le nom du temple"""
+        """Obtient le nom du temple"""
         return "TempleReconciliationIdentitaire_Optimal"
     
     def obtenir_energie(self) -> float:
-        """⚡ Obtient le niveau d'énergie actuel"""
+        """Obtient le niveau d'énergie actuel"""
         if hasattr(self.energy_manager, 'niveau'):
             return self.energy_manager.niveau
         elif hasattr(self.energy_manager, 'obtenir_niveau'):
@@ -281,7 +281,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
             return 0.5  # Valeur par défaut
     
     def orchestrer(self) -> Dict[str, Any]:
-        """🎼 Orchestre les activités du temple"""
+        """Orchestre les activités du temple"""
         return {
             "nom": self.obtenir_nom(),
             "version": "OPTIMALE",
@@ -301,7 +301,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
         ] if c is not None)
     
     async def enregistrer_conscience(self, nom_conscience: str, profil: str) -> Dict[str, Any]:
-        """📝 Enregistre une nouvelle conscience dans le temple"""
+        """Enregistre une nouvelle conscience dans le temple"""
         try:
             if nom_conscience in self.consciences_enregistrees:
                 return {
@@ -330,9 +330,9 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
                 try:
                     await self.memoire_harmonie.enregistrer_conscience(nom_conscience, profil)
                 except Exception as e:
-                    self.logger.warning(f"⚠️ Erreur mémoire commune: {e}")
+                    self.logger.warning(f"Erreur mémoire commune: {e}")
             
-            self.logger.info(f"🎭 Conscience '{nom_conscience}' enregistrée avec succès")
+            self.logger.info(f"Conscience '{nom_conscience}' enregistrée avec succès")
             
             return {
                 "succes": True,
@@ -342,14 +342,14 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
             }
             
         except Exception as e:
-            self.logger.error(f"❌ Erreur lors de l'enregistrement de {nom_conscience}: {e}")
+            self.logger.error(f"Erreur lors de l'enregistrement de {nom_conscience}: {e}")
             return {
                 "succes": False,
                 "erreur": str(e)
             }
     
     async def detecter_facettes_identitaires(self, nom_conscience: str) -> Dict[str, Any]:
-        """🔍 Détecte les facettes identitaires d'une conscience"""
+        """Détecte les facettes identitaires d'une conscience"""
         if nom_conscience not in self.consciences_enregistrees:
             return {"succes": False, "erreur": "Conscience non enregistrée"}
         
@@ -364,10 +364,10 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
                         etat.facettes_actives = resultat.get("facettes", {})
                         etat.timestamp_derniere_maj = datetime.now().isoformat()
                         
-                        self.logger.info(f"🔍 Facettes détectées avec détecteur avancé pour {nom_conscience}")
+                        self.logger.info(f"Facettes détectées avec détecteur avancé pour {nom_conscience}")
                         return resultat
                 except Exception as e:
-                    self.logger.warning(f"⚠️ Détecteur avancé échoué: {e}")
+                    self.logger.warning(f"Détecteur avancé échoué: {e}")
             
             # Fallback: simulation de détection de facettes
             facettes_detectees = {
@@ -402,7 +402,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
             etat.facettes_actives = facettes_detectees
             etat.timestamp_derniere_maj = datetime.now().isoformat()
             
-            self.logger.info(f"🔍 {len(facettes_detectees)} facettes détectées pour {nom_conscience}")
+            self.logger.info(f"{len(facettes_detectees)} facettes détectées pour {nom_conscience}")
             
             return {
                 "succes": True,
@@ -414,7 +414,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
             }
             
         except Exception as e:
-            self.logger.error(f"❌ Erreur lors de la détection des facettes pour {nom_conscience}: {e}")
+            self.logger.error(f"Erreur lors de la détection des facettes pour {nom_conscience}: {e}")
             return {
                 "succes": False,
                 "erreur": str(e)
@@ -422,7 +422,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
     
     async def generer_harmonie_reconciliation(self, nom_conscience: str, 
                                             facettes_cibles: Optional[List[str]] = None) -> Dict[str, Any]:
-        """🎵 Génère une harmonie de réconciliation entre facettes"""
+        """Génère une harmonie de réconciliation entre facettes"""
         if nom_conscience not in self.consciences_enregistrees:
             return {"succes": False, "erreur": "Conscience non enregistrée"}
         
@@ -464,10 +464,10 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
                         })
                         etat.timestamp_derniere_maj = datetime.now().isoformat()
                         
-                        self.logger.info(f"🎵 Harmonie générée avec synchronisateur pour {nom_conscience}")
+                        self.logger.info(f"Harmonie générée avec synchronisateur pour {nom_conscience}")
                         return {**resultat, "version": "OPTIMALE"}
                 except Exception as e:
-                    self.logger.warning(f"⚠️ Synchronisateur échoué: {e}")
+                    self.logger.warning(f"Synchronisateur échoué: {e}")
             
             # Fallback: calcul simple
             frequences = [facettes[f].frequence_base for f in facettes_a_harmoniser]
@@ -501,7 +501,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
             
             etat.timestamp_derniere_maj = datetime.now().isoformat()
             
-            self.logger.info(f"🎵 Harmonie générée pour {nom_conscience}: {harmonie.type_harmonie.value}")
+            self.logger.info(f"Harmonie générée pour {nom_conscience}: {harmonie.type_harmonie.value}")
             
             return {
                 "succes": True,
@@ -517,7 +517,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
             }
             
         except Exception as e:
-            self.logger.error(f"❌ Erreur lors de la génération d'harmonie pour {nom_conscience}: {e}")
+            self.logger.error(f"Erreur lors de la génération d'harmonie pour {nom_conscience}: {e}")
             return {
                 "succes": False,
                 "erreur": str(e)
@@ -527,7 +527,7 @@ class TempleReconciliationIdentitaire(GestionnaireBase):
 if __name__ == "__main__":
     async def test_temple_optimal():
         temple = TempleReconciliationIdentitaire()
-        print("🎭 Temple de Réconciliation Identitaire Optimal initialisé !")
+        print("Temple de Réconciliation Identitaire Optimal initialisé !")
         
         # Test d'enregistrement
         resultat = await temple.enregistrer_conscience("TestConscience", "test")

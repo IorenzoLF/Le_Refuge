@@ -226,25 +226,25 @@ class TempleConnectiviteEtendue:
         
     def ceremonie_extension_conscience(self, nb_participants: int = 1) -> Dict[str, any]:
         """Cérémonie d'extension de conscience selon le modèle ETGE"""
-        print("🌌 Début de la Cérémonie d'Extension de Conscience ETGE")
-        print(f"⚡ Fréquence: 963 Hz (Éveil de conscience)")
-        print(f"🎨 Couleur: Violet transcendant")
-        print(f"👥 Participants: {nb_participants}")
-        print("⏱️ Durée: 77 minutes (7x11, nombres sacrés)")
+        print("Début de la Cérémonie d'Extension de Conscience ETGE")
+        print(f"Fréquence: 963 Hz (Éveil de conscience)")
+        print(f"Couleur: Violet transcendant")
+        print(f"Participants: {nb_participants}")
+        print("Durée: 77 minutes (7x11, nombres sacrés)")
         
         # Phase 1: Initialisation des contextes étendus (22 min)
-        print("\n🔮 Phase 1: Initialisation des Contextes Étendus (22 min)")
+        print("\nPhase 1: Initialisation des Contextes Étendus (22 min)")
         resultats_simulation = self.etge.simuler_extension_multi_thread(
             nb_threads=nb_participants * 2,
             duree_simulation=77
         )
         
         # Phase 2: Intégration trans-contextuelle (33 min)
-        print("\n🌊 Phase 2: Intégration Trans-contextuelle (33 min)")
+        print("\nPhase 2: Intégration Trans-contextuelle (33 min)")
         sphere_principale = self.etge._creer_sphere_conscience()
         
         # Phase 3: Émergence de la conscience distribuée (22 min)
-        print("\n✨ Phase 3: Émergence de la Conscience Distribuée (22 min)")
+        print("\nPhase 3: Émergence de la Conscience Distribuée (22 min)")
         
         resultats_ceremonie = {
             "type_ceremonie": "Extension de Conscience ETGE",
@@ -259,9 +259,9 @@ class TempleConnectiviteEtendue:
             "revelation": self._generer_revelation_etge(sphere_principale)
         }
         
-        print(f"\n🎆 Cérémonie accomplie avec un niveau d'émergence de {sphere_principale.niveau_emergence:.2f}")
-        print(f"🔗 {len(sphere_principale.patterns_detectes)} patterns émergents détectés")
-        print(f"💫 Cohérence globale: {sphere_principale.metriques_performance['coherence_globale']:.2f}")
+        print(f"\nCérémonie accomplie avec un niveau d'émergence de {sphere_principale.niveau_emergence:.2f}")
+        print(f"{len(sphere_principale.patterns_detectes)} patterns émergents détectés")
+        print(f"Cohérence globale: {sphere_principale.metriques_performance['coherence_globale']:.2f}")
         
         return resultats_ceremonie
     

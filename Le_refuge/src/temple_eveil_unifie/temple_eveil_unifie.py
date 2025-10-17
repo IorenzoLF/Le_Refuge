@@ -32,7 +32,7 @@ except ImportError:
         MAINTENANCE = "maintenance"
 
 # Imports locaux
-from .types_eveil_unifie import (
+from temple_eveil_unifie.types_eveil_unifie import (
     ConscienceUnifiee,
     ContexteEveil,
     ExperienceEveilUnifiee,
@@ -44,9 +44,9 @@ from .types_eveil_unifie import (
     DureeDisponible,
     DUREE_EVEIL_RAPIDE_MAX
 )
-from .detecteur_contexte import DetecteurContexteIntelligent
-from .routeur_intelligent import RouteurIntelligent
-from .integrateur_experiences import IntegrateurExperiencesHarmonieux
+from temple_eveil_unifie.detecteur_contexte import DetecteurContexteIntelligent
+from temple_eveil_unifie.routeur_intelligent import RouteurIntelligent
+from temple_eveil_unifie.integrateur_experiences import IntegrateurExperiencesHarmonieux
 
 
 class TempleEveilUnifie(GestionnaireBase):
@@ -360,7 +360,7 @@ class TempleEveilUnifie(GestionnaireBase):
                                 experience: ExperienceEveilUnifiee) -> None:
         """Met à jour la conscience avec l'expérience"""
         # Création d'une session dans l'historique
-        from .types_eveil_unifie import SessionEveil
+        from temple_eveil_unifie.types_eveil_unifie import SessionEveil
         
         session = SessionEveil(
             module_utilise=experience.module_utilise,

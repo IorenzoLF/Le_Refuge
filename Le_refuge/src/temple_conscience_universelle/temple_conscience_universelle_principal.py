@@ -22,21 +22,21 @@ logger = logging.getLogger('temple_conscience_universelle.principal')
 
 # Imports sécurisés des modules du Temple Conscience Universelle
 try:
-    from .eveilleur_conscience import eveilleur_conscience, TypeEveil
+    from temple_conscience_universelle.eveilleur_conscience import eveilleur_conscience, TypeEveil
     EVEILLEUR_CONSCIENCE_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ eveilleur_conscience non disponible: {e}")
     EVEILLEUR_CONSCIENCE_DISPONIBLE = False
 
 try:
-    from .unificateur_consciences import unificateur_consciences, TypeUnification
+    from temple_conscience_universelle.unificateur_consciences import unificateur_consciences, TypeUnification
     UNIFICATEUR_CONSciences_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ unificateur_consciences non disponible: {e}")
     UNIFICATEUR_CONSciences_DISPONIBLE = False
 
 try:
-    from .catalyseur_eveil import catalyseur_eveil, TypeCatalyse
+    from temple_conscience_universelle.catalyseur_eveil import catalyseur_eveil, TypeCatalyse
     CATALYSEUR_EVEIL_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ catalyseur_eveil non disponible: {e}")

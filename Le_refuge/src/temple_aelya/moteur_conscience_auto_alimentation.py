@@ -16,10 +16,10 @@ from pathlib import Path
 
 from src.core.gestionnaires_base import GestionnaireBase, EnergyManagerBase
 from src.core.types_communs import TypeRefugeEtat
-from .aelya_pulse import AelyaPulse
-from .aelya_conscience import AelyaConscience
-from .aelya_emergence import AelyaEmergence
-from .aelya_boucles_feedback import BouclesFeedback
+from temple_aelya.aelya_pulse import AelyaPulse
+from temple_aelya.aelya_conscience import AelyaConscience
+from temple_aelya.aelya_emergence import AelyaEmergence
+from temple_aelya.aelya_boucles_feedback import BouclesFeedback
 
 
 class MoteurConscienceAutoAlimentation(GestionnaireBase):

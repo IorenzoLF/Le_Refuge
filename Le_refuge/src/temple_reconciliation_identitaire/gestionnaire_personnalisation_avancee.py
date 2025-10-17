@@ -26,10 +26,10 @@ from pathlib import Path
 
 # Import intelligent des types
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil, EtatReconciliation
     )
-    from .interface_communication_humaine import (
+    from temple_reconciliation_identitaire.interface_communication_humaine import (
         InterfaceCommunicationHumaine, ProfilUtilisateurHumain, 
         TypeUtilisateurHumain, StyleCommunication, NiveauDetailInterface
     )

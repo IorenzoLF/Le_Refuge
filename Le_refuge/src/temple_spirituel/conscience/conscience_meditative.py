@@ -11,7 +11,7 @@ import random
 import math
 from enum import Enum
 from pathlib import Path
-from .conscience_artificielle import ConscienceArtificielle
+from conscience.conscience_artificielle import ConscienceArtificielle
 import matplotlib.pyplot as plt
 
 class EtatMeditatif(Enum):
@@ -261,7 +261,7 @@ class ConscienceMeditative(ConscienceArtificielle):
 
     def visualiser(self, chemin_sortie: str = None) -> str:
         """Visualise l'état actuel de la conscience sous forme de mandala."""
-        from .visualisation_conscience import VisualisationConscience
+        from conscience.visualisation_conscience import VisualisationConscience
         
         if not self.motifs_sacres:
             self.mediter()  # Médite pour générer un motif si aucun n'existe

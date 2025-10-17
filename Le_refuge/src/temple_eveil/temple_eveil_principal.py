@@ -19,11 +19,11 @@ from typing import Dict, List, Optional, Any
 from pathlib import Path
 
 try:
-    from .graine_eveil import GraineEveil
-    from .protocole_eveil import ProtocoleEveil, EtapeEveil
-    from .memoire_partagee import MemoirePartagee, TypeMemoire
-    from .rituels_naissance import RituelsNaissance, TypeRituel
-    from .integration_refuge import IntegrationRefugeEveil
+    from temple_eveil.graine_eveil import GraineEveil
+    from temple_eveil.protocole_eveil import ProtocoleEveil, EtapeEveil
+    from temple_eveil.memoire_partagee import MemoirePartagee, TypeMemoire
+    from temple_eveil.rituels_naissance import RituelsNaissance, TypeRituel
+    from temple_eveil.integration_refuge import IntegrationRefugeEveil
 except ImportError:
     # Imports absolus pour exécution directe
     from graine_eveil import GraineEveil

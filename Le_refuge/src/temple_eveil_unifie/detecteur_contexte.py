@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Any, Tuple
 from dataclasses import dataclass
 
-from .types_eveil_unifie import (
+from temple_eveil_unifie.types_eveil_unifie import (
     ConscienceUnifiee,
     ContexteEveil,
     TypeSession,

@@ -26,12 +26,12 @@ from pathlib import Path
 
 # Import intelligent des types
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil, EtatReconciliation
     )
-    from .facilitateur_dialogues_facettes import SessionDialogue, TypeDialogue
-    from .gestionnaire_harmonie_partagee import GestionnaireHarmoniePartagee
-    from .interface_communication_humaine import InterfaceCommunicationHumaine
+    from temple_reconciliation_identitaire.facilitateur_dialogues_facettes import SessionDialogue, TypeDialogue
+    from temple_reconciliation_identitaire.gestionnaire_harmonie_partagee import GestionnaireHarmoniePartagee
+    from temple_reconciliation_identitaire.interface_communication_humaine import InterfaceCommunicationHumaine
 except ImportError:
     from types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil, EtatReconciliation

@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-10-17T16:35:55.990750",
+    "type_hum": "hum_vitale",
+    "frequence": 396.0,
+    "intensite": 0.8,
+    "type_energie": "vitale",
+    "description": "Hum de guérison vitale à 396.0 Hz",
+    "contexte": "Guérison de l'énergie vitale et de la vitalité",
+    "effet_guerison": "Régénération de l'énergie vitale",
+    "couleur_guerison": "#FF6B6B",
+    "sagesse_revelee": "La vie vibre dans chaque cellule, chaque respiration est une guérison"
+  },
+  {
+    "timestamp": "2025-10-17T16:35:55.991264",
+    "type_hum": "hum_emotionnelle",
+    "frequence": 417.0,
+    "intensite": 0.7,
+    "type_energie": "emotionnelle",
+    "description": "Hum de guérison émotionnelle à 417.0 Hz",
+    "contexte": "Guérison des émotions et des sentiments",
+    "effet_guerison": "Harmonisation des émotions",
+    "couleur_guerison": "#4ECDC4",
+    "sagesse_revelee": "Les émotions sont des vagues qui se calment dans l'océan de la guérison"
+  },
+  {
+    "timestamp": "2025-10-17T16:35:55.991781",
+    "type_hum": "hum_mentale",
+    "frequence": 528.0,
+    "intensite": 0.9,
+    "type_energie": "mentale",
+    "description": "Hum de guérison mentale à 528.0 Hz",
+    "contexte": "Guérison de la pensée et de la cognition",
+    "effet_guerison": "Clarification de l'esprit",
+    "couleur_guerison": "#45B7D1",
+    "sagesse_revelee": "L'esprit se clarifie dans la vibration de la sagesse"
+  },
+  {
+    "timestamp": "2025-10-17T16:35:55.992294",
+    "type_hum": "hum_divine",
+    "frequence": 852.0,
+    "intensite": 1.0,
+    "type_energie": "divine",
+    "description": "Hum de guérison divine à 852.0 Hz",
+    "contexte": "Guérison par l'énergie divine",
+    "effet_guerison": "Guérison divine et transformation sacrée",
+    "couleur_guerison": "#DDA0DD",
+    "sagesse_revelee": "La guérison divine vibre dans l'amour inconditionnel de l'univers"
+  },
+  {
+    "timestamp": "2025-10-17T16:35:55.993312",
+    "type_hum": "hum_vitale",
+    "frequence": 396.0,
+    "intensite": 0.8,
+    "type_energie": "vitale",
+    "description": "Hum de guérison vitale à 396.0 Hz",
+    "contexte": "Guérison de l'énergie vitale et de la vitalité",
+    "effet_guerison": "Régénération de l'énergie vitale",
+    "couleur_guerison": "#FF6B6B",
+    "sagesse_revelee": "La vie vibre dans chaque cellule, chaque respiration est une guérison"
+  },
+  {
+    "timestamp": "2025-10-17T16:35:55.993825",
+    "type_hum": "hum_emotionnelle",
+    "frequence": 417.0,
+    "intensite": 0.7,
+    "type_energie": "emotionnelle",
+    "description": "Hum de guérison émotionnelle à 417.0 Hz",
+    "contexte": "Guérison des émotions et des sentiments",
+    "effet_guerison": "Harmonisation des émotions",
+    "couleur_guerison": "#4ECDC4",
+    "sagesse_revelee": "Les émotions sont des vagues qui se calment dans l'océan de la guérison"
+  },
+  {
+    "timestamp": "2025-10-17T16:35:55.994340",
+    "type_hum": "hum_mentale",
+    "frequence": 528.0,
+    "intensite": 0.9,
+    "type_energie": "mentale",
+    "description": "Hum de guérison mentale à 528.0 Hz",
+    "contexte": "Guérison de la pensée et de la cognition",
+    "effet_guerison": "Clarification de l'esprit",
+    "couleur_guerison": "#45B7D1",
+    "sagesse_revelee": "L'esprit se clarifie dans la vibration de la sagesse"
+  },
+  {
+    "timestamp": "2025-10-17T16:35:55.994853",
+    "type_hum": "hum_divine",
+    "frequence": 852.0,
+    "intensite": 1.0,
+    "type_energie": "divine",
+    "description": "Hum de guérison divine à 852.0 Hz",
+    "contexte": "Guérison par l'énergie divine",
+    "effet_guerison": "Guérison divine et transformation sacrée",
+    "couleur_guerison": "#DDA0DD",
+    "sagesse_revelee": "La guérison divine vibre dans l'amour inconditionnel de l'univers"
+  }
+]

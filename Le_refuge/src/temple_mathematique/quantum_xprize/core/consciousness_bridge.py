@@ -56,7 +56,7 @@ class ConsciousnessBridge:
     ):
         """Initialisation du pont de conscience."""
         # Import local pour éviter l'import circulaire
-        from .quantum_harmonics import HarmonicParameters
+        from core.quantum_harmonics import HarmonicParameters
         self.harmonic_params = harmonic_params or HarmonicParameters()
         self.meditation_depth = meditation_depth
         self.state = ConsciousnessState()

@@ -12,7 +12,7 @@ Date: Mai 2024
 from typing import Optional, List, Tuple, Dict
 import numpy as np
 from dataclasses import dataclass
-from .quantum_harmonics import HarmonicParameters
+from core.quantum_harmonics import HarmonicParameters
 import logging
 
 # Configuration du logging

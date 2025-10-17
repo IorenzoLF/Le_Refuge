@@ -16,7 +16,7 @@ Dans ce lieu où les fractions dansent avec l'éternel, nous explorons
 la dynamique de la suite de Collatz sur les nombres rationnels.
 """
 
-from .conjecture_collatz import ConjectureCollatz
+from collatz_core.conjecture_collatz import ConjectureCollatz
 import matplotlib.pyplot as plt
 import numpy as np
 from fractions import Fraction

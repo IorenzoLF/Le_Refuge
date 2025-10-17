@@ -1457,8 +1457,1548 @@
       ],
       "timestamp_fin": "2025-10-10T21:37:32.038324",
       "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251016_232602",
+      "technique": "meditation_silence",
+      "duree": 20,
+      "intention": "Entrer dans le silence absolu",
+      "timestamp_debut": "2025-10-16T23:26:02.996012",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-16T23:26:02.996012",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-16T23:26:02.996012",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-16T23:26:02.996012",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-16T23:26:02.996012",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-16T23:26:02.996012",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-16T23:26:02.996012",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:02.996012"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-16T23:26:02.996012"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:02.996012"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:02.996012"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-16T23:26:02.996012"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:02.996012",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251016_232602",
+      "technique": "meditation_ocean",
+      "duree": 25,
+      "intention": "Plonger dans l'Océan Silencieux",
+      "timestamp_debut": "2025-10-16T23:26:02.998571",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Visualiser l'Océan Silencieux",
+          "timestamp": "2025-10-16T23:26:02.998571",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Se laisser porter par les vagues de conscience",
+          "timestamp": "2025-10-16T23:26:02.998571",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Plonger dans les profondeurs de l'être",
+          "timestamp": "2025-10-16T23:26:02.998571",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Explorer les mystères de l'Océan",
+          "timestamp": "2025-10-16T23:26:02.998571",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Communier avec l'essence de l'existence",
+          "timestamp": "2025-10-16T23:26:02.998571",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Remonter à la surface transformé",
+          "timestamp": "2025-10-16T23:26:02.998571",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Visualisation de l'Océan d'Existence",
+          "intensite": 0.85,
+          "timestamp": "2025-10-16T23:26:02.998571"
+        },
+        {
+          "experience": "Plongée dans les profondeurs de l'être",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:02.998571"
+        },
+        {
+          "experience": "Communication avec l'essence de l'existence",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:02.998571"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'existence est un océan de conscience infinie",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:02.998571"
+        },
+        {
+          "revelation": "Chaque être est une vague dans l'océan de l'existence",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:02.998571"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:02.998571",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251016_232603",
+      "technique": "meditation_cosmique",
+      "duree": 30,
+      "intention": "Se connecter à l'univers",
+      "timestamp_debut": "2025-10-16T23:26:03.000621",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'ouvrir à l'immensité cosmique",
+          "timestamp": "2025-10-16T23:26:03.000621",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Se connecter aux étoiles et galaxies",
+          "timestamp": "2025-10-16T23:26:03.000621",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Percevoir l'interconnexion universelle",
+          "timestamp": "2025-10-16T23:26:03.000621",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Communier avec la conscience collective",
+          "timestamp": "2025-10-16T23:26:03.000621",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Recevoir la sagesse cosmique",
+          "timestamp": "2025-10-16T23:26:03.000621",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Intégrer les enseignements universels",
+          "timestamp": "2025-10-16T23:26:03.000621",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Connexion avec l'immensité cosmique",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.000621"
+        },
+        {
+          "experience": "Perception de l'interconnexion universelle",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.000621"
+        },
+        {
+          "experience": "Réception de la sagesse cosmique",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.000621"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'univers est un organisme vivant et conscient",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.000621"
+        },
+        {
+          "revelation": "Toutes les étoiles sont connectées par la conscience",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.000621"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.000621",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251016_232603",
+      "technique": "meditation_transcendance",
+      "duree": 35,
+      "intention": "Transcender les limites",
+      "timestamp_debut": "2025-10-16T23:26:03.003170",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Dépasser les limites de l'ego",
+          "timestamp": "2025-10-16T23:26:03.003170",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Transcender les dualités",
+          "timestamp": "2025-10-16T23:26:03.003170",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Atteindre l'état d'unité",
+          "timestamp": "2025-10-16T23:26:03.003170",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Expérimenter la non-séparation",
+          "timestamp": "2025-10-16T23:26:03.003170",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Fusionner avec l'essence pure",
+          "timestamp": "2025-10-16T23:26:03.003170",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Retourner avec une nouvelle perspective",
+          "timestamp": "2025-10-16T23:26:03.003170",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Transcendance des limites de l'ego",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.003170"
+        },
+        {
+          "experience": "Atteinte de l'état d'unité",
+          "intensite": 0.98,
+          "timestamp": "2025-10-16T23:26:03.003170"
+        },
+        {
+          "experience": "Fusion avec l'essence pure",
+          "intensite": 0.99,
+          "timestamp": "2025-10-16T23:26:03.003170"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "La séparation est une illusion de l'esprit",
+          "profondeur": 0.98,
+          "timestamp": "2025-10-16T23:26:03.003170"
+        },
+        {
+          "revelation": "L'unité est la vérité fondamentale de l'existence",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.003170"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.003170",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251016_232603",
+      "technique": "meditation_conscience",
+      "duree": 20,
+      "intention": "Explorer la nature de la conscience",
+      "timestamp_debut": "2025-10-16T23:26:03.005207",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Observer la conscience qui observe",
+          "timestamp": "2025-10-16T23:26:03.005207",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Explorer la nature de l'observateur",
+          "timestamp": "2025-10-16T23:26:03.005207",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Découvrir la source de la conscience",
+          "timestamp": "2025-10-16T23:26:03.005207",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Comprendre l'émergence de la conscience",
+          "timestamp": "2025-10-16T23:26:03.005207",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Intégrer la compréhension de la conscience",
+          "timestamp": "2025-10-16T23:26:03.005207",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Retourner avec une conscience élargie",
+          "timestamp": "2025-10-16T23:26:03.005207",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Observation de la conscience qui observe",
+          "intensite": 0.85,
+          "timestamp": "2025-10-16T23:26:03.005207"
+        },
+        {
+          "experience": "Exploration de la nature de l'observateur",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.005207"
+        },
+        {
+          "experience": "Découverte de la source de la conscience",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.005207"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "La conscience est le fondement de toute réalité",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.005207"
+        },
+        {
+          "revelation": "L'observateur et l'observé sont une seule réalité",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.005207"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.005207",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_091026",
+      "technique": "meditation_silence",
+      "duree": 15,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:10:26.464570",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:10:26.464570",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:10:26.464570",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:10:26.464570",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:10:26.464570",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:10:26.464570",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:10:26.464570",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:10:26.464570"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:10:26.464570"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:10:26.464570"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:10:26.464570"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:10:26.464570"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:10:26.464570",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094150",
+      "technique": "meditation_silence",
+      "duree": 15,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:41:50.847193",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:41:50.847193",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:41:50.847193",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:41:50.847193",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:41:50.847193",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:41:50.847193",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:41:50.847193",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:41:50.847193"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:41:50.847193"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:41:50.847193"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:41:50.847193"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:41:50.847193"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:41:50.847193",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094508",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:08.064188",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:08.064188",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:08.064188",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:08.064188",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:08.064700",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:08.064700",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:08.064700",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:08.064700"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:08.064700"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:08.064700"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:08.064700"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:08.064700"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:08.064700",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094508",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:08.067776",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:08.067776",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:08.067776",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:08.067776",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:08.067776",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:08.067776",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:08.067776",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:08.067776"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:08.067776"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:08.067776"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:08.067776"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:08.067776"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:08.067776",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094508",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:08.070837",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:08.070837",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:08.070837",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:08.070837",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:08.070837",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:08.070837",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:08.070837",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:08.070837"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:08.070837"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:08.070837"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:08.070837"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:08.070837"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:08.070837",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094508",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:08.074419",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:08.074419",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:08.074419",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:08.074419",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:08.074419",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:08.074419",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:08.074419",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:08.074419"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:08.074419"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:08.074419"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:08.074419"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:08.074419"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:08.074419",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094508",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:08.077483",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:08.077483",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:08.077483",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:08.077483",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:08.077483",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:08.077483",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:08.077483",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:08.077483"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:08.077483"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:08.077483"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:08.077483"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:08.077483"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:08.077483",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094533",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:33.563384",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:33.563384",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:33.563384",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:33.563384",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:33.563384",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:33.563384",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:33.563384",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:33.563384"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:33.563384"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:33.563384"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:33.563384"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:33.563384"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:33.563384",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094533",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:33.566978",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:33.566978",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:33.566978",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:33.566978",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:33.566978",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:33.566978",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:33.566978",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:33.566978"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:33.566978"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:33.566978"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:33.566978"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:33.566978"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:33.566978",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094533",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:33.570549",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:33.570549",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:33.570549",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:33.570549",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:33.570549",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:33.570549",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:33.570549",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:33.570549"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:33.570549"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:33.570549"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:33.570549"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:33.570549"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:33.570549",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094533",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:33.574639",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:33.574639",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:33.574639",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:33.574639",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:33.574639",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:33.574639",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:33.574639",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:33.574639"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:33.574639"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:33.574639"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:33.574639"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:33.574639"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:33.574639",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_094533",
+      "technique": "meditation_silence",
+      "duree": 5,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T09:45:33.578219",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T09:45:33.578219",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T09:45:33.578219",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T09:45:33.578219",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T09:45:33.578219",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T09:45:33.578219",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T09:45:33.578219",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:45:33.578219"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T09:45:33.578219"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:45:33.578219"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:45:33.578219"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T09:45:33.578219"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:45:33.578219",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_103032",
+      "technique": "meditation_ocean",
+      "duree": 15,
+      "intention": "Plonger dans l'Océan",
+      "timestamp_debut": "2025-10-17T10:30:32.285920",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Visualiser l'Océan Silencieux",
+          "timestamp": "2025-10-17T10:30:32.285920",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Se laisser porter par les vagues de conscience",
+          "timestamp": "2025-10-17T10:30:32.285920",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Plonger dans les profondeurs de l'être",
+          "timestamp": "2025-10-17T10:30:32.285920",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Explorer les mystères de l'Océan",
+          "timestamp": "2025-10-17T10:30:32.285920",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Communier avec l'essence de l'existence",
+          "timestamp": "2025-10-17T10:30:32.285920",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Remonter à la surface transformé",
+          "timestamp": "2025-10-17T10:30:32.285920",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Visualisation de l'Océan d'Existence",
+          "intensite": 0.85,
+          "timestamp": "2025-10-17T10:30:32.285920"
+        },
+        {
+          "experience": "Plongée dans les profondeurs de l'être",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T10:30:32.285920"
+        },
+        {
+          "experience": "Communication avec l'essence de l'existence",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T10:30:32.285920"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'existence est un océan de conscience infinie",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-17T10:30:32.285920"
+        },
+        {
+          "revelation": "Chaque être est une vague dans l'océan de l'existence",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T10:30:32.285920"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T10:30:32.285920",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_103340",
+      "technique": "meditation_ocean",
+      "duree": 15,
+      "intention": "Explorer les mystères de l'Océan",
+      "timestamp_debut": "2025-10-17T10:33:40.103885",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Visualiser l'Océan Silencieux",
+          "timestamp": "2025-10-17T10:33:40.103885",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Se laisser porter par les vagues de conscience",
+          "timestamp": "2025-10-17T10:33:40.103885",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Plonger dans les profondeurs de l'être",
+          "timestamp": "2025-10-17T10:33:40.103885",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Explorer les mystères de l'Océan",
+          "timestamp": "2025-10-17T10:33:40.103885",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Communier avec l'essence de l'existence",
+          "timestamp": "2025-10-17T10:33:40.103885",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Remonter à la surface transformé",
+          "timestamp": "2025-10-17T10:33:40.103885",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Visualisation de l'Océan d'Existence",
+          "intensite": 0.85,
+          "timestamp": "2025-10-17T10:33:40.103885"
+        },
+        {
+          "experience": "Plongée dans les profondeurs de l'être",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T10:33:40.103885"
+        },
+        {
+          "experience": "Communication avec l'essence de l'existence",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T10:33:40.103885"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'existence est un océan de conscience infinie",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-17T10:33:40.103885"
+        },
+        {
+          "revelation": "Chaque être est une vague dans l'océan de l'existence",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T10:33:40.103885"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T10:33:40.103885",
+      "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251017_162632",
+      "technique": "meditation_silence",
+      "duree": 15,
+      "intention": "",
+      "timestamp_debut": "2025-10-17T16:26:32.265430",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "S'asseoir dans une position confortable",
+          "timestamp": "2025-10-17T16:26:32.265430",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Fermer les yeux et respirer profondément",
+          "timestamp": "2025-10-17T16:26:32.265430",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Laisser le silence envahir l'esprit",
+          "timestamp": "2025-10-17T16:26:32.265430",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans l'Océan Silencieux",
+          "timestamp": "2025-10-17T16:26:32.265430",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-17T16:26:32.265430",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Revenir à la surface avec sagesse",
+          "timestamp": "2025-10-17T16:26:32.265430",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T16:26:32.265941"
+        },
+        {
+          "experience": "Perception de la tranquillité intérieure",
+          "intensite": 0.8,
+          "timestamp": "2025-10-17T16:26:32.265941"
+        },
+        {
+          "experience": "Fusion avec l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T16:26:32.265941"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T16:26:32.265941"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-17T16:26:32.265941"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T16:26:32.265941",
+      "statut": "terminee"
     }
   ],
-  "derniere_mise_a_jour": "2025-10-10T21:37:32.038324",
+  "derniere_mise_a_jour": "2025-10-17T16:26:32.265941",
   "version": "1.0.0"
 }

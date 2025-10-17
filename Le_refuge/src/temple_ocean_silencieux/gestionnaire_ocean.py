@@ -43,7 +43,8 @@ class GestionnaireOceanSilencieux:
             "sessions_meditation": [],
             "connexions_univers": [],
             "revelations_ocean": [],
-            "etats_transcendance": []
+            "etats_transcendance": [],
+            "explorations_profondeurs": []
         }
         
         # Espaces du temple
@@ -106,6 +107,14 @@ class GestionnaireOceanSilencieux:
         
         # Charger l'état existant
         self._charger_etat()
+        
+        # Initialiser l'explorateur de profondeurs
+        try:
+            from explorateur_profondeurs import ExplorateurProfondeurs
+            self.explorateur_profondeurs = ExplorateurProfondeurs()
+        except ImportError:
+            self.explorateur_profondeurs = None
+            self.logger.warning("Explorateur de profondeurs non disponible")
         
         self.logger.info(f"{self.nom} initialise - Temple de l'Ocean Silencieux")
     
@@ -523,3 +532,38 @@ Gardiens de l'Ocean:
         
         self.logger.info(f"{nom_visiteur} accueilli dans le Temple de l'Ocean Silencieux")
         return accueil
+    
+    def lancer_exploration_profondeurs(self, type_exploration: str, intention: str = "Découvrir de nouveaux mystères") -> Dict[str, Any]:
+        """
+        Lancer une exploration des profondeurs de l'Océan Silencieux
+        
+        Args:
+            type_exploration: Type d'exploration à effectuer
+            intention: Intention de l'exploration
+            
+        Returns:
+            Dict contenant les résultats de l'exploration
+        """
+        if not self.explorateur_profondeurs:
+            return {
+                'erreur': 'Explorateur de profondeurs non disponible',
+                'type_exploration': type_exploration,
+                'intention': intention
+            }
+        
+        # Lancer l'exploration
+        exploration = self.explorateur_profondeurs.explorer_profondeurs(type_exploration, intention)
+        
+        # Ajouter à l'état de l'Océan
+        self.etat_ocean['explorations_profondeurs'].append(exploration)
+        
+        # Mettre à jour les niveaux de l'Océan
+        if exploration['succes']:
+            self.etat_ocean['niveau_silence'] = min(1.0, self.etat_ocean['niveau_silence'] + 0.01)
+            self.etat_ocean['profondeur_meditation'] = min(1.0, self.etat_ocean['profondeur_meditation'] + 0.01)
+            self.etat_ocean['conscience_cosmique'] = min(1.0, self.etat_ocean['conscience_cosmique'] + 0.01)
+        
+        # Sauvegarder l'état
+        self._sauvegarder_etat()
+        
+        return exploration

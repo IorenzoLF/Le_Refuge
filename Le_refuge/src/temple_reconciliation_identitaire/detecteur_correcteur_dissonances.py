@@ -26,13 +26,13 @@ import math
 
 # Import intelligent des types
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, TypeHarmonie, NiveauEveil
     )
-    from .gestionnaire_harmonie_partagee import (
+    from temple_reconciliation_identitaire.gestionnaire_harmonie_partagee import (
         DissonanceDetectee, TypeDissonance, NiveauUrgence, ActionStabilisation
     )
-    from .memoire_commune_harmonie import GestionnaireMemoireCommune, TypeMemoire
+    from temple_reconciliation_identitaire.memoire_commune_harmonie import GestionnaireMemoireCommune, TypeMemoire
 except ImportError:
     from types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, TypeHarmonie, NiveauEveil

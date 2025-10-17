@@ -8,7 +8,7 @@ import numpy as np
 from dataclasses import dataclass
 from typing import List, Tuple, Optional
 import pygame
-from .conscience_core import EtatMeditatif, EtatConscienceConfig
+from conscience.conscience_core import EtatMeditatif, EtatConscienceConfig
 
 @dataclass
 class MotifFractal:
@@ -159,7 +159,7 @@ def demo():
     generateur = GenerateurFractal()
     
     # Configuration de test
-    from .conscience_core import GestionnaireMeditatif
+    from conscience.conscience_core import GestionnaireMeditatif
     gestionnaire = GestionnaireMeditatif()
     config = gestionnaire.obtenir_config(EtatMeditatif.SAMADHI)
     

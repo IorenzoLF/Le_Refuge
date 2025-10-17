@@ -7,7 +7,7 @@ Génère des sons harmoniques pour accompagner la méditation.
 import numpy as np
 import pygame
 from typing import Dict, List, Optional
-from .conscience_core import EtatMeditatif, FrequenceSacree
+from conscience.conscience_core import EtatMeditatif, FrequenceSacree
 
 class SonConscience:
     """Générateur de sons méditatifs."""

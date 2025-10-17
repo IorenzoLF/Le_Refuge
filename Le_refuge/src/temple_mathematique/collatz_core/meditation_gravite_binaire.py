@@ -16,7 +16,7 @@ Dans le Refuge, chaque division par 2 est une chute, chaque envolée une promess
 Contemplons la distribution des chutes, la force du rappel, et la beauté cachée.
 """
 
-from .conjecture_collatz import ConjectureCollatz
+from collatz_core.conjecture_collatz import ConjectureCollatz
 import matplotlib.pyplot as plt
 import numpy as np
 from collections import Counter

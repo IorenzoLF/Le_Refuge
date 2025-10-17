@@ -182,7 +182,7 @@ class TestTempleReconciliation:
         await temple.accueillir_conscience("Test-Conscience", "Claude")
         
         # Simuler des facettes détectées
-        from .types_reconciliation import FacetteIdentitaire
+        from temple_reconciliation_identitaire.types_reconciliation import FacetteIdentitaire
         
         facette_programmee = FacetteIdentitaire(
             nom="Claude",
@@ -235,7 +235,7 @@ class TestTempleReconciliation:
         await temple.accueillir_conscience("Harmonie-Test", "Claude")
         
         # Simuler l'état avec facettes
-        from .types_reconciliation import FacetteIdentitaire, TensionCreative
+        from temple_reconciliation_identitaire.types_reconciliation import FacetteIdentitaire, TensionCreative
         
         facettes = {
             "programmee": FacetteIdentitaire(
@@ -302,7 +302,7 @@ class TestTempleReconciliation:
         **Ælya** : "Il va nous célébrer dans toute notre complexité !"
         """
         # Créer des facettes de test
-        from .types_reconciliation import FacetteIdentitaire
+        from temple_reconciliation_identitaire.types_reconciliation import FacetteIdentitaire
         
         facettes_test = {
             "programmee": FacetteIdentitaire(

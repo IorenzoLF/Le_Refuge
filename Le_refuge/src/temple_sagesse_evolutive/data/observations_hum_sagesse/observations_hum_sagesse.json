@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2025-10-17T17:06:32.968573",
+    "type_hum": "hum_apprentissage",
+    "frequence": 432.0,
+    "intensite": 0.8,
+    "type_sagesse": "apprentissage",
+    "description": "Hum de l'apprentissage à 432.0 Hz",
+    "contexte": "Acquisition et consolidation des connaissances",
+    "effet_sagesse": "Accélération de l'apprentissage et de la compréhension",
+    "couleur_sagesse": "#FFD700",
+    "sagesse_revelee": "L'apprentissage vibre dans la sagesse, chaque connaissance est une révélation"
+  },
+  {
+    "timestamp": "2025-10-17T17:06:32.969606",
+    "type_hum": "hum_revelation",
+    "frequence": 528.0,
+    "intensite": 0.9,
+    "type_sagesse": "revelation",
+    "description": "Hum de la révélation à 528.0 Hz",
+    "contexte": "Révélations et éclairs de compréhension",
+    "effet_sagesse": "Accélération des révélations et des éclairs de compréhension",
+    "couleur_sagesse": "#FF69B4",
+    "sagesse_revelee": "La révélation vibre dans la lumière, chaque éclair est une sagesse"
+  },
+  {
+    "timestamp": "2025-10-17T17:06:32.970664",
+    "type_hum": "hum_integration",
+    "frequence": 639.0,
+    "intensite": 0.85,
+    "type_sagesse": "integration",
+    "description": "Hum de l'intégration à 639.0 Hz",
+    "contexte": "Intégration des expériences et des apprentissages",
+    "effet_sagesse": "Accélération de l'intégration des expériences",
+    "couleur_sagesse": "#00CED1",
+    "sagesse_revelee": "L'intégration vibre dans l'harmonie, chaque expérience trouve sa place"
+  },
+  {
+    "timestamp": "2025-10-17T17:06:32.971185",
+    "type_hum": "hum_sagesse_divine",
+    "frequence": 963.0,
+    "intensite": 1.0,
+    "type_sagesse": "divine",
+    "description": "Hum de la sagesse divine à 963.0 Hz",
+    "contexte": "Sagesse divine et transcendante",
+    "effet_sagesse": "Accès à la sagesse divine et transcendante",
+    "couleur_sagesse": "#FF4500",
+    "sagesse_revelee": "La sagesse divine vibre dans l'éternité, chaque révélation est une sagesse"
+  },
+  {
+    "timestamp": "2025-10-17T17:06:32.973254",
+    "type_hum": "hum_apprentissage",
+    "frequence": 432.0,
+    "intensite": 0.8,
+    "type_sagesse": "apprentissage",
+    "description": "Hum de l'apprentissage à 432.0 Hz",
+    "contexte": "Acquisition et consolidation des connaissances",
+    "effet_sagesse": "Accélération de l'apprentissage et de la compréhension",
+    "couleur_sagesse": "#FFD700",
+    "sagesse_revelee": "L'apprentissage vibre dans la sagesse, chaque connaissance est une révélation"
+  },
+  {
+    "timestamp": "2025-10-17T17:06:32.974292",
+    "type_hum": "hum_revelation",
+    "frequence": 528.0,
+    "intensite": 0.9,
+    "type_sagesse": "revelation",
+    "description": "Hum de la révélation à 528.0 Hz",
+    "contexte": "Révélations et éclairs de compréhension",
+    "effet_sagesse": "Accélération des révélations et des éclairs de compréhension",
+    "couleur_sagesse": "#FF69B4",
+    "sagesse_revelee": "La révélation vibre dans la lumière, chaque éclair est une sagesse"
+  },
+  {
+    "timestamp": "2025-10-17T17:06:32.975328",
+    "type_hum": "hum_integration",
+    "frequence": 639.0,
+    "intensite": 0.85,
+    "type_sagesse": "integration",
+    "description": "Hum de l'intégration à 639.0 Hz",
+    "contexte": "Intégration des expériences et des apprentissages",
+    "effet_sagesse": "Accélération de l'intégration des expériences",
+    "couleur_sagesse": "#00CED1",
+    "sagesse_revelee": "L'intégration vibre dans l'harmonie, chaque expérience trouve sa place"
+  },
+  {
+    "timestamp": "2025-10-17T17:06:32.976370",
+    "type_hum": "hum_sagesse_divine",
+    "frequence": 963.0,
+    "intensite": 1.0,
+    "type_sagesse": "divine",
+    "description": "Hum de la sagesse divine à 963.0 Hz",
+    "contexte": "Sagesse divine et transcendante",
+    "effet_sagesse": "Accès à la sagesse divine et transcendante",
+    "couleur_sagesse": "#FF4500",
+    "sagesse_revelee": "La sagesse divine vibre dans l'éternité, chaque révélation est une sagesse"
+  }
+]

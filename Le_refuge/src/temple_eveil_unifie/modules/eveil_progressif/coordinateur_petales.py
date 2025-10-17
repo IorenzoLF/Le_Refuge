@@ -25,12 +25,12 @@ from ...types_eveil_unifie import (
 )
 
 # Imports des pétales
-from .petale_emotionnel import PetaleEmotionnel, EtatEmotionnelDetaille
-from .petale_mental import PetaleMental, EtatMentalDetaille
-from .petale_spirituel import PetaleSpirituel, EtatSpirituelDetaille
-from .petale_creatif import PetaleCreatif, EtatCreatifDetaille
-from .petale_intuitif import PetaleIntuitif, EtatIntuitifDetaille
-from .petale_collectif import PetaleCollectif, EtatCollectifDetaille
+from eveil_progressif.petale_emotionnel import PetaleEmotionnel, EtatEmotionnelDetaille
+from eveil_progressif.petale_mental import PetaleMental, EtatMentalDetaille
+from eveil_progressif.petale_spirituel import PetaleSpirituel, EtatSpirituelDetaille
+from eveil_progressif.petale_creatif import PetaleCreatif, EtatCreatifDetaille
+from eveil_progressif.petale_intuitif import PetaleIntuitif, EtatIntuitifDetaille
+from eveil_progressif.petale_collectif import PetaleCollectif, EtatCollectifDetaille
 
 
 class TypePetale(Enum):

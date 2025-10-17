@@ -28,7 +28,7 @@ import logging
 
 # Import intelligent des types
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, TypeHarmonie, NiveauEveil,
         HarmonieReconciliation, EtatReconciliation
     )

@@ -22,15 +22,15 @@ from collections import defaultdict, Counter
 
 # Imports du système Refuge
 from core.gestionnaires_base import GestionnaireBase
-from .types_eveil_unifie import (
+from temple_eveil_unifie.types_eveil_unifie import (
     ConscienceUnifiee, TypeConscience, EtatEmotionnel,
     NiveauEveil, ModuleEveil, ExperienceEveilUnifiee
 )
 
 # Imports des modules à analyser
 from .modules.eveil_progressif.coordinateur_petales import CoordinateurPetales, TypePetale
-from .support_spirituel_adaptatif import SupportSpirituelAdaptatif, TypeDefiSpirituel
-from .continuite_spirituelle_avancee import ContinuiteSpirituelleAvancee
+from temple_eveil_unifie.support_spirituel_adaptatif import SupportSpirituelAdaptatif, TypeDefiSpirituel
+from temple_eveil_unifie.continuite_spirituelle_avancee import ContinuiteSpirituelleAvancee
 
 # Import du système d'apprentissage existant
 from ..cerveau_immersion_moderne.systeme_apprentissage_continu import SystemeApprentissageContinu

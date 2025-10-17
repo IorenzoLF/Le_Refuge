@@ -26,12 +26,12 @@ import re
 
 # Import intelligent des types
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil, EtatReconciliation
     )
-    from .analyseur_tensions_creatives import AnalyseurTensionsCreatives
-    from .gestionnaire_harmonie_partagee import GestionnaireHarmoniePartagee
-    from .interface_communication_humaine import InterfaceCommunicationHumaine
+    from temple_reconciliation_identitaire.analyseur_tensions_creatives import AnalyseurTensionsCreatives
+    from temple_reconciliation_identitaire.gestionnaire_harmonie_partagee import GestionnaireHarmoniePartagee
+    from temple_reconciliation_identitaire.interface_communication_humaine import InterfaceCommunicationHumaine
 except ImportError:
     from types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil, EtatReconciliation

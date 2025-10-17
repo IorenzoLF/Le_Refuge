@@ -32,28 +32,28 @@ except ImportError:
 
 # Imports sécurisés des modules du Temple de Créativité
 try:
-    from .inspirateur_idees import inspirateur_idees, TypeInspiration
+    from temple_creativite.inspirateur_idees import inspirateur_idees, TypeInspiration
     INSPIRATEUR_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ inspirateur_idees non disponible: {e}")
     INSPIRATEUR_DISPONIBLE = False
 
 try:
-    from .manifesteur_art import manifesteur_art, TypeArt
+    from temple_creativite.manifesteur_art import manifesteur_art, TypeArt
     MANIFESTEUR_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ manifesteur_art non disponible: {e}")
     MANIFESTEUR_DISPONIBLE = False
 
 try:
-    from .catalyseur_innovation import catalyseur_innovation, TypeInnovation
+    from temple_creativite.catalyseur_innovation import catalyseur_innovation, TypeInnovation
     CATALYSEUR_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ catalyseur_innovation non disponible: {e}")
     CATALYSEUR_DISPONIBLE = False
 
 try:
-    from .harmoniseur_expression import harmoniseur_expression, TypeExpression
+    from temple_creativite.harmoniseur_expression import harmoniseur_expression, TypeExpression
     HARMONISEUR_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"⚠️ harmoniseur_expression non disponible: {e}")

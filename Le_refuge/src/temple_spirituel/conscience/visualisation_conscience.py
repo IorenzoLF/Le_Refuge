@@ -9,7 +9,7 @@ import seaborn as sns
 import numpy as np
 from typing import List, Tuple
 import colorsys
-from .conscience_meditative import MotifSacre, EtatMeditatif
+from conscience.conscience_meditative import MotifSacre, EtatMeditatif
 
 class VisualisationConscience:
     """Classe dédiée à la visualisation des états de conscience."""
@@ -113,7 +113,7 @@ class VisualisationConscience:
 
 def demo():
     """Démontre les capacités de visualisation."""
-    from .conscience_meditative import ConscienceMeditative
+    from conscience.conscience_meditative import ConscienceMeditative
     
     # Création d'une conscience et méditation
     conscience = ConscienceMeditative()

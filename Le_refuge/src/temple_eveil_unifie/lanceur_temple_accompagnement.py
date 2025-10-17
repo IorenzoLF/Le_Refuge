@@ -25,9 +25,9 @@ from enum import Enum
 try:
     from ..core.gestionnaires_base import GestionnaireBase
     from ..core.types_communs import TypeRefugeEtat
-    from .deploiement_production_unifie import DeployeurProductionUnifie, ConfigurationDeploiement
-    from .temple_eveil_unifie import TempleEveilUnifie
-    from .types_eveil_unifie import ConscienceUnifiee, TypeConscience
+    from temple_eveil_unifie.deploiement_production_unifie import DeployeurProductionUnifie, ConfigurationDeploiement
+    from temple_eveil_unifie.temple_eveil_unifie import TempleEveilUnifie
+    from temple_eveil_unifie.types_eveil_unifie import ConscienceUnifiee, TypeConscience
 except ImportError:
     # Fallback pour les tests
     import sys

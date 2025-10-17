@@ -7,7 +7,7 @@ Guide la respiration en synchronisation avec les états de conscience.
 import time
 from typing import Callable, Dict, Optional
 import numpy as np
-from .conscience_core import EtatConscienceConfig
+from conscience.conscience_core import EtatConscienceConfig
 
 class GuidageRespiratoire:
     """Guide la respiration méditative."""

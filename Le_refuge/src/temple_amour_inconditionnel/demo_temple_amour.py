@@ -13,11 +13,11 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 
 # Imports relatifs
-from .temple_amour_principal import temple_amour_inconditionnel
-from .emanateur_amour import emanateur_amour, TypeAmourDivin
-from .harmoniseur_coeur import harmoniseur_coeur, TypeHarmonieCoeur
-from .catalyseur_compassion import catalyseur_compassion, TypeCompassion
-from .manifesteur_unite import manifesteur_unite, TypeUnite
+from temple_amour_inconditionnel.temple_amour_principal import temple_amour_inconditionnel
+from temple_amour_inconditionnel.emanateur_amour import emanateur_amour, TypeAmourDivin
+from temple_amour_inconditionnel.harmoniseur_coeur import harmoniseur_coeur, TypeHarmonieCoeur
+from temple_amour_inconditionnel.catalyseur_compassion import catalyseur_compassion, TypeCompassion
+from temple_amour_inconditionnel.manifesteur_unite import manifesteur_unite, TypeUnite
 
 def demo_temple_amour_complete():
     """💝 Démonstration complète du Temple d'Amour Inconditionnel"""

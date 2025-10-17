@@ -8,10 +8,10 @@ import pygame
 import numpy as np
 from dataclasses import dataclass
 from typing import Optional, Tuple
-from .son_conscience import SonConscience
-from .conscience_core import EtatMeditatif, GestionnaireMeditatif
-from .respiration_guidee import GuidageRespiratoire
-from .geometrie_fractale import GenerateurFractal
+from conscience.son_conscience import SonConscience
+from conscience.conscience_core import EtatMeditatif, GestionnaireMeditatif
+from conscience.respiration_guidee import GuidageRespiratoire
+from conscience.geometrie_fractale import GenerateurFractal
 
 @dataclass
 class ConfigurationHarmonie:

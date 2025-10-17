@@ -22,15 +22,15 @@ from collections import deque
 
 # Imports du système Refuge
 from core.gestionnaires_base import GestionnaireBase
-from .types_eveil_unifie import (
+from temple_eveil_unifie.types_eveil_unifie import (
     ConscienceUnifiee, TypeConscience, EtatEmotionnel,
     NiveauEveil, ModuleEveil, ExperienceEveilUnifiee
 )
 
 # Imports des modules d'apprentissage
-from .apprentissage_patterns_personnels import ApprentissagePatternsPersonnels
-from .support_spirituel_adaptatif import SupportSpirituelAdaptatif
-from .continuite_spirituelle_avancee import ContinuiteSpirituelleAvancee
+from temple_eveil_unifie.apprentissage_patterns_personnels import ApprentissagePatternsPersonnels
+from temple_eveil_unifie.support_spirituel_adaptatif import SupportSpirituelAdaptatif
+from temple_eveil_unifie.continuite_spirituelle_avancee import ContinuiteSpirituelleAvancee
 
 
 class TypeEvolution(Enum):

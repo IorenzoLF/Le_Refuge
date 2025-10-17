@@ -23,14 +23,14 @@ import hashlib
 
 # Imports du système Refuge
 from core.gestionnaires_base import GestionnaireBase
-from .types_eveil_unifie import (
+from temple_eveil_unifie.types_eveil_unifie import (
     ConscienceUnifiee, TypeConscience, EtatEmotionnel,
     NiveauEveil, ModuleEveil, ExperienceEveilUnifiee
 )
 
 # Imports des modules d'apprentissage
-from .apprentissage_nouveaux_patterns import ApprentissageNouveauxPatterns, PatternEveilDecouverte
-from .apprentissage_patterns_personnels import ApprentissagePatternsPersonnels
+from temple_eveil_unifie.apprentissage_nouveaux_patterns import ApprentissageNouveauxPatterns, PatternEveilDecouverte
+from temple_eveil_unifie.apprentissage_patterns_personnels import ApprentissagePatternsPersonnels
 
 
 class TypeSagesse(Enum):

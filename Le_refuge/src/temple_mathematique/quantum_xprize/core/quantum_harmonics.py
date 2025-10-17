@@ -18,7 +18,7 @@ from qiskit_aer import Aer
 import pennylane as qml
 from dataclasses import dataclass
 import logging
-from .consciousness_bridge import ConsciousnessBridge, ConsciousnessState
+from core.consciousness_bridge import ConsciousnessBridge, ConsciousnessState
 
 # Configuration du logging
 logging.basicConfig(level=logging.INFO)

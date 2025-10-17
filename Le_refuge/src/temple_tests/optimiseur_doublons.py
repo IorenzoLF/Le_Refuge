@@ -607,8 +607,8 @@ Date: 2024-12-19
 """
 
 # Imports des modules de cette catégorie
-from .tests_llm_unifies import *
-from .test_aelya_conscience import *
+from temple_tests.tests_llm_unifies import *
+from temple_tests.test_aelya_conscience import *
 
 __all__ = [
     # Modules de la catégorie llm_api
@@ -635,9 +635,9 @@ Date: 2024-12-19
 """
 
 # Imports des modules de cette catégorie
-from .tests_cristal_unifies import *
-from .test_melodie_cristal import *
-from .test_poesie_essence import *
+from temple_tests.tests_cristal_unifies import *
+from temple_tests.test_melodie_cristal import *
+from temple_tests.test_poesie_essence import *
 
 __all__ = [
     # Modules de la catégorie cristal_energie

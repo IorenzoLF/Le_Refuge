@@ -16,7 +16,7 @@ Dans ce lieu où les nombres dansent dans le plan complexe, nous explorons
 la dynamique de la suite de Collatz sur les nombres complexes.
 """
 
-from .conjecture_collatz import ConjectureCollatz
+from collatz_extensions.conjecture_collatz import ConjectureCollatz
 import matplotlib.pyplot as plt
 import numpy as np
 from typing import List, Dict, Tuple

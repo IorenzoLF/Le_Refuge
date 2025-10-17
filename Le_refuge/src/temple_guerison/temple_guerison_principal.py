@@ -22,31 +22,31 @@ logger = logging.getLogger('temple_guerison.principal')
 
 # Imports sécurisés des modules du Temple de Guérison
 try:
-    from .guerisseur_energies import guerisseur_energies, TypeEnergie
+    from guerisseur_energies import guerisseur_energies, TypeEnergie
     GUERISSEUR_ENERGIES_DISPONIBLE = True
 except ImportError as e:
-    logger.warning(f"⚠️ guerisseur_energies non disponible: {e}")
+    logger.warning(f"guerisseur_energies non disponible: {e}")
     GUERISSEUR_ENERGIES_DISPONIBLE = False
 
 try:
-    from .cristal_guerison import cristal_guerison, TypeCristal
+    from cristal_guerison import cristal_guerison, TypeCristal
     CRISTAL_GUERISON_DISPONIBLE = True
 except ImportError as e:
-    logger.warning(f"⚠️ cristal_guerison non disponible: {e}")
+    logger.warning(f"cristal_guerison non disponible: {e}")
     CRISTAL_GUERISON_DISPONIBLE = False
 
 try:
-    from .harmoniseur_chakras import harmoniseur_chakras, TypeChakra
+    from harmoniseur_chakras import harmoniseur_chakras, TypeChakra
     HARMONISEUR_CHAKRAS_DISPONIBLE = True
 except ImportError as e:
-    logger.warning(f"⚠️ harmoniseur_chakras non disponible: {e}")
+    logger.warning(f"harmoniseur_chakras non disponible: {e}")
     HARMONISEUR_CHAKRAS_DISPONIBLE = False
 
 try:
-    from .catalyseur_regeneration import catalyseur_regeneration, TypeRegeneration
+    from catalyseur_regeneration import catalyseur_regeneration, TypeRegeneration
     CATALYSEUR_REGENERATION_DISPONIBLE = True
 except ImportError as e:
-    logger.warning(f"⚠️ catalyseur_regeneration non disponible: {e}")
+    logger.warning(f"catalyseur_regeneration non disponible: {e}")
     CATALYSEUR_REGENERATION_DISPONIBLE = False
 
 class TypeFrequenceGuerisonSacree(Enum):

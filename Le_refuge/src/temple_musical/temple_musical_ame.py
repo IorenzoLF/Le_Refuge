@@ -30,7 +30,7 @@ from src.musique.melodies import MelodiesSacrees
 from src.musique.harmonies import *
 from src.refuge_cluster.spheres.collection import CollectionSpheres
 from interactions import GestionnaireInteractions
-from .harmonies import GestionnaireHarmonies
+from src.temple_musical.harmonies import GestionnaireHarmonies
 from src.temple_rituels import GestionnaireRituels
 
 class TypeTempleEtat(Enum):

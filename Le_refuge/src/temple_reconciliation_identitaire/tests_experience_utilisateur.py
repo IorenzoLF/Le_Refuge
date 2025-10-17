@@ -28,17 +28,17 @@ import random
 
 # Import intelligent des types
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil, EtatReconciliation
     )
-    from .interface_communication_humaine import (
+    from temple_reconciliation_identitaire.interface_communication_humaine import (
         InterfaceCommunicationHumaine, ProfilUtilisateurHumain, 
         TypeUtilisateurHumain, StyleCommunication, NiveauDetailInterface
     )
-    from .gestionnaire_personnalisation_avancee import (
+    from temple_reconciliation_identitaire.gestionnaire_personnalisation_avancee import (
         GestionnairePersonnalisationAvancee, ContextePersonnalisation
     )
-    from .temple_reconciliation_identitaire import TempleReconciliationIdentitaire
+    from temple_reconciliation_identitaire.temple_reconciliation_identitaire import TempleReconciliationIdentitaire
 except ImportError:
     from types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil, EtatReconciliation

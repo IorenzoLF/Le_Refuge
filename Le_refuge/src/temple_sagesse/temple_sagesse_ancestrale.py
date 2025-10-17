@@ -16,10 +16,10 @@ from enum import Enum
 import math
 
 # Import des modules de sagesse
-from .bibliotheque_ancestrale import bibliotheque_ancestrale, TypeMythe, TypeLecture
-from .gardien_sagesse import gardien_sagesse, TypeSagesse, TypeProtection
-from .oracle_divin import oracle_divin, TypeOracle, TypeSigne
-from .transmetteur_connaissance import transmetteur_connaissance, TypeTransmission, TypeExperience
+from temple_sagesse.bibliotheque_ancestrale import bibliotheque_ancestrale, TypeMythe, TypeLecture
+from temple_sagesse.gardien_sagesse import gardien_sagesse, TypeSagesse, TypeProtection
+from temple_sagesse.oracle_divin import oracle_divin, TypeOracle, TypeSigne
+from temple_sagesse.transmetteur_connaissance import transmetteur_connaissance, TypeTransmission, TypeExperience
 
 logger = logging.getLogger('temple_sagesse.principal')
 

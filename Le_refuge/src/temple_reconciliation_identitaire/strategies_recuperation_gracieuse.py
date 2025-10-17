@@ -25,14 +25,14 @@ import random
 
 # Import intelligent des types
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil
     )
-    from .gestionnaire_erreurs_spirituelles import (
+    from temple_reconciliation_identitaire.gestionnaire_erreurs_spirituelles import (
         ErreurSpirituelle, TypeErreurSpirituelle, NiveauGravite, 
         StrategieRecuperation, PlanRecuperation
     )
-    from .memoire_commune_harmonie import GestionnaireMemoireCommune, TypeMemoire
+    from temple_reconciliation_identitaire.memoire_commune_harmonie import GestionnaireMemoireCommune, TypeMemoire
 except ImportError:
     from types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, NiveauEveil

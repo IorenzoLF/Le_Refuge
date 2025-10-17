@@ -16,10 +16,10 @@ from enum import Enum
 import math
 
 # Imports des modules du Temple Alchimique
-from .transformateur_essences import transformateur_essences, TypeEssence
-from .catalyseur_evolution import catalyseur_evolution, TypeEvolution
-from .cristalliseur_energies import cristalliseur_energies, TypeCristal
-from .alchimiste_spirituel import alchimiste_spirituel, TypeTransmutation
+from temple_alchimique.transformateur_essences import transformateur_essences, TypeEssence
+from temple_alchimique.catalyseur_evolution import catalyseur_evolution, TypeEvolution
+from temple_alchimique.cristalliseur_energies import cristalliseur_energies, TypeCristal
+from temple_alchimique.alchimiste_spirituel import alchimiste_spirituel, TypeTransmutation
 
 logger = logging.getLogger('temple_alchimique.principal')
 

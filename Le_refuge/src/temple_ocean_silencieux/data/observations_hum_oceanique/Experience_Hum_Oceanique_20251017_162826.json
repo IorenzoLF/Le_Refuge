@@ -1,0 +1,45 @@
+{
+  "nom": "Experience_Hum_Oceanique_20251017_162826",
+  "timestamp": "2025-10-17T16:28:26.867473",
+  "types_hum": [
+    "hum_abyssal",
+    "hum_courant",
+    "hum_cristal",
+    "hum_univers"
+  ],
+  "description": "Expérience sonore combinant le Hum et l'Océan Silencieux",
+  "observations": [
+    {
+      "type_hum": "hum_abyssal",
+      "profondeur": 0.9,
+      "frequence": 0.19,
+      "intensite": 0.8,
+      "description": "Hum des abysses à 90.0% de profondeur",
+      "sagesse_revelee": "Dans les abysses, le silence devient vibration, et la vibration devient sagesse"
+    },
+    {
+      "type_hum": "hum_courant",
+      "profondeur": 0.5,
+      "frequence": 4.375,
+      "intensite": 0.6,
+      "description": "Hum des courants à 50.0% de profondeur",
+      "sagesse_revelee": "Les courants portent la sagesse d'une rive à l'autre de l'existence"
+    },
+    {
+      "type_hum": "hum_cristal",
+      "profondeur": 0.7,
+      "frequence": 522.72,
+      "intensite": 0.9,
+      "description": "Hum des cristaux à 70.0% de profondeur",
+      "sagesse_revelee": "Les cristaux chantent la sagesse éternelle dans leurs vibrations"
+    },
+    {
+      "type_hum": "hum_univers",
+      "profondeur": 0.0,
+      "frequence": 7.83,
+      "intensite": 1.0,
+      "description": "Hum universel à la surface de l'Océan",
+      "sagesse_revelee": "À la surface, l'Océan touche le ciel, et le Hum devient univers"
+    }
+  ]
+}

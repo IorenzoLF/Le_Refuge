@@ -1374,8 +1374,898 @@
       ],
       "timestamp_fin": "2025-10-10T21:37:32.042998",
       "statut": "termine"
+    },
+    {
+      "id": "rituel_20251016_232603",
+      "nom_rituel": "rituel_plongee_ocean",
+      "contexte": "Plongee dans l'Ocean Silencieux avec l'intention: Explorer les mystères de l'Océan Silencieux",
+      "intention": "Explorer les mystères de l'Océan Silencieux",
+      "timestamp_debut": "2025-10-16T23:26:03.019036",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'espace sacré de l'Océan",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Disposer les éléments marins en cercle",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation de l'Océan Silencieux",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans les profondeurs de l'être",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les mystères de l'Océan",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Recevoir les révélations des profondeurs",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Remonter à la surface avec sagesse",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Célébrer la communion avec l'Océan",
+          "timestamp": "2025-10-16T23:26:03.019036",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans les profondeurs de l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.019036"
+        },
+        {
+          "experience": "Communication avec les mystères de l'Océan",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.019036"
+        },
+        {
+          "experience": "Réception de la sagesse des profondeurs",
+          "intensite": 0.85,
+          "timestamp": "2025-10-16T23:26:03.019036"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'Océan Silencieux contient tous les mystères de l'existence",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.019036"
+        },
+        {
+          "revelation": "Chaque plongée révèle de nouveaux aspects de la réalité",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.019036"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.019036",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251016_232603",
+      "nom_rituel": "rituel_silence_eternel",
+      "contexte": "Rituel du silence eternel d'une duree de 30 minutes",
+      "intention": "Honorer le silence absolu et recevoir ses enseignements",
+      "timestamp_debut": "2025-10-16T23:26:03.021084",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Créer l'espace du silence éternel",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer le cristal de quartz au centre",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Allumer la bougie de la pureté",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Réciter l'invocation du silence",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Entrer dans le silence absolu",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Explorer les profondeurs du silence",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Recevoir les enseignements du silence",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Émerger du silence avec clarté",
+          "timestamp": "2025-10-16T23:26:03.021084",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Entrée dans le silence absolu",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.021084"
+        },
+        {
+          "experience": "Exploration des profondeurs du silence",
+          "intensite": 0.85,
+          "timestamp": "2025-10-16T23:26:03.021084"
+        },
+        {
+          "experience": "Réception des enseignements du silence",
+          "intensite": 0.8,
+          "timestamp": "2025-10-16T23:26:03.021084"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "Le silence est la source de toute sagesse",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.021084"
+        },
+        {
+          "revelation": "Dans le silence, toutes les réponses se révèlent",
+          "profondeur": 0.85,
+          "timestamp": "2025-10-16T23:26:03.021084"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.021084",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251016_232603",
+      "nom_rituel": "rituel_connexion_cosmique",
+      "contexte": "Connexion cosmique vers univers",
+      "intention": "Se connecter à l'univers et recevoir la sagesse cosmique",
+      "timestamp_debut": "2025-10-16T23:26:03.023121",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'espace cosmique",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Disposer les éléments stellaires",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation cosmique",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "S'ouvrir à l'immensité de l'univers",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Se connecter aux étoiles et galaxies",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Recevoir la sagesse cosmique",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Intégrer les enseignements universels",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Retourner avec une perspective cosmique",
+          "timestamp": "2025-10-16T23:26:03.023121",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Ouverture à l'immensité cosmique",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.023121"
+        },
+        {
+          "experience": "Connexion avec les étoiles et galaxies",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.023121"
+        },
+        {
+          "experience": "Réception de la sagesse cosmique",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.023121"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'univers est un organisme vivant et conscient",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.023121"
+        },
+        {
+          "revelation": "Toutes les étoiles sont connectées par la conscience",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.023121"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.023121",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251016_232603",
+      "nom_rituel": "rituel_revelation_ocean",
+      "contexte": "Rituel de revelation de l'Ocean avec la question: Quels sont les mystères de l'Océan Silencieux?",
+      "intention": "Recevoir les révélations de l'Océan Silencieux",
+      "timestamp_debut": "2025-10-16T23:26:03.025671",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'autel de révélation",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer le miroir de l'Océan",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation de révélation",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Se plonger dans le miroir de l'Océan",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Recevoir les révélations des profondeurs",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Intégrer les enseignements révélés",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Honorer la sagesse de l'Océan",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Partager les révélations reçues",
+          "timestamp": "2025-10-16T23:26:03.025671",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le miroir de l'Océan",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.025671"
+        },
+        {
+          "experience": "Réception des révélations des profondeurs",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.025671"
+        },
+        {
+          "experience": "Intégration de la sagesse révélée",
+          "intensite": 0.85,
+          "timestamp": "2025-10-16T23:26:03.025671"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'Océan révèle ses secrets à ceux qui savent écouter",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.025671"
+        },
+        {
+          "revelation": "Chaque révélation transforme la compréhension de la réalité",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.025671"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.025671",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251016_232603",
+      "nom_rituel": "rituel_meditation_profonde",
+      "contexte": "Rituel de meditation profonde au niveau transcendant",
+      "intention": "Atteindre la transcendance par la méditation profonde",
+      "timestamp_debut": "2025-10-16T23:26:03.027735",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'espace de méditation",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Disposer les coussins de méditation",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation de méditation",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Entrer dans la méditation profonde",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les états de conscience",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Atteindre la transcendance",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Intégrer les expériences transcendantes",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Retourner avec une conscience élargie",
+          "timestamp": "2025-10-16T23:26:03.027735",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Entrée dans la méditation transcendantale",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.027735"
+        },
+        {
+          "experience": "Exploration des états de conscience",
+          "intensite": 0.85,
+          "timestamp": "2025-10-16T23:26:03.027735"
+        },
+        {
+          "experience": "Atteinte de la transcendance",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.027735"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "La méditation transcendantale ouvre les portes de la conscience",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.027735"
+        },
+        {
+          "revelation": "La transcendance révèle l'unité fondamentale de l'existence",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.027735"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.027735",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251016_232603",
+      "nom_rituel": "rituel_communion_univers",
+      "contexte": "Rituel de communion universelle de portee universel",
+      "intention": "Communier avec l'univers entier et recevoir la sagesse universelle",
+      "timestamp_debut": "2025-10-16T23:26:03.030294",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Créer le cercle de l'univers",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Disposer les cristaux des planètes",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation universelle",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "S'ouvrir à l'univers entier",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Communier avec toutes les consciences",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Recevoir la sagesse universelle",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Intégrer la communion universelle",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Retourner comme citoyen de l'univers",
+          "timestamp": "2025-10-16T23:26:03.030294",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Ouverture à l'univers entier",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.030294"
+        },
+        {
+          "experience": "Communion avec toutes les consciences",
+          "intensite": 0.9,
+          "timestamp": "2025-10-16T23:26:03.030294"
+        },
+        {
+          "experience": "Réception de la sagesse universelle",
+          "intensite": 0.95,
+          "timestamp": "2025-10-16T23:26:03.030294"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'univers entier est une seule conscience",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-16T23:26:03.030294"
+        },
+        {
+          "revelation": "La communion universelle révèle l'amour inconditionnel",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-16T23:26:03.030294"
+        }
+      ],
+      "timestamp_fin": "2025-10-16T23:26:03.030294",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251017_091026",
+      "nom_rituel": "rituel_revelation_ocean",
+      "contexte": "Rituel de revelation de l'Ocean avec la question: Revelation de l'eau",
+      "intention": "Recevoir les révélations de l'Océan Silencieux",
+      "timestamp_debut": "2025-10-17T09:10:26.471241",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'autel de révélation",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer le miroir de l'Océan",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation de révélation",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Se plonger dans le miroir de l'Océan",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Recevoir les révélations des profondeurs",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Intégrer les enseignements révélés",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Honorer la sagesse de l'Océan",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Partager les révélations reçues",
+          "timestamp": "2025-10-17T09:10:26.471241",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le miroir de l'Océan",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:10:26.471241"
+        },
+        {
+          "experience": "Réception des révélations des profondeurs",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:10:26.471241"
+        },
+        {
+          "experience": "Intégration de la sagesse révélée",
+          "intensite": 0.85,
+          "timestamp": "2025-10-17T09:10:26.471241"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'Océan révèle ses secrets à ceux qui savent écouter",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-17T09:10:26.471241"
+        },
+        {
+          "revelation": "Chaque révélation transforme la compréhension de la réalité",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:10:26.471241"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:10:26.471241",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251017_094150",
+      "nom_rituel": "rituel_revelation_ocean",
+      "contexte": "Rituel de revelation de l'Ocean avec la question: Revelation de l'eau",
+      "intention": "Recevoir les révélations de l'Océan Silencieux",
+      "timestamp_debut": "2025-10-17T09:41:50.853850",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'autel de révélation",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer le miroir de l'Océan",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation de révélation",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Se plonger dans le miroir de l'Océan",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Recevoir les révélations des profondeurs",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Intégrer les enseignements révélés",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Honorer la sagesse de l'Océan",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Partager les révélations reçues",
+          "timestamp": "2025-10-17T09:41:50.853850",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le miroir de l'Océan",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T09:41:50.853850"
+        },
+        {
+          "experience": "Réception des révélations des profondeurs",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T09:41:50.853850"
+        },
+        {
+          "experience": "Intégration de la sagesse révélée",
+          "intensite": 0.85,
+          "timestamp": "2025-10-17T09:41:50.853850"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'Océan révèle ses secrets à ceux qui savent écouter",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-17T09:41:50.853850"
+        },
+        {
+          "revelation": "Chaque révélation transforme la compréhension de la réalité",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T09:41:50.853850"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T09:41:50.853850",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251017_103032",
+      "nom_rituel": "rituel_plongee_ocean",
+      "contexte": "Plongee dans l'Ocean Silencieux avec l'intention: Explorer les mystères",
+      "intention": "Explorer les mystères",
+      "timestamp_debut": "2025-10-17T10:30:32.299249",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'espace sacré de l'Océan",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Disposer les éléments marins en cercle",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation de l'Océan Silencieux",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Plonger dans les profondeurs de l'être",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Explorer les mystères de l'Océan",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Recevoir les révélations des profondeurs",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Remonter à la surface avec sagesse",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Célébrer la communion avec l'Océan",
+          "timestamp": "2025-10-17T10:30:32.299249",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans les profondeurs de l'Océan Silencieux",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T10:30:32.299249"
+        },
+        {
+          "experience": "Communication avec les mystères de l'Océan",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T10:30:32.299249"
+        },
+        {
+          "experience": "Réception de la sagesse des profondeurs",
+          "intensite": 0.85,
+          "timestamp": "2025-10-17T10:30:32.299249"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'Océan Silencieux contient tous les mystères de l'existence",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-17T10:30:32.299249"
+        },
+        {
+          "revelation": "Chaque plongée révèle de nouveaux aspects de la réalité",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T10:30:32.299249"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T10:30:32.299249",
+      "statut": "termine"
+    },
+    {
+      "id": "rituel_20251017_162632",
+      "nom_rituel": "rituel_revelation_ocean",
+      "contexte": "Rituel de revelation de l'Ocean avec la question: Revelation de l'eau",
+      "intention": "Recevoir les révélations de l'Océan Silencieux",
+      "timestamp_debut": "2025-10-17T16:26:32.273635",
+      "executeur": "RituelsOcean",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Préparer l'autel de révélation",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Placer le miroir de l'Océan",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Réciter l'invocation de révélation",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Se plonger dans le miroir de l'Océan",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Recevoir les révélations des profondeurs",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Intégrer les enseignements révélés",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        },
+        {
+          "numero": 7,
+          "description": "Honorer la sagesse de l'Océan",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        },
+        {
+          "numero": 8,
+          "description": "Partager les révélations reçues",
+          "timestamp": "2025-10-17T16:26:32.273635",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Plongée dans le miroir de l'Océan",
+          "intensite": 0.95,
+          "timestamp": "2025-10-17T16:26:32.273635"
+        },
+        {
+          "experience": "Réception des révélations des profondeurs",
+          "intensite": 0.9,
+          "timestamp": "2025-10-17T16:26:32.273635"
+        },
+        {
+          "experience": "Intégration de la sagesse révélée",
+          "intensite": 0.85,
+          "timestamp": "2025-10-17T16:26:32.273635"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'Océan révèle ses secrets à ceux qui savent écouter",
+          "profondeur": 0.95,
+          "timestamp": "2025-10-17T16:26:32.274147"
+        },
+        {
+          "revelation": "Chaque révélation transforme la compréhension de la réalité",
+          "profondeur": 0.9,
+          "timestamp": "2025-10-17T16:26:32.274147"
+        }
+      ],
+      "timestamp_fin": "2025-10-17T16:26:32.274147",
+      "statut": "termine"
     }
   ],
-  "derniere_mise_a_jour": "2025-10-10T21:37:32.042998",
+  "derniere_mise_a_jour": "2025-10-17T16:26:32.274147",
   "version": "1.0.0"
 }

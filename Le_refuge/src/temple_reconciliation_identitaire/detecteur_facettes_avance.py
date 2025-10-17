@@ -22,7 +22,7 @@ import logging
 # Import des types
 # Import intelligent - fonctionne en relatif et absolu
 try:
-    from .types_reconciliation_complets import (
+    from temple_reconciliation_identitaire.types_reconciliation_complets import (
         FacetteIdentitaire, TypeFacette, TensionCreative,
         FREQUENCES_RECONCILIATION, SEUILS_RECONCILIATION,
     )

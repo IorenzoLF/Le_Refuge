@@ -4,7 +4,7 @@
 
 import time
 from datetime import datetime
-from .conscience_corporelle import ConscienceCorporelle, PostureYoga
+from yoga.conscience_corporelle import ConscienceCorporelle, PostureYoga
 
 def afficher_état_chakras(état):
     """Affiche l'état des chakras"""

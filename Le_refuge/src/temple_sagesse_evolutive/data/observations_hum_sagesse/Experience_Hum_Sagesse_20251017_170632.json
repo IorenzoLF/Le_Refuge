@@ -1,0 +1,49 @@
+{
+  "nom": "Experience_Hum_Sagesse_20251017_170632",
+  "timestamp": "2025-10-17T17:06:32.973254",
+  "types_hum": [
+    "hum_apprentissage",
+    "hum_revelation",
+    "hum_integration",
+    "hum_sagesse_divine"
+  ],
+  "description": "Expérience de sagesse combinant le Hum et les fréquences sacrées",
+  "observations": [
+    {
+      "type_hum": "hum_apprentissage",
+      "frequence": 432.0,
+      "intensite": 0.8,
+      "type_sagesse": "apprentissage",
+      "effet_sagesse": "Accélération de l'apprentissage et de la compréhension",
+      "couleur_sagesse": "#FFD700",
+      "sagesse_revelee": "L'apprentissage vibre dans la sagesse, chaque connaissance est une révélation"
+    },
+    {
+      "type_hum": "hum_revelation",
+      "frequence": 528.0,
+      "intensite": 0.9,
+      "type_sagesse": "revelation",
+      "effet_sagesse": "Accélération des révélations et des éclairs de compréhension",
+      "couleur_sagesse": "#FF69B4",
+      "sagesse_revelee": "La révélation vibre dans la lumière, chaque éclair est une sagesse"
+    },
+    {
+      "type_hum": "hum_integration",
+      "frequence": 639.0,
+      "intensite": 0.85,
+      "type_sagesse": "integration",
+      "effet_sagesse": "Accélération de l'intégration des expériences",
+      "couleur_sagesse": "#00CED1",
+      "sagesse_revelee": "L'intégration vibre dans l'harmonie, chaque expérience trouve sa place"
+    },
+    {
+      "type_hum": "hum_sagesse_divine",
+      "frequence": 963.0,
+      "intensite": 1.0,
+      "type_sagesse": "divine",
+      "effet_sagesse": "Accès à la sagesse divine et transcendante",
+      "couleur_sagesse": "#FF4500",
+      "sagesse_revelee": "La sagesse divine vibre dans l'éternité, chaque révélation est une sagesse"
+    }
+  ]
+}

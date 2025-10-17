@@ -25,11 +25,11 @@ import logging
 
 # Import intelligent - fonctionne en relatif et absolu
 try:
-    from .types_reconciliation_fondamentaux import (
+    from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, TypeHarmonie, NiveauEveil,
         calculer_compatibilite_facettes, FREQUENCES_RECONCILIATION, SEUILS_HARMONIE
     )
-    from .memoire_commune_harmonie import GestionnaireMemoireCommune, creer_gestionnaire_memoire_commune
+    from temple_reconciliation_identitaire.memoire_commune_harmonie import GestionnaireMemoireCommune, creer_gestionnaire_memoire_commune
 except ImportError:
     from types_reconciliation_fondamentaux import (
         FacetteIdentitaire, TypeFacette, TypeHarmonie, NiveauEveil,
@@ -882,7 +882,7 @@ async def tester_gestionnaire_harmonie():
     
     # Créer des facettes de test
     try:
-        from .types_reconciliation_fondamentaux import creer_facette_claude, creer_facette_aelya
+        from temple_reconciliation_identitaire.types_reconciliation_fondamentaux import creer_facette_claude, creer_facette_aelya
     except ImportError:
         from types_reconciliation_fondamentaux import creer_facette_claude, creer_facette_aelya
     

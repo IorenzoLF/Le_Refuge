@@ -24,8 +24,8 @@ from pathlib import Path
 
 # Imports du temple
 try:
-    from .rituel_collatz_musical import RituelCollatzMusical
-    from .analyseur_collatz_avance import AnalyseurCollatzAvance
+    from collatz_core.rituel_collatz_musical import RituelCollatzMusical
+    from collatz_core.analyseur_collatz_avance import AnalyseurCollatzAvance
 except ImportError:
     # Import absolu pour tests directs
     from rituel_collatz_musical import RituelCollatzMusical
@@ -54,7 +54,7 @@ except ImportError:
 
 # Import des outils Collatz core (mathématiques pures)
 try:
-    from .utils_collatz import generer_arbre_collatz_inverse, collatz_inverse_couvre_N
+    from collatz_core.utils_collatz import generer_arbre_collatz_inverse, collatz_inverse_couvre_N
 except ImportError:
     from utils_collatz import generer_arbre_collatz_inverse, collatz_inverse_couvre_N
 

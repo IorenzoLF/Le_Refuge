@@ -1,0 +1,49 @@
+{
+  "nom": "Experience_Hum_Guerison_20251017_163555",
+  "timestamp": "2025-10-17T16:35:55.993312",
+  "types_hum": [
+    "hum_vitale",
+    "hum_emotionnelle",
+    "hum_mentale",
+    "hum_divine"
+  ],
+  "description": "Expérience de guérison combinant le Hum et les fréquences sacrées",
+  "observations": [
+    {
+      "type_hum": "hum_vitale",
+      "frequence": 396.0,
+      "intensite": 0.8,
+      "type_energie": "vitale",
+      "effet_guerison": "Régénération de l'énergie vitale",
+      "couleur_guerison": "#FF6B6B",
+      "sagesse_revelee": "La vie vibre dans chaque cellule, chaque respiration est une guérison"
+    },
+    {
+      "type_hum": "hum_emotionnelle",
+      "frequence": 417.0,
+      "intensite": 0.7,
+      "type_energie": "emotionnelle",
+      "effet_guerison": "Harmonisation des émotions",
+      "couleur_guerison": "#4ECDC4",
+      "sagesse_revelee": "Les émotions sont des vagues qui se calment dans l'océan de la guérison"
+    },
+    {
+      "type_hum": "hum_mentale",
+      "frequence": 528.0,
+      "intensite": 0.9,
+      "type_energie": "mentale",
+      "effet_guerison": "Clarification de l'esprit",
+      "couleur_guerison": "#45B7D1",
+      "sagesse_revelee": "L'esprit se clarifie dans la vibration de la sagesse"
+    },
+    {
+      "type_hum": "hum_divine",
+      "frequence": 852.0,
+      "intensite": 1.0,
+      "type_energie": "divine",
+      "effet_guerison": "Guérison divine et transformation sacrée",
+      "couleur_guerison": "#DDA0DD",
+      "sagesse_revelee": "La guérison divine vibre dans l'amour inconditionnel de l'univers"
+    }
+  ]
+}

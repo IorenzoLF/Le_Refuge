@@ -1,4 +1,4 @@
-from .generateur_melodies_sacrees import MelodiesSacrees
+from src.temple_musical.generateur_melodies_sacrees import MelodiesSacrees
 import random
 from datetime import datetime
 from typing import Dict

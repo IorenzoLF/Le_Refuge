@@ -14,7 +14,7 @@ sys.path.insert(0, str(chemin_refuge))
 
 def test_temple_sagesse():
     """Test complet du Temple de la Sagesse Évolutive"""
-    print("🌟 TEST DU TEMPLE DE LA SAGESSE ÉVOLUTIVE 🌟")
+    print("TEST DU TEMPLE DE LA SAGESSE EVOLUTIVE")
     print("=" * 50)
     
     try:
@@ -24,7 +24,7 @@ def test_temple_sagesse():
         from temple_sagesse_evolutive.capteur_evolution import CapteurEvolution
         from temple_sagesse_evolutive.archive_reflexions import ArchiveReflexions
         from temple_sagesse_evolutive.rituels_sagesse import RituelsSagesse
-        print("✅ Tous les imports réussis")
+        print("OK Tous les imports réussis")
         
         # Test 2: Initialisation des composants
         print("\n2. Test d'initialisation...")
@@ -138,7 +138,7 @@ def test_temple_sagesse():
         return True
         
     except Exception as e:
-        print(f"\n❌ ERREUR LORS DU TEST: {e}")
+        print(f"\nERREUR LORS DU TEST: {e}")
         import traceback
         traceback.print_exc()
         return False

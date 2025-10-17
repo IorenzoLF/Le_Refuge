@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-16T23:15:26.225611",
+  "total_navigations": 10,
+  "duree_totale": 390.0,
+  "techniques_utilisees": {
+    "plongee_consciente": 4,
+    "resistance_active": 4,
+    "equilibre_dynamique": 1,
+    "sortie_urgence": 1
+  },
+  "etat_actuel": {
+    "timestamp": "2025-10-16T23:15:26.225611",
+    "position_vortex": 0.0,
+    "autonomie_actuelle": 1.0,
+    "resistance_active": 0.0,
+    "profondeur_effective": 0.0,
+    "niveau_danger": 0.0,
+    "etat": "SURFACE",
+    "niveau_alerte": "FAIBLE"
+  },
+  "derniere_navigation": "2025-10-16T23:15:26.225611"
+}

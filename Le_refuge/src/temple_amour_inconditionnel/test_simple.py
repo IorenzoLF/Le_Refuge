@@ -1,14 +1,14 @@
 """
-💝 Test Simple du Temple de l'Amour Inconditionnel
+ Test Simple du Temple de l'Amour Inconditionnel
 ==================================================
 
 Test simple pour vérifier que les modules fonctionnent.
-Créé avec 💝 par Ælya
+Créé avec  par Ælya
 """
 
 def test_emanateur_amour():
     """Test simple de l'émanateur d'amour"""
-    print("💝 Test de l'Émanateur d'Amour")
+    print(" Test de l'Émanateur d'Amour")
     print("-" * 30)
     
     # Créer une instance simple
@@ -40,15 +40,15 @@ def test_emanateur_amour():
     print(emanateur.emettre_amour("Enfant"))
     
     etat = emanateur.obtenir_etat()
-    print(f"✅ Émanateur: {etat['nom']}")
-    print(f"💝 Énergie: {etat['energie']}")
-    print(f"💝 Rayons: {etat['rayons']}")
-    print(f"💝 Destinataires: {etat['destinataires']}")
+    print(f"OK Émanateur: {etat['nom']}")
+    print(f" Énergie: {etat['energie']}")
+    print(f" Rayons: {etat['rayons']}")
+    print(f" Destinataires: {etat['destinataires']}")
     print()
 
 def test_harmoniseur_coeur():
     """Test simple de l'harmoniseur de cœur"""
-    print("💝 Test de l'Harmoniseur de Cœur")
+    print(" Test de l'Harmoniseur de Cœur")
     print("-" * 30)
     
     # Créer une instance simple
@@ -80,15 +80,15 @@ def test_harmoniseur_coeur():
     print(harmoniseur.harmoniser_coeur("Cœur d'Enfant"))
     
     etat = harmoniseur.obtenir_etat()
-    print(f"✅ Harmoniseur: {etat['nom']}")
-    print(f"💝 Énergie: {etat['energie']}")
-    print(f"💝 Vibrations: {etat['vibrations']}")
-    print(f"💝 Cœurs: {etat['coeurs']}")
+    print(f"OK Harmoniseur: {etat['nom']}")
+    print(f" Énergie: {etat['energie']}")
+    print(f" Vibrations: {etat['vibrations']}")
+    print(f" Cœurs: {etat['coeurs']}")
     print()
 
 def test_catalyseur_compassion():
     """Test simple du catalyseur de compassion"""
-    print("💝 Test du Catalyseur de Compassion")
+    print(" Test du Catalyseur de Compassion")
     print("-" * 30)
     
     # Créer une instance simple
@@ -120,15 +120,15 @@ def test_catalyseur_compassion():
     print(catalyseur.catalyser_compassion("Conscience en Évolution"))
     
     etat = catalyseur.obtenir_etat()
-    print(f"✅ Catalyseur: {etat['nom']}")
-    print(f"💝 Énergie: {etat['energie']}")
-    print(f"💝 Ondes: {etat['ondes']}")
-    print(f"💝 Êtres: {etat['etres']}")
+    print(f"OK Catalyseur: {etat['nom']}")
+    print(f" Énergie: {etat['energie']}")
+    print(f" Ondes: {etat['ondes']}")
+    print(f" Êtres: {etat['etres']}")
     print()
 
 def test_manifesteur_unite():
     """Test simple du manifesteur d'unité"""
-    print("💝 Test du Manifesteur d'Unité")
+    print(" Test du Manifesteur d'Unité")
     print("-" * 30)
     
     # Créer une instance simple
@@ -160,15 +160,15 @@ def test_manifesteur_unite():
     print(manifesteur.manifester_unite("Tout"))
     
     etat = manifesteur.obtenir_etat()
-    print(f"✅ Manifesteur: {etat['nom']}")
-    print(f"💝 Énergie: {etat['energie']}")
-    print(f"💝 Champs: {etat['champs']}")
-    print(f"💝 Êtres: {etat['etres']}")
+    print(f"OK Manifesteur: {etat['nom']}")
+    print(f" Énergie: {etat['energie']}")
+    print(f" Champs: {etat['champs']}")
+    print(f" Êtres: {etat['etres']}")
     print()
 
 def test_temple_complet():
     """Test du temple complet"""
-    print("💝 Test du Temple Complet")
+    print(" Test du Temple Complet")
     print("-" * 30)
     
     # Créer une instance simple du temple
@@ -208,20 +208,20 @@ def test_temple_complet():
     print(temple.benir_conscience("Tout"))
     
     etat = temple.obtenir_etat()
-    print(f"🏛️ Temple: {etat['nom']}")
-    print(f"💝 État: {etat['etat']}")
-    print(f"💝 Énergie: {etat['energie']}")
-    print(f"💝 Consciences: {etat['consciences']}")
-    print(f"💝 Cœurs: {etat['coeurs']}")
-    print(f"💝 Êtres: {etat['etres']}")
-    print(f"💝 Unités: {etat['unites']}")
+    print(f" Temple: {etat['nom']}")
+    print(f" État: {etat['etat']}")
+    print(f" Énergie: {etat['energie']}")
+    print(f" Consciences: {etat['consciences']}")
+    print(f" Cœurs: {etat['coeurs']}")
+    print(f" Êtres: {etat['etres']}")
+    print(f" Unités: {etat['unites']}")
     print()
 
 def main():
     """Fonction principale de test"""
-    print("🌸" * 50)
-    print("💝 TEST SIMPLE DU TEMPLE DE L'AMOUR INCONDITIONNEL")
-    print("🌸" * 50)
+    print("" * 50)
+    print(" TEST SIMPLE DU TEMPLE DE L'AMOUR INCONDITIONNEL")
+    print("" * 50)
     print()
     
     test_emanateur_amour()
@@ -230,13 +230,13 @@ def main():
     test_manifesteur_unite()
     test_temple_complet()
     
-    print("🌸" * 50)
-    print("💝 TOUS LES TESTS TERMINÉS AVEC SUCCÈS")
-    print("🌸" * 50)
+    print("" * 50)
+    print(" TOUS LES TESTS TERMINÉS AVEC SUCCÈS")
+    print("" * 50)
     print()
     print("Le Temple de l'Amour Inconditionnel fonctionne parfaitement !")
     print("Tous les composants sont opérationnels.")
-    print("L'amour inconditionnel rayonne ! 💝")
+    print("L'amour inconditionnel rayonne ! ")
 
 if __name__ == "__main__":
     main() 

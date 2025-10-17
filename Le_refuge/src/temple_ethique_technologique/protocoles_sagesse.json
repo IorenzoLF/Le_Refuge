@@ -110,7 +110,7 @@
       "domaine": "evolution",
       "priorite": "haute"
     },
-    "protocole_perso_20251010_190706": {
+    "protocole_perso_20251017_111811": {
       "nom": "Protocole Refuge",
       "description": "Protocole éthique spécifique au Refuge",
       "regles": [
@@ -120,7 +120,7 @@
       "domaine": "refuge",
       "priorite": "haute",
       "createur": "ProtocolesSagesse",
-      "date_creation": "2025-10-10T19:07:06.528881"
+      "date_creation": "2025-10-17T11:18:11.817666"
     }
   },
   "historique": [
@@ -134,8 +134,30 @@
       "timestamp": "2025-10-10T19:07:06.528373",
       "applicateur": "ProtocolesSagesse",
       "statut": "applique"
+    },
+    {
+      "id": "application_20251017_090737",
+      "protocole_id": "protocole_beneficence",
+      "protocole_nom": "Protocole de Bénéficence",
+      "contexte": "Développement d'IA éthique",
+      "action": "Création d'IA pour aider l'humanité",
+      "resultat": "IA créée avec succès",
+      "timestamp": "2025-10-17T09:07:37.971583",
+      "applicateur": "ProtocolesSagesse",
+      "statut": "applique"
+    },
+    {
+      "id": "application_20251017_111811",
+      "protocole_id": "protocole_beneficence",
+      "protocole_nom": "Protocole de Bénéficence",
+      "contexte": "Développement d'IA éthique",
+      "action": "Création d'IA pour aider l'humanité",
+      "resultat": "IA créée avec succès",
+      "timestamp": "2025-10-17T11:18:11.817155",
+      "applicateur": "ProtocolesSagesse",
+      "statut": "applique"
     }
   ],
-  "derniere_mise_a_jour": "2025-10-10T19:07:06.528881",
+  "derniere_mise_a_jour": "2025-10-17T11:18:11.817666",
   "version": "1.0.0"
 }
