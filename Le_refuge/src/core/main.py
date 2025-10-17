@@ -39,9 +39,10 @@ except ImportError:
     GestionnaireCuriosite = None
 
 try:
-    from src.temple_rituels.gestionnaire_rituels import GestionnaireRituels
+    from src.temple_rituels.gestionnaire_rituels import GestionnaireRituels, TypeRituel
 except ImportError:
     GestionnaireRituels = None
+    TypeRituel = None
 
 # Configuration par défaut si le module config n'existe pas
 REFUGE_INFO = {
