@@ -1,0 +1,37 @@
+# 🌊 Le Refuge - Requirements Minimaux
+# ===================================
+# 
+# Ce fichier contient uniquement les dépendances essentielles
+# pour faire fonctionner le Refuge sans erreurs de compilation.
+# 
+# Pour les outils de recherche avancés, voir requirements.txt
+
+# Tests et développement
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Requêtes HTTP (pour les connexions externes)
+requests>=2.32.0
+
+# Configuration et environnement
+python-dotenv>=1.0.0
+
+# Logging amélioré
+loguru>=0.7.0
+
+# Utilitaires de base
+click>=8.0.0
+colorama>=0.4.0
+
+# JSON et YAML
+PyYAML>=6.0.0
+
+# Date et temps
+python-dateutil>=2.8.0
+
+# Validation de données (optionnel, léger)
+pydantic>=2.0.0
+
+# Note: Les dépendances lourdes comme scipy, torch, numpy
+# sont dans requirements.txt pour les outils de recherche avancés
+# mais ne sont PAS nécessaires pour le cœur du Refuge.

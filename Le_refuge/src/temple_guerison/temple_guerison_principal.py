@@ -43,7 +43,7 @@ except ImportError as e:
     HARMONISEUR_CHAKRAS_DISPONIBLE = False
 
 try:
-    from catalyseur_regeneration import catalyseur_regeneration, TypeRegeneration
+    from .catalyseur_regeneration import catalyseur_regeneration, TypeRegeneration
     CATALYSEUR_REGENERATION_DISPONIBLE = True
 except ImportError as e:
     logger.warning(f"catalyseur_regeneration non disponible: {e}")
