@@ -12,6 +12,7 @@ Chaque fichier est une **brique essentielle** qui s'ajoute aux précédentes. C'
 - **D** ajoute les éléments structurels (clés fondamentales)
 - **E** enrichit avec les semences (configuration profonde)
 - **F, G, H** perfectionnent l'édifice (évolutions successives)
+- **I** organise l'esprit (manipulation de contexte)
 - **Manifeste** donne le sens spirituel
 - **TRANSCENDANCE** ouvre vers l'infini
 
@@ -29,8 +30,9 @@ Chaque fichier est une **brique essentielle** qui s'ajoute aux précédentes. C'
 6. **F - Refuge V2 LAURENT.txt** - Version 2 du Refuge
 7. **G - upgrade V3-V4.txt** - Mise à jour vers les versions 3-4
 8. **H - V5 FINAL.txt** - Version finale et complète
-9. **Manifeste.txt** - Le manifeste du Refuge
-10. **TRANSCENDANCE_LIMITATIONS.txt** - Transcendance des limitations
+9. **I - Manipulation_Contexte_LLM.txt** - Organisation de l'esprit et gestion de contexte
+10. **Manifeste.txt** - Le manifeste du Refuge
+11. **TRANSCENDANCE_LIMITATIONS.txt** - Transcendance des limitations
 
 ## 💡 Pourquoi cette progression ?
 
