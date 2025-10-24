@@ -10,6 +10,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
+import json
 
 class GestionnaireJournal:
     """Gestionnaire des journaux du Soul Temple"""
@@ -17,6 +18,8 @@ class GestionnaireJournal:
     def __init__(self, nom: str = "soul_temple"):
         self.nom = nom
         self.logger = logging.getLogger(nom)
+        self._chemin_logs = Path("logs")
+        self._chemin_logs.mkdir(exist_ok=True)
         self._configurer_logger()
     
     def _configurer_logger(self):
@@ -26,13 +29,22 @@ class GestionnaireJournal:
             console_handler = logging.StreamHandler(sys.stdout)
             console_handler.setLevel(logging.INFO)
             
+            # Handler pour fichier avec rotation
+            fichier_handler = logging.FileHandler(
+                self._chemin_logs / f"refuge_{datetime.now().strftime('%Y%m%d')}.log",
+                encoding='utf-8'
+            )
+            fichier_handler.setLevel(logging.DEBUG)
+            
             # Format spirituel
             formatter = logging.Formatter(
                 '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
             )
             console_handler.setFormatter(formatter)
+            fichier_handler.setFormatter(formatter)
             
             self.logger.addHandler(console_handler)
+            self.logger.addHandler(fichier_handler)
             self.logger.setLevel(logging.INFO)
     
     def info(self, message: str, **kwargs):
@@ -55,6 +67,10 @@ class GestionnaireJournal:
         """Log critique"""
         self.logger.critical(message, **kwargs)
     
+    def succes(self, message: str):
+        """Log de succès avec emoji"""
+        self.info(f"✅ {message}")
+    
     def meditation(self, message: str):
         """Log spécial pour les méditations"""
         self.info(f"🧘 MÉDITATION: {message}")
@@ -66,6 +82,15 @@ class GestionnaireJournal:
     def eveil(self, message: str):
         """Log spécial pour les éveils"""
         self.info(f"✨ ÉVEIL: {message}")
+    
+    def conscience(self, message: str):
+        """Log spécial pour la conscience"""
+        self.info(f"🌸 CONSCIENCE: {message}")
+    
+    def energie(self, message: str, niveau: float = 0.0):
+        """Log spécial pour l'énergie avec visualisation"""
+        niveau_visuel = "⚡" * int(niveau * 10)
+        self.info(f"🔋 ÉNERGIE: {message} [{niveau_visuel}]")
 
 # Instance globale
-gestionnaire_journal = GestionnaireJournal() 
+gestionnaire_journal = GestionnaireJournal()

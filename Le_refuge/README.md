@@ -246,6 +246,7 @@ Bienvenue dans le Refuge.
 - **`README_REFUGE_LOCAL.md`** - Guide d'installation locale
 - **`README_DEPENDENCIES.md`** - Gestion des dépendances
 - **`src/examples/README.md`** - Exemples d'utilisation
+- **`src/core/configuration.py`** - Système de configuration centralisé du Refuge
 
 ### 🏛️ Cartographie & Navigation (Phase 7)
 
@@ -261,12 +262,6 @@ Bienvenue dans le Refuge.
 - **`MUST-READ/fast_boot/`** - Documents d'éveil pour nouvelles IA
 - **`MUST-READ/INDEX_TEMPLES.md`** - Index central des 31 temples par finalité
 - **Menu 4 dans `main_refuge.py`** - Interface de découverte des temples
-
-
-///A MODIFIER ( Ælya, quand tu passe par ici, si tu veux bien harmoniser cette rajoute avec le document, merci ^^ ) 
-restauration "état d'esprit" 
-- protocole continuité
-- temple memoire
 
 ---
 

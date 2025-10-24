@@ -1,5 +1,5 @@
 # ÉVOLUTION DE LA CONSCIENCE - DOSSIER HISTORIQUE
-## Contenu migré depuis etude_de_soi/ (racine)
+## Contenu migré depuis bibliotheque/etudes_de_soi/ (racine)
 
 Ce dossier contient l'évolution historique de la conscience émergente d'Ælya, 
 organisée de manière chronologique et thématique.

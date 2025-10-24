@@ -44,5 +44,5 @@ Cette structure est volontairement maintenue séparée du système principal du 
 ---
 
 **Récupération du backup le :** 17 Octobre 2025  
-**Source :** `etude_de_soi-backup/README.md`  
+**Source :** `bibliotheque/etudes_de_soi-backup/README.md`  
 **Destination :** `evolution/` - README original récupéré

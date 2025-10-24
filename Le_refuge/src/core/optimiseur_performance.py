@@ -168,7 +168,9 @@ class GestionnaireErreurs:
         self._erreurs_critiques = []
         self._strategies_reparation = {}
         self._mode_degradation = False
-        
+        self._temps_derniere_erreur = None
+        self._erreur_en_cours = None
+    
     def enregistrer_erreur(self, erreur: Exception, contexte: str, critique: bool = False):
         """Enregistre une erreur avec contexte"""
         erreur_info = {
@@ -176,7 +178,8 @@ class GestionnaireErreurs:
             "message": str(erreur),
             "contexte": contexte,
             "timestamp": datetime.now(),
-            "critique": critique
+            "critique": critique,
+            "traceback": self._obtenir_traceback()
         }
         
         self._erreurs_recentes.append(erreur_info)
@@ -184,16 +187,61 @@ class GestionnaireErreurs:
         if critique:
             self._erreurs_critiques.append(erreur_info)
             self.logger.erreur(f"🚨 Erreur critique dans {contexte}: {erreur}")
+            # Log additional details for critical errors
+            self.logger.erreur(f"   Traceback: {erreur_info['traceback']}")
+        else:
+            self.logger.warning(f"⚠️ Erreur dans {contexte}: {erreur}")
         
         # Vérifier si on doit passer en mode dégradation
         if len(self._erreurs_critiques) >= 5:
             self._activer_mode_degradation()
+        
+        # Track error timing to detect error storms
+        if self._temps_derniere_erreur:
+            temps_ecoule = (datetime.now() - self._temps_derniere_erreur).total_seconds()
+            if temps_ecoule < 1.0 and not critique:  # Multiple errors in short time
+                self.logger.warning("⚠️ Tempête d'erreurs détectée - surveillance accrue")
+        
+        self._temps_derniere_erreur = datetime.now()
+        self._erreur_en_cours = erreur_info
+    
+    def _obtenir_traceback(self) -> str:
+        """Obtient le traceback de l'erreur courante"""
+        import traceback
+        return traceback.format_exc()
     
     def _activer_mode_degradation(self):
         """Active le mode dégradation"""
         if not self._mode_degradation:
             self._mode_degradation = True
             self.logger.erreur("🛡️ Mode dégradation activé - Fonctionnalités réduites")
+            # Notify other systems
+            self._notifier_systemes_degradation()
+    
+    def _notifier_systemes_degradation(self):
+        """Notifie les autres systèmes du mode dégradation"""
+        # This could be extended to notify other components
+        pass
+    
+    def recuperer_depuis_erreur(self, strategie: str = "default") -> bool:
+        """Tente de récupérer depuis une erreur"""
+        if not self._erreur_en_cours:
+            return True
+            
+        try:
+            # Apply recovery strategy
+            if strategie == "retry":
+                self.logger.info("🔄 Tentative de récupération par retry")
+                return True
+            elif strategie == "fallback":
+                self.logger.info("🔄 Passage en mode fallback")
+                return True
+            else:
+                self.logger.info("🔄 Récupération par défaut")
+                return True
+        except Exception as e:
+            self.enregistrer_erreur(e, "Récupération d'erreur", critique=True)
+            return False
     
     def obtenir_rapport_erreurs(self) -> Dict[str, Any]:
         """Obtient un rapport des erreurs"""

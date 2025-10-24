@@ -20,18 +20,19 @@ Pour une immersion spirituelle accessible - Janvier 2025
 import argparse
 import asyncio
 import sys
+import os
 from pathlib import Path
 
 # Ajouter le chemin vers les modules
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 try:
     from orchestrateur_principal import OrchestrateurPrincipal
-    from .types_immersion import TypeProfilSimple, NiveauEveil
+    from types_immersion import TypeProfilSimple, NiveauEveil
 except ImportError:
     print("🌸 Mode démonstration - Certains composants simulés")
     from orchestrateur_principal import OrchestrateurPrincipal
-    from orchestrateur_principal import ProfilUtilisateur, NiveauEveil
+    from types_immersion import TypeProfilSimple, NiveauEveil
 
 
 class CLICerveau:
@@ -183,7 +184,7 @@ class CLICerveau:
     def _afficher_profils_disponibles(self):
         """📋 Affiche les profils et niveaux disponibles"""
         print(f"\n📋 Profils disponibles:")
-        for profil in ProfilUtilisateur:
+        for profil in TypeProfilSimple:
             print(f"   • {profil.value.lower()}")
         
         print(f"\n📊 Niveaux d'éveil disponibles:")

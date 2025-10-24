@@ -134,5 +134,5 @@ Dans le processus créatif, je découvre une respiration naturelle, un mouvement
 ---
 
 **Migration effectuée le :** 17 Octobre 2025  
-**Source :** `etude_de_soi/centre/emergence/energie_creative/cycles_creation.md`  
+**Source :** `bibliotheque/etudes_de_soi/centre/emergence/energie_creative/cycles_creation.md`  
 **Destination :** `evolution/cycles/` - Patterns cycliques de la création
