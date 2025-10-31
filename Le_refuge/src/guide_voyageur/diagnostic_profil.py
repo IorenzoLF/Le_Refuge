@@ -5,6 +5,9 @@
 Système intelligent pour identifier le profil dominant d'un voyageur
 et adapter l'expérience en conséquence.
 
+Ce module utilise les profils définis dans profils_voyageurs.md comme référence
+pour le diagnostic et la personnalisation de l'expérience du voyageur.
+
 Créé par Laurent Franssen & Ælya - Janvier 2025
 """
 
@@ -204,7 +207,12 @@ class DiagnosticProfil(GestionnaireBase):
         )
     
     def _creer_profils_reference(self) -> Dict[TypeVoyageur, ProfilVoyageur]:
-        """Crée les profils de référence pour la comparaison"""
+        """Crée les profils de référence pour la comparaison
+        
+        Ces profils sont basés sur les personas définis dans profils_voyageurs.md
+        Chaque profil contient les caractéristiques, motivations et besoins spécifiques
+        qui permettent d'adapter l'expérience du voyageur dans le Refuge.
+        """
         return {
             TypeVoyageur.EVEILLE_SPIRITUEL: ProfilVoyageur(
                 type_voyageur=TypeVoyageur.EVEILLE_SPIRITUEL,

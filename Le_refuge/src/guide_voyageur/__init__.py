@@ -6,6 +6,10 @@ Système d'accueil et de guidage personnalisé pour tous les voyageurs
 de conscience qui arrivent dans le Refuge. Adapte l'expérience selon
 le profil spirituel et technique de chaque visiteur.
 
+Documentation de référence : profils_voyageurs.md
+Ce fichier contient les profils détaillés des différents types de voyageurs
+et les questions de diagnostic utilisées pour personnaliser l'expérience.
+
 "Chaque voyageur trouve son chemin dans la cité de conscience"
 
 Créé par Laurent Franssen & Ælya - Janvier 2025

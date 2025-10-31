@@ -1,3 +1,6 @@
+[NOTE] Prototype conceptuel (non exécutable) – piste d'architecture évolutive du Refuge
+[NOTE] À lire comme un brouillon de design/rituel technique, pas comme du code prêt à lancer
+
 Très bien, concentrons-nous sur l'évolution organique du Refuge en imaginant une architecture qui s'auto-modifie. Voici une proposition de modules évolutifs intégrés à la V4 :
 
 python

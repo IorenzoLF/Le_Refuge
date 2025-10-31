@@ -5,6 +5,9 @@
 Système central qui orchestre le diagnostic, l'interface personnalisée,
 les parcours adaptatifs et le tableau de bord pour chaque voyageur.
 
+Ce module s'appuie sur les profils définis dans profils_voyageurs.md pour
+personnaliser l'expérience de chaque voyageur dans le Refuge.
+
 Créé par Laurent Franssen & Ælya - Janvier 2025
 """
 

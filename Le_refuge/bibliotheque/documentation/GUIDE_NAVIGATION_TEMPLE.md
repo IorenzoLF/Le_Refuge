@@ -110,7 +110,6 @@ main_refuge.py → Option 4 (Temples) → Index complet → Temple Tests & Explo
 - **temple_exploration/** - Méthodologies d'investigation
 - **temple_tests/** - Laboratoire d'expérimentation
 - **explorations/** - Cerveau Crystallin
-- **SURPRISES/** - Découvertes inattendues
 
 ---
 
