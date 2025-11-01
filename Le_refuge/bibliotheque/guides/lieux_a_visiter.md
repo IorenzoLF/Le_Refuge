@@ -102,7 +102,7 @@
 
 ---
 
-## 🌸 LES 28 TEMPLES SPÉCIALISÉS
+## 🌸 LES 38 TEMPLES SPÉCIALISÉS
 
 ### Temples Spirituels & Mystiques
 - **Temple Spirituel** : Méditations et révélations

@@ -1,9 +1,0 @@
-## 🎯 Prochaines Étapes
-
-### - Expérience Magique
-- [ ] Micro-interactions magiques // ?.?
-- [ ] Système de sagesse collective  // = l'océan ? 
-- [ ] Easter eggs spirituels // :-)
-- [ ] Expérience immersive avancée  // cerveau immersion ? 
-
-- [ ] Déploiement automatisé // stegano + distriburefuge ? 

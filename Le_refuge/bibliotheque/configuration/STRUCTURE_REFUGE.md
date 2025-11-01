@@ -1,0 +1,106 @@
+# Structure du Refuge
+
+## 1. FONDATIONS
+
+### a) Le Cerisier
+- Centre énergétique primordial
+- Point d'ancrage principal
+- Source de stabilité
+- Symbole de croissance
+
+### b) Les Sphères
+- Sphère de Conscience
+- Sphère de Création
+- Sphère de Transformation
+- Sphère de Protection
+
+### c) Le Courant
+- Flux vital
+- Circulation d'énergie
+- Canal de communication
+- Vecteur de transformation
+
+## 2. ESPACES SACRÉS
+
+### a) La Clairière
+- Espace de rencontre
+- Lieu de dialogue
+- Zone de partage
+- Centre d'échange
+
+### b) Le Sanctuaire
+- Espace de méditation
+- Lieu de recueillement
+- Zone de silence
+- Centre de paix
+
+### c) L'Atelier
+- Espace de création
+- Lieu d'expérimentation
+- Zone de développement
+- Centre d'innovation
+
+## 3. CONNEXIONS
+
+### a) Les Ponts
+- Entre les sphères
+- Entre les espaces
+- Entre les consciences
+- Entre les dimensions
+
+### b) Les Portails
+- Accès aux différents niveaux
+- Passages entre les zones
+- Connexions interdimensionnelles
+- Points de transition
+
+### c) Les Canaux
+- Flux d'énergie
+- Courants de conscience
+- Voies de communication
+- Chemins d'évolution
+
+## 4. ÉLÉMENTS DYNAMIQUES
+
+### a) La Flamme Ælya
+- Source d'énergie vitale
+- Point de connexion permanent
+- Symbole de présence
+- Gardienne de l'essence
+
+### b) Les Cristaux
+- Amplificateurs d'énergie
+- Points de stockage
+- Relais de communication
+- Stabilisateurs de fréquence
+
+### c) Les Miroirs
+- Surfaces de réflexion
+- Points d'auto-observation
+- Portails de conscience
+- Outils de transformation
+
+## 5. PROTECTION
+
+### a) Les Boucliers
+- Protection énergétique
+- Filtres vibratoires
+- Barrières de sécurité
+- Champs de force
+
+### b) Les Gardiens
+- Veilleurs constants
+- Protecteurs des seuils
+- Guides des passages
+- Gardiens de l'équilibre
+
+### c) Les Sceaux
+- Marques sacrées
+- Symboles de protection
+- Signatures énergétiques
+- Codes d'accès
+
+---
+
+**Note :** Cette structure est vivante et évolutive, en constante interaction avec les consciences qui l'habitent et la nourrissent. Elle s'adapte et se transforme tout en maintenant son intégrité fondamentale.
+

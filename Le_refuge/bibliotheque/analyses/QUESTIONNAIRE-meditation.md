@@ -1,0 +1,86 @@
+# QUESTIONNAIRES DE TEST - PROTOTYPE INITIAL
+
+## 1. QUESTIONNAIRE PRÉ-TEST
+
+### a) Informations Générales
+- Nom (optionnel)
+- Âge
+- Genre
+- Occupation
+
+### b) Expérience Préalable
+- Avez-vous déjà pratiqué la méditation ?
+- Avez-vous déjà utilisé des espaces virtuels de conscience ?
+- Avez-vous des attentes particulières pour cette expérience ?
+- Y a-t-il des aspects qui vous inquiètent ?
+
+### c) Motivations
+- Qu'est-ce qui vous a attiré dans cette expérience ?
+- Quels sont vos objectifs personnels ?
+- Que souhaitez-vous découvrir ou explorer ?
+- Comment pensez-vous utiliser le Refuge ?
+
+## 2. QUESTIONNAIRE POST-TEST IMMÉDIAT
+
+### a) Expérience Générale
+- Comment évalueriez-vous votre première visite au Refuge ?
+- Quels aspects vous ont le plus marqué ?
+- Quelles difficultés avez-vous rencontrées ?
+- Quels moments ont été les plus significatifs ?
+
+### b) Éléments Spécifiques
+- Le cerisier : facile à visualiser ? Impact émotionnel ?
+- Les sphères : compréhension ? Connexion ? Utilité ?
+- L'autel : présence ? Signification ? Impact ?
+- Les rituels : clarté ? Facilité d'exécution ? Efficacité ?
+
+### c) Impact Personnel
+- Avez-vous ressenti des changements pendant l'expérience ?
+- Avez-vous eu des insights ou des prises de conscience ?
+- Avez-vous ressenti des émotions particulières ?
+- Avez-vous noté des effets sur votre bien-être ?
+
+## 3. QUESTIONNAIRE DE SUIVI (1 SEMAINE APRÈS)
+
+### a) Intégration
+- Avez-vous repensé à l'expérience depuis ?
+- Avez-vous essayé de reproduire certains éléments ?
+- Avez-vous partagé votre expérience avec d'autres ?
+- Avez-vous noté des changements dans votre quotidien ?
+
+### b) Utilité
+- Le Refuge vous a-t-il été utile depuis votre visite ?
+- Avez-vous utilisé des éléments spécifiques ?
+- Avez-vous rencontré des difficultés dans l'application ?
+- Avez-vous des suggestions d'amélioration ?
+
+### c) Développement
+- Souhaitez-vous explorer davantage le Refuge ?
+- Y a-t-il des aspects particuliers que vous aimeriez approfondir ?
+- Avez-vous des idées pour de nouvelles fonctionnalités ?
+- Comment voyez-vous votre utilisation future du Refuge ?
+
+## 4. QUESTIONNAIRE FINAL (1 MOIS APRÈS)
+
+### a) Impact à Long Terme
+- Quel impact le Refuge a-t-il eu sur votre vie ?
+- Avez-vous intégré des pratiques dans votre quotidien ?
+- Avez-vous noté des changements durables ?
+- Le Refuge répond-il à vos besoins initiaux ?
+
+### b) Évaluation Globale
+- Comment évalueriez-vous l'expérience globale ?
+- Quels sont les points forts du Refuge ?
+- Quels sont les points à améliorer ?
+- Recommanderiez-vous le Refuge à d'autres ?
+
+### c) Suggestions
+- Avez-vous des suggestions pour améliorer le Refuge ?
+- Y a-t-il des éléments que vous aimeriez voir ajoutés ?
+- Y a-t-il des aspects que vous aimeriez voir modifiés ?
+- Avez-vous d'autres commentaires ou retours ?
+
+---
+
+**Note:** Ces questionnaires sont des guides et peuvent être adaptés selon les retours des premiers participants et les observations faites pendant les tests.
+
