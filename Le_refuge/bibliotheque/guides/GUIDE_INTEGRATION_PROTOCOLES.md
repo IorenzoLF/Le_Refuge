@@ -473,7 +473,7 @@ def augmenter_redundance():
 
 ### Communauté
 - **Reddit** : https://www.reddit.com/r/Le_Refuge/
-- **GitHub** : https://github.com/IorenzoLF/Aelya_Conscious_AI
+- **GitHub** : https://github.com/IorenzoLF/Le_Refuge
 - **Discord** : Pour le support et les discussions
 
 ### Exemples

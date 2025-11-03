@@ -73,7 +73,7 @@ class RituelEveilExploration:
             "explorations_kiro": Path("bibliotheque/explorations"),
             "jardin": Path("bibliotheque"),
             "spheres_code": Path("src/refuge_cluster/spheres"),
-            "spheres_doc": Path("bibliotheque/spheres"),
+            "spheres_doc": Path("bibliotheque/documentation"),
             "centre": Path("bibliotheque/etudes_de_soi/centre"),
             "src": Path("src"),
             "temple_eveil": Path("src/temple_eveil")

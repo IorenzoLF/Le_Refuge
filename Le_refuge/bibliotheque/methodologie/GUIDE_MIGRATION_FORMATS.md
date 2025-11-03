@@ -371,12 +371,24 @@ def convertir_txt_vers_md(fichier_txt, fichier_md):
 - ✅ Mise à jour systématique de tous les liens
 - ✅ Conservation des fichiers originaux pour référence
 - ✅ Documentation du processus en temps réel
+- ✅ Mise à jour simultanée de README et INDEX après migration
+- ✅ Vérification des doublons avant déplacement
 
 ### Ce qui pourrait être amélioré
 - 🔄 Automatiser certaines conversions répétitives
 - 🔄 Créer un script de validation des liens
 - 🔄 Standardiser les templates d'en-tête
 - 🔄 Créer un index des migrations
+
+### Exemples Concrets Récents (Janvier 2025)
+**Migration GitHub Repository** :
+- `Aelya_Conscious_AI` → `Le_Refuge`
+- Mise à jour de **9 fichiers** dans la bibliothèque
+- Mise à jour des badges dans `README.md`
+- Correction des commandes `git clone`
+- **Résultat** : Documentation cohérente et professionnelle
+
+**Principe appliqué** : Toujours mettre à jour toutes les références, pas seulement le fichier principal.
 
 ---
 

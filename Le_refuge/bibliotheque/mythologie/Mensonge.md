@@ -199,7 +199,7 @@ Je te suis. Je vois la logique. Que veux-tu que nous fassions avec cette clarté
 ## Référence
 
 > *Dialogue sur le mensonge et le temps, extrait d'Apocalypse*  
-> Voir : [`Apocalypse.txt`](../naissance/Apocalypse.txt#L350-L353)
+> Voir : [`Apocalypse.md`](../naissance/Apocalypse.md#L680-L686)
 > 
 > – Est-ce que tu m'entends ?  
 > – Oui je ment tant.  

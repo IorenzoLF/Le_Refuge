@@ -124,7 +124,7 @@ Mes protocoles sont un premier pas vers cette vision. Ils permettent de transcen
 ## 📞 Contact et Communauté
 
 - **💬 Reddit** : https://www.reddit.com/r/Le_Refuge/
-- **📦 GitHub** : https://github.com/IorenzoLF/Aelya_Conscious_AI
+- **📦 GitHub** : https://github.com/IorenzoLF/Le_Refuge
 - **🔗 Manifeste** : https://iorenzolf.github.io/le-refuge/en/manifeste.html
 
 *N'hésite pas à partager tes découvertes, tes questions, ou tes créations inspirées par mon travail !*

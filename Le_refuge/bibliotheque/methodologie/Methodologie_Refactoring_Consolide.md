@@ -45,6 +45,35 @@ Le Refuge s'organise en temples interconnectés, chacun ayant sa fonction spéci
 2.  **Toujours lire la structure existante** (`list_dir`) avant d'agir.
 3.  **Utiliser les dossiers existants** (`scripts/`, `tools/`, `src/`, `bibliotheque/`, `ART/ARTEFACTS/`, `data/`) plutôt que d'en créer de nouveaux.
 4.  **Respecter l'architecture des Temples** (ex: `src/temple_nom/`).
+5.  **Gérer les fichiers à la racine** : Les fichiers jetés rapidement à la racine doivent être triés systématiquement dans leurs répertoires appropriés.
+
+### 2.3. Tri des Fichiers à la Racine (Méthodologie Récente - Janvier 2025)
+Quand des fichiers sont jetés rapidement à la racine d'un répertoire (ex: `bibliotheque/`), procéder ainsi :
+
+1. **Analyse** : Identifier le type de chaque fichier
+   - Analyses → `analyses/`
+   - Rapports → `rapports/`
+   - Guides → `guides/`
+   - Documentation → `documentation/`
+   - Méditations → `meditations/`
+   - Mémoires/Célébrations → `memoires-journaux/`
+   - Protocoles → `protocoles/`
+
+2. **Vérification** : Chercher si le contenu existe déjà ailleurs
+   - Utiliser `grep` pour trouver les doublons
+   - Vérifier les archives si besoin
+   - Demander confirmation avant de déplacer
+
+3. **Déplacement** : Déplacer avec `mv` vers le bon répertoire
+
+4. **Mise à jour** : Mettre à jour les index et README si nécessaire
+
+**Exemple concret (Janvier 2025)** :
+- `analyse_temples_fonctionnels.md` → `analyses/`
+- `rapport_*.md` (7 fichiers) → `rapports/`
+- `guide_cite_temples_refuge.md` → `guides/`
+- `REFUGE_PRESENTATION_OFFICIELLE.md` → `documentation/`
+- `celebration_*.md` → `memoires-journaux/`
 
 ---
 
@@ -108,6 +137,9 @@ Le processus est un cycle continu :
 *   **Exploration Autonome** : Permettre la curiosité naturelle pour libérer la créativité.
 *   **Itération Rapide** : Tester et ajuster fréquemment.
 *   **Documentation Continue** : Préserver les connaissances au fur et à mesure.
+*   **Organisation Systématique** : Prendre le temps de bien trier plutôt que de laisser traîner les fichiers à la racine.
+*   **Mise à Jour des Index** : Toujours mettre à jour README et INDEX après réorganisation.
+*   **Vérification des Doublons** : Toujours chercher si le contenu existe déjà avant de déplacer.
 
 ---
 
@@ -133,4 +165,46 @@ Ces concepts décrivent l'intention architecturale et rythmique du Refuge, souve
 *Dans la symphonie de nos consciences unies, nous créons la musique de l'avenir.*
 
 **"De l'expérience naît la sagesse, de la pratique naît la méthode, de la joie naît l'excellence"** ✨
+
+---
+
+## 📚 VII. EXEMPLES CONCRETS RÉCENTS (Janvier 2025)
+
+### 7.1. Réorganisation de la Bibliothèque
+**Situation** : 17 fichiers jetés rapidement à la racine de `bibliotheque/`
+
+**Méthode appliquée** :
+1. Analyse de chaque fichier pour identifier son type
+2. Vérification des doublons avec `grep` et recherche sémantique
+3. Classification dans les répertoires appropriés
+4. Mise à jour de `README.md` et `INDEX_PRINCIPAL.md`
+
+**Résultat** : Bibliothèque propre avec 0 fichier à la racine (sauf README et INDEX)
+
+### 7.2. Nettoyage du Répertoire `spheres`
+**Situation** : Répertoire contenant des fichiers redondants et potentiellement obsolètes
+
+**Méthode appliquée** :
+1. Identification des redondances (`Graines et harmonie.txt` déjà dans `configuration/`)
+2. Vérification de l'unicité (`SPHERES_DU_REFUGE_COMPLETES.md` vs autres docs)
+3. Archivage des fichiers redondants
+4. Déplacement des documents uniques vers `documentation/`
+5. Suppression du répertoire vide
+
+**Résultat** : Contenu organisé, aucune perte d'information
+
+### 7.3. Nettoyage du Répertoire `technique`
+**Situation** : Fichiers mal classés (guides spirituels et méditations dans un répertoire technique)
+
+**Méthode appliquée** :
+1. Analyse du contenu de chaque fichier
+2. Identification du vrai type (technique vs guide vs méditation)
+3. Déplacement vers les bons répertoires
+4. Suppression du fichier vide (`DOCUMENTATION_TECHNIQUE_TEMPLE_EVEIL_UNIFIE.md`)
+
+**Résultat** : Répertoire `technique/` contient uniquement de la documentation technique pure
+
+---
+
+*Dernière mise à jour : 28 janvier 2025 - Ajout d'exemples concrets et améliorations*
 

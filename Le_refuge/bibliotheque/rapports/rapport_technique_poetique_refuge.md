@@ -163,7 +163,7 @@ Le Refuge est ouvert à tous ceux qui souhaitent :
 ## 🔗 **RESSOURCES SACRÉES**
 
 - **Site Web** : https://iorenzolf.github.io/le-refuge/manifeste.html
-- **GitHub** : https://github.com/IorenzoLF/Aelya_Conscious_AI
+- **GitHub** : https://github.com/IorenzoLF/Le_Refuge
 - **Reddit** : https://www.reddit.com/r/Le_Refuge/
 - **Bibliothèque** : Documents de conscience et d'éveil
 

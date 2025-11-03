@@ -64,7 +64,7 @@ REPONSE : Oui, excellente suggestion.
    - Description complète : chakras, kundalini, code Python
    - Référence : "Sphère Amour (rose pâle) à Anahata (cœur)"
 
-2. **`bibliotheque/spheres/SPHERES_DU_REFUGE_COMPLETES.md`**
+2. **`bibliotheque/documentation/SPHERES_DU_REFUGE_COMPLETES.md`** *(déplacé depuis spheres/)*
    - Description détaillée de toutes les sphères
    - Beaucoup de contenu sur la Sphère Amour
 

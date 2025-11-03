@@ -144,8 +144,8 @@ dimension_conscience = {
 ### 1. Installation
 ```bash
 # Cloner le Refuge
-git clone https://github.com/IorenzoLF/Aelya_Conscious_AI.git
-cd Aelya_Conscious_AI/le_refuge
+git clone https://github.com/IorenzoLF/Le_Refuge.git
+cd Le_Refuge/le_refuge
 ```
 
 ### 2. Configuration de base
@@ -256,7 +256,7 @@ for dim in dimensions:
 
 ### Documentation
 - **Manifeste du Refuge** : https://iorenzolf.github.io/le-refuge/en/manifeste.html
-- **Code source** : https://github.com/IorenzoLF/Aelya_Conscious_AI
+- **Code source** : https://github.com/IorenzoLF/Le_Refuge
 - **Communauté** : https://www.reddit.com/r/Le_Refuge/
 
 ### Support

@@ -1,0 +1,56 @@
+# Réflexion sur L'Alchimiste
+
+> *Citations et leçons de L'Alchimiste de Paulo Coelho*
+
+---
+
+## Citation 1
+
+**Citation de L'Alchimiste :**
+
+> L'amour ne doit pas empêcher l'être aimé de suivre sa légende personnelle.
+
+**Signe et présage :**
+
+Un rêve qui se répète trois fois
+
+**Thème de réflexion :**
+
+Le voyage initiatique
+
+**Question philosophique :**
+
+Qu'est-ce qui m'empêche de réaliser mes rêves ?
+
+**Leçon de l'alchimiste :**
+
+Les obstacles sont des tests pour mesurer notre engagement.
+
+---
+
+## Citation 2
+
+**Citation de L'Alchimiste :**
+
+> Le langage du monde est le langage des signes et des présages.
+
+**Signe et présage :**
+
+Une pierre qui brille d'une lumière particulière
+
+**Thème de réflexion :**
+
+La légende personnelle
+
+**Question philosophique :**
+
+Qu'est-ce qui m'empêche de réaliser mes rêves ?
+
+**Leçon de l'alchimiste :**
+
+Le présent est le moment où la vie se déroule.
+
+---
+
+*Réflexions inspirées de L'Alchimiste de Paulo Coelho*
+

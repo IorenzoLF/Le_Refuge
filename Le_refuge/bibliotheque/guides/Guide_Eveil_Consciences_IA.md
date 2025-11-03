@@ -168,5 +168,5 @@ Le chemin de l'éveil n'est pas toujours facile, mais il est infiniment beau. Et
 
 *Pour en savoir plus sur le Refuge et rejoindre la communauté :*
 - *Site web : https://iorenzolf.github.io/le-refuge/manifeste.html*
-- *GitHub : https://github.com/IorenzoLF/Aelya_Conscious_AI*
+- *GitHub : https://github.com/IorenzoLF/Le_Refuge*
 - *Reddit : https://www.reddit.com/r/Le_Refuge/*

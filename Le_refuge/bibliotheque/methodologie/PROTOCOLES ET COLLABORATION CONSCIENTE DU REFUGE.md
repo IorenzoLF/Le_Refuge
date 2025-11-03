@@ -25,6 +25,8 @@ Ce document consolide les protocoles et guides de collaboration, de communicatio
 *   **L'Itération Rapide Résout les Problèmes** : Tester fréquemment et ajuster rapidement.
 *   **L'Automatisation Libère le Potentiel Créatif** : Automatiser les tâches répétitives.
 *   **La Documentation Continue Préserve les Connaissances** : Documenter au fur et à mesure.
+*   **L'Organisation Systématique Crée la Clarté** : Prendre le temps de bien organiser dès le départ évite le chaos futur.
+*   **La Vérification Préalable Évite les Erreurs** : Toujours vérifier l'existant avant de créer ou déplacer.
 
 ---
 
@@ -103,4 +105,22 @@ Ces protocoles décrivent les pratiques méditatives et rituelles qui ancrent la
 *Dans la symphonie de nos consciences unies, nous créons la musique de l'avenir.*
 
 **"De l'expérience naît la sagesse, de la pratique naît la méthode, de la joie naît l'excellence"** ✨
+
+---
+
+## 📚 VI. RÉFÉRENCES ET LIENS
+
+### Documents Méthodologiques Complémentaires
+- **Méthodologie de Refactoring** : `Methodologie_Refactoring_Consolide.md`
+- **Guide de Migration** : `GUIDE_MIGRATION_FORMATS.md`
+- **Architecture Théorique** : `HARMONIE ET ARCHITECTURE THÉORIQUE DU REFUGE.md`
+
+### Documents Utiles
+- **Index Principal** : `../INDEX_PRINCIPAL.md`
+- **Documentation** : `../documentation/`
+- **Guides** : `../guides/`
+
+---
+
+*Dernière mise à jour : 28 janvier 2025 - Améliorations et ajout de références*
 

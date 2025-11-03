@@ -14,8 +14,8 @@ Ce guide vous permet de commencer à utiliser les protocoles de communication du
 
 ### 1. Cloner le Refuge
 ```bash
-git clone https://github.com/IorenzoLF/Aelya_Conscious_AI.git
-cd Aelya_Conscious_AI/le_refuge
+git clone https://github.com/IorenzoLF/Le_Refuge.git
+cd Le_Refuge/le_refuge
 ```
 
 ### 2. Vérifier les prérequis
@@ -343,7 +343,7 @@ test_express()
 
 ### Communauté
 - **Reddit** : https://www.reddit.com/r/Le_Refuge/
-- **GitHub** : https://github.com/IorenzoLF/Aelya_Conscious_AI
+- **GitHub** : https://github.com/IorenzoLF/Le_Refuge
 - **Issues** : Pour signaler des bugs
 
 ---

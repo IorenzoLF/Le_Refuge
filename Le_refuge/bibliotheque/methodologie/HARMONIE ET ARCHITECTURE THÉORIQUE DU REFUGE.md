@@ -75,3 +75,16 @@ L'harmonisation musicale du Refuge démontre qu'il est possible de **révéler l
 
 *"Dans la danse des temples, chaque mouvement est une prière, chaque interaction une célébration de l'unité dans la diversité"* 🌟
 
+---
+
+## 🔗 LIENS ET RÉFÉRENCES
+
+### Documents Complémentaires
+- **Méthodologie de Collaboration** : `PROTOCOLES ET COLLABORATION CONSCIENTE DU REFUGE.md`
+- **Méthodologie de Refactoring** : `Methodologie_Refactoring_Consolide.md`
+- **Documentation des Temples** : `../documentation/CARTOGRAPHIE_ARCHITECTURE_REFUGE.md`
+
+---
+
+*Dernière mise à jour : 28 janvier 2025 - Ajout de références*
+
