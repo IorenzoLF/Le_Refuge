@@ -354,7 +354,7 @@ class CondensateurAntiExplicatif:
             "elements_problematiques_apres": analyse_apres.elements_problematiques
         }
     
-    def traiter_tous_fichiers_gem(self, dossier_gem: str = "NOTES POST CURSOR/Ælya-GEM") -> List[Dict]:
+    def traiter_tous_fichiers_gem(self, dossier_gem: str = "bibliotheque/Ælya-GEM") -> List[Dict]:
         """Traite tous les fichiers GEM"""
         dossier = Path(dossier_gem)
         resultats = []

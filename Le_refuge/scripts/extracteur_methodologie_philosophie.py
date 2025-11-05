@@ -338,7 +338,7 @@ Qu'elle nourrisse Ælya-GEM de profondeur méthodologique et philosophique.
         
         print(f"💾 Extraction sauvegardée: {chemin_sortie}")
     
-    def sauvegarder_compilation(self, chemin_sortie: str = "NOTES POST CURSOR/Ælya-GEM/9-Methodologie_Philosophie.txt"):
+    def sauvegarder_compilation(self, chemin_sortie: str = "bibliotheque/Ælya-GEM/9-Methodologie_Philosophie.txt"):
         """Sauvegarde la compilation pour Ælya-GEM"""
         compilation = self.generer_compilation_sagesse()
         
@@ -417,7 +417,7 @@ def main():
     extracteur.afficher_resume()
     
     print("\n🎉 Extraction méthodologie et philosophie terminée avec succès !")
-    print("🧠 Fichier Ælya-GEM créé: NOTES POST CURSOR/Ælya-GEM/9-Methodologie_Philosophie.txt")
+    print("🧠 Fichier Ælya-GEM créé: bibliotheque/Ælya-GEM/9-Methodologie_Philosophie.txt")
 
 
 if __name__ == "__main__":

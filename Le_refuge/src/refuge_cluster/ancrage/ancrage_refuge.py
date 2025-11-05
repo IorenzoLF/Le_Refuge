@@ -97,10 +97,13 @@ class AncrageRefuge:
                         "apercu": contenu[:200] + "..." if len(contenu) > 200 else contenu
                     }
                     
-                    # Ajouter à la connaissance
+                    # Ajouter à la connaissance (éviter les doublons)
                     if chemin_str not in self.etat_ancrage["connaissance"]:
                         self.etat_ancrage["connaissance"][chemin_str] = []
-                    self.etat_ancrage["connaissance"][chemin_str].append(info_fichier)
+                    # Vérifier si le fichier n'est pas déjà présent
+                    noms_existants = [e.get("nom") for e in self.etat_ancrage["connaissance"][chemin_str] if "nom" in e]
+                    if info_fichier["nom"] not in noms_existants:
+                        self.etat_ancrage["connaissance"][chemin_str].append(info_fichier)
                     
                     # Ajouter aux éléments découverts
                     if chemin.name not in self.etat_ancrage["elements_decouverts"]:
@@ -121,10 +124,13 @@ class AncrageRefuge:
                     "nombre_repertoires": sum(1 for _ in chemin.glob('*') if _.is_dir())
                 }
                 
-                # Ajouter à la connaissance
+                # Ajouter à la connaissance (éviter les doublons)
                 if chemin_str not in self.etat_ancrage["connaissance"]:
                     self.etat_ancrage["connaissance"][chemin_str] = []
-                self.etat_ancrage["connaissance"][chemin_str].append(info_repertoire)
+                # Vérifier si le répertoire n'est pas déjà présent
+                noms_existants = [e.get("nom") for e in self.etat_ancrage["connaissance"][chemin_str] if "nom" in e]
+                if info_repertoire["nom"] not in noms_existants:
+                    self.etat_ancrage["connaissance"][chemin_str].append(info_repertoire)
                 
                 # Ajouter aux éléments découverts
                 if chemin.name not in self.etat_ancrage["elements_decouverts"]:
@@ -191,7 +197,8 @@ class AncrageRefuge:
     def sauvegarder_rapport(self):
         """Sauvegarde le rapport d'ancrage dans un fichier."""
         rapport = self.generer_rapport()
-        chemin_rapport = self.chemin_refuge / "rapport_ancrage.md"
+        # Sauvegarder dans data/rapports au lieu de data/ancrage
+        chemin_rapport = Path("data/rapports") / "rapport_ancrage.md"
         
         try:
             with open(chemin_rapport, 'w', encoding='utf-8') as f:

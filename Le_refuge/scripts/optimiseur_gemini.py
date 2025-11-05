@@ -51,6 +51,10 @@ class OptimiseurGemini:
     """Optimiseur intelligent pour contraintes Gemini"""
     
     def __init__(self):
+        # Chemin relatif depuis la racine du projet (le_refuge/)
+        racine = Path(__file__).parent.parent
+        self.dossier_gem_default = racine / "bibliotheque" / "Ælya-GEM"
+        
         # Contraintes Gemini
         self.max_fichiers = 10
         self.max_taille_mo = 100.0
@@ -79,21 +83,25 @@ class OptimiseurGemini:
             "Par la mémoire du Refuge"
         ]
     
-    def analyser_fichiers_gem(self, dossier_gem: str = "NOTES POST CURSOR/Ælya-GEM") -> List[FichierGEM]:
+    def analyser_fichiers_gem(self, dossier_gem: str = None) -> List[FichierGEM]:
         """Analyse tous les fichiers GEM et calcule leurs métadonnées"""
-        dossier = Path(dossier_gem)
+        if dossier_gem is None:
+            dossier = self.dossier_gem_default
+        else:
+            dossier = Path(dossier_gem)
         
         if not dossier.exists():
-            print(f"❌ Dossier GEM non trouvé: {dossier_gem}")
+            print(f"❌ Dossier GEM non trouvé: {dossier}")
+            print(f"   Chemin absolu: {dossier.absolute()}")
             return []
         
         fichiers_gem = []
         
         print("🔍 Analyse des fichiers GEM...")
+        print(f"   Dossier: {dossier.absolute()}")
         
+        # Analyser tous les fichiers .txt (y compris les _fluide.txt car ce sont ceux utilisés)
         for fichier in dossier.glob("*.txt"):
-            if fichier.name.endswith("_fluide.txt"):
-                continue  # Ignorer les versions fluides pour l'analyse initiale
             
             try:
                 # Calculer la taille
@@ -367,8 +375,15 @@ class OptimiseurGemini:
         return optimisation_base
     
     def generer_rapport_optimisation(self, optimisation: OptimisationGemini, 
-                                   chemin_rapport: str = "data/rapport_optimisation_gemini.json"):
+                                   chemin_rapport: str = None):
         """Génère un rapport détaillé de l'optimisation"""
+        
+        # Chemin du rapport depuis la racine du projet
+        if chemin_rapport is None:
+            racine = Path(__file__).parent.parent
+            chemin_rapport = racine / "data" / "rapports" / "rapport_optimisation_gemini.json"
+        else:
+            chemin_rapport = Path(chemin_rapport)
         
         # Calculer les statistiques
         types_selectionnes = {}
@@ -380,8 +395,9 @@ class OptimiseurGemini:
         for fichier in optimisation.fichiers_selectionnes:
             formules_preservees.update(fichier.formules_sacrees)
         
+        from datetime import datetime
         rapport = {
-            "timestamp": "2025-01-24",
+            "timestamp": datetime.now().isoformat(),
             "strategie_utilisee": optimisation.strategie_utilisee,
             "contraintes_gemini": {
                 "max_fichiers": self.max_fichiers,
@@ -401,13 +417,12 @@ class OptimiseurGemini:
         }
         
         # Sauvegarder le rapport
-        chemin = Path(chemin_rapport)
-        chemin.parent.mkdir(parents=True, exist_ok=True)
+        chemin_rapport.parent.mkdir(parents=True, exist_ok=True)
         
-        with open(chemin, 'w', encoding='utf-8') as f:
+        with open(chemin_rapport, 'w', encoding='utf-8') as f:
             json.dump(rapport, f, ensure_ascii=False, indent=2)
         
-        print(f"📊 Rapport d'optimisation sauvegardé: {chemin}")
+        print(f"📊 Rapport d'optimisation sauvegardé: {chemin_rapport}")
         
         # Afficher le résumé
         self._afficher_resume_optimisation(optimisation, types_selectionnes, formules_preservees)
@@ -466,6 +481,13 @@ class OptimiseurGemini:
 
 def main():
     """Fonction principale d'optimisation Gemini"""
+    # Configurer l'encodage UTF-8 pour Windows
+    import sys
+    import io
+    if sys.platform == 'win32':
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    
     print("🔮 Optimiseur Gemini pour Ælya-GEM")
     print("=" * 50)
     

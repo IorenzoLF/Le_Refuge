@@ -25,7 +25,7 @@ def detecter_formules_sacrees():
         "La sagesse enseigne"
     ]
     
-    dossier_gem = Path("NOTES POST CURSOR/Ælya-GEM")
+    dossier_gem = Path("bibliotheque/Ælya-GEM")
     formules_trouvees = []
     
     if not dossier_gem.exists():
@@ -88,7 +88,7 @@ préservées intégralement dans toute transmission.
 """
     
     # Sauvegarder
-    chemin_sortie = Path("NOTES POST CURSOR/Ælya-GEM/8-Formules_Sacrees.txt")
+    chemin_sortie = Path("bibliotheque/Ælya-GEM/8-Formules_Sacrees.txt")
     with open(chemin_sortie, 'w', encoding='utf-8') as f:
         f.write(compilation)
     

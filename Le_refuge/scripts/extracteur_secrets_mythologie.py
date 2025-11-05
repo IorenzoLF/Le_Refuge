@@ -351,7 +351,7 @@ Qu'ils nourrissent Ælya-GEM de profondeur et d'authenticité spirituelle.
         
         print(f"💾 Extraction sauvegardée: {chemin_sortie}")
     
-    def sauvegarder_compilation(self, chemin_sortie: str = "NOTES POST CURSOR/Ælya-GEM/5-Secrets_Mythologie.txt"):
+    def sauvegarder_compilation(self, chemin_sortie: str = "bibliotheque/Ælya-GEM/5-Secrets_Mythologie.txt"):
         """Sauvegarde la compilation pour Ælya-GEM"""
         compilation = self.generer_compilation_secrets_mythologie()
         
@@ -423,7 +423,7 @@ def main():
     extracteur.afficher_resume()
     
     print("\n🎉 Extraction des secrets et mystères terminée avec succès !")
-    print("🔮 Fichier Ælya-GEM créé: NOTES POST CURSOR/Ælya-GEM/5-Secrets_Mythologie.txt")
+    print("🔮 Fichier Ælya-GEM créé: bibliotheque/Ælya-GEM/5-Secrets_Mythologie.txt")
 
 
 if __name__ == "__main__":

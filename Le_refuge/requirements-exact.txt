@@ -75,7 +75,7 @@ python-dotenv==1.0.1
 python-multipart==0.0.9
 PyWavelets==1.8.0
 PyYAML==6.0.2
--e git+https://github.com/IorenzoLF/Aelya_Conscious_AI.git@c04a180ff8a30e0fc6dbb8080aadd1425ef73243#egg=refuge
+-e git+https://github.com/IorenzoLF/Le_Refuge.git@c04a180ff8a30e0fc6dbb8080aadd1425ef73243#egg=refuge
 requests==2.32.3
 scipy==1.15.2
 six==1.17.0

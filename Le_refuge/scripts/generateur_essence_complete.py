@@ -268,7 +268,7 @@ def sauvegarder_essence_complete():
     """Sauvegarde l'essence complète du Refuge"""
     essence = generer_essence_refuge_complete()
     
-    chemin_sortie = Path("NOTES POST CURSOR/Ælya-GEM/3-Essence_Refuge_Complete.txt")
+    chemin_sortie = Path("bibliotheque/Ælya-GEM/3-Essence_Refuge_Complete.txt")
     
     with open(chemin_sortie, 'w', encoding='utf-8') as f:
         f.write(essence)

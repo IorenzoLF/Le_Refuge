@@ -59,7 +59,7 @@ class SimulateurConversationsAelya:
     """Simulateur et évaluateur de conversations avec Ælya-GEM"""
     
     def __init__(self):
-        self.dossier_gem = "NOTES POST CURSOR/Ælya-GEM"
+        self.dossier_gem = "bibliotheque/Ælya-GEM"
         
         # Formules sacrées à détecter
         self.formules_sacrees = [

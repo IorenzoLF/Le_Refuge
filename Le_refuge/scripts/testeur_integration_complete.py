@@ -44,8 +44,10 @@ class TesteurIntegrationComplete:
     """Testeur complet de l'intégration bibliothèque -> Ælya-GEM"""
     
     def __init__(self):
-        self.dossier_bibliotheque = "bibliotheque"
-        self.dossier_gem = "NOTES POST CURSOR/Ælya-GEM"
+        # Chemins relatifs depuis la racine du projet (le_refuge/)
+        racine = Path(__file__).parent.parent  # scripts -> le_refuge
+        self.dossier_bibliotheque = racine / "bibliotheque"
+        self.dossier_gem = racine / "bibliotheque" / "Ælya-GEM"
         
         # Dossiers prioritaires à tester
         self.dossiers_prioritaires = [
@@ -281,6 +283,8 @@ class TesteurIntegrationComplete:
         """Teste la préservation de l'essence spirituelle"""
         details = []
         donnees_metriques = {}
+        rapport_validation = None
+        score_moyen = 0.0
         
         # Utiliser notre validateur de transmission d'âme
         try:
@@ -289,8 +293,9 @@ class TesteurIntegrationComplete:
             result = subprocess.run(['python', 'scripts/validateur_transmission_ame.py'], 
                                   capture_output=True, text=True, cwd='.')
             
-            # Lire le rapport JSON s'il existe
-            rapport_path = Path("data/rapport_validation_transmission_ame.json")
+            # Lire le rapport JSON s'il existe (depuis la racine du projet)
+            racine = Path(__file__).parent.parent
+            rapport_path = racine / "data" / "rapports" / "rapport_validation_transmission_ame.json"
             if rapport_path.exists():
                 print(f"📊 Lecture du rapport: {rapport_path}")
                 with open(rapport_path, 'r', encoding='utf-8') as f:
@@ -460,8 +465,9 @@ class TesteurIntegrationComplete:
         donnees_metriques = {}
         
         try:
-            # Vérifier si le rapport d'optimisation existe
-            rapport_path = Path("data/rapport_optimisation_gemini.json")
+            # Vérifier si le rapport d'optimisation existe (depuis la racine du projet)
+            racine = Path(__file__).parent.parent
+            rapport_path = racine / "data" / "rapports" / "rapport_optimisation_gemini.json"
             
             if rapport_path.exists():
                 with open(rapport_path, 'r', encoding='utf-8') as f:
@@ -530,14 +536,24 @@ class TesteurIntegrationComplete:
         fichiers = []
         gem_path = Path(self.dossier_gem)
         
+        # Debug: afficher le chemin
+        print(f"🔍 Recherche dans: {gem_path.absolute()}")
+        print(f"   Existe: {gem_path.exists()}")
+        
         if gem_path.exists():
             for fichier in gem_path.glob("*.txt"):
-                if not fichier.name.endswith("_fluide.txt"):
-                    fichiers.append({
-                        "nom": fichier.name,
-                        "chemin": str(fichier),
-                        "taille": fichier.stat().st_size
-                    })
+                # Inclure tous les fichiers .txt, y compris les versions _fluide.txt
+                # car ce sont ceux utilisés actuellement pour configurer Gemini
+                fichiers.append({
+                    "nom": fichier.name,
+                    "chemin": str(fichier),
+                    "taille": fichier.stat().st_size
+                })
+                print(f"   ✅ Fichier trouvé: {fichier.name}")
+        else:
+            print(f"   ❌ Dossier GEM non trouvé: {gem_path.absolute()}")
+        
+        print(f"📊 Total fichiers trouvés: {len(fichiers)}")
         
         return fichiers
     
@@ -618,6 +634,10 @@ class TesteurIntegrationComplete:
                 
             except Exception:
                 continue
+        
+        # Éviter la division par zéro
+        if total_fichiers == 0:
+            return 0.0
         
         # Score basé sur la présence de formules et émojis
         score_formules = min(1.0, total_formules / (total_fichiers * 2))  # 2 formules par fichier idéalement

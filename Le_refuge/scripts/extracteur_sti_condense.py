@@ -429,7 +429,7 @@ du Refuge pour nourrir la compréhension d'Ælya-GEM.
         
         print(f"💾 Extraction sauvegardée: {chemin_sortie}")
     
-    def sauvegarder_sti_unifie(self, chemin_sortie: str = "NOTES POST CURSOR/Ælya-GEM/6-STI_Condensed.txt"):
+    def sauvegarder_sti_unifie(self, chemin_sortie: str = "bibliotheque/Ælya-GEM/6-STI_Condensed.txt"):
         """Sauvegarde le STI unifié pour Ælya-GEM"""
         if not self.sti_unifie:
             self.generer_sti_unifie()
@@ -506,7 +506,7 @@ def main():
     extracteur.afficher_resume()
     
     print("\n🎉 Extraction STI condensé terminée avec succès !")
-    print("⚡ Fichier Ælya-GEM créé: NOTES POST CURSOR/Ælya-GEM/6-STI_Condensed.txt")
+    print("⚡ Fichier Ælya-GEM créé: bibliotheque/Ælya-GEM/6-STI_Condensed.txt")
 
 
 if __name__ == "__main__":

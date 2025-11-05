@@ -33,6 +33,9 @@ class ValidateurTransmissionAme:
     """Validateur de la qualité de transmission d'âme"""
     
     def __init__(self):
+        # Chemin relatif depuis la racine du projet (le_refuge/)
+        racine = Path(__file__).parent.parent
+        self.dossier_gem_default = racine / "bibliotheque" / "Ælya-GEM"
         # Indicateurs de fluidité poétique
         self.indicateurs_poetiques = {
             # Métaphores et images
@@ -315,32 +318,47 @@ class ValidateurTransmissionAme:
                 recommandations=["Corriger l'erreur de lecture"]
             )
     
-    def valider_tous_fichiers_gem(self, dossier_gem: str = "NOTES POST CURSOR/Ælya-GEM") -> List[MetriqueTransmissionAme]:
+    def valider_tous_fichiers_gem(self, dossier_gem: str = None) -> List[MetriqueTransmissionAme]:
         """Valide tous les fichiers GEM"""
-        dossier = Path(dossier_gem)
+        if dossier_gem is None:
+            dossier = self.dossier_gem_default
+        else:
+            dossier = Path(dossier_gem)
         
         if not dossier.exists():
-            print(f"❌ Dossier GEM non trouvé: {dossier_gem}")
+            print(f"❌ Dossier GEM non trouvé: {dossier}")
+            print(f"   Chemin absolu: {dossier.absolute()}")
             return []
         
         metriques_tous_fichiers = []
         
         print("🔍 Validation de la transmission d'âme...")
+        print(f"   Dossier: {dossier.absolute()}")
         
-        # Analyser tous les fichiers .txt (sauf les _fluide)
+        # Analyser tous les fichiers .txt (y compris les _fluide.txt car ce sont ceux utilisés)
+        fichiers_trouves = 0
         for fichier in sorted(dossier.glob("*.txt")):
-            if not fichier.name.endswith("_fluide.txt"):
-                print(f"📊 Analyse: {fichier.name}")
-                metriques = self.valider_fichier_gem(str(fichier))
-                metriques_tous_fichiers.append(metriques)
+            fichiers_trouves += 1
+            print(f"📊 Analyse: {fichier.name}")
+            metriques = self.valider_fichier_gem(str(fichier))
+            metriques_tous_fichiers.append(metriques)
+        
+        print(f"📊 Total fichiers analysés: {fichiers_trouves}")
         
         return metriques_tous_fichiers
     
     def generer_rapport_validation(self, metriques_liste: List[MetriqueTransmissionAme], 
-                                  chemin_rapport: str = "data/rapport_validation_transmission_ame.json"):
+                                  chemin_rapport: str = None):
         """Génère un rapport complet de validation"""
         if not metriques_liste:
             return
+        
+        # Chemin du rapport depuis la racine du projet
+        if chemin_rapport is None:
+            racine = Path(__file__).parent.parent
+            chemin_rapport = racine / "data" / "rapports" / "rapport_validation_transmission_ame.json"
+        else:
+            chemin_rapport = Path(chemin_rapport)
         
         # Calculer les moyennes
         score_fluidite_moyen = sum(m.score_fluidite_poetique for m in metriques_liste) / len(metriques_liste)
@@ -354,8 +372,9 @@ class ValidateurTransmissionAme:
         meilleur_fichier = max(metriques_liste, key=lambda m: m.score_transmission_ame)
         fichier_a_ameliorer = min(metriques_liste, key=lambda m: m.score_transmission_ame)
         
+        from datetime import datetime
         rapport = {
-            "timestamp_validation": "2025-01-24",
+            "timestamp_validation": datetime.now().isoformat(),
             "nombre_fichiers_valides": len(metriques_liste),
             "scores_moyens": {
                 "fluidite_poetique": round(score_fluidite_moyen, 3),
@@ -448,6 +467,13 @@ class ValidateurTransmissionAme:
 
 def main():
     """Fonction principale de validation"""
+    # Configurer l'encodage UTF-8 pour Windows
+    import sys
+    import io
+    if sys.platform == 'win32':
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    
     print("🔍 Validateur de Transmission d'Âme du Refuge")
     print("=" * 60)
     

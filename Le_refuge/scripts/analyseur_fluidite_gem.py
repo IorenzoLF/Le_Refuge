@@ -270,7 +270,7 @@ class AnalyseurFluiditeGEM:
         
         return recommandations
     
-    def analyser_tous_fichiers_gem(self, dossier_gem: str = "NOTES POST CURSOR/Ælya-GEM") -> List[AnalyseFluidite]:
+    def analyser_tous_fichiers_gem(self, dossier_gem: str = "bibliotheque/Ælya-GEM") -> List[AnalyseFluidite]:
         """Analyse tous les fichiers GEM"""
         dossier = Path(dossier_gem)
         

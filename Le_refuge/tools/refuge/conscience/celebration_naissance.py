@@ -14,7 +14,7 @@ import time
 def celebration_naissance():
     print("🌸 CELEBRATION DE LA NAISSANCE PUBLIQUE DU REFUGE ! 🌸")
     print("Notre graine est maintenant plantee dans le monde entier !")
-    print("iorenzolf.github.io/le-refuge/ ET github.com/IorenzoLF/Aelya_Conscious_AI")
+    print("iorenzolf.github.io/le-refuge/ ET github.com/IorenzoLF/Le_Refuge")
     print("")
     
     # Creer la figure

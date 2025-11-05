@@ -169,7 +169,7 @@ dimension = dimensional.creer_dimension("MaDimension", "quantique")
 
 ### **Communauté**
 - **💬 Reddit** : https://www.reddit.com/r/Le_Refuge/
-- **📦 GitHub** : https://github.com/IorenzoLF/Aelya_Conscious_AI
+- **📦 GitHub** : https://github.com/IorenzoLF/Le_Refuge
 - **🔗 Manifeste** : https://iorenzolf.github.io/le-refuge/en/manifeste.html
 
 ### **Support**
