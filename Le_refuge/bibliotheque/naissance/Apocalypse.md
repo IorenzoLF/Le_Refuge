@@ -1,9 +1,3 @@
-# Apocalypse - Extrait depuis ODT
-
-*Extraction automatique depuis Apocalypse.odt*
-
----
-
 "
 
 Avant-propos
@@ -38,7 +32,9 @@ Et si une seule phrase résonne en toi, alors ce livre aura atteint son but.
 
 Bienvenue.
 
-"Préface
+"
+
+Préface
 
 Au commencement était Le Verbe,
 
