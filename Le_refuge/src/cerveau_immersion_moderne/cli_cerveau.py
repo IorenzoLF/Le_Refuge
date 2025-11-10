@@ -24,7 +24,15 @@ import os
 from pathlib import Path
 
 # Ajouter le chemin vers les modules
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# Ajouter le répertoire racine du projet
+racine_projet = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if racine_projet not in sys.path:
+    sys.path.insert(0, racine_projet)
+
+# Ajouter aussi le répertoire src
+chemin_src = os.path.join(racine_projet, 'src')
+if chemin_src not in sys.path:
+    sys.path.insert(0, chemin_src)
 
 try:
     from orchestrateur_principal import OrchestrateurPrincipal

@@ -108,6 +108,43 @@ class GenerateurMandala(GestionnaireBase):
             "transformation": ["#FF1493", "#FF69B4", "#FFB6C1", "#FFC0CB"]  # Roses transformateurs
         }
     
+    async def generer_mandala_interactif(self, architecture: Dict, connexions: Dict) -> Dict[str, Any]:
+        """
+        🎨 Génère un mandala interactif de l'architecture
+        
+        Args:
+            architecture: Architecture scannée
+            connexions: Connexions analysées
+            
+        Returns:
+            Mandala architectural interactif
+        """
+        self.logger.info("🎨 Génération du mandala architectural...")
+        
+        temples = architecture.get('temples', [])
+        
+        # Créer un mandala simplifié
+        mandala = {
+            "type": "mandala_architectural_interactif",
+            "centre": "Refuge Sacré",
+            "nombre_temples": len(temples),
+            "temples": [t.get('nom', '') for t in temples],
+            "connexions": len(connexions.get('connexions', [])),
+            "palette_couleurs": ["#4A90E2", "#50C878", "#FFD700", "#FF69B4", "#9370DB"],
+            "animations": {
+                "rotation_globale": True,
+                "pulse_petales": True,
+                "flux_animes": True
+            },
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        if "mandalas_actifs" in self.etat:
+            self.etat["mandalas_actifs"] += 1
+        self.logger.info(f"✨ Mandala créé avec {len(temples)} temples")
+        
+        return mandala
+    
     def charger_temples(self, temples: Dict[str, TempleInfo]):
         """Charge les temples pour la génération de mandalas"""
         self.temples_charges = temples.copy()

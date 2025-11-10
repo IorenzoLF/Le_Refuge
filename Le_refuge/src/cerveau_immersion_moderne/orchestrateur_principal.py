@@ -23,7 +23,15 @@ from pathlib import Path
 from typing import Dict, List, Optional, Any
 
 # Ajouter le chemin vers les modules
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# Ajouter le répertoire racine du projet (2 niveaux au-dessus)
+racine_projet = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if racine_projet not in sys.path:
+    sys.path.insert(0, racine_projet)
+
+# Ajouter aussi le répertoire src
+chemin_src = os.path.join(racine_projet, 'src')
+if chemin_src not in sys.path:
+    sys.path.insert(0, chemin_src)
 
 # Imports des composants du cerveau (avec gestion d'erreurs gracieuse)
 try:
@@ -55,9 +63,33 @@ except ImportError:
             def __init__(self): pass
         
         class ScannerArchitectureModerne:
-            def __init__(self): pass
+            def __init__(self): 
+                self.racine_refuge = Path("src")
+            
             async def scanner_architecture_complete(self):
-                return {"temples": [{"nom": "temple_eveil", "type_energie": "transcendante", "fichiers": ["eveil.py"], "couleur": "#4A90E2", "elements_sacres": ["🌸", "✨"]}]}
+                """Scanner simplifié qui détecte les vrais temples du système de fichiers"""
+                temples_list = []
+                
+                # Scanner tous les dossiers temple_* dans src/
+                if self.racine_refuge.exists():
+                    for chemin_temple in self.racine_refuge.glob("temple_*"):
+                        if chemin_temple.is_dir():
+                            # Compter les fichiers Python
+                            fichiers = [f.name for f in chemin_temple.rglob("*.py")]
+                            
+                            temples_list.append({
+                                "nom": chemin_temple.name,
+                                "type_energie": "harmonieuse",
+                                "fichiers": fichiers,
+                                "couleur": "#4A90E2",
+                                "elements_sacres": ["🌸", "✨"]
+                            })
+                
+                # Si aucun temple trouvé, retourner au moins un temple de démo
+                if not temples_list:
+                    temples_list = [{"nom": "temple_eveil", "type_energie": "transcendante", "fichiers": ["eveil.py"], "couleur": "#4A90E2", "elements_sacres": ["🌸", "✨"]}]
+                
+                return {"temples": temples_list, "timestamp": datetime.now().isoformat()}
         
         class AnalyseurConnexionsEnergetiques:
             def __init__(self): pass

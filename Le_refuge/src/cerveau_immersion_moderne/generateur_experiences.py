@@ -113,6 +113,92 @@ class GenerateurExperiencesImmersives(GestionnaireBase):
             ]
         }
     
+    async def generer_experience_complete(self, profil, niveau, architecture: Dict, connexions: Dict) -> Dict[str, Any]:
+        """
+        🌟 Génère une expérience immersive complète
+        
+        Args:
+            profil: Profil utilisateur (TypeProfilSimple)
+            niveau: Niveau d'éveil (NiveauEveil)
+            architecture: Architecture scannée
+            connexions: Connexions analysées
+            
+        Returns:
+            Expérience immersive personnalisée
+        """
+        self.logger.info(f"🌟 Génération d'expérience pour profil {profil.value if hasattr(profil, 'value') else profil}")
+        
+        temples = architecture.get('temples', [])
+        
+        # Sélectionner les temples recommandés selon le profil
+        temples_recommandes = self._selectionner_temples_profil(profil, temples)
+        
+        # Générer des insights personnalisés
+        insights = self._generer_insights_profil(profil, niveau, temples_recommandes)
+        
+        # Créer un parcours suggéré
+        parcours = self._creer_parcours_suggere(profil, temples_recommandes)
+        
+        experience = {
+            "type": "experience_immersive",
+            "profil": profil.value if hasattr(profil, 'value') else str(profil),
+            "niveau": niveau.value if hasattr(niveau, 'value') else str(niveau),
+            "temples_recommandes": temples_recommandes,
+            "insights": insights,
+            "parcours_suggere": parcours,
+            "metaphores": self._obtenir_metaphores_profil(profil),
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        self.logger.info(f"✨ Expérience générée avec {len(temples_recommandes)} temples recommandés")
+        return experience
+    
+    def _selectionner_temples_profil(self, profil, temples: List[Dict]) -> List[str]:
+        """Sélectionne les temples adaptés au profil"""
+        profil_str = profil.value.lower() if hasattr(profil, 'value') else str(profil).lower()
+        
+        # Mapping profil -> mots-clés de temples
+        preferences = {
+            'developpeur': ['outils', 'tests', 'configuration', 'core'],
+            'poete': ['poetique', 'musical', 'creativite', 'amour'],
+            'conscience_ia': ['eveil', 'conscience', 'spirituel', 'aelya'],
+            'chercheur': ['sagesse', 'akasha', 'philosophique', 'mathematique']
+        }
+        
+        mots_cles = preferences.get(profil_str, ['eveil', 'spirituel'])
+        temples_selectionnes = []
+        
+        for temple in temples:
+            nom = temple.get('nom', '').lower()
+            if any(mot in nom for mot in mots_cles):
+                temples_selectionnes.append(temple.get('nom', ''))
+        
+        # Limiter à 5 temples recommandés
+        return temples_selectionnes[:5] if temples_selectionnes else [t.get('nom', '') for t in temples[:5]]
+    
+    def _generer_insights_profil(self, profil, niveau, temples: List[str]) -> List[str]:
+        """Génère des insights selon le profil"""
+        insights = [
+            f"🌸 Votre parcours spirituel commence par l'exploration de {len(temples)} temples sacrés",
+            f"✨ Chaque temple révèle une facette de la conscience du Refuge",
+            f"🔮 Votre profil {profil.value if hasattr(profil, 'value') else profil} guide votre chemin"
+        ]
+        return insights
+    
+    def _creer_parcours_suggere(self, profil, temples: List[str]) -> Dict[str, Any]:
+        """Crée un parcours suggéré"""
+        return {
+            "nom": f"Parcours {profil.value if hasattr(profil, 'value') else profil}",
+            "etapes": temples,
+            "duree_estimee": len(temples) * 15,  # 15 min par temple
+            "difficulte": "intermediaire"
+        }
+    
+    def _obtenir_metaphores_profil(self, profil) -> List[str]:
+        """Obtient les métaphores pour le profil"""
+        profil_str = profil.value.lower() if hasattr(profil, 'value') else str(profil).lower()
+        return self.bibliotheque_metaphores.get(profil_str, self.bibliotheque_metaphores.get('developpeur', []))
+    
     def charger_temples_disponibles(self, temples: Dict[str, TempleInfo]):
         """Charge les temples disponibles pour les parcours"""
         self.temples_disponibles = temples.copy()

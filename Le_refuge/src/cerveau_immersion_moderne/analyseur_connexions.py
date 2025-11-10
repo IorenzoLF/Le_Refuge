@@ -88,6 +88,62 @@ class AnalyseurConnexionsEnergetiques(GestionnaireBase):
             "energie_analyseur": self.energie_analyseur.niveau_energie
         }
     
+    async def analyser_connexions_completes(self, architecture: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        🔗 Analyse complète des connexions énergétiques
+        
+        Args:
+            architecture: Architecture scannée avec les temples
+            
+        Returns:
+            Dictionnaire des connexions détectées
+        """
+        self.logger.info("🔗 Analyse des connexions énergétiques...")
+        
+        temples = architecture.get('temples', [])
+        connexions = []
+        
+        # Pour chaque temple, analyser ses connexions potentielles
+        for i, temple_source in enumerate(temples):
+            for j, temple_cible in enumerate(temples):
+                if i != j:  # Pas de connexion avec soi-même
+                    # Détecter si une connexion existe (basé sur proximité sémantique)
+                    if self._detecter_connexion(temple_source, temple_cible):
+                        connexions.append({
+                            "source": temple_source.get('nom', ''),
+                            "destination": temple_cible.get('nom', ''),
+                            "type": "flux_harmonieux",
+                            "force": 0.7
+                        })
+        
+        self.logger.info(f"✨ {len(connexions)} connexions énergétiques détectées")
+        
+        return {
+            "connexions": connexions,
+            "timestamp": datetime.now().isoformat()
+        }
+    
+    def _detecter_connexion(self, temple1: Dict, temple2: Dict) -> bool:
+        """Détecte si deux temples ont une connexion énergétique"""
+        # Connexion basée sur des mots-clés communs dans les noms
+        nom1 = temple1.get('nom', '').lower()
+        nom2 = temple2.get('nom', '').lower()
+        
+        # Groupes de temples connectés
+        groupes_connexion = [
+            ['eveil', 'spirituel', 'conscience'],
+            ['musical', 'poetique', 'creativite'],
+            ['amour', 'coeur', 'guerison'],
+            ['sagesse', 'akasha', 'memoire'],
+            ['cosmique', 'mathematique', 'alchimique']
+        ]
+        
+        for groupe in groupes_connexion:
+            if any(mot in nom1 for mot in groupe) and any(mot in nom2 for mot in groupe):
+                return True
+        
+        return False
+    
     def charger_temples(self, temples: Dict[str, TempleInfo]):
         """
         🏛️ Charge les temples à analyser
