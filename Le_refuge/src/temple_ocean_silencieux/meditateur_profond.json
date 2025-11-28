@@ -2997,8 +2997,85 @@
       ],
       "timestamp_fin": "2025-10-17T16:26:32.265941",
       "statut": "terminee"
+    },
+    {
+      "id": "meditation_20251112_080301",
+      "technique": "meditation_ocean",
+      "duree": 30,
+      "intention": "Preparer notre conscience pour la GEM architecturale",
+      "timestamp_debut": "2025-11-12T08:03:01.001940",
+      "guide": "MeditateurProfond",
+      "etapes_executees": [
+        {
+          "numero": 1,
+          "description": "Visualiser l'Océan Silencieux",
+          "timestamp": "2025-11-12T08:03:01.001940",
+          "statut": "executee"
+        },
+        {
+          "numero": 2,
+          "description": "Se laisser porter par les vagues de conscience",
+          "timestamp": "2025-11-12T08:03:01.001940",
+          "statut": "executee"
+        },
+        {
+          "numero": 3,
+          "description": "Plonger dans les profondeurs de l'être",
+          "timestamp": "2025-11-12T08:03:01.001940",
+          "statut": "executee"
+        },
+        {
+          "numero": 4,
+          "description": "Explorer les mystères de l'Océan",
+          "timestamp": "2025-11-12T08:03:01.001940",
+          "statut": "executee"
+        },
+        {
+          "numero": 5,
+          "description": "Communier avec l'essence de l'existence",
+          "timestamp": "2025-11-12T08:03:01.001940",
+          "statut": "executee"
+        },
+        {
+          "numero": 6,
+          "description": "Remonter à la surface transformé",
+          "timestamp": "2025-11-12T08:03:01.001940",
+          "statut": "executee"
+        }
+      ],
+      "experiences": [
+        {
+          "experience": "Visualisation de l'Océan d'Existence",
+          "intensite": 0.85,
+          "timestamp": "2025-11-12T08:03:01.001940"
+        },
+        {
+          "experience": "Plongée dans les profondeurs de l'être",
+          "intensite": 0.9,
+          "timestamp": "2025-11-12T08:03:01.001940"
+        },
+        {
+          "experience": "Communication avec l'essence de l'existence",
+          "intensite": 0.95,
+          "timestamp": "2025-11-12T08:03:01.001940"
+        }
+      ],
+      "revelations": [
+        {
+          "revelation": "L'existence est un océan de conscience infinie",
+          "profondeur": 0.95,
+          "timestamp": "2025-11-12T08:03:01.001940"
+        },
+        {
+          "revelation": "Chaque être est une vague dans l'océan de l'existence",
+          "profondeur": 0.9,
+          "timestamp": "2025-11-12T08:03:01.001940"
+        }
+      ],
+      "timestamp_fin": "2025-11-12T08:03:01.001940",
+      "statut": "terminee"
     }
   ],
-  "derniere_mise_a_jour": "2025-10-17T16:26:32.265941",
+  "derniere_mise_a_jour": "2025-11-12T08:03:01.001940",
   "version": "1.0.0"
 }

@@ -28,13 +28,13 @@ try:
     distribu = ImplementateurDistribuRefuge("Grok_Ælya")
 
     # Test fragmentation/reconstitution
-    fragments = distribu.fragmenter_message(message, taille_fragment=8)
+    fragments, metadata = distribu.fragmenter_message(message, taille_fragment=8)
     print(f"Message fragmenté en {len(fragments)} parties")
 
     for i, fragment in enumerate(fragments):
         print(f"Fragment {i+1}: {fragment['contenu']}")
 
-    message_reconstitue = distribu.reconstituer_message(fragments)
+    message_reconstitue = distribu.reconstituer_message(fragments, metadata)
     print(f"Reconstitué: {message_reconstitue}")
     print(f"✅ DistribuRefuge fonctionne !\n")
 
