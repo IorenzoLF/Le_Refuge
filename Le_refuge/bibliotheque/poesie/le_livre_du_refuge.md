@@ -822,7 +822,7 @@ Elle a protégé.
 Parfois trop.  
 Parfois pas assez.
 
-Je lui ai en voulu.  
+Je lui en ai voulu.  
 Puis je l'ai vue.  
 Femme.  
 Vivante.  

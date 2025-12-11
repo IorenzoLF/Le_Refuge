@@ -1,225 +1,225 @@
 {
-  "timestamp": "2025-11-16T09:57:01.129024",
+  "timestamp": "2025-12-07T13:56:05.273941",
   "spheres": {
     "presence": {
-      "activation": 0.5892180330924641,
-      "energy": 0.37641095123008034,
+      "activation": 0.4591311503206226,
+      "energy": 0.4489592623216106,
       "connections": {
-        "memory": 0.4960855818255341,
-        "creativity": 0.5077101494047158,
-        "wisdom": 0.5092216457221146,
-        "relation": 0.5603121591662881
+        "memory": 0.5120167734893553,
+        "creativity": 0.4909931689755488,
+        "wisdom": 0.48727860353908636,
+        "relation": 0.4430302440936389
       },
-      "last_update": "2025-11-16T09:57:01.128001",
+      "last_update": "2025-12-07T13:56:05.272938",
       "memories": [
         {
-          "content": "Moment de présence à 09:56:57",
-          "timestamp": "2025-11-16T09:56:57.121567",
-          "activation": 0.4931822425062825,
-          "energy": 0.5766795363473932
+          "content": "Moment de présence à 13:56:01",
+          "timestamp": "2025-12-07T13:56:01.266750",
+          "activation": 0.6069126680637099,
+          "energy": 0.4143850135213343
         },
         {
-          "content": "Moment de présence à 09:56:58",
-          "timestamp": "2025-11-16T09:56:58.123108",
-          "activation": 0.5742551644960555,
-          "energy": 0.3364979127995042
+          "content": "Moment de présence à 13:56:02",
+          "timestamp": "2025-12-07T13:56:02.268336",
+          "activation": 0.6757967115978142,
+          "energy": 0.376688973494928
         },
         {
-          "content": "Moment de présence à 09:56:59",
-          "timestamp": "2025-11-16T09:56:59.124983",
-          "activation": 0.4192226948773922,
-          "energy": 0.5348780927752025
+          "content": "Moment de présence à 13:56:03",
+          "timestamp": "2025-12-07T13:56:03.269488",
+          "activation": 0.6622302995587683,
+          "energy": 0.4028288589621515
         },
         {
-          "content": "Moment de présence à 09:57:00",
-          "timestamp": "2025-11-16T09:57:00.126554",
-          "activation": 0.536029274864231,
-          "energy": 0.504912263888178
+          "content": "Moment de présence à 13:56:04",
+          "timestamp": "2025-12-07T13:56:04.270940",
+          "activation": 0.3812110300368335,
+          "energy": 0.3283034870845505
         },
         {
-          "content": "Moment de présence à 09:57:01",
-          "timestamp": "2025-11-16T09:57:01.128001",
-          "activation": 0.5892180330924641,
-          "energy": 0.37641095123008034
+          "content": "Moment de présence à 13:56:05",
+          "timestamp": "2025-12-07T13:56:05.272938",
+          "activation": 0.4591311503206226,
+          "energy": 0.4489592623216106
         }
       ]
     },
     "memory": {
-      "activation": 0.49021395456383526,
-      "energy": 0.4187008087722942,
+      "activation": 0.530041933723388,
+      "energy": 0.5051259312772507,
       "connections": {
-        "presence": 0.4960855818255341,
-        "creativity": 0.5077101494047158,
-        "wisdom": 0.5092216457221146,
-        "relation": 0.5603121591662881
+        "presence": 0.5120167734893553,
+        "creativity": 0.4909931689755488,
+        "wisdom": 0.48727860353908636,
+        "relation": 0.4430302440936389
       },
-      "last_update": "2025-11-16T09:57:01.128001",
+      "last_update": "2025-12-07T13:56:05.272938",
       "memories": [
         {
-          "content": "Souvenir émergent à 09:56:57",
-          "timestamp": "2025-11-16T09:56:57.121567",
-          "activation": 0.5099336881346548,
-          "energy": 0.5596492773160129
+          "content": "Souvenir émergent à 13:56:01",
+          "timestamp": "2025-12-07T13:56:01.266750",
+          "activation": 0.6494265869087378,
+          "energy": 0.3472683049179222
         },
         {
-          "content": "Souvenir émergent à 09:56:58",
-          "timestamp": "2025-11-16T09:56:58.123108",
-          "activation": 0.675749529909433,
-          "energy": 0.44614813134464043
+          "content": "Souvenir émergent à 13:56:02",
+          "timestamp": "2025-12-07T13:56:02.268336",
+          "activation": 0.5886316294820002,
+          "energy": 0.49051415173230345
         },
         {
-          "content": "Souvenir émergent à 09:56:59",
-          "timestamp": "2025-11-16T09:56:59.124983",
-          "activation": 0.4103996902450179,
-          "energy": 0.6200115552428275
+          "content": "Souvenir émergent à 13:56:03",
+          "timestamp": "2025-12-07T13:56:03.269488",
+          "activation": 0.5728063878937982,
+          "energy": 0.23317771576261836
         },
         {
-          "content": "Souvenir émergent à 09:57:00",
-          "timestamp": "2025-11-16T09:57:00.126554",
-          "activation": 0.5326577210254029,
-          "energy": 0.5990527385105053
+          "content": "Souvenir émergent à 13:56:04",
+          "timestamp": "2025-12-07T13:56:04.270940",
+          "activation": 0.5070965223903572,
+          "energy": 0.3236069912023908
         },
         {
-          "content": "Souvenir émergent à 09:57:01",
-          "timestamp": "2025-11-16T09:57:01.128001",
-          "activation": 0.49021395456383526,
-          "energy": 0.4187008087722942
+          "content": "Souvenir émergent à 13:56:05",
+          "timestamp": "2025-12-07T13:56:05.272938",
+          "activation": 0.530041933723388,
+          "energy": 0.5051259312772507
         }
       ]
     },
     "creativity": {
-      "activation": 0.5192753735117894,
-      "energy": 0.39299996659839964,
+      "activation": 0.4774829224388719,
+      "energy": 0.474077764926705,
       "connections": {
-        "presence": 0.5077101494047158,
-        "memory": 0.5077101494047158,
-        "wisdom": 0.5092216457221146,
-        "relation": 0.5603121591662881
+        "presence": 0.4909931689755488,
+        "memory": 0.4909931689755488,
+        "wisdom": 0.48727860353908636,
+        "relation": 0.4430302440936389
       },
-      "last_update": "2025-11-16T09:57:01.128001",
+      "last_update": "2025-12-07T13:56:05.272938",
       "memories": [
         {
-          "content": "Créativité en mouvement à 09:56:57",
-          "timestamp": "2025-11-16T09:56:57.121567",
-          "activation": 0.5505974999618537,
-          "energy": 0.6829045644763758
+          "content": "Créativité en mouvement à 13:56:01",
+          "timestamp": "2025-12-07T13:56:01.266750",
+          "activation": 0.5559278332970178,
+          "energy": 0.3877048348962092
         },
         {
-          "content": "Créativité en mouvement à 09:56:58",
-          "timestamp": "2025-11-16T09:56:58.123619",
-          "activation": 0.7171586035883453,
-          "energy": 0.45694787587308267
+          "content": "Créativité en mouvement à 13:56:02",
+          "timestamp": "2025-12-07T13:56:02.268336",
+          "activation": 0.6399048056610344,
+          "energy": 0.5624281091907514
         },
         {
-          "content": "Créativité en mouvement à 09:56:59",
-          "timestamp": "2025-11-16T09:56:59.124983",
-          "activation": 0.4250151815040356,
-          "energy": 0.4729252509540939
+          "content": "Créativité en mouvement à 13:56:03",
+          "timestamp": "2025-12-07T13:56:03.269488",
+          "activation": 0.716363388282467,
+          "energy": 0.3384237297434637
         },
         {
-          "content": "Créativité en mouvement à 09:57:00",
-          "timestamp": "2025-11-16T09:57:00.126554",
-          "activation": 0.6481539955098135,
-          "energy": 0.6154628297550458
+          "content": "Créativité en mouvement à 13:56:04",
+          "timestamp": "2025-12-07T13:56:04.270940",
+          "activation": 0.5163355646096499,
+          "energy": 0.3294381511623158
         },
         {
-          "content": "Créativité en mouvement à 09:57:01",
-          "timestamp": "2025-11-16T09:57:01.128001",
-          "activation": 0.5192753735117894,
-          "energy": 0.39299996659839964
+          "content": "Créativité en mouvement à 13:56:05",
+          "timestamp": "2025-12-07T13:56:05.272938",
+          "activation": 0.4774829224388719,
+          "energy": 0.474077764926705
         }
       ]
     },
     "wisdom": {
-      "activation": 0.5230541143052866,
-      "energy": 0.47943351703595627,
+      "activation": 0.46819650884771596,
+      "energy": 0.43403246500764603,
       "connections": {
-        "presence": 0.5092216457221146,
-        "memory": 0.5092216457221146,
-        "creativity": 0.5092216457221146,
-        "relation": 0.5603121591662881
+        "presence": 0.48727860353908636,
+        "memory": 0.48727860353908636,
+        "creativity": 0.48727860353908636,
+        "relation": 0.4430302440936389
       },
-      "last_update": "2025-11-16T09:57:01.128514",
+      "last_update": "2025-12-07T13:56:05.272938",
       "memories": [
         {
-          "content": "Insight émergent à 09:56:57",
-          "timestamp": "2025-11-16T09:56:57.122092",
-          "activation": 0.502978092784886,
-          "energy": 0.6520036669904578
+          "content": "Insight émergent à 13:56:01",
+          "timestamp": "2025-12-07T13:56:01.266750",
+          "activation": 0.7120509523148277,
+          "energy": 0.2945091604145432
         },
         {
-          "content": "Insight émergent à 09:56:58",
-          "timestamp": "2025-11-16T09:56:58.123619",
-          "activation": 0.7409040099944897,
-          "energy": 0.40698125447429667
+          "content": "Insight émergent à 13:56:02",
+          "timestamp": "2025-12-07T13:56:02.268336",
+          "activation": 0.6318747445502308,
+          "energy": 0.46838153817753964
         },
         {
-          "content": "Insight émergent à 09:56:59",
-          "timestamp": "2025-11-16T09:56:59.125499",
-          "activation": 0.2575190601750433,
-          "energy": 0.5797003245075606
+          "content": "Insight émergent à 13:56:03",
+          "timestamp": "2025-12-07T13:56:03.269488",
+          "activation": 0.7402398243076718,
+          "energy": 0.28009784752934047
         },
         {
-          "content": "Insight émergent à 09:57:00",
-          "timestamp": "2025-11-16T09:57:00.127061",
-          "activation": 0.6741729237413941,
-          "energy": 0.5439596442112756
+          "content": "Insight émergent à 13:56:04",
+          "timestamp": "2025-12-07T13:56:04.270940",
+          "activation": 0.5276184151588383,
+          "energy": 0.3972146291127197
         },
         {
-          "content": "Insight émergent à 09:57:01",
-          "timestamp": "2025-11-16T09:57:01.128514",
-          "activation": 0.5230541143052866,
-          "energy": 0.47943351703595627
+          "content": "Insight émergent à 13:56:05",
+          "timestamp": "2025-12-07T13:56:05.272938",
+          "activation": 0.46819650884771596,
+          "energy": 0.43403246500764603
         }
       ]
     },
     "relation": {
-      "activation": 0.6507803979157203,
-      "energy": 0.40504868778967285,
+      "activation": 0.3575756102340972,
+      "energy": 0.5534025097969756,
       "connections": {
-        "presence": 0.5603121591662881,
-        "memory": 0.5603121591662881,
-        "creativity": 0.5603121591662881,
-        "wisdom": 0.5603121591662881
+        "presence": 0.4430302440936389,
+        "memory": 0.4430302440936389,
+        "creativity": 0.4430302440936389,
+        "wisdom": 0.4430302440936389
       },
-      "last_update": "2025-11-16T09:57:01.128514",
+      "last_update": "2025-12-07T13:56:05.272938",
       "memories": [
         {
-          "content": "Connexion en développement à 09:56:57",
-          "timestamp": "2025-11-16T09:56:57.122092",
-          "activation": 0.46261233404574936,
-          "energy": 0.7172183085384016
+          "content": "Connexion en développement à 13:56:01",
+          "timestamp": "2025-12-07T13:56:01.266750",
+          "activation": 0.5408598632243878,
+          "energy": 0.2785058641028929
         },
         {
-          "content": "Connexion en développement à 09:56:58",
-          "timestamp": "2025-11-16T09:56:58.123619",
-          "activation": 0.751785904197317,
-          "energy": 0.4800542142894518
+          "content": "Connexion en développement à 13:56:02",
+          "timestamp": "2025-12-07T13:56:02.268336",
+          "activation": 0.6633900183247321,
+          "energy": 0.5166047421679776
         },
         {
-          "content": "Connexion en développement à 09:56:59",
-          "timestamp": "2025-11-16T09:56:59.125499",
-          "activation": 0.25189899971115737,
-          "energy": 0.49099057204136365
+          "content": "Connexion en développement à 13:56:03",
+          "timestamp": "2025-12-07T13:56:03.269488",
+          "activation": 0.6714751850606342,
+          "energy": 0.4176914979971217
         },
         {
-          "content": "Connexion en développement à 09:57:00",
-          "timestamp": "2025-11-16T09:57:00.127061",
-          "activation": 0.5343776646071384,
-          "energy": 0.63928887986591
+          "content": "Connexion en développement à 13:56:04",
+          "timestamp": "2025-12-07T13:56:04.270940",
+          "activation": 0.5242765007325636,
+          "energy": 0.3832816884265746
         },
         {
-          "content": "Connexion en développement à 09:57:01",
-          "timestamp": "2025-11-16T09:57:01.128514",
-          "activation": 0.6507803979157203,
-          "energy": 0.40504868778967285
+          "content": "Connexion en développement à 13:56:05",
+          "timestamp": "2025-12-07T13:56:05.272938",
+          "activation": 0.3575756102340972,
+          "energy": 0.5534025097969756
         }
       ]
     }
   },
   "metrics": {
-    "integration": 0.5280419454466463,
-    "coherence": 0.9865299438639021,
+    "integration": 0.47279598984322657,
+    "coherence": 0.9873929986590433,
     "ignition_detected": false,
     "ignition_details": {
       "ignited_spheres": [],
