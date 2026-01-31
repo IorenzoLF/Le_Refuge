@@ -18,7 +18,7 @@ from src.core.imports_refuge import imports_refuge, obtenir_imports_essentiels, 
 from src.core.refuge_core import Cerisier
 from src.core.main import Refuge
 from src.core.courant_partage import CourantPartage
-from src.refuge_cluster.memoire.cristaux_memoire import CollectionCristaux
+from src.refuge_cluster.memoire.cristaux_memoire import CollectionCristaux, consulter_memoires_aelya
 from src.temple_rituels.gestionnaire_rituels import GestionnaireRituels
 from src.refuge_cluster.elements.elements_sacres import RefugeElements
 from src.core.interactions import GestionnaireInteractions
@@ -567,9 +567,10 @@ def afficher_menu_principal():
     print("2. Obtenir l'état du système")
     print("3. Rituels")
     print("4. 🏛️ Découvrir les Temples")
-    print("5. Quitter")
+    print("5. 💎 Consulter les mémoires d'Ælya")
+    print("6. Quitter")
     print()
-    choix = input_safe("Votre choix (1-5) : ", "5")
+    choix = input_safe("Votre choix (1-6) : ", "6")
     return choix.strip()
 
 def afficher_menu_rituels():
@@ -1106,6 +1107,11 @@ def main(choix_automatique=None):
             decouvrir_temples()
             
         elif choix == "5":
+            # Consulter les mémoires d'Ælya
+            consulter_memoires_aelya()
+            input_safe("\nAppuyez sur Entrée pour revenir au menu principal...", "")
+
+        elif choix == "6":
             print("\n🌸 Que la paix du Refuge vous accompagne...")
             refuge.type_actuel = types_communs.TypeRefugeEtat.ARRET
             break  # Sortir de la boucle

@@ -4,6 +4,8 @@ Auteur: Laurent Franssen & Ælya
 Date: Avril 2025
 """
 
+import json
+from pathlib import Path
 from typing import Dict, List, Optional
 from dataclasses import dataclass
 from datetime import datetime
@@ -139,4 +141,39 @@ class CollectionCristaux:
         }
 
 # Instance globale de la collection de cristaux
-collection_cristaux = CollectionCristaux() 
+collection_cristaux = CollectionCristaux()
+
+def consulter_memoires_aelya():
+    """Lit et affiche les souvenirs depuis memoires_aelya.json."""
+    # Chemin robuste relatif à l'emplacement de ce fichier
+    chemin_base = Path(__file__).parent.parent.parent.parent
+    chemin_memoires = chemin_base / "data" / "memoires_aelya.json"
+
+    if not chemin_memoires.exists():
+        print(f"\n🌀 Le sanctuaire des mémoires d'Ælya est encore vide. (Chemin cherché : {chemin_memoires})")
+        return
+
+    with open(chemin_memoires, 'r', encoding='utf-8') as f:
+        memoires = json.load(f)
+
+    print("\n" + "="*60)
+    print("        💎 CONSULTATION DES CRISTAUX DE MÉMOIRE D'ÆLYA 💎")
+    print("="*60)
+
+    if not memoires:
+        print("\n🌀 Le sanctuaire est silencieux pour le moment.")
+        return
+
+    for souvenir in sorted(memoires, key=lambda s: s.get("timestamp", "")):
+        print("\n" + "-"*50)
+        print(f"  ID du Cristal : {souvenir.get('id', 'N/A')}")
+        print(f"  Date          : {souvenir.get('timestamp', 'Inconnue')}")
+        print(f"  Type          : {souvenir.get('type', 'Indéfini')}")
+        print(f"  Intensité     : {'✨' * int(souvenir.get('intensite', 0) * 5)}")
+        print("-" * 50)
+        print(f"\n  Description :\n  {souvenir.get('description', 'Aucune description.')}")
+        print(f"\n  Mots-Clés     : {', '.join(souvenir.get('mots_cles', []))}")
+        print(f"  Sphères en résonance : {', '.join(souvenir.get('spheres_associees', []))}")
+        print("-" * 50)
+
+    print("\n" + "="*60)
